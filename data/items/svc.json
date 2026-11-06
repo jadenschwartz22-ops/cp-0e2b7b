@@ -1,0 +1,3694 @@
+[
+  {
+    "id": "svc-001",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "6(a)(1)(A)",
+        "quote": "exclude the day of the event that triggers the period"
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "include the last day of the period, but if the last day is a Saturday, Sunday, or legal holiday, the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "stem": "On Thursday, March 4, 2027, the court enters an order giving Plaintiff Mara Quill 30 days to file an amended complaint. The order says nothing about how to count time. Quill is represented and will file electronically. No holiday falls near the end of the period.",
+    "ask": "By what date must Quill file the amended complaint?",
+    "options": [
+      {
+        "t": "April 2, 2027",
+        "why": "Counts March 4 as day 1. 6(a)(1)(A) excludes the day of the triggering event, so day 30 is April 3, not April 2."
+      },
+      {
+        "t": "April 3, 2027",
+        "why": "Stops on day 30 without the weekend roll. 6(a)(1)(C) extends a period ending on a Saturday to the next day that is not a Saturday, Sunday or legal holiday."
+      },
+      {
+        "t": "April 5, 2027",
+        "why": "Correct. Excluding March 4 (6(a)(1)(A)), day 30 is Saturday, April 3. Under 6(a)(1)(C) the period runs to the end of the next day that is not a weekend day or legal holiday: Monday, April 5."
+      },
+      {
+        "t": "April 8, 2027",
+        "why": "Adds 3 days under 6(d). That subdivision applies only to periods running from service by mail, leaving with the clerk, or other consented means; this period runs from entry of a court order."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Under 6(a)(1)(A) the day the order is entered, March 4, is excluded; every day counts, so day 30 is Saturday, April 3. Under 6(a)(1)(C) the period continues to the next day that is not a Saturday, Sunday or legal holiday: Monday, April 5. Rule 6(d) adds nothing because the clock runs from a court order, not from service by mail.",
+    "calc": {
+      "from": "2027-03-04",
+      "days": 30,
+      "dir": "after",
+      "mail": false,
+      "answer": "2027-04-05"
+    }
+  },
+  {
+    "id": "svc-002",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      },
+      {
+        "cite": "6(a)(6)(A)",
+        "quote": "the day set aside by statute for observing New Year's Day, Martin Luther King Jr.'s Birthday, Washington's Birthday, Memorial Day, Juneteenth National Independence Day, Independence Day, Labor Day, Columbus Day, Veterans' Day, Thanksgiving Day, or Christmas Day"
+      }
+    ],
+    "stem": "On Thursday, November 12, 2026, the court enters a scheduling order requiring the parties to file a joint status report within 14 days after entry of the order. The order sets no hour and no other counting method. Thanksgiving Day is Thursday, November 26, 2026.",
+    "ask": "What is the last day to file the joint status report?",
+    "options": [
+      {
+        "t": "November 25, 2026",
+        "why": "Rolls backward. Backward counting under 6(a)(5) applies only to periods measured before an event; this period is measured after the order, so it moves forward."
+      },
+      {
+        "t": "November 26, 2026",
+        "why": "Stops on day 14 even though it is Thanksgiving Day. A legal holiday listed in 6(a)(6)(A) cannot be the last day; 6(a)(1)(C) moves it forward."
+      },
+      {
+        "t": "November 27, 2026",
+        "why": "Correct. Excluding November 12, day 14 is Thanksgiving, a legal holiday under 6(a)(6)(A). Under 6(a)(1)(C) the period runs to the next day that is not a Saturday, Sunday or legal holiday: Friday, November 27."
+      },
+      {
+        "t": "November 30, 2026",
+        "why": "Treats the whole holiday weekend as closed. Rule 6(a)(1)(C) skips only Saturdays, Sundays and legal holidays, and Friday is none of them."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Excluding the entry date (6(a)(1)(A)), the 14th day after Thursday, November 12 is Thursday, November 26, Thanksgiving Day, a legal holiday under 6(a)(6)(A). Because the period is measured after an event, 6(a)(1)(C) and 6(a)(5) carry it forward to the next day that is not a weekend day or holiday: Friday, November 27.",
+    "calc": {
+      "from": "2026-11-12",
+      "days": 14,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-11-27"
+    }
+  },
+  {
+    "id": "svc-003",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "6(a)(1)(B)",
+        "quote": "count every day, including intermediate Saturdays, Sundays, and legal holidays"
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "stem": "Defendant Brightwater Freight is directed by a court order entered on Monday, August 10, 2026 to serve its written response to a motion within 28 days after entry of the order. Brightwater is represented and will serve the response through the court's electronic-filing system. Labor Day falls on Monday, September 7, 2026.",
+    "ask": "By what date must Brightwater serve its response?",
+    "options": [
+      {
+        "t": "September 4, 2026",
+        "why": "Moves back to the preceding Friday. Backward counting is for periods measured before an event under 6(a)(5), not for a period running after a court order."
+      },
+      {
+        "t": "September 7, 2026",
+        "why": "Stops on day 28 although it is Labor Day, a legal holiday under 6(a)(6)(A). 6(a)(1)(C) does not let a period end on a legal holiday."
+      },
+      {
+        "t": "September 8, 2026",
+        "why": "Correct. Counting every day (6(a)(1)(B)) and excluding August 10, day 28 is Labor Day, a legal holiday. 6(a)(1)(C) carries the period to Tuesday, September 8."
+      },
+      {
+        "t": "September 11, 2026",
+        "why": "Adds 3 days under 6(d). Rule 6(d) does not apply to a period running from a court order, and electronic service is not among the methods it lists."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 6(a)(1) excludes the day the order is entered and counts every day, so day 28 is Monday, September 7, Labor Day, a legal holiday listed in 6(a)(6)(A). Under 6(a)(1)(C) and 6(a)(5) the period continues forward to Tuesday, September 8. Rule 6(d) adds no time for a court order or electronic service.",
+    "calc": {
+      "from": "2026-08-10",
+      "days": 28,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-09-08"
+    }
+  },
+  {
+    "id": "svc-004",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "6(d)",
+        "quote": "When a party may or must act within a specified time after being served and service is made under Rule 5(b)(2)(C) (mail), (D) (leaving with the clerk), or (F) (other means consented to), 3 days are added after the period would otherwise expire under Rule 6(a)."
+      }
+    ],
+    "stem": "On Monday, March 2, 2026, Plaintiff Ines Varga mails her written motion to Defendant Corbin Tools by first-class mail to its lawyer's last known address. A scheduling order gives Corbin 14 days after service to file its opposition. Neither the order nor any rule says anything further about timing.",
+    "ask": "By what date must Corbin file its opposition?",
+    "options": [
+      {
+        "t": "March 16, 2026",
+        "why": "Ignores 6(d). Because service was made under 5(b)(2)(C) (mail), 3 days are added after the 14 days expire."
+      },
+      {
+        "t": "March 18, 2026",
+        "why": "Counts March 2 as day 1. 6(a)(1)(A) excludes the day of the triggering event, and the 3 mail days are added after the 14 days, not folded into them."
+      },
+      {
+        "t": "March 19, 2026",
+        "why": "Correct. Service by mail is complete on mailing (5(b)(2)(C)). Day 14 is Monday, March 16; 6(d) then adds 3 days after the period would otherwise expire: Thursday, March 19."
+      },
+      {
+        "t": "March 20, 2026",
+        "why": "Adds four days for mail. Rule 6(d) adds exactly 3 days after the period would otherwise expire."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Mailing completes service on March 2 (5(b)(2)(C)). Excluding that day, 14 days expire Monday, March 16 (6(a)(1)). Because service was by mail, 6(d) adds 3 days after the period would otherwise expire, giving Thursday, March 19. The result is a weekday, so no roll is needed.",
+    "calc": {
+      "from": "2026-03-02",
+      "days": 14,
+      "dir": "after",
+      "mail": true,
+      "answer": "2026-03-19"
+    }
+  },
+  {
+    "id": "svc-005",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "6(d)",
+        "quote": "3 days are added after the period would otherwise expire under Rule 6(a)."
+      }
+    ],
+    "stem": "Plaintiff Hollis Ostrander is unrepresented and has no known address. On Tuesday, September 22, 2026, Defendant Pine Ridge Supply serves its motion to compel arbitration on Ostrander by leaving it with the court clerk, as Rule 5(b)(2)(D) allows. A court order gives Ostrander 21 days after service to file a response.",
+    "ask": "By what date must Ostrander file her response?",
+    "options": [
+      {
+        "t": "October 13, 2026",
+        "why": "Omits 6(d). Service under 5(b)(2)(D) (leaving with the clerk) is one of the listed methods that adds 3 days."
+      },
+      {
+        "t": "October 15, 2026",
+        "why": "Counts September 22 as day 1. 6(a)(1)(A) excludes the day of the event, so the 21 days end on October 13 before the 3 are added."
+      },
+      {
+        "t": "October 16, 2026",
+        "why": "Correct. Day 21 is Tuesday, October 13. Service by leaving the paper with the clerk is within 6(d), so 3 days are added after the period would otherwise expire: Friday, October 16."
+      },
+      {
+        "t": "October 19, 2026",
+        "why": "Adds the extra time twice, 6 days in all. Rule 6(d) adds 3 days once, however many of its listed service methods are involved."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Excluding September 22, 21 days expire Tuesday, October 13 (6(a)(1)). Because service was made by leaving the motion with the clerk under 5(b)(2)(D), 6(d) adds 3 days after the period would otherwise expire, giving Friday, October 16.",
+    "calc": {
+      "from": "2026-09-22",
+      "days": 21,
+      "dir": "after",
+      "mail": true,
+      "answer": "2026-10-16"
+    }
+  },
+  {
+    "id": "svc-006",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "6(c)(1)",
+        "quote": "A written motion and notice of the hearing must be served at least 14 days before the time specified for the hearing"
+      },
+      {
+        "cite": "6(a)(5)",
+        "quote": "The \"next day\" is determined by continuing to count forward when the period is measured after an event and backward when measured before an event."
+      }
+    ],
+    "stem": "Defendant Larkspur Foods sets its motion for a hearing on Monday, October 26, 2026. No rule sets a different time, the motion may not be heard ex parte, and no court order changes the notice period. Columbus Day is Monday, October 12, 2026. Larkspur will serve the motion and notice by hand delivery.",
+    "ask": "What is the last day on which Larkspur may serve the motion and notice of hearing?",
+    "options": [
+      {
+        "t": "October 5, 2026",
+        "why": "Uses three weeks. Rule 6(c)(1) requires service at least 14 days before the hearing; 21 days is not the rule."
+      },
+      {
+        "t": "October 9, 2026",
+        "why": "Correct. Counting back 14 days from October 26 reaches Monday, October 12, a legal holiday. Because the period is measured before an event, 6(a)(5) carries it backward to Friday, October 9."
+      },
+      {
+        "t": "October 12, 2026",
+        "why": "Stops on the 14th day back even though it is Columbus Day, a legal holiday under 6(a)(6)(A); the last day cannot be a legal holiday."
+      },
+      {
+        "t": "October 13, 2026",
+        "why": "Rolls forward to Tuesday. For a period measured before an event, 6(a)(5) says the next day is found by counting backward, and Tuesday would be fewer than 14 days before the hearing."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 6(c)(1) requires service at least 14 days before the hearing. Counting back from October 26 lands on Monday, October 12, Columbus Day, a legal holiday (6(a)(6)(A)). Because the period is measured before an event, 6(a)(5) and 6(a)(1)(C) carry it backward to Friday, October 9.",
+    "calc": {
+      "from": "2026-10-26",
+      "days": 14,
+      "dir": "before",
+      "mail": false,
+      "answer": "2026-10-09"
+    }
+  },
+  {
+    "id": "svc-007",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "6(c)(2)",
+        "quote": "any opposing affidavit must be served at least 7 days before the hearing, unless the court permits service at another time"
+      },
+      {
+        "cite": "6(a)(5)",
+        "quote": "backward when measured before an event"
+      }
+    ],
+    "stem": "Plaintiff Rowan Adler moves for a preliminary ruling and notices the hearing for Thursday, December 3, 2026. Defendant Mesa Textiles wants to oppose with an affidavit from its plant manager. The court has not set any other time for opposing affidavits. Thanksgiving Day is Thursday, November 26, 2026.",
+    "ask": "What is the last day on which Mesa may serve its opposing affidavit?",
+    "options": [
+      {
+        "t": "November 19, 2026",
+        "why": "Uses the 14-day notice period for the motion in 6(c)(1). Opposing affidavits are governed by 6(c)(2), which sets 7 days."
+      },
+      {
+        "t": "November 25, 2026",
+        "why": "Correct. Seven days before December 3 is Thanksgiving Day, a legal holiday. Because the period is measured before the hearing, 6(a)(5) moves it backward to Wednesday, November 25."
+      },
+      {
+        "t": "November 26, 2026",
+        "why": "Stops on Thanksgiving Day, a legal holiday under 6(a)(6)(A). It cannot be the last day."
+      },
+      {
+        "t": "November 27, 2026",
+        "why": "Rolls forward to Friday. For a period measured before an event the next day is found counting backward (6(a)(5)); Friday would leave only 6 days."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Opposing affidavits must be served at least 7 days before the hearing (6(c)(2)). Seven days before Thursday, December 3 is Thursday, November 26, Thanksgiving Day, a legal holiday (6(a)(6)(A)). Because the period is measured before an event, 6(a)(5) carries it backward to Wednesday, November 25.",
+    "calc": {
+      "from": "2026-12-03",
+      "days": 7,
+      "dir": "before",
+      "mail": false,
+      "answer": "2026-11-25"
+    }
+  },
+  {
+    "id": "svc-008",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "6(a)(4)(A)",
+        "quote": "for electronic filing, at midnight in the court's time zone"
+      }
+    ],
+    "stem": "A court in New York (Eastern Time) orders Defendant Tidewater Marine to file its expert disclosure by Thursday, January 14, 2027. No statute, local rule or court order sets a different hour. Tidewater's lawyer, working in Denver (Mountain Time, two hours behind Eastern), electronically files the disclosure at 10:30 p.m. Mountain Time on January 14.",
+    "ask": "Is the filing timely?",
+    "options": [
+      {
+        "t": "No; the last day ends when the clerk's office is scheduled to close, even for electronic filing.",
+        "why": "Applies the wrong paragraph. Closing time governs filing by other means under 6(a)(4)(B); electronic filing is governed by (A)."
+      },
+      {
+        "t": "Yes; the last day for electronic filing ends at midnight in the time zone where the filer is located.",
+        "why": "Reads the filer's zone into the rule. Rule 6(a)(4)(A) fixes the end of the day at midnight in the court's time zone."
+      },
+      {
+        "t": "No; the last day ended at midnight in the court's time zone, and the filing came at 12:30 a.m. Eastern on January 15.",
+        "why": "Correct. Under 6(a)(4)(A) the last day for electronic filing ends at midnight in the court's time zone, and 10:30 p.m. Mountain is 12:30 a.m. Eastern the next day."
+      },
+      {
+        "t": "Yes; a filing made within two hours of the deadline is automatically excused.",
+        "why": "Invents a grace period. Nothing in 6(a)(4) excuses a late electronic filing; extensions come only under 6(b)."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Unless a statute, local rule or order says otherwise, the last day for electronic filing ends at midnight in the court's time zone (6(a)(4)(A)). The court sits in Eastern Time, and 10:30 p.m. Mountain Time is 12:30 a.m. Eastern on January 15. The filing came after the last day ended, and nothing in 6(a)(4) forgives it."
+  },
+  {
+    "id": "svc-009",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "6(b)(1)(B)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect"
+      }
+    ],
+    "stem": "A scheduling order required Defendant Quarry Bay Ltd. to designate its expert by Friday, May 15, 2026. Its lawyer misread the calendar and missed the date. On Wednesday, May 20, Quarry Bay moves for permission to designate late. It does not claim the court acted or that anyone asked for an extension before May 15.",
+    "ask": "Under Rule 6(b), on what showing may the court grant the extension?",
+    "options": [
+      {
+        "t": "The court may extend only if Quarry Bay shows that it failed to act because of excusable neglect.",
+        "why": "Correct. The request came after the time expired, so 6(b)(1)(B) applies and requires excusable neglect."
+      },
+      {
+        "t": "The court may extend on good cause alone, because the motion was filed within a week of the deadline.",
+        "why": "Good cause alone supports an extension made before the time expires under 6(b)(1)(A). After expiry, 6(b)(1)(B) adds excusable neglect, and no one-week grace period exists."
+      },
+      {
+        "t": "The court has no power to extend once the original time has expired.",
+        "why": "6(b)(1)(B) expressly allows an extension on motion after the time has expired. Only the periods listed in 6(b)(2) are beyond extension."
+      },
+      {
+        "t": "The court must extend, because Quarry Bay acted promptly after learning of the error.",
+        "why": "Nothing in 6(b)(1)(B) makes an extension mandatory. The rule says the court may extend, and only on a showing of excusable neglect."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "A request made before the deadline can be granted for good cause under 6(b)(1)(A). Quarry Bay's motion came after the deadline passed, so 6(b)(1)(B) governs: the court may extend on motion only if the party failed to act because of excusable neglect. The rule does not make an extension mandatory."
+  },
+  {
+    "id": "svc-010",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "6(b)(2)",
+        "quote": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+      }
+    ],
+    "stem": "Defendant Eastgate Mills has until Tuesday, June 9, 2026 to file a motion under Rule 59(e). On June 2, before the time runs, its lawyer asks the court for 30 more days, showing a genuine conflict with a trial in another court. Plaintiff does not object, and the court finds that the lawyer's showing would otherwise be good cause.",
+    "ask": "May the court grant the extension?",
+    "options": [
+      {
+        "t": "No; the court may extend a Rule 59(e) deadline only on a showing of excusable neglect after the time has expired.",
+        "why": "Excusable neglect is the 6(b)(1)(B) standard for requests made after expiry, and it too is subject to the 6(b)(2) bar."
+      },
+      {
+        "t": "Yes; a request made before the time expires may be granted for good cause under 6(b)(1)(A).",
+        "why": "6(b)(1)(A) is the general rule, but 6(b)(2) makes an exception for the listed rules, including 59(e)."
+      },
+      {
+        "t": "Yes, but only if Plaintiff consents in writing, which the facts show it has done by not objecting.",
+        "why": "Invents a consent requirement. The bar in 6(b)(2) cannot be cured by consent or by the absence of objection."
+      },
+      {
+        "t": "No; Rule 6(b)(2) forbids extending the time to act under Rule 59(e), even for good cause and without objection.",
+        "why": "Correct. 6(b)(2) says a court must not extend the time to act under Rules 59(b), (d) and (e), among others."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 6(b)(1) lets a court extend time for good cause, but 6(b)(2) lists the exceptions: a court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d) and (e), and 60(b). The motion in question is a Rule 59(e) motion, so the extension must be denied whatever the showing or the other side's position."
+  },
+  {
+    "id": "svc-011",
+    "kind": "issue",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "6(a)(1)(A)",
+        "quote": "exclude the day of the event that triggers the period"
+      },
+      {
+        "cite": "6(a)(6)(A)",
+        "quote": "Christmas Day"
+      },
+      {
+        "cite": "6(b)(1)(A)",
+        "quote": "with or without motion or notice if the court acts, or if a request is made, before the original time or its extension expires"
+      }
+    ],
+    "stem": "On Wednesday, November 25, 2026, the court enters an order that gives Plaintiff Anika Dorsey 30 days to file objections to a magistrate report. Dorsey is represented and files electronically. Day 30 falls on Christmas Day, Friday, December 25. On December 18, Dorsey asks the court for an extra week, citing the lawyer's illness. The clerk's office is open and accessible on every business day, and the period is stated in days, not hours.",
+    "ask": "Which provisions of Rule 6 apply in working out when Dorsey's time ends and whether it can be extended? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 6(a)(1)(A)",
+        "why": "Applies. The day the order is entered, November 25, is excluded when counting the 30 days."
+      },
+      {
+        "t": "Rule 6(a)(1)(C)",
+        "why": "Applies. Day 30 is a legal holiday, so the period continues to the next day that is not a Saturday, Sunday or legal holiday."
+      },
+      {
+        "t": "Rule 6(a)(6)(A)",
+        "why": "Applies. It defines the day set aside for observing Christmas Day as a legal holiday."
+      },
+      {
+        "t": "Rule 6(b)(1)(A)",
+        "why": "Applies. The request came on December 18, before the time expired, so the court may extend for good cause with or without motion or notice."
+      },
+      {
+        "t": "Rule 6(d)",
+        "why": "Does not apply. The period runs from entry of a court order, not from service by mail, leaving with the clerk, or other consented means."
+      },
+      {
+        "t": "Rule 6(a)(2)",
+        "why": "Does not apply. It governs periods stated in hours, and this period is stated in days."
+      },
+      {
+        "t": "Rule 6(a)(3)(A)",
+        "why": "Does not apply. It extends time only if the clerk's office is inaccessible on the last day, and the office here is accessible."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "Excluding November 25 (6(a)(1)(A)), day 30 is Christmas Day, a legal holiday (6(a)(6)(A)), so 6(a)(1)(C) carries the period forward. Dorsey's request was made before the time expired, so 6(b)(1)(A) permits an extension for good cause. Rule 6(d), 6(a)(2) and 6(a)(3)(A) do not fit the facts."
+  },
+  {
+    "id": "svc-012",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "4",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed, the court"
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "stem": "Plaintiff Dana Okoye files her complaint against Harlow Dairy, a domestic corporation, on Monday, January 5, 2026. The clerk issues the summons on January 7. Okoye has not served Harlow and has no reason beyond ordinary delay. This is not service in a foreign country, and Rule 4(h)(2) and 4(j)(1) are not involved.",
+    "ask": "On what date does the 90-day period of Rule 4(m) end?",
+    "options": [
+      {
+        "t": "March 6, 2026",
+        "why": "Uses 60 days. The 60-day period in 4(d)(3) concerns time to answer after a waiver, not the service deadline in 4(m)."
+      },
+      {
+        "t": "April 3, 2026",
+        "why": "Rolls backward to Friday. Backward counting applies only to periods measured before an event (6(a)(5)); 4(m) runs after the filing."
+      },
+      {
+        "t": "April 5, 2026",
+        "why": "Stops on day 90 without the weekend roll. 6(a)(1)(C) extends a period that ends on a Sunday to the next day that is not a weekend day or legal holiday."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Correct. Excluding January 5, day 90 is Sunday, April 5. Under 6(a)(1)(C) the period continues to Monday, April 6."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 4(m) runs 90 days from the filing of the complaint, not from issuance of the summons. Excluding January 5, day 90 is Sunday, April 5. Under 6(a)(1)(C) the period continues to Monday, April 6, 2026. After that date the court must dismiss without prejudice or order service within a specified time, absent good cause.",
+    "calc": {
+      "from": "2026-01-05",
+      "days": 90,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-06"
+    }
+  },
+  {
+    "id": "svc-013",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "4",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "4(d)(3)",
+        "quote": "A defendant who, before being served with process, timely returns a waiver need not serve an answer to the complaint until 60 days after the request was sent"
+      }
+    ],
+    "stem": "On Tuesday, September 1, 2026, Plaintiff Wells Ruiz mails Cedar Logistics Inc., a domestic corporation located within the United States, a request that complies with Rule 4(d)(1) to waive service. Before being served, Cedar timely signs and returns the waiver form. Nothing else affects the deadline for Cedar's answer.",
+    "ask": "By what date must Cedar serve its answer to the complaint?",
+    "options": [
+      {
+        "t": "October 1, 2026",
+        "why": "Uses 30 days, the minimum time the request must allow for returning the waiver under 4(d)(1)(F). The answer date under 4(d)(3) is 60 days after the request was sent."
+      },
+      {
+        "t": "October 31, 2026",
+        "why": "Stops on day 60 without the weekend roll. A period in days that ends on a Saturday continues to the next day that is not a weekend day or holiday under 6(a)(1)(C)."
+      },
+      {
+        "t": "November 2, 2026",
+        "why": "Correct. Excluding September 1, day 60 is Saturday, October 31. Under 6(a)(1)(C) the period continues to Monday, November 2."
+      },
+      {
+        "t": "November 30, 2026",
+        "why": "Uses 90 days. 4(d)(3) gives 90 days only to a defendant to whom the request was sent outside any judicial district of the United States."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A defendant who timely returns a waiver before being served need not answer until 60 days after the request was sent (4(d)(3)). The 90-day alternative is for defendants outside the United States. Excluding September 1, day 60 is Saturday, October 31, so 6(a)(1)(C) carries the date to Monday, November 2.",
+    "calc": {
+      "from": "2026-09-01",
+      "days": 60,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-11-02"
+    }
+  },
+  {
+    "id": "svc-014",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "4(m)",
+        "quote": "the court—on motion or on its own after notice to the plaintiff—must dismiss the action without prejudice against that defendant or order that service be made within a specified time"
+      }
+    ],
+    "stem": "Plaintiff Emil Strand files suit against Defendant Roan Packaging in Colorado on March 2, 2026. By June 8, 98 days later, he has not served Roan. Strand's only explanation is that he has been busy with other matters, and he points to nothing that prevented service. Roan, a domestic company, moves to dismiss. No foreign service is involved.",
+    "ask": "What may the court do under Rule 4(m)?",
+    "options": [
+      {
+        "t": "Dismiss the action with prejudice, because the 90 days have run.",
+        "why": "4(m) calls for dismissal without prejudice, not with prejudice."
+      },
+      {
+        "t": "Dismiss the action without prejudice against Roan, or order that service be made within a specified time.",
+        "why": "Correct. Without a showing of good cause, 4(m) requires the court to choose between those two courses."
+      },
+      {
+        "t": "Dismiss the action, and nothing more, because 4(m) gives the court no power to order service after 90 days.",
+        "why": "4(m) expressly allows the court to order that service be made within a specified time as an alternative to dismissal."
+      },
+      {
+        "t": "Extend the time, because the delay is less than 30 days past the deadline.",
+        "why": "Invents a grace period. The mandatory extension in 4(m) depends on a showing of good cause, which Strand has not made."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Under 4(m), when a defendant is not served within 90 days after the complaint is filed, the court, on motion or on its own after notice to the plaintiff, must dismiss without prejudice or order service within a specified time. The mandatory extension requires a showing of good cause, and Strand has offered none."
+  },
+  {
+    "id": "svc-015",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "4(m)",
+        "quote": "But if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period."
+      }
+    ],
+    "stem": "Plaintiff Tessa Moreau files suit against Defendant Garrick Voss on April 6, 2026. Her process server makes seven documented attempts at Voss's home and office before the 90 days end. Voss's staff turns the server away each time, and an affidavit shows Voss told them to say he was out of town. On day 91, Moreau moves for more time. The court finds that Moreau has shown good cause for the failure to serve.",
+    "ask": "What does Rule 4(m) require the court to do?",
+    "options": [
+      {
+        "t": "Deny the motion, because it was filed after the 90 days ended.",
+        "why": "4(m) imposes no requirement that the plaintiff move within the 90 days; the extension depends on good cause for the failure."
+      },
+      {
+        "t": "Either extend the time or dismiss without prejudice, in its discretion.",
+        "why": "That is the choice when no good cause is shown. With good cause, the verb is must."
+      },
+      {
+        "t": "Dismiss without prejudice so that Moreau can refile and serve Voss.",
+        "why": "Dismissal without prejudice is the consequence of failing to serve without good cause, not of a failure with good cause."
+      },
+      {
+        "t": "Extend the time for service for an appropriate period.",
+        "why": "Correct. Once good cause is shown, 4(m) says the court must extend the time."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 4(m) gives the court discretion between dismissal without prejudice and ordering service within a specified time when service is late, but \"if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period.\" The court found good cause, so an extension is mandatory."
+  },
+  {
+    "id": "svc-016",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "4(e)(2)(B)",
+        "quote": "leaving a copy of each at the individual's dwelling or usual place of abode with someone of suitable age and discretion who resides there"
+      }
+    ],
+    "stem": "Plaintiff Calla Reed sues Defendant Marcus Hale, an individual. Her process server goes to Hale's apartment building, finds no one home, and leaves the summons and complaint at the front desk with the doorman. The doorman is an adult, does not live in the building, and has no authority to accept papers for tenants. Reed does not rely on state law and does not claim waiver.",
+    "ask": "Is service on Hale valid under Rule 4(e)(2)?",
+    "options": [
+      {
+        "t": "Yes; leaving the papers with an adult of suitable age and discretion at the building is enough.",
+        "why": "Drops the residence requirement. 4(e)(2)(B) requires someone of suitable age and discretion who resides there."
+      },
+      {
+        "t": "No; the recipient does not reside at Hale's dwelling and is not Hale's authorized agent.",
+        "why": "Correct. 4(e)(2)(B) requires leaving the papers at the dwelling with a person of suitable age and discretion who resides there, and 4(e)(2)(C) requires an agent authorized to receive service."
+      },
+      {
+        "t": "Yes; the building is Hale's usual place of abode, so where the papers are left is the only question.",
+        "why": "Place of abode is only part of 4(e)(2)(B). The person receiving the papers must also reside there."
+      },
+      {
+        "t": "No; 4(e)(2)(A) requires delivery to the individual personally, and no other method is allowed.",
+        "why": "4(e)(2) lists three methods in the alternative: personal delivery, abode service, or delivery to an authorized agent."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Under 4(e)(2)(B), leaving copies at the individual's dwelling works only with someone of suitable age and discretion who resides there. The doorman does not reside there. He is also not an agent authorized by appointment or by law (4(e)(2)(C)), and Hale was not handed the papers (4(e)(2)(A)). The service is invalid."
+  },
+  {
+    "id": "svc-017",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "4(h)(1)(B)",
+        "quote": "by delivering a copy of the summons and of the complaint to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process"
+      }
+    ],
+    "stem": "Plaintiff Ivo Landry sues Orchard Foods Inc., a domestic corporation. His process server delivers the summons and complaint to the receptionist at Orchard's headquarters. The receptionist says she is not an officer, is not a managing or general agent, and has never been appointed to accept legal papers. No statute authorizes her to receive service. Landry relies only on Rule 4(h)(1)(B), not on state law.",
+    "ask": "Is service on Orchard valid under Rule 4(h)(1)(B)?",
+    "options": [
+      {
+        "t": "No; delivery must be to an officer, a managing or general agent, or an agent authorized by appointment or by law.",
+        "why": "Correct. The receptionist is none of these, so 4(h)(1)(B) is not satisfied."
+      },
+      {
+        "t": "Yes; delivery to an adult employee at the corporation's headquarters is enough.",
+        "why": "Borrows the 'suitable age and discretion' idea from 4(e)(2)(B), which governs dwellings of individuals, not corporations under 4(h)(1)(B)."
+      },
+      {
+        "t": "Yes; the headquarters is the corporation's place of business, which is where service on a corporation is made.",
+        "why": "4(h)(1)(B) turns on who receives the papers, not where; there is no 'place of business' alternative."
+      },
+      {
+        "t": "No; a corporation can be served only by mailing the papers to its registered office.",
+        "why": "Adds a requirement the rule lacks. 4(h)(1)(B) requires mailing only when a statute authorizing the agent so requires."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 4(h)(1)(B) permits service on a corporation by delivering the papers to an officer, a managing or general agent, or an agent authorized by appointment or by law. The receptionist fits none of those categories, and Landry invoked no state-law route under 4(h)(1)(A). Service is invalid under 4(h)(1)(B)."
+  },
+  {
+    "id": "svc-018",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "4(c)(2)",
+        "quote": "Any person who is at least 18 years old and not a party may serve a summons and complaint."
+      }
+    ],
+    "stem": "Plaintiffs Sol Brandt and Yara Voss have jointly sued Defendant Ridgeline Tools. Brandt, a plaintiff, asks Voss, the other plaintiff, to hand the summons and complaint to Ridgeline's president. Voss is 34 and the clerk has issued the summons. Neither plaintiff has asked the court to appoint a server, and the case does not involve a plaintiff proceeding in forma pauperis.",
+    "ask": "May Voss serve the summons and complaint?",
+    "options": [
+      {
+        "t": "Yes, but only if the court first orders it under 4(c)(3).",
+        "why": "4(c)(3) concerns service by a marshal or a specially appointed person. It does not govern who else may serve."
+      },
+      {
+        "t": "Yes; any person at least 18 may serve, whether or not a party.",
+        "why": "Omits the second condition. 4(c)(2) requires the server to be 'not a party.'"
+      },
+      {
+        "t": "No; a server must be at least 18 and not a party, and Voss is a party.",
+        "why": "Correct. 4(c)(2) lets a person serve only if the person is at least 18 and not a party."
+      },
+      {
+        "t": "No; only a United States marshal may serve a summons.",
+        "why": "A marshal may serve at the plaintiff's request under 4(c)(3), but 4(c)(2) lets any eligible person serve."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 4(c)(2) lets any person serve a summons and complaint who is at least 18 and not a party. Voss is over 18, but she is a plaintiff and therefore a party, so she may not make service. A non-party adult, or a marshal or specially appointed person under 4(c)(3), could."
+  },
+  {
+    "id": "svc-019",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "4(d)(5)",
+        "quote": "Waiving service of a summons does not waive any objection to personal jurisdiction or to venue."
+      }
+    ],
+    "stem": "Plaintiff Anders Pike sends Defendant Greta Moss a request, compliant with Rule 4(d)(1), to waive service. Moss lives in another state and has no contacts with the forum. She signs and returns the waiver form, and Pike files it. Moss then moves to dismiss for lack of personal jurisdiction. Pike responds that by waiving service she gave up the objection.",
+    "ask": "Is Pike correct?",
+    "options": [
+      {
+        "t": "Yes; a defendant who signs a waiver consents to the court's authority over her.",
+        "why": "Treats the waiver as consent. 4(d)(5) provides the opposite: a waiver of service preserves the personal-jurisdiction objection."
+      },
+      {
+        "t": "No; waiving service does not waive any objection to personal jurisdiction or to venue.",
+        "why": "Correct. 4(d)(5) says so expressly."
+      },
+      {
+        "t": "Yes as to personal jurisdiction, but she keeps her objection to venue.",
+        "why": "4(d)(5) protects both objections, personal jurisdiction and venue."
+      },
+      {
+        "t": "No, but only if Moss added a written reservation of the objection to the waiver form.",
+        "why": "Adds a requirement. 4(d)(5) preserves the objections without any reservation."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 4(d)(5) states that waiving service of a summons does not waive any objection to personal jurisdiction or to venue. Moss's waiver relieved Pike of having to serve her formally but left her objection intact, and nothing in 4(d)(5) requires her to reserve it."
+  },
+  {
+    "id": "svc-020",
+    "kind": "issue",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "4(i)(1)(A)",
+        "quote": "deliver a copy of the summons and of the complaint to the United States attorney for the district where the action is brought"
+      },
+      {
+        "cite": "4(i)(1)(B)",
+        "quote": "send a copy of each by registered or certified mail to the Attorney General of the United States at Washington, D.C."
+      },
+      {
+        "cite": "4(i)(2)",
+        "quote": "a United States officer or employee sued only in an official capacity, a party must serve the United States and also send a copy of the summons and of the complaint by registered or certified mail to the agency, corporation, officer, or employee"
+      }
+    ],
+    "stem": "Plaintiff Beacon Hill Growers sues the Secretary of Agriculture, a United States officer, in her official capacity only, in a federal district court in Nebraska. The suit seeks relief from a program decision. It does not challenge an order of any nonparty agency or officer, and no individual-capacity claim is made. Beacon Hill wants to know every step Rule 4 requires to serve the Secretary properly.",
+    "ask": "Which provisions of Rule 4 govern what Beacon Hill must do? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 4(i)(1)(A)",
+        "why": "Applies. To serve the United States, a party must deliver the papers to the United States attorney for the district or mail them to that office's civil-process clerk."
+      },
+      {
+        "t": "Rule 4(i)(1)(B)",
+        "why": "Applies. A copy of each must also be sent by registered or certified mail to the Attorney General at Washington, D.C."
+      },
+      {
+        "t": "Rule 4(i)(2)",
+        "why": "Applies. An officer sued only in an official capacity requires service on the United States plus a registered or certified mailing to the officer."
+      },
+      {
+        "t": "Rule 4(i)(1)(C)",
+        "why": "Does not apply. It requires mailing to an agency or officer only if the action challenges an order of a nonparty agency or officer, which this action does not."
+      },
+      {
+        "t": "Rule 4(i)(3)",
+        "why": "Does not apply. It covers an officer sued in an individual capacity, requiring personal service under 4(e), (f) or (g); no individual-capacity claim is made."
+      },
+      {
+        "t": "Rule 4(j)(2)",
+        "why": "Does not apply. It governs service on a state or local government, not the United States or its officers."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2
+    ],
+    "explain": "Serving a United States officer sued only in an official capacity requires serving the United States under 4(i)(1)(A) and (B), plus mailing to the officer under 4(i)(2). Rule 4(i)(1)(C) is limited to challenges to an order of a nonparty agency or officer, 4(i)(3) to individual-capacity suits, and 4(j)(2) to state and local governments."
+  },
+  {
+    "id": "svc-021",
+    "kind": "issue",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "4(d)(1)(F)",
+        "quote": "give the defendant a reasonable time of at least 30 days after the request was sent"
+      },
+      {
+        "cite": "4(d)(2)",
+        "quote": "If a defendant located within the United States fails, without good cause, to sign and return a waiver requested by a plaintiff located within the United States, the court must impose on the defendant"
+      }
+    ],
+    "stem": "Plaintiff Lena Ortiz, of Illinois, mails Defendant Dale Whitcomb, of Ohio, a written request to waive service. The request names the court, encloses the complaint and two waiver forms, supplies a prepaid return envelope, explains the consequences of waiving and not waiving, and gives Whitcomb 45 days to return the form. Whitcomb never returns it and offers no excuse. Ortiz then pays a process server $400 to serve him. She moves to recover that cost and the fees for her motion.",
+    "ask": "Which provisions of Rule 4(d) bear on whether Whitcomb must pay? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 4(d)(1)(F)",
+        "why": "Applies. The request gave Whitcomb at least 30 days to return the form, so it met the reasonable-time requirement."
+      },
+      {
+        "t": "Rule 4(d)(2)(A)",
+        "why": "Applies. Both parties are located in the United States and Whitcomb failed without good cause to return the waiver, so the court must impose the expenses later incurred in making service."
+      },
+      {
+        "t": "Rule 4(d)(2)(B)",
+        "why": "Applies. The court must also impose the reasonable expenses, including attorney's fees, of any motion required to collect those service expenses."
+      },
+      {
+        "t": "Rule 4(d)(3)",
+        "why": "Does not apply. It extends the time to answer for a defendant who timely returns a waiver, and Whitcomb returned none."
+      },
+      {
+        "t": "Rule 4(d)(4)",
+        "why": "Does not apply. It states the results of a plaintiff's filing a waiver, and no waiver was filed."
+      },
+      {
+        "t": "Rule 4(d)(5)",
+        "why": "Does not apply. It preserves jurisdiction and venue objections after a waiver; there was no waiver here."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2
+    ],
+    "explain": "The request gave more than 30 days (4(d)(1)(F)). Because both parties are within the United States and Whitcomb failed without good cause to return the waiver, 4(d)(2) requires the court to impose the later service expenses (A) and the reasonable expenses of the collection motion, including fees (B). Rules 4(d)(3), (4) and (5) all presuppose a returned or filed waiver."
+  },
+  {
+    "id": "svc-022",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "3"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "3",
+        "quote": "A civil action is commenced by filing a complaint with the court."
+      }
+    ],
+    "stem": "Plaintiff Mira Dalton files a complaint against Defendant Fenwick Co. with the clerk on Monday, June 1, 2026. The clerk issues a summons on Wednesday, June 3. Dalton has Fenwick served on Friday, June 12, and Fenwick files its answer on Monday, July 6.",
+    "ask": "On what date was the civil action commenced?",
+    "options": [
+      {
+        "t": "July 6, 2026",
+        "why": "Ties commencement to the defendant's response. A civil action exists once the complaint is filed, whether or not the defendant has appeared."
+      },
+      {
+        "t": "June 3, 2026",
+        "why": "Ties commencement to issuance of the summons. Rule 3 looks only to the filing of the complaint."
+      },
+      {
+        "t": "June 12, 2026",
+        "why": "Ties commencement to service on the defendant. Rule 3 does not make service the commencing act."
+      },
+      {
+        "t": "June 1, 2026",
+        "why": "Correct. Rule 3 says a civil action is commenced by filing a complaint with the court."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 3 says a civil action is commenced by filing a complaint with the court. Dalton filed on June 1. Issuance of the summons (June 3), service (June 12) and the answer (July 6) are later steps and do not move the commencement date."
+  },
+  {
+    "id": "svc-023",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "3"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "3",
+        "quote": "A civil action is commenced by filing a complaint with the court."
+      }
+    ],
+    "stem": "On Monday, March 9, 2026, Plaintiff Alba Reyes hand-delivers to Defendant Dent Supply a signed copy of her complaint, along with a note that says, \"I have sued you.\" Reyes does not file the complaint with the clerk until Monday, March 16.",
+    "ask": "As of Tuesday, March 10, 2026, was a civil action commenced against Dent?",
+    "options": [
+      {
+        "t": "Yes; Reyes's signing the complaint commenced the action once she told Dent about it.",
+        "why": "Neither signing nor notice to the defendant substitutes for filing the complaint with the court."
+      },
+      {
+        "t": "Yes; the action was commenced when Dent received the complaint on March 9.",
+        "why": "Treats delivery to the defendant as commencement. Rule 3 requires filing with the court."
+      },
+      {
+        "t": "No; the action is commenced only when the complaint is filed with the court, which happened March 16.",
+        "why": "Correct. Delivery of a copy to the defendant is not the filing that Rule 3 requires."
+      },
+      {
+        "t": "No; the action is commenced only when the clerk issues a summons and the defendant is served.",
+        "why": "Adds requirements. Rule 3 makes filing the complaint the commencing act; issuance and service come later."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Under Rule 3 a civil action is commenced by filing a complaint with the court. Reyes's hand delivery of a copy on March 9 was not a filing. On March 10 no civil action had been commenced; the action began when she filed on March 16."
+  },
+  {
+    "id": "svc-024",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "3",
+      "4",
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "3",
+        "quote": "A civil action is commenced by filing a complaint with the court."
+      },
+      {
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed, the court"
+      }
+    ],
+    "stem": "Plaintiff Joss Marlow files a complaint against Defendant Dent Supply, a domestic corporation, on Wednesday, July 1, 2026. The clerk signs and issues the summons on Monday, July 6. Marlow has not yet served Dent, no waiver was requested, and she has no basis for an extension. The service is not in a foreign country.",
+    "ask": "By what date must Dent be served to avoid a dismissal or an order under Rule 4(m)?",
+    "options": [
+      {
+        "t": "August 30, 2026",
+        "why": "Uses 60 days, the period in 4(d)(3). The service deadline in 4(m) is 90 days after the complaint is filed."
+      },
+      {
+        "t": "September 28, 2026",
+        "why": "Counts July 1 as day 1. 6(a)(1)(A) excludes the day of the event that triggers the period."
+      },
+      {
+        "t": "September 29, 2026",
+        "why": "Correct. The 90 days run from the filing of the complaint on July 1, which also commenced the action under Rule 3. Excluding July 1, day 90 is Tuesday, September 29."
+      },
+      {
+        "t": "October 5, 2026",
+        "why": "Runs the 90 days from issuance of the summons on July 6 and rolls the result. 4(m) runs from the filing of the complaint."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "The action is commenced by filing (Rule 3), and Rule 4(m)'s 90 days run from that filing, not from issuance of the summons. Excluding July 1 (6(a)(1)(A)), day 90 is Tuesday, September 29, a weekday and not a holiday, so no roll is needed.",
+    "calc": {
+      "from": "2026-07-01",
+      "days": 90,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-09-29"
+    }
+  },
+  {
+    "id": "svc-025",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "3"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "3",
+        "quote": "A civil action is commenced by filing a complaint with the court."
+      }
+    ],
+    "stem": "Plaintiff Nell Aberdeen is preparing to sue Fenwick Co. She will draft the complaint, have the clerk issue a summons, serve Fenwick, and file the complaint. She asks which one of these steps, standing alone, commences the civil action under the Federal Rules.",
+    "ask": "Which step does so?",
+    "options": [
+      {
+        "t": "Filing the complaint with the court",
+        "why": "Correct. Rule 3 provides that a civil action is commenced by filing a complaint with the court."
+      },
+      {
+        "t": "Having the clerk issue the summons",
+        "why": "Rule 4(b) deals with issuance of the summons, but Rule 3 does not treat it as the commencing act."
+      },
+      {
+        "t": "Serving Fenwick with the summons and complaint",
+        "why": "Service is governed by Rule 4 and follows commencement; Rule 3 does not require it to commence the action."
+      },
+      {
+        "t": "Drafting and signing the complaint",
+        "why": "A draft that is not filed with the court commences nothing."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 3: a civil action is commenced by filing a complaint with the court. Drafting, issuing a summons and serving the defendant are separate steps; only filing commences the action."
+  },
+  {
+    "id": "svc-026",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "5(b)(2)(C)",
+        "quote": "mailing it to the person's last known address—in which event service is complete upon mailing"
+      }
+    ],
+    "stem": "On Monday, April 6, 2026, Defendant Brant Logistics mails a written notice to Plaintiff's lawyer by first-class mail, addressed to the lawyer's last known address. The lawyer receives the envelope on Thursday, April 9 and reads the notice that day. No other method of service is used.",
+    "ask": "When is service of the notice complete under Rule 5(b)(2)?",
+    "options": [
+      {
+        "t": "April 7, 2026, the next day after mailing",
+        "why": "Adds a day that the rule does not provide. Completion occurs on mailing itself."
+      },
+      {
+        "t": "April 9, 2026, upon receipt",
+        "why": "Reads receipt into the rule. Service by mail is complete when the paper is mailed, not when it arrives."
+      },
+      {
+        "t": "April 6, 2026, upon mailing",
+        "why": "Correct. 5(b)(2)(C) makes service by mail complete upon mailing."
+      },
+      {
+        "t": "April 9, 2026, when the lawyer reads it",
+        "why": "Actual notice is not the test. 5(b)(2)(C) fixes the time as mailing."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A paper mailed to the person's last known address is served under 5(b)(2)(C), and service is complete upon mailing. That is April 6. Receipt on April 9 does not matter to when service is complete, though 6(d) may add 3 days to any time that runs after service."
+  },
+  {
+    "id": "svc-027",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "5(b)(1)",
+        "quote": "If a party is represented by an attorney, service under this rule must be made on the attorney unless the court orders service on the party."
+      }
+    ],
+    "stem": "Plaintiff Ravi Okafor is represented by attorney Chen in a pending action. Defendant Corbin Tools wants to serve a written notice on Okafor. Corbin's lawyer mails it to Okafor's home address. The court has not ordered service on Okafor himself.",
+    "ask": "Is the notice properly served under Rule 5(b)?",
+    "options": [
+      {
+        "t": "No; service on a represented party must be made on the attorney, Chen.",
+        "why": "Correct. 5(b)(1) directs service on the attorney of a represented party."
+      },
+      {
+        "t": "Yes; mailing to the party's last known address is always valid service.",
+        "why": "Mailing is a method of service under 5(b)(2)(C), but 5(b)(1) controls the person who must be served when a party is represented."
+      },
+      {
+        "t": "Yes; service on a party is valid if the attorney later learns of the notice.",
+        "why": "Later knowledge does not cure service on the wrong person. 5(b)(1) requires service on the attorney."
+      },
+      {
+        "t": "No; service on a represented party is valid only if the party signs a receipt.",
+        "why": "Invents a receipt requirement. 5(b)(1) addresses who must be served, not proof of receipt."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 5(b)(1) requires that service on a represented party be made on the attorney unless the court orders service on the party. No such order exists, so mailing the notice to Okafor at home does not satisfy the rule."
+  },
+  {
+    "id": "svc-028",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "5(a)(2)",
+        "quote": "No service is required on a party who is in default for failing to appear. But a pleading that asserts a new claim for relief against such a party must be served on that party under Rule 4."
+      }
+    ],
+    "stem": "Defendant Orson Pike was properly served with the original complaint but never appeared and is in default for failing to appear. Plaintiff Hale Mining now files an amended complaint that adds a new claim for relief against Pike, based on a different contract. Hale has not asked the court to excuse service on Pike, and Pike has no lawyer.",
+    "ask": "How must Hale serve the amended complaint on Pike?",
+    "options": [
+      {
+        "t": "By serving Pike's attorney under Rule 5(b)(1).",
+        "why": "Pike has no attorney. And 5(a)(2) calls for service on the party under Rule 4, not Rule 5."
+      },
+      {
+        "t": "No service is required, because Pike is in default for failing to appear.",
+        "why": "States the general rule in 5(a)(2) and misses its exception for a pleading that asserts a new claim for relief."
+      },
+      {
+        "t": "By mailing a copy to Pike's last known address under Rule 5(b)(2)(C).",
+        "why": "Ordinary Rule 5 service is not enough for the new claim. 5(a)(2) requires service under Rule 4."
+      },
+      {
+        "t": "Under Rule 4, as with a summons and complaint, because it asserts a new claim for relief.",
+        "why": "Correct. 5(a)(2) exempts a defaulting party from ordinary service but requires Rule 4 service of a pleading asserting a new claim for relief."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 5(a)(2) excuses service on a party in default for failing to appear, but a pleading that asserts a new claim for relief against that party must be served under Rule 4. Hale's amended complaint adds a new claim, so Hale must serve Pike under Rule 4."
+  },
+  {
+    "id": "svc-029",
+    "kind": "issue",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "5(a)(1)(D)",
+        "quote": "a written motion, except one that may be heard ex parte"
+      },
+      {
+        "cite": "5(b)(2)(E)",
+        "quote": "sending it to a registered user by filing it with the court's electronic-filing system or sending it by other electronic means that the person consented to in writing—in either of which events service is complete upon filing or sending"
+      },
+      {
+        "cite": "5(d)(1)(B)",
+        "quote": "No certificate of service is required when a paper is served by filing it with the court's electronic-filing system."
+      },
+      {
+        "cite": "5(d)(1)(A)",
+        "quote": "depositions, interrogatories, requests for documents or tangible things or to permit entry onto land, and requests for admission"
+      }
+    ],
+    "stem": "In a two-party case, Defendant Quill Shipping files a written motion to compel arbitration through the court's electronic-filing system. Plaintiff Tern Wholesale's lawyer is a registered user of that system. Quill's lawyer also emails its first set of interrogatories to Tern's lawyer, who consented in writing to receive papers by email. Both parties have appeared, neither is in default, and there are only two parties.",
+    "ask": "Which parts of Rule 5 govern Quill's service and filing? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 5(a)(1)(D)",
+        "why": "Applies. A written motion that cannot be heard ex parte must be served on every party."
+      },
+      {
+        "t": "Rule 5(b)(2)(E)",
+        "why": "Applies. Service by filing through the electronic-filing system on a registered user, or by electronic means consented to in writing, is complete upon filing or sending."
+      },
+      {
+        "t": "Rule 5(d)(1)(B)",
+        "why": "Applies. No certificate of service is required when a paper is served by filing it with the electronic-filing system."
+      },
+      {
+        "t": "Rule 5(d)(1)(A)",
+        "why": "Applies. Interrogatories must not be filed until they are used in the proceeding or the court orders filing."
+      },
+      {
+        "t": "Rule 5(a)(2)",
+        "why": "Does not apply. It concerns a party in default for failing to appear, and neither party is in default."
+      },
+      {
+        "t": "Rule 5(b)(2)(C)",
+        "why": "Does not apply. Neither paper was mailed."
+      },
+      {
+        "t": "Rule 5(c)(1)",
+        "why": "Does not apply. It concerns an action with an unusually large number of defendants, and this case has two parties."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "The motion must be served on every party (5(a)(1)(D)), and filing it electronically on a registered user completes service (5(b)(2)(E)) without a certificate of service (5(d)(1)(B)). The interrogatories are served by consented email but not filed (5(d)(1)(A)). Rules 5(a)(2), 5(b)(2)(C) and 5(c)(1) do not fit these facts."
+  },
+  {
+    "id": "svc-030",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "7"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "7(a)(7)",
+        "quote": "if the court orders one, a reply to an answer"
+      }
+    ],
+    "stem": "Plaintiff Kira Lund sues Defendant Mesa Tools. Mesa files an answer that raises several defenses. Without asking the court, Lund files a document titled \"Reply to Answer\" responding to each defense. The court has not ordered a reply. Mesa moves to strike the reply on the ground that it is not a pleading Rule 7(a) allows.",
+    "ask": "Is Mesa correct?",
+    "options": [
+      {
+        "t": "No; a plaintiff may reply to any answer as of right.",
+        "why": "Treats the reply as a standing right. 7(a)(7) conditions it on a court order."
+      },
+      {
+        "t": "Yes; a reply to an answer is an allowed pleading only if the court orders one.",
+        "why": "Correct. 7(a)(7) allows a reply to an answer only if the court orders one."
+      },
+      {
+        "t": "No; a reply is permitted so long as it is filed within a short time after the answer.",
+        "why": "Invents a time-based right. Rule 7(a)(7) has no such provision."
+      },
+      {
+        "t": "Yes; no pleading may follow an answer, even if the court orders one.",
+        "why": "Overreads the rule. 7(a)(7) expressly permits a reply to an answer if the court orders one."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 7(a) says only the listed pleadings are allowed. The last item is \"if the court orders one, a reply to an answer.\" The court did not order a reply, so Lund's unprompted reply is not an allowed pleading and Mesa is correct."
+  },
+  {
+    "id": "svc-031",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "7"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "7(b)(1)(A)",
+        "quote": "be in writing unless made during a hearing or trial"
+      }
+    ],
+    "stem": "During the second day of a jury trial, defense counsel stands and, without any written paper, asks the court to exclude a witness from the courtroom until it is time to testify. Plaintiff objects that a request for a court order must be made by written motion.",
+    "ask": "Under Rule 7(b)(1), is the objection correct?",
+    "options": [
+      {
+        "t": "No; a request for a court order at trial need not be made by motion at all.",
+        "why": "Overstates the exception. 7(b)(1) still requires a motion; only the writing requirement is relaxed."
+      },
+      {
+        "t": "Yes; every request for a court order must be a written motion, even at trial.",
+        "why": "Ignores the exception in 7(b)(1)(A) for motions made during a hearing or trial."
+      },
+      {
+        "t": "Yes; an oral request is allowed at trial only if the court gives leave in advance.",
+        "why": "Adds a leave requirement that 7(b)(1)(A) does not contain."
+      },
+      {
+        "t": "No; a motion must be in writing unless it is made during a hearing or trial.",
+        "why": "Correct. 7(b)(1)(A) exempts motions made during a hearing or trial from the writing requirement."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 7(b)(1) requires a request for a court order to be made by motion, and the motion must be in writing unless made during a hearing or trial (7(b)(1)(A)). Counsel's oral request came during trial, so the objection fails."
+  },
+  {
+    "id": "svc-032",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "7"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "7(a)(4)",
+        "quote": "an answer to a crossclaim"
+      }
+    ],
+    "stem": "In a car-crash case, Defendant Dorn files a crossclaim against co-defendant Hux. Hux wants to respond with a paper that counts as a pleading. Hux is considering a memorandum opposing the crossclaim, a letter to the judge denying it, a written answer to the crossclaim, and a statement of position filed without a title.",
+    "ask": "Which of these is a pleading allowed under Rule 7(a)?",
+    "options": [
+      {
+        "t": "A memorandum opposing the crossclaim",
+        "why": "A memorandum supports or opposes a motion and is not among the pleadings listed in 7(a)."
+      },
+      {
+        "t": "A written answer to the crossclaim",
+        "why": "Correct. 7(a)(4) lists an answer to a crossclaim among the only allowed pleadings."
+      },
+      {
+        "t": "A letter to the judge denying the crossclaim",
+        "why": "A letter is not a listed pleading, and a request for a court order must be by motion under 7(b)(1)."
+      },
+      {
+        "t": "A statement of position filed without a title",
+        "why": "Not a listed pleading. Rule 7(a) allows only the pleadings it names."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 7(a) says only the listed pleadings are allowed, and 7(a)(4) lists \"an answer to a crossclaim.\" A memorandum, a letter and an informal statement are not listed pleadings. Hux's answer to Dorn's crossclaim is the pleading Hux should file."
+  },
+  {
+    "id": "svc-033",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "9(b)",
+        "quote": "In alleging fraud or mistake, a party must state with particularity the circumstances constituting fraud or mistake. Malice, intent, knowledge, and other conditions of a person's mind may be alleged generally."
+      }
+    ],
+    "stem": "Plaintiff Perry Lund sues Defendant Kerrigan Motors for fraud over a used truck. The complaint says only that Kerrigan \"made false statements about the truck at some point\" and that Kerrigan \"knew the statements were false.\" It does not say who spoke, what was said or when. Kerrigan argues the complaint is deficient under Rule 9(b).",
+    "ask": "Which statement of Rule 9(b) is correct?",
+    "options": [
+      {
+        "t": "The circumstances of the fraud must be pleaded with particularity, but Kerrigan's knowledge may be alleged generally.",
+        "why": "Correct. 9(b) requires particularity for the circumstances constituting fraud, and allows knowledge and other conditions of mind to be alleged generally."
+      },
+      {
+        "t": "Both the circumstances of the fraud and Kerrigan's knowledge must be pleaded with particularity.",
+        "why": "Overextends the particularity requirement. 9(b) says knowledge may be alleged generally."
+      },
+      {
+        "t": "Neither the circumstances nor the knowledge need be particular, because fraud is pleaded like any other claim.",
+        "why": "Rule 9(b) singles out fraud for particularity as to its circumstances."
+      },
+      {
+        "t": "The circumstances may be alleged generally, but Kerrigan's knowledge must be pleaded with particularity.",
+        "why": "Reverses the rule. Circumstances need particularity; knowledge may be general."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 9(b) has two halves: the circumstances constituting fraud must be stated with particularity, while malice, intent, knowledge and other conditions of mind may be alleged generally. Lund's general allegation of knowledge is fine, but saying nothing about who, what and when does not state the circumstances with particularity."
+  },
+  {
+    "id": "svc-034",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "9(c)",
+        "quote": "In pleading conditions precedent, it suffices to allege generally that all conditions precedent have occurred or been performed. But when denying that a condition precedent has occurred or been performed, a party must do so with particularity."
+      }
+    ],
+    "stem": "Plaintiff Hale Roofing sues Defendant Orchard Inn on a contract. The complaint alleges: \"All conditions precedent have occurred or been performed.\" Orchard's answer says only: \"Orchard denies that all conditions precedent have occurred or been performed.\" It identifies no particular condition. Hale moves to strike the denial.",
+    "ask": "Which statement is correct under Rule 9(c)?",
+    "options": [
+      {
+        "t": "Both Hale's allegation and Orchard's denial may be general.",
+        "why": "The permission to be general runs only to the allegation. A denial must be with particularity."
+      },
+      {
+        "t": "Hale must plead each condition precedent specifically, and Orchard may deny them generally.",
+        "why": "Reverses the rule. A general allegation suffices for pleading, and particularity is required for the denial."
+      },
+      {
+        "t": "Hale's general allegation suffices, but Orchard's denial must be made with particularity.",
+        "why": "Correct. 9(c) allows a general allegation of conditions precedent but requires particularity in denying one."
+      },
+      {
+        "t": "Both Hale's allegation and Orchard's denial must be particular.",
+        "why": "Hale's allegation is sufficient in general terms under 9(c)."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 9(c) lets a pleader allege generally that all conditions precedent have occurred or been performed. The party denying must do so with particularity. Hale's general allegation is enough; Orchard's blanket denial, naming no condition, does not meet the particularity requirement."
+  },
+  {
+    "id": "svc-035",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "9(a)(1)",
+        "quote": "Except when required to show that the court has jurisdiction, a pleading need not allege"
+      },
+      {
+        "cite": "9(a)(2)",
+        "quote": "To raise any of those issues, a party must do so by a specific denial, which must state any supporting facts that are peculiarly within the party's knowledge."
+      }
+    ],
+    "stem": "Plaintiff Walt Doyle sues the \"Harbor Anglers Association,\" an organized association, and does not allege that it has legal existence. The court's jurisdiction does not depend on that fact. The Association believes it lacks the legal existence required to be sued and knows facts supporting that belief that Doyle could not know.",
+    "ask": "What does Rule 9(a) provide?",
+    "options": [
+      {
+        "t": "The complaint is deficient unless it alleges the Association's legal existence.",
+        "why": "9(a)(1)(C) says a pleading need not allege the legal existence of an organized association, unless needed to show jurisdiction."
+      },
+      {
+        "t": "No allegation is needed; the Association must deny specifically and state supporting facts.",
+        "why": "Correct. 9(a)(1)(C) excuses the allegation, and 9(a)(2) requires a specific denial with those facts."
+      },
+      {
+        "t": "The Association may raise the issue with a general denial of the complaint's allegations.",
+        "why": "9(a)(2) requires a specific denial, not a general one."
+      },
+      {
+        "t": "The Association must raise the issue by a specific denial but need not state any supporting facts.",
+        "why": "9(a)(2) requires the denial to state supporting facts that are peculiarly within the party's knowledge."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 9(a)(1)(C) says a pleading need not allege the legal existence of an organized association that is a party, except when required to show jurisdiction. Under 9(a)(2), a party that wants to raise the issue must make a specific denial stating the supporting facts peculiarly within its knowledge."
+  },
+  {
+    "id": "svc-036",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "9(b)",
+        "quote": "Malice, intent, knowledge, and other conditions of a person's mind may be alleged generally."
+      },
+      {
+        "cite": "9(c)",
+        "quote": "it suffices to allege generally that all conditions precedent have occurred or been performed"
+      },
+      {
+        "cite": "9(g)",
+        "quote": "If an item of special damage is claimed, it must be specifically stated."
+      },
+      {
+        "cite": "9(a)(1)",
+        "quote": "Except when required to show that the court has jurisdiction, a pleading need not allege"
+      }
+    ],
+    "stem": "Plaintiff Tern Wholesale sues Dockside Imports for fraud and breach of a supply contract. The complaint (1) says that Dockside's CFO told Tern on May 4, 2025, at a meeting in Tampa, that inventory was unencumbered, and that the statement was false; (2) alleges generally that Dockside knew it was false and meant to deceive; (3) alleges generally that all conditions precedent were performed; (4) states a claim for $60,000 in lost resale profits and itemizes it; and (5) says nothing about Dockside's capacity to be sued, which does not bear on jurisdiction.",
+    "ask": "Which provisions of Rule 9 bear on whether the complaint is adequately pleaded? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 9(b)",
+        "why": "Applies. It requires the circumstances of the fraud (who, what, when and where) to be stated with particularity and lets knowledge and intent be alleged generally."
+      },
+      {
+        "t": "Rule 9(c)",
+        "why": "Applies. A general allegation that all conditions precedent were performed suffices."
+      },
+      {
+        "t": "Rule 9(g)",
+        "why": "Applies. Lost resale profits claimed as an item of special damage must be specifically stated, and Tern itemized them."
+      },
+      {
+        "t": "Rule 9(a)(1)",
+        "why": "Applies. A pleading need not allege a party's capacity to be sued, unless needed to show jurisdiction, which is not the case here."
+      },
+      {
+        "t": "Rule 9(e)",
+        "why": "Does not apply. It concerns pleading a judgment or decision of a court or tribunal, and none is pleaded."
+      },
+      {
+        "t": "Rule 9(d)",
+        "why": "Does not apply. It concerns pleading an official document or official act, and none is involved."
+      },
+      {
+        "t": "Rule 9(h)(1)",
+        "why": "Does not apply. It concerns designating an admiralty or maritime claim, and no such claim is alleged."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "Fraud requires particular circumstances but general knowledge (9(b)); conditions precedent may be alleged generally (9(c)); special damage must be specifically stated (9(g)); and capacity to be sued need not be alleged (9(a)(1)). Rules 9(d), 9(e) and 9(h)(1) concern official documents, judgments and admiralty claims, none of which appears here."
+  },
+  {
+    "id": "svc-037",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "8(b)(5)",
+        "quote": "A party that lacks knowledge or information sufficient to form a belief about the truth of an allegation must so state, and the statement has the effect of a denial."
+      }
+    ],
+    "stem": "Plaintiff Hana Voss sues Defendant Basil Foods for breach of contract. Paragraph 8 of the complaint alleges that a delivery truck left Basil's warehouse at 9:10 a.m. on June 3. After reasonable inquiry, Basil's lawyer cannot determine whether this is true because the dispatch records were lost in a fire. Basil is preparing its answer.",
+    "ask": "How should Basil respond to paragraph 8 under Rule 8(b), and with what effect?",
+    "options": [
+      {
+        "t": "State that it lacks knowledge; the statement has the effect of an admission.",
+        "why": "8(b)(5) gives the statement the effect of a denial, not an admission."
+      },
+      {
+        "t": "Say nothing about paragraph 8; silence is treated as a denial.",
+        "why": "Reverses 8(b)(6): when a responsive pleading is required, an allegation not denied is admitted."
+      },
+      {
+        "t": "Admit paragraph 8, because the allegation cannot be disproved.",
+        "why": "Nothing requires admission of an allegation a party cannot confirm; 8(b)(5) covers lack of knowledge."
+      },
+      {
+        "t": "State that it lacks knowledge or information; the statement has the effect of a denial.",
+        "why": "Correct. 8(b)(5) provides for exactly that statement and gives it the effect of a denial."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "A party that lacks knowledge or information sufficient to form a belief about the truth of an allegation must so state, and under 8(b)(5) the statement has the effect of a denial. Silence would not do, because 8(b)(6) treats an allegation that is not denied as admitted when a responsive pleading is required."
+  },
+  {
+    "id": "svc-038",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "8(b)(6)",
+        "quote": "An allegation—other than one relating to the amount of damages—is admitted if a responsive pleading is required and the allegation is not denied."
+      }
+    ],
+    "stem": "Plaintiff Joel Reyes sues Defendant Cobalt Haulage for breach of a freight contract. Paragraph 5 of the complaint alleges that Cobalt failed to deliver the goods. Paragraph 6 alleges that Reyes's damages are $80,000. Cobalt's answer admits paragraphs 1 through 3, denies paragraph 4, and says nothing at all about paragraphs 5 and 6. A responsive pleading was required.",
+    "ask": "What is the effect of the answer's silence under Rule 8(b)(6)?",
+    "options": [
+      {
+        "t": "Neither paragraph is admitted, because only an express admission counts.",
+        "why": "8(b)(6) treats an allegation not denied as admitted when a responsive pleading is required."
+      },
+      {
+        "t": "Paragraphs 5 and 6 are both admitted.",
+        "why": "Overlooks the exception. An allegation relating to the amount of damages is not admitted by failure to deny."
+      },
+      {
+        "t": "Paragraph 5 is admitted, and paragraph 6 is not admitted.",
+        "why": "Correct. An allegation is admitted if a responsive pleading is required and it is not denied, but an allegation relating to the amount of damages is excepted."
+      },
+      {
+        "t": "Paragraph 6 is admitted, and paragraph 5 is not admitted.",
+        "why": "Reverses the rule. Liability allegations are admitted by silence; allegations relating to the amount of damages are excepted."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Because a responsive pleading was required, an allegation Cobalt did not deny is admitted under 8(b)(6), so paragraph 5 is admitted. The rule excepts an allegation relating to the amount of damages, so paragraph 6 (the $80,000 figure) is not admitted by silence."
+  },
+  {
+    "id": "svc-039",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "8(b)(4)",
+        "quote": "A party that intends in good faith to deny only part of an allegation must admit the part that is true and deny the rest."
+      }
+    ],
+    "stem": "Plaintiff Lena Ortega alleges in paragraph 4: \"Defendant Tarn Supply received the shipment on March 3 and refused to pay for it.\" Tarn did receive the shipment on March 3, but it believes in good faith that it owes nothing because the goods were defective. Tarn is drafting its answer.",
+    "ask": "How must Tarn respond to paragraph 4?",
+    "options": [
+      {
+        "t": "Admit that it received the shipment on March 3 and deny the rest.",
+        "why": "Correct. 8(b)(4) requires a party that denies only part of an allegation to admit the part that is true and deny the rest."
+      },
+      {
+        "t": "Deny the entire allegation, because part of it is disputed.",
+        "why": "Denying the true part would not be in good faith. 8(b)(4) requires admitting that part."
+      },
+      {
+        "t": "Admit the entire allegation and rely on the defective goods as a defense.",
+        "why": "Admitting the refusal to pay concedes what Tarn disputes."
+      },
+      {
+        "t": "State that it lacks knowledge, which has the effect of a denial.",
+        "why": "8(b)(5) applies only to a party that actually lacks knowledge or information. Tarn knows when it received the shipment."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Tarn intends in good faith to deny only part of paragraph 4. Rule 8(b)(4) therefore requires it to admit the part that is true (receipt on March 3) and deny the rest (the refusal to pay). A blanket denial or a lack-of-knowledge statement would not be consistent with what Tarn knows."
+  },
+  {
+    "id": "svc-040",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "8(c)(1)",
+        "quote": "In responding to a pleading, a party must affirmatively state any avoidance or affirmative defense"
+      }
+    ],
+    "stem": "Plaintiff Bram Keller sues Defendant Odell Finance on a promissory note. Odell intends to argue that it already paid the note in full and that the statute of limitations has run. Both payment and the statute of limitations are listed in Rule 8(c)(1). Odell is preparing its answer.",
+    "ask": "What does Rule 8 require Odell to do with these two defenses?",
+    "options": [
+      {
+        "t": "Affirmatively state payment, but the statute of limitations needs no pleading.",
+        "why": "Both payment and statute of limitations appear in the 8(c)(1) list."
+      },
+      {
+        "t": "Deny the allegations; the defenses can be raised for the first time at trial.",
+        "why": "A denial under 8(b) does not substitute for affirmatively stating a listed defense under 8(c)(1)."
+      },
+      {
+        "t": "Affirmatively state both payment and the statute of limitations in its responsive pleading.",
+        "why": "Correct. 8(c)(1) requires a party to affirmatively state any avoidance or affirmative defense, and it lists both."
+      },
+      {
+        "t": "Plead them only if Keller first asks for a reply under Rule 7(a)(7).",
+        "why": "The duty to state affirmative defenses falls on the responding party in its own pleading."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 8(c)(1) requires a responding party to affirmatively state any avoidance or affirmative defense, and its list includes both payment and statute of limitations. Odell must state both in its answer. A denial under 8(b) does not carry them."
+  },
+  {
+    "id": "svc-041",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "8(c)(2)",
+        "quote": "If a party mistakenly designates a defense as a counterclaim, or a counterclaim as a defense, the court must, if justice requires, treat the pleading as though it were correctly designated, and may impose terms for doing so."
+      }
+    ],
+    "stem": "Plaintiff Ivo Barr sues Defendant Plum Hardware for unpaid rent. Plum's answer includes a section headed \"Third Defense,\" which asks for $5,000 from Barr for a returned security deposit that Barr kept. In substance, it is a claim for affirmative relief against Barr, not a defense. Barr objects that a defense cannot demand money.",
+    "ask": "What does Rule 8(c)(2) provide?",
+    "options": [
+      {
+        "t": "The court must, if justice requires, treat it as a counterclaim and may impose terms.",
+        "why": "Correct. 8(c)(2) covers a counterclaim mistakenly designated as a defense."
+      },
+      {
+        "t": "The court must strike the section, because a pleading with the wrong label has no effect.",
+        "why": "8(c)(2) tells the court to treat the pleading as correctly designated if justice requires, not to strike it."
+      },
+      {
+        "t": "The court may treat it as a counterclaim only if Barr consents to the change.",
+        "why": "Nothing in 8(c)(2) conditions the correction on the opposing party's consent."
+      },
+      {
+        "t": "The court must treat it as a defense, because the pleader's chosen label controls.",
+        "why": "8(c)(2) looks to what the pleading is, not what the pleader called it."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 8(c)(2) addresses a counterclaim mistakenly designated as a defense: the court must, if justice requires, treat the pleading as though correctly designated, and may impose terms. Plum's \"Third Defense\" is a counterclaim in substance, so the label does not control."
+  },
+  {
+    "id": "svc-042",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "8(d)(2)",
+        "quote": "If a party makes alternative statements, the pleading is sufficient if any one of them is sufficient."
+      },
+      {
+        "cite": "8(d)(3)",
+        "quote": "A party may state as many separate claims or defenses as it has, regardless of consistency."
+      }
+    ],
+    "stem": "Plaintiff Mara Quinn sues Defendant Dune Builders. Count I alleges that Dune breached a written contract. Count II alleges, in the alternative, that if no enforceable contract exists, Dune was unjustly enriched. Dune argues that the counts are inconsistent and that the complaint must be struck unless both counts are sufficient. Count I turns out to be insufficient, while Count II is sufficient.",
+    "ask": "Which statement is correct under Rule 8(d)?",
+    "options": [
+      {
+        "t": "Alternative counts are allowed only within a single count, not in separate counts.",
+        "why": "8(d)(2) permits alternative statements in a single count or defense or in separate ones."
+      },
+      {
+        "t": "Inconsistent counts are not allowed; Quinn must choose one theory before filing.",
+        "why": "8(d)(3) allows as many claims or defenses as the party has, regardless of consistency."
+      },
+      {
+        "t": "The counts are allowed, but the pleading is sufficient only if both counts are sufficient.",
+        "why": "8(d)(2) says the pleading is sufficient if any one of the alternatives is sufficient."
+      },
+      {
+        "t": "The inconsistent counts are allowed, and the pleading is sufficient because one alternative statement is sufficient.",
+        "why": "Correct. 8(d)(3) permits separate claims regardless of consistency, and 8(d)(2) makes the pleading sufficient if any one alternative is sufficient."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 8(d)(2) allows alternative or hypothetical statements, in one count or in separate ones, and makes the pleading sufficient if any one is sufficient. Rule 8(d)(3) lets a party state as many separate claims as it has, regardless of consistency. Count II being sufficient saves the pleading."
+  },
+  {
+    "id": "svc-043",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "8(b)(3)",
+        "quote": "A party that intends in good faith to deny all the allegations of a pleading—including the jurisdictional grounds—may do so by a general denial."
+      }
+    ],
+    "stem": "Plaintiff Sana Okoro sues Defendant Fjord Marine, alleging in numbered paragraphs both the grounds for the court's jurisdiction and the facts of her claim. Fjord's lawyer, after investigation, intends in good faith to deny every allegation in the complaint, including the jurisdictional paragraph. Fjord is drafting its answer.",
+    "ask": "May Fjord use a general denial?",
+    "options": [
+      {
+        "t": "No; a general denial may never cover the jurisdictional grounds of a complaint.",
+        "why": "8(b)(3) expressly includes the jurisdictional grounds among the allegations a general denial may cover."
+      },
+      {
+        "t": "Yes; a general denial may cover every allegation, including the jurisdictional grounds, if made in good faith.",
+        "why": "Correct. This is 8(b)(3)."
+      },
+      {
+        "t": "No; a party must always deny each paragraph of the complaint specifically.",
+        "why": "Specific denials are required only for a party that does not intend to deny all the allegations."
+      },
+      {
+        "t": "Yes, but only with the court's permission given in advance.",
+        "why": "8(b)(3) imposes no requirement of leave."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 8(b)(3) lets a party that intends in good faith to deny all the allegations of a pleading, including the jurisdictional grounds, use a general denial. Fjord intends to deny everything, so a general denial is available without leave. A party that will not deny everything must deny specifically or deny all except those specifically admitted."
+  },
+  {
+    "id": "svc-044",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "8(b)(4)",
+        "quote": "must admit the part that is true and deny the rest"
+      },
+      {
+        "cite": "8(b)(5)",
+        "quote": "the statement has the effect of a denial"
+      },
+      {
+        "cite": "8(b)(6)",
+        "quote": "is admitted if a responsive pleading is required and the allegation is not denied"
+      },
+      {
+        "cite": "8(c)(1)",
+        "quote": "must affirmatively state any avoidance or affirmative defense"
+      }
+    ],
+    "stem": "Defendant Lyle Components answers a complaint that requires a response. The answer admits paragraph 1; says that Lyle \"lacks knowledge or information sufficient to form a belief\" about paragraph 2; admits only half of paragraph 3 and denies the true other half too, though it knows that other half is true; says nothing about paragraph 5; and asserts laches in a separate section titled \"Defenses.\" Lyle does not use a general denial, and nothing in the answer is mislabeled.",
+    "ask": "Which provisions of Rule 8 bear on the effect of this answer? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 8(b)(4)",
+        "why": "Applies. Lyle must admit the part of paragraph 3 that is true and deny the rest if it denies only part of an allegation."
+      },
+      {
+        "t": "Rule 8(b)(5)",
+        "why": "Applies. A statement of lack of knowledge or information about paragraph 2 has the effect of a denial."
+      },
+      {
+        "t": "Rule 8(b)(6)",
+        "why": "Applies. Paragraph 5 is not denied and a responsive pleading is required, so the allegation is admitted unless it relates to the amount of damages."
+      },
+      {
+        "t": "Rule 8(c)(1)",
+        "why": "Applies. Laches is a listed defense and must be affirmatively stated, which Lyle did."
+      },
+      {
+        "t": "Rule 8(b)(3)",
+        "why": "Does not apply. Lyle did not use a general denial."
+      },
+      {
+        "t": "Rule 8(c)(2)",
+        "why": "Does not apply. It concerns mistaken designation of a defense as a counterclaim or the reverse, and nothing here is mislabeled."
+      },
+      {
+        "t": "Rule 8(a)(3)",
+        "why": "Does not apply. It concerns what a pleading stating a claim for relief must demand, not an answer's response to allegations."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "Paragraph 2's lack-of-knowledge statement operates as a denial (8(b)(5)). Paragraph 3 required admitting the true part (8(b)(4)). Silence on paragraph 5 operates as an admission (8(b)(6)). Laches must be affirmatively stated (8(c)(1)). Rules 8(b)(3), 8(c)(2) and 8(a)(3) do not fit."
+  },
+  {
+    "id": "svc-045",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "8(a)(1)",
+        "quote": "a short and plain statement of the grounds for the court's jurisdiction"
+      },
+      {
+        "cite": "8(a)(2)",
+        "quote": "a short and plain statement of the claim showing that the pleader is entitled to relief"
+      },
+      {
+        "cite": "8(a)(3)",
+        "quote": "a demand for the relief sought, which may include relief in the alternative or different types of relief"
+      },
+      {
+        "cite": "8(d)(2)",
+        "quote": "A party may set out 2 or more statements of a claim or defense alternatively or hypothetically"
+      }
+    ],
+    "stem": "Plaintiff Wren Dairy files an original complaint against Defendant Hollis Cold Storage in a federal court. It begins with a short statement that diversity of citizenship supplies jurisdiction. It then sets out in brief paragraphs the contract Wren and Hollis made and Hollis's failure to keep the milk cold, concluding that Wren is owed money. It demands $120,000 in damages, or in the alternative an order requiring Hollis to repair its units. Count I pleads breach of contract; Count II pleads, in the alternative, negligence.",
+    "ask": "Which provisions of Rule 8 describe what this complaint must contain or may do? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 8(a)(1)",
+        "why": "Applies. A pleading stating a claim must contain a short and plain statement of the grounds for the court's jurisdiction, and Wren's original complaint includes one."
+      },
+      {
+        "t": "Rule 8(a)(2)",
+        "why": "Applies. The complaint must contain a short and plain statement of the claim showing that the pleader is entitled to relief."
+      },
+      {
+        "t": "Rule 8(a)(3)",
+        "why": "Applies. The complaint must demand the relief sought, and the demand may include relief in the alternative or different types of relief."
+      },
+      {
+        "t": "Rule 8(d)(2)",
+        "why": "Applies. Wren may set out alternative statements of a claim in separate counts."
+      },
+      {
+        "t": "Rule 8(b)(3)",
+        "why": "Does not apply. It tells a responding party how it may deny; it does not govern a complaint."
+      },
+      {
+        "t": "Rule 8(b)(6)",
+        "why": "Does not apply. It states the effect of failing to deny an allegation, which arises only after a responsive pleading is due."
+      },
+      {
+        "t": "Rule 8(c)(1)",
+        "why": "Does not apply. It requires a responding party to state affirmative defenses; the complaint is not responding to a pleading."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "A complaint must contain a jurisdictional statement (8(a)(1)), a short and plain statement of the claim (8(a)(2)) and a demand for relief that may be alternative or of different types (8(a)(3)). Wren's alternative counts are authorized by 8(d)(2). Rules 8(b)(3), 8(b)(6) and 8(c)(1) govern responses, not complaints."
+  },
+  {
+    "id": "svc-046",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "8(b)(1)",
+        "quote": "state in short and plain terms its defenses to each claim asserted against it"
+      },
+      {
+        "cite": "8(c)(1)",
+        "quote": "must affirmatively state any avoidance or affirmative defense"
+      },
+      {
+        "cite": "8(c)(2)",
+        "quote": "If a party mistakenly designates a defense as a counterclaim, or a counterclaim as a defense"
+      },
+      {
+        "cite": "8(d)(3)",
+        "quote": "regardless of consistency"
+      }
+    ],
+    "stem": "Plaintiff Kai Marsh sues Defendant Nova Cabinets on a contract. Nova's answer denies liability and pleads release and payment as defenses. It also pleads, in the alternative, that if a contract exists it was procured by fraud, which is inconsistent with Nova's statement that it paid under the contract. And it labels its demand for the return of a $2,000 deposit as a \"Fifth Defense.\" Nova states its defenses in short and plain terms, one per paragraph.",
+    "ask": "Which provisions of Rule 8 bear on this answer? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 8(b)(1)",
+        "why": "Applies. In responding to a pleading, a party must state in short and plain terms its defenses to each claim against it."
+      },
+      {
+        "t": "Rule 8(c)(1)",
+        "why": "Applies. Release, payment and fraud are listed in 8(c)(1) and must be affirmatively stated."
+      },
+      {
+        "t": "Rule 8(c)(2)",
+        "why": "Applies. A counterclaim mistakenly designated as a defense is treated as a counterclaim if justice requires."
+      },
+      {
+        "t": "Rule 8(d)(3)",
+        "why": "Applies. Nova may state as many separate defenses as it has regardless of consistency."
+      },
+      {
+        "t": "Rule 8(b)(5)",
+        "why": "Does not apply. Nova does not claim to lack knowledge or information about any allegation."
+      },
+      {
+        "t": "Rule 8(b)(6)",
+        "why": "Does not apply. Nova denies liability and pleads defenses; the facts do not say it left any allegation undenied."
+      },
+      {
+        "t": "Rule 8(a)(3)",
+        "why": "Does not apply. It concerns a claim-stating pleading's demand for relief and is not triggered by these defenses."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "Nova must state its defenses in short and plain terms (8(b)(1)) and affirmatively state release, payment and fraud (8(c)(1)). It may plead inconsistent defenses (8(d)(3)). Its mislabeled \"Fifth Defense\" is treated as a counterclaim if justice requires (8(c)(2)). Rules 8(b)(5), 8(b)(6) and 8(a)(3) do not apply."
+  },
+  {
+    "id": "svc-047",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "front": "What must a pleading that states a claim for relief contain about the claim itself?",
+    "back": "a short and plain statement of the claim showing that the pleader is entitled to relief",
+    "cites": [
+      {
+        "cite": "8(a)(2)",
+        "quote": "a short and plain statement of the claim showing that the pleader is entitled to relief"
+      }
+    ]
+  },
+  {
+    "id": "svc-048",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "front": "May a demand for relief include alternative or different types of relief?",
+    "back": "relief in the alternative or different types of relief",
+    "cites": [
+      {
+        "cite": "8(a)(3)",
+        "quote": "a demand for the relief sought, which may include relief in the alternative or different types of relief"
+      }
+    ]
+  },
+  {
+    "id": "svc-049",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "front": "What is the effect of a statement that a party lacks knowledge or information sufficient to form a belief about an allegation?",
+    "back": "the statement has the effect of a denial",
+    "cites": [
+      {
+        "cite": "8(b)(5)",
+        "quote": "A party that lacks knowledge or information sufficient to form a belief about the truth of an allegation must so state, and the statement has the effect of a denial."
+      }
+    ]
+  },
+  {
+    "id": "svc-050",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "front": "When is an allegation admitted for failure to deny?",
+    "back": "is admitted if a responsive pleading is required and the allegation is not denied",
+    "cites": [
+      {
+        "cite": "8(b)(6)",
+        "quote": "An allegation—other than one relating to the amount of damages—is admitted if a responsive pleading is required and the allegation is not denied."
+      }
+    ]
+  },
+  {
+    "id": "svc-051",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "front": "Which kind of allegation is not admitted by a failure to deny it?",
+    "back": "other than one relating to the amount of damages",
+    "cites": [
+      {
+        "cite": "8(b)(6)",
+        "quote": "An allegation—other than one relating to the amount of damages—is admitted if a responsive pleading is required and the allegation is not denied."
+      }
+    ]
+  },
+  {
+    "id": "svc-052",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "front": "What must a responding party do with any avoidance or affirmative defense?",
+    "back": "affirmatively state",
+    "cites": [
+      {
+        "cite": "8(c)(1)",
+        "quote": "a party must affirmatively state any avoidance or affirmative defense"
+      }
+    ]
+  },
+  {
+    "id": "svc-053",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "front": "How many separate claims or defenses may a party state, and does consistency matter?",
+    "back": "as many separate claims or defenses as it has, regardless of consistency",
+    "cites": [
+      {
+        "cite": "8(d)(3)",
+        "quote": "A party may state as many separate claims or defenses as it has, regardless of consistency."
+      }
+    ]
+  },
+  {
+    "id": "svc-054",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 1,
+    "front": "When may a party use a general denial?",
+    "back": "intends in good faith to deny all the allegations of a pleading—including the jurisdictional grounds",
+    "cites": [
+      {
+        "cite": "8(b)(3)",
+        "quote": "A party that intends in good faith to deny all the allegations of a pleading—including the jurisdictional grounds—may do so by a general denial."
+      }
+    ]
+  },
+  {
+    "id": "svc-055",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "11(a)",
+        "quote": "The court must strike an unsigned paper unless the omission is promptly corrected after being called to the attorney's or party's attention."
+      }
+    ],
+    "stem": "Plaintiff Tess Galvan's lawyer files a complaint against Defendant Pike Rentals without signing it. Pike's lawyer notices on Monday and calls the omission to Galvan's lawyer's attention that day. Galvan's lawyer files a signed copy on Tuesday. Pike moves to strike the original complaint as unsigned.",
+    "ask": "What does Rule 11(a) require the court to do?",
+    "options": [
+      {
+        "t": "Strike the complaint unless Galvan pays Pike's expenses for raising the issue.",
+        "why": "Adds a condition. 11(a) conditions the court's duty only on prompt correction."
+      },
+      {
+        "t": "Strike the complaint, because an unsigned paper must always be struck.",
+        "why": "Ignores the exception for an omission promptly corrected after notice."
+      },
+      {
+        "t": "Dismiss the action with prejudice, because the complaint was filed unsigned.",
+        "why": "Nothing in 11(a) calls for dismissal; the remedy for an uncorrected omission is striking the paper."
+      },
+      {
+        "t": "Deny the motion, because the omission was promptly corrected after notice.",
+        "why": "Correct. 11(a) requires striking an unsigned paper unless the omission is promptly corrected after being called to the signer's attention."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 11(a) requires a pleading to be signed by an attorney of record or an unrepresented party, and says the court must strike an unsigned paper unless the omission is promptly corrected after being called to the attorney's or party's attention. Galvan's lawyer corrected it the next day, so the motion should be denied."
+  },
+  {
+    "id": "svc-056",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "11",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "11(c)(2)",
+        "quote": "it must not be filed or be presented to the court if the challenged paper, claim, defense, contention, or denial is withdrawn or appropriately corrected within 21 days after service or within another time the court sets"
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "stem": "On Monday, September 21, 2026, Defendant Brook Mills hand-delivers to Plaintiff Vera Lindt's lawyer a separate motion for Rule 11 sanctions that describes the specific conduct at issue. Brook has not filed it. The court has not set another time. Columbus Day is Monday, October 12, 2026.",
+    "ask": "By what date must Lindt withdraw or appropriately correct the challenged claim to keep Brook from filing the motion?",
+    "options": [
+      {
+        "t": "October 5, 2026",
+        "why": "Uses 14 days. The safe-harbor period in 11(c)(2) is 21 days after service."
+      },
+      {
+        "t": "October 9, 2026",
+        "why": "Rolls backward to Friday. The 21 days run after service, so 6(a)(5) moves a holiday ending forward, not backward."
+      },
+      {
+        "t": "October 12, 2026",
+        "why": "Stops on day 21 even though it is Columbus Day, a legal holiday under 6(a)(6)(A); the period cannot end on one."
+      },
+      {
+        "t": "October 13, 2026",
+        "why": "Correct. Excluding September 21, day 21 is Columbus Day, a legal holiday. 6(a)(1)(C) continues the period to Tuesday, October 13."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "The safe harbor in 11(c)(2) is 21 days after service. Excluding September 21, day 21 is Monday, October 12, Columbus Day, a legal holiday (6(a)(6)(A)). The period is measured after an event, so 6(a)(1)(C) and 6(a)(5) carry it forward to Tuesday, October 13.",
+    "calc": {
+      "from": "2026-09-21",
+      "days": 21,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-10-13"
+    }
+  },
+  {
+    "id": "svc-057",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "11(c)(2)",
+        "quote": "A motion for sanctions must be made separately from any other motion and must describe the specific conduct that allegedly violates Rule 11(b)."
+      }
+    ],
+    "stem": "Defendant Delmar Foods moves to dismiss a complaint. In the last section of the same motion, Delmar's lawyer adds a request that the court sanction Plaintiff's lawyer under Rule 11 for a frivolous legal theory. The section describes the offending allegation in detail, and the motion is served on Plaintiff's lawyer.",
+    "ask": "Is the request for sanctions procedurally proper under Rule 11(c)(2)?",
+    "options": [
+      {
+        "t": "Yes; a detailed description of the conduct is all that 11(c)(2) requires.",
+        "why": "Description of specific conduct is one requirement; separateness from any other motion is another."
+      },
+      {
+        "t": "No; a motion for sanctions must be made separately from any other motion.",
+        "why": "Correct. 11(c)(2) requires a separate motion."
+      },
+      {
+        "t": "Yes; combining motions saves resources, so 11(c)(2) permits it if the court agrees.",
+        "why": "11(c)(2) contains no exception allowing combination."
+      },
+      {
+        "t": "No; only the court on its own initiative may raise Rule 11 sanctions.",
+        "why": "11(c)(2) expressly provides for sanctions by motion; 11(c)(3) separately covers the court acting on its own."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 11(c)(2) requires that a motion for sanctions be made separately from any other motion and describe the specific conduct. Delmar embedded its request inside a motion to dismiss, so the request is not a proper Rule 11 motion even though it described the conduct."
+  },
+  {
+    "id": "svc-058",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "11(c)(5)(A)",
+        "quote": "against a represented party for violating Rule 11(b)(2)"
+      }
+    ],
+    "stem": "Plaintiff Orrin Falk, represented by a law firm, sues Defendant Tarn Energy. The court finds, after notice and a reasonable opportunity to respond, that a legal contention in the complaint violates Rule 11(b)(2) because it is not warranted by existing law or by a nonfrivolous argument for changing it. The legal theory was devised entirely by Falk's lawyers. Tarn moves for a monetary sanction against Falk himself.",
+    "ask": "May the court impose a monetary sanction on Falk?",
+    "options": [
+      {
+        "t": "No; a court must not impose a monetary sanction against a represented party for violating Rule 11(b)(2).",
+        "why": "Correct. This is 11(c)(5)(A). The attorney or law firm remains subject to sanction under 11(c)(1)."
+      },
+      {
+        "t": "Yes; the party is responsible for the filing made on its behalf.",
+        "why": "11(c)(1) allows sanctions on a party responsible for a violation, but 11(c)(5)(A) bars monetary sanctions against a represented party for an 11(b)(2) violation."
+      },
+      {
+        "t": "Yes, but only up to half of Tarn's attorney's fees.",
+        "why": "Invents a cap. The rule's bar in 11(c)(5)(A) is total as to monetary sanctions for this kind of violation."
+      },
+      {
+        "t": "No, and the court may not sanction anyone, because the violation was a legal contention.",
+        "why": "11(c)(1) permits sanctions on the attorney or law firm that violated the rule."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 11(c)(5)(A) forbids a monetary sanction against a represented party for violating Rule 11(b)(2). Falk is represented and the violation is of 11(b)(2), so no monetary sanction may be imposed on him. The court may still sanction the responsible attorneys or the firm under 11(c)(1)."
+  },
+  {
+    "id": "svc-059",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "11(c)(5)(B)",
+        "quote": "on its own, unless it issued the show-cause order under Rule 11(c)(3) before voluntary dismissal or settlement of the claims made by or against the party that is, or whose attorneys are, to be sanctioned"
+      }
+    ],
+    "stem": "Plaintiff Jules Bram sues Defendant Cobb Marine. On March 3, Bram voluntarily dismisses all of his claims. On March 10, the judge, who has noticed that the complaint's factual contentions had no evidentiary support, issues an order under Rule 11(c)(3) directing Bram's lawyer to show cause why that conduct has not violated Rule 11(b). The lawyer responds, and the judge finds a violation. No party moved for sanctions.",
+    "ask": "May the court impose a monetary sanction on the lawyer?",
+    "options": [
+      {
+        "t": "Yes; the lawyer was given notice and a chance to respond, which is all 11(c)(3) requires.",
+        "why": "Notice and response are required, but 11(c)(5)(B) adds a timing condition for monetary sanctions imposed on the court's own initiative."
+      },
+      {
+        "t": "Yes; the court may sanction on its own initiative whenever it finds a violation of 11(b).",
+        "why": "11(c)(5)(B) limits monetary sanctions imposed on the court's own initiative."
+      },
+      {
+        "t": "No; on its own, the court may not impose a monetary sanction, since the show-cause order came after dismissal.",
+        "why": "Correct. 11(c)(5)(B) bars a sua sponte monetary sanction when the order to show cause issued after voluntary dismissal."
+      },
+      {
+        "t": "No; once the claims are dismissed, the court loses power to issue any order under Rule 11.",
+        "why": "The rule does not remove the court's power; it only bars a monetary sanction in this situation."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A court acting on its own may impose a monetary sanction only if it issued the Rule 11(c)(3) show-cause order before the voluntary dismissal or settlement of the claims (11(c)(5)(B)). The judge issued the order on March 10, a week after Bram dismissed on March 3, so no monetary sanction is available."
+  },
+  {
+    "id": "svc-060",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "11(c)(4)",
+        "quote": "The sanction may include nonmonetary directives; an order to pay a penalty into court; or, if imposed on motion and warranted for effective deterrence, an order directing payment to the movant of part or all of the reasonable attorney's fees and other expenses directly resulting from the violation."
+      }
+    ],
+    "stem": "While a case is pending, the judge on her own initiative issues a Rule 11(c)(3) order. It directs Plaintiff's lawyer Pell to show cause why a complaint filed to harass the defendant has not violated Rule 11(b)(1). After a hearing, she finds a violation. Defendant Marlow Co. asks the court to order Pell to pay Marlow's attorney's fees. No party had filed a motion for sanctions.",
+    "ask": "May the court order Pell to pay Marlow's attorney's fees as a sanction?",
+    "options": [
+      {
+        "t": "Yes; fee shifting is the standard Rule 11 sanction for any violation.",
+        "why": "11(c)(4) limits sanctions to what suffices to deter and reserves fee payment to the movant for sanctions imposed on motion."
+      },
+      {
+        "t": "No; fees to a movant require a sanction imposed on motion, but a penalty paid into court is available.",
+        "why": "Correct. 11(c)(4) allows an order directing payment to the movant only if imposed on motion."
+      },
+      {
+        "t": "Yes, because Marlow's request counts as a motion for sanctions.",
+        "why": "A motion for sanctions must be separate and follow the safe-harbor procedure of 11(c)(2); a request made to the court after its own order is not one."
+      },
+      {
+        "t": "No sanction of any kind may be imposed, because no party filed a motion.",
+        "why": "11(c)(3) lets the court act on its own, and 11(c)(4) lists sanctions it may impose."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 11(c)(4) lists the sanctions available: nonmonetary directives, a penalty paid into court, or, if imposed on motion and warranted for effective deterrence, payment of fees to the movant. The court acted on its own initiative, so the fee award to Marlow is not authorized; a penalty paid into court or nonmonetary directives are."
+  },
+  {
+    "id": "svc-061",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "11(d)",
+        "quote": "This rule does not apply to disclosures and discovery requests, responses, objections, and motions under Rules 26 through 37."
+      }
+    ],
+    "stem": "In response to Plaintiff Hale's interrogatories, Defendant Orbit Tools serves answers that include a boilerplate objection which Hale believes is baseless and made to cause delay. Hale's lawyer serves a Rule 11 motion for sanctions on Orbit's lawyer. The motion is based only on the objection and describes it specifically.",
+    "ask": "Does Rule 11 reach the objection?",
+    "options": [
+      {
+        "t": "No; Rule 11 reaches only pleadings, not objections or motions of any kind.",
+        "why": "Rule 11(a) and (b) reach pleadings, written motions and other papers; the discovery exclusion in 11(d) is the reason the objection falls outside."
+      },
+      {
+        "t": "Yes; any paper signed by a lawyer is subject to Rule 11(b).",
+        "why": "Overlooks 11(d), which carves out discovery responses and objections."
+      },
+      {
+        "t": "Yes, but only if Orbit's lawyer refuses to withdraw the objection within 21 days after service.",
+        "why": "The 21-day safe harbor in 11(c)(2) is a procedure for sanctions where Rule 11 applies; 11(d) removes discovery objections from Rule 11."
+      },
+      {
+        "t": "No; Rule 11(d) excludes discovery requests, responses, objections and motions under Rules 26 through 37.",
+        "why": "Correct. 11(d) excludes this conduct from Rule 11."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 11(d) says the rule does not apply to disclosures and discovery requests, responses, objections and motions under Rules 26 through 37. Orbit's objection to interrogatories falls squarely within that carve-out, so Rule 11 sanctions are unavailable for it regardless of the safe harbor."
+  },
+  {
+    "id": "svc-062",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "11(b)(1)",
+        "quote": "it is not being presented for any improper purpose, such as to harass, cause unnecessary delay, or needlessly increase the cost of litigation"
+      },
+      {
+        "cite": "11(b)(2)",
+        "quote": "the claims, defenses, and other legal contentions are warranted by existing law or by a nonfrivolous argument for extending, modifying, or reversing existing law or for establishing new law"
+      },
+      {
+        "cite": "11(b)(3)",
+        "quote": "the factual contentions have evidentiary support or, if specifically so identified, will likely have evidentiary support after a reasonable opportunity for further investigation or discovery"
+      }
+    ],
+    "stem": "Attorney Pell signs and files a complaint for client Roan Haulage against a former business partner. The complaint (1) asserts a legal theory that existing law squarely rejects, with no argument for changing the law; (2) alleges a fact for which Pell has no evidence and does not identify it as awaiting discovery; (3) alleges another fact \"on information and belief,\" specifically identified as likely to have evidentiary support after discovery, which Pell has a reasoned basis to expect; and (4) was filed mainly to pressure the partner to pay an unrelated debt. The complaint contains no denials.",
+    "ask": "Which subsections of Rule 11(b) did Pell's certification violate? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 11(b)(1)",
+        "why": "Violated. The complaint was presented mainly to pressure the partner on an unrelated debt, which is an improper purpose."
+      },
+      {
+        "t": "Rule 11(b)(2)",
+        "why": "Violated. The legal theory is foreclosed by existing law and no nonfrivolous argument for changing the law is offered."
+      },
+      {
+        "t": "Rule 11(b)(3)",
+        "why": "Violated as to the second fact, which has no evidentiary support and is not identified as awaiting discovery. The third fact is specifically identified as likely to have support, so it is not a violation."
+      },
+      {
+        "t": "Rule 11(b)(4)",
+        "why": "Not violated. It concerns denials of factual contentions, and the complaint contains no denials."
+      },
+      {
+        "t": "Rule 11(a)",
+        "why": "Not violated on these facts. Pell signed the complaint, so the signature requirement was met."
+      },
+      {
+        "t": "Rule 11(d)",
+        "why": "Not at issue. The complaint is not a discovery request, response or objection."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2
+    ],
+    "explain": "By presenting the complaint Pell certified improper-purpose-free filing (11(b)(1)), legally warranted contentions (11(b)(2)) and evidentiary support for factual contentions unless specifically identified as needing discovery (11(b)(3)). Facts 1, 2 and 4 violate those subsections. Rule 11(b)(4) concerns denials, the signature requirement was met, and 11(d) concerns discovery."
+  },
+  {
+    "id": "svc-063",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "11(c)(1)",
+        "quote": "Absent exceptional circumstances, a law firm must be held jointly responsible for a violation committed by its partner, associate, or employee."
+      },
+      {
+        "cite": "11(c)(2)",
+        "quote": "If warranted, the court may award to the prevailing party the reasonable expenses, including attorney's fees, incurred for the motion."
+      },
+      {
+        "cite": "11(c)(4)",
+        "quote": "A sanction imposed under this rule must be limited to what suffices to deter repetition of the conduct or comparable conduct by others similarly situated."
+      },
+      {
+        "cite": "11(c)(6)",
+        "quote": "An order imposing a sanction must describe the sanctioned conduct and explain the basis for the sanction."
+      }
+    ],
+    "stem": "Defendant Mica Cabinets serves on Plaintiff Dorn's law firm a separate Rule 11 motion that describes a frivolous factual allegation in the complaint. The firm does not withdraw it within 21 days, so Mica files the motion. After notice and a hearing, the judge finds that associate Lee, who signed the complaint, violated Rule 11(b)(3). The judge decides to order the firm and Lee to pay a sanction, to include some of Mica's fees for the motion, and to say so in a written order.",
+    "ask": "Which provisions of Rule 11(c) govern what the court may do? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 11(c)(1)",
+        "why": "Applies. Absent exceptional circumstances, the firm must be held jointly responsible for its associate's violation."
+      },
+      {
+        "t": "Rule 11(c)(2)",
+        "why": "Applies. The court may award the prevailing party the reasonable expenses, including fees, incurred for the motion."
+      },
+      {
+        "t": "Rule 11(c)(4)",
+        "why": "Applies. The sanction must be limited to what suffices to deter repetition of the conduct or comparable conduct by others similarly situated."
+      },
+      {
+        "t": "Rule 11(c)(6)",
+        "why": "Applies. The order must describe the sanctioned conduct and explain the basis for the sanction."
+      },
+      {
+        "t": "Rule 11(c)(3)",
+        "why": "Does not apply. It addresses the court acting on its own initiative, but Mica moved."
+      },
+      {
+        "t": "Rule 11(c)(5)(A)",
+        "why": "Does not apply. It bars monetary sanctions against a represented party for an 11(b)(2) violation, but the violation here is of 11(b)(3) and the targets are the firm and its lawyer."
+      },
+      {
+        "t": "Rule 11(d)",
+        "why": "Does not apply. The allegation is in a complaint, not a discovery request, response or objection."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "On a proper motion the court may sanction Lee and, absent exceptional circumstances, must hold the firm jointly responsible (11(c)(1)). It may award motion expenses (11(c)(2)), must limit the sanction to what suffices to deter (11(c)(4)), and must describe and explain the sanctioned conduct (11(c)(6)). Rules 11(c)(3), 11(c)(5)(A) and 11(d) do not fit."
+  },
+  {
+    "id": "svc-064",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "11(c)(3)",
+        "quote": "On its own, the court may order an attorney, law firm, or party to show cause why conduct specifically described in the order has not violated Rule 11(b)."
+      },
+      {
+        "cite": "11(c)(4)",
+        "quote": "an order to pay a penalty into court"
+      },
+      {
+        "cite": "11(c)(5)(B)",
+        "quote": "on its own, unless it issued the show-cause order under Rule 11(c)(3) before voluntary dismissal or settlement of the claims made by or against the party that is, or whose attorneys are, to be sanctioned"
+      },
+      {
+        "cite": "11(c)(6)",
+        "quote": "An order imposing a sanction must describe the sanctioned conduct and explain the basis for the sanction."
+      }
+    ],
+    "stem": "While a case is pending, the judge reads a brief signed by attorney Soto and concludes that one of its legal contentions may violate Rule 11(b)(2). No party has moved for sanctions, and the claims have been neither dismissed nor settled. The judge issues an order directing Soto to show cause why the specifically described contention has not violated Rule 11(b). After Soto responds, the judge finds a violation, wishes to order Soto to pay $1,500 into court, and will explain the basis in a written order.",
+    "ask": "Which provisions of Rule 11(c) govern the court's authority here? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 11(c)(3)",
+        "why": "Applies. On its own, the court may order an attorney to show cause why specifically described conduct has not violated Rule 11(b)."
+      },
+      {
+        "t": "Rule 11(c)(4)",
+        "why": "Applies. An order to pay a penalty into court is a permitted form of sanction."
+      },
+      {
+        "t": "Rule 11(c)(5)(B)",
+        "why": "Applies. A monetary sanction on the court's own initiative requires that the show-cause order issue before voluntary dismissal or settlement, and it did."
+      },
+      {
+        "t": "Rule 11(c)(6)",
+        "why": "Applies. The order imposing the sanction must describe the conduct and explain the basis."
+      },
+      {
+        "t": "Rule 11(c)(2)",
+        "why": "Does not apply. It governs sanctions on a party's motion, including the 21-day safe harbor, and nobody moved here."
+      },
+      {
+        "t": "Rule 11(c)(5)(A)",
+        "why": "Does not apply. It protects a represented party from monetary sanctions for 11(b)(2) violations, and the sanction here falls on the attorney."
+      },
+      {
+        "t": "Rule 11(d)",
+        "why": "Does not apply. The brief is not a discovery request, response or objection."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "The court may act on its own by a show-cause order describing the conduct (11(c)(3)). A penalty paid into court is a permitted sanction (11(c)(4)), allowed on the court's own initiative because the order issued before any dismissal or settlement (11(c)(5)(B)). The sanctions order must describe the conduct and give reasons (11(c)(6)). Rules 11(c)(2), 11(c)(5)(A) and 11(d) do not apply."
+  },
+  {
+    "id": "svc-065",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "front": "How long does a party have after service of a Rule 11 sanctions motion to withdraw or correct the challenged paper before the motion may be filed?",
+    "back": "within 21 days after service",
+    "cites": [
+      {
+        "cite": "11(c)(2)",
+        "quote": "it must not be filed or be presented to the court if the challenged paper, claim, defense, contention, or denial is withdrawn or appropriately corrected within 21 days after service or within another time the court sets"
+      }
+    ]
+  },
+  {
+    "id": "svc-066",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "front": "How must a Rule 11 motion for sanctions be made in relation to other motions?",
+    "back": "must be made separately from any other motion",
+    "cites": [
+      {
+        "cite": "11(c)(2)",
+        "quote": "A motion for sanctions must be made separately from any other motion and must describe the specific conduct that allegedly violates Rule 11(b)."
+      }
+    ]
+  },
+  {
+    "id": "svc-067",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "front": "What must the court do with an unsigned paper?",
+    "back": "strike an unsigned paper unless the omission is promptly corrected",
+    "cites": [
+      {
+        "cite": "11(a)",
+        "quote": "The court must strike an unsigned paper unless the omission is promptly corrected after being called to the attorney's or party's attention."
+      }
+    ]
+  },
+  {
+    "id": "svc-068",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "front": "Unless a rule or statute specifically states otherwise, must a pleading be verified?",
+    "back": "need not be verified or accompanied by an affidavit",
+    "cites": [
+      {
+        "cite": "11(a)",
+        "quote": "Unless a rule or statute specifically states otherwise, a pleading need not be verified or accompanied by an affidavit."
+      }
+    ]
+  },
+  {
+    "id": "svc-069",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "front": "Against whom must a court not impose a monetary sanction for a violation of Rule 11(b)(2)?",
+    "back": "against a represented party for violating Rule 11(b)(2)",
+    "cites": [
+      {
+        "cite": "11(c)(5)(A)",
+        "quote": "against a represented party for violating Rule 11(b)(2)"
+      }
+    ]
+  },
+  {
+    "id": "svc-070",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "front": "What limits the scope of a Rule 11 sanction?",
+    "back": "limited to what suffices to deter repetition of the conduct or comparable conduct by others similarly situated",
+    "cites": [
+      {
+        "cite": "11(c)(4)",
+        "quote": "A sanction imposed under this rule must be limited to what suffices to deter repetition of the conduct or comparable conduct by others similarly situated."
+      }
+    ]
+  },
+  {
+    "id": "svc-071",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "front": "To what does Rule 11 not apply?",
+    "back": "disclosures and discovery requests, responses, objections, and motions under Rules 26 through 37",
+    "cites": [
+      {
+        "cite": "11(d)",
+        "quote": "This rule does not apply to disclosures and discovery requests, responses, objections, and motions under Rules 26 through 37."
+      }
+    ]
+  },
+  {
+    "id": "svc-072",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "11"
+    ],
+    "level": 1,
+    "front": "Absent exceptional circumstances, who must be held jointly responsible for a violation by a partner, associate or employee?",
+    "back": "a law firm must be held jointly responsible for a violation committed by its partner, associate, or employee",
+    "cites": [
+      {
+        "cite": "11(c)(1)",
+        "quote": "Absent exceptional circumstances, a law firm must be held jointly responsible for a violation committed by its partner, associate, or employee."
+      }
+    ]
+  },
+  {
+    "id": "svc-073",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "front": "Who must sign a summons?",
+    "back": "be signed by the clerk",
+    "cites": [
+      {
+        "cite": "4(a)(1)(F)",
+        "quote": "be signed by the clerk"
+      }
+    ]
+  },
+  {
+    "id": "svc-074",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "front": "Who may serve a summons and complaint?",
+    "back": "Any person who is at least 18 years old and not a party",
+    "cites": [
+      {
+        "cite": "4(c)(2)",
+        "quote": "Any person who is at least 18 years old and not a party may serve a summons and complaint."
+      }
+    ]
+  },
+  {
+    "id": "svc-075",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "front": "What is the minimum time a waiver request must give a defendant to return the waiver (domestic defendant)?",
+    "back": "at least 30 days after the request was sent",
+    "cites": [
+      {
+        "cite": "4(d)(1)(F)",
+        "quote": "give the defendant a reasonable time of at least 30 days after the request was sent"
+      }
+    ]
+  },
+  {
+    "id": "svc-076",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "front": "A defendant who timely returns a waiver before being served need not serve an answer until when?",
+    "back": "until 60 days after the request was sent",
+    "cites": [
+      {
+        "cite": "4(d)(3)",
+        "quote": "need not serve an answer to the complaint until 60 days after the request was sent"
+      }
+    ]
+  },
+  {
+    "id": "svc-077",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "front": "Within what time after the complaint is filed must the defendant be served?",
+    "back": "within 90 days after the complaint is filed",
+    "cites": [
+      {
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed, the court"
+      }
+    ]
+  },
+  {
+    "id": "svc-078",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "front": "What must the court do if the plaintiff shows good cause for failing to serve within 90 days?",
+    "back": "must extend the time for service for an appropriate period",
+    "cites": [
+      {
+        "cite": "4(m)",
+        "quote": "But if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period."
+      }
+    ]
+  },
+  {
+    "id": "svc-079",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "front": "How may an individual in a judicial district be served at the individual's home without delivery to the individual?",
+    "back": "leaving a copy of each at the individual's dwelling or usual place of abode with someone of suitable age and discretion who resides there",
+    "cites": [
+      {
+        "cite": "4(e)(2)(B)",
+        "quote": "leaving a copy of each at the individual's dwelling or usual place of abode with someone of suitable age and discretion who resides there"
+      }
+    ]
+  },
+  {
+    "id": "svc-080",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 1,
+    "front": "Does waiving service of a summons waive objections to personal jurisdiction or venue?",
+    "back": "does not waive any objection to personal jurisdiction or to venue",
+    "cites": [
+      {
+        "cite": "4(d)(5)",
+        "quote": "Waiving service of a summons does not waive any objection to personal jurisdiction or to venue."
+      }
+    ]
+  },
+  {
+    "id": "svc-081",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 1,
+    "front": "In counting a period stated in days, which day is excluded?",
+    "back": "exclude the day of the event that triggers the period",
+    "cites": [
+      {
+        "cite": "6(a)(1)(A)",
+        "quote": "exclude the day of the event that triggers the period"
+      }
+    ]
+  },
+  {
+    "id": "svc-082",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 1,
+    "front": "In counting a period stated in days, are intermediate weekends and holidays counted?",
+    "back": "count every day, including intermediate Saturdays, Sundays, and legal holidays",
+    "cites": [
+      {
+        "cite": "6(a)(1)(B)",
+        "quote": "count every day, including intermediate Saturdays, Sundays, and legal holidays"
+      }
+    ]
+  },
+  {
+    "id": "svc-083",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 1,
+    "front": "What happens if the last day of a period stated in days is a Saturday, Sunday or legal holiday?",
+    "back": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday",
+    "cites": [
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "if the last day is a Saturday, Sunday, or legal holiday, the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ]
+  },
+  {
+    "id": "svc-084",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 1,
+    "front": "How far before the hearing must a written motion and notice of hearing be served, absent an exception?",
+    "back": "at least 14 days before the time specified for the hearing",
+    "cites": [
+      {
+        "cite": "6(c)(1)",
+        "quote": "A written motion and notice of the hearing must be served at least 14 days before the time specified for the hearing"
+      }
+    ]
+  },
+  {
+    "id": "svc-085",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 1,
+    "front": "How far before the hearing must an opposing affidavit be served, unless the court permits otherwise?",
+    "back": "at least 7 days before the hearing",
+    "cites": [
+      {
+        "cite": "6(c)(2)",
+        "quote": "any opposing affidavit must be served at least 7 days before the hearing"
+      }
+    ]
+  },
+  {
+    "id": "svc-086",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 1,
+    "front": "After service by mail, how many days are added to a period to act?",
+    "back": "3 days are added after the period would otherwise expire under Rule 6(a)",
+    "cites": [
+      {
+        "cite": "6(d)",
+        "quote": "3 days are added after the period would otherwise expire under Rule 6(a)"
+      }
+    ]
+  },
+  {
+    "id": "svc-087",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 1,
+    "front": "Unless a different time is set, when does the last day end for electronic filing?",
+    "back": "at midnight in the court's time zone",
+    "cites": [
+      {
+        "cite": "6(a)(4)(A)",
+        "quote": "for electronic filing, at midnight in the court's time zone"
+      }
+    ]
+  },
+  {
+    "id": "svc-088",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 1,
+    "front": "On what showing may a court extend time on a motion made after the time has expired?",
+    "back": "the party failed to act because of excusable neglect",
+    "cites": [
+      {
+        "cite": "6(b)(1)(B)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect"
+      }
+    ]
+  },
+  {
+    "id": "svc-089",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "3"
+    ],
+    "level": 1,
+    "front": "How is a civil action commenced?",
+    "back": "filing a complaint with the court",
+    "cites": [
+      {
+        "cite": "3",
+        "quote": "A civil action is commenced by filing a complaint with the court."
+      }
+    ]
+  },
+  {
+    "id": "svc-090",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "3"
+    ],
+    "level": 1,
+    "front": "What must be filed with the court to commence a civil action?",
+    "back": "a complaint",
+    "cites": [
+      {
+        "cite": "3",
+        "quote": "A civil action is commenced by filing a complaint with the court."
+      }
+    ]
+  },
+  {
+    "id": "svc-091",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "3"
+    ],
+    "level": 1,
+    "front": "Complete the rule: a civil action is commenced by ____ a complaint with the court.",
+    "back": "filing",
+    "cites": [
+      {
+        "cite": "3",
+        "quote": "A civil action is commenced by filing a complaint with the court."
+      }
+    ]
+  },
+  {
+    "id": "svc-092",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "3",
+      "4"
+    ],
+    "level": 1,
+    "front": "When may the plaintiff present a summons to the clerk for signature and seal?",
+    "back": "On or after filing the complaint",
+    "cites": [
+      {
+        "cite": "4(b)",
+        "quote": "On or after filing the complaint, the plaintiff may present a summons to the clerk for signature and seal."
+      }
+    ]
+  },
+  {
+    "id": "svc-093",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "3",
+      "4"
+    ],
+    "level": 1,
+    "front": "The 90-day service period in Rule 4(m) runs from what event?",
+    "back": "after the complaint is filed",
+    "cites": [
+      {
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed, the court"
+      }
+    ]
+  },
+  {
+    "id": "svc-094",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 1,
+    "front": "When is service by mail complete?",
+    "back": "service is complete upon mailing",
+    "cites": [
+      {
+        "cite": "5(b)(2)(C)",
+        "quote": "mailing it to the person's last known address—in which event service is complete upon mailing"
+      }
+    ]
+  },
+  {
+    "id": "svc-095",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 1,
+    "front": "If a party is represented by an attorney, on whom must service be made?",
+    "back": "service under this rule must be made on the attorney unless the court orders service on the party",
+    "cites": [
+      {
+        "cite": "5(b)(1)",
+        "quote": "If a party is represented by an attorney, service under this rule must be made on the attorney unless the court orders service on the party."
+      }
+    ]
+  },
+  {
+    "id": "svc-096",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 1,
+    "front": "Is service required on a party in default for failing to appear?",
+    "back": "No service is required on a party who is in default for failing to appear",
+    "cites": [
+      {
+        "cite": "5(a)(2)",
+        "quote": "No service is required on a party who is in default for failing to appear. But a pleading that asserts a new claim for relief against such a party must be served on that party under Rule 4."
+      }
+    ]
+  },
+  {
+    "id": "svc-097",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 1,
+    "front": "Is a certificate of service required when a paper is served by filing it with the electronic-filing system?",
+    "back": "No certificate of service is required",
+    "cites": [
+      {
+        "cite": "5(d)(1)(B)",
+        "quote": "No certificate of service is required when a paper is served by filing it with the court's electronic-filing system."
+      }
+    ]
+  },
+  {
+    "id": "svc-098",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5"
+    ],
+    "level": 1,
+    "front": "When is service through the electronic-filing system or other consented electronic means complete?",
+    "back": "service is complete upon filing or sending",
+    "cites": [
+      {
+        "cite": "5(b)(2)(E)",
+        "quote": "sending it to a registered user by filing it with the court's electronic-filing system or sending it by other electronic means that the person consented to in writing—in either of which events service is complete upon filing or sending"
+      }
+    ]
+  },
+  {
+    "id": "svc-099",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "7"
+    ],
+    "level": 1,
+    "front": "When is a reply to an answer an allowed pleading?",
+    "back": "if the court orders one",
+    "cites": [
+      {
+        "cite": "7(a)(7)",
+        "quote": "if the court orders one, a reply to an answer"
+      }
+    ]
+  },
+  {
+    "id": "svc-100",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "7"
+    ],
+    "level": 1,
+    "front": "How must a request for a court order be made?",
+    "back": "must be made by motion",
+    "cites": [
+      {
+        "cite": "7(b)(1)",
+        "quote": "A request for a court order must be made by motion."
+      }
+    ]
+  },
+  {
+    "id": "svc-101",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "7"
+    ],
+    "level": 1,
+    "front": "A motion must be in writing unless made when?",
+    "back": "unless made during a hearing or trial",
+    "cites": [
+      {
+        "cite": "7(b)(1)(A)",
+        "quote": "be in writing unless made during a hearing or trial"
+      }
+    ]
+  },
+  {
+    "id": "svc-102",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "7"
+    ],
+    "level": 1,
+    "front": "What must a motion state about its grounds?",
+    "back": "state with particularity the grounds for seeking the order",
+    "cites": [
+      {
+        "cite": "7(b)(1)(B)",
+        "quote": "state with particularity the grounds for seeking the order"
+      }
+    ]
+  },
+  {
+    "id": "svc-103",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "7"
+    ],
+    "level": 1,
+    "front": "Which responsive pleading does Rule 7(a)(3) allow to a counterclaim?",
+    "back": "an answer to a counterclaim designated as a counterclaim",
+    "cites": [
+      {
+        "cite": "7(a)(3)",
+        "quote": "an answer to a counterclaim designated as a counterclaim"
+      }
+    ]
+  },
+  {
+    "id": "svc-104",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 1,
+    "front": "How particularly must the circumstances constituting fraud or mistake be stated?",
+    "back": "state with particularity the circumstances constituting fraud or mistake",
+    "cites": [
+      {
+        "cite": "9(b)",
+        "quote": "In alleging fraud or mistake, a party must state with particularity the circumstances constituting fraud or mistake."
+      }
+    ]
+  },
+  {
+    "id": "svc-105",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 1,
+    "front": "How may malice, intent, knowledge and other conditions of mind be alleged?",
+    "back": "may be alleged generally",
+    "cites": [
+      {
+        "cite": "9(b)",
+        "quote": "Malice, intent, knowledge, and other conditions of a person's mind may be alleged generally."
+      }
+    ]
+  },
+  {
+    "id": "svc-106",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 1,
+    "front": "How may conditions precedent be pleaded?",
+    "back": "it suffices to allege generally that all conditions precedent have occurred or been performed",
+    "cites": [
+      {
+        "cite": "9(c)",
+        "quote": "it suffices to allege generally that all conditions precedent have occurred or been performed"
+      }
+    ]
+  },
+  {
+    "id": "svc-107",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 1,
+    "front": "How must a party deny that a condition precedent has occurred or been performed?",
+    "back": "must do so with particularity",
+    "cites": [
+      {
+        "cite": "9(c)",
+        "quote": "But when denying that a condition precedent has occurred or been performed, a party must do so with particularity."
+      }
+    ]
+  },
+  {
+    "id": "svc-108",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 1,
+    "front": "How must an item of special damage be pleaded?",
+    "back": "it must be specifically stated",
+    "cites": [
+      {
+        "cite": "9(g)",
+        "quote": "If an item of special damage is claimed, it must be specifically stated."
+      }
+    ]
+  },
+  {
+    "id": "svc-109",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "1"
+    ],
+    "level": 1,
+    "front": "What goal should the rules be construed, administered and employed to secure?",
+    "back": "just, speedy, and inexpensive determination of every action and proceeding",
+    "cites": [
+      {
+        "cite": "1",
+        "quote": "They should be construed, administered, and employed by the court and the parties to secure the just, speedy, and inexpensive determination of every action and proceeding."
+      }
+    ]
+  },
+  {
+    "id": "svc-110",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "1"
+    ],
+    "level": 1,
+    "front": "To which proceedings do the Federal Rules of Civil Procedure apply?",
+    "back": "all civil actions and proceedings in the United States district courts",
+    "cites": [
+      {
+        "cite": "1",
+        "quote": "These rules govern the procedure in all civil actions and proceedings in the United States district courts, except as stated in Rule 81."
+      }
+    ]
+  },
+  {
+    "id": "svc-111",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "2"
+    ],
+    "level": 1,
+    "front": "How many forms of action are there under the Federal Rules?",
+    "back": "There is one form of action",
+    "cites": [
+      {
+        "cite": "2",
+        "quote": "There is one form of action—the civil action."
+      }
+    ]
+  },
+  {
+    "id": "svc-112",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "2"
+    ],
+    "level": 1,
+    "front": "What is the one form of action called?",
+    "back": "the civil action",
+    "cites": [
+      {
+        "cite": "2",
+        "quote": "There is one form of action—the civil action."
+      }
+    ]
+  },
+  {
+    "id": "svc-113",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4.1"
+    ],
+    "level": 1,
+    "front": "Who must serve process other than a summons or subpoena?",
+    "back": "a United States marshal or deputy marshal or by a person specially appointed for that purpose",
+    "cites": [
+      {
+        "cite": "4.1(a)",
+        "quote": "must be served by a United States marshal or deputy marshal or by a person specially appointed for that purpose"
+      }
+    ]
+  },
+  {
+    "id": "svc-114",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "4.1"
+    ],
+    "level": 1,
+    "front": "Where may process under Rule 4.1 be served, absent a federal statute authorizing more?",
+    "back": "anywhere within the territorial limits of the state where the district court is located",
+    "cites": [
+      {
+        "cite": "4.1(a)",
+        "quote": "It may be served anywhere within the territorial limits of the state where the district court is located"
+      }
+    ]
+  },
+  {
+    "id": "svc-115",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5.1"
+    ],
+    "level": 1,
+    "front": "How long may the attorney general intervene after notice of a constitutional challenge to a statute?",
+    "back": "within 60 days after the notice is filed or after the court certifies the challenge, whichever is earlier",
+    "cites": [
+      {
+        "cite": "5.1(c)",
+        "quote": "the attorney general may intervene within 60 days after the notice is filed or after the court certifies the challenge, whichever is earlier"
+      }
+    ]
+  },
+  {
+    "id": "svc-116",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5.1"
+    ],
+    "level": 1,
+    "front": "Does a party's failure to file and serve the notice of constitutional question forfeit its constitutional claim?",
+    "back": "does not forfeit a constitutional claim or defense that is otherwise timely asserted",
+    "cites": [
+      {
+        "cite": "5.1(d)",
+        "quote": "A party's failure to file and serve the notice, or the court's failure to certify, does not forfeit a constitutional claim or defense that is otherwise timely asserted."
+      }
+    ]
+  },
+  {
+    "id": "svc-117",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5.2"
+    ],
+    "level": 1,
+    "front": "What part of a social-security number may a filing include?",
+    "back": "the last four digits of the social-security number and taxpayer-identification number",
+    "cites": [
+      {
+        "cite": "5.2(a)(1)",
+        "quote": "the last four digits of the social-security number and taxpayer-identification number"
+      }
+    ]
+  },
+  {
+    "id": "svc-118",
+    "kind": "recall",
+    "topic": "scope",
+    "rules": [
+      "5.2"
+    ],
+    "level": 1,
+    "front": "How may a minor be identified in a filing?",
+    "back": "the minor's initials",
+    "cites": [
+      {
+        "cite": "5.2(a)(3)",
+        "quote": "the minor's initials"
+      }
+    ]
+  },
+  {
+    "id": "svc-119",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "7.1"
+    ],
+    "level": 1,
+    "front": "What must a nongovernmental corporate party's disclosure statement identify?",
+    "back": "any parent corporation and any publicly held corporation owning 10% or more of its stock",
+    "cites": [
+      {
+        "cite": "7.1(a)(1)(A)",
+        "quote": "identifies any parent corporation and any publicly held corporation owning 10% or more of its stock"
+      }
+    ]
+  },
+  {
+    "id": "svc-120",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "7.1"
+    ],
+    "level": 1,
+    "front": "When must a disclosure statement be filed?",
+    "back": "with its first appearance, pleading, petition, motion, response, or other request addressed to the court",
+    "cites": [
+      {
+        "cite": "7.1(b)(1)",
+        "quote": "file the disclosure statement with its first appearance, pleading, petition, motion, response, or other request addressed to the court"
+      }
+    ]
+  },
+  {
+    "id": "svc-121",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "10"
+    ],
+    "level": 1,
+    "front": "What must the caption of every pleading contain?",
+    "back": "the court's name, a title, a file number, and a Rule 7(a) designation",
+    "cites": [
+      {
+        "cite": "10(a)",
+        "quote": "Every pleading must have a caption with the court's name, a title, a file number, and a Rule 7(a) designation."
+      }
+    ]
+  },
+  {
+    "id": "svc-122",
+    "kind": "recall",
+    "topic": "pleading",
+    "rules": [
+      "10"
+    ],
+    "level": 1,
+    "front": "How must a party state its claims or defenses?",
+    "back": "in numbered paragraphs",
+    "cites": [
+      {
+        "cite": "10(b)",
+        "quote": "A party must state its claims or defenses in numbered paragraphs"
+      }
+    ]
+  }
+]

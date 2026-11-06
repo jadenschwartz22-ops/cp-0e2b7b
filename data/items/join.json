@@ -1,0 +1,2952 @@
+[
+  {
+    "id": "join-001",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "stem": "Tern Logistics sues Ames Freight for breach of a contract under which Ames was to deliver goods to a warehouse owned by Corbin, and asks for orders directing both delivery by Ames and acceptance of the goods by the warehouse. Corbin is not a party. The court finds that, without Corbin, it cannot give Tern and Ames complete relief between themselves. Corbin can be served, and joining Corbin would not affect jurisdiction or venue.",
+    "ask": "Which provision makes Corbin a person who must be joined?",
+    "options": [
+      {
+        "t": "Rule 19(a)(1)(B)(i), because Corbin's ability to protect its interest may be impaired.",
+        "why": "Rule 19(a)(1)(B) applies only to a person who claims an interest relating to the subject of the action; Corbin has claimed none."
+      },
+      {
+        "t": "Rule 19(b), because the court must decide in equity and good conscience whether to proceed.",
+        "why": "Rule 19(b) applies only after a required person cannot be joined; Corbin can be joined, so the factors are not reached."
+      },
+      {
+        "t": "Rule 19(a)(1)(A), because without Corbin the court cannot accord complete relief among existing parties.",
+        "why": "Correct. The court's finding that it cannot give Tern and Ames complete relief is exactly the Rule 19(a)(1)(A) test."
+      },
+      {
+        "t": "Rule 19(a)(1)(B)(ii), because Ames faces a risk of inconsistent obligations.",
+        "why": "Rule 19(a)(1)(B)(ii) needs a claimed interest and a substantial risk of double or inconsistent obligations; neither is described."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 19(a)(1)(A) requires joinder of a person who can be served and whose joinder will not defeat jurisdiction when, in that person's absence, the court cannot accord complete relief among existing parties. The court so found as to Corbin. Subparagraph (B) turns on a claimed interest, and Rule 19(b) is reached only when a required person cannot be joined.",
+    "cites": [
+      {
+        "cite": "19(a)(1)(A)",
+        "quote": "in that person's absence, the court cannot accord complete relief among existing parties"
+      }
+    ]
+  },
+  {
+    "id": "join-002",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 2,
+    "stem": "Vega sues Hart Realty, asking the court to declare void Hart's sale of a lakefront parcel to Ostrom, who holds the deed and claims to own the parcel. Ostrom is not named as a party. The court agrees it could give Vega and Hart complete relief between themselves. Ostrom can be served, and joining Ostrom would not affect jurisdiction or venue.",
+    "ask": "Must Ostrom be joined?",
+    "options": [
+      {
+        "t": "No. Rule 19(a)(1)(A) is the only ground for required joinder, and complete relief is possible without Ostrom.",
+        "why": "Subparagraphs (A) and (B) are alternatives joined by 'or'; satisfying (B) is enough even when (A) is not met."
+      },
+      {
+        "t": "No. Only a plaintiff decides whom to sue, so the court cannot add Ostrom.",
+        "why": "Rule 19(a)(2) provides that if a person has not been joined as required, the court must order that the person be made a party."
+      },
+      {
+        "t": "Yes, but only after Ostrom moves to intervene under Rule 24.",
+        "why": "Rule 19(a) imposes no intervention precondition; the court itself must order joinder under Rule 19(a)(2)."
+      },
+      {
+        "t": "Yes. Ostrom claims an interest in the parcel, and a judgment voiding the sale in Ostrom's absence may impair Ostrom's ability to protect it.",
+        "why": "Correct. Rule 19(a)(1)(B)(i): a claimed interest plus a practical risk of impairment."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 19(a)(1)(B)(i) requires joinder of a person who claims an interest relating to the subject of the action and is so situated that deciding the case without that person may, as a practical matter, impair or impede the person's ability to protect it. Ostrom holds the deed and claims ownership, so a judgment voiding the sale could do exactly that. Rule 19(a)(1)(A) is an alternative, not a prerequisite.",
+    "cites": [
+      {
+        "cite": "19(a)(1)(B)",
+        "quote": "claims an interest relating to the subject of the action and is so situated that disposing of the action in the person's absence may"
+      },
+      {
+        "cite": "19(a)(1)(B)(i)",
+        "quote": "impair or impede the person's ability to protect the interest"
+      },
+      {
+        "cite": "19(a)(2)",
+        "quote": "the court must order that the person be made a party"
+      }
+    ]
+  },
+  {
+    "id": "join-003",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 2,
+    "stem": "Quincy sues Pelham Mutual, an insurer, to collect $100,000 in life-policy proceeds as the policy's beneficiary. Rask also claims to be the beneficiary and has told Pelham so in writing. Rask is not a party, can be served, and could be joined without affecting jurisdiction or venue. Pelham argues that Rask must be joined to protect Pelham itself, not just Rask.",
+    "ask": "Which provision speaks to the risk Pelham, an existing party, faces if Rask is absent?",
+    "options": [
+      {
+        "t": "Rule 19(a)(1)(B)(i), which protects Rask's ability to protect his own interest.",
+        "why": "Subparagraph (i) addresses harm to the absent person; the stem asks about the risk to an existing party."
+      },
+      {
+        "t": "Rule 19(a)(1)(B)(ii), which covers a substantial risk of double or inconsistent obligations to an existing party.",
+        "why": "Correct. Pelham could owe the proceeds to Quincy and again to Rask."
+      },
+      {
+        "t": "Rule 19(b)(1), which asks about prejudice to the existing parties.",
+        "why": "Rule 19(b) is reached only when a required person cannot be joined; here Rask can be joined."
+      },
+      {
+        "t": "Rule 19(c), which makes Rask a required party once Pelham pleads his name.",
+        "why": "Rule 19(c) is a pleading duty to state names and reasons; it does not make anyone required."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 19(a)(1)(B)(ii) covers a person who claims an interest and is so situated that disposing of the action in that person's absence may leave an existing party subject to a substantial risk of double, multiple, or otherwise inconsistent obligations because of the interest. Pelham could be ordered to pay Quincy and then Rask. Subparagraph (i), by contrast, concerns harm to the absent person.",
+    "cites": [
+      {
+        "cite": "19(a)(1)(B)(ii)",
+        "quote": "leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest"
+      },
+      {
+        "cite": "19(a)(1)(B)(i)",
+        "quote": "impair or impede the person's ability to protect the interest"
+      }
+    ]
+  },
+  {
+    "id": "join-004",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 2,
+    "stem": "Dunmore sues Eller Co. in federal court. The court finds that Fisk must be joined if feasible and orders Fisk made a party. Once joined, Fisk objects that venue is improper as to Fisk. The court agrees that joining Fisk makes venue improper.",
+    "ask": "What does Rule 19(a)(3) require the court to do?",
+    "options": [
+      {
+        "t": "Dismiss Fisk as a party.",
+        "why": "Correct. Rule 19(a)(3): if a joined party objects to venue and joinder would make venue improper, the court must dismiss that party."
+      },
+      {
+        "t": "Overrule the objection, because an order of joinder under Rule 19(a)(2) displaces venue objections.",
+        "why": "Rule 19(a)(3) expressly gives a joined party's venue objection effect."
+      },
+      {
+        "t": "Dismiss the entire action immediately, because a required person is missing.",
+        "why": "Rule 19(a)(3) dismisses only the party; whether the action proceeds is Rule 19(b)'s separate question."
+      },
+      {
+        "t": "Treat the objection as waived, because Fisk did not raise it before being ordered joined.",
+        "why": "Rule 19(a)(3) covers a joined party who objects; it contains no waiver-by-joinder rule."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 19(a)(3) says that if a joined party objects to venue and the joinder would make venue improper, the court must dismiss that party. Fisk objected after being joined, and the court agreed that venue would be improper. Dismissing the whole action is not what subdivision (a)(3) commands; whether to proceed without Fisk is for Rule 19(b).",
+    "cites": [
+      {
+        "cite": "19(a)(3)",
+        "quote": "If a joined party objects to venue and the joinder would make venue improper, the court must dismiss that party."
+      }
+    ]
+  },
+  {
+    "id": "join-005",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 3,
+    "stem": "Hale Dairy sues Pruitt Farms over a milk-supply contract. Ward, a required person, cannot be joined. The judge asks what favors letting the case go forward. The court can write a judgment that binds only Hale and Pruitt and leaves Ward's separate contract untouched. Hale has no other court in which it could bring this claim.",
+    "ask": "What is Hale's best argument that the action should proceed without Ward?",
+    "options": [
+      {
+        "t": "Ward refuses to join, so Rule 19(a)(2) lets the court proceed without Ward.",
+        "why": "Rule 19(a)(2) concerns ordering joinder; it does not authorize proceeding when joinder fails."
+      },
+      {
+        "t": "Hale chose its parties, and Rule 19 gives the plaintiff the final say on whether to proceed.",
+        "why": "Rule 19(b) puts the decision in the court, which weighs equity and good conscience."
+      },
+      {
+        "t": "Under Rule 19(b), prejudice can be lessened by shaping the relief, and Hale would have no adequate remedy if the action were dismissed.",
+        "why": "Correct. These are Rule 19(b)(2)(B) and Rule 19(b)(4) factors, which favor proceeding."
+      },
+      {
+        "t": "Under Rule 19(d), Rule 19 stops applying once a person cannot be joined.",
+        "why": "Rule 19(d) only makes the rule subject to Rule 23 for class actions."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "When a required person cannot be joined, Rule 19(b) has the court decide, in equity and good conscience, whether to proceed or dismiss. The listed factors include whether prejudice can be lessened by shaping the relief and whether the plaintiff would have an adequate remedy if the action were dismissed. Both favor Hale. The decision belongs to the court, not to Hale.",
+    "cites": [
+      {
+        "cite": "19(b)",
+        "quote": "whether, in equity and good conscience, the action should proceed among the existing parties or should be dismissed"
+      },
+      {
+        "cite": "19(b)(2)(B)",
+        "quote": "shaping the relief"
+      },
+      {
+        "cite": "19(b)(4)",
+        "quote": "whether the plaintiff would have an adequate remedy if the action were dismissed for nonjoinder"
+      }
+    ]
+  },
+  {
+    "id": "join-006",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "stem": "Lund sues Moss Builders for breach of a construction contract. Lund knows that Nye, a subcontractor who claims an interest in the same contract payments, is a person who is required to be joined if feasible. Lund does not name Nye in the complaint and says nothing about Nye.",
+    "ask": "What does Rule 19(c) require of Lund's complaint?",
+    "options": [
+      {
+        "t": "Nothing, because Rule 19(c) binds only a defendant answering a complaint.",
+        "why": "Rule 19(c) applies to a party 'asserting a claim for relief', which includes Lund."
+      },
+      {
+        "t": "Nye's name only; the court supplies the reasons.",
+        "why": "Rule 19(c) requires the pleader to state both the name and the reasons for not joining."
+      },
+      {
+        "t": "Leave of court before omitting Nye.",
+        "why": "Rule 19(c) is a pleading duty; it creates no leave requirement."
+      },
+      {
+        "t": "Nye's name, if known, and the reasons for not joining Nye.",
+        "why": "Correct. Rule 19(c)(1) and (2)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 19(c) requires a party asserting a claim for relief to state the name, if known, of any person who is required to be joined if feasible but is not joined, and the reasons for not joining that person. Lund knows Nye's identity and said nothing, so the complaint falls short.",
+    "cites": [
+      {
+        "cite": "19(c)",
+        "quote": "When asserting a claim for relief, a party must state:"
+      },
+      {
+        "cite": "19(c)(1)",
+        "quote": "the name, if known, of any person who is required to be joined if feasible but is not joined"
+      },
+      {
+        "cite": "19(c)(2)",
+        "quote": "the reasons for not joining that person"
+      }
+    ]
+  },
+  {
+    "id": "join-007",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 3,
+    "stem": "Three siblings jointly hold a quarry lease. Two of them, Ortiz and Park, sue Rockline Mining for breach of the lease. The third, Quade, claims an interest in the lease but refuses to join as a plaintiff. The court finds that Quade is required to be joined, and Quade can be served and joined without any jurisdiction or venue problem.",
+    "ask": "What may the court do?",
+    "options": [
+      {
+        "t": "Dismiss the action, because a person who refuses to join cannot be made a party.",
+        "why": "Rule 19(a)(2) says the court must order that the person be made a party; refusal does not end the matter."
+      },
+      {
+        "t": "Order Quade made a party, either as a defendant or, in a proper case, as an involuntary plaintiff.",
+        "why": "Correct. Rule 19(a)(2), second sentence."
+      },
+      {
+        "t": "Order Quade joined, but only as a defendant.",
+        "why": "The rule also allows an involuntary plaintiff in a proper case."
+      },
+      {
+        "t": "Make Quade a party only if Rockline consents.",
+        "why": "Rule 19(a)(2) contains no consent requirement."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 19(a)(2) provides that if a person has not been joined as required, the court must order that the person be made a party. A person who refuses to join as a plaintiff may be made either a defendant or, in a proper case, an involuntary plaintiff. Quade's refusal therefore does not defeat joinder.",
+    "cites": [
+      {
+        "cite": "19(a)(2)",
+        "quote": "the court must order that the person be made a party. A person who refuses to join as a plaintiff may be made either a defendant or, in a proper case, an involuntary plaintiff."
+      }
+    ]
+  },
+  {
+    "id": "join-008",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 3,
+    "stem": "Singh sues Tidewater Energy on behalf of 3,000 landowners, and the court certifies the case as a class action under Rule 23. Tidewater moves to dismiss under Rule 19, arguing that every absent landowner claims an interest in the same lease payments and so must be joined individually under Rule 19(a)(1)(B).",
+    "ask": "How should the court treat the argument?",
+    "options": [
+      {
+        "t": "Accept it: each landowner must be joined or the action dismissed under Rule 19(b).",
+        "why": "Ignores Rule 19(d), which makes Rule 19 subject to Rule 23."
+      },
+      {
+        "t": "Accept it unless the class was certified under Rule 23(b)(3), the only type that overrides Rule 19.",
+        "why": "Rule 19(d) subjects the whole rule to Rule 23 and names no particular Rule 23(b) type."
+      },
+      {
+        "t": "Reject it as a Rule 19 matter, because Rule 19(d) makes the rule subject to Rule 23.",
+        "why": "Correct. Rule 19(d): the class device governs representation of absent members."
+      },
+      {
+        "t": "Reject it, because Rule 20 permissive joinder replaces Rule 19 whenever there are more than 100 claimants.",
+        "why": "No numeric threshold exists, and Rule 20 does not displace Rule 19."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 19(d) states that Rule 19 is subject to Rule 23. In a certified class action, absent class members are represented by the class representatives under Rule 23, so Tidewater cannot insist that each be joined under Rule 19(a). Rule 19 yields to the class rule; it is not limited to a particular Rule 23(b) category.",
+    "cites": [
+      {
+        "cite": "19(d)",
+        "quote": "This rule is subject to Rule 23."
+      }
+    ]
+  },
+  {
+    "id": "join-009",
+    "kind": "issue",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 2,
+    "stem": "Fenn sues Gage Farms to determine ownership of a well on the boundary of their land. Ives, a neighbor who claims a right to draw water from the well, is not named. Ives can be served, and joining him would not affect jurisdiction or venue. The court finds it can give Fenn and Gage complete relief between themselves. A judgment for Fenn could leave Ives unable to protect his claimed right and could expose Gage to conflicting duties to Fenn and Ives. Fenn's complaint says nothing about Ives or why he was omitted. No class is involved.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 19(a)(1)(A)",
+        "why": "The court found it can give Fenn and Gage complete relief without Ives."
+      },
+      {
+        "t": "Rule 19(a)(1)(B)(i)",
+        "why": "Ives claims an interest, and the judgment could impair his ability to protect it."
+      },
+      {
+        "t": "Rule 19(a)(1)(B)(ii)",
+        "why": "Gage faces a substantial risk of conflicting obligations because of Ives's interest."
+      },
+      {
+        "t": "Rule 19(a)(3)",
+        "why": "No joined party has objected to venue."
+      },
+      {
+        "t": "Rule 19(b)",
+        "why": "Joinder is feasible, so the Rule 19(b) factors for infeasible joinder are not reached."
+      },
+      {
+        "t": "Rule 19(c)",
+        "why": "Fenn's complaint omits Ives's name and the reason for not joining him."
+      },
+      {
+        "t": "Rule 19(d)",
+        "why": "No class action is involved."
+      }
+    ],
+    "key": [
+      1,
+      2,
+      5
+    ],
+    "explain": "Ives claims an interest and a judgment could impair his ability to protect it (19(a)(1)(B)(i)), and Gage faces possible inconsistent obligations (19(a)(1)(B)(ii)). Fenn failed to state Ives's name and the reasons for omitting him (19(c)). Complete relief is possible, no venue objection exists, joinder is feasible, and no class is involved.",
+    "cites": [
+      {
+        "cite": "19(a)(1)(B)",
+        "quote": "claims an interest relating to the subject of the action and is so situated that disposing of the action in the person's absence may"
+      },
+      {
+        "cite": "19(c)",
+        "quote": "When asserting a claim for relief, a party must state:"
+      }
+    ]
+  },
+  {
+    "id": "join-010",
+    "kind": "issue",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 3,
+    "stem": "Dray Corp. sues Eagle Inc. The court finds that Ward claims an interest in the subject of the suit and that disposing of the case without Ward may impair Ward's ability to protect it. The court could give Dray and Eagle complete relief, and Eagle faces no risk of inconsistent obligations. Dray's complaint named Ward and explained why Ward was omitted. The court orders Ward joined. Once joined, Ward objects that venue is improper as to Ward, and the court agrees. No class is involved.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 19(a)(1)(A)",
+        "why": "The court could give Dray and Eagle complete relief without Ward."
+      },
+      {
+        "t": "Rule 19(a)(1)(B)(i)",
+        "why": "Ward claims an interest and a judgment may impair Ward's ability to protect it."
+      },
+      {
+        "t": "Rule 19(a)(1)(B)(ii)",
+        "why": "Eagle faces no risk of double or inconsistent obligations."
+      },
+      {
+        "t": "Rule 19(a)(2)",
+        "why": "The court must order a person who has not been joined as required to be made a party."
+      },
+      {
+        "t": "Rule 19(a)(3)",
+        "why": "Ward, once joined, objected to venue and joinder would make venue improper, so the court must dismiss Ward."
+      },
+      {
+        "t": "Rule 19(b)",
+        "why": "Ward cannot be joined, so the court decides whether to proceed or dismiss."
+      },
+      {
+        "t": "Rule 19(c)",
+        "why": "Dray's complaint already named Ward and gave the reasons."
+      }
+    ],
+    "key": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "explain": "Ward is required under 19(a)(1)(B)(i) and the court must order joinder (19(a)(2)). Ward's venue objection forces dismissal of Ward (19(a)(3)), so joinder is not feasible and the court weighs 19(b). Subparagraph (A) and (B)(ii) are not met, and Dray satisfied 19(c) by naming Ward and stating reasons.",
+    "cites": [
+      {
+        "cite": "19(a)(1)(B)(i)",
+        "quote": "impair or impede the person's ability to protect the interest"
+      },
+      {
+        "cite": "19(a)(3)",
+        "quote": "If a joined party objects to venue and the joinder would make venue improper, the court must dismiss that party."
+      },
+      {
+        "cite": "19(b)",
+        "quote": "If a person who is required to be joined if feasible cannot be joined, the court must determine whether, in equity and good conscience, the action should proceed among the existing parties or should be dismissed."
+      }
+    ]
+  },
+  {
+    "id": "join-011",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "stem": "Reyes and Sato were both passengers on a Metro Lines bus when it collided with a truck, and each was injured. They file one complaint against Metro Lines, each alleging that the driver was negligent. Metro Lines moves to sever, arguing that two plaintiffs may not sue together without the court's permission.",
+    "ask": "Are Reyes and Sato properly joined as plaintiffs?",
+    "options": [
+      {
+        "t": "No. Each plaintiff must first obtain leave of court before joining another plaintiff.",
+        "why": "Rule 20(a)(1) says persons may join when its conditions are met; it requires no leave."
+      },
+      {
+        "t": "Yes. Their claims arise out of the same occurrence, and a common question about the driver's negligence will arise.",
+        "why": "Correct. Rule 20(a)(1)(A) and (B) are both satisfied."
+      },
+      {
+        "t": "No. Joinder requires that both plaintiffs seek identical damages.",
+        "why": "Rule 20(a)(3): a plaintiff need not be interested in all the relief demanded, so differing damages do not defeat joinder."
+      },
+      {
+        "t": "Yes, but only because there is a single defendant.",
+        "why": "Rule 20(a)(1) contains no single-defendant limit."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 20(a)(1) lets persons join as plaintiffs if they assert rights to relief arising out of the same transaction or occurrence and a question of law or fact common to all plaintiffs will arise. One bus collision is one occurrence, and the driver's negligence is a common question. No leave of court is required.",
+    "cites": [
+      {
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "20(a)(1)(B)",
+        "quote": "any question of law or fact common to all plaintiffs will arise in the action"
+      }
+    ]
+  },
+  {
+    "id": "join-012",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 2,
+    "stem": "Bell sues two defendants in one complaint. Against Corvid Co., Bell alleges breach of a 2023 equipment lease. Against Dale Inc., Bell alleges that a forklift Dale sold Bell in 2025 was defective. The claims arise from unrelated transactions and the defendants have no other connection, though both claims turn on whether Bell gave notice within a reasonable time.",
+    "ask": "Are Corvid and Dale properly joined as defendants under Rule 20(a)(2)?",
+    "options": [
+      {
+        "t": "Yes. A single plaintiff may join any defendants against whom the plaintiff has claims.",
+        "why": "Rule 20(a)(2) imposes its own conditions on joining defendants; having claims against each is not enough."
+      },
+      {
+        "t": "Yes. A common question of law or fact under Rule 20(a)(2)(B) is enough by itself.",
+        "why": "Rule 20(a)(2)(A) and (B) are joined by 'and'; both must be met."
+      },
+      {
+        "t": "No, unless Corvid and Dale both consent to joinder.",
+        "why": "Rule 20 conditions joinder on the relationship of the claims, not on the defendants' consent."
+      },
+      {
+        "t": "No. The claims do not arise out of the same transaction, occurrence, or series, so Rule 20(a)(2)(A) is unmet despite a common question.",
+        "why": "Correct. Both conditions are required, and (A) fails."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Defendants may be joined under Rule 20(a)(2) only if a right to relief is asserted against them with respect to or arising out of the same transaction, occurrence, or series, and a common question will arise. The lease and the forklift sale are unrelated, so (A) fails. The shared notice question satisfies only (B), which is not sufficient alone.",
+    "cites": [
+      {
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "20(a)(2)(B)",
+        "quote": "any question of law or fact common to all defendants will arise in the action"
+      }
+    ]
+  },
+  {
+    "id": "join-013",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 2,
+    "stem": "Three borrowers each signed a loan with Vance Lending during one month. Each alleges that Vance's loan officer, reading from a single written script that Vance prepared for one promotion, misstated the interest rate. The borrowers sue Vance together in one action. Vance moves to sever, arguing that each loan was a separate transaction.",
+    "ask": "Are the borrowers properly joined as plaintiffs under Rule 20(a)(1)?",
+    "options": [
+      {
+        "t": "Yes. Their claims arise out of a series of transactions, and a question common to all plaintiffs, whether the script was misleading, will arise.",
+        "why": "Correct. Rule 20(a)(1)(A) reaches 'a series of transactions or occurrences', and (B) is met."
+      },
+      {
+        "t": "No. Rule 20(a)(1)(A) requires a single transaction; a series does not satisfy it.",
+        "why": "The text expressly includes 'series of transactions or occurrences'."
+      },
+      {
+        "t": "No. Each plaintiff must have signed the same loan.",
+        "why": "The rule demands a common transaction, occurrence or series, not a common contract."
+      },
+      {
+        "t": "Yes, but only if Vance consents to joinder.",
+        "why": "Rule 20(a)(1) has no consent requirement."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 20(a)(1)(A) allows joinder of plaintiffs whose rights to relief arise out of the same transaction, occurrence, or series of transactions or occurrences. Each loan was a separate transaction, but together they form a series arising from one promotion and one script, and whether the script was misleading is common to all plaintiffs under (B).",
+    "cites": [
+      {
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "20(a)(1)(B)",
+        "quote": "any question of law or fact common to all plaintiffs will arise in the action"
+      }
+    ]
+  },
+  {
+    "id": "join-014",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "stem": "Wu, Xie and Yang sue Zenith Plastics in one action over a plant explosion that injured all three. The complaint demands damages for each plaintiff and an injunction requiring Zenith to replace a safety valve. Wu has moved away and seeks only damages. Zenith moves to drop Wu, arguing that Wu is not interested in all of the relief demanded.",
+    "ask": "Should the court drop Wu on that ground?",
+    "options": [
+      {
+        "t": "Yes. Each plaintiff must be interested in all the relief demanded.",
+        "why": "Rule 20(a)(3) says the opposite."
+      },
+      {
+        "t": "Yes, unless Wu amends to demand the injunction too.",
+        "why": "No amendment is needed; Wu need not be interested in all the relief."
+      },
+      {
+        "t": "No. A plaintiff need not be interested in obtaining all the relief demanded, and the court may grant judgment to each plaintiff according to that plaintiff's rights.",
+        "why": "Correct. Rule 20(a)(3)."
+      },
+      {
+        "t": "No, but only if Zenith agrees that Wu may remain.",
+        "why": "Rule 20(a)(3) requires no consent from the opposing party."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 20(a)(3) states that neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded, and the court may grant judgment to one or more plaintiffs according to their rights. Wu's lack of interest in the injunction therefore is no ground to drop Wu.",
+    "cites": [
+      {
+        "cite": "20(a)(3)",
+        "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded."
+      },
+      {
+        "cite": "20(a)(3)",
+        "quote": "The court may grant judgment to one or more plaintiffs according to their rights, and against one or more defendants according to their liabilities."
+      }
+    ]
+  },
+  {
+    "id": "join-015",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 3,
+    "stem": "Moore sues three defendants in one action, properly joined under Rule 20(a)(2): Northgate Bank, Olsen Co. and Prado Inc., all over one fraud. Northgate asserts no claim against Prado, and Prado asserts none against Northgate. Northgate moves for separate trials, arguing that evidence of Prado's unrelated regulatory troubles will embarrass Northgate and delay its case.",
+    "ask": "May the court order separate trials?",
+    "options": [
+      {
+        "t": "No. Once joinder is proper under Rule 20(a), the court has no power to order separate trials.",
+        "why": "Rule 20(b) gives the court power to protect a party even when joinder is proper."
+      },
+      {
+        "t": "Yes, and it must; separate trials are mandatory on any defendant's request.",
+        "why": "Rule 20(b) says the court 'may' issue protective orders."
+      },
+      {
+        "t": "No, because Rule 20(b) protects only against improperly joined persons.",
+        "why": "Rule 20(b) addresses prejudice from including a person against whom the party asserts no claim and who asserts no claim against it, however proper the joinder."
+      },
+      {
+        "t": "Yes. Rule 20(b) permits protective orders, including separate trials, against prejudice from including a person with whom Northgate has no claims either way.",
+        "why": "Correct. Northgate and Prado assert no claims against each other."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 20(b) lets the court issue orders, including separate trials, to protect a party against embarrassment, delay, expense or other prejudice arising from including a person against whom the party asserts no claim and who asserts no claim against the party. Northgate and Prado have no claims against each other, so the court may order separate trials.",
+    "cites": [
+      {
+        "cite": "20(b)",
+        "quote": "The court may issue orders—including an order for separate trials—to protect a party against embarrassment, delay, expense, or other prejudice that arises from including a person against whom the party asserts no claim and who asserts no claim against the party."
+      }
+    ]
+  },
+  {
+    "id": "join-016",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 3,
+    "stem": "Rosen was struck by a car on Elm Street at night. He is certain that one of two cars hit him but cannot tell whether the driver was Kapoor or Lyons, both of whom were on Elm Street at that time. Rosen sues both in one complaint, asserting that Kapoor is liable or, if not Kapoor, Lyons. Both defendants move to dismiss the claim against the other, arguing Rosen must choose one defendant before suing.",
+    "ask": "May Rosen join Kapoor and Lyons as defendants?",
+    "options": [
+      {
+        "t": "Yes. Rule 20(a)(2) allows relief to be asserted against defendants in the alternative, and the same occurrence and a common question are present.",
+        "why": "Correct. Rule 20(a)(2)(A) lists 'in the alternative', and (B) is met."
+      },
+      {
+        "t": "No. Rule 20(a)(2) permits joinder only of defendants who are jointly liable.",
+        "why": "The rule covers relief asserted jointly, severally, or in the alternative."
+      },
+      {
+        "t": "No. Rosen must prove which driver struck him before suing both.",
+        "why": "Rule 20(a)(2) imposes no proof-first requirement."
+      },
+      {
+        "t": "Yes, but only if the court first finds that each driver is required under Rule 19.",
+        "why": "Rule 20 joinder is independent of Rule 19; it needs no finding of required status."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 20(a)(2)(A) permits joinder of defendants when a right to relief is asserted against them jointly, severally, or in the alternative arising out of the same occurrence. Rosen asserts liability against Kapoor or, alternatively, Lyons, from one accident, and a common question (what happened on Elm Street) will arise under (B). Rosen need not pick one first.",
+    "cites": [
+      {
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "20(a)(2)(B)",
+        "quote": "any question of law or fact common to all defendants will arise in the action"
+      }
+    ]
+  },
+  {
+    "id": "join-017",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 2,
+    "stem": "Ford and Gil were both injured in the same Metro Lines bus collision and could have joined as plaintiffs under Rule 20(a)(1). Instead each filed a separate suit in the same court. The court finds that each rider can obtain complete relief in his own suit. Metro Lines moves to dismiss Gil's suit, arguing that Rule 20 required Gil to join Ford's earlier action.",
+    "ask": "Does Rule 20 support the motion?",
+    "options": [
+      {
+        "t": "Yes. When claims arise from the same occurrence, Rule 20(a)(1) requires plaintiffs to join.",
+        "why": "Rule 20(a)(1) says persons 'may' join; it is permissive, not mandatory."
+      },
+      {
+        "t": "No. Rule 20(a)(1) says persons may join, so it permits but does not require joinder.",
+        "why": "Correct."
+      },
+      {
+        "t": "Yes. Rule 19(a)(1)(A) makes every rider with a claim from the same occurrence a required party.",
+        "why": "Rule 19(a)(1)(A) turns on whether complete relief can be given among existing parties; the court found it can."
+      },
+      {
+        "t": "No, but only if the court finds a special reason, because Rule 20 presumes joinder.",
+        "why": "Rule 20 states no presumption and requires no special reason."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 20(a)(1) provides that persons 'may' join in one action as plaintiffs when its conditions are met. Joinder is permissive. Because each rider can get complete relief alone, Rule 19(a)(1)(A) does not make the other rider a required party either. The motion has no basis in Rule 20.",
+    "cites": [
+      {
+        "cite": "20(a)(1)",
+        "quote": "Persons may join in one action as plaintiffs if:"
+      }
+    ]
+  },
+  {
+    "id": "join-018",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "20",
+      "21"
+    ],
+    "level": 3,
+    "stem": "Ash and Bly sue their former employer, Corvid Co., in one complaint. Ash alleges that Corvid wrongfully fired him in 2022 in Maine. Bly alleges that Corvid underpaid her commissions in 2025 in Texas. The claims involve different managers, events and years, and arise from no common series of events, though both depend on the meaning of the same handbook clause. Corvid moves to dismiss the entire action for misjoinder.",
+    "ask": "What is the correct ruling?",
+    "options": [
+      {
+        "t": "Grant the motion, because misjoinder under Rule 20(a)(1) requires dismissal.",
+        "why": "Rule 21 states that misjoinder of parties is not a ground for dismissing an action."
+      },
+      {
+        "t": "Deny the motion and keep both plaintiffs, because a common question under Rule 20(a)(1)(B) is sufficient.",
+        "why": "Rule 20(a)(1)(A) and (B) are both required; (A) fails here."
+      },
+      {
+        "t": "Deny dismissal, but the court may drop a party or sever a claim, because Rule 20(a)(1)(A) is not met.",
+        "why": "Correct. Rule 21: misjoinder is not a ground for dismissal; the court may add or drop a party or sever a claim."
+      },
+      {
+        "t": "Dismiss only the later-arising claim, because Rule 20 favors the first-filed claim.",
+        "why": "Rule 20 states no first-filed preference, and Rule 21 does not authorize dismissal for misjoinder."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "The claims share only a common question, so Rule 20(a)(1)(A) is not met and the plaintiffs are misjoined. But Rule 21 says misjoinder is not a ground for dismissing an action; instead the court may, on just terms, add or drop a party and may sever any claim against a party.",
+    "cites": [
+      {
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action."
+      },
+      {
+        "cite": "21",
+        "quote": "the court may at any time, on just terms, add or drop a party. The court may also sever any claim against a party."
+      }
+    ]
+  },
+  {
+    "id": "join-019",
+    "kind": "issue",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 2,
+    "stem": "Lee, Moss and Nye were each injured when a pipe burst at Alder Court, their apartment building, flooding three units. They sue the owner, Alder Co., in one complaint, alleging negligent maintenance of that pipe. Lee seeks damages and an order to repair the pipe; Moss and Nye seek damages only. Alder moves to drop Moss and Nye. Alder is the only defendant, and no party has asked for protection from any other party's inclusion.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 20(a)(1)(A)",
+        "why": "All three plaintiffs' claims arise out of the same pipe burst."
+      },
+      {
+        "t": "Rule 20(a)(1)(B)",
+        "why": "Whether Alder maintained the pipe negligently is common to all plaintiffs."
+      },
+      {
+        "t": "Rule 20(a)(2)(A)",
+        "why": "Only one defendant is sued, so the rule on joining defendants is not in play."
+      },
+      {
+        "t": "Rule 20(a)(2)(B)",
+        "why": "Only one defendant is sued, so there is no common question among defendants to test."
+      },
+      {
+        "t": "Rule 20(a)(3)",
+        "why": "Moss and Nye need not be interested in the repair order Lee seeks."
+      },
+      {
+        "t": "Rule 20(b)",
+        "why": "No party has asked for protection from a person against whom it asserts no claim."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      4
+    ],
+    "explain": "The plaintiffs may join because their claims arise from one occurrence and share a common question (20(a)(1)(A) and (B)), and differing relief demands do not matter (20(a)(3)). The defendant-joinder provisions do not apply to a single defendant, and nobody sought protective measures under 20(b).",
+    "cites": [
+      {
+        "cite": "20(a)(1)",
+        "quote": "Persons may join in one action as plaintiffs if:"
+      },
+      {
+        "cite": "20(a)(3)",
+        "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded."
+      }
+    ]
+  },
+  {
+    "id": "join-020",
+    "kind": "issue",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 3,
+    "stem": "Gil sues Hoyt, Ives and Jarvis in one complaint over a three-car chain collision, alleging that, depending on how the jury views the sequence, Hoyt is liable, or Ives, or Jarvis. Gil seeks the same damages from each. Hoyt asserts no claim against Jarvis, and Jarvis asserts none against Hoyt. Hoyt moves for a separate trial, arguing that Jarvis's intoxication evidence will embarrass Hoyt and delay Hoyt's case.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 20(a)(1)(A)",
+        "why": "Gil is the only plaintiff, so the rule on joining plaintiffs is not in play."
+      },
+      {
+        "t": "Rule 20(a)(1)(B)",
+        "why": "There is no group of plaintiffs among whom a common question must arise."
+      },
+      {
+        "t": "Rule 20(a)(2)(A)",
+        "why": "Relief is asserted against the defendants in the alternative, arising from one collision."
+      },
+      {
+        "t": "Rule 20(a)(2)(B)",
+        "why": "Who caused the collision is a question common to all defendants."
+      },
+      {
+        "t": "Rule 20(a)(3)",
+        "why": "Gil seeks the same relief from each defendant, so no party seeks different relief that the subsection would excuse."
+      },
+      {
+        "t": "Rule 20(b)",
+        "why": "Hoyt seeks protection from prejudice caused by including Jarvis, with whom it has no claims either way."
+      }
+    ],
+    "key": [
+      2,
+      3,
+      5
+    ],
+    "explain": "Gil's alternative claims arise from one collision, and a common question will arise, so the defendants are properly joined (20(a)(2)(A) and (B)). Hoyt and Jarvis assert no claims against each other, so Hoyt may seek a separate trial under 20(b). With one plaintiff and identical relief, 20(a)(1) and 20(a)(3) are not in play.",
+    "cites": [
+      {
+        "cite": "20(a)(2)",
+        "quote": "Persons—as well as a vessel, cargo, or other property subject to admiralty process in rem—may be joined in one action as defendants if:"
+      },
+      {
+        "cite": "20(b)",
+        "quote": "The court may issue orders—including an order for separate trials—to protect a party against embarrassment, delay, expense, or other prejudice that arises from including a person against whom the party asserts no claim and who asserts no claim against the party."
+      }
+    ]
+  },
+  {
+    "id": "join-021",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 1,
+    "stem": "Pell died holding a $40,000 claim against Marlow Co. for unpaid rent. Vance, executor of Pell's estate, sues Marlow in Vance's own name. Marlow moves to dismiss, arguing that the real party in interest is the daughter who will inherit the claim and that the action cannot proceed without her.",
+    "ask": "Should the court dismiss?",
+    "options": [
+      {
+        "t": "No. An executor may sue in the executor's own name without joining the person for whose benefit the action is brought.",
+        "why": "Correct. Rule 17(a)(1)(A)."
+      },
+      {
+        "t": "Yes. Only the person who will benefit from the claim may prosecute it.",
+        "why": "Rule 17(a)(1) lists executors among those who may sue in their own names without joining the beneficiary."
+      },
+      {
+        "t": "Yes, unless the daughter ratifies the suit within 21 days.",
+        "why": "Rule 17(a)(3) governs dismissal for want of the real party in interest and sets no 21-day period; here no dismissal ground exists at all."
+      },
+      {
+        "t": "No, but only if the daughter consents in writing.",
+        "why": "Rule 17(a)(1)(A) imposes no consent requirement."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 17(a)(1) requires suit in the name of the real party in interest but lists an executor among those who may sue in their own names without joining the person for whose benefit the action is brought. Vance may sue as executor without joining the daughter, so dismissal is unwarranted.",
+    "cites": [
+      {
+        "cite": "17(a)(1)",
+        "quote": "The following may sue in their own names without joining the person for whose benefit the action is brought:"
+      },
+      {
+        "cite": "17(a)(1)(A)",
+        "quote": "an executor"
+      }
+    ]
+  },
+  {
+    "id": "join-022",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 2,
+    "stem": "Eaton sues Fargo Roofing over a defective roof. Months earlier Eaton assigned the entire claim to Gale Mutual, an insurer, so Gale is the real party in interest. Fargo objects in a timely way that Eaton is not the real party in interest and asks for dismissal. Eaton's lawyer asks for time to have Gale ratify or join the suit. The judge wants to dismiss at once.",
+    "ask": "May the court dismiss for failure to prosecute in the name of the real party in interest now?",
+    "options": [
+      {
+        "t": "Yes. An action not prosecuted by the real party in interest must be dismissed once the defendant objects.",
+        "why": "Rule 17(a)(3) bars dismissal until a reasonable time has been allowed after the objection."
+      },
+      {
+        "t": "Yes, because Gale did not join within 14 days after the objection.",
+        "why": "Rule 17(a)(3) sets no fixed period; it says 'a reasonable time'."
+      },
+      {
+        "t": "No. The court may dismiss only if Eaton fails to amend the complaint to add Gale as a defendant.",
+        "why": "Rule 17(a)(3) lets the real party ratify, join, or be substituted; it does not require adding Gale as a defendant."
+      },
+      {
+        "t": "No. After an objection, the court must allow a reasonable time for Gale to ratify, join, or be substituted before dismissing.",
+        "why": "Correct. Rule 17(a)(3)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 17(a)(3) forbids dismissal for failure to prosecute in the name of the real party in interest until, after an objection, a reasonable time has been allowed for the real party in interest to ratify, join, or be substituted into the action. Fargo has objected, but Gale has had no such time.",
+    "cites": [
+      {
+        "cite": "17(a)(3)",
+        "quote": "The court may not dismiss an action for failure to prosecute in the name of the real party in interest until, after an objection, a reasonable time has been allowed for the real party in interest to ratify, join, or be substituted into the action."
+      }
+    ]
+  },
+  {
+    "id": "join-023",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 2,
+    "stem": "Marlin Co. is organized under the law of State A, has its main office in State B, and is sued in a federal court located in State C. The parties dispute whether Marlin has capacity to be sued in its own name.",
+    "ask": "Under Rule 17(b), whose law determines Marlin's capacity to be sued?",
+    "options": [
+      {
+        "t": "State B, where Marlin's main office is.",
+        "why": "Rule 17(b)(2) looks to the law under which the corporation was organized, not its main office."
+      },
+      {
+        "t": "State A, the law under which Marlin was organized.",
+        "why": "Correct. Rule 17(b)(2)."
+      },
+      {
+        "t": "State C, where the court is located.",
+        "why": "Rule 17(b)(3) applies to 'all other parties'; a corporation is governed by Rule 17(b)(2)."
+      },
+      {
+        "t": "Federal law, because the case is in federal court.",
+        "why": "Rule 17(b) assigns capacity to the law of the places it names, not to a general federal standard."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 17(b)(2) provides that capacity of a corporation to sue or be sued is determined by the law under which it was organized. Marlin was organized under State A law. The location of its office or of the court matters only for other kinds of parties under Rule 17(b)(3).",
+    "cites": [
+      {
+        "cite": "17(b)(2)",
+        "quote": "for a corporation, by the law under which it was organized"
+      }
+    ]
+  },
+  {
+    "id": "join-024",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 2,
+    "stem": "Local 12 Riders Association is an unincorporated association. Under the law of State C, where the federal court sits, an unincorporated association cannot sue in its common name. The Association sues in its common name, asserting two claims: one to enforce a right under the United States Constitution, and one for breach of a contract governed by State C law.",
+    "ask": "For which claim may the Association sue in its common name?",
+    "options": [
+      {
+        "t": "Only the constitutional claim.",
+        "why": "Correct. Rule 17(b)(3)(A) permits common-name suit only to enforce a substantive right under the Constitution or laws of the United States."
+      },
+      {
+        "t": "Only the contract claim.",
+        "why": "Reverses Rule 17(b)(3)(A); the exception covers federal substantive rights, not state-law claims."
+      },
+      {
+        "t": "Both claims, because the Association exists as an association.",
+        "why": "Under Rule 17(b)(3), State C law governs capacity, and it denies the Association capacity for the state claim."
+      },
+      {
+        "t": "Neither claim, because State C law denies capacity.",
+        "why": "Rule 17(b)(3)(A) overrides state law for suits to enforce rights under the Constitution or laws of the United States."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 17(b)(3) governs unincorporated associations by the law of the state where the court sits. State C denies the Association capacity, so it cannot sue in its common name on the contract claim. Rule 17(b)(3)(A) excepts suits to enforce a substantive right under the United States Constitution or laws, so the constitutional claim may proceed.",
+    "cites": [
+      {
+        "cite": "17(b)(3)",
+        "quote": "for all other parties, by the law of the state where the court is located, except that:"
+      },
+      {
+        "cite": "17(b)(3)(A)",
+        "quote": "a partnership or other unincorporated association with no such capacity under that state's law may sue or be sued in its common name to enforce a substantive right existing under the United States Constitution or laws"
+      }
+    ]
+  },
+  {
+    "id": "join-025",
+    "kind": "issue",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 2,
+    "stem": "Gwen, appointed general guardian of her ward Jo, a minor, sues Hale Motors in Gwen's own name for Jo's injuries. Gwen also sues the Rye County Sheriff, designated in the complaint only by his official title, for a related claim. No one has objected to who is suing, no federal statute requires suit in the name of the United States, and Jo already has a duly appointed representative.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 17(a)(1)(C)",
+        "why": "A guardian may sue in her own name without joining the person for whose benefit the action is brought."
+      },
+      {
+        "t": "Rule 17(a)(2)",
+        "why": "No federal statute requires the action to be brought in the name of the United States."
+      },
+      {
+        "t": "Rule 17(a)(3)",
+        "why": "No one has objected, so there is no dismissal question about the real party in interest."
+      },
+      {
+        "t": "Rule 17(c)(1)",
+        "why": "A general guardian may sue on behalf of a minor."
+      },
+      {
+        "t": "Rule 17(c)(2)",
+        "why": "Jo has a duly appointed representative, so the next-friend provision for minors without one does not apply."
+      },
+      {
+        "t": "Rule 17(d)",
+        "why": "A public officer sued in an official capacity may be designated by official title."
+      }
+    ],
+    "key": [
+      0,
+      3,
+      5
+    ],
+    "explain": "Gwen is a guardian who may sue in her own name (17(a)(1)(C)) and a general guardian who may act for a minor (17(c)(1)). The Sheriff may be designated by title (17(d)). No statutory United States suit, objection, or unrepresented minor is present, so 17(a)(2), 17(a)(3) and 17(c)(2) do not apply.",
+    "cites": [
+      {
+        "cite": "17(a)(1)(C)",
+        "quote": "a guardian"
+      },
+      {
+        "cite": "17(c)(1)",
+        "quote": "The following representatives may sue or defend on behalf of a minor or an incompetent person:"
+      },
+      {
+        "cite": "17(d)",
+        "quote": "A public officer who sues or is sued in an official capacity may be designated by official title rather than by name"
+      }
+    ]
+  },
+  {
+    "id": "join-026",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "21"
+    ],
+    "level": 1,
+    "stem": "Park, Quill and Roth sue Sable Corp. in one action. Two days before trial, the judge concludes on her own that Roth's claim is unrelated to the others and should not be tried with them. No party has moved about Roth. Park and Quill object that it is too late for the court to act without a motion.",
+    "ask": "May the court act?",
+    "options": [
+      {
+        "t": "Yes. The court may on its own, at any time and on just terms, drop Roth or sever Roth's claim.",
+        "why": "Correct. Rule 21: 'On motion or on its own' and 'at any time, on just terms'."
+      },
+      {
+        "t": "No. Rule 21 relief requires a party's motion.",
+        "why": "Rule 21 says 'On motion or on its own'."
+      },
+      {
+        "t": "No. Rule 21 relief must be sought before the answer is served.",
+        "why": "Rule 21 says the court may act 'at any time'."
+      },
+      {
+        "t": "Yes, but only if all parties consent.",
+        "why": "Rule 21 contains no consent requirement."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 21 provides that, on motion or on its own, the court may at any time, on just terms, add or drop a party, and may also sever any claim against a party. The judge needs neither a motion nor consent, and two days before trial is still 'any time'.",
+    "cites": [
+      {
+        "cite": "21",
+        "quote": "On motion or on its own, the court may at any time, on just terms, add or drop a party. The court may also sever any claim against a party."
+      }
+    ]
+  },
+  {
+    "id": "join-027",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "21"
+    ],
+    "level": 2,
+    "stem": "Tran sues Ubbe and Vale in one action, and the claims are properly joined under Rule 20(a)(2). Because Vale's claim involves a long and unrelated line of discovery, the court, on Ubbe's motion, severs the claim against Vale. Vale objects that Rule 21 permits severance only when parties are misjoined.",
+    "ask": "Is Vale's objection correct?",
+    "options": [
+      {
+        "t": "Yes. Rule 21 applies only after a finding of misjoinder.",
+        "why": "The sentence on severance is not conditioned on misjoinder."
+      },
+      {
+        "t": "Yes. Severance is available only for defendants who are not required parties under Rule 19.",
+        "why": "Rule 21 contains no such limit."
+      },
+      {
+        "t": "No, but the court may sever only if Tran consents.",
+        "why": "Rule 21 contains no consent requirement."
+      },
+      {
+        "t": "No. Rule 21 lets the court, on motion, sever any claim against a party; it does not require misjoinder.",
+        "why": "Correct. 'The court may also sever any claim against a party.'"
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 21 states that on motion or on its own the court may at any time, on just terms, add or drop a party, and may also sever any claim against a party. The severance power is stated without any condition of misjoinder, so Vale's objection fails.",
+    "cites": [
+      {
+        "cite": "21",
+        "quote": "The court may also sever any claim against a party."
+      }
+    ]
+  },
+  {
+    "id": "join-028",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "21"
+    ],
+    "level": 2,
+    "stem": "Wick sues Xander Co. for breach of a distribution contract. At a pretrial conference the judge notes that Yates, who can be served and whose joinder would not affect jurisdiction or venue, signed the same contract and is central to the dispute. No party has moved to join Yates. Wick objects when the judge says she will add Yates.",
+    "ask": "May the court add Yates?",
+    "options": [
+      {
+        "t": "No. Only the plaintiff decides who the parties are.",
+        "why": "Rule 21 lets the court on its own add a party."
+      },
+      {
+        "t": "No. A party may be added only on an existing party's motion.",
+        "why": "Rule 21 says 'On motion or on its own'."
+      },
+      {
+        "t": "Yes. Under Rule 21 the court may on its own, at any time and on just terms, add a party.",
+        "why": "Correct."
+      },
+      {
+        "t": "Yes, but only after dismissing the action and requiring refiling.",
+        "why": "Rule 21 contains no dismissal precondition."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 21 allows the court, on motion or on its own, to add or drop a party at any time on just terms. The judge need not wait for a motion or Wick's agreement, though the addition must be on just terms.",
+    "cites": [
+      {
+        "cite": "21",
+        "quote": "On motion or on its own, the court may at any time, on just terms, add or drop a party."
+      }
+    ]
+  },
+  {
+    "id": "join-029",
+    "kind": "issue",
+    "topic": "parties",
+    "rules": [
+      "21",
+      "20"
+    ],
+    "level": 3,
+    "stem": "Brandt sues Colt Corp. and Dray Inc. in one complaint. The claim against Colt is for breach of a 2022 supply contract; the claim against Dray is for an unrelated 2025 trespass. No right to relief is asserted jointly, severally or in the alternative against both defendants, and no question of law or fact is common to both. Dray moves to dismiss the whole action. Brandt asks that, if Dray is misjoined, the claim against Dray simply be severed. No one seeks to intervene.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 20(a)(2)(A)",
+        "why": "The test for joining defendants fails because the claims do not arise from the same transaction or series."
+      },
+      {
+        "t": "Rule 20(a)(2)(B)",
+        "why": "No question common to both defendants will arise, so this requirement fails too."
+      },
+      {
+        "t": "Rule 21",
+        "why": "Misjoinder is not a ground for dismissal, and the court may drop a party or sever a claim."
+      },
+      {
+        "t": "Rule 19(a)(1)(A)",
+        "why": "The facts do not suggest an absent person without whom complete relief is impossible."
+      },
+      {
+        "t": "Rule 19(b)",
+        "why": "No required person is unjoinable, so the Rule 19(b) factors are not reached."
+      },
+      {
+        "t": "Rule 24(b)(1)(B)",
+        "why": "No one is moving to intervene."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2
+    ],
+    "explain": "Colt and Dray fail both Rule 20(a)(2) requirements, so they are misjoined. Under Rule 21 misjoinder does not justify dismissal; the court may drop Dray or sever the claim. Nothing suggests a required absent person (Rule 19) or an intervenor (Rule 24).",
+    "cites": [
+      {
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action."
+      }
+    ]
+  },
+  {
+    "id": "join-030",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 1,
+    "front": "In whose name must an action be prosecuted under Rule 17(a)(1)?",
+    "back": "in the name of the real party in interest",
+    "cites": [
+      {
+        "cite": "17(a)(1)",
+        "quote": "An action must be prosecuted in the name of the real party in interest."
+      }
+    ]
+  },
+  {
+    "id": "join-031",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 1,
+    "front": "Which kind of trustee may sue in its own name without joining the beneficiaries (Rule 17(a)(1)(E))?",
+    "back": "a trustee of an express trust",
+    "cites": [
+      {
+        "cite": "17(a)(1)(E)",
+        "quote": "a trustee of an express trust"
+      }
+    ]
+  },
+  {
+    "id": "join-032",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 1,
+    "front": "After an objection that the plaintiff is not the real party in interest, what must the court allow before it may dismiss?",
+    "back": "a reasonable time has been allowed for the real party in interest to ratify, join, or be substituted into the action",
+    "cites": [
+      {
+        "cite": "17(a)(3)",
+        "quote": "The court may not dismiss an action for failure to prosecute in the name of the real party in interest until, after an objection, a reasonable time has been allowed for the real party in interest to ratify, join, or be substituted into the action."
+      }
+    ]
+  },
+  {
+    "id": "join-033",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 1,
+    "front": "Whose law determines a corporation's capacity to sue or be sued?",
+    "back": "by the law under which it was organized",
+    "cites": [
+      {
+        "cite": "17(b)(2)",
+        "quote": "by the law under which it was organized"
+      }
+    ]
+  },
+  {
+    "id": "join-034",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "17"
+    ],
+    "level": 1,
+    "front": "How may a minor or incompetent person with no duly appointed representative sue?",
+    "back": "by a next friend or by a guardian ad litem",
+    "cites": [
+      {
+        "cite": "17(c)(2)",
+        "quote": "may sue by a next friend or by a guardian ad litem"
+      }
+    ]
+  },
+  {
+    "id": "join-035",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 1,
+    "stem": "A federal statute gives the Federal Loan Review Board an unconditional right to intervene in any private suit that challenges one of the Board's lending rules. Dorn sues Eagle Bank challenging such a rule. The Board promptly moves to intervene, serves the parties, and attaches a pleading stating its position.",
+    "ask": "What must the court do with the motion?",
+    "options": [
+      {
+        "t": "Decide in its discretion whether to permit intervention, weighing delay and prejudice.",
+        "why": "Discretion and delay are features of permissive intervention under Rule 24(b); this is Rule 24(a)(1)."
+      },
+      {
+        "t": "Permit intervention, because the statute gives the Board an unconditional right.",
+        "why": "Correct. Rule 24(a)(1): on timely motion, the court must permit anyone given an unconditional right by a federal statute."
+      },
+      {
+        "t": "Permit intervention only if the Board shows impairment of an interest that the parties do not adequately represent.",
+        "why": "That is the Rule 24(a)(2) test; Rule 24(a)(1) turns on the statute alone."
+      },
+      {
+        "t": "Deny the motion unless Dorn and Eagle consent.",
+        "why": "Rule 24 requires no consent from the parties."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 24(a)(1) provides that, on timely motion, the court must permit anyone to intervene who is given an unconditional right to intervene by a federal statute. The Board's motion is prompt and accompanied by a pleading, so intervention is mandatory. The impairment and adequate-representation inquiries belong to Rule 24(a)(2).",
+    "cites": [
+      {
+        "cite": "24(a)",
+        "quote": "On timely motion, the court must permit anyone to intervene who:"
+      },
+      {
+        "cite": "24(a)(1)",
+        "quote": "is given an unconditional right to intervene by a federal statute"
+      }
+    ]
+  },
+  {
+    "id": "join-036",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 2,
+    "stem": "Pratt sues Reeve to establish that Pratt owns a strip of lakefront land. Sorel holds a recorded easement across the same strip, disputes both Pratt's and Reeve's claims to it, and timely moves to intervene. Neither Pratt nor Reeve asserts the easement, and a judgment for either would end Sorel's ability to use the strip.",
+    "ask": "Is Sorel entitled to intervene as of right?",
+    "options": [
+      {
+        "t": "No. Intervention is permitted only if Sorel's claim shares a common question with the main action under Rule 24(b).",
+        "why": "Rule 24(b) is the discretionary route; Rule 24(a)(2) is mandatory when its elements are met."
+      },
+      {
+        "t": "No. Sorel must first obtain the consent of both Pratt and Reeve.",
+        "why": "Rule 24 requires no party consent."
+      },
+      {
+        "t": "No. Intervention of right exists only where a federal statute gives an unconditional right.",
+        "why": "That is only Rule 24(a)(1); Rule 24(a)(2) separately covers interests that may be impaired."
+      },
+      {
+        "t": "Yes. Sorel claims an interest in the property, disposing of the action may impair Sorel's ability to protect it, and no existing party represents that interest.",
+        "why": "Correct. Rule 24(a)(2)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 24(a)(2) requires the court, on timely motion, to permit intervention by anyone who claims an interest relating to the property that is the subject of the action and is so situated that disposing of the action may impair the ability to protect the interest, unless existing parties adequately represent it. Sorel meets each element.",
+    "cites": [
+      {
+        "cite": "24(a)(2)",
+        "quote": "claims an interest relating to the property or transaction that is the subject of the action, and is so situated that disposing of the action may as a practical matter impair or impede the movant's ability to protect its interest, unless existing parties adequately represent that interest"
+      }
+    ]
+  },
+  {
+    "id": "join-037",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 2,
+    "stem": "The City of Dunmore sues Eakin Co. to enforce a zoning ordinance. The Dunmore Homeowners Association, whose members benefit from the ordinance, timely moves to intervene as of right, claiming an interest in its enforcement. The court finds that the Association's interest is the same as the City's and that the City adequately represents it. No federal statute gives the Association any right to intervene.",
+    "ask": "Does the Association have a right to intervene under Rule 24(a)(2)?",
+    "options": [
+      {
+        "t": "No. Existing parties adequately represent the Association's interest, which defeats intervention of right.",
+        "why": "Correct. Rule 24(a)(2) applies 'unless existing parties adequately represent that interest'."
+      },
+      {
+        "t": "Yes. A claimed interest in the subject of the action alone entitles a movant to intervene.",
+        "why": "Rule 24(a)(2) carves out interests that existing parties adequately represent."
+      },
+      {
+        "t": "Yes. The adequate-representation inquiry applies only when the movant is a government.",
+        "why": "Rule 24(a)(2) contains no such limit."
+      },
+      {
+        "t": "No. Intervention of right exists only where a federal statute gives an unconditional right.",
+        "why": "Rule 24(a)(2) separately covers interests that may be impaired."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 24(a)(2) mandates intervention for a movant claiming an interest that may be impaired by the case, unless existing parties adequately represent that interest. The court found the City adequately represents the Association's identical interest, so the exception applies and no right to intervene exists under Rule 24(a)(2).",
+    "cites": [
+      {
+        "cite": "24(a)(2)",
+        "quote": "unless existing parties adequately represent that interest"
+      }
+    ]
+  },
+  {
+    "id": "join-038",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 3,
+    "stem": "Hart sues Ivey Mills over a boundary dispute. After fourteen months of discovery, in which Jandy sat by while knowing of the suit, Jandy moves two weeks before trial to intervene as of right. Jandy claims an interest in the land that a judgment may impair and that no party represents. Jandy attached a pleading and served the parties. The court finds the motion untimely.",
+    "ask": "Can Jandy still intervene as of right under Rule 24(a)?",
+    "options": [
+      {
+        "t": "Yes. Rule 24(a) is mandatory, so lateness is irrelevant.",
+        "why": "Rule 24(a) applies 'on timely motion'; timeliness is a condition."
+      },
+      {
+        "t": "Yes, because Jandy attached the pleading required by Rule 24(c).",
+        "why": "Rule 24(c) is an additional requirement; it does not cure an untimely motion."
+      },
+      {
+        "t": "No. Rule 24(a) requires a timely motion, and this motion is untimely.",
+        "why": "Correct."
+      },
+      {
+        "t": "No, but the court must then allow Jandy to intervene under Rule 24(b).",
+        "why": "Rule 24(b) also applies only on timely motion and is discretionary."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 24(a) obliges the court to permit intervention only 'on timely motion'. Rule 24(b)(1) likewise opens with 'On timely motion'. Jandy's otherwise strong interest does not matter once the court finds the motion untimely, and the Rule 24(c) pleading does not cure the lateness.",
+    "cites": [
+      {
+        "cite": "24(a)",
+        "quote": "On timely motion, the court must permit anyone to intervene who:"
+      },
+      {
+        "cite": "24(b)(1)",
+        "quote": "On timely motion, the court may permit anyone to intervene who:"
+      }
+    ]
+  },
+  {
+    "id": "join-039",
+    "kind": "issue",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 2,
+    "stem": "Orr moves to intervene in a contract suit between Pine Co. and Quarry LLC, asserting a defense that shares a common question of law with the main action. No federal statute gives Orr any right to intervene, and Orr is not a government officer or agency. Quarry shares Orr's defense and is adequately representing it. Orr served the parties with the timely motion and stated the grounds but attached no pleading. Pine argues that Orr's participation would add thirty depositions and delay trial.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 24(a)(1)",
+        "why": "No federal statute gives Orr an unconditional right to intervene."
+      },
+      {
+        "t": "Rule 24(a)(2)",
+        "why": "Quarry adequately represents Orr's interest, so intervention of right is unavailable."
+      },
+      {
+        "t": "Rule 24(b)(1)(B)",
+        "why": "Orr has a defense that shares a common question of law with the main action."
+      },
+      {
+        "t": "Rule 24(b)(2)",
+        "why": "Orr is not a governmental officer or agency."
+      },
+      {
+        "t": "Rule 24(b)(3)",
+        "why": "The court must consider whether intervention will unduly delay or prejudice the original parties."
+      },
+      {
+        "t": "Rule 24(c)",
+        "why": "A motion to intervene must be accompanied by a pleading, which Orr omitted."
+      }
+    ],
+    "key": [
+      2,
+      4,
+      5
+    ],
+    "explain": "Orr may be permitted to intervene under 24(b)(1)(B) because the defense shares a common question, and the court must weigh undue delay or prejudice (24(b)(3)). The motion is deficient without the pleading 24(c) requires. No statute (24(a)(1)), no unrepresented interest (24(a)(2)), and no government movant (24(b)(2)) is present.",
+    "cites": [
+      {
+        "cite": "24(b)(1)(B)",
+        "quote": "has a claim or defense that shares with the main action a common question of law or fact"
+      },
+      {
+        "cite": "24(b)(3)",
+        "quote": "the court must consider whether the intervention will unduly delay or prejudice the adjudication of the original parties' rights"
+      },
+      {
+        "cite": "24(c)",
+        "quote": "The motion must state the grounds for intervention and be accompanied by a pleading that sets out the claim or defense for which intervention is sought."
+      }
+    ]
+  },
+  {
+    "id": "join-040",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "25",
+      "6"
+    ],
+    "level": 3,
+    "stem": "Prowl sues Lowell for breach of a contract. Lowell dies on March 2, 2026, and the claim is not extinguished. On Monday, April 6, 2026, Prowl's lawyer serves a statement noting Lowell's death on the parties and on Lowell's executor in the manner Rule 25(a)(3) requires. No court order changes any time period.",
+    "ask": "What is the last day on which a motion for substitution may be made without mandatory dismissal?",
+    "options": [
+      {
+        "t": "June 1, 2026",
+        "why": "Counts 90 days from Lowell's death on March 2 (day 90 is Sunday, May 31, rolled to June 1) instead of from service of the statement noting the death."
+      },
+      {
+        "t": "June 5, 2026",
+        "why": "Uses 60 days; Rule 25(a)(1) sets 90 days."
+      },
+      {
+        "t": "July 5, 2026",
+        "why": "Day 90 after April 6 is a Sunday; Rule 6(a)(1)(C) extends the period to the next day that is not a weekend day or legal holiday."
+      },
+      {
+        "t": "July 6, 2026",
+        "why": "Correct. 90 days after service of the statement on April 6 ends Sunday, July 5, which rolls to Monday, July 6."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 25(a)(1) requires dismissal if the substitution motion is not made within 90 days after service of a statement noting the death. The clock runs from service on April 6, not from the death. Counting 90 days, excluding April 6, ends Sunday, July 5, so Rule 6(a)(1)(C) carries it to Monday, July 6.",
+    "cites": [
+      {
+        "cite": "25(a)(1)",
+        "quote": "If the motion is not made within 90 days after service of a statement noting the death, the action by or against the decedent must be dismissed."
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "include the last day of the period, but if the last day is a Saturday, Sunday, or legal holiday, the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "calc": {
+      "from": "2026-04-06",
+      "days": 90,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-07-06"
+    }
+  },
+  {
+    "id": "join-041",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "25"
+    ],
+    "level": 2,
+    "stem": "Corbet Co. sues Dune LLC for breach of a supply contract. While the case is pending, Corbet assigns its entire claim to Elm Co. No one moves for substitution or joinder. Dune argues that the action must be dismissed because Corbet no longer owns the claim.",
+    "ask": "What is the effect of the transfer under Rule 25(c)?",
+    "options": [
+      {
+        "t": "The action abates automatically on the transfer.",
+        "why": "Rule 25(c) says the action 'may be continued by or against the original party'."
+      },
+      {
+        "t": "The action is dismissed unless Elm moves for substitution within 90 days.",
+        "why": "The 90-day period in Rule 25(a)(1) concerns death, not transfer of interest."
+      },
+      {
+        "t": "The action may be continued by Corbet unless the court, on motion, orders Elm substituted or joined.",
+        "why": "Correct. Rule 25(c)."
+      },
+      {
+        "t": "Elm is automatically substituted as plaintiff.",
+        "why": "Automatic substitution applies to public officers under Rule 25(d), not to transfers of interest."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 25(c) provides that if an interest is transferred, the action may be continued by or against the original party unless the court, on motion, orders the transferee to be substituted or joined with the original party. No motion has been made, so the action continues in Corbet's name.",
+    "cites": [
+      {
+        "cite": "25(c)",
+        "quote": "the action may be continued by or against the original party unless the court, on motion, orders the transferee to be substituted in the action or joined with the original party"
+      }
+    ]
+  },
+  {
+    "id": "join-042",
+    "kind": "apply",
+    "topic": "parties",
+    "rules": [
+      "25"
+    ],
+    "level": 1,
+    "stem": "Hollis sues Mayor Garza of Brisbane City in her official capacity to challenge a permit denial. While the suit is pending, Garza leaves office and Ives becomes mayor. The court has entered no substitution order.",
+    "ask": "Is Ives now a party?",
+    "options": [
+      {
+        "t": "No. The action abates until the court orders substitution.",
+        "why": "Rule 25(d): the action does not abate when a public officer sued in an official capacity ceases to hold office."
+      },
+      {
+        "t": "Yes. Ives is automatically substituted as a party.",
+        "why": "Correct. Rule 25(d)."
+      },
+      {
+        "t": "No. Hollis must move for substitution within 90 days or the action is dismissed.",
+        "why": "The 90-day rule in Rule 25(a)(1) concerns death of a party; Rule 25(d) substitutes the successor automatically."
+      },
+      {
+        "t": "Yes, but only after the court enters an order.",
+        "why": "Rule 25(d): the absence of an order does not affect the substitution."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 25(d) says an action does not abate when a public officer sued in an official capacity ceases to hold office, and the successor is automatically substituted. The court may order substitution at any time, but the absence of an order does not affect it.",
+    "cites": [
+      {
+        "cite": "25(d)",
+        "quote": "The officer's successor is automatically substituted as a party."
+      },
+      {
+        "cite": "25(d)",
+        "quote": "but the absence of such an order does not affect the substitution"
+      }
+    ]
+  },
+  {
+    "id": "join-043",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23.1"
+    ],
+    "level": 2,
+    "stem": "Sanders buys shares of Tolliver Corp. in 2026. In 2024 Tolliver's board approved the sale of company assets to a director's relative at a low price. Sanders files a verified derivative complaint on Tolliver's behalf challenging the sale. It alleges that Sanders is a shareholder now and states with particularity her demand on the board and the board's refusal. Sanders did not receive her shares from an earlier holder by operation of law.",
+    "ask": "What is the defect in the complaint under Rule 23.1(b)?",
+    "options": [
+      {
+        "t": "It should not have been verified.",
+        "why": "Rule 23.1(b) requires that the complaint be verified."
+      },
+      {
+        "t": "It lacks an allegation that Sanders held a majority of the shares.",
+        "why": "Rule 23.1(b) has no ownership-percentage requirement."
+      },
+      {
+        "t": "It does not allege that Sanders was a shareholder at the time of the transaction complained of, or that her shares devolved on her by operation of law.",
+        "why": "Correct. Rule 23.1(b)(1)."
+      },
+      {
+        "t": "It does not state any effort to obtain the desired action from the directors.",
+        "why": "The complaint did state the demand and refusal with particularity, as Rule 23.1(b)(3) requires."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 23.1(b)(1) requires the complaint to allege that the plaintiff was a shareholder or member at the time of the transaction complained of, or that the share later devolved by operation of law. Sanders bought in 2026, after the 2024 sale, and did not acquire by operation of law, so she cannot make that allegation.",
+    "cites": [
+      {
+        "cite": "23.1(b)",
+        "quote": "The complaint must be verified and must:"
+      },
+      {
+        "cite": "23.1(b)(1)",
+        "quote": "allege that the plaintiff was a shareholder or member at the time of the transaction complained of, or that the plaintiff's share or membership later devolved on it by operation of law"
+      }
+    ]
+  },
+  {
+    "id": "join-044",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23.1"
+    ],
+    "level": 2,
+    "stem": "In a shareholder derivative action, Ulm, the plaintiff, and the corporation's directors reach a settlement. They ask the court to dismiss the action based on their written agreement. No shareholder has objected, and the court has not been asked to approve anything.",
+    "ask": "What does Rule 23.1(c) require?",
+    "options": [
+      {
+        "t": "The court's approval, and notice to shareholders in the manner the court orders.",
+        "why": "Correct. Rule 23.1(c)."
+      },
+      {
+        "t": "Nothing, because a derivative action is not a class action.",
+        "why": "Rule 23.1(c) itself requires court approval for settlement, dismissal and compromise."
+      },
+      {
+        "t": "Court approval only if a shareholder objects.",
+        "why": "Approval is required regardless of objection."
+      },
+      {
+        "t": "Court approval, with notice by first-class mail to every shareholder.",
+        "why": "Rule 23.1(c) leaves the manner of notice to the court's order."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 23.1(c) permits a derivative action to be settled, voluntarily dismissed, or compromised only with the court's approval, and notice must be given to shareholders or members in the manner the court orders. The parties' own agreement is not enough.",
+    "cites": [
+      {
+        "cite": "23.1(c)",
+        "quote": "A derivative action may be settled, voluntarily dismissed, or compromised only with the court's approval. Notice of a proposed settlement, voluntary dismissal, or compromise must be given to shareholders or members in the manner that the court orders."
+      }
+    ]
+  },
+  {
+    "id": "join-045",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 2,
+    "stem": "Ruiz sues Falk Foods as class representative for 900 hourly warehouse workers who allege that Falk's rounding policy shorted their pay. Ruiz is a salaried supervisor whose own claim arises from a separate executive bonus plan and has nothing to do with the rounding policy. The court finds that the class is too numerous for joinder, that the rounding policy raises common questions, and that Ruiz has no conflict with the class and is represented by able counsel.",
+    "ask": "Which Rule 23(a) prerequisite is unmet?",
+    "options": [
+      {
+        "t": "Rule 23(a)(3): Ruiz's claim is not typical of the class members' claims.",
+        "why": "Correct. Typicality compares the representative's claims with the class's claims."
+      },
+      {
+        "t": "Rule 23(a)(1): the class is not numerous enough.",
+        "why": "The court found joinder impracticable, so numerosity is met."
+      },
+      {
+        "t": "Rule 23(a)(2): there are no common questions.",
+        "why": "The court found the rounding policy raises common questions."
+      },
+      {
+        "t": "Rule 23(a)(4): Ruiz will not fairly and adequately protect the class.",
+        "why": "The court found no conflict and able counsel; the defect is the mismatch of claims, which Rule 23(a)(3) addresses."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 23(a)(3) requires that the claims or defenses of the representative parties be typical of the claims or defenses of the class. Ruiz's bonus-plan claim differs from the class's rounding claims. Numerosity, commonality and adequacy were found satisfied.",
+    "cites": [
+      {
+        "cite": "23(a)(3)",
+        "quote": "the claims or defenses of the representative parties are typical of the claims or defenses of the class"
+      }
+    ]
+  },
+  {
+    "id": "join-046",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 2,
+    "stem": "Mora is the proposed representative of a class of 600 tenants suing a landlord over habitability violations. In discovery it emerges that Mora secretly agreed with the landlord to drop the class allegations in return for a private payment to Mora alone. The court finds that Mora's own claim is the same as the tenants' claims and that numerosity and commonality are met.",
+    "ask": "Which provision most directly governs Mora's fitness to represent the class?",
+    "options": [
+      {
+        "t": "Rule 23(a)(3), because Mora's claim differs from the class's.",
+        "why": "The court found Mora's claim is the same as the tenants'."
+      },
+      {
+        "t": "Rule 23(a)(4), because Mora must fairly and adequately protect the class's interests.",
+        "why": "Correct. Trading away the class's claims for a private payment is the adequacy question."
+      },
+      {
+        "t": "Rule 23(g)(4), which governs the duty of class counsel.",
+        "why": "Mora is a representative party, not class counsel; Rule 23(g)(4) concerns counsel's duty."
+      },
+      {
+        "t": "Rule 23(b)(3), because the court must find that common questions predominate.",
+        "why": "Predominance addresses issues common to class members, not the representative's loyalty."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 23(a)(4) conditions a representative suit on the representative parties fairly and adequately protecting the class's interests. A representative who bargains away the class's claims for a private payment fails that test. Rule 23(g)(4) concerns class counsel, not the representative party.",
+    "cites": [
+      {
+        "cite": "23(a)(4)",
+        "quote": "the representative parties will fairly and adequately protect the interests of the class"
+      },
+      {
+        "cite": "23(g)(4)",
+        "quote": "Class counsel must fairly and adequately represent the interests of the class."
+      }
+    ]
+  },
+  {
+    "id": "join-047",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 2,
+    "stem": "Four hundred investors have claims totaling $20 million against Norwood Fund, which holds only $2 million in assets. Early individual judgments would leave nothing for later claimants. The investors seek certification of a class because separate judgments would, as a practical matter, exhaust the fund and leave other members unable to protect their interests. Rule 23(a) is satisfied.",
+    "ask": "Which Rule 23(b) subdivision fits that ground most directly?",
+    "options": [
+      {
+        "t": "Rule 23(b)(1)(A), because separate suits would require incompatible standards of conduct for Norwood.",
+        "why": "Subparagraph (A) concerns inconsistent standards of conduct for the party opposing the class, not exhaustion of a fund."
+      },
+      {
+        "t": "Rule 23(b)(2), because Norwood acted on grounds that apply generally to the class.",
+        "why": "Rule 23(b)(2) requires that final injunctive or declaratory relief be appropriate for the class; the investors seek no such relief."
+      },
+      {
+        "t": "Rule 23(b)(3), because the court must find predominance and superiority.",
+        "why": "Those findings are the (b)(3) route; the stated ground tracks Rule 23(b)(1)(B)."
+      },
+      {
+        "t": "Rule 23(b)(1)(B), because individual adjudications would as a practical matter be dispositive of other members' interests.",
+        "why": "Correct. Early judgments would exhaust the fund and impair other members' ability to protect their interests."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 23(b)(1)(B) allows a class action when separate adjudications would, as a practical matter, be dispositive of the interests of members who are not parties to them, or would substantially impair or impede their ability to protect their interests. Early judgments exhausting the fund are exactly that risk.",
+    "cites": [
+      {
+        "cite": "23(b)(1)(B)",
+        "quote": "adjudications with respect to individual class members that, as a practical matter, would be dispositive of the interests of the other members not parties to the individual adjudications or would substantially impair or impede their ability to protect their interests"
+      }
+    ]
+  },
+  {
+    "id": "join-048",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 2,
+    "stem": "A class of 2,000 county jail inmates sues the Sheriff, alleging that the jail's uniform written policy of denying all inmates outdoor exercise is unlawful. The class seeks only an injunction and a declaration for the class as a whole and no money damages. The court finds that Rule 23(a) is met and that separate suits would not create the risks described in Rule 23(b)(1).",
+    "ask": "Under which subdivision of Rule 23(b) may the class be maintained?",
+    "options": [
+      {
+        "t": "Rule 23(b)(3) only, because every class action must satisfy predominance and superiority.",
+        "why": "Predominance and superiority are the (b)(3) findings only."
+      },
+      {
+        "t": "Rule 23(b)(1)(A), because every injunction creates a risk of incompatible standards.",
+        "why": "The court found that no Rule 23(b)(1) risk exists."
+      },
+      {
+        "t": "Rule 23(b)(2), because the Sheriff acted on grounds that apply generally to the class and final injunctive or declaratory relief is appropriate for the class as a whole.",
+        "why": "Correct."
+      },
+      {
+        "t": "None, because Rule 23(b) permits classes only for money damages.",
+        "why": "Rule 23(b)(2) expressly covers injunctive and declaratory relief."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 23(b)(2) permits a class action when the party opposing the class has acted or refused to act on grounds that apply generally to the class, so that final injunctive or corresponding declaratory relief is appropriate respecting the class as a whole. A uniform jail policy challenged only for an injunction fits, and no predominance or superiority finding is needed.",
+    "cites": [
+      {
+        "cite": "23(b)(2)",
+        "quote": "the party opposing the class has acted or refused to act on grounds that apply generally to the class, so that final injunctive relief or corresponding declaratory relief is appropriate respecting the class as a whole"
+      }
+    ]
+  },
+  {
+    "id": "join-049",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 2,
+    "stem": "Ng sues Orion Motors on behalf of 800 buyers of a car model, alleging a defective brake design. Whether the design was defective is a question common to all buyers, but each buyer would have to prove separate facts about whether the brakes failed, when, and what repairs cost. The court finds that those individual questions would dominate the case. Rule 23(a) is satisfied.",
+    "ask": "May the class be certified under Rule 23(b)(3)?",
+    "options": [
+      {
+        "t": "No. The court cannot find that common questions predominate over individual ones, which Rule 23(b)(3) requires.",
+        "why": "Correct."
+      },
+      {
+        "t": "Yes. A common question under Rule 23(a)(2) already supplies predominance.",
+        "why": "Rule 23(a)(2) commonality and Rule 23(b)(3) predominance are separate requirements."
+      },
+      {
+        "t": "Yes, because the class is large.",
+        "why": "Size bears on Rule 23(a)(1) numerosity, not predominance."
+      },
+      {
+        "t": "No, because Rule 23(b)(3) classes may not include members with damages claims.",
+        "why": "Rule 23(b)(3) imposes no such bar."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 23(b)(3) requires the court to find that questions common to class members predominate over questions affecting only individual members, and that a class action is superior to other methods. Commonality under Rule 23(a)(2) is necessary but separate. The court found individual questions would dominate, so the predominance finding cannot be made.",
+    "cites": [
+      {
+        "cite": "23(b)(3)",
+        "quote": "the court finds that the questions of law or fact common to class members predominate over any questions affecting only individual members, and that a class action is superior to other available methods for fairly and efficiently adjudicating the controversy"
+      }
+    ]
+  },
+  {
+    "id": "join-050",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 3,
+    "stem": "A court is deciding whether to certify a Rule 23(b)(3) class of 5,000 purchasers of Zeta Appliances. It learns that 300 class members have already filed individual lawsuits against Zeta over the same product in other courts, and several are near trial. The judge asks which of the pertinent matters listed in Rule 23(b)(3) addresses suits already begun by class members.",
+    "ask": "Which listed matter is that?",
+    "options": [
+      {
+        "t": "Rule 23(b)(3)(A): class members' interests in individually controlling separate actions.",
+        "why": "That factor addresses members' interest in control, not the extent and nature of litigation already begun."
+      },
+      {
+        "t": "Rule 23(b)(3)(B): the extent and nature of any litigation concerning the controversy already begun by class members.",
+        "why": "Correct."
+      },
+      {
+        "t": "Rule 23(b)(3)(C): the desirability of concentrating the litigation in the particular forum.",
+        "why": "That factor concerns the choice of forum, not suits already begun."
+      },
+      {
+        "t": "Rule 23(b)(3)(D): the likely difficulties in managing a class action.",
+        "why": "That factor concerns manageability."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 23(b)(3)(B) lists as pertinent to the predominance and superiority findings the extent and nature of any litigation concerning the controversy already begun by or against class members. The 300 pending individual suits are litigation already begun by class members.",
+    "cites": [
+      {
+        "cite": "23(b)(3)(B)",
+        "quote": "the extent and nature of any litigation concerning the controversy already begun by or against class members"
+      }
+    ]
+  },
+  {
+    "id": "join-051",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 3,
+    "stem": "The court certifies a class of 5,000 under Rule 23(b)(3). Zeta's own records give mailing addresses for 4,800 of the members. Class counsel proposes only a posting on a website, and the judge notes that it would be the cheapest way to give notice.",
+    "ask": "May the court limit notice to the website posting?",
+    "options": [
+      {
+        "t": "Yes. Notice to a certified class is always discretionary: the court 'may' direct it.",
+        "why": "Discretionary notice applies to Rule 23(b)(1) and (b)(2) classes under Rule 23(c)(2)(A); (b)(3) notice is mandatory."
+      },
+      {
+        "t": "Yes, if the posting states the class definition in plain language.",
+        "why": "Plain language is required, but the manner must also be the best notice practicable."
+      },
+      {
+        "t": "No. Individual notice is required only for members who request exclusion.",
+        "why": "Rule 23(c)(2)(B) requires individual notice to all members identifiable through reasonable effort."
+      },
+      {
+        "t": "No. The court must direct the best notice practicable, including individual notice to all members who can be identified through reasonable effort.",
+        "why": "Correct. Rule 23(c)(2)(B)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "For a Rule 23(b)(3) class, Rule 23(c)(2)(B) requires the best notice practicable under the circumstances, including individual notice to all members identifiable through reasonable effort, by mail, electronic means or other appropriate means. Zeta's records identify 4,800 members, so a website posting alone is insufficient.",
+    "cites": [
+      {
+        "cite": "23(c)(2)(B)",
+        "quote": "the court must direct to class members the best notice that is practicable under the circumstances, including individual notice to all members who can be identified through reasonable effort"
+      },
+      {
+        "cite": "23(c)(2)(A)",
+        "quote": "the court may direct appropriate notice to the class"
+      }
+    ]
+  },
+  {
+    "id": "join-053",
+    "kind": "issue",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 3,
+    "stem": "Hana sues Brightline Utilities on behalf of 10,000 customers charged an unlawful surcharge on one bill. She seeks only money damages; Brightline has ended the practice, and no injunction or declaration is sought. The court finds that joinder of 10,000 customers is impracticable and that the surcharge raises common questions. Brightline is solvent, so no limited fund exists. No settlement has been proposed. The judge asks which provisions govern the certification decision and its timing.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 23(a)(1)",
+        "why": "Joinder of 10,000 customers is impracticable."
+      },
+      {
+        "t": "Rule 23(a)(2)",
+        "why": "The surcharge raises questions common to the class."
+      },
+      {
+        "t": "Rule 23(b)(2)",
+        "why": "No injunction or declaration is sought, so final injunctive or declaratory relief is not at issue."
+      },
+      {
+        "t": "Rule 23(b)(3)",
+        "why": "A damages class requires findings of predominance and superiority."
+      },
+      {
+        "t": "Rule 23(c)(1)(A)",
+        "why": "The court must decide whether to certify at an early practicable time after the suit is filed."
+      },
+      {
+        "t": "Rule 23(c)(2)(A)",
+        "why": "Discretionary notice covers (b)(1) and (b)(2) classes; this class would be a (b)(3) class."
+      },
+      {
+        "t": "Rule 23(e)",
+        "why": "No settlement, dismissal or compromise has been proposed."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explain": "Numerosity (23(a)(1)) and commonality (23(a)(2)) are found, and a damages-only class fits 23(b)(3). The court must decide certification at an early practicable time (23(c)(1)(A)). Rule 23(b)(2) needs injunctive or declaratory relief, 23(c)(2)(A) covers (b)(1)/(b)(2) notice, and 23(e) needs a settlement proposal.",
+    "cites": [
+      {
+        "cite": "23(a)(1)",
+        "quote": "the class is so numerous that joinder of all members is impracticable"
+      },
+      {
+        "cite": "23(b)(3)",
+        "quote": "the court finds that the questions of law or fact common to class members predominate over any questions affecting only individual members"
+      },
+      {
+        "cite": "23(c)(1)(A)",
+        "quote": "At an early practicable time after a person sues or is sued as a class representative, the court must determine by order whether to certify the action as a class action."
+      }
+    ]
+  },
+  {
+    "id": "join-054",
+    "kind": "issue",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 3,
+    "stem": "A Rule 23(b)(3) class was certified against Kiln Products a year ago. The parties now propose a settlement that would bind the class. Under a side agreement, class counsel would pay objector Bale $20,000 to withdraw his objection to the settlement. The agreement has not been disclosed to the court. No one is appealing any certification order, and attorney's fees have not yet been addressed.",
+    "ask": "Which provisions apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 23(c)(1)(A)",
+        "why": "The class was certified a year ago, so the timing of the certification decision is not at issue."
+      },
+      {
+        "t": "Rule 23(e)(2)",
+        "why": "A proposal that would bind class members may be approved only after a hearing and a finding that it is fair, reasonable, and adequate."
+      },
+      {
+        "t": "Rule 23(e)(3)",
+        "why": "The parties must file a statement identifying any agreement made in connection with the proposal."
+      },
+      {
+        "t": "Rule 23(e)(5)(B)",
+        "why": "No payment may be provided in connection with withdrawing an objection unless the court approves after a hearing."
+      },
+      {
+        "t": "Rule 23(f)",
+        "why": "No one is petitioning to appeal a certification order."
+      },
+      {
+        "t": "Rule 23(h)",
+        "why": "No motion for attorney's fees has been made."
+      }
+    ],
+    "key": [
+      1,
+      2,
+      3
+    ],
+    "explain": "The settlement would bind the class, so it needs a hearing and a fair, reasonable and adequate finding (23(e)(2)). The Bale side agreement must be identified in a statement filed with the court (23(e)(3)), and the $20,000 payment for withdrawing the objection needs approval after a hearing (23(e)(5)(B)). Certification timing, appeals and fees are not in play.",
+    "cites": [
+      {
+        "cite": "23(e)(2)",
+        "quote": "the court may approve it only after a hearing and only on finding that it is fair, reasonable, and adequate"
+      },
+      {
+        "cite": "23(e)(3)",
+        "quote": "The parties seeking approval must file a statement identifying any agreement made in connection with the proposal."
+      },
+      {
+        "cite": "23(e)(5)(B)",
+        "quote": "Unless approved by the court after a hearing, no payment or other consideration may be provided in connection with:"
+      }
+    ]
+  },
+  {
+    "id": "join-055",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "front": "Under Rule 19(a)(1)(A), when must an absent person be joined if feasible?",
+    "back": "in that person's absence, the court cannot accord complete relief among existing parties",
+    "cites": [
+      {
+        "cite": "19(a)(1)(A)",
+        "quote": "in that person's absence, the court cannot accord complete relief among existing parties"
+      }
+    ]
+  },
+  {
+    "id": "join-056",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "front": "Under Rule 19(a)(1)(B)(i), what must disposing of the action in an absent person's absence do to that person for joinder to be required?",
+    "back": "impair or impede the person's ability to protect the interest",
+    "cites": [
+      {
+        "cite": "19(a)(1)(B)(i)",
+        "quote": "impair or impede the person's ability to protect the interest"
+      }
+    ]
+  },
+  {
+    "id": "join-057",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "front": "Under Rule 19(a)(1)(B)(ii), what risk to an existing party makes joinder of an absent person required?",
+    "back": "a substantial risk of incurring double, multiple, or otherwise inconsistent obligations",
+    "cites": [
+      {
+        "cite": "19(a)(1)(B)(ii)",
+        "quote": "leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest"
+      }
+    ]
+  },
+  {
+    "id": "join-058",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "front": "If a person has not been joined as required, what must the court do?",
+    "back": "the court must order that the person be made a party",
+    "cites": [
+      {
+        "cite": "19(a)(2)",
+        "quote": "the court must order that the person be made a party"
+      }
+    ]
+  },
+  {
+    "id": "join-059",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "front": "If a joined party objects to venue and the joinder would make venue improper, what must the court do?",
+    "back": "the court must dismiss that party",
+    "cites": [
+      {
+        "cite": "19(a)(3)",
+        "quote": "If a joined party objects to venue and the joinder would make venue improper, the court must dismiss that party."
+      }
+    ]
+  },
+  {
+    "id": "join-060",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "front": "When a person required to be joined if feasible cannot be joined, what must the court determine?",
+    "back": "whether, in equity and good conscience, the action should proceed among the existing parties or should be dismissed",
+    "cites": [
+      {
+        "cite": "19(b)",
+        "quote": "whether, in equity and good conscience, the action should proceed among the existing parties or should be dismissed"
+      }
+    ]
+  },
+  {
+    "id": "join-061",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "front": "Which Rule 19(b) factor looks at the plaintiff's position if the action is dismissed?",
+    "back": "whether the plaintiff would have an adequate remedy if the action were dismissed for nonjoinder",
+    "cites": [
+      {
+        "cite": "19(b)(4)",
+        "quote": "whether the plaintiff would have an adequate remedy if the action were dismissed for nonjoinder"
+      }
+    ]
+  },
+  {
+    "id": "join-062",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "19"
+    ],
+    "level": 1,
+    "front": "Besides the person's name, if known, what must a pleader state about a required person who is not joined (Rule 19(c))?",
+    "back": "the reasons for not joining that person",
+    "cites": [
+      {
+        "cite": "19(c)(2)",
+        "quote": "the reasons for not joining that person"
+      }
+    ]
+  },
+  {
+    "id": "join-063",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "front": "Under Rule 20(a)(1)(A), what must plaintiffs' rights to relief arise out of for them to join in one action?",
+    "back": "the same transaction, occurrence, or series of transactions or occurrences",
+    "cites": [
+      {
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      }
+    ]
+  },
+  {
+    "id": "join-064",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "front": "Besides the same-transaction requirement, what common-question condition must be met for plaintiffs to join under Rule 20(a)(1)?",
+    "back": "any question of law or fact common to all plaintiffs will arise in the action",
+    "cites": [
+      {
+        "cite": "20(a)(1)(B)",
+        "quote": "any question of law or fact common to all plaintiffs will arise in the action"
+      }
+    ]
+  },
+  {
+    "id": "join-065",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "front": "Besides the same-transaction requirement, what common-question condition must be met for defendants to be joined under Rule 20(a)(2)?",
+    "back": "any question of law or fact common to all defendants will arise in the action",
+    "cites": [
+      {
+        "cite": "20(a)(2)(B)",
+        "quote": "any question of law or fact common to all defendants will arise in the action"
+      }
+    ]
+  },
+  {
+    "id": "join-066",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "front": "In what ways may a right to relief be asserted against defendants joined under Rule 20(a)(2)(A)?",
+    "back": "jointly, severally, or in the alternative",
+    "cites": [
+      {
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      }
+    ]
+  },
+  {
+    "id": "join-067",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "front": "Must every plaintiff or defendant in a joined action be interested in all of the relief demanded?",
+    "back": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded",
+    "cites": [
+      {
+        "cite": "20(a)(3)",
+        "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded"
+      }
+    ]
+  },
+  {
+    "id": "join-068",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "front": "How may the court grant judgment in an action with several plaintiffs and defendants (Rule 20(a)(3))?",
+    "back": "to one or more plaintiffs according to their rights, and against one or more defendants according to their liabilities",
+    "cites": [
+      {
+        "cite": "20(a)(3)",
+        "quote": "The court may grant judgment to one or more plaintiffs according to their rights, and against one or more defendants according to their liabilities."
+      }
+    ]
+  },
+  {
+    "id": "join-069",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "front": "What kind of order does Rule 20(b) expressly mention to protect a party against prejudice from joinder?",
+    "back": "an order for separate trials",
+    "cites": [
+      {
+        "cite": "20(b)",
+        "quote": "The court may issue orders—including an order for separate trials—to protect a party against embarrassment, delay, expense, or other prejudice that arises from including a person against whom the party asserts no claim and who asserts no claim against the party."
+      }
+    ]
+  },
+  {
+    "id": "join-070",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "20"
+    ],
+    "level": 1,
+    "front": "Rule 20(b) protects a party from prejudice that arises from including which kind of person?",
+    "back": "a person against whom the party asserts no claim and who asserts no claim against the party",
+    "cites": [
+      {
+        "cite": "20(b)",
+        "quote": "a person against whom the party asserts no claim and who asserts no claim against the party"
+      }
+    ]
+  },
+  {
+    "id": "join-071",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 1,
+    "front": "What does Rule 23(a)(1) require about the size of the class?",
+    "back": "the class is so numerous that joinder of all members is impracticable",
+    "cites": [
+      {
+        "cite": "23(a)(1)",
+        "quote": "the class is so numerous that joinder of all members is impracticable"
+      }
+    ]
+  },
+  {
+    "id": "join-072",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 1,
+    "front": "What does Rule 23(a)(2) require of the class?",
+    "back": "there are questions of law or fact common to the class",
+    "cites": [
+      {
+        "cite": "23(a)(2)",
+        "quote": "there are questions of law or fact common to the class"
+      }
+    ]
+  },
+  {
+    "id": "join-073",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 1,
+    "front": "Rule 23(a)(3): the representatives' claims or defenses must be what, relative to the class's?",
+    "back": "typical of the claims or defenses of the class",
+    "cites": [
+      {
+        "cite": "23(a)(3)",
+        "quote": "the claims or defenses of the representative parties are typical of the claims or defenses of the class"
+      }
+    ]
+  },
+  {
+    "id": "join-074",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 1,
+    "front": "What must be true of the party opposing the class for a class action to be maintained under Rule 23(b)(2)?",
+    "back": "the party opposing the class has acted or refused to act on grounds that apply generally to the class",
+    "cites": [
+      {
+        "cite": "23(b)(2)",
+        "quote": "the party opposing the class has acted or refused to act on grounds that apply generally to the class, so that final injunctive relief or corresponding declaratory relief is appropriate respecting the class as a whole"
+      }
+    ]
+  },
+  {
+    "id": "join-075",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 1,
+    "front": "What two findings does Rule 23(b)(3) require, beyond common questions?",
+    "back": "predominate over any questions affecting only individual members, and that a class action is superior to other available methods",
+    "cites": [
+      {
+        "cite": "23(b)(3)",
+        "quote": "the court finds that the questions of law or fact common to class members predominate over any questions affecting only individual members, and that a class action is superior to other available methods for fairly and efficiently adjudicating the controversy"
+      }
+    ]
+  },
+  {
+    "id": "join-076",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 1,
+    "front": "When must the court decide whether to certify a class action?",
+    "back": "At an early practicable time after a person sues or is sued as a class representative",
+    "cites": [
+      {
+        "cite": "23(c)(1)(A)",
+        "quote": "At an early practicable time after a person sues or is sued as a class representative, the court must determine by order whether to certify the action as a class action."
+      }
+    ]
+  },
+  {
+    "id": "join-077",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 1,
+    "front": "How may the claims of a certified class be settled, voluntarily dismissed, or compromised?",
+    "back": "only with the court's approval",
+    "cites": [
+      {
+        "cite": "23(e)",
+        "quote": "may be settled, voluntarily dismissed, or compromised only with the court's approval"
+      }
+    ]
+  },
+  {
+    "id": "join-078",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 1,
+    "front": "How long does a party have to petition for permission to appeal a class-certification order (Rule 23(f))?",
+    "back": "within 14 days after the order is entered, or within 45 days after the order is entered if any party is the United States",
+    "cites": [
+      {
+        "cite": "23(f)",
+        "quote": "within 14 days after the order is entered, or within 45 days after the order is entered if any party is the United States, a United States agency, or a United States officer or employee"
+      }
+    ]
+  },
+  {
+    "id": "join-079",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "21"
+    ],
+    "level": 1,
+    "front": "Is misjoinder of parties a ground for dismissing an action?",
+    "back": "Misjoinder of parties is not a ground for dismissing an action",
+    "cites": [
+      {
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action"
+      }
+    ]
+  },
+  {
+    "id": "join-080",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "21"
+    ],
+    "level": 1,
+    "front": "Who may trigger a Rule 21 order adding or dropping a party?",
+    "back": "On motion or on its own",
+    "cites": [
+      {
+        "cite": "21",
+        "quote": "On motion or on its own, the court may at any time, on just terms, add or drop a party."
+      }
+    ]
+  },
+  {
+    "id": "join-081",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "21"
+    ],
+    "level": 1,
+    "front": "When may the court add or drop a party under Rule 21, and on what terms?",
+    "back": "at any time, on just terms",
+    "cites": [
+      {
+        "cite": "21",
+        "quote": "On motion or on its own, the court may at any time, on just terms, add or drop a party."
+      }
+    ]
+  },
+  {
+    "id": "join-082",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "21"
+    ],
+    "level": 1,
+    "front": "Besides adding or dropping a party, what else may the court do under Rule 21?",
+    "back": "sever any claim against a party",
+    "cites": [
+      {
+        "cite": "21",
+        "quote": "The court may also sever any claim against a party."
+      }
+    ]
+  },
+  {
+    "id": "join-083",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "21"
+    ],
+    "level": 1,
+    "front": "What may the court do with the parties in an action under Rule 21?",
+    "back": "add or drop a party",
+    "cites": [
+      {
+        "cite": "21",
+        "quote": "the court may at any time, on just terms, add or drop a party"
+      }
+    ]
+  },
+  {
+    "id": "join-084",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 1,
+    "front": "Under Rule 24(a)(1), who has a right to intervene?",
+    "back": "given an unconditional right to intervene by a federal statute",
+    "cites": [
+      {
+        "cite": "24(a)(1)",
+        "quote": "is given an unconditional right to intervene by a federal statute"
+      }
+    ]
+  },
+  {
+    "id": "join-085",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 1,
+    "front": "Under Rule 24(a)(2), when do existing parties defeat intervention of right?",
+    "back": "unless existing parties adequately represent that interest",
+    "cites": [
+      {
+        "cite": "24(a)(2)",
+        "quote": "unless existing parties adequately represent that interest"
+      }
+    ]
+  },
+  {
+    "id": "join-086",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 1,
+    "front": "What must a permissive intervenor's claim or defense share with the main action under Rule 24(b)(1)(B)?",
+    "back": "a common question of law or fact",
+    "cites": [
+      {
+        "cite": "24(b)(1)(B)",
+        "quote": "has a claim or defense that shares with the main action a common question of law or fact"
+      }
+    ]
+  },
+  {
+    "id": "join-087",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 1,
+    "front": "What must the court consider in exercising its discretion on permissive intervention?",
+    "back": "whether the intervention will unduly delay or prejudice the adjudication of the original parties' rights",
+    "cites": [
+      {
+        "cite": "24(b)(3)",
+        "quote": "In exercising its discretion, the court must consider whether the intervention will unduly delay or prejudice the adjudication of the original parties' rights."
+      }
+    ]
+  },
+  {
+    "id": "join-088",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "24"
+    ],
+    "level": 1,
+    "front": "What must accompany a motion to intervene under Rule 24(c)?",
+    "back": "a pleading that sets out the claim or defense for which intervention is sought",
+    "cites": [
+      {
+        "cite": "24(c)",
+        "quote": "The motion must state the grounds for intervention and be accompanied by a pleading that sets out the claim or defense for which intervention is sought."
+      }
+    ]
+  },
+  {
+    "id": "join-089",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "25"
+    ],
+    "level": 1,
+    "front": "How long after service of a statement noting a party's death must a substitution motion be made?",
+    "back": "within 90 days after service of a statement noting the death",
+    "cites": [
+      {
+        "cite": "25(a)(1)",
+        "quote": "If the motion is not made within 90 days after service of a statement noting the death, the action by or against the decedent must be dismissed."
+      }
+    ]
+  },
+  {
+    "id": "join-090",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "25"
+    ],
+    "level": 1,
+    "front": "If an interest is transferred, who may continue the action under Rule 25(c)?",
+    "back": "the action may be continued by or against the original party unless the court, on motion, orders the transferee to be substituted in the action or joined with the original party",
+    "cites": [
+      {
+        "cite": "25(c)",
+        "quote": "the action may be continued by or against the original party unless the court, on motion, orders the transferee to be substituted in the action or joined with the original party"
+      }
+    ]
+  },
+  {
+    "id": "join-091",
+    "kind": "recall",
+    "topic": "parties",
+    "rules": [
+      "25"
+    ],
+    "level": 1,
+    "front": "When a public officer sued in an official capacity leaves office, what happens to the action and the successor under Rule 25(d)?",
+    "back": "The officer's successor is automatically substituted as a party",
+    "cites": [
+      {
+        "cite": "25(d)",
+        "quote": "An action does not abate when a public officer who is a party in an official capacity dies, resigns, or otherwise ceases to hold office while the action is pending. The officer's successor is automatically substituted as a party."
+      }
+    ]
+  },
+  {
+    "id": "join-092",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23.1"
+    ],
+    "level": 1,
+    "front": "What must a derivative-action complaint be, besides containing the Rule 23.1(b) allegations?",
+    "back": "The complaint must be verified",
+    "cites": [
+      {
+        "cite": "23.1(b)",
+        "quote": "The complaint must be verified and must:"
+      }
+    ]
+  },
+  {
+    "id": "join-093",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23.1"
+    ],
+    "level": 1,
+    "front": "Rule 23.1(b)(1): at what time must the plaintiff have been a shareholder or member?",
+    "back": "at the time of the transaction complained of",
+    "cites": [
+      {
+        "cite": "23.1(b)(1)",
+        "quote": "allege that the plaintiff was a shareholder or member at the time of the transaction complained of, or that the plaintiff's share or membership later devolved on it by operation of law"
+      }
+    ]
+  },
+  {
+    "id": "join-094",
+    "kind": "recall",
+    "topic": "class",
+    "rules": [
+      "23.2"
+    ],
+    "level": 1,
+    "front": "Under Rule 23.2, when may an action by or against the members of an unincorporated association as a class be maintained?",
+    "back": "only if it appears that those parties will fairly and adequately protect the interests of the association and its members",
+    "cites": [
+      {
+        "cite": "23.2",
+        "quote": "only if it appears that those parties will fairly and adequately protect the interests of the association and its members"
+      }
+    ]
+  },
+  {
+    "id": "join-052",
+    "kind": "apply",
+    "topic": "class",
+    "rules": [
+      "23",
+      "6"
+    ],
+    "level": 3,
+    "stem": "A putative class sues an agency of the United States. On Thursday, March 5, 2026, the district court enters an order granting class certification. The agency wants immediate appellate review. No order or statute changes any time limit.",
+    "ask": "What is the last day to file a petition for permission to appeal with the circuit clerk?",
+    "options": [
+      {
+        "t": "March 19, 2026",
+        "why": "Uses the 14-day period; Rule 23(f) gives 45 days when any party is a United States agency."
+      },
+      {
+        "t": "April 17, 2026",
+        "why": "Day 45 is Sunday, April 19; Rule 6(a)(1)(C) moves the deadline forward, not back, to Monday."
+      },
+      {
+        "t": "April 20, 2026",
+        "why": "Correct. 45 days after March 5 ends Sunday, April 19, which rolls forward to Monday, April 20."
+      },
+      {
+        "t": "May 4, 2026",
+        "why": "Uses 60 days; Rule 23(f) sets no 60-day period."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 23(f) gives a party 14 days after the order is entered to petition for permission to appeal, or 45 days if any party is the United States or a United States agency. Counting 45 days from March 5, excluding that day, ends Sunday, April 19, so Rule 6(a)(1)(C) extends it to Monday, April 20.",
+    "cites": [
+      {
+        "cite": "23(f)",
+        "quote": "within 14 days after the order is entered, or within 45 days after the order is entered if any party is the United States, a United States agency, or a United States officer or employee"
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "include the last day of the period, but if the last day is a Saturday, Sunday, or legal holiday, the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "calc": {
+      "from": "2026-03-05",
+      "days": 45,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-20"
+    }
+  }
+]
