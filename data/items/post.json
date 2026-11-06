@@ -4050,5 +4050,160 @@
       1
     ],
     "explain": "Rule 58(e) provides that \"ordinarily, the entry of judgment may not be delayed . . . in order to tax costs or award fees.\" The judgment is entered now; costs are taxed and fees claimed by motion afterwards under Rule 54(d)."
+  },
+  {
+    "id": "post-034",
+    "kind": "issue",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "58(a)(3)",
+        "quote": "for attorney's fees under Rule 54;"
+      },
+      {
+        "cite": "58(c)(2)(A)",
+        "quote": "it is set out in a separate document; or"
+      }
+    ],
+    "stem": "After a bench trial, the court rules for Nash against Opal Corp. The judgment is set out in a separate document and entered in the civil docket on Monday, March 2, 2026. Nash then moves for attorney's fees under Rule 54, and the court grants the motion by a written order that is docketed but not set out in a separate document. Opal asks when the judgment was entered and whether the fee order needed a separate document. No one has moved to amend findings, no party has requested a separate document, and there was no jury.",
+    "ask": "Select each most specific subsection of Rule 58 that squarely governs these two questions.",
+    "options": [
+      {
+        "t": "Rule 58(d)",
+        "why": "Does not apply. It lets a party request a separate document; no party made a request, and the document was prepared anyway."
+      },
+      {
+        "t": "Rule 58(a)(2)",
+        "why": "Does not apply. It covers orders on motions to amend or make additional findings under Rule 52(b); no such motion was made."
+      },
+      {
+        "t": "Rule 58(a)(3)",
+        "why": "Applies. A separate document is not required for an order disposing of a motion for attorney's fees under Rule 54."
+      },
+      {
+        "t": "Rule 58(b)(1)(A)",
+        "why": "Does not apply. It concerns a jury's general verdict, and this was a bench trial."
+      },
+      {
+        "t": "Rule 58(c)(2)(A)",
+        "why": "Applies. Because a separate document is required, the judgment was entered when docketed and set out in a separate document, the earlier event."
+      },
+      {
+        "t": "Rule 58(c)(2)(B)",
+        "why": "Does not apply. It is the 150-day alternative; the separate document was set out on March 2, so the 150 days never mattered."
+      }
+    ],
+    "key": [
+      2,
+      4
+    ],
+    "explain": "A separate document is not required for an order disposing of a motion for attorney's fees under Rule 58(a)(3), so the fee order needed none. The judgment itself required one, so under Rule 58(c)(2) it was entered when docketed and the earlier event occurred, here Rule 58(c)(2)(A), the separate document, on March 2."
+  },
+  {
+    "id": "post-043",
+    "kind": "issue",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "62(a)",
+        "quote": "Except as provided in Rule 62(c) and (d), execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      },
+      {
+        "cite": "62(b)",
+        "quote": "At any time after judgment is entered, a party may obtain a stay by providing a bond or other security."
+      },
+      {
+        "cite": "62(h)",
+        "quote": "A court may stay the enforcement of a final judgment entered under Rule 54(b) until it enters a later judgment or judgments, and may prescribe terms necessary to secure the benefit of the stayed judgment for the party in whose favor it was entered."
+      }
+    ],
+    "stem": "Orr sues Pyre Co., a private company, for breach of contract (Count I) and fraud (Count II). On Monday, March 2, 2026, the court expressly determines there is no just reason for delay and directs entry of final judgment for Orr on Count I for $200,000. Count II remains for trial. On March 12, Orr serves a writ of execution on Pyre's bank account. Under the law of the state where the court sits, the judgment is not a lien on Pyre's property. Pyre is willing to post a bond and wants to stop enforcement now and, if possible, until Count II is resolved.",
+    "ask": "Select each provision of Rule 62 that squarely gives Pyre or the court a basis to stay enforcement here.",
+    "options": [
+      {
+        "t": "Rule 62(e)",
+        "why": "Does not apply. It relieves the United States and its agencies from posting a bond; Pyre is a private company."
+      },
+      {
+        "t": "Rule 62(a)",
+        "why": "Applies. Execution and enforcement proceedings are stayed for 30 days after entry, and March 12 is within that period."
+      },
+      {
+        "t": "Rule 62(c)",
+        "why": "Does not apply. The judgment is for money damages, not an injunction, receivership, or patent accounting."
+      },
+      {
+        "t": "Rule 62(h)",
+        "why": "Applies. The court may stay enforcement of a Rule 54(b) judgment until a later judgment is entered, on terms securing Orr."
+      },
+      {
+        "t": "Rule 62(f)",
+        "why": "Does not apply. The judgment is not a lien on Pyre's property under state law, so Pyre gets no state-law stay."
+      },
+      {
+        "t": "Rule 62(b)",
+        "why": "Applies. Pyre is willing to post a bond, and a party may obtain a stay at any time after judgment by providing a bond or other security."
+      }
+    ],
+    "key": [
+      1,
+      3,
+      5
+    ],
+    "explain": "The March 12 execution falls within the 30-day automatic stay of Rule 62(a). Pyre may also obtain a stay by bond under Rule 62(b), and because the judgment was entered under Rule 54(b), Rule 62(h) lets the court stay enforcement until a later judgment. Rules 62(c), (e), and (f) do not fit the facts."
+  },
+  {
+    "id": "post-061",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "81(c)(3)(B)",
+        "quote": "If all necessary pleadings have been served at the time of removal, a party entitled to a jury trial under Rule 38 must be given one if the party serves a demand within 14 days after:"
+      }
+    ],
+    "stem": "Finch sues Crane Co. in state court for breach of contract. Under state law a jury must be expressly demanded, and Finch made no demand there. All necessary pleadings have been served. On Monday, March 2, 2026, Crane files a notice of removal and hand-delivers a copy to Finch that day. Finch is entitled to a jury trial under Rule 38 and wants one.",
+    "ask": "By what date must Finch serve a jury demand?",
+    "options": [
+      {
+        "t": "March 9, 2026",
+        "why": "Wrong day count. Seven days is the removal-answer period, not the jury-demand period."
+      },
+      {
+        "t": "March 16, 2026",
+        "why": "Correct. Rule 81(c)(3)(B) allows a demand served within 14 days after Finch is served with the notice of removal."
+      },
+      {
+        "t": "March 23, 2026",
+        "why": "Wrong day count. Twenty-one days is not the Rule 81(c)(3)(B) period."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Wrong day count. Twenty-eight days is not the Rule 81(c)(3)(B) period."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "All necessary pleadings were served at removal and state law required an express demand that Finch did not make, so Rule 81(c)(3)(B) applies: a party entitled to a jury under Rule 38 gets one if it serves a demand within 14 days after being served with the notice of removal. March 2 plus 14 days is Monday, March 16.",
+    "calc": {
+      "mail": false,
+      "from": "2026-03-02",
+      "days": 14,
+      "dir": "after",
+      "answer": "2026-03-16"
+    }
   }
 ]

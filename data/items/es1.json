@@ -546,5 +546,781 @@
         "quote": "knew or should have known that the action would have been brought against it, but for a mistake concerning the proper party's identity"
       }
     ]
+  },
+  {
+    "id": "es1-004",
+    "kind": "essay",
+    "topic": "claims",
+    "rules": [
+      "12",
+      "13",
+      "15",
+      "18"
+    ],
+    "level": 2,
+    "minutes": 15,
+    "stem": "Lumen Design sues Hartley Bakery for $30,000 owed on a website build, serving the complaint on July 1, 2026. Hartley serves a timely answer on July 20, 2026 that denies owing the money and pleads no counterclaim. On July 27, Hartley serves an amended answer adding two counterclaims: (1) $18,000 for defects in the same website, and (2) $9,000 that Lumen owes Hartley for catering Lumen bought last year, which has nothing to do with the website. Hartley's lawyer explains that he left the first counterclaim out of the original answer by oversight. On August 10, before answering either counterclaim, Lumen serves a Rule 12(f) motion asking the court to strike the catering counterclaim as immaterial because it is unrelated to the website dispute and Hartley should have to sue on it separately. Lumen's lawyer adds that Lumen will not answer either counterclaim until the motion is decided. Assume the court denies the motion on August 17 and sets no different time.",
+    "ask": "Analyze whether Hartley was required or permitted to plead each counterclaim, whether it needed leave to add them, how the court should rule on Lumen's motion, and when Lumen's answer to the counterclaims is due.",
+    "rubric": [
+      {
+        "point": "The website-defect claim arises out of the transaction that is the subject of Lumen's claim, so Hartley was required to state it as a counterclaim.",
+        "cite": "13(a)(1)",
+        "quote": "A pleading must state as a counterclaim any claim that-at the time of its service-the pleader has against an opposing party if the claim:"
+      },
+      {
+        "point": "The catering claim is not compulsory, so Hartley may, but need not, state it as a counterclaim.",
+        "cite": "13(b)",
+        "quote": "A pleading may state as a counterclaim against an opposing party any claim that is not compulsory."
+      },
+      {
+        "point": "Hartley may join as many claims as it has against Lumen, so unrelatedness to the website claim is no bar to the catering counterclaim and gives no basis to call it immaterial.",
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      },
+      {
+        "point": "Hartley amended its answer 7 days after serving it, within 21 days and for the first time, so it amended as of course without leave.",
+        "cite": "15(a)(1)(A)",
+        "quote": "21 days after serving it"
+      },
+      {
+        "point": "Lumen made its Rule 12(f) motion before responding to the pleading, so the motion was timely made.",
+        "cite": "12(f)(2)",
+        "quote": "on motion made by a party either before responding to the pleading or, if a response is not allowed, within 21 days after being served with the pleading."
+      },
+      {
+        "point": "Rule 12(a)(1)(B) gives 21 days after service of the pleading that states the counterclaim, so absent the motion Lumen's answer would be due August 17.",
+        "cite": "12(a)(1)(B)",
+        "quote": "A party must serve an answer to a counterclaim or crossclaim within 21 days after being served with the pleading that states the counterclaim or crossclaim."
+      },
+      {
+        "point": "After the court denies the motion on August 17, the answer is due 14 days after notice, August 31.",
+        "cite": "12(a)(4)(A)",
+        "quote": "if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action"
+      },
+      {
+        "point": "Even if the amended answer counts as an amended pleading whose response runs 14 days under Rule 15(a)(3) (August 10), Lumen's August 10 motion was still timely, and the August 31 deadline is the same either way.",
+        "cite": "15(a)(3)",
+        "quote": "any required response to an amended pleading must be made within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later."
+      }
+    ],
+    "model": "Compulsory counterclaim. Rule 13(a)(1) requires a pleading to state as a counterclaim any claim the pleader has against an opposing party that arises out of the transaction that is the subject of the opposing party's claim. The website-defect claim arises out of the same website contract Lumen sues on, so Hartley was required to plead it. Its original answer left it out, but the amended answer supplies it.\n\nPermissive counterclaim. The catering claim has nothing to do with the website, so it is not compulsory. Rule 13(b) says a pleading may state as a counterclaim any claim that is not compulsory, and Rule 18(a) lets a party asserting a counterclaim join as many claims as it has against an opposing party. Hartley was therefore permitted to plead it.\n\nLeave. Hartley served the amended answer 7 days after its answer. Rule 15(a)(1)(A) allows one amendment as of course within 21 days after serving the pleading, and an answer requires no response, so only that subparagraph applies. No leave was needed.\n\nThe motion. Lumen moved before responding, which Rule 12(f)(2) permits. But Rules 13(b) and 18(a) expressly authorize a counterclaim unrelated to the main claim, so unrelatedness cannot make the catering claim immaterial. The court should deny the motion.\n\nTiming. Rule 12(a)(1)(B) gives Lumen 21 days after service of the amended answer to answer the counterclaims: August 17. If Rule 15(a)(3) applied instead, the response to the amended pleading would be due 14 days after service, August 10; Lumen's motion was served that day, so it was timely either way. Because Lumen served a Rule 12 motion, Rule 12(a)(4)(A) applies. Denial on August 17 makes the answer due 14 days after notice, August 31, unless the court sets another time, under either computation.",
+    "cites": [
+      {
+        "cite": "13(a)(1)",
+        "quote": "A pleading must state as a counterclaim any claim that-at the time of its service-the pleader has against an opposing party if the claim:"
+      },
+      {
+        "cite": "13(b)",
+        "quote": "A pleading may state as a counterclaim against an opposing party any claim that is not compulsory."
+      },
+      {
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      },
+      {
+        "cite": "15(a)(1)(A)",
+        "quote": "21 days after serving it"
+      },
+      {
+        "cite": "12(f)(2)",
+        "quote": "on motion made by a party either before responding to the pleading or, if a response is not allowed, within 21 days after being served with the pleading."
+      },
+      {
+        "cite": "12(a)(1)(B)",
+        "quote": "A party must serve an answer to a counterclaim or crossclaim within 21 days after being served with the pleading that states the counterclaim or crossclaim."
+      },
+      {
+        "cite": "12(a)(4)(A)",
+        "quote": "if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action"
+      },
+      {
+        "cite": "15(a)(3)",
+        "quote": "any required response to an amended pleading must be made within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later."
+      }
+    ]
+  },
+  {
+    "id": "es1-007",
+    "kind": "essay",
+    "topic": "parties",
+    "rules": [
+      "12",
+      "19"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Mara sues Tidewater Co-op for a declaration that she owns 100 shares of Tidewater stock registered in her name on the co-op's books. Brandt, a former business partner of Mara, also claims to own those shares, says Mara holds them only for him, and has threatened to sue Tidewater if it recognizes Mara as owner. Brandt is not a party, can be served with process, and joining him would raise no jurisdictional problem. Mara's complaint does not mention Brandt. Tidewater serves an answer on May 5, 2026 that denies Mara's ownership but does not raise the absence of Brandt. On June 2, after the pleadings are closed, Tidewater moves under Rule 12(c) for judgment on the pleadings, arguing for the first time that the case cannot go forward without Brandt, and asks that the action be dismissed. Mara responds that Tidewater waived the point by not raising it in a pre-answer motion or in its answer.",
+    "ask": "Analyze whether Brandt is a person who must be joined, whether Tidewater preserved the point, and how the court should rule on the motion.",
+    "rubric": [
+      {
+        "point": "Brandt can be served and joining him raises no jurisdictional problem, so he is the kind of person Rule 19(a)(1) can require to be joined.",
+        "cite": "19(a)(1)",
+        "quote": "A person who is subject to service of process and whose joinder will not deprive the court of subject-matter jurisdiction must be joined as a party if:"
+      },
+      {
+        "point": "Brandt claims an interest in the same shares, which are the subject of the action.",
+        "cite": "19(a)(1)(B)",
+        "quote": "that person claims an interest relating to the subject of the action and is so situated that disposing of the action in the person's absence may:"
+      },
+      {
+        "point": "A judgment for Mara declaring her the owner could, as a practical matter, impair Brandt's ability to protect his claimed interest in the shares.",
+        "cite": "19(a)(1)(B)(i)",
+        "quote": "as a practical matter impair or impede the person's ability to protect the interest"
+      },
+      {
+        "point": "Tidewater faces a substantial risk of double or inconsistent obligations, because Brandt threatens to sue if it recognizes Mara.",
+        "cite": "19(a)(1)(B)(ii)",
+        "quote": "leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest"
+      },
+      {
+        "point": "Only the Rule 12(b)(2)-(5) defenses are waived by omission from a pre-answer motion or the answer; failure to join a person required by Rule 19(b) can still be raised later, so Mara's waiver argument fails.",
+        "cite": "12(h)(2)",
+        "quote": "Failure to state a claim upon which relief can be granted, to join a person required by Rule 19(b), or to state a legal defense to a claim may be raised:"
+      },
+      {
+        "point": "One listed way is a Rule 12(c) motion. Tidewater answered May 5 and moved June 2, after the pleadings closed, so the motion is a proper vehicle.",
+        "cite": "12(h)(2)(B)",
+        "quote": "by a motion under Rule 12(c)"
+      },
+      {
+        "point": "The remedy for nonjoinder of a person who can be joined is an order making that person a party, not dismissal.",
+        "cite": "19(a)(2)",
+        "quote": "If a person has not been joined as required, the court must order that the person be made a party."
+      },
+      {
+        "point": "Rule 19(b), which weighs dismissal, applies only if a required person cannot be joined; Brandt can be joined.",
+        "cite": "19(b)",
+        "quote": "If a person who is required to be joined if feasible cannot be joined, the court must determine whether, in equity and good conscience, the action should proceed among the existing parties or should be dismissed."
+      },
+      {
+        "point": "Mara's complaint, which asserts a claim for relief, never names Brandt or gives reasons for not joining him, as Rule 19(c) requires of a claimant; the omission is curable and does not itself call for dismissal.",
+        "cite": "19(c)(2)",
+        "quote": "the reasons for not joining that person."
+      }
+    ],
+    "model": "Required party. Rule 19(a)(1) requires joinder of a person who is subject to service and whose joinder will not defeat subject-matter jurisdiction if, under (B), the person claims an interest relating to the subject of the action and is so situated that deciding the case without him may impair his ability to protect it or leave an existing party at risk of double or inconsistent obligations. Brandt can be served and his joinder raises no jurisdictional problem. He claims the very shares in suit. A declaration for Mara could as a practical matter impair his ability to protect that claim (Rule 19(a)(1)(B)(i)), and Tidewater, if it honors Mara's ownership, faces Brandt's threatened suit and thus a substantial risk of inconsistent obligations (Rule 19(a)(1)(B)(ii)). Brandt is a required party. Rule 19(c) required Mara, as claimant, to name any such person not joined and give the reasons; her complaint did not mention Brandt, a defect to be corrected.\n\nPreservation. Mara argues waiver, but Rule 12(h)(1) lists only the defenses in Rule 12(b)(2)-(5) as waived by omission. Rule 12(h)(2) says failure to join a person required by Rule 19(b) may be raised in any pleading allowed under Rule 7(a), by a Rule 12(c) motion, or at trial. Tidewater's answer closed the pleadings on May 5, so its June 2 Rule 12(c) motion was an authorized vehicle.\n\nRemedy. Tidewater asks for dismissal, but Rule 19(a)(2) says that if a person has not been joined as required, the court must order that the person be made a party. Rule 19(b), which asks whether an action should proceed or be dismissed, applies only when a required person cannot be joined, and Brandt can be.\n\nConclusion. Deny dismissal; order Brandt joined under Rule 19(a)(2).",
+    "cites": [
+      {
+        "cite": "19(a)(1)",
+        "quote": "A person who is subject to service of process and whose joinder will not deprive the court of subject-matter jurisdiction must be joined as a party if:"
+      },
+      {
+        "cite": "19(a)(1)(B)",
+        "quote": "that person claims an interest relating to the subject of the action and is so situated that disposing of the action in the person's absence may:"
+      },
+      {
+        "cite": "19(a)(1)(B)(i)",
+        "quote": "as a practical matter impair or impede the person's ability to protect the interest"
+      },
+      {
+        "cite": "19(a)(1)(B)(ii)",
+        "quote": "leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest"
+      },
+      {
+        "cite": "12(h)(2)",
+        "quote": "Failure to state a claim upon which relief can be granted, to join a person required by Rule 19(b), or to state a legal defense to a claim may be raised:"
+      },
+      {
+        "cite": "12(h)(2)(B)",
+        "quote": "by a motion under Rule 12(c)"
+      },
+      {
+        "cite": "19(a)(2)",
+        "quote": "If a person has not been joined as required, the court must order that the person be made a party."
+      },
+      {
+        "cite": "19(b)",
+        "quote": "If a person who is required to be joined if feasible cannot be joined, the court must determine whether, in equity and good conscience, the action should proceed among the existing parties or should be dismissed."
+      },
+      {
+        "cite": "19(c)(2)",
+        "quote": "the reasons for not joining that person."
+      }
+    ]
+  },
+  {
+    "id": "es1-009",
+    "kind": "essay",
+    "topic": "parties",
+    "rules": [
+      "6",
+      "11",
+      "24"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Dell sues Mercer Realty on September 8, 2026 for specific performance of a contract to sell Lot 12 to Dell. Mercer answers and, on October 1, tells the court it will not oppose Dell and is willing to close. On October 5, Kessler, who holds a recorded option to buy Lot 12 that a sale to Dell would defeat, mails a letter to the clerk and the parties asking to intervene \"as of right\" and demanding a hearing on October 12. The letter explains Kessler's option but attaches no pleading. Kessler has no lawyer and did not sign the letter. Dell opposes, arguing that the papers are defective, that Kessler's interest is already represented because Mercer owns the lot, and that intervention should be denied outright because Kessler could just sue separately. No federal statute gives Kessler a right to intervene. The case is at its earliest stage: no discovery has begun and the court has not ruled on anything.",
+    "ask": "Analyze Kessler's right to intervene, the defects in his papers, and how the court should rule.",
+    "rubric": [
+      {
+        "point": "Kessler claims an interest in the property, an option on Lot 12, and a sale to Dell would as a practical matter impair his ability to protect it.",
+        "cite": "24(a)(2)",
+        "quote": "claims an interest relating to the property or transaction that is the subject of the action, and is so situated that disposing of the action may as a practical matter impair or impede the movant's ability to protect its interest"
+      },
+      {
+        "point": "Mercer has said it will not oppose Dell, so the existing parties do not adequately represent Kessler's interest.",
+        "cite": "24(a)(2)",
+        "quote": "unless existing parties adequately represent that interest"
+      },
+      {
+        "point": "Intervention of right requires a timely motion; Kessler moved about four weeks after suit began and before any ruling, so nothing in the facts shows untimeliness.",
+        "cite": "24(a)",
+        "quote": "On timely motion, the court must permit anyone to intervene who:"
+      },
+      {
+        "point": "The motion must be accompanied by a pleading stating the claim or defense; Kessler attached none, a defect he should cure.",
+        "cite": "24(c)",
+        "quote": "The motion must state the grounds for intervention and be accompanied by a pleading that sets out the claim or defense for which intervention is sought."
+      },
+      {
+        "point": "An unrepresented party must personally sign a written motion, and Kessler did not.",
+        "cite": "11(a)",
+        "quote": "must be signed by at least one attorney of record in the attorney's name-or by a party personally if the party is unrepresented."
+      },
+      {
+        "point": "Because the signature omission is curable, the court must strike the unsigned paper only if the omission is not promptly corrected after being called to Kessler's attention; it should allow him to cure rather than deny outright.",
+        "cite": "11(a)",
+        "quote": "The court must strike an unsigned paper unless the omission is promptly corrected after being called to the attorney's or party's attention."
+      },
+      {
+        "point": "A written motion and notice of hearing must be served at least 14 days before the hearing; October 12 is seven days after October 5, and no exception is shown.",
+        "cite": "6(c)(1)",
+        "quote": "A written motion and notice of the hearing must be served at least 14 days before the time specified for the hearing, with the following exceptions:"
+      },
+      {
+        "point": "Alternatively, permissive intervention is available to one with a claim sharing a common question of law or fact with the main action.",
+        "cite": "24(b)(1)(B)",
+        "quote": "has a claim or defense that shares with the main action a common question of law or fact"
+      },
+      {
+        "point": "Permissive intervention is discretionary, and the court must weigh undue delay or prejudice to the original parties.",
+        "cite": "24(b)(3)",
+        "quote": "In exercising its discretion, the court must consider whether the intervention will unduly delay or prejudice the adjudication of the original parties' rights."
+      }
+    ],
+    "model": "Right to intervene. Rule 24(a) requires the court, on timely motion, to permit anyone to intervene who under Rule 24(a)(2) claims an interest relating to the property that is the subject of the action, is so situated that disposing of the action may as a practical matter impair the ability to protect it, and is not adequately represented by existing parties. Kessler holds a recorded option on Lot 12; an order forcing the sale to Dell would defeat it. Mercer has said it will not oppose Dell, so no existing party represents his interest. The motion came about four weeks into the case, before any ruling, so the facts do not suggest it was untimely. Dell's point that Kessler could sue separately is not a limit in Rule 24(a)(2).\n\nDefects. Rule 24(c) requires the motion to state the grounds and be accompanied by a pleading setting out the claim or defense, and Kessler attached none. Rule 11(a) requires a written motion to be signed by an unrepresented party personally, and the court must strike an unsigned paper unless the omission is promptly corrected after being called to his attention. His demand for an October 12 hearing also fails Rule 6(c)(1), which requires service of a written motion and notice of hearing at least 14 days before the hearing absent a listed exception, and seven days is not enough. These are curable: he may file a signed motion with a pleading and a proper hearing date.\n\nAlternative. If the court found a defect in the right claim, Rule 24(b)(1)(B) lets it permit anyone to intervene who has a claim sharing a common question of law or fact with the main action; Kessler's claim to Lot 12 does. That is discretionary, and Rule 24(b)(3) requires the court to consider undue delay or prejudice to the original parties.\n\nConclusion. The court should not deny the motion outright for these defects. It should allow Kessler a short time to cure them by signing the motion, attaching a pleading and setting a proper hearing date, and then permit intervention as of right.",
+    "cites": [
+      {
+        "cite": "24(a)(2)",
+        "quote": "claims an interest relating to the property or transaction that is the subject of the action, and is so situated that disposing of the action may as a practical matter impair or impede the movant's ability to protect its interest"
+      },
+      {
+        "cite": "24(a)(2)",
+        "quote": "unless existing parties adequately represent that interest"
+      },
+      {
+        "cite": "24(a)",
+        "quote": "On timely motion, the court must permit anyone to intervene who:"
+      },
+      {
+        "cite": "24(c)",
+        "quote": "The motion must state the grounds for intervention and be accompanied by a pleading that sets out the claim or defense for which intervention is sought."
+      },
+      {
+        "cite": "11(a)",
+        "quote": "must be signed by at least one attorney of record in the attorney's name-or by a party personally if the party is unrepresented."
+      },
+      {
+        "cite": "11(a)",
+        "quote": "The court must strike an unsigned paper unless the omission is promptly corrected after being called to the attorney's or party's attention."
+      },
+      {
+        "cite": "6(c)(1)",
+        "quote": "A written motion and notice of the hearing must be served at least 14 days before the time specified for the hearing, with the following exceptions:"
+      },
+      {
+        "cite": "24(b)(1)(B)",
+        "quote": "has a claim or defense that shares with the main action a common question of law or fact"
+      },
+      {
+        "cite": "24(b)(3)",
+        "quote": "In exercising its discretion, the court must consider whether the intervention will unduly delay or prejudice the adjudication of the original parties' rights."
+      }
+    ]
+  },
+  {
+    "id": "es1-012",
+    "kind": "essay",
+    "topic": "class",
+    "rules": [
+      "15",
+      "20",
+      "23",
+      "24"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Evans sues Metro Gym on behalf of herself and about 60 other members of Metro's Maple Street location who were each charged the same undisclosed $15 annual \"maintenance fee.\" Metro serves its answer on March 2, 2026. On May 4, 2026, the court enters an order denying class certification, finding that 60 members at one location can practicably be joined. Evans wants to keep the other members' claims in this lawsuit and is considering several steps: asking the court of appeals to review the denial; asking the district judge to reconsider; amending the complaint to name 12 of the other members as additional plaintiffs; and having another member, Okafor, who is not named, serve a motion to intervene with a short written claim that he was charged the same fee at the same location. He would file within weeks of the May 4 order; discovery has not begun and no trial date is set. Metro answers that none of these steps is available, because the denial of certification ended any chance for the other members in this case.",
+    "ask": "Advise Evans on each route for keeping the other members' claims in the case, and explain how the court should respond to Metro's position.",
+    "rubric": [
+      {
+        "point": "A court of appeals may permit an appeal from an order denying certification, on a petition filed with the circuit clerk within 14 days after entry; May 4 plus 14 days is May 18.",
+        "cite": "23(f)",
+        "quote": "A party must file a petition for permission to appeal with the circuit clerk within 14 days after the order is entered"
+      },
+      {
+        "point": "An appeal does not by itself stay the district court proceedings.",
+        "cite": "23(f)",
+        "quote": "An appeal does not stay proceedings in the district court unless the district judge or the court of appeals so orders."
+      },
+      {
+        "point": "An order denying certification may be altered or amended before final judgment, so the district judge may reconsider.",
+        "cite": "23(c)(1)(C)",
+        "quote": "An order that grants or denies class certification may be altered or amended before final judgment."
+      },
+      {
+        "point": "The court's finding that joinder of the 60 members is practicable supports joining 12 of them as plaintiffs, and their claims arise from the same fee practice at the same location.",
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "point": "Whether the fee was disclosed is a common question for all plaintiffs.",
+        "cite": "20(a)(1)(B)",
+        "quote": "any question of law or fact common to all plaintiffs will arise in the action"
+      },
+      {
+        "point": "The answer was served March 2, past the 21-day as-of-course period, so Evans needs Metro's written consent or leave to amend, and leave should be freely given when justice requires.",
+        "cite": "15(a)(2)",
+        "quote": "In all other cases, a party may amend its pleading only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires."
+      },
+      {
+        "point": "Permissive intervention requires a timely motion; Okafor would move within weeks of the order, before discovery or any trial date, so the motion appears timely.",
+        "cite": "24(b)(1)",
+        "quote": "On timely motion, the court may permit anyone to intervene who:"
+      },
+      {
+        "point": "Okafor has a claim sharing a common question of fact with the main action, so the court may permit him to intervene.",
+        "cite": "24(b)(1)(B)",
+        "quote": "has a claim or defense that shares with the main action a common question of law or fact"
+      },
+      {
+        "point": "A motion to intervene must be accompanied by a pleading that sets out the claim; Okafor's short written claim may not qualify as a pleading, but the defect is curable by filing one.",
+        "cite": "24(c)",
+        "quote": "The motion must state the grounds for intervention and be accompanied by a pleading that sets out the claim or defense for which intervention is sought."
+      }
+    ],
+    "model": "Metro is wrong that denial ended everything. The ruling denied class treatment, not the members' claims, and the rules offer several routes.\n\nReview and reconsideration. Rule 23(f) lets a court of appeals permit an appeal from an order denying certification if a party files a petition with the circuit clerk within 14 days after entry. Fourteen days from May 4 is May 18, so Evans must file by then; the court of appeals decides whether to allow it, and the appeal does not stay the district court unless an order says so. Separately, Rule 23(c)(1)(C) provides that an order denying certification may be altered or amended before final judgment, so Evans may ask the district judge to reconsider.\n\nJoinder. The court found that joinder of 60 members is practicable, which supports adding members as ordinary plaintiffs. Under Rule 20(a)(1), persons may join as plaintiffs if they assert rights to relief arising out of the same transaction, occurrence or series, and a common question will arise. The same fee practice at the same location and the disclosure question satisfy both parts, so the court may permit the 12 members to join. Metro answered on March 2, more than 21 days ago, so Rule 15(a)(2) requires Metro's written consent or the court's leave; the court should freely give leave when justice requires.\n\nIntervention. On timely motion, Rule 24(b)(1)(B) lets the court permit anyone to intervene who has a claim sharing a common question of law or fact with the main action. Okafor's claim does, and a motion made within weeks of the order, before discovery, appears timely. The court may deny it for undue delay or prejudice (Rule 24(b)(3)). Rule 24(c) requires a pleading setting out his claim; a short written claim may not qualify, but he can cure by filing one.\n\nConclusion. Evans should file the Rule 23(f) petition by May 18 and, in parallel, seek reconsideration and leave to add plaintiffs; Okafor may move to intervene.",
+    "cites": [
+      {
+        "cite": "23(f)",
+        "quote": "A party must file a petition for permission to appeal with the circuit clerk within 14 days after the order is entered"
+      },
+      {
+        "cite": "23(f)",
+        "quote": "An appeal does not stay proceedings in the district court unless the district judge or the court of appeals so orders."
+      },
+      {
+        "cite": "23(c)(1)(C)",
+        "quote": "An order that grants or denies class certification may be altered or amended before final judgment."
+      },
+      {
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "20(a)(1)(B)",
+        "quote": "any question of law or fact common to all plaintiffs will arise in the action"
+      },
+      {
+        "cite": "15(a)(2)",
+        "quote": "In all other cases, a party may amend its pleading only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires."
+      },
+      {
+        "cite": "24(b)(1)",
+        "quote": "On timely motion, the court may permit anyone to intervene who:"
+      },
+      {
+        "cite": "24(b)(1)(B)",
+        "quote": "has a claim or defense that shares with the main action a common question of law or fact"
+      },
+      {
+        "cite": "24(c)",
+        "quote": "The motion must state the grounds for intervention and be accompanied by a pleading that sets out the claim or defense for which intervention is sought."
+      }
+    ]
+  },
+  {
+    "id": "es1-013",
+    "kind": "essay",
+    "topic": "claims",
+    "rules": [
+      "4",
+      "12",
+      "14",
+      "15"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Perla sues Cross-Country Movers for damage to her antique piano during a move. Cross-Country serves its answer on October 5, 2026 and on October 15 serves a summons and third-party complaint on Axle Crating, alleging that Axle's defective crate caused the damage. The process server hands the papers to Axle's receptionist, who is not an officer or managing agent and is not authorized to receive service for Axle; assume state law adds nothing to Rule 4(h)(1)(B). Axle serves an answer on November 2 that denies liability, says nothing about service, asserts that Perla's claim is barred by a written release Perla signed in favor of Cross-Country, and asserts that Cross-Country owes Axle $4,000 for crates supplied on this same move. On November 16, Axle serves an amended answer adding an insufficient-service-of-process defense. Cross-Country objects that Axle waived that defense. Meanwhile, Perla serves a claim directly against Axle for the damage to the piano.",
+    "ask": "Analyze Axle's obligations and options, whether it preserved the service defense, and Perla's claim against Axle.",
+    "rubric": [
+      {
+        "point": "Cross-Country served the third-party complaint 10 days after its answer, within 14 days, so it needed no leave.",
+        "cite": "14(a)(1)",
+        "quote": "But the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer."
+      },
+      {
+        "point": "Delivery to a receptionist who is not an officer, managing or general agent, or authorized agent is not proper service on a corporation.",
+        "cite": "4(h)(1)(B)",
+        "quote": "delivering a copy of the summons and of the complaint to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process"
+      },
+      {
+        "point": "As third-party defendant, Axle must assert any Rule 12 defense against Cross-Country's claim.",
+        "cite": "14(a)(2)(A)",
+        "quote": "must assert any defense against the third-party plaintiff's claim under Rule 12"
+      },
+      {
+        "point": "Axle's first answer omitted the Rule 12(b)(5) defense; waiver follows unless the defense was made by motion or included in a responsive pleading or an as-of-course amendment.",
+        "cite": "12(h)(1)(B)",
+        "quote": "failing to either: (i) make it by motion under this rule; or (ii) include it in a responsive pleading or in an amendment allowed by Rule 15(a)(1) as a matter of course."
+      },
+      {
+        "point": "Axle's answer states a counterclaim, so Cross-Country must answer it, but Axle could still amend once as of course within 21 days after serving the answer; November 16 is 14 days after November 2, so the amendment was timely without leave and avoided waiver.",
+        "cite": "15(a)(1)(A)",
+        "quote": "21 days after serving it"
+      },
+      {
+        "point": "Axle's $4,000 claim arises from crates supplied on the same move, so Axle must assert it against Cross-Country as a Rule 13(a) counterclaim, and it did.",
+        "cite": "14(a)(2)(B)",
+        "quote": "must assert any counterclaim against the third-party plaintiff under Rule 13(a)"
+      },
+      {
+        "point": "Axle may assert against Perla any defense Cross-Country has to her claim, such as the release Perla signed.",
+        "cite": "14(a)(2)(C)",
+        "quote": "may assert against the plaintiff any defense that the third-party plaintiff has to the plaintiff's claim"
+      },
+      {
+        "point": "Perla may assert against Axle a claim arising out of the same occurrence; Axle must then assert its Rule 12 defenses and Rule 13(a) counterclaims against her.",
+        "cite": "14(a)(3)",
+        "quote": "The plaintiff may assert against the third-party defendant any claim arising out of the transaction or occurrence that is the subject matter of the plaintiff's claim against the third-party plaintiff. The third-party defendant must then assert any defense under Rule 12 and any counterclaim under Rule 13(a)"
+      }
+    ],
+    "model": "Impleader. Cross-Country served its third-party complaint 10 days after its answer. Rule 14(a)(1) requires leave only when the filing comes more than 14 days after the original answer, so none was needed.\n\nService. Rule 4(h)(1)(B) requires delivery to an officer, managing or general agent, or an agent authorized to receive process. A receptionist who is none of these is not one, and we are told state law adds nothing, so service on Axle was insufficient.\n\nWaiver. Rule 14(a)(2)(A) requires Axle to assert its Rule 12 defenses against Cross-Country's claim, and Rule 12(h)(1)(B) waives a Rule 12(b)(2)-(5) defense unless the party makes it by motion or includes it in a responsive pleading or in an amendment allowed by Rule 15(a)(1) as a matter of course. Axle's November 2 answer omitted it. Axle's answer states a counterclaim, so Cross-Country must answer it (Rule 12(a)(1)(B)), but Rule 15(a)(1)(A) still permitted one amendment as of course within 21 days after serving the answer; Rule 15(a)(1)(B) can only extend that time. November 16 is 14 days later, so Axle's amendment was timely and, by including the defense, avoided waiver. Cross-Country's objection should fail.\n\nOther duties and options. Rule 14(a)(2)(B) requires Axle to assert against Cross-Country any Rule 13(a) counterclaim; its $4,000 claim for crates on the same move arises out of that transaction and was pleaded. Rule 14(a)(2)(C) allows Axle to assert against Perla any defense Cross-Country has, so Axle may rely on Perla's release.\n\nPerla's claim. Rule 14(a)(3) allows the plaintiff to assert against the third-party defendant any claim arising out of the transaction or occurrence of her claim against the third-party plaintiff. Damage to the piano during the move qualifies. Axle must then assert any Rule 12 defense and Rule 13(a) counterclaim against Perla.\n\nConclusion. Service defense preserved; Perla may sue Axle.",
+    "cites": [
+      {
+        "cite": "14(a)(1)",
+        "quote": "But the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer."
+      },
+      {
+        "cite": "4(h)(1)(B)",
+        "quote": "delivering a copy of the summons and of the complaint to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process"
+      },
+      {
+        "cite": "14(a)(2)(A)",
+        "quote": "must assert any defense against the third-party plaintiff's claim under Rule 12"
+      },
+      {
+        "cite": "12(h)(1)(B)",
+        "quote": "failing to either: (i) make it by motion under this rule; or (ii) include it in a responsive pleading or in an amendment allowed by Rule 15(a)(1) as a matter of course."
+      },
+      {
+        "cite": "15(a)(1)(A)",
+        "quote": "21 days after serving it"
+      },
+      {
+        "cite": "14(a)(2)(B)",
+        "quote": "must assert any counterclaim against the third-party plaintiff under Rule 13(a)"
+      },
+      {
+        "cite": "14(a)(2)(C)",
+        "quote": "may assert against the plaintiff any defense that the third-party plaintiff has to the plaintiff's claim"
+      },
+      {
+        "cite": "14(a)(3)",
+        "quote": "The plaintiff may assert against the third-party defendant any claim arising out of the transaction or occurrence that is the subject matter of the plaintiff's claim against the third-party plaintiff. The third-party defendant must then assert any defense under Rule 12 and any counterclaim under Rule 13(a)"
+      }
+    ]
+  },
+  {
+    "id": "es1-014",
+    "kind": "essay",
+    "topic": "rule12",
+    "rules": [
+      "12",
+      "19",
+      "8"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Sutter sues Delta Components for breach of contract. On March 16, 2026, a process server leaves the summons and complaint with Delta's receptionist, who is not an officer or an agent authorized to receive service. On April 6, Delta serves a motion under Rule 12(b)(6) and raises no other defense. The court denies the motion on May 4 and sets no different time. On May 11, Delta serves an answer that asserts (1) insufficient service of process, because the papers were left with the receptionist; (2) failure to state a claim; and (3) failure to join Beckett, who co-signed the contract and is a person Rule 19 requires to be joined; Beckett can be served and joining him would not defeat jurisdiction. Sutter replies that Delta waived defenses (1) and (3) by omitting them from its earlier motion and that the answer is late. On May 26, Delta moves for judgment on the pleadings under Rule 12(c) on defenses (2) and (3) and attaches a sworn statement from its treasurer that the contract price was paid. Sutter opposes.",
+    "ask": "Analyze Sutter's waiver and timeliness arguments and explain how the court should treat Delta's May 26 motion.",
+    "rubric": [
+      {
+        "point": "Delta's April 6 motion came before any pleading, as Rule 12(b) requires. After the court denied it on May 4, the responsive pleading was due 14 days after notice, May 18, so the May 11 answer was timely.",
+        "cite": "12(a)(4)(A)",
+        "quote": "if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action"
+      },
+      {
+        "point": "A party that makes a Rule 12 motion may not make another raising a defense available but omitted, except as Rule 12(h)(2) or (3) provides.",
+        "cite": "12(g)(2)",
+        "quote": "Except as provided in Rule 12(h)(2) or (3), a party that makes a motion under this rule must not make another motion under this rule raising a defense or objection that was available to the party but omitted from its earlier motion."
+      },
+      {
+        "point": "Delta omitted insufficient service, a Rule 12(b)(5) defense, from its first motion, so it waived that defense.",
+        "cite": "12(h)(1)(A)",
+        "quote": "omitting it from a motion in the circumstances described in Rule 12(g)(2)"
+      },
+      {
+        "point": "Failure to state a claim and failure to join a person required by Rule 19(b) are not waived by omission from the motion; they may be raised in any pleading allowed under Rule 7(a), and Delta's answer is one.",
+        "cite": "12(h)(2)(A)",
+        "quote": "in any pleading allowed or ordered under Rule 7(a)"
+      },
+      {
+        "point": "The pleadings closed with Delta's answer, so a Rule 12(c) motion on May 26 is a proper vehicle.",
+        "cite": "12(c)",
+        "quote": "After the pleadings are closed-but early enough not to delay trial-a party may move for judgment on the pleadings."
+      },
+      {
+        "point": "The treasurer's sworn statement is a matter outside the pleadings; if the court does not exclude it, the motion becomes one for summary judgment and all parties must get a reasonable opportunity to respond.",
+        "cite": "12(d)",
+        "quote": "If, on a motion under Rule 12(b)(6) or 12(c), matters outside the pleadings are presented to and not excluded by the court, the motion must be treated as one for summary judgment under Rule 56. All parties must be given a reasonable opportunity to present all the material that is pertinent to the motion."
+      },
+      {
+        "point": "If Beckett can be joined, the remedy on defense (3) is an order making him a party, not judgment for Delta or dismissal.",
+        "cite": "19(a)(2)",
+        "quote": "If a person has not been joined as required, the court must order that the person be made a party."
+      },
+      {
+        "point": "Payment is an affirmative defense that must be stated in the responsive pleading; Delta's answer did not plead it, so the treasurer's statement cannot support judgment on the pleadings, although Delta may seek to amend.",
+        "cite": "8(c)(1)",
+        "quote": "In responding to a pleading, a party must affirmatively state any avoidance or affirmative defense, including:"
+      }
+    ],
+    "model": "Timeliness. Delta's April 6 motion preceded any pleading, as Rule 12(b) requires. When the court denied it on May 4 without setting another time, Rule 12(a)(4)(A) gave Delta 14 days after notice, until May 18, to serve its answer. The May 11 answer was timely.\n\nInsufficient service. This is a Rule 12(b)(5) defense. It was available to Delta on April 6, because the papers had been left with the receptionist weeks earlier, but Delta left it out. Rule 12(g)(2) bars a later Rule 12 motion on an omitted, available defense, and Rule 12(h)(1)(A) provides that omitting a Rule 12(b)(2)-(5) defense from a motion in those circumstances waives it. Delta waived defense (1), and restating it in the answer does not revive it.\n\nFailure to state a claim and nonjoinder. Rule 12(g)(2) excepts what Rule 12(h)(2) permits, and Rule 12(h)(2) says failure to state a claim and failure to join a person required by Rule 19(b) may be raised in any pleading allowed under Rule 7(a), by a Rule 12(c) motion, or at trial. Rule 12(h)(1) does not waive them by omission. Delta preserved both in its answer, and Sutter's waiver argument fails as to them.\n\nThe May 26 motion. Delta's answer closed the pleadings, so Rule 12(c) is available. On defense (3), Beckett can be joined, so under Rule 19(a)(2) the court must order him made a party; judgment for Delta or dismissal is not the remedy. The treasurer's sworn statement is outside the pleadings, and payment is an affirmative defense that Rule 8(c)(1) requires to be stated in the answer, which Delta's was not. Under Rule 12(d), if the court does not exclude the statement, the motion must be treated as one for summary judgment under Rule 56, with all parties given a reasonable opportunity to respond. The court may exclude it, and Delta may seek to amend to plead payment.\n\nConclusion. Answer timely; defense (1) waived; defenses (2) and (3) preserved; defense (3) yields joinder, not dismissal.",
+    "cites": [
+      {
+        "cite": "12(a)(4)(A)",
+        "quote": "if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action"
+      },
+      {
+        "cite": "12(g)(2)",
+        "quote": "Except as provided in Rule 12(h)(2) or (3), a party that makes a motion under this rule must not make another motion under this rule raising a defense or objection that was available to the party but omitted from its earlier motion."
+      },
+      {
+        "cite": "12(h)(1)(A)",
+        "quote": "omitting it from a motion in the circumstances described in Rule 12(g)(2)"
+      },
+      {
+        "cite": "12(h)(2)(A)",
+        "quote": "in any pleading allowed or ordered under Rule 7(a)"
+      },
+      {
+        "cite": "12(c)",
+        "quote": "After the pleadings are closed-but early enough not to delay trial-a party may move for judgment on the pleadings."
+      },
+      {
+        "cite": "12(d)",
+        "quote": "If, on a motion under Rule 12(b)(6) or 12(c), matters outside the pleadings are presented to and not excluded by the court, the motion must be treated as one for summary judgment under Rule 56. All parties must be given a reasonable opportunity to present all the material that is pertinent to the motion."
+      },
+      {
+        "cite": "19(a)(2)",
+        "quote": "If a person has not been joined as required, the court must order that the person be made a party."
+      },
+      {
+        "cite": "8(c)(1)",
+        "quote": "In responding to a pleading, a party must affirmatively state any avoidance or affirmative defense, including:"
+      }
+    ]
+  },
+  {
+    "id": "es1-015",
+    "kind": "essay",
+    "topic": "claims",
+    "rules": [
+      "14",
+      "15",
+      "18",
+      "20",
+      "21",
+      "24"
+    ],
+    "level": 3,
+    "minutes": 25,
+    "stem": "Okafor sues Brightwater Lumber Inc. and its yard manager, Pruitt, for injuries from a falling stack of lumber at Brightwater's yard, alleging that Pruitt ordered the unsafe stacking. Both defendants are served on February 14, 2026, and both serve answers on March 9. On March 16, Pruitt moves to dismiss for misjoinder, arguing that Okafor sues him for different conduct than Brightwater. On March 23, Brightwater serves a third-party complaint, without seeking leave, on Cedar Haulers, the carrier that stacked the lumber, alleging that Cedar's negligent stacking caused the injury and that Cedar must reimburse Brightwater for any judgment Okafor wins. On March 30, Okafor serves an amended complaint adding a claim against Brightwater for lost wages from the same injury, and Brightwater objects that Okafor needed leave to amend. On April 6, Dunn, a co-worker injured by the same stack, serves a signed motion to intervene to assert his own claim against Brightwater, attaching his complaint and arguing only that his claim shares questions of fact with Okafor's; no discovery has begun and no trial date is set. Okafor and Brightwater oppose, citing delay and the prospect of a second damages trial.",
+    "ask": "Analyze each of the four disputes (Pruitt's motion, the third-party complaint, Okafor's amendment, and Dunn's motion) and say how the court should rule.",
+    "rubric": [
+      {
+        "point": "Okafor asserts relief against Brightwater and Pruitt for the same falling stack, and whether the stack was unsafe is a question common to both, so the two may be joined as defendants even though Pruitt's alleged conduct differs.",
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "point": "Even if Pruitt were misjoined, misjoinder is not a ground for dismissal.",
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action."
+      },
+      {
+        "point": "Brightwater may implead Cedar only because Cedar is or may be liable to Brightwater for all or part of Okafor's claim; the allegation that Cedar's stacking caused the injury and that Cedar must reimburse Brightwater supplies that liability.",
+        "cite": "14(a)(1)",
+        "quote": "A defending party may, as third-party plaintiff, serve a summons and complaint on a nonparty who is or may be liable to it for all or part of the claim against it."
+      },
+      {
+        "point": "March 23 is 14 days after the March 9 answer, not more than 14, so Brightwater needed no leave to implead Cedar Haulers.",
+        "cite": "14(a)(1)",
+        "quote": "But the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer."
+      },
+      {
+        "point": "Okafor's complaint requires a responsive pleading, so he may amend once as of course within 21 days after service of a responsive pleading; March 30 is 21 days after March 9.",
+        "cite": "15(a)(1)(B)",
+        "quote": "21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier."
+      },
+      {
+        "point": "The added lost-wages claim against Brightwater may be joined with the existing claim.",
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      },
+      {
+        "point": "Permissive intervention requires a timely motion; Dunn moved about seven weeks after suit, before discovery or any trial date, so the motion appears timely.",
+        "cite": "24(b)(1)",
+        "quote": "On timely motion, the court may permit anyone to intervene who:"
+      },
+      {
+        "point": "Dunn has a claim that shares a common question of fact with the main action, so the court may permit him to intervene.",
+        "cite": "24(b)(1)(B)",
+        "quote": "has a claim or defense that shares with the main action a common question of law or fact"
+      },
+      {
+        "point": "The decision is discretionary, and the court must consider whether intervention will unduly delay or prejudice the original parties; Dunn's motion carries a pleading as Rule 24(c) requires.",
+        "cite": "24(b)(3)",
+        "quote": "In exercising its discretion, the court must consider whether the intervention will unduly delay or prejudice the adjudication of the original parties' rights."
+      }
+    ],
+    "model": "Pruitt's motion. Rule 20(a)(2) allows defendants to be joined if relief is asserted against them jointly, severally or in the alternative arising out of the same occurrence and a common question will arise. Okafor asserts relief against both for the same falling stack, and whether the stack was unsafe is common to both. Different roles do not defeat joinder. Even if joinder were improper, Rule 21 states that misjoinder is not a ground for dismissing an action; the court may add or drop a party or sever a claim on just terms. The motion should be denied.\n\nThe third-party complaint. Rule 14(a)(1) allows a defending party to implead a nonparty who is or may be liable to it for all or part of the claim against it. Brightwater alleges Cedar's stacking caused the injury and that Cedar must reimburse it for any judgment, so Cedar may be liable over to Brightwater for the claim. Leave is required only if the filing comes more than 14 days after the original answer. Brightwater answered March 9, and March 23 is exactly 14 days later, so no leave was needed.\n\nOkafor's amendment. His complaint requires a responsive pleading, so Rule 15(a)(1)(B) lets him amend once as a matter of course within 21 days after service of a responsive pleading. March 30 is 21 days after March 9, so he needed no leave. The new claim against Brightwater is a permitted joinder under Rule 18(a).\n\nDunn. Rule 24(b)(1) lets the court, on timely motion, permit intervention by anyone with a claim that shares a common question of law or fact with the main action. Dunn moved about seven weeks after suit, before discovery, so the motion appears timely. His claim arises from the same stack, so the common-question standard is met, and his motion carries his pleading. The decision is discretionary, and under Rule 24(b)(3) the court must consider undue delay or prejudice to the original parties. The court may grant or deny.\n\nConclusion. Deny Pruitt's motion; the third-party complaint and the amendment stand; Dunn's intervention is discretionary.",
+    "cites": [
+      {
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action."
+      },
+      {
+        "cite": "14(a)(1)",
+        "quote": "A defending party may, as third-party plaintiff, serve a summons and complaint on a nonparty who is or may be liable to it for all or part of the claim against it."
+      },
+      {
+        "cite": "14(a)(1)",
+        "quote": "But the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer."
+      },
+      {
+        "cite": "15(a)(1)(B)",
+        "quote": "21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier."
+      },
+      {
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      },
+      {
+        "cite": "24(b)(1)",
+        "quote": "On timely motion, the court may permit anyone to intervene who:"
+      },
+      {
+        "cite": "24(b)(1)(B)",
+        "quote": "has a claim or defense that shares with the main action a common question of law or fact"
+      },
+      {
+        "cite": "24(b)(3)",
+        "quote": "In exercising its discretion, the court must consider whether the intervention will unduly delay or prejudice the adjudication of the original parties' rights."
+      }
+    ]
+  },
+  {
+    "id": "es1-011",
+    "kind": "essay",
+    "topic": "class",
+    "rules": [
+      "23"
+    ],
+    "level": 3,
+    "minutes": 25,
+    "stem": "Nolan sues Brightline Telecom as representative of about 1,800 Brightline customers who were each charged the same $12 monthly \"network fee\" that, Nolan alleges, the customer contract never disclosed. Nolan's own claim is for the same fee. Each member's damages are small, the fee is applied by one billing system, and whether the contract disclosed it is the main contested question. Nolan moves for certification under Rule 23(b)(3). On September 1, 2026, the court certifies a class defined by the fee. The order says nothing about class counsel, and it directs notice by a single newspaper advertisement, although Brightline holds every customer's mailing and email address. Brightline wants review and files a petition for permission to appeal with the circuit clerk on September 14. Later, Nolan and Brightline agree to dismiss the case on Brightline's payment of $5,000 to Nolan alone, with nothing for the class and no notice to its members.",
+    "ask": "Evaluate whether this action meets Rule 23, and analyze the defects in the certification order, Brightline's petition, and the proposed dismissal.",
+    "rubric": [
+      {
+        "point": "All four prerequisites are met: about 1,800 customers make joinder impracticable, whether the contract disclosed the fee is common to all, and Nolan's claim for the same fee is typical. No conflict appears at certification, so he adequately represents the class then; the later side deal for him alone is the contrary signal.",
+        "cite": "23(a)",
+        "quote": "One or more members of a class may sue or be sued as representative parties on behalf of all members only if:"
+      },
+      {
+        "point": "For a damages class, common questions must predominate and a class action must be superior; small identical claims from one billing system fit.",
+        "cite": "23(b)(3)",
+        "quote": "the court finds that the questions of law or fact common to class members predominate over any questions affecting only individual members, and that a class action is superior to other available methods for fairly and efficiently adjudicating the controversy."
+      },
+      {
+        "point": "A certification order must define the class and claims and appoint class counsel; this one did not appoint counsel.",
+        "cite": "23(c)(1)(B)",
+        "quote": "An order that certifies a class action must define the class and the class claims, issues, or defenses, and must appoint class counsel under Rule 23(g)."
+      },
+      {
+        "point": "For a (b)(3) class the court must direct the best practicable notice, including individual notice to identifiable members; a newspaper ad alone does not meet that standard.",
+        "cite": "23(c)(2)(B)",
+        "quote": "the court must direct to class members the best notice that is practicable under the circumstances, including individual notice to all members who can be identified through reasonable effort."
+      },
+      {
+        "point": "A court of appeals may permit an appeal from a certification order if a petition is filed within 14 days; September 14 is day 13, so the petition is timely, and the grant is discretionary.",
+        "cite": "23(f)",
+        "quote": "A party must file a petition for permission to appeal with the circuit clerk within 14 days after the order is entered"
+      },
+      {
+        "point": "A certified class's claims may be settled or dismissed only with the court's approval, so the private deal cannot take effect alone.",
+        "cite": "23(e)",
+        "quote": "The claims, issues, or defenses of a certified class-or a class proposed to be certified for purposes of settlement-may be settled, voluntarily dismissed, or compromised only with the court's approval."
+      },
+      {
+        "point": "The proposed dismissal would bind the class, so the court must direct notice in a reasonable manner to the bound members if giving notice is justified by the parties' showing that the court will likely be able to approve the proposal under Rule 23(e)(2) and certify the class for purposes of judgment on it; none was directed, and a $5,000 payment to Nolan alone makes that showing doubtful.",
+        "cite": "23(e)(1)(B)",
+        "quote": "The court must direct notice in a reasonable manner to all class members who would be bound by the proposal if giving notice is justified by the parties' showing that the court will likely be able to:"
+      },
+      {
+        "point": "The court may approve only after a hearing and on finding the proposal fair, reasonable and adequate, considering adequacy of representation and equitable treatment of class members; $5,000 to Nolan alone and nothing for the class makes those findings doubtful.",
+        "cite": "23(e)(2)",
+        "quote": "the court may approve it only after a hearing and only on finding that it is fair, reasonable, and adequate after considering whether:"
+      },
+      {
+        "point": "The parties must file a statement identifying any agreement made in connection with the proposal, which reaches the $5,000 payment to Nolan.",
+        "cite": "23(e)(3)",
+        "quote": "The parties seeking approval must file a statement identifying any agreement made in connection with the proposal."
+      }
+    ],
+    "model": "Rule 23(a). All four prerequisites must be met. About 1,800 customers make joinder impracticable (Rule 23(a)(1)). Whether the contract disclosed the fee is common to all (Rule 23(a)(2)). Nolan paid the same fee, so his claim is typical (Rule 23(a)(3)). Nothing shows a conflict at certification, so he adequately represents the class then (Rule 23(a)(4)), though the later deal for him alone cuts the other way.\n\nRule 23(b)(3). Common questions predominate and a class action is superior: same fee, same disclosure question, small damages.\n\nThe order. Rule 23(c)(1)(B) requires an order certifying a class to define the class and claims and appoint class counsel under Rule 23(g). This order appointed none and must be completed. Rule 23(c)(2)(B) requires, for a (b)(3) class, the best notice practicable, including individual notice to members identifiable through reasonable effort. Brightline holds every address, so one newspaper advertisement falls short.\n\nThe petition. Rule 23(f) lets a court of appeals permit an appeal from a certification order if a petition is filed with the circuit clerk within 14 days after entry. September 14 is 13 days after September 1, so the petition is timely. Permission is for the court of appeals.\n\nThe dismissal. Under Rule 23(e) a certified class's claims may be dismissed only with court approval, so the private deal cannot end the case. Under Rule 23(e)(1)(B) the court must direct notice in a reasonable manner to all class members who would be bound by the proposal, but only if giving notice is justified by the parties' showing that the court will likely be able to approve the proposal under Rule 23(e)(2) and certify the class for purposes of judgment on it. None has been directed, and a $5,000 payment to Nolan alone makes that showing doubtful. Under Rule 23(e)(2) the court may approve only after a hearing and on finding the proposal fair, reasonable and adequate, considering adequacy of representation and equitable treatment of members; $5,000 for Nolan and nothing for the class makes those findings doubtful. Rule 23(e)(3) requires a statement identifying any agreement made in connection with the proposal.",
+    "cites": [
+      {
+        "cite": "23(a)",
+        "quote": "One or more members of a class may sue or be sued as representative parties on behalf of all members only if:"
+      },
+      {
+        "cite": "23(b)(3)",
+        "quote": "the court finds that the questions of law or fact common to class members predominate over any questions affecting only individual members, and that a class action is superior to other available methods for fairly and efficiently adjudicating the controversy."
+      },
+      {
+        "cite": "23(c)(1)(B)",
+        "quote": "An order that certifies a class action must define the class and the class claims, issues, or defenses, and must appoint class counsel under Rule 23(g)."
+      },
+      {
+        "cite": "23(c)(2)(B)",
+        "quote": "the court must direct to class members the best notice that is practicable under the circumstances, including individual notice to all members who can be identified through reasonable effort."
+      },
+      {
+        "cite": "23(f)",
+        "quote": "A party must file a petition for permission to appeal with the circuit clerk within 14 days after the order is entered"
+      },
+      {
+        "cite": "23(e)",
+        "quote": "The claims, issues, or defenses of a certified class-or a class proposed to be certified for purposes of settlement-may be settled, voluntarily dismissed, or compromised only with the court's approval."
+      },
+      {
+        "cite": "23(e)(1)(B)",
+        "quote": "The court must direct notice in a reasonable manner to all class members who would be bound by the proposal if giving notice is justified by the parties' showing that the court will likely be able to:"
+      },
+      {
+        "cite": "23(e)(2)",
+        "quote": "the court may approve it only after a hearing and only on finding that it is fair, reasonable, and adequate after considering whether:"
+      },
+      {
+        "cite": "23(e)(3)",
+        "quote": "The parties seeking approval must file a statement identifying any agreement made in connection with the proposal."
+      }
+    ]
   }
 ]

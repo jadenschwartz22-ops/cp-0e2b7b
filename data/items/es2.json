@@ -540,5 +540,801 @@
         "quote": "The court may, for good cause, issue an order to protect a party or person from annoyance, embarrassment, oppression, or undue burden or expense"
       }
     ]
+  },
+  {
+    "id": "es2-002",
+    "kind": "essay",
+    "topic": "disc-sanctions",
+    "rules": [
+      "33",
+      "34",
+      "37"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Vega Builders sues Northgate Supply over defective steel beams. The parties have held their Rule 26(f) conference. On Monday, March 2, 2026, Vega hand-delivers to Northgate's lawyer 20 interrogatories and a Rule 34 request for Northgate's inspection records. Northgate serves nothing until April 20, when it serves only objections (\"overbroad, unduly burdensome\") and no answers. It has never moved for a protective order. After two telephone calls in which Northgate's lawyer said only that he would \"get to it,\" Vega moves on May 4 for an order compelling answers and production, attaching a certification describing the calls. The court grants the motion on May 18 and orders Northgate to answer and produce within 14 days. Northgate does nothing. Vega then notices the deposition of Northgate's president, Hale, for June 9. Hale does not appear. Northgate has filed no protective-order motion, though its lawyer says the notice covered \"irrelevant topics.\" On June 15 Vega moves for sanctions, asking that Northgate be barred from contesting liability and that it pay Vega's expenses.",
+    "ask": "Analyze Vega's May and June motions and what the court may and must do.",
+    "rubric": [
+      {
+        "point": "Northgate had 30 days from March 2, until April 1, to answer the interrogatories; April 20 was late.",
+        "cite": "33(b)(2)",
+        "quote": "The responding party must serve its answers and any objections within 30 days after being served with the interrogatories."
+      },
+      {
+        "point": "Interrogatory objections must be stated with specificity and are waived if not timely stated, unless the court for good cause excuses the failure; Northgate's late, boilerplate \"overbroad, unduly burdensome\" objections fail on both counts.",
+        "cite": "33(b)(4)",
+        "quote": "The grounds for objecting to an interrogatory must be stated with specificity. Any ground not stated in a timely objection is waived unless the court, for good cause, excuses the failure."
+      },
+      {
+        "point": "Rule 34 has no express waiver clause, but its objections also must state grounds and reasons with specificity and say whether materials are withheld; the boilerplate objection to the inspection request fails that requirement regardless of lateness.",
+        "cite": "34(b)(2)(B)",
+        "quote": "state with specificity the grounds for objecting to the request, including the reasons"
+      },
+      {
+        "point": "Failure to answer an interrogatory or respond to a Rule 34 request supports a motion to compel; granting it makes an expense award mandatory unless an exception applies.",
+        "cite": "37(a)(5)(A)",
+        "quote": "If the motion is granted—or if the disclosure or requested discovery is provided after the motion was filed—the court must, after giving an opportunity to be heard, require the party or deponent whose conduct necessitated the motion"
+      },
+      {
+        "point": "The May 18 order required compliance by Monday, June 1 (14 days, Rule 6(a)(1)); disobeying it opens the court's menu of further just orders.",
+        "cite": "37(b)(2)(A)",
+        "quote": "fails to obey an order to provide or permit discovery, including an order under Rule 26(f), 35, or 37(a), the court where the action is pending may issue further just orders."
+      },
+      {
+        "point": "Barring Northgate from contesting liability is one listed sanction, within the court's choice.",
+        "cite": "37(b)(2)(A)(ii)",
+        "quote": "prohibiting the disobedient party from supporting or opposing designated claims or defenses, or from introducing designated matters in evidence"
+      },
+      {
+        "point": "Expenses caused by disobeying the order are mandatory unless the failure was substantially justified or an award would be unjust.",
+        "cite": "37(b)(2)(C)",
+        "quote": "the court must order the disobedient party, the attorney advising that party, or both to pay the reasonable expenses, including attorney's fees, caused by the failure, unless the failure was substantially justified or other circumstances make an award of expenses unjust."
+      },
+      {
+        "point": "A party's officer who fails to appear after proper notice is sanctionable on motion.",
+        "cite": "37(d)(1)(A)(i)",
+        "quote": "fails, after being served with proper notice, to appear for that person's deposition"
+      },
+      {
+        "point": "Objecting to the notice's topics is no excuse without a pending protective-order motion.",
+        "cite": "37(d)(2)",
+        "quote": "A failure described in Rule 37(d)(1)(A) is not excused on the ground that the discovery sought was objectionable, unless the party failing to act has a pending motion for a protective order under Rule 26(c)."
+      }
+    ],
+    "model": "1. Lateness and objections. Rule 33(b)(2) gave Northgate 30 days from service on March 2, until Wednesday, April 1 (Rule 34(b)(2)(A) sets the same 30 days for the inspection response). April 20 was late. For the interrogatories, Rule 33(b)(4) requires objections to be stated with specificity and waives any ground not stated in a timely objection unless the court, for good cause, excuses the failure; \"overbroad, unduly burdensome\" is conclusory and late, so those objections are waived. Rule 34 has no express waiver clause, but Rule 34(b)(2)(B) requires specific grounds and reasons and Rule 34(b)(2)(C) requires a statement whether materials are withheld; the boilerplate objection fails those requirements whether or not it was late.\n2. Motion to compel. Rule 37(a)(3)(B)(iii) and (iv) authorize the motion when a party fails to answer an interrogatory or respond to a Rule 34 request, and Vega's certification of its calls meets Rule 37(a)(1). The court rightly granted it. Rule 37(a)(5)(A) makes an award of Vega's reasonable expenses mandatory unless Vega moved without first trying in good faith, Northgate was substantially justified, or an award would be unjust; none appears.\n3. Disobeying the order. The order gave Northgate until Monday, June 1 (May 18 plus 14 days). Failing to obey a Rule 37(a) order lets the court issue further just orders (Rule 37(b)(2)(A)), including barring Northgate from opposing designated claims (Rule 37(b)(2)(A)(ii)). Which sanction to impose is for the court to choose; only the expenses are mandatory under Rule 37(b)(2)(C), absent substantial justification or injustice.\n4. Hale's absence. A party's officer who fails to appear after proper notice is subject to sanctions on motion (Rule 37(d)(1)(A)(i)). Northgate's objection to the topics is no excuse under Rule 37(d)(2) because it had no pending Rule 26(c) motion. Sanctions may include the Rule 37(b)(2)(A)(i)-(vi) orders, and the court must award expenses unless the failure was substantially justified or an award would be unjust (Rule 37(d)(3)).",
+    "cites": [
+      {
+        "cite": "33(b)(2)",
+        "quote": "The responding party must serve its answers and any objections within 30 days after being served with the interrogatories."
+      },
+      {
+        "cite": "33(b)(4)",
+        "quote": "The grounds for objecting to an interrogatory must be stated with specificity. Any ground not stated in a timely objection is waived unless the court, for good cause, excuses the failure."
+      },
+      {
+        "cite": "34(b)(2)(B)",
+        "quote": "state with specificity the grounds for objecting to the request, including the reasons"
+      },
+      {
+        "cite": "37(a)(5)(A)",
+        "quote": "If the motion is granted—or if the disclosure or requested discovery is provided after the motion was filed—the court must, after giving an opportunity to be heard, require the party or deponent whose conduct necessitated the motion"
+      },
+      {
+        "cite": "37(b)(2)(A)",
+        "quote": "fails to obey an order to provide or permit discovery, including an order under Rule 26(f), 35, or 37(a), the court where the action is pending may issue further just orders."
+      },
+      {
+        "cite": "37(b)(2)(A)(ii)",
+        "quote": "prohibiting the disobedient party from supporting or opposing designated claims or defenses, or from introducing designated matters in evidence"
+      },
+      {
+        "cite": "37(b)(2)(C)",
+        "quote": "the court must order the disobedient party, the attorney advising that party, or both to pay the reasonable expenses, including attorney's fees, caused by the failure, unless the failure was substantially justified or other circumstances make an award of expenses unjust."
+      },
+      {
+        "cite": "37(d)(1)(A)(i)",
+        "quote": "fails, after being served with proper notice, to appear for that person's deposition"
+      },
+      {
+        "cite": "37(d)(2)",
+        "quote": "A failure described in Rule 37(d)(1)(A) is not excused on the ground that the discovery sought was objectionable, unless the party failing to act has a pending motion for a protective order under Rule 26(c)."
+      }
+    ]
+  },
+  {
+    "id": "es2-003",
+    "kind": "essay",
+    "topic": "disc-tools",
+    "rules": [
+      "6",
+      "36",
+      "56",
+      "59",
+      "60"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Mesa Pump sues Harlan Tools over a defective valve. On Monday, February 2, 2026, Mesa hand-delivers six requests for admission to Harlan's lawyer. Request 4 asks Harlan to admit that the valve failed during normal use; Request 5 asks it to admit that an attached purchase order is genuine. Harlan's lawyer calendars the wrong date and serves a signed response denying every request on March 9. On June 1 Mesa moves for summary judgment on liability, relying only on the unanswered requests. Harlan opposes with an affidavit from its engineer, based on his own testing, that the valve did not fail, and moves to withdraw the admissions so the case can be decided on the merits. Mesa answers that it relied on the admissions in deciding not to depose the engineer. You are the judge. On June 12 you rule on both motions and enter judgment for Mesa on the whole case, damages included, without having told Harlan that damages would be decided. On July 14 Harlan's new lawyer files a motion to alter or amend the judgment, arguing that the court misapplied Rule 36. In the alternative, he seeks relief under Rule 60(b)(1), calling the earlier lawyer's calendaring error excusable neglect.",
+    "ask": "Write the court's analysis of the two June motions and of Harlan's July 14 filing.",
+    "rubric": [
+      {
+        "point": "Requests unanswered within 30 days of service are admitted; the deadline was March 4, so the March 9 response was late.",
+        "cite": "36(a)(3)",
+        "quote": "A matter is admitted unless, within 30 days after being served, the party to whom the request is directed serves on the requesting party a written answer or objection addressed to the matter and signed by the party or its attorney."
+      },
+      {
+        "point": "An admission is conclusively established unless the court, on motion, permits withdrawal.",
+        "cite": "36(b)",
+        "quote": "A matter admitted under this rule is conclusively established unless the court, on motion, permits the admission to be withdrawn or amended."
+      },
+      {
+        "point": "Withdrawal is discretionary and turns on the merits and prejudice to Mesa.",
+        "cite": "36(b)",
+        "quote": "the court may permit withdrawal or amendment if it would promote the presentation of the merits of the action and if the court is not persuaded that it would prejudice the requesting party in maintaining or defending the action on the merits."
+      },
+      {
+        "point": "Admissions in the record are materials a movant may cite; if they stand, no genuine dispute remains on liability, so the court shall grant summary judgment on that part.",
+        "cite": "56(a)",
+        "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+      },
+      {
+        "point": "Mesa's motion sought summary judgment on liability only; Rule 56(a) ties the motion to the claim or part of a claim identified, so a judgment on the whole case, including damages, goes beyond the motion.",
+        "cite": "56(a)",
+        "quote": "identifying each claim or defense—or the part of each claim or defense—on which summary judgment is sought"
+      },
+      {
+        "point": "Relief independent of the motion, such as deciding damages Mesa did not raise, may be granted only after notice and a reasonable time to respond; Harlan got neither, which is the strongest ground for post-judgment relief.",
+        "cite": "56(f)",
+        "quote": "After giving notice and a reasonable time to respond, the court may"
+      },
+      {
+        "point": "A motion to alter or amend is due 28 days after entry; judgment entered June 12 makes July 10 the last day, so July 14 is late.",
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "point": "The court has no power to extend the Rule 59(e) period.",
+        "cite": "6(b)(2)",
+        "quote": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+      },
+      {
+        "point": "Rule 60(b)(1) is a separate route for mistake, inadvertence, surprise or excusable neglect (the calendaring error, and the court's own entry of relief beyond the motion), available within a reasonable time and a year; it does not suspend the judgment.",
+        "cite": "60(b)(1)",
+        "quote": "mistake, inadvertence, surprise, or excusable neglect"
+      }
+    ],
+    "model": "1. Deemed admissions. Under Rule 36(a)(3) a matter is admitted unless the responding party serves a signed written answer or objection within 30 days after service. Service was by hand on February 2, so Rule 6(d) adds nothing and the deadline was Wednesday, March 4. Harlan's March 9 response was late; all six matters are admitted.\n2. Withdrawal. An admission is conclusively established unless the court, on motion, permits withdrawal (Rule 36(b)). The court may permit it if withdrawal would promote presentation of the merits and the court is not persuaded it would prejudice Mesa. The merits favor Harlan; Mesa's reliance (skipping the engineer's deposition) is its prejudice argument. The decision is discretionary, and either outcome is defensible on these facts.\n3. Summary judgment. Admissions are record materials a movant may cite (Rule 56(c)(1)(A)). If they stand, there is no genuine dispute that the valve failed, the engineer's affidavit cannot create one, and the court shall grant summary judgment on liability if Mesa is entitled to judgment as a matter of law (Rule 56(a)). But Mesa moved only on liability, and Rule 56(a) ties relief to the part of the claim the motion identifies. Deciding damages and entering judgment on the whole case was relief independent of the motion; Rule 56(f) permits that only after notice and a reasonable time to respond, and Harlan received neither. That is the strongest error.\n4. Motion to alter or amend. Rule 59(e) requires filing no later than 28 days after entry. Judgment entered June 12 makes July 10 the last day. July 14 is late, and Rule 6(b)(2) forbids extending the Rule 59(e) period, so the court must deny it.\n5. Rule 60(b)(1). This is a different vehicle: mistake, inadvertence, surprise or excusable neglect, made within a reasonable time and within a year (Rule 60(c)(1)). A month after judgment is reasonable. The court may grant relief for the calendaring error or for its own mistake in deciding damages without Rule 56(f) notice, and may vacate the damages portion; the motion does not suspend the judgment (Rule 60(c)(2)).",
+    "cites": [
+      {
+        "cite": "36(a)(3)",
+        "quote": "A matter is admitted unless, within 30 days after being served, the party to whom the request is directed serves on the requesting party a written answer or objection addressed to the matter and signed by the party or its attorney."
+      },
+      {
+        "cite": "36(b)",
+        "quote": "A matter admitted under this rule is conclusively established unless the court, on motion, permits the admission to be withdrawn or amended."
+      },
+      {
+        "cite": "36(b)",
+        "quote": "the court may permit withdrawal or amendment if it would promote the presentation of the merits of the action and if the court is not persuaded that it would prejudice the requesting party in maintaining or defending the action on the merits."
+      },
+      {
+        "cite": "56(a)",
+        "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+      },
+      {
+        "cite": "56(a)",
+        "quote": "identifying each claim or defense—or the part of each claim or defense—on which summary judgment is sought"
+      },
+      {
+        "cite": "56(f)",
+        "quote": "After giving notice and a reasonable time to respond, the court may"
+      },
+      {
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "6(b)(2)",
+        "quote": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+      },
+      {
+        "cite": "60(b)(1)",
+        "quote": "mistake, inadvertence, surprise, or excusable neglect"
+      }
+    ]
+  },
+  {
+    "id": "es2-006",
+    "kind": "essay",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Tomas Rivera sues Lakeside Inn for injuries from slipping on a wet lobby floor. Discovery closed on October 30, 2026. On Friday, November 13, Lakeside moves for summary judgment on the whole case. It relies on (1) a declaration from its manager, Ono, that the floor had been mopped and a warning sign posted, which Ono signed \"based on what the housekeeping staff told me\"; (2) the incident log; and (3) the mopping schedule, which shows hourly mopping, including at 2:00 p.m. Rivera responds with (a) his own declaration, made on personal knowledge, that no sign was visible when he fell at 2:10 p.m., and (b) a declaration from his lawyer stating that Lakeside has not produced the lobby surveillance video despite a Rule 34 request served on June 1, that the video is essential to rebut the log, and that Rivera cannot get it from any other source. Rivera says nothing about the mopping schedule. In reviewing the log, the judge notices an entry that the floor \"was wet at 2:10 p.m.,\" a fact Rivera never separately asked the court to establish.",
+    "ask": "Write the court's ruling on the motion, including each alternative the rule gives you.",
+    "rubric": [
+      {
+        "point": "Timeliness: a summary judgment motion may be filed until 30 days after the close of all discovery; discovery closed October 30, so the November 13 motion is timely.",
+        "cite": "56(b)",
+        "quote": "a party may file a motion for summary judgment at any time until 30 days after the close of all discovery"
+      },
+      {
+        "point": "Summary judgment must be granted only if the movant shows no genuine dispute as to any material fact and entitlement to judgment as a matter of law.",
+        "cite": "56(a)",
+        "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+      },
+      {
+        "point": "Ono's declaration rests on what staff told him, not personal knowledge, so it cannot support the motion; Rivera may object that it cannot be presented in admissible form.",
+        "cite": "56(c)(4)",
+        "quote": "An affidavit or declaration used to support or oppose a motion must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the affiant or declarant is competent to testify on the matters stated."
+      },
+      {
+        "point": "Rivera's own declaration is the kind of record material that shows a genuine dispute about the sign.",
+        "cite": "56(c)(1)(A)",
+        "quote": "citing to particular parts of materials in the record, including depositions, documents, electronically stored information, affidavits or declarations"
+      },
+      {
+        "point": "Alternatively, Rivera's specified reasons for lacking the video let the court defer, deny, allow time, or issue another order.",
+        "cite": "56(d)",
+        "quote": "If a nonmovant shows by affidavit or declaration that, for specified reasons, it cannot present facts essential to justify its opposition, the court may"
+      },
+      {
+        "point": "Rivera did not address the mopping schedule, so the court may consider that fact undisputed for the motion (or give him an opportunity to address it); the schedule shows only hourly mopping, not a posted sign.",
+        "cite": "56(e)(2)",
+        "quote": "consider the fact undisputed for purposes of the motion"
+      },
+      {
+        "point": "Because Ono's declaration fails to properly support the sign assertion, the court may instead give Lakeside an opportunity to properly support the fact, or issue another appropriate order, rather than simply disregard it.",
+        "cite": "56(e)(1)",
+        "quote": "give an opportunity to properly support or address the fact"
+      },
+      {
+        "point": "Denying the motion in whole or part, the court may state a fact not genuinely in dispute (the wet floor) and treat it as established.",
+        "cite": "56(g)",
+        "quote": "it may enter an order stating any material fact—including an item of damages or other relief—that is not genuinely in dispute and treating the fact as established in the case."
+      },
+      {
+        "point": "The court should state its reasons for denying the motion on the record.",
+        "cite": "56(a)",
+        "quote": "The court should state on the record the reasons for granting or denying the motion."
+      }
+    ],
+    "model": "1. Timeliness. Rule 56(b) allows a motion until 30 days after the close of all discovery. Discovery closed October 30, so the November 13 motion is timely.\n2. Ono's declaration. A declaration used to support a motion must be made on personal knowledge, set out admissible facts, and show competence (Rule 56(c)(4)). Ono's statement rests on what staff told him, so Rivera may object that it cannot be presented in admissible form (Rule 56(c)(2)). Because Lakeside failed to properly support its sign assertion, the court may give it an opportunity to do so, such as a declaration from staff with personal knowledge, or issue another appropriate order (Rule 56(e)(1), (4)).\n3. Genuine dispute. The court shall grant summary judgment only if Lakeside shows no genuine dispute as to any material fact and entitlement to judgment as a matter of law (Rule 56(a)). Without Ono, the log and schedule do not show a sign was posted. Rivera's declaration on personal knowledge that none was visible, a record material under Rule 56(c)(1)(A), creates a genuine dispute on a material fact. The motion should be denied.\n4. Rule 56(d). In the alternative, Rivera's lawyer's declaration gives specified reasons (the video, requested June 1, unobtainable elsewhere) why Rivera cannot yet present facts essential to his opposition. The court may defer considering the motion or deny it, allow time for discovery, or issue another order; the choice is discretionary and need not be reached if the motion is denied on the merits.\n5. The mopping schedule. Because Rivera did not address it, the court may consider it undisputed for purposes of the motion (Rule 56(e)(2)). That fact (hourly mopping) does not establish that a sign was posted, so it does not entitle Lakeside to judgment.\n6. Rule 56(g). Since the court is not granting all relief requested, it may enter an order stating that the floor was wet at 2:10 p.m., a fact not genuinely in dispute on Lakeside's own log, and treat it as established. The court should state its reasons on the record (Rule 56(a)).",
+    "cites": [
+      {
+        "cite": "56(b)",
+        "quote": "a party may file a motion for summary judgment at any time until 30 days after the close of all discovery"
+      },
+      {
+        "cite": "56(a)",
+        "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+      },
+      {
+        "cite": "56(c)(4)",
+        "quote": "An affidavit or declaration used to support or oppose a motion must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the affiant or declarant is competent to testify on the matters stated."
+      },
+      {
+        "cite": "56(c)(1)(A)",
+        "quote": "citing to particular parts of materials in the record, including depositions, documents, electronically stored information, affidavits or declarations"
+      },
+      {
+        "cite": "56(d)",
+        "quote": "If a nonmovant shows by affidavit or declaration that, for specified reasons, it cannot present facts essential to justify its opposition, the court may"
+      },
+      {
+        "cite": "56(e)(2)",
+        "quote": "consider the fact undisputed for purposes of the motion"
+      },
+      {
+        "cite": "56(e)(1)",
+        "quote": "give an opportunity to properly support or address the fact"
+      },
+      {
+        "cite": "56(g)",
+        "quote": "it may enter an order stating any material fact—including an item of damages or other relief—that is not genuinely in dispute and treating the fact as established in the case."
+      },
+      {
+        "cite": "56(a)",
+        "quote": "The court should state on the record the reasons for granting or denying the motion."
+      }
+    ]
+  },
+  {
+    "id": "es2-012",
+    "kind": "essay",
+    "topic": "post",
+    "rules": [
+      "60",
+      "62"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "On Monday, August 3, 2026, after a jury trial, the court enters judgment for Pemberton against Hollis. The verdict was $14,800, but the judgment as typed by the clerk's office reads $18,400. No post-judgment motion is filed. In October Pemberton begins collecting. On November 9, 2026, a supplier sends Hollis a signed receipt proving that Hollis paid $6,000 of the debt before suit; Hollis had asked the supplier for its records in June and again in September, and the supplier did not respond until November 9. On November 16 Hollis moves (1) to correct the amount and (2) for relief from the judgment on the ground of newly discovered evidence, and asks the court to \"suspend enforcement while the motion is pending.\" Pemberton opposes and says Hollis forfeited any relief by failing to move for a new trial in August. Then, on Thursday, August 12, 2027, Hollis learns that Pemberton himself submitted a doctored ledger at trial and moves for relief on the ground of misrepresentation and misconduct by Pemberton.",
+    "ask": "Analyze each of Hollis's requests and Pemberton's responses.",
+    "rubric": [
+      {
+        "point": "A clerical mistake in a judgment may be corrected on motion or on the court's own, with or without notice, whenever found.",
+        "cite": "60(a)",
+        "quote": "The court may correct a clerical mistake or a mistake arising from oversight or omission whenever one is found in a judgment, order, or other part of the record."
+      },
+      {
+        "point": "Newly discovered evidence that could not, with reasonable diligence, be found in time for a Rule 59(b) motion supports relief; that period ran 28 days from entry, to Monday, August 31, 2026, before the November 9 receipt, so Pemberton's forfeiture argument fails.",
+        "cite": "60(b)(2)",
+        "quote": "newly discovered evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b)"
+      },
+      {
+        "point": "A Rule 60(b) motion must be made within a reasonable time and, for reasons (1)-(3), within a year of entry.",
+        "cite": "60(c)(1)",
+        "quote": "A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding."
+      },
+      {
+        "point": "A Rule 60(b) motion does not suspend the judgment, so Pemberton may keep collecting.",
+        "cite": "60(c)(2)",
+        "quote": "The motion does not affect the judgment's finality or suspend its operation."
+      },
+      {
+        "point": "The automatic 30-day stay ended September 2, 2026.",
+        "cite": "62(a)",
+        "quote": "execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      },
+      {
+        "point": "Hollis can instead obtain a stay with a bond or other security, effective when the court approves it.",
+        "cite": "62(b)",
+        "quote": "At any time after judgment is entered, a party may obtain a stay by providing a bond or other security."
+      },
+      {
+        "point": "Misrepresentation or misconduct by an opposing party is a Rule 60(b)(3) ground, which is subject to the one-year limit; the year ended August 3, 2027, so the August 12, 2027 motion is late under 60(b)(3).",
+        "cite": "60(b)(3)",
+        "quote": "fraud (whether previously called intrinsic or extrinsic), misrepresentation, or misconduct by an opposing party"
+      },
+      {
+        "point": "Rule 60 does not limit the court's power to entertain an independent action or to set aside a judgment for fraud on the court, so the doctored-ledger claim must also be analyzed under Rule 60(d), which has no one-year limit.",
+        "cite": "60(d)",
+        "quote": "This rule does not limit a court’s power to"
+      }
+    ],
+    "model": "1. Clerical error. The court may correct a clerical mistake in a judgment on motion or on its own, with or without notice, whenever found (Rule 60(a)). The typed $18,400 contradicts the $14,800 verdict, and no appeal is pending, so the court should correct the amount. No deadline applies.\n2. Newly discovered evidence. Rule 60(b)(2) allows relief for newly discovered evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b). The Rule 59(b) period ran 28 days from August 3, to Monday, August 31. The receipt arrived November 9 after requests in June and September, which supports diligence. Pemberton's forfeiture argument fails because Rule 60(b)(2) presupposes the Rule 59(b) time has passed. The November 16 motion is within a reasonable time and a year (Rule 60(c)(1)). The court may grant relief.\n3. Suspending enforcement. A Rule 60(b) motion does not affect finality or suspend the judgment's operation (Rule 60(c)(2)), and the automatic 30-day stay ended September 2 (Rule 62(a)). Hollis should obtain a stay by bond or other security under Rule 62(b), effective when the court approves it.\n4. Misrepresentation. Misrepresentation or misconduct by an opposing party is a Rule 60(b)(3) ground, and for reasons (1)-(3) the motion must be made no more than a year after entry. The year ended August 3, 2027, and Rule 6(b)(2) bars extending the Rule 60(b) time, so the August 12, 2027 motion is late under Rule 60(b)(3). But Rule 60 does not limit the court's power to entertain an independent action or to set aside a judgment for fraud on the court (Rule 60(d)(1), (3)), and the one-year limit does not apply to those routes. Hollis should proceed under Rule 60(d); whether a doctored ledger submitted at trial is fraud on the court is for the court, which may set the judgment aside if it is.",
+    "cites": [
+      {
+        "cite": "60(a)",
+        "quote": "The court may correct a clerical mistake or a mistake arising from oversight or omission whenever one is found in a judgment, order, or other part of the record."
+      },
+      {
+        "cite": "60(b)(2)",
+        "quote": "newly discovered evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b)"
+      },
+      {
+        "cite": "60(c)(1)",
+        "quote": "A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding."
+      },
+      {
+        "cite": "60(c)(2)",
+        "quote": "The motion does not affect the judgment's finality or suspend its operation."
+      },
+      {
+        "cite": "62(a)",
+        "quote": "execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      },
+      {
+        "cite": "62(b)",
+        "quote": "At any time after judgment is entered, a party may obtain a stay by providing a bond or other security."
+      },
+      {
+        "cite": "60(b)(3)",
+        "quote": "fraud (whether previously called intrinsic or extrinsic), misrepresentation, or misconduct by an opposing party"
+      },
+      {
+        "cite": "60(d)",
+        "quote": "This rule does not limit a court’s power to"
+      }
+    ]
+  },
+  {
+    "id": "es2-001",
+    "kind": "essay",
+    "topic": "disc-scope",
+    "rules": [
+      "26",
+      "34",
+      "37"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "The Rule 26(f) conference in Park v. Orchard Logistics, a personal-injury case, took place on Monday, March 2, 2026. Park served her initial disclosures on March 16. They name only Park herself and Orchard's safety director as witnesses and list her lost wages and medical bills as \"amounts to be determined,\" with no supporting documents. Park never supplemented them. In July, Orchard served a Rule 34 request for Park's employment records for the five years before the accident. Park's written response objects only that the request is \"not proportional\" and withholds her physician's treatment notes as \"protected,\" saying nothing more. Orchard's lawyer wrote and telephoned Park's lawyer to resolve both points; Park's lawyer refused to budge. Orchard moves to compel and for its expenses; its motion includes a certification describing those efforts. Park cross-moves for a protective order against the employment request, calling it annoying and burdensome; her motion contains no statement about conferring. In September, opposing Orchard's motion for summary judgment, Park submits a declaration from a coworker, Dana Wu, who saw the accident. Orchard has never heard of Wu.",
+    "ask": "Analyze each side's best arguments and how the court should rule on the two motions and on Wu's declaration.",
+    "rubric": [
+      {
+        "point": "Initial disclosures are due at or within 14 days after the Rule 26(f) conference; March 16 was day 14, so Park's were timely.",
+        "cite": "26(a)(1)(C)",
+        "quote": "A party must make the initial disclosures at or within 14 days after the parties' Rule 26(f) conference unless a different time is set by stipulation or court order"
+      },
+      {
+        "point": "Park's disclosures were nonetheless deficient: \"amounts to be determined\" is not a computation of each category of damages with supporting documents.",
+        "cite": "26(a)(1)(A)(iii)",
+        "quote": "a computation of each category of damages claimed by the disclosing party"
+      },
+      {
+        "point": "Park's response objects only that the request is \"not proportional\"; Rule 34(b)(2)(B) requires an objection to state its grounds with specificity, including the reasons, and Rule 34(b)(2)(C) requires saying whether responsive materials are withheld, so the bare objection is insufficient.",
+        "cite": "34(b)(2)(B)",
+        "quote": "state with specificity the grounds for objecting to the request, including the reasons"
+      },
+      {
+        "point": "Withholding the treatment notes as \"protected\" without describing them violates the privilege-log duty.",
+        "cite": "26(b)(5)(A)",
+        "quote": "describe the nature of the documents, communications, or tangible things not produced or disclosed"
+      },
+      {
+        "point": "Orchard's motion to compel must include a good-faith conferral certification; the letter and call, certified in the motion, satisfy it.",
+        "cite": "37(a)(1)",
+        "quote": "The motion must include a certification that the movant has in good faith conferred or attempted to confer with the person or party failing to make disclosure or discovery in an effort to obtain it without court action."
+      },
+      {
+        "point": "If the motion is granted, the court must award Orchard's reasonable expenses unless one of the rule's exceptions applies: Orchard moved without first conferring in good faith, Park's position was substantially justified, or other circumstances make an award unjust.",
+        "cite": "37(a)(5)(A)",
+        "quote": "the court must, after giving an opportunity to be heard, require the party or deponent whose conduct necessitated the motion, the party or attorney advising that conduct, or both to pay the movant's reasonable expenses incurred in making the motion, including attorney's fees."
+      },
+      {
+        "point": "Park's protective-order motion lacks the required conferral certification and a showing of good cause.",
+        "cite": "26(c)(1)",
+        "quote": "The motion must include a certification that the movant has in good faith conferred or attempted to confer with other affected parties in an effort to resolve the dispute without court action."
+      },
+      {
+        "point": "Wu was never disclosed. Rule 37(c)(1) bars Park from using Wu's declaration on the summary judgment motion unless the failure was substantially justified or is harmless; the rule names those two exceptions and says nothing about who must prove them.",
+        "cite": "37(c)(1)",
+        "quote": "the party is not allowed to use that information or witness to supply evidence on a motion, at a hearing, or at a trial, unless the failure was substantially justified or is harmless."
+      },
+      {
+        "point": "If Park's protective-order motion is denied, Rule 26(c)(3) applies Rule 37(a)(5): the court must require Park to pay Orchard's reasonable opposition expenses unless the motion was substantially justified or an award would be unjust.",
+        "cite": "37(a)(5)(B)",
+        "quote": "must, after giving an opportunity to be heard, require the movant, the attorney filing the motion, or both to pay the party or deponent who opposed the motion its reasonable expenses incurred in opposing the motion, including attorney’s fees"
+      }
+    ],
+    "model": "1. Disclosures. Rule 26(a)(1)(C) requires initial disclosures at or within 14 days after the Rule 26(f) conference; March 16 was day 14, so Park was timely. They were still deficient: Rule 26(a)(1)(A)(iii) requires a computation of each category of damages with supporting documents, and \"amounts to be determined\" is neither. Rule 26(e)(1)(A) required her to supplement.\n2. Objections and privilege. Employment records bear on the lost wages Park claims, so they are relevant under Rule 26(b)(1). A bare \"not proportional\" objection states no grounds or reasons, as Rule 34(b)(2)(B) requires, and does not say whether records are withheld, as Rule 34(b)(2)(C) requires. Withholding the treatment notes as \"protected\" fails Rule 26(b)(5)(A), which requires an express claim and a description that lets Orchard assess it.\n3. Motion to compel. Orchard's motion contains the good-faith conferral certification Rule 37(a)(1) requires, and an incomplete response is treated as a failure to respond (Rule 37(a)(4)). The court should grant it. Rule 37(a)(5)(A) then requires an award of Orchard's reasonable expenses unless an exception applies (Orchard moved without conferring, Park's position was substantially justified, or an award would be unjust); none appears.\n4. Park's cross-motion. Rule 26(c)(1) requires a conferral certification and good cause; Park's has no certification and offers only conclusions, so the court should deny it and may order discovery (Rule 26(c)(2)). Rule 26(c)(3) applies Rule 37(a)(5), so under Rule 37(a)(5)(B) the court must require Park to pay Orchard's reasonable opposition expenses unless the motion was substantially justified or an award would be unjust.\n5. Wu. Park had to disclose individuals she may use to support her claims (Rule 26(a)(1)(A)(i)). Rule 37(c)(1) bars her from using Wu's declaration on a motion unless the failure was substantially justified or is harmless. The rule names those exceptions but assigns no burden. Park's best argument is harmlessness; Orchard's is that it never heard of Wu. Nothing shows justification or harmlessness, so the court should exclude the declaration.",
+    "cites": [
+      {
+        "cite": "26(a)(1)(C)",
+        "quote": "A party must make the initial disclosures at or within 14 days after the parties' Rule 26(f) conference unless a different time is set by stipulation or court order"
+      },
+      {
+        "cite": "26(a)(1)(A)(iii)",
+        "quote": "a computation of each category of damages claimed by the disclosing party"
+      },
+      {
+        "cite": "34(b)(2)(B)",
+        "quote": "state with specificity the grounds for objecting to the request, including the reasons"
+      },
+      {
+        "cite": "26(b)(5)(A)",
+        "quote": "describe the nature of the documents, communications, or tangible things not produced or disclosed"
+      },
+      {
+        "cite": "37(a)(1)",
+        "quote": "The motion must include a certification that the movant has in good faith conferred or attempted to confer with the person or party failing to make disclosure or discovery in an effort to obtain it without court action."
+      },
+      {
+        "cite": "37(a)(5)(A)",
+        "quote": "the court must, after giving an opportunity to be heard, require the party or deponent whose conduct necessitated the motion, the party or attorney advising that conduct, or both to pay the movant's reasonable expenses incurred in making the motion, including attorney's fees."
+      },
+      {
+        "cite": "26(c)(1)",
+        "quote": "The motion must include a certification that the movant has in good faith conferred or attempted to confer with other affected parties in an effort to resolve the dispute without court action."
+      },
+      {
+        "cite": "37(c)(1)",
+        "quote": "the party is not allowed to use that information or witness to supply evidence on a motion, at a hearing, or at a trial, unless the failure was substantially justified or is harmless."
+      },
+      {
+        "cite": "37(a)(5)(B)",
+        "quote": "must, after giving an opportunity to be heard, require the movant, the attorney filing the motion, or both to pay the party or deponent who opposed the motion its reasonable expenses incurred in opposing the motion, including attorney’s fees"
+      }
+    ]
+  },
+  {
+    "id": "es2-008",
+    "kind": "essay",
+    "topic": "judgment",
+    "rules": [
+      "6",
+      "12",
+      "54",
+      "55",
+      "60"
+    ],
+    "level": 3,
+    "minutes": 25,
+    "stem": "Kline Roofing was served with the summons and complaint in Hart v. Kline Roofing on Monday, January 5, 2026. In it Hart sues for $48,000, the unpaid price of roofing materials delivered in 2025, and demands no other relief. Kline files no answer or motion by the deadline for responding. On February 2, Kline's lawyer files a notice of appearance and nothing else. On February 9 the clerk enters Kline's default. On February 23 Hart applies to the court (not the clerk) for a default judgment of $62,000, adding $14,000 in \"lost profits\" that the complaint never mentioned. Hart serves written notice of the application on Kline's lawyer on Wednesday, February 25, for a hearing on Monday, March 2. At the hearing Kline's lawyer asks for time to answer. The court enters judgment for $62,000 that day. On April 20 Kline moves to set aside both the default and the judgment, explaining that its lawyer miscalendared the answer deadline.",
+    "ask": "Analyze the entry of default, the default judgment, and Kline's motion.",
+    "rubric": [
+      {
+        "point": "Kline had 21 days after service to answer, until Monday, January 26.",
+        "cite": "12(a)(1)(A)(i)",
+        "quote": "within 21 days after being served with the summons and complaint"
+      },
+      {
+        "point": "Having failed to plead or otherwise defend, Kline is in default and the clerk must enter it.",
+        "cite": "55(a)",
+        "quote": "has failed to plead or otherwise defend, and that failure is shown by affidavit or otherwise, the clerk must enter the party's default."
+      },
+      {
+        "point": "The clerk may enter judgment only against a defendant defaulted for not appearing; Kline appeared (notice of appearance, February 2), so the clerk route was closed whatever the amount, and Hart rightly applied to the court under Rule 55(b)(2).",
+        "cite": "55(b)(1)",
+        "quote": "against a defendant who has been defaulted for not appearing and who is neither a minor nor an incompetent person."
+      },
+      {
+        "point": "A party that appeared must get written notice at least 7 days before the hearing; February 25 to March 2 is 5 days.",
+        "cite": "55(b)(2)",
+        "quote": "that party or its representative must be served with written notice of the application at least 7 days before the hearing."
+      },
+      {
+        "point": "A default judgment must not exceed in amount or differ in kind from what the pleadings demand; the complaint demands $48,000 and no other relief, so the $14,000 lost-profits add-on is barred and the ceiling is $48,000.",
+        "cite": "54(c)",
+        "quote": "A default judgment must not differ in kind from, or exceed in amount, what is demanded in the pleadings."
+      },
+      {
+        "point": "Kline's request for time to answer came after the January 26 deadline; the court may extend time after it expires only on motion showing excusable neglect, and the entered default stands unless set aside under Rule 55(c).",
+        "cite": "6(b)(1)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect"
+      },
+      {
+        "point": "An entry of default may be set aside for good cause; a final default judgment is set aside under Rule 60(b).",
+        "cite": "55(c)",
+        "quote": "The court may set aside an entry of default for good cause, and it may set aside a final default judgment under Rule 60(b)."
+      },
+      {
+        "point": "Rule 60(b) grounds: the court's mistake in entering judgment without the required notice and above the demand fits (b)(1) mistake or (b)(6) any other reason, and counsel's miscalendaring is offered as excusable neglect; the court may grant relief.",
+        "cite": "60(b)(1)",
+        "quote": "mistake, inadvertence, surprise, or excusable neglect"
+      },
+      {
+        "point": "The motion is timely if within a reasonable time and a year of judgment.",
+        "cite": "60(c)(1)",
+        "quote": "A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding."
+      }
+    ],
+    "model": "1. Default. Kline had 21 days from service on January 5 to answer, until Monday, January 26 (Rule 12(a)(1)(A)(i)). A notice of appearance is neither a pleading nor a motion. Kline failed to plead or otherwise defend, so the clerk must enter default (Rule 55(a)); entry on February 9 was proper.\n2. Who enters judgment. Rule 55(b)(1) lets the clerk enter judgment only against a defendant defaulted for not appearing. Kline appeared on February 2, so the clerk route was closed whatever the amount, and Hart rightly applied to the court under Rule 55(b)(2).\n3. Notice. Because Kline appeared, Rule 55(b)(2) required written notice of the application at least 7 days before the hearing. Notice served February 25 for a March 2 hearing gave 5 days, so it was defective.\n4. Amount. A default judgment must not exceed in amount or differ in kind from what the pleadings demand (Rule 54(c)). The complaint demanded $48,000 and no other relief, so $48,000 was the ceiling; the $62,000 judgment is improper by the $14,000 in lost profits.\n5. Request for time. Kline's oral request at the hearing came after the January 26 deadline. After a deadline passes, the court may extend time only on motion showing excusable neglect (Rule 6(b)(1)(B)); the entered default remains until set aside under Rule 55(c).\n6. Setting aside. The court may set aside the entry of default for good cause, but a final default judgment is set aside under Rule 60(b) (Rule 55(c)). The notice and amount defects are the court's mistakes, which Kline can tie to Rule 60(b)(1) (mistake) or Rule 60(b)(6) (any other reason that justifies relief); the miscalendaring is offered as excusable neglect under Rule 60(b)(1). An April 20 motion is made within a reasonable time and within a year (Rule 60(c)(1)). The court's own errors give good grounds for relief, so it should vacate the judgment or at least reduce it to $48,000.",
+    "cites": [
+      {
+        "cite": "12(a)(1)(A)(i)",
+        "quote": "within 21 days after being served with the summons and complaint"
+      },
+      {
+        "cite": "55(a)",
+        "quote": "has failed to plead or otherwise defend, and that failure is shown by affidavit or otherwise, the clerk must enter the party's default."
+      },
+      {
+        "cite": "55(b)(1)",
+        "quote": "against a defendant who has been defaulted for not appearing and who is neither a minor nor an incompetent person."
+      },
+      {
+        "cite": "55(b)(2)",
+        "quote": "that party or its representative must be served with written notice of the application at least 7 days before the hearing."
+      },
+      {
+        "cite": "54(c)",
+        "quote": "A default judgment must not differ in kind from, or exceed in amount, what is demanded in the pleadings."
+      },
+      {
+        "cite": "6(b)(1)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect"
+      },
+      {
+        "cite": "55(c)",
+        "quote": "The court may set aside an entry of default for good cause, and it may set aside a final default judgment under Rule 60(b)."
+      },
+      {
+        "cite": "60(b)(1)",
+        "quote": "mistake, inadvertence, surprise, or excusable neglect"
+      },
+      {
+        "cite": "60(c)(1)",
+        "quote": "A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding."
+      }
+    ]
+  },
+  {
+    "id": "es2-014",
+    "kind": "essay",
+    "topic": "post",
+    "rules": [
+      "6",
+      "59",
+      "60"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Quill wins a jury verdict against Ross Co. on a contract claim, and judgment is entered Friday, March 6, 2026. On Friday, April 3, Ross files a motion for a new trial on the ground that the verdict form was confusing, stating that affidavits from two jurors \"will follow.\" Ross files the juror affidavits on April 10. On Monday, April 6, Ross also files a separate motion to alter or amend the judgment to correct an error in the interest calculation. Quill opposes both. On April 20, without notice or a hearing, the court grants a new trial limited to damages, writing only that a new trial on damages is warranted \"for good reason.\" The court's ground, that the damages figure appears excessive, appears nowhere in Ross's motion. Quill objects that the order is untimely because it issued more than 28 days after judgment, that the juror affidavits were late, and that a new trial limited to damages is unavailable. Assume each ground mentioned, if properly raised, is one for which new trials have traditionally been granted.",
+    "ask": "Rule on each of Quill's objections and on Ross's interest motion.",
+    "rubric": [
+      {
+        "point": "A new-trial motion is due no later than 28 days after entry of judgment: March 6 plus 28 days is April 3, so Ross's motion was timely.",
+        "cite": "59(b)",
+        "quote": "A motion for a new trial must be filed no later than 28 days after the entry of judgment."
+      },
+      {
+        "point": "Affidavits supporting a new-trial motion must be filed with the motion, so Ross's April 10 affidavits were late; had they been timely, Quill would have had 14 days after service to file opposing affidavits.",
+        "cite": "59(c)",
+        "quote": "When a motion for a new trial is based on affidavits, they must be filed with the motion."
+      },
+      {
+        "point": "Rule 6(b)(2) forbids extending time under Rules 59(b), (d) and (e) but does not list 59(c), so the affidavit deadline can be extended under Rule 6(b)(1)(B) on a motion made after the time expired showing excusable neglect; Ross filed no such motion, so the late affidavits should not be considered unless he makes it.",
+        "cite": "6(b)(1)(B)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect"
+      },
+      {
+        "point": "The court may grant a new trial on all or some of the issues, so a damages-only trial is allowed.",
+        "cite": "59(a)(1)",
+        "quote": "The court may, on motion, grant a new trial on all or some of the issues—and to any party—as follows:"
+      },
+      {
+        "point": "The 28-day limit applies to a court acting on its own initiative; here the court acted on a timely motion, so the limit does not bar the order.",
+        "cite": "59(d)",
+        "quote": "No later than 28 days after the entry of judgment, the court, on its own, may order a new trial for any reason that would justify granting one on a party's motion."
+      },
+      {
+        "point": "To grant a timely motion for a reason not stated in it, the court must first give notice and an opportunity to be heard; none was given.",
+        "cite": "59(d)",
+        "quote": "After giving the parties notice and an opportunity to be heard, the court may grant a timely motion for a new trial for a reason not stated in the motion."
+      },
+      {
+        "point": "In either event the court must specify its reasons; \"for good reason\" does not.",
+        "cite": "59(d)",
+        "quote": "In either event, the court must specify the reasons in its order."
+      },
+      {
+        "point": "The Rule 59(e) motion was due 28 days after entry, April 3, so April 6 is late as a Rule 59(e) motion, and Rule 6(b)(2) bars extending that time.",
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "point": "The late Rule 59(e) label does not end the interest issue: the court may correct a mistake arising from oversight whenever found (Rule 60(a)), or give relief for mistake within a reasonable time and a year (Rule 60(b)(1)); and a damages-only new trial would supersede the interest figure.",
+        "cite": "60(a)",
+        "quote": "The court may correct a clerical mistake or a mistake arising from oversight or omission whenever one is found in a judgment, order, or other part of the record."
+      }
+    ],
+    "model": "1. Timeliness. A new-trial motion must be filed no later than 28 days after entry of judgment (Rule 59(b)). March 6 plus 28 days is Friday, April 3, so Ross's motion was timely on its last day.\n2. Affidavits. Affidavits supporting a new-trial motion must be filed with it (Rule 59(c)), so the April 10 affidavits were late. Lateness is not final: Rule 6(b)(2) bars extending time under Rules 59(b), (d) and (e) but does not list Rule 59(c), so under Rule 6(b)(1)(B) the court may extend the time on motion made after it expired if Ross failed to act because of excusable neglect. Ross made no such motion and said only that affidavits \"will follow\", so the court should not consider them unless he moves and shows excusable neglect. Had they been timely, Quill would have had 14 days after service to oppose.\n3. Partial new trial. The court may grant a new trial on all or some of the issues (Rule 59(a)(1)), so a damages-only trial is permitted.\n4. The court's order. Quill's 28-day objection fails: that limit governs the court acting on its own, and a timely motion was pending. But Rule 59(d) lets the court grant a timely motion for a reason not stated in it only after notice and an opportunity to be heard. None was given, and \"for good reason\" does not specify the reasons as Rule 59(d) requires in either event. The court should vacate the order, give notice and a chance to be heard, then rule and state its reasons.\n5. Interest motion. A motion to alter or amend must be filed no later than 28 days after entry (Rule 59(e)): April 3. April 6 is late, and Rule 6(b)(2) forbids extending that time, so it fails as a Rule 59(e) motion. The court may still correct a mistake arising from oversight whenever found (Rule 60(a)), or relieve Ross for mistake within a reasonable time and a year (Rule 60(b)(1)); a damages-only new trial would also supersede the interest figure.",
+    "cites": [
+      {
+        "cite": "59(b)",
+        "quote": "A motion for a new trial must be filed no later than 28 days after the entry of judgment."
+      },
+      {
+        "cite": "59(c)",
+        "quote": "When a motion for a new trial is based on affidavits, they must be filed with the motion."
+      },
+      {
+        "cite": "6(b)(1)(B)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect"
+      },
+      {
+        "cite": "59(a)(1)",
+        "quote": "The court may, on motion, grant a new trial on all or some of the issues—and to any party—as follows:"
+      },
+      {
+        "cite": "59(d)",
+        "quote": "No later than 28 days after the entry of judgment, the court, on its own, may order a new trial for any reason that would justify granting one on a party's motion."
+      },
+      {
+        "cite": "59(d)",
+        "quote": "After giving the parties notice and an opportunity to be heard, the court may grant a timely motion for a new trial for a reason not stated in the motion."
+      },
+      {
+        "cite": "59(d)",
+        "quote": "In either event, the court must specify the reasons in its order."
+      },
+      {
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "60(a)",
+        "quote": "The court may correct a clerical mistake or a mistake arising from oversight or omission whenever one is found in a judgment, order, or other part of the record."
+      }
+    ]
+  },
+  {
+    "id": "es2-015",
+    "kind": "essay",
+    "topic": "sj-jmol",
+    "rules": [
+      "26",
+      "36",
+      "37",
+      "56",
+      "59",
+      "60",
+      "62"
+    ],
+    "level": 3,
+    "minutes": 25,
+    "stem": "Chen sues Redwood Dairy for breach of a milk-supply contract and seeks $400,000. Redwood is served on Monday, June 1, 2026 and answers on time. The parties hold their Rule 26(f) conference on Monday, August 3, 2026. Redwood serves its initial disclosures on August 24, naming its sales director but not its warehouse manager, Okoye, whom it expects to call to say Chen rejected the deliveries. On Tuesday, September 8, Chen hand-delivers requests for admission, including \"Redwood never delivered the October shipment.\" Redwood's lawyer is ill and serves signed denials only on October 13. In November Chen moves for summary judgment on liability, citing the requests; Redwood opposes with a declaration from Okoye. The court grants summary judgment on liability, and a jury awards Chen $250,000 on damages. Judgment is entered Wednesday, February 10, 2027. Chen's lawyer plans to collect at once. Redwood, represented by new counsel, wants to challenge the judgment.",
+    "ask": "Identify the issue that arises at each stage and explain how the court should rule, with dates.",
+    "rubric": [
+      {
+        "point": "Initial disclosures were due within 14 days after the conference: Monday, August 17. Redwood's August 24 service was late.",
+        "cite": "26(a)(1)(C)",
+        "quote": "A party must make the initial disclosures at or within 14 days after the parties' Rule 26(f) conference unless a different time is set by stipulation or court order"
+      },
+      {
+        "point": "A party that fails to identify a witness as Rule 26(a) requires may not use that witness on a motion unless the failure was substantially justified or is harmless; the rule names those exceptions and assigns no burden. Redwood omitted Okoye and nothing shows justification or harmlessness, so his declaration should be disregarded.",
+        "cite": "37(c)(1)",
+        "quote": "the party is not allowed to use that information or witness to supply evidence on a motion, at a hearing, or at a trial, unless the failure was substantially justified or is harmless."
+      },
+      {
+        "point": "Requests unanswered within 30 days of service are admitted; the deadline was Thursday, October 8, so October 13 was late.",
+        "cite": "36(a)(3)",
+        "quote": "A matter is admitted unless, within 30 days after being served, the party to whom the request is directed serves on the requesting party a written answer or objection addressed to the matter and signed by the party or its attorney."
+      },
+      {
+        "point": "The admission is conclusively established unless the court, on motion, permits withdrawal; the stem shows no Rule 36(b) motion by Redwood, so the admission stands absent that motion (and the court may then permit withdrawal if it would promote the merits and the court is not persuaded that it would prejudice Chen).",
+        "cite": "36(b)",
+        "quote": "A matter admitted under this rule is conclusively established unless the court, on motion, permits the admission to be withdrawn or amended."
+      },
+      {
+        "point": "With the admission standing and Okoye's declaration excluded, no genuine dispute remains and the court shall grant summary judgment if Chen is entitled to judgment as a matter of law.",
+        "cite": "56(a)",
+        "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+      },
+      {
+        "point": "A motion to alter or amend (and a new-trial motion) is due 28 days after entry, Wednesday, March 10, 2027; the court must not extend that time.",
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "point": "Execution is automatically stayed for 30 days after entry, through Friday, March 12, 2027, so Chen cannot collect at once.",
+        "cite": "62(a)",
+        "quote": "execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      },
+      {
+        "point": "Redwood may obtain a stay by bond or other security at any time after judgment is entered, including during the automatic 30-day stay; it takes effect when the court approves it.",
+        "cite": "62(b)",
+        "quote": "At any time after judgment is entered, a party may obtain a stay by providing a bond or other security."
+      },
+      {
+        "point": "After the Rule 59 window, Redwood's route is Rule 60(b)(1) (mistake, inadvertence, surprise or excusable neglect, as the lawyer's illness may show), made within a reasonable time and within a year of entry; that motion does not suspend the judgment.",
+        "cite": "60(b)(1)",
+        "quote": "mistake, inadvertence, surprise, or excusable neglect"
+      }
+    ],
+    "model": "1. Disclosures. Rule 26(a)(1)(C) required disclosures within 14 days after the August 3 conference: Monday, August 17. August 24 was late, and Redwood omitted Okoye, whom it may use to support its defense (Rule 26(a)(1)(A)(i)). Under Rule 37(c)(1), a party that fails to identify a witness as Rule 26(a) requires may not use that witness to supply evidence on a motion unless the failure was substantially justified or is harmless. The rule names those exceptions but assigns no burden. Nothing shows justification or harmlessness, so the court should disregard Okoye's declaration.\n2. Admissions. A matter is admitted unless a signed answer or objection is served within 30 days after service (Rule 36(a)(3)). Hand delivery on September 8 made the deadline Thursday, October 8; October 13 was late. The matter is conclusively established unless the court, on motion, permits withdrawal (Rule 36(b)). Redwood never moved, so the admission stands; had it moved, the court may permit withdrawal if that would promote the merits and it is not persuaded Chen would be prejudiced.\n3. Summary judgment. Admissions are record materials a movant may cite (Rule 56(c)(1)(A)). With the admission standing and Okoye's declaration excluded, no genuine dispute remains about delivery, so the court shall grant summary judgment on liability if Chen is entitled to judgment as a matter of law (Rule 56(a)).\n4. Post-judgment motions. A motion to alter or amend (Rule 59(e)) or for a new trial (Rule 59(b)) is due within 28 days after entry: Wednesday, March 10, 2027, and Rule 6(b)(2) bars extending that time. Afterward, Redwood's route is Rule 60(b)(1): mistake, inadvertence, surprise or excusable neglect, which the lawyer's illness may support, made within a reasonable time and a year (Rule 60(c)(1)). It does not suspend the judgment (Rule 60(c)(2)).\n5. Collection. Execution is stayed for 30 days after entry unless the court orders otherwise (Rule 62(a)): through Friday, March 12, 2027, so Chen cannot collect at once. Redwood may obtain a stay by bond or other security at any time after judgment, even during that stay; it takes effect when the court approves it (Rule 62(b)).",
+    "cites": [
+      {
+        "cite": "26(a)(1)(C)",
+        "quote": "A party must make the initial disclosures at or within 14 days after the parties' Rule 26(f) conference unless a different time is set by stipulation or court order"
+      },
+      {
+        "cite": "37(c)(1)",
+        "quote": "the party is not allowed to use that information or witness to supply evidence on a motion, at a hearing, or at a trial, unless the failure was substantially justified or is harmless."
+      },
+      {
+        "cite": "36(a)(3)",
+        "quote": "A matter is admitted unless, within 30 days after being served, the party to whom the request is directed serves on the requesting party a written answer or objection addressed to the matter and signed by the party or its attorney."
+      },
+      {
+        "cite": "36(b)",
+        "quote": "A matter admitted under this rule is conclusively established unless the court, on motion, permits the admission to be withdrawn or amended."
+      },
+      {
+        "cite": "56(a)",
+        "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+      },
+      {
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "62(a)",
+        "quote": "execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      },
+      {
+        "cite": "62(b)",
+        "quote": "At any time after judgment is entered, a party may obtain a stay by providing a bond or other security."
+      },
+      {
+        "cite": "60(b)(1)",
+        "quote": "mistake, inadvertence, surprise, or excusable neglect"
+      }
+    ]
   }
 ]
