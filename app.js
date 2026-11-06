@@ -1,4 +1,4 @@
-import { D, S, load, save, replace, today, daysTo, ruleOf, record, queue, tally, weakest } from "./store.js";
+import { D, S, load, save, replace, today, addDays, daysTo, ruleOf, record, queue, tally, weakest, stats, forecast } from "./store.js";
 
 const $ = s => document.querySelector(s), app = $("#app"), dlg = $("#sheet"), root = document.documentElement;
 const h = (tag, a, ...kids) => {
@@ -20,6 +20,7 @@ const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 const go = hash => location.hash === hash ? route() : (location.hash = hash);
 const MODES = { apply: ["Fact patterns", ["apply"]], issue: ["Issue spotting", ["issue"]], essay: ["Essay practice", ["essay"]], cards: ["Flashcards", ["recall"]] };
 const MIXED = ["apply", "issue", "recall"];
+const track = p => h("div", { class: "track" }, h("i", { style: `width:${p}%` }));
 let sess, tick;
 const tm = { left: 0, run: true };
 
@@ -65,23 +66,34 @@ const chip = c => h("button", { class: "chip", onclick: () => sheet(c) }, "Rule 
 const chips = it => h("div", { class: "chips" }, (it.cites || it.rubric).map(chip));
 
 // ---- home and practice setup
+function headline() {
+  const t = stats(), m = Math.round(100 * t.mastery);
+  return h("section", { class: "head" }, h("div", { class: "bar" }, h("b", "Mastery"), h("b", m + "%")), track(m),
+    h("div", { class: "stats" }, [["Seen", `${t.seen} of ${t.total}`], ["Due today", t.due], ["Mastered", t.mastered]].map(([k, v]) => h("div", h("b", v), h("small", k)))));
+}
 function home() {
-  const n = k => D.items.filter(i => i.kind === k).length, left = S.exam && daysTo(S.exam);
+  const n = k => D.items.filter(i => i.kind === k).length, left = S.exam && daysTo(S.exam), t = stats(), unseen = t.total - t.seen;
   const tiles = [["#/p/apply", "Fact patterns", cnt(n("apply"), "item")], ["#/p/issue", "Issue spotting", cnt(n("issue"), "item")],
     ["#/p/essay", "Essay practice", cnt(n("essay"), "item")], ["#/p/cards", "Flashcards", cnt(n("recall"), "card")],
-    ["#/rules", "Rules", cnt(D.rules.length, "rule")], ["#/progress", "Progress", Object.keys(S.items).length + " answered"]];
+    ["#/rules", "Rules", cnt(D.rules.length, "rule")], ["#/progress", "Progress", t.seen + " seen"]];
   view(h("p", { class: "mute" }, "Assume federal court, proper jurisdiction and venue, current FRCP, no state holidays beyond the federal ones, unless the facts say otherwise."),
     h("label", { class: "exam" }, "Exam date",
       h("input", { type: "date", value: S.exam || "", onchange: e => { S.exam = e.target.value || null; save(); route(); } }),
       left != null && h("b", left > 0 ? left + " days left" : left === 0 ? "Exam day" : "Exam has passed")),
-    h("button", { class: "today", onclick: () => start({ kinds: ["apply", "issue"], n: 10 }) }, h("b", "Today"), h("span", "10 mixed questions, weakest rules first")),
+    headline(),
+    left > 0 && unseen > 0 && h("p", { class: "mute" }, `Pace: ${Math.ceil(unseen / left)} new a day to see everything by your exam`),
+    h("button", { class: "today", onclick: () => start({ kinds: MIXED, n: Math.min(20, Math.max(10, t.due)) }) }, h("b", "Today"),
+      h("span", t.due ? `${cnt(t.due, "item")} due, then new ones, weakest rules first` : "Nothing due. New items, weakest rules first")),
     h("div", { class: "tiles" }, tiles.map(([href, t, sub]) => h("a", { class: "tile", href }, h("b", t), h("small", sub)))));
 }
 function setup(mode) {
   const [label, kinds] = MODES[mode], o = { kinds, topics: [], n: mode === "essay" ? 1 : 10, timer: false };
   const pool = D.items.filter(i => kinds.includes(i.kind)), L = mode === "essay" ? [1, 3, Infinity] : [10, 20, Infinity];
   const info = h("p", { class: "mute" }), btn = h("button", { class: "btn primary", onclick: () => start(o) }, "Start");
-  const upd = () => { const n = queue({ ...o, n: Infinity }).length; info.textContent = n ? n + " available" : mode === "cards" ? "No cards due. Check back tomorrow." : "No items here yet."; btn.disabled = !n; };
+  const upd = () => {
+    const q = queue({ ...o, n: Infinity }), td = today(), due = q.filter(i => S.items[i.id]?.due <= td).length;
+    info.textContent = q.length ? `${q.length} available, ${due} due` : "No items here yet."; btn.disabled = !q.length;
+  };
   const lens = L.map((v, j) => h("button", { class: "chip pill", "aria-pressed": v === o.n, onclick: () => {
     o.n = v; lens.forEach((b, k) => b.setAttribute("aria-pressed", k === j));
   } }, v === Infinity ? "All" : v));
@@ -105,10 +117,10 @@ function timer(sec, el, end) {
   tm.left = sec; tm.run = true; el.textContent = fmt(sec);
   tick = setInterval(() => { if (tm.run && tm.left > 0) { el.textContent = fmt(--tm.left); if (!tm.left) end?.(); } }, 1000);
 }
-const answer = (it, ok, pts) => {
+const answer = (it, q, pts) => {
   if (sess.ans.has(sess.i)) return;
-  sess.ans.add(sess.i); sess.hits += ok; if (!ok) sess.miss.push(it);
-  record(it, ok, pts);
+  sess.ans.add(sess.i); sess.hits += q >= 3; if (q < 3) sess.miss.push(it);
+  record(it, q, pts);
 };
 const nextBtn = () => h("button", { class: "btn primary", onclick: () => { sess.i++; route(); } }, sess.i + 1 < sess.q.length ? "Next" : "Finish");
 
@@ -143,7 +155,7 @@ function question(it, time) {
       b.firstChild.textContent = k ? (multi && !p ? "Missed" : "Correct") : p ? "Wrong" : "";
       b.append(h("span", { class: "why" }, it.options[i].why));
     });
-    answer(it, ok);
+    answer(it, ok ? 4 : 1);
     reveal.append(h("p", { class: "verdict " + (ok ? "right" : "wrong") }, multi ? `Found ${found} of ${key.size}, ${wrong} wrong` : ok ? "Correct" : "Not quite"),
       h("p", { class: "serif" }, it.explain), chips(it), nextBtn());
   };
@@ -160,7 +172,8 @@ function essay(it, time) {
   const upd = () => score.textContent = `${boxes.filter(b => b.checked).length} of ${boxes.length} points`;
   const done = h("button", { class: "btn primary", onclick: () => {
     const pts = it.rubric.map((p, i) => [p.cite, boxes[i].checked]), hit = pts.filter(p => p[1]).length;
-    answer(it, hit / pts.length >= .7, pts); done.replaceWith(nextBtn());
+    const f = hit / pts.length;
+    answer(it, f < .5 ? 2 : f < .7 ? 3 : f < .9 ? 4 : 5, pts); done.replaceWith(nextBtn());
   } }, "Save score");
   const rev = h("div", { hidden: true, onchange: upd }, h("h2", "Rubric: tap the points you hit"),
     it.rubric.map((p, i) => h("label", { class: "pt" }, boxes[i], h("span", p.point + " ", chip(p)))), score,
@@ -176,8 +189,8 @@ function card(it) {
   let side = 0, seen = false;
   const face = h("button", { class: "card serif", onclick: () => { side ^= 1; seen = true; draw(); } });
   const cx = h("div", { hidden: true }, chips(it));
-  const rate = ok => h("button", { class: "btn" + (ok ? " primary" : ""), onclick: () => { answer(it, ok); sess.i++; route(); } }, ok ? "Got it" : "Missed");
-  const acts = h("div", { class: "chips", hidden: true }, rate(false), rate(true));
+  const rate = (q, t) => h("button", { class: "btn" + (q === 4 ? " primary" : ""), onclick: () => { answer(it, q, null); sess.i++; route(); } }, t);
+  const acts = h("div", { class: "chips rate", hidden: true }, rate(1, "Again"), rate(3, "Hard"), rate(4, "Good"), rate(5, "Easy"));
   const draw = () => {
     face.replaceChildren(h("small", side ? "Answer" : "Question, tap to flip"), h("span", side ? it.back : it.front));
     cx.hidden = !side; acts.hidden = !seen;
@@ -240,17 +253,23 @@ function ruleView(id, cite) {
 
 // ---- progress
 function progress() {
-  const bar = (label, [a, c]) => h("div", { class: "pb" }, h("div", { class: "bar" }, label, h("small", a ? `${a} answered, ${pct(a, c)}%` : "not started")),
-    h("div", { class: "track" }, h("i", { style: `width:${pct(a, c)}%` })));
-  const ruleBar = r => bar(h("a", { href: "#/rule/" + r }, "Rule " + r), tally([r]));
-  const flagged = S.flagged.map(id => D.byId[id]).filter(Boolean);
+  const bar = (label, items, rs) => {
+    const m = stats(items).mastery, [a, c] = tally(rs);
+    return h("div", { class: "pb" }, h("div", { class: "bar" }, label, h("b", Math.round(100 * m) + "%")), track(100 * m),
+      h("small", a ? `${a} answered, ${pct(a, c)}% correct` : "not started"));
+  };
+  const ruleBar = r => bar(h("a", { href: "#/rule/" + r }, "Rule " + r), D.items.filter(i => i.rules.includes(r)), [r]);
+  const flagged = S.flagged.map(id => D.byId[id]).filter(Boolean), fc = forecast(), mx = Math.max(1, ...fc);
   const exportJson = () => h("a", { href: URL.createObjectURL(new Blob([JSON.stringify(S)], { type: "application/json" })), download: `civpro-progress-${today()}.json` }).click();
   const imp = async e => {
-    try { const o = JSON.parse(await e.target.files[0].text()); if (!o.items || !o.rs) throw 0; replace(o); route(); }
+    try { const o = JSON.parse(await e.target.files[0].text()); if (o.v !== 2 || !o.items || !o.rs) throw 0; replace(o); route(); }
     catch { alert("That is not a progress file from this site."); }
   };
-  view(h("h1", "Progress"), bar("All rules", tally(D.rules.map(r => r.id))),
-    h("h2", "Topics"), D.topics.map(t => h("details", h("summary", bar(t.label, tally(t.rules))), t.rules.filter(r => S.rs[r]).map(ruleBar))),
+  view(h("h1", "Progress"), headline(),
+    h("h2", "Due in the next 7 days"), h("div", { class: "fc" }, fc.map((n, k) => h("div", h("small", n), h("i", { style: `height:${4 + 40 * n / mx}px` }),
+      h("small", k ? new Date(addDays(today(), k) + "T12:00").toLocaleDateString(undefined, { weekday: "short" }) : "Today")))),
+    h("h2", "Topics"), D.topics.map(t => h("details", h("summary", bar(t.label, D.items.filter(i => i.topic === t.id), t.rules)),
+      t.rules.filter(r => D.items.some(i => i.rules.includes(r))).map(ruleBar))),
     h("h2", "Weakest rules"), weakest(10).map(r => h("div", { class: "row2" }, ruleBar(r),
       h("button", { class: "chip", onclick: () => start({ kinds: MIXED, rule: r, n: 10 }) }, "Practice"))),
     !Object.keys(S.rs).length && h("p", { class: "mute" }, "Answer a few questions and your weakest rules show up here."),
