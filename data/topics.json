@@ -1,0 +1,27 @@
+{
+  "topics": [
+    { "id": "scope", "label": "Scope, service and time", "rules": ["1","2","3","4","4.1","5","5.1","5.2","6"] },
+    { "id": "pleading", "label": "Pleadings and signing", "rules": ["7","7.1","8","9","10","11"] },
+    { "id": "rule12", "label": "Rule 12 defenses and motions", "rules": ["12"] },
+    { "id": "amend", "label": "Amendments and case management", "rules": ["15","16","16.1"] },
+    { "id": "claims", "label": "Counterclaims, crossclaims, third parties", "rules": ["13","14","18","22"] },
+    { "id": "parties", "label": "Parties, joinder and intervention", "rules": ["17","19","20","21","24","25"] },
+    { "id": "class", "label": "Class and derivative actions", "rules": ["23","23.1","23.2"] },
+    { "id": "disc-scope", "label": "Discovery: scope, disclosure, privilege", "rules": ["26","27","29"] },
+    { "id": "disc-tools", "label": "Discovery devices", "rules": ["28","30","31","32","33","34","35","36","45"] },
+    { "id": "disc-sanctions", "label": "Discovery enforcement and sanctions", "rules": ["37"] },
+    { "id": "trial", "label": "Jury, dismissal and trial", "rules": ["38","39","40","41","42","43","44","44.1","46","47","48","49","51","53"] },
+    { "id": "sj-jmol", "label": "Summary judgment and judgment as a matter of law", "rules": ["50","52","56"] },
+    { "id": "judgment", "label": "Default and judgment", "rules": ["54","55","57","58"] },
+    { "id": "post", "label": "Post-judgment motions and relief", "rules": ["59","60","61","62","62.1","63"] },
+    { "id": "remedies", "label": "Injunctions, offers and enforcement", "rules": ["64","65","65.1","66","67","68","69","70","71","71.1"] },
+    { "id": "courts", "label": "Courts and general provisions", "rules": ["72","73","77","78","79","80","81","82","83","85","86","87"] }
+  ],
+  "yield": {
+    "4": 3, "6": 3, "8": 3, "11": 3, "12": 3, "13": 3, "15": 3, "19": 3, "20": 3, "23": 3,
+    "26": 3, "37": 3, "50": 3, "56": 3, "59": 3, "60": 3,
+    "3": 2, "5": 2, "7": 2, "9": 2, "14": 2, "16": 2, "17": 2, "18": 2, "21": 2, "22": 2, "24": 2,
+    "30": 2, "33": 2, "34": 2, "35": 2, "36": 2, "38": 2, "39": 2, "41": 2, "42": 2, "45": 2,
+    "52": 2, "54": 2, "55": 2, "58": 2, "62": 2, "65": 2, "68": 2, "81": 2
+  }
+}
