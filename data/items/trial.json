@@ -1,0 +1,3141 @@
+[
+  {
+    "id": "trial-001",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "56(a)",
+        "quote": "A party may move for summary judgment, identifying each claim or defense—or the part of each claim or defense—on which summary judgment is sought."
+      }
+    ],
+    "stem": "Rivera sues Calder Freight for breach of contract and, separately, for fraud. After discovery, Calder moves for summary judgment on the fraud claim only, identifying that claim in its motion. The court finds Calder has shown there is no genuine dispute as to any material fact on the fraud claim and that Calder is entitled to judgment as a matter of law on it. Rivera objects that the court cannot entertain a motion that does not seek judgment on the whole case.",
+    "ask": "May the court grant Calder's motion?",
+    "options": [
+      {
+        "t": "No; summary judgment is available only if the movant seeks judgment on every claim in the action.",
+        "why": "Whole-case misreading. Rule 56(a) lets a party identify each claim or defense, or the part of each, on which judgment is sought."
+      },
+      {
+        "t": "No; a motion for partial summary judgment requires the opposing party's consent.",
+        "why": "Invents a consent requirement. Rule 56(a) contains none."
+      },
+      {
+        "t": "Yes; Rule 56(a) permits a motion on one claim, and the court shall grant it when the showing is made.",
+        "why": "Correct. 56(a) authorizes summary judgment on a claim or part of a claim, and the court 'shall grant' it when no genuine dispute as to a material fact exists and the movant is entitled to judgment as a matter of law."
+      },
+      {
+        "t": "Yes, but only after the court has first ruled on the contract claim.",
+        "why": "Invents a sequencing requirement. Rule 56(a) does not make one claim's ruling a precondition to another's."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 56(a) allows a motion identifying 'each claim or defense—or the part of each claim or defense' on which judgment is sought. Calder identified the fraud claim and made the 56(a) showing, so the court shall grant partial summary judgment. Nothing requires a whole-case motion, consent, or a prior ruling on the contract claim."
+  },
+  {
+    "id": "trial-002",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "56(a)",
+        "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+      }
+    ],
+    "stem": "Hale sues Brightline Tools for breach of a delivery contract. Brightline moves for summary judgment, citing the signed contract and Hale's deposition admission that Hale never performed the required inspection. Hale's only response is that the parties disagree about whether the delivery truck was blue or white. The truck's color is irrelevant to every element of every claim and defense. The court agrees that, on the undisputed material facts, Brightline is entitled to judgment as a matter of law.",
+    "ask": "What must the court do?",
+    "options": [
+      {
+        "t": "Grant the motion, because the color dispute does not concern a material fact.",
+        "why": "Correct. 56(a) is satisfied when there is no genuine dispute as to any material fact; a dispute over an immaterial fact does not defeat it, and the court 'shall grant' the motion."
+      },
+      {
+        "t": "Deny the motion, because any factual disagreement between the parties defeats summary judgment.",
+        "why": "Drops the word 'material.' Rule 56(a) asks whether there is a genuine dispute as to a material fact."
+      },
+      {
+        "t": "Deny the motion, because granting summary judgment is discretionary even when the movant makes the showing.",
+        "why": "May-versus-must error. Rule 56(a) says the court 'shall grant' summary judgment when the showing is made."
+      },
+      {
+        "t": "Defer ruling until a jury resolves the color dispute.",
+        "why": "Invents a requirement. Rule 56(a) does not send an immaterial dispute to a jury."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 56(a) requires the court to grant summary judgment if the movant shows no genuine dispute as to any material fact and entitlement to judgment as a matter of law. The truck's color is not material to any claim or defense, so the disagreement is not a barrier. With the 56(a) showing made, the word 'shall' leaves no discretion to deny."
+  },
+  {
+    "id": "trial-003",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "56(b)",
+        "quote": "a party may file a motion for summary judgment at any time until 30 days after the close of all discovery"
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "stem": "Orion Pumps sues Vale Co. A scheduling order sets the close of all discovery for Friday, January 8, 2027, and says nothing about the time for summary judgment motions. No local rule sets a different time, and no other order does.",
+    "ask": "What is the last day Vale may file a motion for summary judgment?",
+    "options": [
+      {
+        "t": "February 5, 2027",
+        "why": "Counts 28 days. Rule 56(b) allows motions until 30 days after the close of all discovery."
+      },
+      {
+        "t": "January 8, 2027",
+        "why": "Treats the close of discovery as the cutoff. Rule 56(b) allows a motion until 30 days after that date."
+      },
+      {
+        "t": "February 7, 2027",
+        "why": "Stops at day 30 without the weekend roll. Day 30 is a Sunday, so 6(a)(1)(C) carries the period to the next day that is not a Saturday, Sunday or legal holiday."
+      },
+      {
+        "t": "February 8, 2027",
+        "why": "Correct. Excluding January 8, day 30 is Sunday, February 7; 6(a)(1)(C) moves the last day to Monday, February 8."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 56(b) lets a party file at any time until 30 days after the close of all discovery, absent a different local rule or order. Excluding January 8, day 30 is Sunday, February 7. Under Rule 6(a)(1)(C) the period continues to the next day that is not a Saturday, Sunday or legal holiday: Monday, February 8, 2027.",
+    "calc": {
+      "from": "2027-01-08",
+      "days": 30,
+      "dir": "after",
+      "mail": false,
+      "answer": "2027-02-08"
+    }
+  },
+  {
+    "id": "trial-004",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "56(b)",
+        "quote": "a party may file a motion for summary judgment at any time until 30 days after the close of all discovery"
+      }
+    ],
+    "stem": "Marlowe sues Quarry Mining on a written promissory note. Ten days after serving the complaint, before any discovery has begun and before Quarry has answered, Marlowe moves for summary judgment. No local rule and no court order sets a time for such motions. Quarry objects that the motion is premature.",
+    "ask": "Is the motion timely under Rule 56(b)?",
+    "options": [
+      {
+        "t": "No; a summary judgment motion may be filed only after discovery has closed.",
+        "why": "Reverses the rule. Rule 56(b) sets an outer limit (30 days after discovery closes), not an earliest date."
+      },
+      {
+        "t": "Yes; a party may file at any time until 30 days after the close of all discovery, so an early motion is permitted.",
+        "why": "Correct. Absent a local rule or order setting a different time, 56(b) allows filing 'at any time' up to that outer limit."
+      },
+      {
+        "t": "No; a plaintiff may not move until the defendant has answered.",
+        "why": "Adds a requirement Rule 56(b) does not contain."
+      },
+      {
+        "t": "Yes, but only with the court's permission because discovery had not begun.",
+        "why": "Invents a leave requirement. Rule 56(b) needs none when no local rule or order sets a different time."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 56(b) says that, unless a local rule or the court sets a different time, a party may move for summary judgment at any time until 30 days after the close of all discovery. It sets only the latest time. Marlowe's early motion is timely; Quarry's remedy, if it needs facts, lies elsewhere in Rule 56."
+  },
+  {
+    "id": "trial-005",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "56(c)(1)(B)",
+        "quote": "showing that the materials cited do not establish the absence or presence of a genuine dispute, or that an adverse party cannot produce admissible evidence to support the fact"
+      }
+    ],
+    "stem": "Nadia Wren sues Crestline Transit, alleging that a Crestline bus struck her car. Crestline moves for summary judgment, asserting that Wren cannot produce admissible evidence that a Crestline bus was involved. Crestline files no affidavit of its own. It cites Wren's interrogatory answers, which name no witness and no document placing a Crestline bus at the scene. Wren argues the motion fails because Crestline offers no evidence of its own.",
+    "ask": "Is Wren's argument correct?",
+    "options": [
+      {
+        "t": "Yes; under Rule 56(c)(1)(A) a movant must always cite affirmative evidence of its own.",
+        "why": "Ignores 56(c)(1)(B), which offers a second way to support the assertion."
+      },
+      {
+        "t": "Yes; a movant may never rely on the opposing party's discovery responses.",
+        "why": "Wrong. 56(c)(1)(A) lists interrogatory answers among the record materials a party may cite."
+      },
+      {
+        "t": "No; Rule 56(c)(1)(B) lets a movant show that an adverse party cannot produce admissible evidence to support the fact.",
+        "why": "Correct. Crestline supported its assertion by showing, through the cited interrogatory answers, that Wren cannot produce admissible evidence on the point."
+      },
+      {
+        "t": "No, but only if Crestline also files a declaration under Rule 56(d).",
+        "why": "Wrong subsection. 56(d) concerns a nonmovant's inability to present facts, not how a movant supports its assertion."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Under Rule 56(c)(1) a party asserting that a fact cannot be genuinely disputed may cite record materials under (A) or, under (B), show that the cited materials do not establish a genuine dispute or that an adverse party cannot produce admissible evidence for the fact. Crestline used (B) and cited Wren's own interrogatory answers, so no affidavit of its own is required."
+  },
+  {
+    "id": "trial-007",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "56(d)",
+        "quote": "If a nonmovant shows by affidavit or declaration that, for specified reasons, it cannot present facts essential to justify its opposition, the court may:"
+      },
+      {
+        "cite": "56(d)(2)",
+        "quote": "allow time to obtain affidavits or declarations or to take discovery"
+      }
+    ],
+    "stem": "Dunmore sues Tilbury Marine for negligence. Tilbury moves for summary judgment. Dunmore files a declaration stating that Tilbury has refused for three months to produce its safety manager for deposition, so Dunmore cannot yet present facts about Tilbury's inspection practices, which are essential to her opposition. The declaration lists the specific questions the deposition would answer.",
+    "ask": "Which action is within the court's authority under Rule 56?",
+    "options": [
+      {
+        "t": "Grant summary judgment at once, because Dunmore has not presented facts opposing the motion.",
+        "why": "Ignores 56(d). Dunmore has shown by declaration, for specified reasons, that she cannot present essential facts; granting at once is not what 56(d) contemplates."
+      },
+      {
+        "t": "Defer considering the motion or deny it, or allow time for Dunmore to take discovery.",
+        "why": "Correct. On Dunmore's 56(d) showing, the court may defer or deny the motion (56(d)(1)) or allow time to obtain declarations or take discovery (56(d)(2))."
+      },
+      {
+        "t": "Defer the motion, but only if Tilbury consents.",
+        "why": "Invents a consent requirement. 56(d) gives the court the power once the nonmovant makes the showing."
+      },
+      {
+        "t": "Allow time to obtain declarations, but not to take discovery.",
+        "why": "Misreads 56(d)(2), which permits time to obtain affidavits or declarations or to take discovery."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Dunmore made the 56(d) showing: a declaration giving specified reasons why she cannot present facts essential to her opposition. The court then may defer considering or deny the motion, allow time to get declarations or take discovery, or issue another appropriate order. It is not required to grant the motion, and no consent from Tilbury is needed."
+  },
+  {
+    "id": "trial-008",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "56(e)",
+        "quote": "If a party fails to properly support an assertion of fact or fails to properly address another party’s assertion of fact as required by Rule 56(c), the court may:"
+      },
+      {
+        "cite": "56(e)(2)",
+        "quote": "consider the fact undisputed for purposes of the motion"
+      },
+      {
+        "cite": "56(e)(3)",
+        "quote": "grant summary judgment if the motion and supporting materials—including the facts considered undisputed—show that the movant is entitled to it"
+      }
+    ],
+    "stem": "Landry sues Harbor Bank to set aside a loan guarantee. Harbor moves for summary judgment and cites a deposition transcript in which Landry admits signing the guarantee. Landry's opposition brief attacks Harbor's legal theory but never addresses the assertion that Landry signed. Landry does not seek more time. The court believes that, with that fact treated as undisputed, Harbor's motion and materials show it is entitled to judgment.",
+    "ask": "What may the court do?",
+    "options": [
+      {
+        "t": "Deny the motion, because a movant cannot win merely because the opponent failed to respond.",
+        "why": "Contradicts 56(e)(2) and (3), which let the court treat an unaddressed fact as undisputed and grant judgment if the movant is then entitled to it."
+      },
+      {
+        "t": "Enter summary judgment automatically, because failing to address a fact requires the court to treat the motion as granted.",
+        "why": "May-versus-must error. 56(e) says the court 'may'; judgment follows only if the materials show the movant is entitled to it."
+      },
+      {
+        "t": "Grant summary judgment only after giving Landry an opportunity to address the fact, which 56(e)(1) requires.",
+        "why": "Reads 56(e)(1) as mandatory. It is one of several options the court 'may' choose."
+      },
+      {
+        "t": "Consider the fact undisputed for purposes of the motion and, because the materials then show Harbor is entitled to it, grant summary judgment.",
+        "why": "Correct. Landry failed to address Harbor's assertion as 56(c) requires, so 56(e)(2) and (3) allow both steps."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Landry failed to properly address Harbor's assertion that he signed. Rule 56(e) then lets the court give an opportunity to address the fact (not required), consider the fact undisputed (56(e)(2)), grant summary judgment if the motion, materials and undisputed facts show entitlement (56(e)(3)), or issue another order. All of these are options, not commands."
+  },
+  {
+    "id": "trial-009",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "56(f)",
+        "quote": "After giving notice and a reasonable time to respond, the court may:"
+      },
+      {
+        "cite": "56(f)(1)",
+        "quote": "grant summary judgment for a nonmovant"
+      }
+    ],
+    "stem": "Greer sues Fenwick Paper for unpaid commissions. Fenwick moves for summary judgment, arguing the commission plan never covered Greer. At the hearing the judge announces that the plan plainly covered Greer and that no material fact is genuinely disputed, and she immediately enters summary judgment for Greer, who never cross-moved. The judge had given Fenwick no prior notice that she was considering this and no time to respond.",
+    "ask": "Was the judge's action authorized by Rule 56?",
+    "options": [
+      {
+        "t": "Yes; once any party moves, the court may grant judgment to either side at the hearing.",
+        "why": "Skips the condition. 56(f) permits judgment for a nonmovant only after notice and a reasonable time to respond."
+      },
+      {
+        "t": "No; only a party who has filed its own motion may ever receive summary judgment.",
+        "why": "Wrong. 56(f)(1) expressly lets the court grant summary judgment for a nonmovant."
+      },
+      {
+        "t": "No; the court may grant summary judgment for a nonmovant only after giving notice and a reasonable time to respond, and it gave neither.",
+        "why": "Correct. 56(f)(1) authorizes judgment for a nonmovant, but the lead-in to 56(f) conditions every 56(f) power on notice and a reasonable time to respond."
+      },
+      {
+        "t": "Yes; the notice requirement applies only when the court rules on grounds no party raised.",
+        "why": "Wrong scope. The notice-and-time condition governs all of 56(f), including 56(f)(1)."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 56(f) lets the court grant summary judgment for a nonmovant, grant a motion on grounds not raised by a party, or consider summary judgment on its own, but only 'after giving notice and a reasonable time to respond.' The judge gave Fenwick neither, so entering judgment for Greer at the hearing was not authorized."
+  },
+  {
+    "id": "trial-010",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "56(g)",
+        "quote": "it may enter an order stating any material fact—including an item of damages or other relief—that is not genuinely in dispute and treating the fact as established in the case"
+      }
+    ],
+    "stem": "Pascoe sues Rowan Logistics for breach of a shipping contract and moves for summary judgment on liability and damages. The court denies the motion because the amount of damages is genuinely disputed, but it finds no genuine dispute that Rowan received Pascoe's written notice of breach on March 2.",
+    "ask": "What may the court do about the notice fact?",
+    "options": [
+      {
+        "t": "Nothing; once the motion is denied, every fact must be left open for trial.",
+        "why": "Wrong. 56(g) addresses exactly this case, where the court does not grant all the relief requested."
+      },
+      {
+        "t": "Enter an order stating that Rowan received notice on March 2 and treating that fact as established in the case.",
+        "why": "Correct. If the court does not grant all the relief requested, 56(g) lets it enter an order stating a material fact not genuinely in dispute and treating it as established."
+      },
+      {
+        "t": "Enter such an order only if Rowan consents.",
+        "why": "Invents a consent requirement. 56(g) contains none."
+      },
+      {
+        "t": "Enter such an order only after Pascoe files a new motion limited to the notice fact.",
+        "why": "Invents a renewal requirement. 56(g) is triggered by the court's failure to grant all the requested relief."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "The court did not grant all the relief Pascoe requested. Rule 56(g) then lets it enter an order stating any material fact, including an item of damages or other relief, that is not genuinely in dispute and treating it as established. No new motion and no consent from Rowan is required."
+  },
+  {
+    "id": "trial-011",
+    "kind": "issue",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "56(f)(1)",
+        "quote": "grant summary judgment for a nonmovant"
+      },
+      {
+        "cite": "56(g)",
+        "quote": "it may enter an order stating any material fact—including an item of damages or other relief—that is not genuinely in dispute and treating the fact as established in the case"
+      }
+    ],
+    "stem": "Orion Pumps sues Vale Co. for breach of a supply contract. Vale moves for summary judgment, arguing the contract expired before the alleged breach. After giving both parties written notice and 14 days to respond, the court concludes the contract had not expired and that no genuine dispute exists on liability, and it grants summary judgment on liability for Orion, which never cross-moved. The amount of damages is genuinely disputed, so the court sets damages for trial. It also enters an order stating that Vale received 400 units on March 3 and treating that fact as established.",
+    "ask": "Which subdivisions of Rule 56 authorize the court's actions? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 56(d)",
+        "why": "Does not apply. No nonmovant filed a declaration claiming it could not present essential facts."
+      },
+      {
+        "t": "Rule 56(e)(3)",
+        "why": "Does not apply. It lets the court grant summary judgment for a movant whose motion materials show entitlement; here judgment went to Orion, a nonmovant."
+      },
+      {
+        "t": "Rule 56(f)(1)",
+        "why": "Applies. After notice and a reasonable time to respond, the court granted summary judgment for a nonmovant, Orion."
+      },
+      {
+        "t": "Rule 56(f)(2)",
+        "why": "Does not apply. It concerns granting the motion on grounds not raised by a party; the court denied Vale's motion."
+      },
+      {
+        "t": "Rule 56(g)",
+        "why": "Applies. The court did not grant all the relief requested on damages, and it entered an order treating an undisputed fact as established."
+      },
+      {
+        "t": "Rule 56(h)",
+        "why": "Does not apply. Nothing suggests any declaration was submitted in bad faith or solely for delay."
+      }
+    ],
+    "key": [
+      2,
+      4
+    ],
+    "explain": "Granting judgment on liability for Orion, the nonmovant, after notice and 14 days to respond falls under 56(f)(1). Entering an order that the 400-unit delivery is established, while damages go to trial, falls under 56(g). The court did not grant Vale's motion (56(f)(2)), no 56(d) declaration was filed, and 56(e)(3) and 56(h) have no facts to trigger them."
+  },
+  {
+    "id": "trial-012",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "50(a)(2)",
+        "quote": "A motion for judgment as a matter of law may be made at any time before the case is submitted to the jury."
+      }
+    ],
+    "stem": "Park sues Delta Mills for breach of contract in a jury trial. Both sides rest on Thursday afternoon. On Friday morning, before the court has instructed the jury or sent it to deliberate, Delta's counsel makes an oral motion for judgment as a matter of law, arguing that Park offered no evidence of damages. Delta made no earlier motion. Park objects that the motion should have been made when Park rested.",
+    "ask": "Is Delta's motion timely under Rule 50(a)?",
+    "options": [
+      {
+        "t": "No; the motion had to be made at the close of the opposing party's evidence or it is lost.",
+        "why": "Invents a deadline. 50(a)(2) allows the motion at any time before the case is submitted to the jury."
+      },
+      {
+        "t": "Yes; the motion may be made at any time before the case is submitted to the jury.",
+        "why": "Correct. The jury has not yet been sent to deliberate, so the case has not been submitted and 50(a)(2) permits the motion."
+      },
+      {
+        "t": "No; the motion may be made only after the jury returns a verdict.",
+        "why": "Confuses the 50(a) motion with the 50(b) renewed motion, which follows the verdict."
+      },
+      {
+        "t": "Yes, but only if the court first gives Park 14 days to respond.",
+        "why": "Invents a waiting period. Rule 50(a) sets no response time."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 50(a)(2) allows a motion for judgment as a matter of law 'at any time before the case is submitted to the jury.' The jury had not yet been instructed or sent to deliberate, so Delta's motion was timely even though it was not made when Park rested. No response period or earlier motion is required."
+  },
+  {
+    "id": "trial-013",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "50(a)(1)",
+        "quote": "If a party has been fully heard on an issue during a jury trial and the court finds that a reasonable jury would not have a legally sufficient evidentiary basis to find for the party on that issue, the court may:"
+      },
+      {
+        "cite": "50(a)(1)(B)",
+        "quote": "grant a motion for judgment as a matter of law against the party on a claim or defense that, under the controlling law, can be maintained or defeated only with a favorable finding on that issue"
+      }
+    ],
+    "stem": "In a jury trial, Vance sues Orchard Co. for negligence, a claim that under the controlling law can be maintained only with a favorable finding that Orchard's truck caused the accident. Vance has called every witness she intends to call on causation and has rested on that issue. Orchard moves for judgment as a matter of law. The court finds that a reasonable jury would not have a legally sufficient evidentiary basis to find that Orchard's truck caused the accident.",
+    "ask": "What may the court do?",
+    "options": [
+      {
+        "t": "Wait for the jury's verdict, because judgment as a matter of law is available only after a verdict.",
+        "why": "Wrong. 50(a)(1) lets the court act during the jury trial once the party has been fully heard on the issue."
+      },
+      {
+        "t": "Resolve only the causation issue; it may not enter judgment on the negligence claim itself.",
+        "why": "Misreads 50(a)(1)(B), which allows judgment against the party on a claim that can be maintained only with a favorable finding on that issue."
+      },
+      {
+        "t": "Send the issue to the jury, because a jury must decide every contested issue once it is demanded.",
+        "why": "Ignores 50(a)(1), which lets the court resolve an issue when no reasonable jury could find for the party."
+      },
+      {
+        "t": "Resolve causation against Vance and grant judgment against her on the negligence claim.",
+        "why": "Correct. Vance was fully heard on causation, and the court found no legally sufficient evidentiary basis, so 50(a)(1)(A) and (B) allow the court to resolve the issue and grant judgment on the claim."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Vance has been fully heard on causation and the court finds no legally sufficient evidentiary basis for a reasonable jury to find for her on it. Under Rule 50(a)(1) the court may resolve that issue against her and, because negligence can be maintained only with a favorable causation finding, grant judgment as a matter of law against her on the claim."
+  },
+  {
+    "id": "trial-014",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "50(b)",
+        "quote": "If the court does not grant a motion for judgment as a matter of law made under Rule 50(a), the court is considered to have submitted the action to the jury subject to the court’s later deciding the legal questions raised by the motion."
+      },
+      {
+        "cite": "50(b)",
+        "quote": "the movant may file a renewed motion for judgment as a matter of law"
+      }
+    ],
+    "stem": "A jury returns a verdict for Reyes against Sable Corp. in a contract case. Sable never moved for judgment as a matter of law at any time before the case went to the jury. Judgment is entered on Monday, March 1, 2027. On March 22, 2027, Sable files what it calls a renewed motion for judgment as a matter of law under Rule 50(b). Reyes opposes.",
+    "ask": "What is Reyes's strongest argument?",
+    "options": [
+      {
+        "t": "The motion is untimely, because a renewed motion must be filed within 14 days after entry of judgment.",
+        "why": "Wrong day count. 50(b) allows 28 days after entry of judgment, and March 22 is within that period."
+      },
+      {
+        "t": "The motion fails, because Rule 50(b) permits renewal only after the court has granted a new trial.",
+        "why": "Invents a precondition. A new trial is an alternative request, not a prerequisite to renewal."
+      },
+      {
+        "t": "Rule 50(b) renews a motion made under Rule 50(a) that the court did not grant, and Sable made no such motion.",
+        "why": "Correct. 50(b) operates on 'a motion for judgment as a matter of law made under Rule 50(a)'; Sable made none before submission, so there is nothing to renew."
+      },
+      {
+        "t": "The motion fails, because a renewed motion must be filed before judgment is entered.",
+        "why": "Reverses the timing. 50(b) sets the period as 28 days after entry of judgment."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 50(b) applies when the court does not grant a motion made under Rule 50(a); the movant may then file a renewed motion within 28 days after entry of judgment. March 22 is timely, but Sable made no Rule 50(a) motion before the case was submitted, so there was no motion to renew."
+  },
+  {
+    "id": "trial-015",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "50(b)",
+        "quote": "No later than 28 days after the entry of judgment"
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "stem": "On Friday, December 18, 2026, a jury returns a verdict for Pruitt against Alder Co. Before the case went to the jury, Alder moved for judgment as a matter of law under Rule 50(a), and the court denied the motion. The clerk enters judgment on Monday, December 21, 2026. No court order changes any deadline.",
+    "ask": "By what date must Alder file a renewed motion for judgment as a matter of law under Rule 50(b)?",
+    "options": [
+      {
+        "t": "January 4, 2027",
+        "why": "Counts 14 days. Rule 50(b) allows 28 days after entry of judgment."
+      },
+      {
+        "t": "January 15, 2027",
+        "why": "Counts 28 days from the verdict. The period runs from entry of judgment."
+      },
+      {
+        "t": "January 18, 2027",
+        "why": "Stops at day 28 without the holiday roll. January 18, 2027 is Martin Luther King Jr.'s Birthday, a legal holiday under 6(a)(6)(A)."
+      },
+      {
+        "t": "January 19, 2027",
+        "why": "Correct. Excluding December 21, day 28 is Monday, January 18, a legal holiday, so 6(a)(1)(C) carries the period to Tuesday, January 19."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 50(b) gives 28 days after entry of judgment, not after the verdict. Excluding December 21, day 28 is Monday, January 18, 2027, Martin Luther King Jr.'s Birthday and a legal holiday. Under Rule 6(a)(1)(C) the period continues to the next day that is not a weekend day or legal holiday: Tuesday, January 19.",
+    "calc": {
+      "from": "2026-12-21",
+      "days": 28,
+      "dir": "after",
+      "mail": false,
+      "answer": "2027-01-19"
+    }
+  },
+  {
+    "id": "trial-016",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "50(b)",
+        "quote": "if the motion addresses a jury issue not decided by a verdict, no later than 28 days after the jury was discharged"
+      }
+    ],
+    "stem": "Hargrove sues Tallis Co. in a jury trial. Before submission, Tallis moved under Rule 50(a) for judgment as a matter of law on Hargrove's damages claim, and the court denied the motion. The jury deadlocked on the damages issue and returned no verdict on it. The court discharged the jury on Friday, February 5, 2027. No judgment has been entered.",
+    "ask": "By what date must Tallis file a renewed motion for judgment as a matter of law on the damages issue?",
+    "options": [
+      {
+        "t": "No deadline runs until a judgment is entered.",
+        "why": "Wrong trigger. For a jury issue not decided by a verdict, 50(b) runs the period from the jury's discharge."
+      },
+      {
+        "t": "March 5, 2027",
+        "why": "Correct. The motion addresses a jury issue not decided by a verdict, so the 28 days run from discharge; excluding February 5, day 28 is Friday, March 5."
+      },
+      {
+        "t": "March 8, 2027",
+        "why": "Counts 30 days (and rolls past a Sunday). 50(b) allows 28 days."
+      },
+      {
+        "t": "February 19, 2027",
+        "why": "Counts 14 days. 50(b) allows 28 days after the jury was discharged."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "The renewed motion addresses a jury issue not decided by a verdict, so Rule 50(b) measures the period from the jury's discharge, not from entry of judgment. Excluding February 5, 2027, day 28 is Friday, March 5, 2027, which is not a weekend day or legal holiday.",
+    "calc": {
+      "from": "2027-02-05",
+      "days": 28,
+      "dir": "after",
+      "mail": false,
+      "answer": "2027-03-05"
+    }
+  },
+  {
+    "id": "trial-017",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "50(c)(1)",
+        "quote": "it must also conditionally rule on any motion for a new trial by determining whether a new trial should be granted if the judgment is later vacated or reversed. The court must state the grounds for conditionally granting or denying the motion for a new trial."
+      }
+    ],
+    "stem": "After a jury verdict for Bellamy, the court grants Cask Inc.'s renewed motion for judgment as a matter of law and sets the verdict aside. Cask had also asked, in the alternative, for a new trial. Cask's lawyer suggests the court need not decide the new-trial request, because judgment for Cask makes it moot.",
+    "ask": "What must the court do about the new-trial request?",
+    "options": [
+      {
+        "t": "Conditionally rule on it, deciding whether a new trial should be granted if the judgment is later vacated or reversed, and state the grounds.",
+        "why": "Correct. Granting the renewed motion triggers the mandatory conditional ruling and statement of grounds in 50(c)(1)."
+      },
+      {
+        "t": "Leave it undecided, because granting judgment as a matter of law makes it moot.",
+        "why": "Wrong. 50(c)(1) says the court 'must also' rule conditionally on any new-trial motion."
+      },
+      {
+        "t": "Grant it automatically, so a new trial follows if the judgment is reversed.",
+        "why": "Misreads 50(c)(1). The court must decide whether a new trial should be granted; it is not granted automatically."
+      },
+      {
+        "t": "Rule on it conditionally, but it need not state its grounds.",
+        "why": "Wrong. 50(c)(1) requires the court to state the grounds for conditionally granting or denying."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "When a court grants a renewed motion for judgment as a matter of law, Rule 50(c)(1) requires it to rule conditionally on any new-trial motion, deciding whether a new trial should be granted if the judgment is later vacated or reversed, and to state the grounds for granting or denying it."
+  },
+  {
+    "id": "trial-018",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "50(c)(2)",
+        "quote": "If the motion for a new trial is conditionally denied, the appellee may assert error in that denial"
+      }
+    ],
+    "stem": "The court grants Delmar Co.'s renewed motion for judgment as a matter of law, setting aside a jury verdict for Ives, and conditionally denies Delmar's alternative new-trial motion. Ives appeals the judgment. Delmar, now the appellee, wants to argue on appeal that the court erred in conditionally denying its new-trial motion. Delmar filed no cross-appeal.",
+    "ask": "May Delmar assert that error on appeal?",
+    "options": [
+      {
+        "t": "No; an appellee that won the judgment may not challenge any ruling without a cross-appeal.",
+        "why": "Invents a cross-appeal requirement. 50(c)(2) lets the appellee assert error in the conditional denial."
+      },
+      {
+        "t": "No; a conditional denial is reviewable only after the appellate court reverses the judgment.",
+        "why": "Wrong. 50(c)(2) allows the appellee to assert error in the denial, and if the judgment is reversed the case proceeds as the appellate court orders."
+      },
+      {
+        "t": "Yes; if the new-trial motion was conditionally denied, the appellee may assert error in that denial.",
+        "why": "Correct. Delmar is the appellee and its new-trial motion was conditionally denied, which is the situation 50(c)(2) addresses."
+      },
+      {
+        "t": "Yes, but only if the trial court certifies the conditional ruling for review.",
+        "why": "Invents a certification step. 50(c)(2) contains none."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 50(c)(2) provides that if a new-trial motion is conditionally denied, the appellee may assert error in that denial; if the judgment is reversed, the case proceeds as the appellate court orders. Delmar is the appellee and its motion was conditionally denied, so it may raise the error without a cross-appeal or certification."
+  },
+  {
+    "id": "trial-020",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "50(b)",
+        "quote": "the movant may file a renewed motion for judgment as a matter of law and may include an alternative or joint request for a new trial under Rule 59. In ruling on the renewed motion, the court may:"
+      },
+      {
+        "cite": "50(b)(2)",
+        "quote": "order a new trial"
+      }
+    ],
+    "stem": "A jury returns a verdict for Soto against Ridge Co. Ridge, having moved under Rule 50(a) before submission, timely files a renewed motion for judgment as a matter of law. It does not ask for a new trial in the alternative. The court is troubled by the verdict but is not prepared to enter judgment for Ridge as a matter of law, and it considers ordering a new trial instead.",
+    "ask": "May the court order a new trial in ruling on the renewed motion?",
+    "options": [
+      {
+        "t": "No; a new trial is available only if the movant joined an alternative request for one.",
+        "why": "Invents a requirement. 50(b) lets the movant 'include' an alternative request but does not make it a condition of the court's power to order a new trial."
+      },
+      {
+        "t": "No; the court must either allow judgment on the verdict or direct judgment as a matter of law.",
+        "why": "Omits 50(b)(2). In ruling on the renewed motion the court may also order a new trial."
+      },
+      {
+        "t": "Yes, but only with Soto's consent.",
+        "why": "Invents a consent requirement. 50(b)(2) contains none."
+      },
+      {
+        "t": "Yes; in ruling on the renewed motion, the court may allow judgment on the verdict, order a new trial, or direct judgment as a matter of law.",
+        "why": "Correct. 50(b)(1)-(3) list three options, and ordering a new trial is the second."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 50(b) says that in ruling on the renewed motion the court may allow judgment on the verdict, order a new trial, or direct entry of judgment as a matter of law. An alternative new-trial request is something the movant 'may include,' not a precondition to the court's ordering a new trial."
+  },
+  {
+    "id": "trial-022",
+    "kind": "issue",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "50(c)(1)",
+        "quote": "The court must state the grounds for conditionally granting or denying the motion for a new trial."
+      },
+      {
+        "cite": "50(c)(2)",
+        "quote": "If the motion for a new trial is conditionally denied, the appellee may assert error in that denial"
+      },
+      {
+        "cite": "50(d)",
+        "quote": "Any motion for a new trial under Rule 59 by a party against whom judgment as a matter of law is rendered must be filed no later than 28 days after the entry of the judgment."
+      }
+    ],
+    "stem": "A jury returns a verdict for Gale against Quill Co. Quill had moved under Rule 50(a) before submission, and the court denied that motion. Quill timely renews it under Rule 50(b) and asks in the alternative for a new trial. The court grants the renewed motion and enters judgment for Quill, and in the same order it conditionally denies Quill's new-trial motion, stating its grounds. Gale wants to move for a new trial under Rule 59 and also appeals the judgment. Quill, as appellee, plans to argue that the conditional denial was error.",
+    "ask": "Which subdivisions of Rule 50 are triggered by these events? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 50(a)(2)",
+        "why": "Not triggered. The Rule 50(a) motion was made and denied before submission; its timing is not at issue."
+      },
+      {
+        "t": "Rule 50(c)(1)",
+        "why": "Triggered. The court granted the renewed motion, so it had to rule conditionally on the new-trial motion and state its grounds, which it did."
+      },
+      {
+        "t": "Rule 50(c)(2)",
+        "why": "Triggered. The new-trial motion was conditionally denied, so Quill as appellee may assert error in that denial."
+      },
+      {
+        "t": "Rule 50(d)",
+        "why": "Triggered. Gale is a party against whom judgment as a matter of law was rendered, so her Rule 59 motion must be filed within 28 days after entry of the judgment."
+      },
+      {
+        "t": "Rule 50(e)",
+        "why": "Not triggered. It addresses a court's denial of the motion for judgment as a matter of law; the court granted it."
+      }
+    ],
+    "key": [
+      1,
+      2,
+      3
+    ],
+    "explain": "Granting the renewed motion triggers the conditional ruling and statement of grounds in 50(c)(1). The conditional denial lets Quill, as appellee, assert error under 50(c)(2). Gale, against whom judgment as a matter of law was rendered, has 28 days for a new-trial motion under 50(d). 50(a)(2) is not in dispute and 50(e) addresses a denial."
+  },
+  {
+    "id": "trial-023",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "38",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "38(b)(1)",
+        "quote": "no later than 14 days after the last pleading directed to the issue is served"
+      },
+      {
+        "cite": "6(d)",
+        "quote": "When a party may or must act within a specified time after being served and service is made under Rule 5(b)(2)(C) (mail), (D) (leaving with the clerk), or (F) (other means consented to), 3 days are added after the period would otherwise expire under Rule 6(a)."
+      }
+    ],
+    "stem": "Sutter sues Wells Co. for breach of a lease, a claim triable of right by a jury, and serves the summons and complaint on Tuesday, February 2, 2027. Wells serves its answer on Sutter by first-class mail on Monday, March 1, 2027. The answer asserts no counterclaim, and it is the last pleading directed to the issue. Neither party has demanded a jury, and no order changes any deadline.",
+    "ask": "By what date must Sutter serve a jury demand to avoid waiving a jury trial?",
+    "options": [
+      {
+        "t": "February 16, 2027",
+        "why": "Counts 14 days from service of the complaint. 38(b)(1) runs from service of the last pleading directed to the issue."
+      },
+      {
+        "t": "March 15, 2027",
+        "why": "Omits the mail days. Service by mail under 5(b)(2)(C) adds 3 days under 6(d) after the 14 days expire."
+      },
+      {
+        "t": "March 18, 2027",
+        "why": "Correct. Excluding March 1, day 14 is Monday, March 15; because the answer was served by mail, 6(d) adds 3 days: Thursday, March 18."
+      },
+      {
+        "t": "March 22, 2027",
+        "why": "Counts 21 days. 38(b)(1) allows 14 days after the last pleading directed to the issue is served."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 38(b)(1) runs from service of the last pleading directed to the issue, here Wells's answer served March 1. Fourteen days expire Monday, March 15. Because service was by mail, Rule 6(d) adds 3 days after the period would otherwise expire, giving Thursday, March 18, 2027. The complaint's service date is irrelevant.",
+    "calc": {
+      "from": "2027-03-01",
+      "days": 14,
+      "dir": "after",
+      "mail": true,
+      "answer": "2027-03-18"
+    }
+  },
+  {
+    "id": "trial-024",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "38"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "38(d)",
+        "quote": "A party waives a jury trial unless its demand is properly served and filed."
+      },
+      {
+        "cite": "38(b)(2)",
+        "quote": "filing the demand in accordance with Rule 5(d)"
+      }
+    ],
+    "stem": "Torres sues Arden Inc. in a case triable of right by a jury. Within 14 days after Arden's answer, Torres serves a written jury demand on Arden but, by oversight, never files it with the court. Months later the court sets the case for a bench trial. Torres objects, arguing that timely service of the demand preserved her right to a jury.",
+    "ask": "Is Torres correct?",
+    "options": [
+      {
+        "t": "Yes; timely service of a written demand is enough, and filing is only a clerical step.",
+        "why": "Wrong. 38(b) requires both serving and filing the demand."
+      },
+      {
+        "t": "No; a party waives a jury trial unless its demand is properly served and filed, and Torres never filed hers.",
+        "why": "Correct. 38(b)(2) requires filing under Rule 5(d), and 38(d) provides that a party waives a jury trial unless its demand is properly served and filed."
+      },
+      {
+        "t": "No; a demand preserves the jury right only if it is included in a pleading.",
+        "why": "Invents a requirement. 38(b)(1) says the demand 'may be included in a pleading,' not that it must be."
+      },
+      {
+        "t": "Yes; Rule 38 requires filing only if the opposing party objects to the demand.",
+        "why": "Invents a condition. Filing under 38(b)(2) is part of every proper demand."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "A proper demand under Rule 38(b) is both served (within 14 days after the last pleading directed to the issue) and filed under Rule 5(d). Under Rule 38(d) a party waives a jury trial unless its demand is properly served and filed. Torres served but never filed, so she waived the right."
+  },
+  {
+    "id": "trial-025",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "38"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "38(d)",
+        "quote": "A proper demand may be withdrawn only if the parties consent."
+      }
+    ],
+    "stem": "Quinn sues Brandt Co. and properly demands a jury trial. Brandt relies on the demand and prepares for a jury. Later, hoping for an earlier trial date, Quinn files a notice withdrawing her demand. Brandt does not consent and still wants a jury.",
+    "ask": "Is Quinn's withdrawal effective?",
+    "options": [
+      {
+        "t": "Yes; the party who made a demand may withdraw it at any time before trial.",
+        "why": "Wrong. 38(d) allows withdrawal of a proper demand only if the parties consent."
+      },
+      {
+        "t": "Yes, if the court approves the withdrawal.",
+        "why": "Substitutes court approval for the parties' consent, which is what 38(d) requires."
+      },
+      {
+        "t": "No; a proper demand may be withdrawn only if the parties consent, and Brandt does not.",
+        "why": "Correct. 38(d) conditions withdrawal of a proper demand on the parties' consent."
+      },
+      {
+        "t": "No; once made, a proper demand can never be withdrawn, even with consent.",
+        "why": "Overstates the rule. 38(d) permits withdrawal when the parties consent."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 38(d) says a proper demand may be withdrawn only if the parties consent. Brandt, a party, has not consented, so Quinn's unilateral notice is ineffective. Court approval is not a substitute, and the rule does not forbid withdrawal altogether."
+  },
+  {
+    "id": "trial-026",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "38",
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "38(c)",
+        "quote": "If the party has demanded a jury trial on only some issues, any other party may—within 14 days after being served with the demand or within a shorter time ordered by the court—serve a demand for a jury trial on any other or all factual issues triable by jury."
+      }
+    ],
+    "stem": "On Thursday, April 8, 2027, Doyle serves on Egan Co., through the court's electronic-filing system, a jury demand that specifies only the damages issues. The liability issues are also triable of right by a jury, and Egan wants those tried to a jury too. The court has not ordered a shorter time.",
+    "ask": "By what date must Egan serve its own demand?",
+    "options": [
+      {
+        "t": "April 15, 2027",
+        "why": "Counts 7 days. 38(c) allows 14 days after being served with the demand."
+      },
+      {
+        "t": "April 29, 2027",
+        "why": "Counts 21 days. 38(c) allows 14 days after being served with the demand."
+      },
+      {
+        "t": "April 22, 2027",
+        "why": "Correct. Excluding April 8, day 14 is Thursday, April 22. Electronic service is not among the means in 6(d), so no days are added."
+      },
+      {
+        "t": "Egan need not serve any demand, because Doyle's demand covers every issue triable by jury.",
+        "why": "Wrong. Doyle specified only some issues, so 38(c) requires any other party to serve its own demand on the other issues."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Doyle's demand covered only some issues, so under Rule 38(c) Egan may, within 14 days after being served (or a shorter time the court orders), serve a demand on any other or all factual issues triable by jury. Excluding April 8, day 14 is Thursday, April 22, 2027. Rule 6(d) adds days only for the listed methods of service, not electronic filing.",
+    "calc": {
+      "from": "2027-04-08",
+      "days": 14,
+      "dir": "after",
+      "mail": false,
+      "answer": "2027-04-22"
+    }
+  },
+  {
+    "id": "trial-027",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "38"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "38(e)",
+        "quote": "These rules do not create a right to a jury trial on issues in a claim that is an admiralty or maritime claim under Rule 9(h)."
+      }
+    ],
+    "stem": "Vega Marine sues Corsair Lines on a claim that is an admiralty or maritime claim, and Vega identifies it as one under Rule 9(h). Vega timely serves and files a jury demand and argues that Rule 38 therefore gives it a jury trial.",
+    "ask": "Do the Federal Rules of Civil Procedure create a right to a jury trial on the issues in this claim?",
+    "options": [
+      {
+        "t": "Yes; a timely served and filed demand under Rule 38(b) creates the right on any issue.",
+        "why": "Misreads 38(b), which applies to issues 'triable of right by a jury.' 38(e) excludes Rule 9(h) admiralty claims from what the rules create."
+      },
+      {
+        "t": "No; the rules do not create a right to a jury trial on issues in an admiralty or maritime claim under Rule 9(h).",
+        "why": "Correct. 38(e) says so directly, and the claim is identified under Rule 9(h)."
+      },
+      {
+        "t": "Yes, but only if Corsair consents to the demand.",
+        "why": "Invents a consent mechanism for creating the right. 38(e) says the rules do not create it."
+      },
+      {
+        "t": "Yes; designating the claim under Rule 9(h) is what creates the right.",
+        "why": "Reverses 38(e). A Rule 9(h) designation is the reason the rules do not create a jury right."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 38(e) states that the rules do not create a right to a jury trial on issues in a claim that is an admiralty or maritime claim under Rule 9(h). A timely demand does not change that; the demand mechanism in Rule 38(b) applies to issues triable of right by a jury."
+  },
+  {
+    "id": "trial-029",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "39(a)(1)",
+        "quote": "the parties or their attorneys file a stipulation to a nonjury trial or so stipulate on the record"
+      }
+    ],
+    "stem": "Nolan demands a jury in a contract suit against Kestrel Co. Months later, Nolan and Kestrel sign and file a stipulation to a nonjury trial. The judge says the case must still be tried to a jury because a demand was made.",
+    "ask": "Is the judge correct?",
+    "options": [
+      {
+        "t": "Yes; once a jury trial is demanded, only the court may later order a nonjury trial.",
+        "why": "Wrong. 39(a)(1) allows the parties or their attorneys to stipulate to a nonjury trial."
+      },
+      {
+        "t": "Yes; a stipulation is effective only if the court finds good cause.",
+        "why": "Invents a good-cause requirement. 39(a)(1) requires only a filed stipulation or one made on the record."
+      },
+      {
+        "t": "No; the parties or their attorneys may file a stipulation to a nonjury trial, which removes the requirement of a jury.",
+        "why": "Correct. Under 39(a)(1) a demanded jury trial must be by jury unless the parties or their attorneys file such a stipulation or so stipulate on the record."
+      },
+      {
+        "t": "No; but only if the stipulation was filed before the demand was docketed.",
+        "why": "Invents a timing limit. 39(a)(1) imposes none."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 39(a) requires trial by jury on all demanded issues unless (1) the parties or their attorneys file a stipulation to a nonjury trial or so stipulate on the record, or (2) the court finds no federal right to a jury. Nolan and Kestrel filed a stipulation, so the judge is wrong."
+  },
+  {
+    "id": "trial-030",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "39(a)(2)",
+        "quote": "the court, on motion or on its own, finds that on some or all of those issues there is no federal right to a jury trial"
+      }
+    ],
+    "stem": "Ortiz demands a jury trial on every issue in a suit that includes a claim for equitable relief. On its own initiative, and without any motion or stipulation, the court finds that on some of the issues there is no federal right to a jury trial and announces it will try those issues without a jury.",
+    "ask": "May the court proceed this way under Rule 39(a)?",
+    "options": [
+      {
+        "t": "No; the court may act only on a party's motion.",
+        "why": "Wrong. 39(a)(2) says 'on motion or on its own.'"
+      },
+      {
+        "t": "No; the court may act only if the parties stipulate to a nonjury trial.",
+        "why": "Confuses 39(a)(2) with 39(a)(1). A stipulation is a separate route."
+      },
+      {
+        "t": "Yes, but only as to all of the issues; it cannot act as to some.",
+        "why": "Wrong. 39(a)(2) covers 'some or all' of the demanded issues."
+      },
+      {
+        "t": "Yes; the court, on motion or on its own, may find that on some or all of the issues there is no federal right to a jury trial.",
+        "why": "Correct. 39(a)(2) permits the court to act on its own as to some or all issues."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Even after a demand, trial must be by jury on all demanded issues unless (1) the parties stipulate or (2) the court, on motion or on its own, finds that on some or all of those issues there is no federal right to a jury trial. The court acted on its own and as to some issues, which 39(a)(2) allows."
+  },
+  {
+    "id": "trial-031",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "39",
+      "38"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "39(b)",
+        "quote": "Issues on which a jury trial is not properly demanded are to be tried by the court. But the court may, on motion, order a jury trial on any issue for which a jury might have been demanded."
+      },
+      {
+        "cite": "38(d)",
+        "quote": "A party waives a jury trial unless its demand is properly served and filed."
+      }
+    ],
+    "stem": "Pike sues Marlow Co. for breach of a delivery contract, a claim for which a jury might have been demanded. Pike's counsel neglects to serve a jury demand within the Rule 38(b) period. Three weeks later Pike moves for a jury trial. Marlow opposes, arguing that Pike waived a jury.",
+    "ask": "What is the effect of Pike's failure to demand a jury on time?",
+    "options": [
+      {
+        "t": "Pike waived a jury under Rule 38(d), and nothing in the rules lets the court order one.",
+        "why": "Overlooks 39(b), which lets the court order a jury trial on motion even though no demand was properly made."
+      },
+      {
+        "t": "Pike waived a jury as of right, but the court may, on motion, order a jury trial on any issue for which a jury might have been demanded.",
+        "why": "Correct. 38(d) waiver means issues are tried by the court, but 39(b) gives the court discretion to order a jury on motion."
+      },
+      {
+        "t": "The court must order a jury trial because Pike moved before trial.",
+        "why": "May-versus-must error. 39(b) says the court 'may' order a jury trial."
+      },
+      {
+        "t": "Pike's motion succeeds only if Marlow consents.",
+        "why": "Invents a consent requirement. 39(b) turns on the court's order on motion."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Pike's failure to serve a proper demand waives a jury under Rule 38(d), so the issues are for the court. But Rule 39(b) provides that the court may, on motion, order a jury trial on any issue for which a jury might have been demanded. The decision is discretionary and does not require Marlow's consent."
+  },
+  {
+    "id": "trial-032",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "39(c)",
+        "quote": "In an action not triable of right by a jury, the court, on motion or on its own:"
+      },
+      {
+        "cite": "39(c)(1)",
+        "quote": "may try any issue with an advisory jury"
+      }
+    ],
+    "stem": "Ruiz sues Hart Co. for an injunction and equitable restitution only; no issue is triable of right by a jury. The judge announces on her own that she will try one fact issue with an advisory jury. Both parties object.",
+    "ask": "May the court do so?",
+    "options": [
+      {
+        "t": "Yes; in an action not triable of right by a jury, the court on its own may try any issue with an advisory jury.",
+        "why": "Correct. 39(c)(1) requires no motion and no consent."
+      },
+      {
+        "t": "No; an advisory jury requires the consent of both parties.",
+        "why": "Confuses 39(c)(1) with 39(c)(2). Only the jury whose verdict has the same effect as a matter of right requires the parties' consent."
+      },
+      {
+        "t": "Yes, and the advisory jury's verdict will have the same effect as a verdict in an action triable of right.",
+        "why": "Confuses advisory with consent juries. Only 39(c)(2), with consent, gives the verdict that effect."
+      },
+      {
+        "t": "No; the court may empanel an advisory jury only on a party's motion.",
+        "why": "Wrong. 39(c) says 'on motion or on its own.'"
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 39(c) applies to an action not triable of right by a jury. Under 39(c)(1) the court, on motion or on its own, may try any issue with an advisory jury; no consent is needed. Consent matters only for the 39(c)(2) jury whose verdict has the same effect as if a jury trial were a matter of right."
+  },
+  {
+    "id": "trial-033",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "39(c)(2)",
+        "quote": "may, with the parties’ consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right, unless the action is against the United States and a federal statute provides for a nonjury trial"
+      }
+    ],
+    "stem": "Farrow sues the United States in an action that is not triable of right by a jury. A federal statute provides that such actions are tried without a jury. Farrow and the government both consent to trial of the issues by a jury whose verdict would have the same effect as if a jury trial had been a matter of right, and they ask the court to approve it.",
+    "ask": "May the court try the issues by such a jury?",
+    "options": [
+      {
+        "t": "Yes; with the parties' consent, any issue in an action not triable of right may be tried by a jury whose verdict has full effect.",
+        "why": "Ignores the exception at the end of 39(c)(2)."
+      },
+      {
+        "t": "No; a consent jury is available only to a party that timely served a Rule 38 demand.",
+        "why": "Invents a requirement. 39(c)(2) applies in actions not triable of right, where no Rule 38 demand is possible."
+      },
+      {
+        "t": "Yes, but the verdict would be only advisory.",
+        "why": "Confuses 39(c)(1) and 39(c)(2); and the exception bars the consent jury here in any event."
+      },
+      {
+        "t": "No; the consent-jury provision does not apply when the action is against the United States and a federal statute provides for a nonjury trial.",
+        "why": "Correct. That is the stated exception in 39(c)(2), and both conditions are met."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 39(c)(2) lets the court, with the parties' consent, try an issue by a jury whose verdict has the same effect as if a jury trial were a matter of right, 'unless the action is against the United States and a federal statute provides for a nonjury trial.' This action is against the United States and such a statute exists, so the exception applies."
+  },
+  {
+    "id": "trial-034",
+    "kind": "issue",
+    "topic": "trial",
+    "rules": [
+      "39",
+      "38"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "39(b)",
+        "quote": "But the court may, on motion, order a jury trial on any issue for which a jury might have been demanded."
+      },
+      {
+        "cite": "39(c)(1)",
+        "quote": "may try any issue with an advisory jury"
+      },
+      {
+        "cite": "38(d)",
+        "quote": "A party waives a jury trial unless its demand is properly served and filed."
+      }
+    ],
+    "stem": "Jarvis sues Pelham Co. for damages and for an injunction. Jarvis serves no jury demand within the period allowed by Rule 38(b). Three weeks later he moves for a jury trial on the damages claim, which is triable of right by a jury. Pelham opposes, arguing waiver. The judge, who is inclined to grant the motion, also says she will try the injunction issues with an advisory jury. The injunction claim is not triable of right by a jury, and no party has proposed any stipulation.",
+    "ask": "Which provisions bear on the judge's options? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 38(d)",
+        "why": "Applies. It is the basis for Pelham's waiver argument: Jarvis never served a proper demand."
+      },
+      {
+        "t": "Rule 39(a)(1)",
+        "why": "Does not apply. It concerns a stipulation to a nonjury trial after a demand; no demand was made and no stipulation is proposed."
+      },
+      {
+        "t": "Rule 39(b)",
+        "why": "Applies. The court may, on motion, order a jury trial on an issue for which a jury might have been demanded, despite the waiver."
+      },
+      {
+        "t": "Rule 39(c)(1)",
+        "why": "Applies. The injunction claim is not triable of right by a jury, so the court may try its issues with an advisory jury."
+      },
+      {
+        "t": "Rule 39(c)(2)",
+        "why": "Does not apply. The judge proposes an advisory jury, not a consent jury, and no party has consented to a binding one."
+      },
+      {
+        "t": "Rule 38(e)",
+        "why": "Does not apply. Nothing indicates an admiralty or maritime claim under Rule 9(h)."
+      }
+    ],
+    "key": [
+      0,
+      2,
+      3
+    ],
+    "explain": "Jarvis's failure to serve a demand waives a jury under 38(d), which grounds Pelham's argument; Rule 39(b) nonetheless lets the court order a jury on motion. For the injunction claim, not triable of right, 39(c)(1) permits an advisory jury. 39(a)(1), 39(c)(2) and 38(e) have no triggering facts."
+  },
+  {
+    "id": "trial-035",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "41(a)(1)(A)",
+        "quote": "the plaintiff may dismiss an action without a court order by filing:"
+      },
+      {
+        "cite": "41(a)(1)(A)(i)",
+        "quote": "a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment"
+      }
+    ],
+    "stem": "Pratt sues Dorsey Co. for conversion. Dorsey responds with a motion to dismiss under Rule 12(b)(6) and serves neither an answer nor a motion for summary judgment. While that motion is pending, Pratt files a notice of dismissal. Dorsey objects that, because it has filed a motion, Pratt now needs a court order.",
+    "ask": "Is Pratt's notice effective without a court order?",
+    "options": [
+      {
+        "t": "No; once the defendant files any motion, dismissal requires a court order under Rule 41(a)(2).",
+        "why": "Overbroad. 41(a)(1)(A)(i) cuts off the notice only when the opposing party serves an answer or a motion for summary judgment, not any motion."
+      },
+      {
+        "t": "Yes; a plaintiff may dismiss by notice before the opposing party serves either an answer or a motion for summary judgment.",
+        "why": "Correct. A Rule 12(b)(6) motion is neither an answer nor a motion for summary judgment, so 41(a)(1)(A)(i) still allows a notice."
+      },
+      {
+        "t": "Yes, but only if Dorsey consents in writing.",
+        "why": "Confuses the notice with the stipulation in 41(a)(1)(A)(ii). A notice under (i) needs no consent."
+      },
+      {
+        "t": "No; a notice may be filed only before the defendant has been served with the complaint.",
+        "why": "Wrong event. The cutoff is service of an answer or a motion for summary judgment."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Under Rule 41(a)(1)(A)(i) a plaintiff may dismiss without a court order by filing a notice before the opposing party serves an answer or a motion for summary judgment. Dorsey served only a Rule 12(b)(6) motion, which is neither, so Pratt's notice is effective without a court order or Dorsey's consent."
+  },
+  {
+    "id": "trial-036",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "41(a)(1)(A)(ii)",
+        "quote": "a stipulation of dismissal signed by all parties who have appeared"
+      },
+      {
+        "cite": "41(a)(1)(A)(i)",
+        "quote": "a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment"
+      }
+    ],
+    "stem": "Wexler sues Roan Inc. for breach of contract. Roan serves its answer. Wexler then decides to drop the case and wants to end it without needing a court order. Roan, the only other party, is willing to cooperate. Wexler has not moved for summary judgment, and Roan has not moved for it either.",
+    "ask": "How can Wexler dismiss the action without a court order?",
+    "options": [
+      {
+        "t": "By a notice of dismissal, because Wexler has not moved for summary judgment.",
+        "why": "Wrong party. The notice route in 41(a)(1)(A)(i) closes when the opposing party serves an answer or a summary judgment motion, and Roan has answered."
+      },
+      {
+        "t": "By a motion to dismiss, which the court must grant when the defendant agrees.",
+        "why": "Wrong route. A dismissal at the plaintiff's request on motion is a court-order dismissal under 41(a)(2), which is on terms the court considers proper."
+      },
+      {
+        "t": "By a stipulation of dismissal signed by all parties who have appeared.",
+        "why": "Correct. After the answer, 41(a)(1)(A)(ii) still allows dismissal without a court order by a stipulation signed by all parties who have appeared."
+      },
+      {
+        "t": "By a notice of dismissal, which remains available until the case is submitted to the factfinder.",
+        "why": "Invents a later cutoff. 41(a)(1)(A)(i) ends when the opposing party serves an answer or a summary judgment motion."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Roan has served an answer, so the notice route of Rule 41(a)(1)(A)(i) has closed. Rule 41(a)(1)(A)(ii) still permits dismissal without a court order by a stipulation signed by all parties who have appeared. A motion to dismiss at the plaintiff's request would require a court order under 41(a)(2)."
+  },
+  {
+    "id": "trial-037",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "41(a)(1)(B)",
+        "quote": "But if the plaintiff previously dismissed any federal- or state-court action based on or including the same claim, a notice of dismissal operates as an adjudication on the merits."
+      }
+    ],
+    "stem": "Cole sued Vance Co. in state court on a breach-of-contract claim and voluntarily dismissed that action by notice. Cole then sues Vance in federal court on the same claim. Before Vance serves an answer or a motion for summary judgment, Cole files a notice of dismissal that says nothing about prejudice.",
+    "ask": "What is the effect of the federal notice of dismissal?",
+    "options": [
+      {
+        "t": "Without prejudice, because the notice was filed before Vance answered.",
+        "why": "Ignores the second sentence of 41(a)(1)(B). Timing makes the notice effective but does not control its effect when there was a prior dismissal."
+      },
+      {
+        "t": "Without prejudice, because the earlier dismissal was in state court rather than federal court.",
+        "why": "Wrong. 41(a)(1)(B) counts a previously dismissed 'federal- or state-court action.'"
+      },
+      {
+        "t": "Without prejudice unless Vance proves Cole acted in bad faith.",
+        "why": "Invents a bad-faith inquiry. 41(a)(1)(B) turns on the earlier dismissal."
+      },
+      {
+        "t": "An adjudication on the merits, because Cole previously dismissed an action based on the same claim.",
+        "why": "Correct. The notice does not state otherwise, and 41(a)(1)(B) makes a notice an adjudication on the merits when the plaintiff previously dismissed a federal- or state-court action on the same claim."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 41(a)(1)(B) makes a notice of dismissal without prejudice unless it states otherwise, but if the plaintiff previously dismissed any federal- or state-court action based on or including the same claim, the notice operates as an adjudication on the merits. Cole's earlier state-court dismissal triggers that exception."
+  },
+  {
+    "id": "trial-038",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "41(a)(2)",
+        "quote": "an action may be dismissed at the plaintiff’s request only by court order, on terms that the court considers proper"
+      },
+      {
+        "cite": "41(a)(2)",
+        "quote": "If a defendant has pleaded a counterclaim before being served with the plaintiff’s motion to dismiss, the action may be dismissed over the defendant’s objection only if the counterclaim can remain pending for independent adjudication. Unless the order states otherwise, a dismissal under this paragraph (2) is without prejudice."
+      }
+    ],
+    "stem": "Kline sues Dray Co. Dray answers and pleads a counterclaim. Kline then moves for a court order dismissing his claim. Dray objects. The court finds that the counterclaim can remain pending for independent adjudication and grants the motion. The order says nothing about prejudice.",
+    "ask": "May the court dismiss Kline's action over Dray's objection, and with what effect?",
+    "options": [
+      {
+        "t": "No; once a counterclaim is pleaded, dismissal over the defendant's objection is never allowed.",
+        "why": "Overstates 41(a)(2), which allows it if the counterclaim can remain pending for independent adjudication."
+      },
+      {
+        "t": "Yes, and the dismissal operates as an adjudication on the merits because the order does not say otherwise.",
+        "why": "Confuses 41(a)(2) with 41(b). Under 41(a)(2), unless the order states otherwise, the dismissal is without prejudice."
+      },
+      {
+        "t": "Yes, on terms the court considers proper, and the dismissal is without prejudice.",
+        "why": "Correct. The counterclaim can remain pending, so 41(a)(2) allows dismissal over the objection, and the silent order means without prejudice."
+      },
+      {
+        "t": "Yes, but only if Dray first withdraws its counterclaim.",
+        "why": "Invents a requirement. 41(a)(2) asks whether the counterclaim can remain pending, not whether it is withdrawn."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "After an answer, Rule 41(a)(2) allows dismissal at the plaintiff's request only by court order, on terms the court considers proper. Because Dray pleaded a counterclaim before the motion, dismissal over its objection is allowed only if the counterclaim can remain pending for independent adjudication, which the court found. Unless the order says otherwise, the dismissal is without prejudice."
+  },
+  {
+    "id": "trial-039",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "41(b)",
+        "quote": "Unless the dismissal order states otherwise, a dismissal under this subdivision (b) and any dismissal not under this rule—except one for lack of jurisdiction, improper venue, or failure to join a party under Rule 19—operates as an adjudication on the merits."
+      }
+    ],
+    "stem": "Burke sues Alton Co. for breach of contract. Burke ignores two court orders to respond to discovery and does nothing in the case for a year. Alton moves to dismiss for failure to prosecute and to comply with the court's orders. The court grants the motion in an order that says nothing about whether the dismissal is with or without prejudice.",
+    "ask": "What is the effect of the dismissal?",
+    "options": [
+      {
+        "t": "An adjudication on the merits, because the order does not state otherwise and this dismissal is not one of the exceptions in Rule 41(b).",
+        "why": "Correct. A 41(b) dismissal operates as an adjudication on the merits unless the order says otherwise or the dismissal is for lack of jurisdiction, improper venue, or failure to join a Rule 19 party."
+      },
+      {
+        "t": "Without prejudice, because a dismissal on the defendant's motion is presumed to be without prejudice.",
+        "why": "Reverses the presumption. 41(a) dismissals default to without prejudice; 41(b) dismissals default to the merits."
+      },
+      {
+        "t": "Without prejudice, because failure to prosecute is one of the exceptions listed in Rule 41(b).",
+        "why": "Misreads the exceptions, which are lack of jurisdiction, improper venue, and failure to join a party under Rule 19."
+      },
+      {
+        "t": "An adjudication on the merits only if the court first holds a hearing on Burke's excuses.",
+        "why": "Invents a hearing requirement. 41(b) states the default effect without one."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Burke failed to prosecute and to comply with court orders, so Alton may move to dismiss under Rule 41(b). Unless the order states otherwise, a 41(b) dismissal operates as an adjudication on the merits, except for lack of jurisdiction, improper venue, or failure to join a Rule 19 party. None applies, and the order is silent."
+  },
+  {
+    "id": "trial-040",
+    "kind": "issue",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "41(c)",
+        "quote": "A claimant’s voluntary dismissal under Rule 41(a)(1)(A)(i) must be made:"
+      },
+      {
+        "cite": "41(a)(1)(A)(ii)",
+        "quote": "a stipulation of dismissal signed by all parties who have appeared"
+      },
+      {
+        "cite": "41(a)(2)",
+        "quote": "an action may be dismissed at the plaintiff’s request only by court order, on terms that the court considers proper"
+      }
+    ],
+    "stem": "Fisk sues Gage Co. for breach of contract. Gage answers and counterclaims for unpaid rent. Fisk serves an answer to the counterclaim. No hearing or trial has begun and no evidence has been introduced. Gage now wants to dismiss its counterclaim, and Fisk, who has appeared in the action, does not object. Gage first considers simply filing a notice of dismissal of the counterclaim. Neither side has moved for summary judgment.",
+    "ask": "Which provisions could permit Gage to dismiss its counterclaim now? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 41(a)(1)(A)(i)",
+        "why": "Does not permit it. For a counterclaim, Rule 41(c) requires a claimant's notice under (A)(i) to be made before a responsive pleading is served, and Fisk has already served one."
+      },
+      {
+        "t": "Rule 41(a)(1)(A)(ii)",
+        "why": "Permits it. A stipulation of dismissal signed by all parties who have appeared works without a court order, and Fisk is willing; Rule 41(c) applies the rule to counterclaims."
+      },
+      {
+        "t": "Rule 41(a)(2)",
+        "why": "Permits it. Rule 41(c) applies the rule to a counterclaim, and a dismissal at the claimant's request by court order, on terms the court considers proper, is available."
+      },
+      {
+        "t": "Rule 41(b)",
+        "why": "Does not apply. It addresses a defendant's motion when the plaintiff fails to prosecute or comply; Gage is the movant here, not Fisk's target."
+      },
+      {
+        "t": "Rule 41(d)",
+        "why": "Does not apply. It concerns costs when a plaintiff who previously dismissed an action files a new action on the same claim; nothing like that happened."
+      }
+    ],
+    "key": [
+      1,
+      2
+    ],
+    "explain": "Rule 41(c) applies Rule 41 to counterclaims but limits a claimant's no-order notice under (a)(1)(A)(i) to the period before a responsive pleading is served; Fisk has answered, so that route is closed. Gage may use a stipulation signed by all parties who have appeared (a)(1)(A)(ii) or seek a court order under (a)(2)."
+  },
+  {
+    "id": "trial-041",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "42(a)",
+        "quote": "If actions before the court involve a common question of law or fact, the court may:"
+      },
+      {
+        "cite": "42(a)(2)",
+        "quote": "consolidate the actions"
+      }
+    ],
+    "stem": "Ames and Bell separately sue Transit Co. in the same federal court for injuries from the same bus crash, and both cases are before Judge Ro. On her own initiative, with no motion from any party, she orders the two actions consolidated. Transit objects that the plaintiffs are different parties and that no one moved.",
+    "ask": "May the court consolidate the actions?",
+    "options": [
+      {
+        "t": "No; consolidation requires a party's motion.",
+        "why": "Adds a requirement. 42(a) says 'the court may' act once the actions involve a common question."
+      },
+      {
+        "t": "No; actions with different plaintiffs may never be consolidated.",
+        "why": "Invents a same-parties requirement. 42(a) asks for a common question of law or fact."
+      },
+      {
+        "t": "Yes, but only if all parties consent.",
+        "why": "Invents a consent requirement. 42(a) contains none."
+      },
+      {
+        "t": "Yes; the actions involve a common question of fact, so the court may consolidate them.",
+        "why": "Correct. Both suits arise from the same crash, which gives them a common question, and 42(a)(2) authorizes consolidation."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 42(a) applies when actions before the court involve a common question of law or fact, and the court may then consolidate them. Both suits arise from the same bus crash, so the condition is met. The rule requires neither a motion, consent, nor identical parties."
+  },
+  {
+    "id": "trial-042",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "42(a)",
+        "quote": "If actions before the court involve a common question of law or fact, the court may:"
+      }
+    ],
+    "stem": "Two actions are pending before the same federal judge: Lyle v. Moss Corp., over a software license, and Nunez v. Oak Farms, over a car accident. The cases share no question of law or fact. Hoping to save docket time, the judge orders them consolidated for all purposes.",
+    "ask": "Is consolidation authorized by Rule 42(a)?",
+    "options": [
+      {
+        "t": "Yes; Rule 42(a)(3) lets the court issue any order to avoid unnecessary cost or delay, even for unrelated cases.",
+        "why": "Misreads 42(a)(3). It is one of the powers available only when the actions involve a common question of law or fact."
+      },
+      {
+        "t": "Yes; any actions pending before the same court may be consolidated.",
+        "why": "Ignores the condition. 42(a) requires a common question of law or fact."
+      },
+      {
+        "t": "No; consolidation is allowed only for actions arising from the same transaction.",
+        "why": "Invents a transaction requirement. 42(a) asks for a common question of law or fact."
+      },
+      {
+        "t": "No; the powers in Rule 42(a) arise only if the actions involve a common question of law or fact, and these do not.",
+        "why": "Correct. The condition in the opening clause of 42(a) governs every listed power, including consolidation."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 42(a)'s powers (joining matters for hearing or trial, consolidating, and other orders to avoid unnecessary cost or delay) all depend on the actions involving a common question of law or fact. These unrelated cases share none, so the judge lacks authority under Rule 42(a) to consolidate them."
+  },
+  {
+    "id": "trial-043",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "42(b)",
+        "quote": "For convenience, to avoid prejudice, or to expedite and economize, the court may order a separate trial of one or more separate issues, claims, crossclaims, counterclaims, or third-party claims."
+      }
+    ],
+    "stem": "Ng sues Delta Rail for injuries. Delta asks the court to try liability first, separately from damages, because evidence of Ng's severe injuries might prejudice the jury on liability. Ng objects, arguing that Rule 42(b) allows separate trials only when all parties consent.",
+    "ask": "May the court order a separate trial of liability?",
+    "options": [
+      {
+        "t": "Yes; to avoid prejudice, or for convenience or to expedite and economize, the court may order a separate trial of one or more separate issues.",
+        "why": "Correct. 42(b) names avoiding prejudice as a ground and lists separate issues among the things that may be tried separately."
+      },
+      {
+        "t": "No; separate trials of issues require the consent of all parties.",
+        "why": "Invents a consent requirement. 42(b) contains none."
+      },
+      {
+        "t": "No; the rule authorizes separate trials only of separate claims, not of issues.",
+        "why": "Misreads 42(b), which lists 'separate issues' first."
+      },
+      {
+        "t": "Yes, but only if no party has demanded a jury.",
+        "why": "Invents a limit. 42(b) requires the court to preserve any federal right to a jury trial, not to withhold separate trials."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 42(b) lets the court order a separate trial of one or more separate issues or claims 'for convenience, to avoid prejudice, or to expedite and economize.' Delta's concern about prejudice fits, and the rule requires no consent."
+  },
+  {
+    "id": "trial-044",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "42",
+      "38"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "42(b)",
+        "quote": "When ordering a separate trial, the court must preserve any federal right to a jury trial."
+      }
+    ],
+    "stem": "Rell sues Syke Co. on two claims, each triable of right by a jury, and timely demands a jury on both. Syke asks for separate trials of the two claims to avoid prejudice. The judge agrees to separate trials but says that, to expedite matters, she will try the second claim to the bench alone.",
+    "ask": "May the judge order separate trials on that basis?",
+    "options": [
+      {
+        "t": "Yes; separate trials may be ordered to expedite and economize, and the court may choose the factfinder for each.",
+        "why": "Ignores the last sentence of 42(b). The court must preserve any federal right to a jury trial."
+      },
+      {
+        "t": "She may order separate trials, but she must preserve the federal right to a jury trial on both claims.",
+        "why": "Correct. 42(b) permits separate trials for the stated reasons, but when ordering one the court must preserve any federal right to a jury trial."
+      },
+      {
+        "t": "No; separate trials are barred once a jury has been demanded.",
+        "why": "Overstates the rule. 42(b) authorizes separate trials and requires only that the jury right be preserved."
+      },
+      {
+        "t": "Yes, if Rell consents to a bench trial of the second claim.",
+        "why": "Mixes in a consent route. The rule's mandate is to preserve the federal right, and Rell's demand was proper; any waiver would run through Rules 38 and 39."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 42(b) allows a separate trial of claims for convenience, to avoid prejudice, or to expedite and economize, but 'the court must preserve any federal right to a jury trial.' Both claims are triable of right by a jury and Rell timely demanded one, so trying the second claim to the bench merely to expedite is not permitted."
+  },
+  {
+    "id": "trial-046",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "52(a)(1)",
+        "quote": "The findings and conclusions may be stated on the record after the close of the evidence or may appear in an opinion or a memorandum of decision filed by the court."
+      }
+    ],
+    "stem": "After a bench trial in Hoyt v. Clary Co., the judge, at the close of the evidence, states in open court her findings of fact and, separately, her conclusions of law. Judgment is then entered under Rule 58. Hoyt argues the findings are defective because they were never put in a written opinion.",
+    "ask": "Does the judge's oral statement satisfy Rule 52(a)(1)?",
+    "options": [
+      {
+        "t": "No; findings and conclusions must appear in a written opinion or memorandum.",
+        "why": "Wrong. 52(a)(1) allows them to be stated on the record after the close of the evidence."
+      },
+      {
+        "t": "No; findings may be made only after the parties submit proposed findings.",
+        "why": "Invents a requirement. 52(a)(1) says nothing about proposed findings."
+      },
+      {
+        "t": "Yes; the findings and conclusions may be stated on the record after the close of the evidence.",
+        "why": "Correct. In an action tried without a jury, the court must find the facts specially and state conclusions of law separately, and 52(a)(1) allows doing so on the record."
+      },
+      {
+        "t": "Yes, but only if the judge also files a written memorandum within 14 days.",
+        "why": "Invents a follow-up writing. 52(a)(1) requires none."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 52(a)(1) requires a court trying an action without a jury to find the facts specially and state its conclusions of law separately. The rule allows these to be stated on the record after the close of the evidence or to appear in a filed opinion or memorandum, so the oral statement suffices."
+  },
+  {
+    "id": "trial-047",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "52(a)(3)",
+        "quote": "The court is not required to state findings or conclusions when ruling on a motion under Rule 12 or 56 or, unless these rules provide otherwise, on any other motion."
+      }
+    ],
+    "stem": "The court grants Defendant Pine Co.'s motion for summary judgment in a short order that states no findings of fact or conclusions of law. The plaintiff, Ames, argues that Rule 52(a) required the court to find the facts specially and state its conclusions of law separately, because the order ended the case.",
+    "ask": "Is Ames correct?",
+    "options": [
+      {
+        "t": "Yes; any ruling that ends a case requires special findings and separate conclusions.",
+        "why": "Wrong. 52(a)(3) excludes rulings on motions under Rule 12 or 56."
+      },
+      {
+        "t": "Yes; findings are required whenever a party asks for them.",
+        "why": "Wrong. 52(a)(3) does not make a party's request controlling for a Rule 56 motion."
+      },
+      {
+        "t": "No, but only if both parties waived findings.",
+        "why": "Invents a waiver condition. 52(a)(3) contains none."
+      },
+      {
+        "t": "No; the court is not required to state findings or conclusions when ruling on a motion under Rule 12 or 56.",
+        "why": "Correct. 52(a)(3) says so directly."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "The special-findings requirement of Rule 52(a)(1) applies to actions tried on the facts without a jury or with an advisory jury. Rule 52(a)(3) provides that the court is not required to state findings or conclusions when ruling on a motion under Rule 12 or 56, so the short order is not defective on that ground."
+  },
+  {
+    "id": "trial-048",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "52",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "52(b)",
+        "quote": "On a party’s motion filed no later than 28 days after the entry of judgment, the court may amend its findings—or make additional findings—and may amend the judgment accordingly."
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      }
+    ],
+    "stem": "After a nonjury trial, the court files a written opinion on Friday, November 20, 2026. The clerk enters judgment on Friday, November 27, 2026. Plaintiff Weber wants to move for additional findings under Rule 52(b). No court order sets a different deadline.",
+    "ask": "By what date must Weber file the motion?",
+    "options": [
+      {
+        "t": "December 28, 2026",
+        "why": "Correct. Excluding November 27, day 28 is Friday, December 25, Christmas Day, a legal holiday; 6(a)(1)(C) carries the period to Monday, December 28."
+      },
+      {
+        "t": "December 25, 2026",
+        "why": "Stops at day 28 without the holiday roll. December 25, 2026 is Christmas Day under 6(a)(6)(A)."
+      },
+      {
+        "t": "December 18, 2026",
+        "why": "Counts 28 days from the opinion. 52(b) runs from the entry of judgment."
+      },
+      {
+        "t": "December 11, 2026",
+        "why": "Counts 14 days. 52(b) allows 28 days after the entry of judgment."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 52(b) allows 28 days after the entry of judgment, not after the opinion. Excluding November 27, day 28 is Friday, December 25, 2026, Christmas Day, a legal holiday. Under Rule 6(a)(1)(C) the period continues to the next day that is not a Saturday, Sunday or legal holiday: Monday, December 28, 2026.",
+    "calc": {
+      "from": "2026-11-27",
+      "days": 28,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-12-28"
+    }
+  },
+  {
+    "id": "trial-049",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "52(a)(6)",
+        "quote": "Findings of fact, whether based on oral or other evidence, must not be set aside unless clearly erroneous"
+      }
+    ],
+    "stem": "A judge decides a contract case after a bench trial. Her findings rest entirely on deposition transcripts and documents; no live witness testified. The losing party appeals and argues that the court of appeals should review the findings de novo because it can read the paper record as well as the trial judge could.",
+    "ask": "What standard governs review of the findings of fact?",
+    "options": [
+      {
+        "t": "De novo, because findings based on documents do not depend on credibility.",
+        "why": "Wrong. 52(a)(6) applies to findings 'whether based on oral or other evidence.'"
+      },
+      {
+        "t": "Clearly erroneous; findings based on oral or other evidence must not be set aside unless clearly erroneous.",
+        "why": "Correct. The standard in 52(a)(6) does not depend on whether live testimony was heard."
+      },
+      {
+        "t": "Any error of fact warrants reversal if the paper record would support a different finding.",
+        "why": "Wrong. 52(a)(6) sets the clearly erroneous standard, not an any-error standard."
+      },
+      {
+        "t": "Plain error only, because no party objected to the findings.",
+        "why": "Wrong. 52(a)(5) lets a party question sufficiency later without objecting, and 52(a)(6) supplies the standard."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 52(a)(6) provides that findings of fact, whether based on oral or other evidence, must not be set aside unless clearly erroneous, with due regard to the trial court's opportunity to judge credibility. The words 'or other evidence' cover findings drawn from depositions and documents, so de novo review is unavailable."
+  },
+  {
+    "id": "trial-050",
+    "kind": "issue",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "52(c)",
+        "quote": "If a party has been fully heard on an issue during a nonjury trial and the court finds against the party on that issue, the court may enter judgment against the party on a claim or defense that, under the controlling law, can be maintained or defeated only with a favorable finding on that issue."
+      },
+      {
+        "cite": "52(a)(3)",
+        "quote": "The court is not required to state findings or conclusions when ruling on a motion under Rule 12 or 56"
+      },
+      {
+        "cite": "52(b)",
+        "quote": "On a party’s motion filed no later than 28 days after the entry of judgment, the court may amend its findings—or make additional findings—and may amend the judgment accordingly."
+      }
+    ],
+    "stem": "Reed sues Stone Co. for negligence in a bench trial. The claim can be maintained only with a favorable finding that Stone's truck caused the accident. After Reed finishes his evidence on causation, the judge finds against him on that issue and enters judgment for Stone on the negligence claim without hearing Stone's evidence. She states her findings and conclusions orally on the record. Twenty days after judgment is entered, Reed moves for additional findings. Reed also complains that she stated no findings when she earlier denied Stone's Rule 12(b)(6) motion. No reviewing court has yet ruled, and no injunction is involved.",
+    "ask": "Which subdivisions of Rule 52 apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 52(a)(1)",
+        "why": "Applies. The action is tried without a jury, so the court must find the facts specially and state conclusions of law separately, which it may do on the record."
+      },
+      {
+        "t": "Rule 52(a)(2)",
+        "why": "Does not apply. It concerns granting or refusing an interlocutory injunction; none is involved."
+      },
+      {
+        "t": "Rule 52(a)(3)",
+        "why": "Applies. The court was not required to state findings or conclusions when ruling on the Rule 12(b)(6) motion."
+      },
+      {
+        "t": "Rule 52(a)(6)",
+        "why": "Does not apply yet. It governs when findings may be set aside by a reviewing court, and none has ruled."
+      },
+      {
+        "t": "Rule 52(b)",
+        "why": "Applies. Reed's motion for additional findings was filed 20 days after entry of judgment, within the 28 days allowed."
+      },
+      {
+        "t": "Rule 52(c)",
+        "why": "Applies. Reed was fully heard on causation, and the court found against him and entered judgment on a claim that depends on that issue."
+      }
+    ],
+    "key": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "explain": "The judgment on partial findings falls under 52(c), the oral findings satisfy 52(a)(1), and Reed's motion is timely under 52(b). 52(a)(3) answers his complaint about the Rule 12(b)(6) ruling. 52(a)(2) concerns injunctions, and 52(a)(6) is a standard of review that no court has yet applied."
+  },
+  {
+    "id": "trial-051",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "40"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "40",
+        "quote": "The court must give priority to actions entitled to priority by a federal statute."
+      }
+    ],
+    "stem": "A federal statute entitles Ellis's action to priority on the court's trial calendar. The court's local rule schedules trials in the order the actions were filed, and the clerk tells Ellis that trial priority is entirely within the court's discretion. Ellis asks for priority based on the statute.",
+    "ask": "Must the court give Ellis's action priority?",
+    "options": [
+      {
+        "t": "Yes; the court must give priority to actions entitled to priority by a federal statute.",
+        "why": "Correct. Rule 40 says so in mandatory terms."
+      },
+      {
+        "t": "No; Rule 40 leaves every scheduling priority to the court's local rule.",
+        "why": "Wrong. Rule 40 has the court provide for scheduling by rule but requires priority for statutorily entitled actions."
+      },
+      {
+        "t": "Yes, but only if Ellis has demanded a jury.",
+        "why": "Invents a condition. Rule 40 ties priority to the statute."
+      },
+      {
+        "t": "No; priority applies only to actions filed before the court's other cases.",
+        "why": "Invents a filing-order rule. Rule 40 turns on the federal statute."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 40 directs each court to provide by rule for scheduling trials, but adds that the court must give priority to actions entitled to priority by a federal statute. Ellis's action is such an action, so the local first-filed ordering yields to the statutory priority."
+  },
+  {
+    "id": "trial-052",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "43"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "43(c)",
+        "quote": "When a motion relies on facts outside the record, the court may hear the matter on affidavits or may hear it wholly or partly on oral testimony or on depositions."
+      }
+    ],
+    "stem": "Moss sues Birch Co. Birch moves to dismiss for lack of personal jurisdiction and relies on facts outside the record about where its employees work. Moss disputes those facts. The judge wants to resolve the motion without conducting a full trial.",
+    "ask": "How may the judge receive the facts outside the record?",
+    "options": [
+      {
+        "t": "Only through live testimony in open court.",
+        "why": "Wrong. 43(a) governs testimony at trial; 43(c) governs motions."
+      },
+      {
+        "t": "Only by affidavits, because testimony and depositions are not allowed on motions.",
+        "why": "Wrong. 43(c) lists affidavits, oral testimony and depositions."
+      },
+      {
+        "t": "By affidavits, or wholly or partly by oral testimony or by depositions.",
+        "why": "Correct. A motion relying on facts outside the record may be heard on any of these under 43(c)."
+      },
+      {
+        "t": "Only if both parties consent to a hearing on the papers.",
+        "why": "Invents a consent requirement. 43(c) contains none."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 43(c) provides that when a motion relies on facts outside the record, the court may hear the matter on affidavits or may hear it wholly or partly on oral testimony or on depositions. No consent is needed, and the open-court rule of 43(a) governs testimony at trial."
+  },
+  {
+    "id": "trial-053",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "44.1"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "44.1",
+        "quote": "A party who intends to raise an issue about a foreign country’s law must give notice by a pleading or other writing."
+      }
+    ],
+    "stem": "Vale Corp. intends to argue that French law governs a question in a contract dispute. Vale's counsel gives no written notice of this. At trial she announces orally to the judge, 'French law applies here.' Vale's opponent objects that Vale never gave the notice the rules require.",
+    "ask": "Has Vale given the notice Rule 44.1 requires?",
+    "options": [
+      {
+        "t": "Yes; an oral statement to the court at trial suffices.",
+        "why": "Wrong. Rule 44.1 calls for notice by a pleading or other writing."
+      },
+      {
+        "t": "No; notice must be given by a motion under Rule 12(b).",
+        "why": "Wrong. Rule 44.1 calls for a pleading or other writing, not a Rule 12(b) motion."
+      },
+      {
+        "t": "Yes; notice is required only when the foreign law cannot be found in English.",
+        "why": "Invents an exception. Rule 44.1 requires notice from any party who intends to raise an issue about foreign law."
+      },
+      {
+        "t": "No; notice must be given by a pleading or other writing.",
+        "why": "Correct. Rule 44.1 requires written notice, and an oral statement at trial is not a writing."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 44.1 requires a party who intends to raise an issue about a foreign country's law to give notice by a pleading or other writing. Vale's oral announcement at trial is not a writing, so it has not given the required notice."
+  },
+  {
+    "id": "trial-054",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "46"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "46",
+        "quote": "A formal exception to a ruling or order is unnecessary. When the ruling or order is requested or made, a party need only state the action that it wants the court to take or objects to, along with the grounds for the request or objection."
+      }
+    ],
+    "stem": "At trial the judge excludes Rowe's key exhibit. Rowe's counsel says, 'Your Honor, I ask that you admit it because it is a business record, and I object to its exclusion.' The judge rules against her. Counsel does not say the word 'exception.' On appeal, Rowe's opponent argues the objection was lost because no formal exception was taken.",
+    "ask": "Is the opponent's argument correct?",
+    "options": [
+      {
+        "t": "Yes; a formal exception is necessary to preserve a ruling for review.",
+        "why": "Wrong. Rule 46 says a formal exception is unnecessary."
+      },
+      {
+        "t": "Yes, unless counsel renews the objection after the verdict.",
+        "why": "Invents a renewal requirement. Rule 46 requires none."
+      },
+      {
+        "t": "No; a party need only state the action it wants the court to take or objects to, with the grounds, and counsel did so.",
+        "why": "Correct. Counsel stated the action she wanted and her ground (business record), which is all Rule 46 requires."
+      },
+      {
+        "t": "No, but only if the objection was made in writing.",
+        "why": "Invents a writing requirement. Rule 46 requires none."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 46 provides that a formal exception is unnecessary; a party need only state the action it wants the court to take or objects to, along with the grounds, when the ruling is requested or made. Rowe's counsel stated both the requested action and the ground."
+  },
+  {
+    "id": "trial-055",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "47"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "47(c)",
+        "quote": "During trial or deliberation, the court may excuse a juror for good cause."
+      }
+    ],
+    "stem": "Midway through a jury trial, one juror's spouse is hospitalized in another state, and the juror asks to be excused. The judge excuses the juror for good cause over the defendant's objection, and the trial continues with the remaining jurors. The defendant argues a juror may be excused only before trial begins.",
+    "ask": "May the court excuse the juror?",
+    "options": [
+      {
+        "t": "Yes; during trial or deliberation the court may excuse a juror for good cause.",
+        "why": "Correct. 47(c) authorizes exactly this."
+      },
+      {
+        "t": "No; a juror may be excused only before the trial begins.",
+        "why": "Wrong. 47(c) covers excusing a juror during trial or deliberation."
+      },
+      {
+        "t": "No; excusing a juror requires the consent of all parties.",
+        "why": "Invents a consent requirement. 47(c) contains none."
+      },
+      {
+        "t": "Yes, but only after the jury has begun deliberating.",
+        "why": "Invents a timing limit. 47(c) covers both trial and deliberation."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 47(c) provides that during trial or deliberation the court may excuse a juror for good cause. A spouse's hospitalization fits, and no consent is required. Rule 48(a) then treats the excused juror as not participating in the verdict."
+  },
+  {
+    "id": "trial-056",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "48"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "48(b)",
+        "quote": "Unless the parties stipulate otherwise, the verdict must be unanimous and must be returned by a jury of at least 6 members."
+      }
+    ],
+    "stem": "A civil jury of eight returns a verdict for Park by a vote of seven to one. The parties made no stipulation about the number of jurors who must agree. The defendant moves to set the verdict aside.",
+    "ask": "Is the verdict valid under Rule 48?",
+    "options": [
+      {
+        "t": "Yes; a verdict by at least three-fourths of the jurors suffices.",
+        "why": "Invents a supermajority rule. 48(b) requires unanimity absent a stipulation."
+      },
+      {
+        "t": "Yes; a simple majority suffices.",
+        "why": "Invents a majority rule. 48(b) requires unanimity absent a stipulation."
+      },
+      {
+        "t": "No; a verdict by fewer than twelve jurors is never valid.",
+        "why": "Wrong. 48(a) permits a jury of 6 to 12, and 48(b) permits a verdict by at least 6 members."
+      },
+      {
+        "t": "No; unless the parties stipulate otherwise, the verdict must be unanimous.",
+        "why": "Correct. The parties did not stipulate, so a seven-to-one vote does not satisfy 48(b)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 48(b) requires a unanimous verdict, returned by a jury of at least 6 members, unless the parties stipulate otherwise. There was no stipulation, so the 7-1 vote is not a valid verdict. Rule 48(c) would let the court direct further deliberation or order a new trial if a poll revealed the lack of unanimity."
+  },
+  {
+    "id": "trial-057",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "49"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "49(a)(3)",
+        "quote": "A party waives the right to a jury trial on any issue of fact raised by the pleadings or evidence but not submitted to the jury unless, before the jury retires, the party demands its submission to the jury. If the party does not demand submission, the court may make a finding on the issue."
+      }
+    ],
+    "stem": "The court requires a special verdict and submits written questions on breach and damages. The defendant's accord-and-satisfaction defense, raised by the pleadings and the evidence, is not submitted to the jury. Defendant's counsel says nothing before the jury retires. After the jury answers the questions, the defendant demands that a jury decide the accord issue.",
+    "ask": "What is the result?",
+    "options": [
+      {
+        "t": "The defendant may still demand jury submission, because the issue was raised by the pleadings and the evidence.",
+        "why": "Ignores the timing in 49(a)(3). The demand had to come before the jury retired."
+      },
+      {
+        "t": "The defendant waived a jury on that issue, and the court may make a finding on it.",
+        "why": "Correct. A party waives a jury on an issue raised but not submitted unless it demands submission before the jury retires; then the court may find the issue."
+      },
+      {
+        "t": "The issue must be tried to a second jury.",
+        "why": "Wrong. 49(a)(3) lets the court make the finding once the right is waived."
+      },
+      {
+        "t": "The court must find the issue for the plaintiff.",
+        "why": "Wrong. The court may make a finding; if it makes none, it is considered to have found consistent with its judgment."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Under Rule 49(a)(3), a party waives the right to a jury trial on an issue raised by the pleadings or evidence but not submitted unless, before the jury retires, it demands submission. The defendant said nothing until after the jury retired and answered, so it waived, and the court may make a finding on the accord issue."
+  },
+  {
+    "id": "trial-058",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "51"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "51(d)(1)(B)",
+        "quote": "a failure to give an instruction, if that party properly requested it and—unless the court rejected the request in a definitive ruling on the record—also properly objected"
+      }
+    ],
+    "stem": "At the charge conference, Hart Co. submits a written request for a jury instruction on mitigation of damages. The judge states on the record, 'I will not give that instruction,' and the ruling is definitive. Hart's counsel says nothing further and makes no objection after the instructions are given. The jury returns a verdict against Hart, who assigns the failure to give the mitigation instruction as error on appeal.",
+    "ask": "Is Hart's claim of error preserved under Rule 51(d)(1)(B)?",
+    "options": [
+      {
+        "t": "No; a party must always object after the instructions are given, even after a definitive ruling.",
+        "why": "Wrong. 51(d)(1)(B) excuses the objection if the court rejected the request in a definitive ruling on the record."
+      },
+      {
+        "t": "No; a failure to give an instruction can be assigned only as plain error.",
+        "why": "Wrong. 51(d)(2) is a separate route for unpreserved plain error, not the only route."
+      },
+      {
+        "t": "Yes; Hart properly requested the instruction and the court rejected it in a definitive ruling on the record, so no further objection was needed.",
+        "why": "Correct. That is the exception written into 51(d)(1)(B)."
+      },
+      {
+        "t": "Yes, but only if Hart objected before final jury arguments.",
+        "why": "Invents a timing condition. The exception in 51(d)(1)(B) removes the objection requirement after a definitive ruling."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A party may assign as error a failure to give an instruction if it properly requested it and, unless the court rejected the request in a definitive ruling on the record, also properly objected. The judge's definitive ruling on the record excused Hart from a further objection under Rule 51(d)(1)(B)."
+  },
+  {
+    "id": "trial-060",
+    "kind": "apply",
+    "topic": "trial",
+    "rules": [
+      "53"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "53(f)(3)",
+        "quote": "The court must decide de novo all objections to findings of fact made or recommended by a master, unless the parties, with the court’s approval, stipulate that:"
+      }
+    ],
+    "stem": "Because of an exceptional condition, the court appoints a master under Rule 53(a)(1)(B) to hold trial proceedings and recommend findings of fact on issues to be decided without a jury. The master's report recommends findings for Lund. Moor files a timely objection to one finding of fact. The parties have made no stipulation about the standard of review.",
+    "ask": "How must the court decide Moor's objection to the finding of fact?",
+    "options": [
+      {
+        "t": "For clear error, because the master heard the witnesses.",
+        "why": "Wrong. Clear-error review applies only if the parties, with the court's approval, so stipulate."
+      },
+      {
+        "t": "De novo, because no stipulation provides otherwise.",
+        "why": "Correct. 53(f)(3) requires de novo decision of objections to findings of fact absent an approved stipulation."
+      },
+      {
+        "t": "For abuse of discretion, because the master's ruling is entitled to deference.",
+        "why": "Wrong. Abuse of discretion applies to a master's rulings on procedural matters under 53(f)(5), not findings of fact."
+      },
+      {
+        "t": "It must adopt the finding, because the master was appointed to hold trial proceedings.",
+        "why": "Wrong. A stipulation of finality applies only to a master appointed under 53(a)(1)(A) or (C), and only if the parties so stipulate with the court's approval."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 53(f)(3) requires the court to decide de novo all objections to a master's findings of fact unless the parties, with the court's approval, stipulate to clear-error review or (for a master appointed under 53(a)(1)(A) or (C)) to finality. There is no stipulation, so Moor's objection is decided de novo."
+  },
+  {
+    "id": "trial-061",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 1,
+    "front": "Absent a different local rule or court order, until when may a party file a motion for summary judgment?",
+    "back": "at any time until 30 days after the close of all discovery",
+    "cites": [
+      {
+        "cite": "56(b)",
+        "quote": "a party may file a motion for summary judgment at any time until 30 days after the close of all discovery"
+      }
+    ]
+  },
+  {
+    "id": "trial-062",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 1,
+    "front": "What must the movant show for the court to grant summary judgment?",
+    "back": "no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law",
+    "cites": [
+      {
+        "cite": "56(a)",
+        "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+      }
+    ]
+  },
+  {
+    "id": "trial-063",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "front": "What must a nonmovant show, and by what means, to invoke Rule 56(d) when it lacks facts to oppose summary judgment?",
+    "back": "by affidavit or declaration that, for specified reasons, it cannot present facts essential to justify its opposition",
+    "cites": [
+      {
+        "cite": "56(d)",
+        "quote": "If a nonmovant shows by affidavit or declaration that, for specified reasons, it cannot present facts essential to justify its opposition, the court may:"
+      }
+    ]
+  },
+  {
+    "id": "trial-064",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 1,
+    "front": "What three things must an affidavit or declaration used to support or oppose a summary judgment motion do?",
+    "back": "made on personal knowledge, set out facts that would be admissible in evidence, and show that the affiant or declarant is competent to testify on the matters stated",
+    "cites": [
+      {
+        "cite": "56(c)(4)",
+        "quote": "must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the affiant or declarant is competent to testify on the matters stated"
+      }
+    ]
+  },
+  {
+    "id": "trial-065",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 1,
+    "front": "What must the court give before it grants summary judgment for a nonmovant or on grounds not raised by a party?",
+    "back": "notice and a reasonable time to respond",
+    "cites": [
+      {
+        "cite": "56(f)",
+        "quote": "After giving notice and a reasonable time to respond, the court may:"
+      }
+    ]
+  },
+  {
+    "id": "trial-066",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 2,
+    "front": "When the court does not grant all the relief requested by a summary judgment motion, what may it do with a material fact that is not genuinely in dispute?",
+    "back": "treating the fact as established in the case",
+    "cites": [
+      {
+        "cite": "56(g)",
+        "quote": "it may enter an order stating any material fact—including an item of damages or other relief—that is not genuinely in dispute and treating the fact as established in the case"
+      }
+    ]
+  },
+  {
+    "id": "trial-067",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 1,
+    "front": "If a party fails to properly address another party's assertion of fact under Rule 56(c), what may the court do about that fact?",
+    "back": "consider the fact undisputed for purposes of the motion",
+    "cites": [
+      {
+        "cite": "56(e)(2)",
+        "quote": "consider the fact undisputed for purposes of the motion"
+      }
+    ]
+  },
+  {
+    "id": "trial-068",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 1,
+    "front": "If an affidavit or declaration is submitted in bad faith or solely for delay, what may the court order the submitting party to pay?",
+    "back": "pay the other party the reasonable expenses, including attorney's fees, it incurred as a result",
+    "cites": [
+      {
+        "cite": "56(h)",
+        "quote": "may order the submitting party to pay the other party the reasonable expenses, including attorney’s fees, it incurred as a result"
+      }
+    ]
+  },
+  {
+    "id": "trial-069",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 1,
+    "front": "Until when may a motion for judgment as a matter of law be made?",
+    "back": "at any time before the case is submitted to the jury",
+    "cites": [
+      {
+        "cite": "50(a)(2)",
+        "quote": "A motion for judgment as a matter of law may be made at any time before the case is submitted to the jury."
+      }
+    ]
+  },
+  {
+    "id": "trial-070",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 1,
+    "front": "What must a Rule 50(a) motion for judgment as a matter of law specify?",
+    "back": "the judgment sought and the law and facts that entitle the movant to the judgment",
+    "cites": [
+      {
+        "cite": "50(a)(2)",
+        "quote": "The motion must specify the judgment sought and the law and facts that entitle the movant to the judgment."
+      }
+    ]
+  },
+  {
+    "id": "trial-071",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 1,
+    "front": "How long after entry of judgment does a movant have to file a renewed motion for judgment as a matter of law?",
+    "back": "28 days after the entry of judgment",
+    "cites": [
+      {
+        "cite": "50(b)",
+        "quote": "No later than 28 days after the entry of judgment"
+      }
+    ]
+  },
+  {
+    "id": "trial-072",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 2,
+    "front": "If a renewed Rule 50(b) motion addresses a jury issue not decided by a verdict, when is it due?",
+    "back": "28 days after the jury was discharged",
+    "cites": [
+      {
+        "cite": "50(b)",
+        "quote": "if the motion addresses a jury issue not decided by a verdict, no later than 28 days after the jury was discharged"
+      }
+    ]
+  },
+  {
+    "id": "trial-073",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 1,
+    "front": "When the court grants a renewed motion for judgment as a matter of law, what must it also do about any motion for a new trial?",
+    "back": "conditionally rule on any motion for a new trial",
+    "cites": [
+      {
+        "cite": "50(c)(1)",
+        "quote": "it must also conditionally rule on any motion for a new trial by determining whether a new trial should be granted if the judgment is later vacated or reversed"
+      }
+    ]
+  },
+  {
+    "id": "trial-074",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 1,
+    "front": "What is the deadline for a new-trial motion by a party against whom judgment as a matter of law is rendered?",
+    "back": "no later than 28 days after the entry of the judgment",
+    "cites": [
+      {
+        "cite": "50(d)",
+        "quote": "must be filed no later than 28 days after the entry of the judgment"
+      }
+    ]
+  },
+  {
+    "id": "trial-075",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 2,
+    "front": "What must a court find before it may resolve an issue against a fully heard party under Rule 50(a)(1)?",
+    "back": "a reasonable jury would not have a legally sufficient evidentiary basis to find for the party on that issue",
+    "cites": [
+      {
+        "cite": "50(a)(1)",
+        "quote": "the court finds that a reasonable jury would not have a legally sufficient evidentiary basis to find for the party on that issue"
+      }
+    ]
+  },
+  {
+    "id": "trial-076",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 1,
+    "front": "What effect does a conditional grant of a new trial have on the judgment as a matter of law?",
+    "back": "does not affect the judgment's finality",
+    "cites": [
+      {
+        "cite": "50(c)(2)",
+        "quote": "Conditionally granting the motion for a new trial does not affect the judgment’s finality"
+      }
+    ]
+  },
+  {
+    "id": "trial-077",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "38"
+    ],
+    "level": 1,
+    "front": "How soon after the last pleading directed to the issue is served must a jury demand be served?",
+    "back": "no later than 14 days after the last pleading directed to the issue is served",
+    "cites": [
+      {
+        "cite": "38(b)(1)",
+        "quote": "serving the other parties with a written demand—which may be included in a pleading—no later than 14 days after the last pleading directed to the issue is served"
+      }
+    ]
+  },
+  {
+    "id": "trial-078",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "38"
+    ],
+    "level": 1,
+    "front": "Besides serving the written demand, what else must a party do to demand a jury trial?",
+    "back": "filing the demand in accordance with Rule 5(d)",
+    "cites": [
+      {
+        "cite": "38(b)(2)",
+        "quote": "filing the demand in accordance with Rule 5(d)"
+      }
+    ]
+  },
+  {
+    "id": "trial-079",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "38"
+    ],
+    "level": 1,
+    "front": "If a jury demand does not specify issues, what is the party considered to have demanded?",
+    "back": "a jury trial on all the issues so triable",
+    "cites": [
+      {
+        "cite": "38(c)",
+        "quote": "otherwise, it is considered to have demanded a jury trial on all the issues so triable"
+      }
+    ]
+  },
+  {
+    "id": "trial-080",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "38"
+    ],
+    "level": 2,
+    "front": "After being served with a jury demand on only some issues, how long does any other party have to demand a jury on other issues (absent a shorter court-ordered time)?",
+    "back": "within 14 days after being served with the demand",
+    "cites": [
+      {
+        "cite": "38(c)",
+        "quote": "any other party may—within 14 days after being served with the demand or within a shorter time ordered by the court—serve a demand for a jury trial on any other or all factual issues triable by jury"
+      }
+    ]
+  },
+  {
+    "id": "trial-081",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "38"
+    ],
+    "level": 1,
+    "front": "When may a proper jury demand be withdrawn?",
+    "back": "only if the parties consent",
+    "cites": [
+      {
+        "cite": "38(d)",
+        "quote": "A proper demand may be withdrawn only if the parties consent."
+      }
+    ]
+  },
+  {
+    "id": "trial-082",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 1,
+    "front": "After a jury trial is demanded, how must the action be designated?",
+    "back": "designated on the docket as a jury action",
+    "cites": [
+      {
+        "cite": "39(a)",
+        "quote": "the action must be designated on the docket as a jury action"
+      }
+    ]
+  },
+  {
+    "id": "trial-083",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 1,
+    "front": "After a jury demand, how can the parties or their attorneys agree to a nonjury trial?",
+    "back": "file a stipulation to a nonjury trial or so stipulate on the record",
+    "cites": [
+      {
+        "cite": "39(a)(1)",
+        "quote": "the parties or their attorneys file a stipulation to a nonjury trial or so stipulate on the record"
+      }
+    ]
+  },
+  {
+    "id": "trial-084",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 2,
+    "front": "If no jury demand was properly made, what may the court still do on a party's motion?",
+    "back": "on motion, order a jury trial on any issue for which a jury might have been demanded",
+    "cites": [
+      {
+        "cite": "39(b)",
+        "quote": "But the court may, on motion, order a jury trial on any issue for which a jury might have been demanded."
+      }
+    ]
+  },
+  {
+    "id": "trial-085",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 1,
+    "front": "In an action not triable of right by a jury, what may the court do with an advisory jury?",
+    "back": "try any issue with an advisory jury",
+    "cites": [
+      {
+        "cite": "39(c)(1)",
+        "quote": "may try any issue with an advisory jury"
+      }
+    ]
+  },
+  {
+    "id": "trial-086",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "39"
+    ],
+    "level": 2,
+    "front": "In an action not triable of right by a jury, what may the court do with the parties' consent, and what effect does the verdict have?",
+    "back": "with the parties' consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right",
+    "cites": [
+      {
+        "cite": "39(c)(2)",
+        "quote": "may, with the parties’ consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right"
+      }
+    ]
+  },
+  {
+    "id": "trial-087",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 1,
+    "front": "Under Rule 41(a)(1)(A)(i), until when may a plaintiff dismiss by notice without a court order?",
+    "back": "before the opposing party serves either an answer or a motion for summary judgment",
+    "cites": [
+      {
+        "cite": "41(a)(1)(A)(i)",
+        "quote": "a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment"
+      }
+    ]
+  },
+  {
+    "id": "trial-088",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 1,
+    "front": "Besides a notice, how may a plaintiff dismiss an action without a court order?",
+    "back": "a stipulation of dismissal signed by all parties who have appeared",
+    "cites": [
+      {
+        "cite": "41(a)(1)(A)(ii)",
+        "quote": "a stipulation of dismissal signed by all parties who have appeared"
+      }
+    ]
+  },
+  {
+    "id": "trial-089",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 2,
+    "front": "If the plaintiff previously dismissed any federal- or state-court action on the same claim, what is the effect of a notice of dismissal?",
+    "back": "operates as an adjudication on the merits",
+    "cites": [
+      {
+        "cite": "41(a)(1)(B)",
+        "quote": "a notice of dismissal operates as an adjudication on the merits"
+      }
+    ]
+  },
+  {
+    "id": "trial-090",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 2,
+    "front": "Which dismissals under Rule 41(b) do not operate as an adjudication on the merits?",
+    "back": "lack of jurisdiction, improper venue, or failure to join a party under Rule 19",
+    "cites": [
+      {
+        "cite": "41(b)",
+        "quote": "except one for lack of jurisdiction, improper venue, or failure to join a party under Rule 19"
+      }
+    ]
+  },
+  {
+    "id": "trial-091",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 1,
+    "front": "If a plaintiff who previously dismissed an action files another on the same claim against the same defendant, what may the court order under Rule 41(d)(1)?",
+    "back": "pay all or part of the costs of that previous action",
+    "cites": [
+      {
+        "cite": "41(d)(1)",
+        "quote": "may order the plaintiff to pay all or part of the costs of that previous action"
+      }
+    ]
+  },
+  {
+    "id": "trial-092",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 1,
+    "front": "What must actions involve before the court may join them for hearing or trial or consolidate them under Rule 42(a)?",
+    "back": "involve a common question of law or fact",
+    "cites": [
+      {
+        "cite": "42(a)",
+        "quote": "If actions before the court involve a common question of law or fact, the court may:"
+      }
+    ]
+  },
+  {
+    "id": "trial-093",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 1,
+    "front": "What may the court do under Rule 42(a)(1)?",
+    "back": "join for hearing or trial any or all matters at issue in the actions",
+    "cites": [
+      {
+        "cite": "42(a)(1)",
+        "quote": "join for hearing or trial any or all matters at issue in the actions"
+      }
+    ]
+  },
+  {
+    "id": "trial-094",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 1,
+    "front": "On what grounds may the court order a separate trial under Rule 42(b)?",
+    "back": "For convenience, to avoid prejudice, or to expedite and economize",
+    "cites": [
+      {
+        "cite": "42(b)",
+        "quote": "For convenience, to avoid prejudice, or to expedite and economize, the court may order a separate trial"
+      }
+    ]
+  },
+  {
+    "id": "trial-095",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 1,
+    "front": "What must the court preserve when it orders a separate trial?",
+    "back": "any federal right to a jury trial",
+    "cites": [
+      {
+        "cite": "42(b)",
+        "quote": "When ordering a separate trial, the court must preserve any federal right to a jury trial."
+      }
+    ]
+  },
+  {
+    "id": "trial-096",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 2,
+    "front": "What may be tried separately under Rule 42(b)?",
+    "back": "one or more separate issues, claims, crossclaims, counterclaims, or third-party claims",
+    "cites": [
+      {
+        "cite": "42(b)",
+        "quote": "the court may order a separate trial of one or more separate issues, claims, crossclaims, counterclaims, or third-party claims"
+      }
+    ]
+  },
+  {
+    "id": "trial-097",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 1,
+    "front": "In an action tried without a jury, what must the court do under Rule 52(a)(1)?",
+    "back": "find the facts specially and state its conclusions of law separately",
+    "cites": [
+      {
+        "cite": "52(a)(1)",
+        "quote": "the court must find the facts specially and state its conclusions of law separately"
+      }
+    ]
+  },
+  {
+    "id": "trial-098",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 1,
+    "front": "When ruling on a motion under Rule 12 or 56, is the court required to state findings or conclusions?",
+    "back": "not required to state findings or conclusions",
+    "cites": [
+      {
+        "cite": "52(a)(3)",
+        "quote": "The court is not required to state findings or conclusions when ruling on a motion under Rule 12 or 56"
+      }
+    ]
+  },
+  {
+    "id": "trial-099",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 1,
+    "front": "Under what standard may findings of fact be set aside?",
+    "back": "must not be set aside unless clearly erroneous",
+    "cites": [
+      {
+        "cite": "52(a)(6)",
+        "quote": "Findings of fact, whether based on oral or other evidence, must not be set aside unless clearly erroneous"
+      }
+    ]
+  },
+  {
+    "id": "trial-100",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 1,
+    "front": "By when must a motion to amend findings or make additional findings be filed under Rule 52(b)?",
+    "back": "no later than 28 days after the entry of judgment",
+    "cites": [
+      {
+        "cite": "52(b)",
+        "quote": "On a party’s motion filed no later than 28 days after the entry of judgment, the court may amend its findings"
+      }
+    ]
+  },
+  {
+    "id": "trial-101",
+    "kind": "recall",
+    "topic": "sj-jmol",
+    "rules": [
+      "52"
+    ],
+    "level": 2,
+    "front": "On partial findings in a nonjury trial, until when may the court decline to render judgment?",
+    "back": "decline to render any judgment until the close of the evidence",
+    "cites": [
+      {
+        "cite": "52(c)",
+        "quote": "The court may, however, decline to render any judgment until the close of the evidence."
+      }
+    ]
+  },
+  {
+    "id": "trial-102",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "43"
+    ],
+    "level": 1,
+    "front": "At trial, where must witnesses' testimony ordinarily be taken?",
+    "back": "taken in open court",
+    "cites": [
+      {
+        "cite": "43(a)",
+        "quote": "the witnesses’ testimony must be taken in open court unless a federal statute, the Federal Rules of Evidence, these rules, or other rules adopted by the Supreme Court provide otherwise"
+      }
+    ]
+  },
+  {
+    "id": "trial-103",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "44.1"
+    ],
+    "level": 1,
+    "front": "How must a party give notice that it intends to raise an issue about a foreign country's law?",
+    "back": "by a pleading or other writing",
+    "cites": [
+      {
+        "cite": "44.1",
+        "quote": "A party who intends to raise an issue about a foreign country’s law must give notice by a pleading or other writing."
+      }
+    ]
+  },
+  {
+    "id": "trial-104",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "46"
+    ],
+    "level": 1,
+    "front": "Is a formal exception to a ruling or order required?",
+    "back": "A formal exception to a ruling or order is unnecessary",
+    "cites": [
+      {
+        "cite": "46",
+        "quote": "A formal exception to a ruling or order is unnecessary."
+      }
+    ]
+  },
+  {
+    "id": "trial-105",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "48"
+    ],
+    "level": 1,
+    "front": "How many members must a jury begin with?",
+    "back": "at least 6 and no more than 12 members",
+    "cites": [
+      {
+        "cite": "48(a)",
+        "quote": "A jury must begin with at least 6 and no more than 12 members"
+      }
+    ]
+  },
+  {
+    "id": "trial-106",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "48"
+    ],
+    "level": 1,
+    "front": "Unless the parties stipulate otherwise, what must a jury verdict be?",
+    "back": "the verdict must be unanimous",
+    "cites": [
+      {
+        "cite": "48(b)",
+        "quote": "Unless the parties stipulate otherwise, the verdict must be unanimous and must be returned by a jury of at least 6 members."
+      }
+    ]
+  },
+  {
+    "id": "trial-107",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "49"
+    ],
+    "level": 2,
+    "front": "By when must a party demand jury submission of a fact issue not submitted in a special verdict to avoid waiving a jury on it?",
+    "back": "before the jury retires",
+    "cites": [
+      {
+        "cite": "49(a)(3)",
+        "quote": "unless, before the jury retires, the party demands its submission to the jury"
+      }
+    ]
+  },
+  {
+    "id": "trial-108",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "51"
+    ],
+    "level": 1,
+    "front": "When may a court consider an unpreserved plain error in the jury instructions?",
+    "back": "if the error affects substantial rights",
+    "cites": [
+      {
+        "cite": "51(d)(2)",
+        "quote": "A court may consider a plain error in the instructions that has not been preserved as required by Rule 51(d)(1) if the error affects substantial rights."
+      }
+    ]
+  },
+  {
+    "id": "trial-109",
+    "kind": "recall",
+    "topic": "trial",
+    "rules": [
+      "53"
+    ],
+    "level": 1,
+    "front": "How long after a copy of a master's report is served may a party file objections, unless the court sets a different time?",
+    "back": "no later than 21 days after a copy is served",
+    "cites": [
+      {
+        "cite": "53(f)(2)",
+        "quote": "A party may file objections to—or a motion to adopt or modify—the master’s order, report, or recommendations no later than 21 days after a copy is served, unless the court sets a different time."
+      }
+    ]
+  }
+]

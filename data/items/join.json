@@ -397,68 +397,6 @@
     ]
   },
   {
-    "id": "join-010",
-    "kind": "issue",
-    "topic": "parties",
-    "rules": [
-      "19"
-    ],
-    "level": 3,
-    "stem": "Dray Corp. sues Eagle Inc. The court finds that Ward claims an interest in the subject of the suit and that disposing of the case without Ward may impair Ward's ability to protect it. The court could give Dray and Eagle complete relief, and Eagle faces no risk of inconsistent obligations. Dray's complaint named Ward and explained why Ward was omitted. The court orders Ward joined. Once joined, Ward objects that venue is improper as to Ward, and the court agrees. No class is involved.",
-    "ask": "Which provisions apply? Select all that apply.",
-    "options": [
-      {
-        "t": "Rule 19(a)(1)(A)",
-        "why": "The court could give Dray and Eagle complete relief without Ward."
-      },
-      {
-        "t": "Rule 19(a)(1)(B)(i)",
-        "why": "Ward claims an interest and a judgment may impair Ward's ability to protect it."
-      },
-      {
-        "t": "Rule 19(a)(1)(B)(ii)",
-        "why": "Eagle faces no risk of double or inconsistent obligations."
-      },
-      {
-        "t": "Rule 19(a)(2)",
-        "why": "The court must order a person who has not been joined as required to be made a party."
-      },
-      {
-        "t": "Rule 19(a)(3)",
-        "why": "Ward, once joined, objected to venue and joinder would make venue improper, so the court must dismiss Ward."
-      },
-      {
-        "t": "Rule 19(b)",
-        "why": "Ward cannot be joined, so the court decides whether to proceed or dismiss."
-      },
-      {
-        "t": "Rule 19(c)",
-        "why": "Dray's complaint already named Ward and gave the reasons."
-      }
-    ],
-    "key": [
-      1,
-      3,
-      4,
-      5
-    ],
-    "explain": "Ward is required under 19(a)(1)(B)(i) and the court must order joinder (19(a)(2)). Ward's venue objection forces dismissal of Ward (19(a)(3)), so joinder is not feasible and the court weighs 19(b). Subparagraph (A) and (B)(ii) are not met, and Dray satisfied 19(c) by naming Ward and stating reasons.",
-    "cites": [
-      {
-        "cite": "19(a)(1)(B)(i)",
-        "quote": "impair or impede the person's ability to protect the interest"
-      },
-      {
-        "cite": "19(a)(3)",
-        "quote": "If a joined party objects to venue and the joinder would make venue improper, the court must dismiss that party."
-      },
-      {
-        "cite": "19(b)",
-        "quote": "If a person who is required to be joined if feasible cannot be joined, the court must determine whether, in equity and good conscience, the action should proceed among the existing parties or should be dismissed."
-      }
-    ]
-  },
-  {
     "id": "join-011",
     "kind": "apply",
     "topic": "parties",
@@ -849,59 +787,6 @@
       {
         "cite": "20(a)(3)",
         "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded."
-      }
-    ]
-  },
-  {
-    "id": "join-020",
-    "kind": "issue",
-    "topic": "parties",
-    "rules": [
-      "20"
-    ],
-    "level": 3,
-    "stem": "Gil sues Hoyt, Ives and Jarvis in one complaint over a three-car chain collision, alleging that, depending on how the jury views the sequence, Hoyt is liable, or Ives, or Jarvis. Gil seeks the same damages from each. Hoyt asserts no claim against Jarvis, and Jarvis asserts none against Hoyt. Hoyt moves for a separate trial, arguing that Jarvis's intoxication evidence will embarrass Hoyt and delay Hoyt's case.",
-    "ask": "Which provisions apply? Select all that apply.",
-    "options": [
-      {
-        "t": "Rule 20(a)(1)(A)",
-        "why": "Gil is the only plaintiff, so the rule on joining plaintiffs is not in play."
-      },
-      {
-        "t": "Rule 20(a)(1)(B)",
-        "why": "There is no group of plaintiffs among whom a common question must arise."
-      },
-      {
-        "t": "Rule 20(a)(2)(A)",
-        "why": "Relief is asserted against the defendants in the alternative, arising from one collision."
-      },
-      {
-        "t": "Rule 20(a)(2)(B)",
-        "why": "Who caused the collision is a question common to all defendants."
-      },
-      {
-        "t": "Rule 20(a)(3)",
-        "why": "Gil seeks the same relief from each defendant, so no party seeks different relief that the subsection would excuse."
-      },
-      {
-        "t": "Rule 20(b)",
-        "why": "Hoyt seeks protection from prejudice caused by including Jarvis, with whom it has no claims either way."
-      }
-    ],
-    "key": [
-      2,
-      3,
-      5
-    ],
-    "explain": "Gil's alternative claims arise from one collision, and a common question will arise, so the defendants are properly joined (20(a)(2)(A) and (B)). Hoyt and Jarvis assert no claims against each other, so Hoyt may seek a separate trial under 20(b). With one plaintiff and identical relief, 20(a)(1) and 20(a)(3) are not in play.",
-    "cites": [
-      {
-        "cite": "20(a)(2)",
-        "quote": "Persons—as well as a vessel, cargo, or other property subject to admiralty process in rem—may be joined in one action as defendants if:"
-      },
-      {
-        "cite": "20(b)",
-        "quote": "The court may issue orders—including an order for separate trials—to protect a party against embarrassment, delay, expense, or other prejudice that arises from including a person against whom the party asserts no claim and who asserts no claim against the party."
       }
     ]
   },

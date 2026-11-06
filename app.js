@@ -70,7 +70,7 @@ function home() {
   const tiles = [["#/p/apply", "Fact patterns", cnt(n("apply"), "item")], ["#/p/issue", "Issue spotting", cnt(n("issue"), "item")],
     ["#/p/essay", "Essay practice", cnt(n("essay"), "item")], ["#/p/cards", "Flashcards", cnt(n("recall"), "card")],
     ["#/rules", "Rules", cnt(D.rules.length, "rule")], ["#/progress", "Progress", Object.keys(S.items).length + " answered"]];
-  view(h("p", { class: "mute" }, "Assume federal court, proper jurisdiction and venue, current FRCP, unless the facts say otherwise."),
+  view(h("p", { class: "mute" }, "Assume federal court, proper jurisdiction and venue, current FRCP, no state holidays beyond the federal ones, unless the facts say otherwise."),
     h("label", { class: "exam" }, "Exam date",
       h("input", { type: "date", value: S.exam || "", onchange: e => { S.exam = e.target.value || null; save(); route(); } }),
       left != null && h("b", left > 0 ? left + " days left" : left === 0 ? "Exam day" : "Exam has passed")),

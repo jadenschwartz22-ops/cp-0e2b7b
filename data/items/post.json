@@ -1,0 +1,4054 @@
+[
+  {
+    "id": "post-001",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "59(b)",
+        "quote": "A motion for a new trial must be filed no later than 28 days after the entry of judgment."
+      }
+    ],
+    "stem": "Park sues Delta Mills for breach of contract. After a jury trial, the judgment for Park is set out in a separate document and entered in the civil docket on Monday, March 2, 2026. Delta Mills wants to move for a new trial and intends to file on the last permitted day.",
+    "ask": "By what date must Delta Mills file its motion for a new trial?",
+    "options": [
+      {
+        "t": "March 23, 2026",
+        "why": "Wrong day count. Twenty-one days is the ordinary answer period, not the Rule 59(b) period."
+      },
+      {
+        "t": "April 1, 2026",
+        "why": "Wrong day count. Thirty days is the Rule 62(a) stay period; Rule 59(b) allows 28."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Correct. Rule 59(b) requires the motion no later than 28 days after entry of judgment; March 2 plus 28 days is Monday, March 30."
+      },
+      {
+        "t": "May 1, 2026",
+        "why": "Wrong day count. Sixty days appears nowhere in Rule 59(b)."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 59(b) requires a new-trial motion no later than 28 days after the entry of judgment. Judgment was entered March 2, 2026. Counting 28 days, excluding the day of entry, gives Monday, March 30, 2026, a weekday, so no roll forward under Rule 6(a)(1)(C) is needed.",
+    "calc": {
+      "mail": false,
+      "from": "2026-03-02",
+      "days": 28,
+      "dir": "after",
+      "answer": "2026-03-30"
+    }
+  },
+  {
+    "id": "post-002",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "59",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "6(b)(2)",
+        "quote": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+      }
+    ],
+    "stem": "The court enters judgment dismissing Vega's claims against Orion Labs on Friday, April 3, 2026. Vega's lawyer, relying on a mistaken calendar entry, files a motion to alter or amend the judgment on Monday, May 4, 2026, 31 days after entry. He asks the court to accept the motion as timely because the delay was excusable neglect under Rule 6(b)(1)(B).",
+    "ask": "May the court accept the late motion as a Rule 59(e) motion?",
+    "options": [
+      {
+        "t": "No; the motion came 31 days after entry, and Rule 6(b)(2) forbids a court to extend the time to act under Rule 59(e).",
+        "why": "Correct. Rule 59(e) sets 28 days and Rule 6(b)(2) removes the court's power to extend it, whatever the neglect."
+      },
+      {
+        "t": "Yes; Rule 6(b)(1)(B) lets the court extend time on a motion made after the time has expired if the party failed to act because of excusable neglect.",
+        "why": "Ignores the exception. Rule 6(b)(2) lists Rule 59(e) among the deadlines a court must not extend."
+      },
+      {
+        "t": "Yes; the 28-day period is a default that the court may relax for good cause under Rule 6(b)(1)(A).",
+        "why": "Same error. Rule 6(b)(2) bars extending the Rule 59(e) time even for good cause."
+      },
+      {
+        "t": "No; a Rule 59(e) motion must be filed within 14 days, so the motion was 17 days late.",
+        "why": "Wrong day count. Rule 59(e) allows 28 days after entry of the judgment."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 59(e) requires the motion no later than 28 days after entry. April 3 plus 28 days is May 1, so a May 4 filing is late. Rule 6(b)(1)(B) ordinarily excuses late acts for excusable neglect, but Rule 6(b)(2) lists Rule 59(e), and a court \"must not extend\" that time."
+  },
+  {
+    "id": "post-003",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "59(d)",
+        "quote": "No later than 28 days after the entry of judgment, the court, on its own, may order a new trial for any reason that would justify granting one on a party's motion."
+      }
+    ],
+    "stem": "After a nonjury trial, judgment for Hart against Quill Co. is entered on Monday, June 1, 2026. Neither side files any motion. On Monday, July 13, 2026, 42 days after entry, the judge, troubled by her ruling on a key exhibit, issues an order on her own granting a new trial and stating her reasons. Quill objects that the court acted too late.",
+    "ask": "Is Quill's objection correct under Rule 59?",
+    "options": [
+      {
+        "t": "No; because no party moved, no deadline limits the court's own order.",
+        "why": "The deadline applies to the court too: Rule 59(d) says \"no later than 28 days after the entry of judgment.\""
+      },
+      {
+        "t": "No; the court has 60 days to act on its own because it must also write out its reasons in the order.",
+        "why": "Invents a 60-day period. Rule 59(d) requires reasons but does not lengthen the 28 days."
+      },
+      {
+        "t": "Yes; a court may never order a new trial unless a party has moved for one.",
+        "why": "Wrong. Rule 59(d) expressly lets the court act on its own within the 28 days."
+      },
+      {
+        "t": "Yes; the court may act on its own only within 28 days after entry, and day 42 is too late.",
+        "why": "Correct. Rule 59(d) gives the court 28 days after entry to act on its own initiative."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 59(d) lets the court, on its own, order a new trial no later than 28 days after entry of judgment. Entry was June 1, so the court's window closed June 29. The July 13 order, on day 42, is untimely whatever the judge's reasons."
+  },
+  {
+    "id": "post-004",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "59(d)",
+        "quote": "After giving the parties notice and an opportunity to be heard, the court may grant a timely motion for a new trial for a reason not stated in the motion."
+      }
+    ],
+    "stem": "After a jury trial, judgment for Sol against Brio Inc. is entered on Monday, March 2, 2026. On March 20, Brio moves for a new trial, arguing juror misconduct. At the hearing, the judge says she is inclined to grant a new trial on a ground Brio never raised, an erroneous jury instruction. She gives both sides notice and an opportunity to be heard on that ground.",
+    "ask": "May the court grant a new trial on the jury-instruction ground?",
+    "options": [
+      {
+        "t": "No; the court may grant a new trial only for the reason stated in the motion, since the parties framed the dispute.",
+        "why": "Rule 59(d) permits a new trial for a reason not stated in the motion."
+      },
+      {
+        "t": "Yes; after notice and a chance to be heard, the court may grant the motion on that ground, stating its reasons.",
+        "why": "Correct. Brio's motion was timely (day 18), the parties were heard, and Rule 59(d) allows the different reason."
+      },
+      {
+        "t": "Yes, but only if Sol consents to the change of ground, since Sol is the party who won the verdict.",
+        "why": "Invents a consent requirement. Rule 59(d) requires notice and an opportunity to be heard, not consent."
+      },
+      {
+        "t": "Yes, without notice or a hearing, because the motion itself was timely and the court may rule on any ground.",
+        "why": "Drops a requirement. Rule 59(d) conditions this power on notice and an opportunity to be heard."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Brio's motion, filed 18 days after entry, was timely under Rule 59(b). Rule 59(d) then allows the court, after giving the parties notice and an opportunity to be heard, to grant a timely motion for a reason not stated in it. Both conditions are met, and the order must specify the reasons."
+  },
+  {
+    "id": "post-005",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "59(a)(2)",
+        "quote": "After a nonjury trial, the court may, on motion for a new trial, open the judgment if one has been entered, take additional testimony, amend findings of fact and conclusions of law or make new ones, and direct the entry of a new judgment."
+      }
+    ],
+    "stem": "After a bench trial, the court enters judgment for Lang against Cobb Freight. Cobb timely moves for a new trial, asserting that the court overlooked a witness's testimony. The judge would prefer not to start the trial over.",
+    "ask": "Which course does Rule 59 permit the court to take on Cobb's motion?",
+    "options": [
+      {
+        "t": "It must order a complete retrial; additional testimony may be taken only at a new trial held after the judgment is vacated.",
+        "why": "Wrong. Rule 59(a)(2) lets the court take additional testimony and amend findings without retrying the case."
+      },
+      {
+        "t": "It may open the judgment, take more testimony, amend or make new findings, and direct a new judgment.",
+        "why": "Correct. This is the list in Rule 59(a)(2) for a motion for a new trial after a nonjury trial."
+      },
+      {
+        "t": "It may amend its findings only if both parties consent.",
+        "why": "Invents a consent requirement. Rule 59(a)(2) contains none."
+      },
+      {
+        "t": "It may make new findings only on a motion to alter or amend under Rule 59(e), not on a motion for a new trial.",
+        "why": "Wrong rule. Rule 59(a)(2) itself authorizes new findings on a motion for a new trial after a nonjury trial."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 59(a)(2) governs motions for a new trial after a nonjury trial. The court may open the judgment, take additional testimony, amend or make new findings and conclusions, and direct entry of a new judgment, so a full retrial is not required."
+  },
+  {
+    "id": "post-006",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "59",
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "59(c)",
+        "quote": "The opposing party has 14 days after being served to file opposing affidavits."
+      },
+      {
+        "cite": "6(c)(2)",
+        "quote": "Except as Rule 59(c) provides otherwise, any opposing affidavit must be served at least 7 days before the hearing, unless the court permits service at another time."
+      }
+    ],
+    "stem": "Tern Air moves for a new trial on Monday, March 9, 2026, supported by two juror affidavits, and hands a copy of the motion and affidavits to Ruiz's lawyer that day. Ruiz wants to file opposing affidavits. The court has set no different schedule.",
+    "ask": "By what date must Ruiz file opposing affidavits?",
+    "options": [
+      {
+        "t": "March 16, 2026",
+        "why": "Wrong period. Seven days before the hearing is the general Rule 6(c)(2) rule, which yields to Rule 59(c)."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Wrong day count. Twenty-one days appears nowhere in Rule 59(c)."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Wrong day count. Twenty-eight days is the Rule 59(b) period for the motion, not for opposing affidavits."
+      },
+      {
+        "t": "March 23, 2026",
+        "why": "Correct. Rule 59(c) gives the opposing party 14 days after being served; March 9 plus 14 days is Monday, March 23."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "When a new-trial motion rests on affidavits, Rule 59(c) gives the opposing party 14 days after being served to file opposing affidavits. Rule 6(c)(2)'s 7-days-before-hearing rule applies \"except as Rule 59(c) provides otherwise.\" Service by hand on March 9 plus 14 days is Monday, March 23.",
+    "calc": {
+      "mail": false,
+      "from": "2026-03-09",
+      "days": 14,
+      "dir": "after",
+      "answer": "2026-03-23"
+    }
+  },
+  {
+    "id": "post-007",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "59",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "59(b)",
+        "quote": "A motion for a new trial must be filed no later than 28 days after the entry of judgment."
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "include the last day of the period, but if the last day is a Saturday, Sunday, or legal holiday, the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday."
+      }
+    ],
+    "stem": "A jury returns a verdict for Sato against Dune Logistics. The judgment is set out in a separate document and entered in the civil docket on Thursday, October 29, 2026. Dune plans to move for a new trial and wants to file on the last permissible day. Thursday, November 26, 2026 is Thanksgiving Day.",
+    "ask": "What is the last day on which Dune may file its motion for a new trial?",
+    "options": [
+      {
+        "t": "November 27, 2026",
+        "why": "Correct. Twenty-eight days after October 29 is Thanksgiving, a legal holiday, so under Rule 6(a)(1)(C) the period runs to the next day that is not a weekend or holiday, Friday, November 27."
+      },
+      {
+        "t": "November 25, 2026",
+        "why": "Counts backward. Rule 6(a)(1)(C) moves the last day forward, not back, for a period measured after an event."
+      },
+      {
+        "t": "November 26, 2026",
+        "why": "Ignores the holiday. The 28th day falls on Thanksgiving, so the period continues to run."
+      },
+      {
+        "t": "December 3, 2026",
+        "why": "Adds an extra week. Rule 6(a)(1)(C) extends only to the next day that is not a weekend or holiday."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 59(b) allows 28 days after entry. October 29 plus 28 days is Thursday, November 26, Thanksgiving, a legal holiday under Rule 6(a)(6). Under Rule 6(a)(1)(C) the period continues to run until the end of the next day that is not a weekend or legal holiday: Friday, November 27, 2026.",
+    "calc": {
+      "mail": false,
+      "from": "2026-10-29",
+      "days": 28,
+      "dir": "after",
+      "answer": "2026-11-27"
+    }
+  },
+  {
+    "id": "post-008",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "59",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "6(b)(2)",
+        "quote": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+      }
+    ],
+    "stem": "Judgment for Zane against Ocelot Corp. is entered on Monday, May 4, 2026. On May 20, with the 28-day period still running, Ocelot asks for 21 more days to move to alter or amend the judgment, citing a family emergency. The court finds good cause and signs an order granting the extension. Ocelot files its Rule 59(e) motion on Friday, June 19, 2026, 46 days after entry.",
+    "ask": "Is Ocelot's Rule 59(e) motion timely?",
+    "options": [
+      {
+        "t": "Yes; Rule 6(b)(1)(A) lets the court extend a deadline for good cause if it acts before the original time expires, and it did.",
+        "why": "Ignores Rule 6(b)(2), which carves Rule 59(e) out of the court's power to extend."
+      },
+      {
+        "t": "Yes; Rule 6(b)(2) bars only extensions requested after the time has expired.",
+        "why": "Misreads 6(b)(2). It bars any extension of the listed deadlines, whether requested before or after expiry."
+      },
+      {
+        "t": "No; Rule 6(b)(2) forbids extending the time to act under Rule 59(e), so the 28-day deadline stood and expired June 1.",
+        "why": "Correct. The extension order could not enlarge the Rule 59(e) period, and day 46 is late."
+      },
+      {
+        "t": "No; the motion had to be filed within 14 days, the standard period for post-judgment motions.",
+        "why": "Wrong day count. Rule 59(e) allows 28 days."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 59(e) requires the motion no later than 28 days after entry; here, by June 1. Rule 6(b)(2) says a court \"must not extend\" the time to act under Rule 59(e), so the good-cause order under Rule 6(b)(1)(A) did not enlarge it. A June 19 motion is untimely under Rule 59(e)."
+  },
+  {
+    "id": "post-009",
+    "kind": "issue",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "59(b)",
+        "quote": "A motion for a new trial must be filed no later than 28 days after the entry of judgment."
+      },
+      {
+        "cite": "59(c)",
+        "quote": "The opposing party has 14 days after being served to file opposing affidavits."
+      },
+      {
+        "cite": "59(d)",
+        "quote": "After giving the parties notice and an opportunity to be heard, the court may grant a timely motion for a new trial for a reason not stated in the motion."
+      }
+    ],
+    "stem": "After a jury trial, judgment for Moss against Pine Ridge Co. is entered on Monday, March 2, 2026. On March 16, Pine Ridge moves for a new trial, supported by a juror's affidavit, and serves Moss that day. Moss files opposing affidavits on March 27. At the hearing, the judge says an erroneous instruction, a ground Pine Ridge never raised, troubles her, and she gives both sides notice and time to brief it. No one has asked to extend any deadline.",
+    "ask": "Which provisions apply to these events? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 59(a)(2)",
+        "why": "Does not apply. It governs a motion for a new trial after a nonjury trial; this was a jury trial."
+      },
+      {
+        "t": "Rule 59(c)",
+        "why": "Applies. The motion is based on an affidavit, which must be filed with the motion, and Moss had 14 days after service to oppose."
+      },
+      {
+        "t": "Rule 6(b)(2)",
+        "why": "Does not apply. No one asked the court to extend the Rule 59 time."
+      },
+      {
+        "t": "Rule 59(d)",
+        "why": "Applies. The court may grant a timely motion for a reason not stated in it after notice and an opportunity to be heard."
+      },
+      {
+        "t": "Rule 59(b)",
+        "why": "Applies. The motion came 14 days after entry, within the 28 days Rule 59(b) allows."
+      },
+      {
+        "t": "Rule 59(e)",
+        "why": "Does not apply. Pine Ridge seeks a new trial, not an alteration or amendment of the judgment."
+      }
+    ],
+    "key": [
+      1,
+      3,
+      4
+    ],
+    "explain": "Pine Ridge's March 16 motion is timely under Rule 59(b) (day 14 of 28). Because it rests on an affidavit, Rule 59(c) governs the affidavits, and Moss's March 27 filing is within 14 days of service. Rule 59(d) permits the court to rest a new trial on a different ground after notice and a chance to be heard."
+  },
+  {
+    "id": "post-010",
+    "kind": "issue",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "59(b)",
+        "quote": "A motion for a new trial must be filed no later than 28 days after the entry of judgment."
+      },
+      {
+        "cite": "59(a)(2)",
+        "quote": "After a nonjury trial, the court may, on motion for a new trial, open the judgment if one has been entered, take additional testimony, amend findings of fact and conclusions of law or make new ones, and direct the entry of a new judgment."
+      }
+    ],
+    "stem": "After a bench trial, the court enters judgment for Orr against Fenn LLC on a contract claim; the judgment is set out in a separate document and entered on Monday, June 1, 2026. On June 22, Fenn files two motions. The first seeks a new trial, asking the court to take additional testimony on damages and make new findings. The second seeks to alter or amend the judgment to correct the damages figure. Fenn files no affidavits, and the court acts on neither motion on its own.",
+    "ask": "Which provisions of Rule 59 govern Fenn's motions? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 59(c)",
+        "why": "Does not apply. Fenn filed no affidavits, so the affidavit-timing provision is not triggered."
+      },
+      {
+        "t": "Rule 59(e)",
+        "why": "Applies. The second motion asks to alter or amend the judgment, and day 21 is within the 28 days allowed."
+      },
+      {
+        "t": "Rule 59(a)(1)(A)",
+        "why": "Does not apply. It addresses new trials after a jury trial; this was a nonjury trial."
+      },
+      {
+        "t": "Rule 59(b)",
+        "why": "Applies. The first motion is a motion for a new trial, filed 21 days after entry, within 28 days."
+      },
+      {
+        "t": "Rule 59(d)",
+        "why": "Does not apply. The court is not acting on its own or on a ground the motion did not state."
+      },
+      {
+        "t": "Rule 59(a)(2)",
+        "why": "Applies. After a nonjury trial, on a motion for a new trial the court may take additional testimony and make new findings."
+      }
+    ],
+    "key": [
+      1,
+      3,
+      5
+    ],
+    "explain": "The new-trial motion is timely under Rule 59(b), and Rule 59(a)(2) defines what the court may do after a nonjury trial: take additional testimony and amend or make new findings. The motion to correct the damages figure is a Rule 59(e) motion, also timely at 21 days. No affidavits or sua sponte action are involved."
+  },
+  {
+    "id": "post-011",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "60(c)(1)",
+        "quote": "A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding."
+      },
+      {
+        "cite": "60(b)(1)",
+        "quote": "mistake, inadvertence, surprise, or excusable neglect;"
+      }
+    ],
+    "stem": "Judgment is entered against Dale Roofing on Tuesday, January 13, 2026, after Dale's lawyer, through a calendaring error, missed the answer deadline. Dale first learns of the judgment in 2027 when it is served with a writ of execution. On Wednesday, February 3, 2027, Dale moves promptly under Rule 60(b)(1) to vacate the judgment for excusable neglect.",
+    "ask": "Is Dale's motion timely?",
+    "options": [
+      {
+        "t": "Yes; Rule 60(c)(1) requires only a reasonable time, and Dale moved promptly after learning of the judgment.",
+        "why": "Ignores the outer limit. For reasons (1), (2), and (3), Rule 60(c)(1) adds \"no more than a year after the entry.\""
+      },
+      {
+        "t": "Yes; the one-year period runs from the date the movant learns of the judgment.",
+        "why": "Wrong trigger. The year runs from entry of the judgment or order, not from discovery."
+      },
+      {
+        "t": "No; for reason (1), a Rule 60(b) motion must come within a year after entry, and Dale filed later.",
+        "why": "Correct. Entry was January 13, 2026; the year ended January 13, 2027, three weeks before the motion."
+      },
+      {
+        "t": "No; a Rule 60(b) motion must be filed within 28 days after entry, as with a Rule 59 motion, so the motion is late.",
+        "why": "Wrong clock. The 28-day periods are in Rule 59; Rule 60(c)(1) uses a reasonable time and, for reasons (1) to (3), one year."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 60(c)(1) requires every Rule 60(b) motion to be made within a reasonable time and, for reasons (1), (2), and (3), no more than a year after the entry of the judgment. Excusable neglect is reason (1). Entry was January 13, 2026, so a motion on February 3, 2027 is outside the year."
+  },
+  {
+    "id": "post-012",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "60(b)(2)",
+        "quote": "newly discovered evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b);"
+      }
+    ],
+    "stem": "After a bench trial, judgment for Ibis Foods is entered against Nolan on Monday, March 2, 2026. On Monday, June 1, 2026, Nolan finds an archived shipping log that contradicts a key finding. Nolan can show that, even with reasonable diligence, the log could not have been found in time to move for a new trial under Rule 59(b). Nolan moves for relief on June 8. Nothing suggests anyone hid the log.",
+    "ask": "What is Nolan's best basis for relief?",
+    "options": [
+      {
+        "t": "Rule 60(b)(2), newly discovered evidence, if made within a reasonable time and within a year",
+        "why": "Correct. The log fits reason (2) exactly, and June 8 is well within a year of the March 2 entry."
+      },
+      {
+        "t": "Rule 59(b); a motion for a new trial may be filed any time within a year after judgment is entered.",
+        "why": "Wrong clock. Rule 59(b) allows 28 days after entry, which ended March 30."
+      },
+      {
+        "t": "Rule 60(b)(3), because the log proves that the court's finding was wrong on a central point.",
+        "why": "Misreads (b)(3). It requires fraud, misrepresentation, or misconduct by an opposing party, and none is alleged."
+      },
+      {
+        "t": "Rule 60(b)(4), because new evidence makes the judgment void when it surfaces.",
+        "why": "Evidence that the court was wrong does not make a judgment void; reason (4) is not triggered by new proof."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b) is reason (2) under Rule 60(b). The Rule 59(b) period ended March 30, the log surfaced June 1, and the June 8 motion falls within the year allowed by Rule 60(c)(1)."
+  },
+  {
+    "id": "post-013",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "60(b)(3)",
+        "quote": "fraud (whether previously called intrinsic or extrinsic), misrepresentation, or misconduct by an opposing party;"
+      }
+    ],
+    "stem": "After a jury trial, judgment for Teal Inc. is entered against Arden on Monday, February 2, 2026. In June 2026, Arden learns that Teal's CEO knowingly gave false deposition and trial testimony about the contract's terms. Arden moves under Rule 60(b)(3) on July 6, 2026. Teal opposes, arguing that perjury at trial is \"intrinsic\" fraud, which cannot support relief.",
+    "ask": "Is Teal's argument correct?",
+    "options": [
+      {
+        "t": "Yes; Rule 60(b)(3) reaches only extrinsic fraud, such as keeping a party away from the court itself.",
+        "why": "The text covers fraud \"whether previously called intrinsic or extrinsic.\""
+      },
+      {
+        "t": "Yes; false testimony can be raised only by a motion for a new trial under Rule 59(b).",
+        "why": "Rule 60(b)(3) separately covers fraud and misconduct; Rule 59(b) is not the exclusive route."
+      },
+      {
+        "t": "No, but Arden must show the fraud was committed by the court rather than by a party.",
+        "why": "Reverses the rule. Reason (3) concerns fraud or misconduct by an opposing party."
+      },
+      {
+        "t": "No; Rule 60(b)(3) reaches fraud or misconduct by an opposing party, whether intrinsic or extrinsic.",
+        "why": "Correct. The rule text dissolves the intrinsic/extrinsic distinction, and the motion is within a year of entry."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 60(b)(3) allows relief for \"fraud (whether previously called intrinsic or extrinsic), misrepresentation, or misconduct by an opposing party.\" Perjury by the opposing party's CEO fits, and a July 6 motion is within the year permitted by Rule 60(c)(1) for reason (3). Teal's intrinsic-fraud argument fails on the text."
+  },
+  {
+    "id": "post-014",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "60(b)(4)",
+        "quote": "the judgment is void;"
+      },
+      {
+        "cite": "60(c)(1)",
+        "quote": "A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding."
+      }
+    ],
+    "stem": "Judgment is entered against Kemp on Monday, March 2, 2026. In September 2027, nineteen months later, and promptly after learning of the judgment, Kemp moves to vacate under Rule 60(b)(4). The court concludes that the judgment is void. The plaintiff, Loom Corp., argues that the motion is time-barred because Rule 60(b) motions must be made within a year of entry.",
+    "ask": "Is Kemp's motion time-barred?",
+    "options": [
+      {
+        "t": "Yes; every Rule 60(b) motion must be made within a year after entry of the judgment.",
+        "why": "The year limit applies only to reasons (1), (2), and (3), not to reason (4)."
+      },
+      {
+        "t": "No; the one-year cap applies only to reasons (1) to (3), so (b)(4) needs only a reasonable time.",
+        "why": "Correct. Kemp moved promptly after learning of the judgment, which meets the reasonable-time requirement."
+      },
+      {
+        "t": "No; a motion that a judgment is void is subject to no timing requirement of any kind.",
+        "why": "Overstates the rule. Every Rule 60(b) motion must be made within a reasonable time."
+      },
+      {
+        "t": "Yes; a motion attacking a judgment must be filed within 28 days after its entry, under Rule 59(e).",
+        "why": "Wrong rule. Rule 59(e) governs motions to alter or amend; Rule 60(b)(4) is governed by Rule 60(c)(1)."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 60(c)(1) requires all Rule 60(b) motions to be made within a reasonable time, and only reasons (1), (2), and (3) carry the additional one-year cap. A motion that the judgment is void under (b)(4), made promptly on learning of it, is not barred by the passage of 19 months."
+  },
+  {
+    "id": "post-015",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(b)(5)",
+        "quote": "the judgment has been satisfied, released, or discharged; it is based on an earlier judgment that has been reversed or vacated; or applying it prospectively is no longer equitable; or"
+      }
+    ],
+    "stem": "A $25,000 judgment is entered against Vance Motors on Monday, March 2, 2026. Two weeks later, the plaintiff, Reyes, signs a written release of the judgment in exchange for Vance's payment. Months later, Reyes's new lawyer, unaware of the release, applies for a writ of execution. Vance asks the court for relief from the judgment.",
+    "ask": "Which provision of Rule 60(b) best fits Vance's request?",
+    "options": [
+      {
+        "t": "Rule 60(b)(1), mistake, inadvertence, surprise, or excusable neglect",
+        "why": "Does not fit. The ground here is that the judgment has been released, which has its own reason."
+      },
+      {
+        "t": "Rule 60(b)(5), the judgment has been satisfied or released",
+        "why": "Correct. Reyes released the judgment, which is exactly reason (5)."
+      },
+      {
+        "t": "Rule 60(b)(6), any other reason that justifies relief",
+        "why": "The catch-all is for other reasons. A released judgment is specifically covered by reason (5)."
+      },
+      {
+        "t": "Rule 60(b)(4), the judgment is void",
+        "why": "The judgment was valid when entered; a later release does not make it void."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Reason (5) of Rule 60(b) applies when \"the judgment has been satisfied, released, or discharged.\" Reyes's written release in exchange for payment fits that language, so Vance should move under Rule 60(b)(5), within a reasonable time."
+  },
+  {
+    "id": "post-016",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "60(d)(1)",
+        "quote": "entertain an independent action to relieve a party from a judgment, order, or proceeding;"
+      },
+      {
+        "cite": "60(e)",
+        "quote": "The following are abolished: bills of review, bills in the nature of bills of review, and writs of coram nobis, coram vobis, and audita querela."
+      }
+    ],
+    "stem": "Judgment for Brandt against Hollis Co. was entered on March 2, 2020. In 2026, Hollis believes it has grounds to be relieved of the judgment and, rather than moving in the original case, files a new independent action to set the judgment aside. Brandt moves to dismiss, arguing that relief from a judgment may be sought only by a Rule 60(b) motion, subject to Rule 60(c)(1)'s time limits, and that Rule 60(e) abolished independent actions.",
+    "ask": "Does Rule 60 bar Hollis's independent action?",
+    "options": [
+      {
+        "t": "Yes; Rule 60(b) is the exclusive route to relief from a judgment, and its one-year and reasonable-time limits have run.",
+        "why": "Wrong. Rule 60(d)(1) says the rule does not limit a court's power to entertain an independent action."
+      },
+      {
+        "t": "Yes; Rule 60(e) abolishes independent actions along with bills of review.",
+        "why": "Misreads 60(e), which abolishes bills of review and certain writs, not independent actions preserved by 60(d)(1)."
+      },
+      {
+        "t": "No, but only if the court of appeals first gives leave to file the action.",
+        "why": "Invents a requirement. Rule 60(d)(1) does not mention leave of any court."
+      },
+      {
+        "t": "No; Rule 60(d)(1) preserves the court's power to entertain an independent action for relief from a judgment.",
+        "why": "Correct. The 60(c)(1) limits govern a motion under 60(b), not an independent action."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 60(d)(1) provides that the rule does not limit a court's power to entertain an independent action to relieve a party from a judgment. Rule 60(c)(1)'s time limits apply to \"a motion under Rule 60(b),\" and Rule 60(e) abolishes only bills of review and certain writs. Rule 60 therefore does not bar the action."
+  },
+  {
+    "id": "post-017",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "60(a)",
+        "quote": "The court may correct a clerical mistake or a mistake arising from oversight or omission whenever one is found in a judgment, order, or other part of the record. The court may do so on motion or on its own, with or without notice."
+      }
+    ],
+    "stem": "A judgment entered on Monday, March 2, 2026 recites damages of $48,000, although the jury's verdict was $84,000; the clerk transposed the digits. In November 2026, with no motion pending and no appeal taken, the judge notices the error and, without notice to the parties, signs an order correcting the amount to $84,000. The defendant objects that the order is invalid.",
+    "ask": "Is the order valid under Rule 60?",
+    "options": [
+      {
+        "t": "Yes; the court may correct a clerical mistake whenever found, on motion or on its own, without notice.",
+        "why": "Correct. A transposition by the clerk is a clerical mistake, and no appeal is pending."
+      },
+      {
+        "t": "No; a clerical mistake may be corrected only on a party's motion, never by the court on its own.",
+        "why": "Wrong. Rule 60(a) lets the court act \"on motion or on its own.\""
+      },
+      {
+        "t": "No; corrections must be made within 28 days after entry, as with a Rule 59(e) motion to alter or amend.",
+        "why": "Wrong clock. Rule 60(a) permits correction whenever the mistake is found."
+      },
+      {
+        "t": "Yes, but only after the court gives the parties notice and an opportunity to be heard on the correction.",
+        "why": "Adds a requirement. Rule 60(a) says the court may act \"with or without notice.\""
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 60(a) lets the court correct a clerical mistake in a judgment \"whenever one is found,\" on motion or on its own, with or without notice. The transposed digits are a clerical mistake, no appeal had been taken, and the correction is valid."
+  },
+  {
+    "id": "post-018",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "60(a)",
+        "quote": "But after an appeal has been docketed in the appellate court and while it is pending, such a mistake may be corrected only with the appellate court's leave."
+      }
+    ],
+    "stem": "A judgment entered on Monday, March 2, 2026 recites damages of $48,000, although the jury's verdict was $84,000; the clerk transposed the digits. The defendant appealed, and the appeal has been docketed in the court of appeals and is pending. Before the appellate court rules, the district judge notices the transposition and wants to correct it.",
+    "ask": "May the district judge correct the mistake now?",
+    "options": [
+      {
+        "t": "Yes; Rule 60(a) lets the court correct a clerical mistake whenever one is found, even during an appeal.",
+        "why": "Ignores the appeal exception. Once an appeal is docketed and pending, Rule 60(a) requires the appellate court's leave."
+      },
+      {
+        "t": "No; clerical mistakes may never be corrected once an appeal is taken.",
+        "why": "Overstates the rule. Correction is possible with the appellate court's leave."
+      },
+      {
+        "t": "Only with the appellate court's leave, because the appeal has been docketed and is pending.",
+        "why": "Correct. That is the limit Rule 60(a) places on correcting a mistake while an appeal is pending."
+      },
+      {
+        "t": "Yes, but only with the consent of both parties.",
+        "why": "Invents a consent requirement. Rule 60(a) asks for the appellate court's leave."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 60(a) lets the court correct a clerical mistake whenever found, but \"after an appeal has been docketed in the appellate court and while it is pending, such a mistake may be corrected only with the appellate court's leave.\" The appeal here is docketed and pending, so leave is required."
+  },
+  {
+    "id": "post-019",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "60",
+      "62"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "60(c)(2)",
+        "quote": "The motion does not affect the judgment's finality or suspend its operation."
+      },
+      {
+        "cite": "62(a)",
+        "quote": "Except as provided in Rule 62(c) and (d), execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      }
+    ],
+    "stem": "Judgment for $60,000 is entered against Ferro Works on Monday, March 2, 2026. On Tuesday, May 5, 2026, Ferro files a motion under Rule 60(b)(1). The next day the plaintiff, Kline, serves a writ of execution on Ferro's bank account. Ferro argues that its pending Rule 60(b) motion suspends the judgment's operation. No bond has been posted, the court has issued no stay, and the court has not ruled on the motion.",
+    "ask": "Is Ferro correct?",
+    "options": [
+      {
+        "t": "Yes; filing a Rule 60(b) motion automatically stays enforcement until the court rules on it, however long that takes.",
+        "why": "Contradicted by Rule 60(c)(2): the motion does not suspend the judgment's operation."
+      },
+      {
+        "t": "Yes; a Rule 60(b) motion suspends the judgment for 30 days under Rule 62(a).",
+        "why": "Rule 62(a)'s 30-day stay runs from entry of the judgment, not from filing a Rule 60(b) motion."
+      },
+      {
+        "t": "No; a Rule 60(b) motion does not suspend the judgment, and the 30-day automatic stay expired April 1.",
+        "why": "Correct. Ferro needed a bond under Rule 62(b) or a court order to stay enforcement."
+      },
+      {
+        "t": "No; the motion suspends execution only for 28 days, the Rule 59 period.",
+        "why": "Invents a 28-day suspension. Rule 60(c)(2) provides no suspension at all."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 60(c)(2) provides that a Rule 60(b) motion \"does not affect the judgment's finality or suspend its operation.\" The Rule 62(a) automatic stay ran 30 days from the March 2 entry and expired April 1. With no bond or order, Kline may enforce the judgment while the motion is pending."
+  },
+  {
+    "id": "post-020",
+    "kind": "issue",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "60(a)",
+        "quote": "The court may correct a clerical mistake or a mistake arising from oversight or omission whenever one is found in a judgment, order, or other part of the record."
+      },
+      {
+        "cite": "60(b)(5)",
+        "quote": "the judgment has been satisfied, released, or discharged; it is based on an earlier judgment that has been reversed or vacated; or applying it prospectively is no longer equitable; or"
+      },
+      {
+        "cite": "60(c)(1)",
+        "quote": "A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding."
+      }
+    ],
+    "stem": "Judgment for Ames against Boll Co. is entered on Monday, January 12, 2026. Boll pays the judgment in full in February 2026. In April 2027, Ames, through a new lawyer, obtains a writ of execution anyway. Boll then moves for relief and asks the court (1) to declare the judgment satisfied, (2) to correct the caption, which misspells Boll's name, and (3) to vacate the judgment because Boll's former lawyer missed the answer deadline through a calendaring error. The motion is filed more than a year after entry.",
+    "ask": "Which provisions may the court use to grant Boll relief on these requests? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 60(a)",
+        "why": "Applies. A misspelled name in the caption is a clerical mistake that may be corrected whenever found."
+      },
+      {
+        "t": "Rule 60(b)(1)",
+        "why": "Unavailable. A missed deadline from a calendaring error is excusable neglect, but reason (1) must be invoked within a year of entry."
+      },
+      {
+        "t": "Rule 60(b)(5)",
+        "why": "Applies. Full payment means the judgment has been satisfied, and (b)(5) is not subject to the one-year cap."
+      },
+      {
+        "t": "Rule 59(e)",
+        "why": "Unavailable. A motion to alter or amend must be filed within 28 days of entry."
+      },
+      {
+        "t": "Rule 60(b)(4)",
+        "why": "Does not apply. Nothing in the facts suggests the judgment is void."
+      },
+      {
+        "t": "Rule 60(b)(3)",
+        "why": "Does not apply. No fraud, misrepresentation, or misconduct by Ames is described."
+      }
+    ],
+    "key": [
+      0,
+      2
+    ],
+    "explain": "The caption error is a clerical mistake correctable under Rule 60(a) whenever found. Full payment satisfies the judgment under Rule 60(b)(5), which needs only a reasonable time. Reason (1) for the missed deadline is cut off by Rule 60(c)(1)'s one-year limit, and Rule 59(e)'s 28 days passed long ago."
+  },
+  {
+    "id": "post-021",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "54(b)",
+        "quote": "does not end the action as to any of the claims or parties and may be revised at any time before the entry of a judgment adjudicating all the claims and all the parties' rights and liabilities."
+      }
+    ],
+    "stem": "Cruz sues Dune Corp. for breach of contract (Count I) and fraud (Count II). On Monday, March 2, 2026, the court grants summary judgment for Dune on Count I and sets Count II for trial. The order is titled \"Final Judgment on Count I\" but contains no determination about delay. On June 1, before Count II is tried, Cruz presents new evidence and asks the court to reinstate Count I.",
+    "ask": "May the court revise its ruling on Count I?",
+    "options": [
+      {
+        "t": "Yes; absent an express no-just-reason-for-delay determination, the order may be revised before judgment on all claims.",
+        "why": "Correct. The title is irrelevant, and no judgment has adjudicated both counts."
+      },
+      {
+        "t": "No; once an order is labeled a final judgment, it can be revised only under Rule 60(b), whatever the court did or did not find.",
+        "why": "The label does not control. Rule 54(b) says \"however designated.\""
+      },
+      {
+        "t": "Yes, but only within 28 days after entry, under Rule 59(e), after which the order is final.",
+        "why": "Wrong clock. Rule 54(b) allows revision at any time before judgment on all claims."
+      },
+      {
+        "t": "No; a court may revise an order adjudicating fewer than all claims only with the parties' consent to reopen.",
+        "why": "Invents a consent requirement. Rule 54(b) has none."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Under Rule 54(b), an order adjudicating fewer than all claims, \"however designated,\" does not end the action as to any claim and may be revised at any time before a judgment adjudicates all claims, unless the court expressly determines there is no just reason for delay. No such finding was made, so the court may revisit Count I."
+  },
+  {
+    "id": "post-022",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "54(b)",
+        "quote": "the court may direct entry of a final judgment as to one or more, but fewer than all, claims or parties only if the court expressly determines that there is no just reason for delay."
+      }
+    ],
+    "stem": "Tran sues two defendants, Orbit LLC and Pace Inc., on the same contract. On Monday, March 2, 2026, the court dismisses all claims against Orbit, expressly determines that there is no just reason for delay, and directs entry of final judgment for Orbit. The claims against Pace remain pending. Tran argues that the order cannot be a final judgment while claims against Pace are still pending.",
+    "ask": "Is Tran correct?",
+    "options": [
+      {
+        "t": "Yes; no judgment can be final until all claims against all parties are resolved, however the court words its order.",
+        "why": "Rule 54(b) allows a final judgment as to fewer than all parties on an express no-just-reason-for-delay determination."
+      },
+      {
+        "t": "Yes; the court needed Tran's consent to direct entry of final judgment against only one of the two defendants.",
+        "why": "Invents a consent requirement. Rule 54(b) turns on the court's express determination."
+      },
+      {
+        "t": "No; but only because Orbit and Pace are both liable on the same claim, which keeps the claims linked.",
+        "why": "Adds a limit. Rule 54(b) applies where multiple parties are involved, without regard to a shared claim."
+      },
+      {
+        "t": "No; Rule 54(b) permits final judgment for Orbit alone because the court expressly found no just reason for delay.",
+        "why": "Correct. The court made that determination for Orbit."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "When multiple parties are involved, Rule 54(b) lets the court direct entry of final judgment as to fewer than all parties only if it expressly determines that there is no just reason for delay. The court made that determination, so the judgment for Orbit is final despite the pending claims against Pace."
+  },
+  {
+    "id": "post-023",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "54(c)",
+        "quote": "A default judgment must not differ in kind from, or exceed in amount, what is demanded in the pleadings."
+      }
+    ],
+    "stem": "Marsh sues Lyle for $50,000 in damages for breach of a lease; the complaint demands that amount and no more. Lyle never responds, and the clerk enters Lyle's default. Marsh then applies to the court for a default judgment of $120,000, saying the true damages turned out to be higher. Marsh has not amended the complaint.",
+    "ask": "What is the most the court may award in the default judgment?",
+    "options": [
+      {
+        "t": "$120,000, because Marsh proved the higher amount of damages.",
+        "why": "Ignores the limit. A default judgment must not exceed in amount what is demanded in the pleadings."
+      },
+      {
+        "t": "$50,000, because a default judgment cannot exceed the amount demanded in the pleadings.",
+        "why": "Correct. Rule 54(c) caps a default judgment at the demand."
+      },
+      {
+        "t": "$85,000, the midpoint, because the court may split the difference.",
+        "why": "No such rule. Rule 54(c) sets the demand as the ceiling."
+      },
+      {
+        "t": "There is no maximum; Rule 54(c) restricts only the kind of relief awarded, not the amount of it.",
+        "why": "Wrong. The text says the judgment must not differ in kind from, \"or exceed in amount,\" the demand."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 54(c) provides that a default judgment \"must not differ in kind from, or exceed in amount, what is demanded in the pleadings.\" Marsh demanded $50,000 and never amended, so the court may award no more than $50,000 on default."
+  },
+  {
+    "id": "post-024",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "54(d)(2)(B)(i)",
+        "quote": "be filed no later than 14 days after the entry of judgment;"
+      },
+      {
+        "cite": "54(d)(2)(A)",
+        "quote": "A claim for attorney's fees and related nontaxable expenses must be made by motion unless the substantive law requires those fees to be proved at trial as an element of damages."
+      }
+    ],
+    "stem": "Judgment for Pike against Quartz Mining is entered on Monday, March 2, 2026. A federal statute entitles the prevailing party to attorney's fees, and no statute or court order sets a different time for a fee motion. Pike's lawyer wants to file the fee motion on the last day permitted.",
+    "ask": "By what date must Pike file the motion for attorney's fees?",
+    "options": [
+      {
+        "t": "March 9, 2026",
+        "why": "Wrong day count. Seven days is the review window for the clerk's taxation of costs, not the fee-motion deadline."
+      },
+      {
+        "t": "March 16, 2026",
+        "why": "Correct. Rule 54(d)(2)(B)(i) requires the motion no later than 14 days after entry of judgment."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Wrong day count. Twenty-eight days is the Rule 59 period, not the Rule 54(d)(2) period."
+      },
+      {
+        "t": "April 1, 2026",
+        "why": "Wrong day count. Thirty days is the Rule 62(a) stay period."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "A claim for attorney's fees under a statute is made by motion (Rule 54(d)(2)(A)). Unless a statute or court order provides otherwise, the motion must be filed no later than 14 days after entry of judgment (Rule 54(d)(2)(B)(i)). March 2 plus 14 days is Monday, March 16, 2026.",
+    "calc": {
+      "mail": false,
+      "from": "2026-03-02",
+      "days": 14,
+      "dir": "after",
+      "answer": "2026-03-16"
+    }
+  },
+  {
+    "id": "post-025",
+    "kind": "issue",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "54(d)(1)",
+        "quote": "The clerk may tax costs on 14 days' notice. On motion served within the next 7 days, the court may review the clerk's action."
+      },
+      {
+        "cite": "54(d)(2)(A)",
+        "quote": "A claim for attorney's fees and related nontaxable expenses must be made by motion unless the substantive law requires those fees to be proved at trial as an element of damages."
+      },
+      {
+        "cite": "54(d)(2)(B)(i)",
+        "quote": "be filed no later than 14 days after the entry of judgment;"
+      }
+    ],
+    "stem": "After a bench trial on a federal-question claim, judgment is entered for Reed against Slate Co. on Monday, March 2, 2026. A federal statute allows the prevailing party to recover attorney's fees. Reed files a bill of costs for filing and copying fees with the clerk. The clerk gives notice on March 10 that costs will be taxed on March 24. Slate may want the court to review the clerk's taxation, and Reed plans to claim attorney's fees. The case involves one claim and two parties, and no default occurred.",
+    "ask": "Which provisions of Rule 54 govern these events? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 54(b)",
+        "why": "Does not apply. The action has one claim and the judgment ends it; no partial final judgment is involved."
+      },
+      {
+        "t": "Rule 54(c)",
+        "why": "Does not apply. It limits default judgments, and the case was tried."
+      },
+      {
+        "t": "Rule 54(d)(1)",
+        "why": "Applies. Costs other than fees go to the prevailing party, and the clerk taxes them on 14 days' notice, with court review on motion served within the next 7 days."
+      },
+      {
+        "t": "Rule 54(d)(2)(A)",
+        "why": "Applies. A claim for statutory attorney's fees must be made by motion."
+      },
+      {
+        "t": "Rule 54(d)(2)(B)(i)",
+        "why": "Applies. The fee motion must be filed no later than 14 days after entry of judgment, here March 16."
+      },
+      {
+        "t": "Rule 54(d)(2)(E)",
+        "why": "Does not apply. It exempts claims for fees as sanctions, and Reed's claim rests on a fee statute."
+      }
+    ],
+    "key": [
+      2,
+      3,
+      4
+    ],
+    "explain": "Reed is the prevailing party, so Rule 54(d)(1) governs the taxation of ordinary costs by the clerk on 14 days' notice, with court review on a motion served within the next 7 days. The statutory fee claim is made by motion under Rule 54(d)(2)(A), filed within 14 days after entry under Rule 54(d)(2)(B)(i)."
+  },
+  {
+    "id": "post-026",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "55(a)",
+        "quote": "When a party against whom a judgment for affirmative relief is sought has failed to plead or otherwise defend, and that failure is shown by affidavit or otherwise, the clerk must enter the party's default."
+      }
+    ],
+    "stem": "Park sues Hale Co. and serves the summons and complaint on March 2, 2026. Sixty days pass and Hale does not answer, move, or otherwise respond. Park files an affidavit showing Hale's failure to plead or otherwise defend and asks that Hale's default be entered. Park's lawyer is unsure whether the judge or the clerk acts.",
+    "ask": "Who must enter Hale's default?",
+    "options": [
+      {
+        "t": "Only the judge, after a hearing on the failure to respond.",
+        "why": "Rule 55(a) assigns the entry of default to the clerk, and no hearing is required."
+      },
+      {
+        "t": "The clerk, but only after Park serves Hale with written notice 7 days before.",
+        "why": "The 7-day notice is a Rule 55(b)(2) requirement for default judgment hearings, not for entry of default."
+      },
+      {
+        "t": "The judge, who may enter the default only after Park moves for a default judgment.",
+        "why": "Reverses the sequence. The default is entered first under Rule 55(a); judgment comes under Rule 55(b)."
+      },
+      {
+        "t": "The clerk must enter it, because Hale's failure to defend is shown by affidavit.",
+        "why": "Correct. Rule 55(a) says the clerk \"must\" enter the default."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 55(a) provides that when a party has failed to plead or otherwise defend, and the failure is shown by affidavit or otherwise, \"the clerk must enter the party's default.\" Park's affidavit shows Hale's failure, so the clerk acts; no judge or notice is needed at this stage."
+  },
+  {
+    "id": "post-027",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "55(b)(1)",
+        "quote": "If the plaintiff's claim is for a sum certain or a sum that can be made certain by computation, the clerk—on the plaintiff's request, with an affidavit showing the amount due—must enter judgment for that amount and costs"
+      }
+    ],
+    "stem": "Vista Bank sues Dunn, an adult, on a promissory note for $18,400, a sum that can be made certain by computation from the note's terms. Dunn is properly served but never appears, and the clerk enters Dunn's default. Vista asks the clerk to enter judgment for the amount due plus costs and files an affidavit showing the amount due.",
+    "ask": "Who may enter the default judgment?",
+    "options": [
+      {
+        "t": "The clerk, who must enter judgment for that amount and costs on Vista's request.",
+        "why": "Correct. The claim is a sum made certain by computation, and Dunn is an adult who did not appear."
+      },
+      {
+        "t": "Only the court, after a hearing and 7 days' written notice to Dunn.",
+        "why": "That is the Rule 55(b)(2) path for claims not within (b)(1); Dunn never appeared and the claim is a sum certain."
+      },
+      {
+        "t": "The court, because a default judgment is always a matter for the judge's discretion.",
+        "why": "Wrong. Under Rule 55(b)(1) the clerk \"must enter judgment\" on a sum-certain claim against a defaulted adult who did not appear."
+      },
+      {
+        "t": "The clerk, but only if Dunn consents in writing.",
+        "why": "Invents a consent requirement. Rule 55(b)(1) requires the plaintiff's request and affidavit."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 55(b)(1) requires the clerk, on the plaintiff's request with an affidavit showing the amount due, to enter judgment for the amount and costs when the claim is for a sum certain or one made certain by computation and the defendant defaulted for not appearing and is neither a minor nor an incompetent person."
+  },
+  {
+    "id": "post-028",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "55(b)(2)",
+        "quote": "If the party against whom a default judgment is sought has appeared personally or by a representative, that party or its representative must be served with written notice of the application at least 7 days before the hearing."
+      }
+    ],
+    "stem": "Rowe sues Fisk Co. for unliquidated damages that require proof. Fisk appears through a lawyer early in the case but then stops defending, and the clerk enters its default. Rowe applies to the court for a default judgment, and the court sets the hearing for Wednesday, April 15, 2026. Rowe's lawyer wants to serve the required notice on the last permissible day.",
+    "ask": "By what date must Fisk be served with written notice of Rowe's application?",
+    "options": [
+      {
+        "t": "April 1, 2026",
+        "why": "Wrong day count. Fourteen days appears nowhere in Rule 55(b)(2)."
+      },
+      {
+        "t": "April 10, 2026",
+        "why": "Wrong day count. Five days is not the period in Rule 55(b)(2)."
+      },
+      {
+        "t": "April 8, 2026",
+        "why": "Correct. Rule 55(b)(2) requires service of written notice at least 7 days before the hearing; counting back from April 15 gives April 8."
+      },
+      {
+        "t": "April 14, 2026",
+        "why": "Wrong day count. One day's notice does not satisfy the 7-day requirement."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "The claim is not for a sum certain, so the party must apply to the court under Rule 55(b)(2). Because Fisk has appeared by a representative, it must be served with written notice of the application at least 7 days before the hearing. Counting back from April 15 gives Wednesday, April 8.",
+    "calc": {
+      "mail": false,
+      "from": "2026-04-15",
+      "days": 7,
+      "dir": "before",
+      "answer": "2026-04-08"
+    }
+  },
+  {
+    "id": "post-029",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "55(c)",
+        "quote": "The court may set aside an entry of default for good cause, and it may set aside a final default judgment under Rule 60(b)."
+      }
+    ],
+    "stem": "The clerk enters Brook Inc.'s default on Monday, March 2, 2026, after Brook misses its deadline to answer. No default judgment has been entered. On March 16, Brook moves to set aside the entry of default, explaining that its insurer failed to forward the complaint. The plaintiff, Park, opposes, arguing that Brook must satisfy the grounds of Rule 60(b) because it seeks relief from a default.",
+    "ask": "What standard governs Brook's motion?",
+    "options": [
+      {
+        "t": "The grounds in Rule 60(b), because any default requires relief under Rule 60(b).",
+        "why": "Rule 55(c) distinguishes: Rule 60(b) governs setting aside a final default judgment, not an entry of default."
+      },
+      {
+        "t": "None; an entry of default cannot be set aside until judgment is entered.",
+        "why": "Wrong. Rule 55(c) expressly allows the court to set aside an entry of default."
+      },
+      {
+        "t": "Good cause under Rule 55(c), because only an entry of default has been made.",
+        "why": "Correct. Rule 55(c) lets the court set aside an entry of default for good cause; Rule 60(b) is for a final default judgment."
+      },
+      {
+        "t": "Rule 59(e), because the motion was filed within 28 days.",
+        "why": "Wrong rule. No judgment exists to alter or amend, and Rule 55(c) addresses entry of default."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 55(c) distinguishes two situations: a court \"may set aside an entry of default for good cause,\" but may set aside a \"final default judgment under Rule 60(b).\" Only the clerk's entry of default exists here, so the good-cause standard governs."
+  },
+  {
+    "id": "post-030",
+    "kind": "issue",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "55(a)",
+        "quote": "the clerk must enter the party's default."
+      },
+      {
+        "cite": "55(b)(2)",
+        "quote": "In all other cases, the party must apply to the court for a default judgment."
+      },
+      {
+        "cite": "55(c)",
+        "quote": "The court may set aside an entry of default for good cause, and it may set aside a final default judgment under Rule 60(b)."
+      }
+    ],
+    "stem": "Jett sues Cray Corp., a private company, for unliquidated damages. Cray is served but never answers, and Jett files an affidavit showing that failure. Before any judgment, Cray's president appears, says the failure to answer resulted from an internal mix-up, and asks the court to undo the default. Jett wants a $200,000 default judgment without a hearing, though his claim is not for a sum certain and requires proof.",
+    "ask": "Which provisions of Rule 55 apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 55(a)",
+        "why": "Applies. Cray failed to plead or otherwise defend, shown by affidavit, so the clerk must enter its default."
+      },
+      {
+        "t": "Rule 55(b)(1)",
+        "why": "Does not apply. The claim is unliquidated and not a sum certain, so the clerk cannot enter judgment."
+      },
+      {
+        "t": "Rule 55(d)",
+        "why": "Does not apply. It concerns default judgments against the United States; Cray is a private company."
+      },
+      {
+        "t": "Rule 55(b)(2)",
+        "why": "Applies. In all other cases the party must apply to the court for a default judgment."
+      },
+      {
+        "t": "Rule 55(c)",
+        "why": "Applies. Before judgment, the court may set aside the entry of default for good cause."
+      }
+    ],
+    "key": [
+      0,
+      3,
+      4
+    ],
+    "explain": "The clerk must enter Cray's default under Rule 55(a). Because the damages are not for a sum certain, Jett must apply to the court under Rule 55(b)(2). Cray's request to undo the entry of default, made before judgment, falls under Rule 55(c)'s good-cause standard. Rules 55(b)(1) and 55(d) are not triggered."
+  },
+  {
+    "id": "post-031",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "58(a)(4)",
+        "quote": "for a new trial, or to alter or amend the judgment, under Rule 59; or"
+      },
+      {
+        "cite": "58(a)",
+        "quote": "Every judgment and amended judgment must be set out in a separate document, but a separate document is not required for an order disposing of a motion:"
+      }
+    ],
+    "stem": "After a jury trial, judgment for Gray against Holt Corp. is set out in a separate document and entered on Monday, March 2, 2026. Holt timely moves for a new trial. On April 6, the court denies the motion in a short written order that is entered in the civil docket but not set out in a separate document. Holt argues that the denial is ineffective because it is not in a separate document.",
+    "ask": "Is Holt's argument correct?",
+    "options": [
+      {
+        "t": "No; a separate document is not required for an order disposing of a Rule 59 motion for a new trial.",
+        "why": "Correct. Rule 58(a)(4) lists it among the orders that need no separate document."
+      },
+      {
+        "t": "Yes; every order must be set out in a separate document to be effective, including orders on motions.",
+        "why": "Overstates Rule 58(a). It exempts orders disposing of listed motions."
+      },
+      {
+        "t": "Yes; the denial of a new-trial motion requires a separate document but not a hearing.",
+        "why": "Wrong. Rule 58(a)(4) is one of the listed exceptions."
+      },
+      {
+        "t": "No; separate documents are required only for a judgment awarding money.",
+        "why": "Invents a limit. Rule 58(a) requires a separate document for every judgment, with listed exceptions."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 58(a) requires every judgment and amended judgment to be set out in a separate document, but not an \"order disposing of a motion . . . for a new trial, or to alter or amend the judgment, under Rule 59.\" The April 6 order denying a new trial is such an order, so Holt's argument fails."
+  },
+  {
+    "id": "post-032",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "58",
+      "59"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "58(c)(2)",
+        "quote": "if a separate document is required, when the judgment is entered in the civil docket under Rule 79(a) and the earlier of these events occurs:"
+      },
+      {
+        "cite": "59(e)",
+        "quote": "A motion to alter or amend a judgment must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "58(c)(2)(B)",
+        "quote": "150 days have run from the entry in the civil docket."
+      }
+    ],
+    "stem": "After a jury returns a general verdict, the clerk enters a judgment for Noel against Prism Co. in the civil docket on Monday, March 2, 2026. The court never sets the judgment out in a separate document. Prism wants to file a motion to alter or amend the judgment and asks the latest date on which it can do so.",
+    "ask": "By what date must Prism file its motion under Rule 59(e)?",
+    "options": [
+      {
+        "t": "March 30, 2026",
+        "why": "Treats the docket entry as entry of judgment. A separate document is required, so Rule 58(c)(2) controls when judgment is entered."
+      },
+      {
+        "t": "July 30, 2026",
+        "why": "This is when the judgment is entered under Rule 58(c)(2)(B), 150 days after docketing; the 28 days run from there."
+      },
+      {
+        "t": "May 1, 2026",
+        "why": "Wrong day count. Sixty days from docketing is not a period in either rule."
+      },
+      {
+        "t": "August 27, 2026",
+        "why": "Correct. Judgment is deemed entered 150 days after March 2 (July 30), and the Rule 59(e) motion is due 28 days later."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "A judgment on a general verdict requires a separate document. With none, Rule 58(c)(2)(B) deems it entered when 150 days have run from the docket entry: July 30, 2026. Rule 59(e) allows 28 days from entry of judgment, which gives August 27, 2026.",
+    "calc": {
+      "mail": false,
+      "from": "2026-03-02",
+      "days": 178,
+      "dir": "after",
+      "answer": "2026-08-27"
+    }
+  },
+  {
+    "id": "post-033",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "58(b)(2)",
+        "quote": "Subject to Rule 54(b), the court must promptly approve the form of the judgment, which the clerk must promptly enter, when:"
+      }
+    ],
+    "stem": "Following a jury trial, the jury returns a special verdict for Lund against Marlow Inc., answering written questions on liability and damages. The clerk, eager to close the file, prepares a judgment and proposes to sign and enter it without waiting for the judge. Marlow's lawyer objects.",
+    "ask": "What does Rule 58(b) require?",
+    "options": [
+      {
+        "t": "The clerk may enter the judgment without the court's direction, as with any jury verdict.",
+        "why": "Applies the wrong subdivision. The no-direction rule covers general verdicts, costs or a sum certain, and denial of all relief."
+      },
+      {
+        "t": "The court must promptly approve the form of the judgment, and the clerk then enters it.",
+        "why": "Correct. A special verdict falls under Rule 58(b)(2)(A)."
+      },
+      {
+        "t": "Neither the court nor the clerk may act until a party moves for entry of judgment.",
+        "why": "Invents a motion requirement. Rule 58(b) directs prompt entry without one."
+      },
+      {
+        "t": "The parties must jointly approve the form of the judgment before it is entered.",
+        "why": "Invents a requirement. Rule 58(b)(2) calls for the court's approval."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Under Rule 58(b)(2)(A), when a jury returns a special verdict, the court must promptly approve the form of the judgment, and the clerk must then promptly enter it. The clerk's direct-entry authority in Rule 58(b)(1) covers general verdicts, costs or a sum certain, and denial of all relief."
+  },
+  {
+    "id": "post-035",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "57"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "57",
+        "quote": "The existence of another adequate remedy does not preclude a declaratory judgment that is otherwise appropriate."
+      }
+    ],
+    "stem": "Weld Co. sues Arc Power in federal court seeking a declaration of the parties' rights under a supply contract. Arc moves to dismiss, arguing that Weld has an adequate remedy in a damages action for breach, so a declaratory judgment must be denied as a matter of law.",
+    "ask": "Is Arc's argument correct under Rule 57?",
+    "options": [
+      {
+        "t": "Yes; a declaratory judgment is unavailable whenever another adequate remedy exists for the dispute.",
+        "why": "Contradicted by Rule 57: another adequate remedy does not preclude a declaratory judgment."
+      },
+      {
+        "t": "No; another adequate remedy does not preclude an otherwise appropriate declaratory judgment.",
+        "why": "Correct. Rule 57 says so in terms."
+      },
+      {
+        "t": "Yes; but only if the other remedy is a claim for money damages.",
+        "why": "Invents a distinction. Rule 57 says another adequate remedy, of any kind, does not preclude relief."
+      },
+      {
+        "t": "No; but the court must first dismiss any damages claim Weld might later bring.",
+        "why": "Invents a requirement. Rule 57 attaches no such condition."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 57 states that \"the existence of another adequate remedy does not preclude a declaratory judgment that is otherwise appropriate.\" Weld's ability to sue for damages is not a ground to deny a declaration. Whether the declaration is otherwise appropriate is a separate question."
+  },
+  {
+    "id": "post-036",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "57"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "57",
+        "quote": "Rules 38 and 39 govern a demand for a jury trial."
+      }
+    ],
+    "stem": "In a declaratory-judgment action over the meaning of an insurance policy, Barr wants a jury to decide the disputed facts. Barr's opponent, Cobb Mutual, asserts that jury trial is never available in a declaratory-judgment action because the relief is declaratory. Barr asks which rules govern whether and how to demand a jury.",
+    "ask": "Which rules govern Barr's jury demand?",
+    "options": [
+      {
+        "t": "Rule 57 forbids any jury trial in a declaratory-judgment action.",
+        "why": "Wrong. Rule 57 says Rules 38 and 39 govern a jury demand."
+      },
+      {
+        "t": "Only Rule 57, which sets its own jury procedure and displaces other rules.",
+        "why": "Wrong. Rule 57 refers to Rules 38 and 39."
+      },
+      {
+        "t": "Rules 38 and 39 govern, but only if the court has first ordered a speedy hearing of the action.",
+        "why": "Invents a condition. The speedy-hearing sentence is separate."
+      },
+      {
+        "t": "Rules 38 and 39 govern the demand for a jury trial in a declaratory-judgment action.",
+        "why": "Correct. Rule 57 so provides."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 57 provides that \"Rules 38 and 39 govern a demand for a jury trial\" in a declaratory-judgment action. Jury trial is therefore not categorically unavailable; the ordinary demand rules apply. The court's power to order a speedy hearing is a separate sentence and no precondition."
+  },
+  {
+    "id": "post-037",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "61"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "61",
+        "quote": "At every stage of the proceeding, the court must disregard all errors and defects that do not affect any party's substantial rights."
+      }
+    ],
+    "stem": "During a jury trial, Dole Co. objects to a document the court admitted over its objection. After a verdict for Pratt, Dole moves for a new trial, arguing only that the court erred in admitting the document. The court finds that the document was cumulative of other admitted evidence and that its admission did not affect any party's substantial rights.",
+    "ask": "How must the court rule on Dole's motion?",
+    "options": [
+      {
+        "t": "Deny the motion; the court must disregard errors that do not affect substantial rights.",
+        "why": "Correct. Rule 61 directs the court to disregard such errors."
+      },
+      {
+        "t": "Grant the motion, because any error in admitting evidence is ground for a new trial.",
+        "why": "Contradicted by Rule 61: no error in admitting evidence is ground for a new trial unless it affects substantial rights or justice requires otherwise."
+      },
+      {
+        "t": "Deny the motion only if Dole failed to object at trial.",
+        "why": "Invents an objection requirement for Rule 61 and the facts show Dole did object."
+      },
+      {
+        "t": "Hold a hearing, because Rule 61 gives the court discretion to grant a new trial for harmless error.",
+        "why": "Wrong. Rule 61 says the court \"must disregard\" errors that do not affect substantial rights."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 61 provides that, unless justice requires otherwise, no error in admitting or excluding evidence is ground for a new trial, and that the court \"must disregard all errors and defects that do not affect any party's substantial rights.\" The admission was harmless, so the motion is denied."
+  },
+  {
+    "id": "post-038",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "61"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "61",
+        "quote": "Unless justice requires otherwise, no error in admitting or excluding evidence—or any other error by the court or a party—is ground for granting a new trial, for setting aside a verdict, or for vacating, modifying, or otherwise disturbing a judgment or order."
+      }
+    ],
+    "stem": "Months before trial, Reeve files a pretrial statement that leaves out a one-line section heading the court's scheduling order calls for. Sloan moves to strike the whole statement, arguing that Rule 61 helps only after a verdict and is irrelevant to pretrial practice. Sloan shows no prejudice from the omission. Nothing suggests that justice requires an exception.",
+    "ask": "How should the court treat the omission?",
+    "options": [
+      {
+        "t": "Strike the statement, because Rule 61 applies only after a verdict.",
+        "why": "Wrong. Rule 61 applies \"at every stage of the proceeding.\""
+      },
+      {
+        "t": "Strike the statement, because Rule 61 protects only errors by the court and not errors made by a party.",
+        "why": "Wrong. Rule 61 covers \"any other error by the court or a party.\""
+      },
+      {
+        "t": "Disregard the omission, because the court must disregard errors that do not affect substantial rights.",
+        "why": "Correct. Sloan shows no effect on substantial rights."
+      },
+      {
+        "t": "Disregard the omission only if Sloan consents.",
+        "why": "Invents a consent requirement. Rule 61 does not condition the duty to disregard on consent."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 61 directs that \"at every stage of the proceeding, the court must disregard all errors and defects that do not affect any party's substantial rights,\" and it reaches errors \"by the court or a party.\" The omission affects no substantial right of Sloan, so the court disregards it."
+  },
+  {
+    "id": "post-039",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "62(a)",
+        "quote": "Except as provided in Rule 62(c) and (d), execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      }
+    ],
+    "stem": "Judgment for $90,000 is entered for Moll against Nest Co. on Monday, March 2, 2026. The court does not order otherwise, and no bond is posted. Moll's lawyer wants to know how long Nest is automatically protected from execution.",
+    "ask": "What is the last day of the automatic stay of execution?",
+    "options": [
+      {
+        "t": "March 16, 2026",
+        "why": "Wrong day count. Fourteen days is not the Rule 62(a) period."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Wrong day count. Twenty-eight days is the Rule 59 period, not the stay period."
+      },
+      {
+        "t": "April 1, 2026",
+        "why": "Correct. Rule 62(a) stays execution for 30 days after entry; March 2 plus 30 days is Wednesday, April 1."
+      },
+      {
+        "t": "May 1, 2026",
+        "why": "Wrong day count. Sixty days is not the Rule 62(a) period."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 62(a) stays execution and enforcement proceedings for 30 days after entry of the judgment unless the court orders otherwise. Counting 30 days from March 2 (excluding the day of entry) ends Wednesday, April 1, 2026.",
+    "calc": {
+      "mail": false,
+      "from": "2026-03-02",
+      "days": 30,
+      "dir": "after",
+      "answer": "2026-04-01"
+    }
+  },
+  {
+    "id": "post-040",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "62(b)",
+        "quote": "The stay takes effect when the court approves the bond or other security and remains in effect for the time specified in the bond or other security."
+      },
+      {
+        "cite": "62(b)",
+        "quote": "At any time after judgment is entered, a party may obtain a stay by providing a bond or other security."
+      }
+    ],
+    "stem": "Judgment for $75,000 is entered for Ulm against Heron Foods on Monday, March 2, 2026. On April 6, after the 30-day automatic stay has expired, Heron tenders a bond to the clerk and asks for a stay. The court approves the bond on April 10, and the bond is written to last 12 months. On April 8, Ulm serves a writ of execution on Heron's bank account.",
+    "ask": "Is the April 8 execution subject to a stay by bond?",
+    "options": [
+      {
+        "t": "No; the stay took effect only when the court approved the bond on April 10, after the execution.",
+        "why": "Correct. Heron's bond did not stay the April 8 execution."
+      },
+      {
+        "t": "Yes; the stay took effect when Heron tendered the bond on April 6.",
+        "why": "Wrong trigger. Under Rule 62(b) the stay takes effect when the court approves the bond."
+      },
+      {
+        "t": "No; a stay by bond is available only during the 30-day automatic stay, which expired before Heron acted.",
+        "why": "Wrong. Rule 62(b) permits a bond at any time after judgment is entered."
+      },
+      {
+        "t": "Yes; any tendered bond stays execution automatically for 30 days.",
+        "why": "Invents a stay. Rule 62(b) requires court approval, and the 30-day stay is Rule 62(a)."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 62(b) allows a party to obtain a stay by bond at any time after judgment is entered, but the stay \"takes effect when the court approves the bond.\" Approval came April 10, two days after Ulm's April 8 execution, which the automatic stay (expired April 1) no longer protected."
+  },
+  {
+    "id": "post-041",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "62(c)",
+        "quote": "Unless the court orders otherwise, the following are not stayed after being entered, even if an appeal is taken:"
+      },
+      {
+        "cite": "62(a)",
+        "quote": "Except as provided in Rule 62(c) and (d), execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      }
+    ],
+    "stem": "After a bench trial, the court enters a final judgment on Monday, March 2, 2026 permanently enjoining Brack Co. from dumping waste in a river. The judgment is silent about any stay. On March 10, Brack announces that it will continue operating as before, arguing that all proceedings to enforce the judgment are automatically stayed for 30 days after entry under Rule 62(a).",
+    "ask": "Is Brack correct?",
+    "options": [
+      {
+        "t": "Yes; Rule 62(a) stays enforcement of every kind of judgment, including an injunction, for 30 days after its entry.",
+        "why": "Ignores the exception. Rule 62(a) applies \"except as provided in Rule 62(c) and (d).\""
+      },
+      {
+        "t": "Yes, but only if Brack posts security under Rule 65(c).",
+        "why": "Wrong rule. Rule 65(c) concerns the movant's security for an injunction, not a stay of one."
+      },
+      {
+        "t": "No; an injunction judgment is stayed only after an appeal is taken.",
+        "why": "Wrong. Rule 62(c) says it is not stayed after being entered \"even if an appeal is taken.\""
+      },
+      {
+        "t": "No; Rule 62(a) excepts Rule 62(c), and an injunction judgment is not stayed unless the court orders so.",
+        "why": "Correct. Rule 62(c)(1) removes the automatic stay for such judgments."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 62(a) is subject to Rule 62(c). Under Rule 62(c)(1), a final judgment in an action for an injunction is not stayed after entry, even if an appeal is taken, unless the court orders otherwise. Brack's reliance on the 30-day automatic stay fails."
+  },
+  {
+    "id": "post-042",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "62(d)",
+        "quote": "While an appeal is pending from an interlocutory order or final judgment that grants, continues, modifies, refuses, dissolves, or refuses to dissolve or modify an injunction, the court may suspend, modify, restore, or grant an injunction on terms for bond or other terms that secure the opposing party's rights."
+      }
+    ],
+    "stem": "The district court denies Lark Corp.'s motion for a preliminary injunction against Mead Inc., and Lark appeals from that interlocutory order. While the appeal is pending, Lark returns to the district court and asks it to grant an injunction pending appeal, offering to post security to protect Mead.",
+    "ask": "May the district court grant the injunction?",
+    "options": [
+      {
+        "t": "No; the pending appeal strips the district court of all power over injunctions in the case until the appeal is finally resolved.",
+        "why": "Wrong. Rule 62(d) preserves the court's power during such an appeal."
+      },
+      {
+        "t": "Yes; during an appeal from an order refusing an injunction, the court may grant one on terms securing Mead's rights.",
+        "why": "Correct. Rule 62(d) covers an appeal from an order that refuses an injunction."
+      },
+      {
+        "t": "Yes, but only with leave of the court of appeals, which must first approve the injunction terms.",
+        "why": "Invents a requirement. Rule 62(d) gives the district court this power on its own terms."
+      },
+      {
+        "t": "Yes, and it may do so without any terms for bond or security.",
+        "why": "Ignores the condition. The injunction is granted on terms for bond or other terms that secure the opposing party's rights."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 62(d) provides that while an appeal is pending from an order that \"refuses\" an injunction, the court \"may suspend, modify, restore, or grant an injunction on terms for bond or other terms that secure the opposing party's rights.\" The district court may grant the injunction on such terms."
+  },
+  {
+    "id": "post-044",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "62.1"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "62.1(a)",
+        "quote": "If a timely motion is made for relief that the court lacks authority to grant because of an appeal that has been docketed and is pending, the court may:"
+      },
+      {
+        "cite": "62.1(a)(3)",
+        "quote": "state either that it would grant the motion if the court of appeals remands for that purpose or that the motion raises a substantial issue."
+      }
+    ],
+    "stem": "Judgment for Ness against Tamm Co. is entered on Monday, March 2, 2026, and Tamm appeals; the appeal is docketed and pending. Tamm then timely moves in the district court for relief under Rule 60(b)(2), citing newly discovered evidence. Because of the pending appeal, the district court lacks authority to grant the motion, though the judge thinks it has merit.",
+    "ask": "What may the district court do under Rule 62.1?",
+    "options": [
+      {
+        "t": "Grant the motion and vacate the judgment now.",
+        "why": "Impossible. The premise is that the court lacks authority to grant relief while the appeal is pending."
+      },
+      {
+        "t": "State that it would grant the motion if the court of appeals remands for that purpose.",
+        "why": "Correct. That is one of the three options in Rule 62.1(a)."
+      },
+      {
+        "t": "Defer considering the motion only; it may neither deny it nor state how it would rule on remand.",
+        "why": "Too narrow. Rule 62.1(a) lets the court defer, deny, or state how it would rule."
+      },
+      {
+        "t": "Dismiss the motion with prejudice, because it may do nothing else.",
+        "why": "Wrong. Rule 62.1(a) lists defer, deny, or state; none is dismissal with prejudice by necessity."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "When a timely motion seeks relief the court lacks authority to grant because of a docketed, pending appeal, Rule 62.1(a) lets the court defer considering it, deny it, or state that it would grant the motion if the court of appeals remands or that the motion raises a substantial issue. The judge may so state."
+  },
+  {
+    "id": "post-045",
+    "kind": "apply",
+    "topic": "post",
+    "rules": [
+      "63"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "63",
+        "quote": "In a hearing or a nonjury trial, the successor judge must, at a party's request, recall any witness whose testimony is material and disputed and who is available to testify again without undue burden."
+      }
+    ],
+    "stem": "Judge Ames begins a nonjury trial between Taft and Lund Co. After four days of testimony, Judge Ames becomes seriously ill and cannot continue. Judge Beck certifies familiarity with the record and determines the case can be completed without prejudice to the parties. Lund asks Judge Beck to recall Wynn, a witness whose testimony was material and disputed and who is available to testify again without undue burden. Judge Beck says she can simply read the transcript.",
+    "ask": "Must Judge Beck recall Wynn?",
+    "options": [
+      {
+        "t": "No; recall is entirely within the successor judge's discretion.",
+        "why": "Wrong. Rule 63 says the successor judge \"must\" recall such a witness at a party's request."
+      },
+      {
+        "t": "No; a successor judge may never take over a trial that is already under way, and must start over.",
+        "why": "Wrong. Rule 63 allows any other judge to proceed after certifying familiarity with the record."
+      },
+      {
+        "t": "Yes, but only if both parties request it.",
+        "why": "Invents a requirement. Rule 63 requires only a party's request."
+      },
+      {
+        "t": "Yes; in a nonjury trial the successor judge must recall such a witness at a party's request.",
+        "why": "Correct. Each of Rule 63's conditions is met."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 63 lets a successor judge proceed after certifying familiarity with the record and finding no prejudice. In a nonjury trial the successor \"must, at a party's request, recall any witness whose testimony is material and disputed and who is available to testify again without undue burden.\" Wynn meets all conditions."
+  },
+  {
+    "id": "post-046",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "64"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "64(a)",
+        "quote": "At the commencement of and throughout an action, every remedy is available that, under the law of the state where the court is located, provides for seizing a person or property to secure satisfaction of the potential judgment."
+      }
+    ],
+    "stem": "Cask sues Dunmore in federal court in State X for $400,000 for unpaid goods. At the start of the case, Cask fears Dunmore will move his assets. State X law lets a plaintiff obtain attachment of a defendant's property at the commencement of an action to secure a potential judgment. No federal statute applies.",
+    "ask": "May Cask obtain attachment in the federal action?",
+    "options": [
+      {
+        "t": "Yes; Rule 64(a) makes State X's seizure remedies available from the start of the federal action.",
+        "why": "Correct. Rule 64(a) incorporates the law of the state where the court sits, absent a governing federal statute."
+      },
+      {
+        "t": "No; attachment is available only after judgment is entered, under Rule 69, and never while the action is still pending.",
+        "why": "Wrong. Rule 64(a) makes state seizure remedies available \"at the commencement of and throughout an action.\""
+      },
+      {
+        "t": "No; Rule 65 injunctions are the only pre-judgment remedy in federal court.",
+        "why": "Wrong. Rule 64 separately makes state-law seizure remedies available."
+      },
+      {
+        "t": "Yes, but only after Cask first wins a preliminary injunction.",
+        "why": "Invents a precondition. Rule 64(a) attaches none."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 64(a) makes available, at commencement and throughout the action, every remedy that the law of the state where the court is located provides for seizing a person or property to secure satisfaction of the potential judgment, unless a federal statute governs. Attachment is listed in Rule 64(b), so Cask may seek it."
+  },
+  {
+    "id": "post-047",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "64"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "64(b)",
+        "quote": "The remedies available under this rule include the following—however designated and regardless of whether state procedure requires an independent action:"
+      }
+    ],
+    "stem": "In a federal action in State Y, Fisk seeks a pre-judgment garnishment of Moro's bank account. State Y law would allow garnishment only by filing a separate lawsuit for that purpose, not by motion in the main case. No federal statute applies. Moro argues that Fisk therefore cannot obtain garnishment in the pending federal action.",
+    "ask": "Is Moro correct?",
+    "options": [
+      {
+        "t": "Yes; a federal court must follow State Y's requirement that garnishment be sought in a separate independent action.",
+        "why": "Rule 64(b) makes the listed remedies available \"regardless of whether state procedure requires an independent action.\""
+      },
+      {
+        "t": "No; garnishment is not one of the remedies available under Rule 64.",
+        "why": "Wrong. Rule 64(b) lists garnishment."
+      },
+      {
+        "t": "No; Rule 64 makes garnishment available regardless of whether state procedure requires an independent action.",
+        "why": "Correct. Fisk may seek it in the pending action."
+      },
+      {
+        "t": "Yes; garnishment is available only after judgment.",
+        "why": "Wrong. Rule 64(a) reaches remedies at the commencement of and throughout the action."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 64(b) lists garnishment among the available remedies \"however designated and regardless of whether state procedure requires an independent action.\" State Y's separate-suit requirement therefore does not stop Fisk from seeking garnishment by motion in the pending federal action."
+  },
+  {
+    "id": "post-048",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "65(a)(1)",
+        "quote": "The court may issue a preliminary injunction only on notice to the adverse party."
+      }
+    ],
+    "stem": "Gale Co. sues Fenn Inc. to stop Fenn's use of a trade name and moves for a preliminary injunction. Gale's lawyer, who has the phone number of Fenn's lawyer, asks the court to grant the preliminary injunction today without telling Fenn, saying that Gale expects to lose business.",
+    "ask": "May the court issue a preliminary injunction without notice to Fenn?",
+    "options": [
+      {
+        "t": "Yes, if Gale's affidavit shows immediate and irreparable injury before Fenn can be heard.",
+        "why": "Conflates two rules. That showing supports a temporary restraining order without notice under Rule 65(b), not a preliminary injunction."
+      },
+      {
+        "t": "Yes, if Gale's lawyer certifies in writing the efforts made to give notice.",
+        "why": "Same conflation. The certification is a Rule 65(b)(1)(B) requirement for a TRO without notice."
+      },
+      {
+        "t": "No; the court may issue a preliminary injunction only on notice to the adverse party.",
+        "why": "Correct. Rule 65(a)(1) allows no preliminary injunction without notice."
+      },
+      {
+        "t": "No, unless Gale first consolidates the hearing with the trial on the merits.",
+        "why": "Wrong. Consolidation under Rule 65(a)(2) is optional and does not dispense with notice."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 65(a)(1) allows a preliminary injunction \"only on notice to the adverse party.\" The no-notice route in Rule 65(b) is limited to temporary restraining orders. Gale cannot obtain a preliminary injunction without telling Fenn."
+  },
+  {
+    "id": "post-049",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "65(b)(2)",
+        "quote": "The order expires at the time after entry—not to exceed 14 days—that the court sets, unless before that time the court, for good cause, extends it for a like period or the adverse party consents to a longer extension."
+      }
+    ],
+    "stem": "On Monday, March 2, 2026, the court issues a temporary restraining order against Zed Co. without notice, on a verified complaint showing immediate and irreparable injury and counsel's written certification of efforts to give notice. The order states its date and hour and the reasons, but provides that it will remain in effect for 30 days. Zed has not consented to any extension.",
+    "ask": "Is the 30-day duration permitted?",
+    "options": [
+      {
+        "t": "No; it expires at the time the court sets, not to exceed 14 days, unless properly extended or Zed consents.",
+        "why": "Correct. Neither exception has occurred."
+      },
+      {
+        "t": "Yes; no limit applies once the court finds irreparable injury and states its reasons in the order.",
+        "why": "Wrong. Rule 65(b)(2) caps a no-notice TRO at 14 days absent a proper extension or consent."
+      },
+      {
+        "t": "No; the order may last no more than 10 days.",
+        "why": "Wrong day count. The period is 14 days."
+      },
+      {
+        "t": "Yes; a TRO issued without notice may last until the preliminary-injunction hearing, whenever the court sets it.",
+        "why": "Wrong. The expiration time may not exceed 14 days unless properly extended or Zed consents."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Under Rule 65(b)(2), a TRO issued without notice expires at the time the court sets, \"not to exceed 14 days,\" unless the court, for good cause, extends it for a like period before it expires, or the adverse party consents to a longer extension. A 30-day term with no consent is not permitted."
+  },
+  {
+    "id": "post-050",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "65(c)",
+        "quote": "The United States, its officers, and its agencies are not required to give security."
+      }
+    ],
+    "stem": "The United States, through a federal agency, sues Varo Chemical Co. to stop certain discharges and moves for a preliminary injunction. After a noticed hearing, the court is prepared to grant it. Varo asks the court to require the agency to give security to pay costs and damages if Varo is found to have been wrongfully enjoined.",
+    "ask": "Must the agency give security?",
+    "options": [
+      {
+        "t": "Yes; Rule 65(c) requires security from every movant for a preliminary injunction.",
+        "why": "Overlooks the last sentence of Rule 65(c), which excepts the United States."
+      },
+      {
+        "t": "Yes, but only if the adverse party asks for it, as Varo has.",
+        "why": "Invents a request requirement and ignores the exception."
+      },
+      {
+        "t": "Yes; the exemption covers only a temporary restraining order, not a preliminary injunction.",
+        "why": "Wrong. The exemption covers preliminary injunctions and TROs alike."
+      },
+      {
+        "t": "No; the United States, its officers, and its agencies are not required to give security.",
+        "why": "Correct. Rule 65(c) says so in terms."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 65(c) requires a movant to give security before a court issues a preliminary injunction or TRO, but \"the United States, its officers, and its agencies are not required to give security.\" The agency need not give security despite Varo's request."
+  },
+  {
+    "id": "post-051",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "65(d)(2)",
+        "quote": "The order binds only the following who receive actual notice of it by personal service or otherwise:"
+      },
+      {
+        "cite": "65(d)(2)(B)",
+        "quote": "the parties' officers, agents, servants, employees, and attorneys; and"
+      }
+    ],
+    "stem": "The court enjoins Orion Corp. from shipping a product. Cole, a warehouse employee of Orion who is not named in the order, learns of the injunction from his supervisor's email the same day and ships the product anyway. Cole argues he is not bound because he was not a named party and was never personally served.",
+    "ask": "Is Cole bound by the injunction?",
+    "options": [
+      {
+        "t": "No; the order binds only the parties named in it.",
+        "why": "Wrong. Rule 65(d)(2)(B) also binds a party's employees who receive actual notice."
+      },
+      {
+        "t": "Yes; the order binds an employee of a party who receives actual notice of it.",
+        "why": "Correct. Cole is Orion's employee and had actual notice by email."
+      },
+      {
+        "t": "No; only persons served with the order personally are bound.",
+        "why": "Wrong. Actual notice \"by personal service or otherwise\" suffices."
+      },
+      {
+        "t": "Yes, but only if Cole is shown to be in active concert with Orion's attorneys.",
+        "why": "Misreads the structure. Employees are bound under (d)(2)(B) on actual notice; active concert is a separate category."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 65(d)(2) binds the parties; the parties' officers, agents, servants, employees, and attorneys; and persons in active concert with them, but only those who receive actual notice \"by personal service or otherwise.\" Cole is an Orion employee with actual notice, so he is bound."
+  },
+  {
+    "id": "post-052",
+    "kind": "issue",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "65(b)(1)",
+        "quote": "The court may issue a temporary restraining order without written or oral notice to the adverse party or its attorney only if:"
+      },
+      {
+        "cite": "65(b)(4)",
+        "quote": "On 2 days' notice to the party who obtained the order without notice—or on shorter notice set by the court—the adverse party may appear and move to dissolve or modify the order."
+      },
+      {
+        "cite": "65(c)",
+        "quote": "The court may issue a preliminary injunction or a temporary restraining order only if the movant gives security in an amount that the court considers proper to pay the costs and damages sustained by any party found to have been wrongfully enjoined or restrained."
+      }
+    ],
+    "stem": "Ross Labs sues Vale Corp. and, with a verified complaint, moves for a temporary restraining order without notice, asserting immediate irreparable injury before Vale can be heard. Ross's attorney certifies in writing her efforts to notify Vale and why notice should not be required. The court issues the order at 4:15 p.m. on Tuesday, March 3, 2026, after Ross gives security in an amount the court sets. Vale learns of the order the next morning and wants to appear and move to dissolve it.",
+    "ask": "Which provisions of Rule 65 apply to these events? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 65(a)(2)",
+        "why": "Does not apply. It concerns consolidating a preliminary-injunction hearing with trial; none is requested."
+      },
+      {
+        "t": "Rule 65(c)",
+        "why": "Applies. A TRO may issue only if the movant gives security in an amount the court considers proper, and Ross did."
+      },
+      {
+        "t": "Rule 65(f)",
+        "why": "Does not apply. It concerns copyright-impoundment proceedings."
+      },
+      {
+        "t": "Rule 65(b)(1)",
+        "why": "Applies. A TRO without notice needs an affidavit or verified complaint showing immediate irreparable injury and the attorney's written certification."
+      },
+      {
+        "t": "Rule 65(e)(1)",
+        "why": "Does not apply. It preserves federal statutes about employer-employee actions, and none is involved."
+      },
+      {
+        "t": "Rule 65(b)(4)",
+        "why": "Applies. On 2 days' notice to Ross, or shorter notice set by the court, Vale may appear and move to dissolve or modify the order."
+      }
+    ],
+    "key": [
+      1,
+      3,
+      5
+    ],
+    "explain": "The no-notice TRO satisfies Rule 65(b)(1) (verified complaint and attorney certification), requires security under Rule 65(c), and exposes the order to a dissolution motion by Vale on 2 days' notice under Rule 65(b)(4). Rules 65(a)(2), 65(e)(1), and 65(f) have no connection to the facts."
+  },
+  {
+    "id": "post-053",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "67"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "67(a)",
+        "quote": "a party—on notice to every other party and by leave of court—may deposit with the court all or part of the money or thing, whether or not that party claims any of it."
+      }
+    ],
+    "stem": "Hart Insurance holds $20,000 in policy proceeds claimed by two rivals, Ivy and Joss, in a federal action in which Ivy seeks a money judgment against Hart. Hart claims none of the money and wants to deposit it with the court. Hart's lawyer plans simply to hand the check to the clerk.",
+    "ask": "What must Hart do to deposit the money?",
+    "options": [
+      {
+        "t": "Nothing more; any party may deposit funds with the clerk as of right, with no notice or order needed.",
+        "why": "Wrong. Rule 67(a) requires notice to every other party and leave of court."
+      },
+      {
+        "t": "Give notice to every other party and get leave of court, then deliver the deposit order to the clerk.",
+        "why": "Correct. That is the Rule 67(a) procedure."
+      },
+      {
+        "t": "Nothing; Hart cannot deposit because it claims none of the money.",
+        "why": "Wrong. Rule 67(a) allows a deposit \"whether or not that party claims any of it.\""
+      },
+      {
+        "t": "Wait until judgment is entered; deposit is available only after judgment has fixed who is entitled to the money.",
+        "why": "Wrong. Rule 67(a) applies while part of the relief sought is a money judgment or a sum of money."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Under Rule 67(a), a party seeking a money judgment or disposition of a sum of money may, \"on notice to every other party and by leave of court,\" deposit the money with the court, \"whether or not that party claims any of it,\" and must deliver a copy of the order permitting deposit to the clerk."
+  },
+  {
+    "id": "post-054",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "68(a)",
+        "quote": "At least 14 days before the date set for trial, a party defending against a claim may serve on an opposing party an offer to allow judgment on specified terms, with the costs then accrued."
+      }
+    ],
+    "stem": "Rainier sues Cobalt Inc. for breach of contract. Trial is set for Monday, April 20, 2026. Cobalt, the defending party, wants to serve an offer to allow judgment on specified terms, with the costs then accrued, and wants to do so on the last day the rule permits.",
+    "ask": "What is the last day on which Cobalt may serve the offer?",
+    "options": [
+      {
+        "t": "April 13, 2026",
+        "why": "Wrong day count. Seven days before trial is not the Rule 68(a) cutoff."
+      },
+      {
+        "t": "April 17, 2026",
+        "why": "Wrong day count. Three days before trial is not the Rule 68(a) cutoff."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Wrong day count. Twenty-one days is not the Rule 68(a) period."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Correct. Rule 68(a) requires service at least 14 days before the date set for trial; April 20 minus 14 days is Monday, April 6."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 68(a) allows a defending party to serve an offer of judgment \"at least 14 days before the date set for trial.\" Counting back 14 days from Monday, April 20, 2026 gives Monday, April 6, 2026.",
+    "calc": {
+      "mail": false,
+      "from": "2026-04-20",
+      "days": 14,
+      "dir": "before",
+      "answer": "2026-04-06"
+    }
+  },
+  {
+    "id": "post-055",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "68(a)",
+        "quote": "If, within 14 days after being served, the opposing party serves written notice accepting the offer, either party may then file the offer and notice of acceptance, plus proof of service. The clerk must then enter judgment."
+      }
+    ],
+    "stem": "Cobalt serves a timely Rule 68 offer to allow judgment against it for $30,000 plus costs then accrued. Within 10 days after being served, Rainier serves written notice accepting the offer. Cobalt's lawyer insists that the judge must first approve any judgment on the offer and that Rainier's acceptance came too early.",
+    "ask": "What happens next under Rule 68(a)?",
+    "options": [
+      {
+        "t": "Either party may file the papers, and the clerk must then enter judgment.",
+        "why": "Correct. Acceptance within 14 days after service triggers this procedure."
+      },
+      {
+        "t": "The case goes to trial, because an acceptance requires the court's approval.",
+        "why": "Wrong. Rule 68(a) directs the clerk to enter judgment."
+      },
+      {
+        "t": "Only Cobalt may file the papers, and the court then decides whether to enter judgment.",
+        "why": "Wrong. Either party may file, and the clerk must enter judgment."
+      },
+      {
+        "t": "The acceptance is void because the offeree must wait the full 14 days before accepting.",
+        "why": "Misreads the period. Fourteen days is the outside limit for acceptance, not a waiting period."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 68(a) gives the offeree 14 days after service to serve written notice of acceptance. Rainier did so on day 10. Either party may then file the offer, notice of acceptance, and proof of service, and \"the clerk must then enter judgment.\" No court approval is required, and early acceptance is valid."
+  },
+  {
+    "id": "post-056",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "68(d)",
+        "quote": "If the judgment that the offeree finally obtains is not more favorable than the unaccepted offer, the offeree must pay the costs incurred after the offer was made."
+      }
+    ],
+    "stem": "Cobalt serves a timely Rule 68 offer to allow judgment against it for $50,000 plus costs then accrued. Rainier does not accept within 14 days, and the case is tried. The final judgment for Rainier is $42,000, counting all costs accrued before the offer. Costs of $12,000 were incurred after the offer was made.",
+    "ask": "What does Rule 68(d) require?",
+    "options": [
+      {
+        "t": "Rainier must pay all costs of both sides, including those incurred before the offer.",
+        "why": "Overreaches. Rule 68(d) shifts only the costs incurred after the offer was made."
+      },
+      {
+        "t": "Nothing; Rule 68(d) applies only if the offeree loses outright.",
+        "why": "Wrong. It applies whenever the judgment is not more favorable than the offer."
+      },
+      {
+        "t": "Rainier must pay the costs incurred after the offer was made.",
+        "why": "Correct. The judgment finally obtained was not more favorable than the unaccepted offer."
+      },
+      {
+        "t": "Cobalt must pay the costs incurred after the offer, because Rainier prevailed.",
+        "why": "Reverses the shift. Rule 68(d) puts the post-offer costs on the offeree who rejected."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 68(d) provides that if the judgment the offeree finally obtains \"is not more favorable than the unaccepted offer, the offeree must pay the costs incurred after the offer was made.\" Rainier's $42,000 judgment is less favorable than the $50,000 offer, so Rainier bears the post-offer costs."
+  },
+  {
+    "id": "post-057",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "68(c)",
+        "quote": "It must be served within a reasonable time—but at least 14 days—before the date set for a hearing to determine the extent of liability."
+      }
+    ],
+    "stem": "In Hoff's suit against Zenith Corp., the court determines that Zenith is liable to Hoff, but the extent of Zenith's liability remains to be decided. A hearing on the extent of liability is set for Monday, June 15, 2026. Zenith, the party held liable, wants to make an offer of judgment and to serve it within a reasonable time and on the last day the rule permits.",
+    "ask": "What is the last day on which Zenith may serve the offer?",
+    "options": [
+      {
+        "t": "June 8, 2026",
+        "why": "Wrong day count. Seven days before the hearing does not satisfy the 14-day minimum."
+      },
+      {
+        "t": "May 25, 2026",
+        "why": "Wrong day count. Twenty-one days is not the Rule 68(c) minimum."
+      },
+      {
+        "t": "June 1, 2026",
+        "why": "Correct. Rule 68(c) requires service at least 14 days before the hearing date; June 15 minus 14 days is Monday, June 1."
+      },
+      {
+        "t": "June 12, 2026",
+        "why": "Wrong day count. Three days before the hearing does not satisfy the 14-day minimum."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "When liability has been determined but its extent remains to be decided, Rule 68(c) lets the party held liable make an offer of judgment, to be served \"within a reasonable time—but at least 14 days—before the date set for a hearing\" on the extent of liability. Fourteen days before June 15 is June 1.",
+    "calc": {
+      "mail": false,
+      "from": "2026-06-15",
+      "days": 14,
+      "dir": "before",
+      "answer": "2026-06-01"
+    }
+  },
+  {
+    "id": "post-058",
+    "kind": "issue",
+    "topic": "remedies",
+    "rules": [
+      "68",
+      "54"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "68(b)",
+        "quote": "Evidence of an unaccepted offer is not admissible except in a proceeding to determine costs."
+      },
+      {
+        "cite": "68(d)",
+        "quote": "If the judgment that the offeree finally obtains is not more favorable than the unaccepted offer, the offeree must pay the costs incurred after the offer was made."
+      },
+      {
+        "cite": "54(d)(1)",
+        "quote": "Unless a federal statute, these rules, or a court order provides otherwise, costs—other than attorney's fees—should be allowed to the prevailing party."
+      }
+    ],
+    "stem": "Pike sues Orsa Co. Orsa serves a timely offer to allow judgment for $50,000 plus costs then accrued. Pike lets 14 days pass without responding. At trial, Pike's lawyer tells the jury that Orsa offered $50,000, arguing that this shows Orsa knew it was liable. Pike wins a judgment of $40,000, including costs accrued before the offer. The court must decide the evidence objection and who bears costs, including those incurred before the offer.",
+    "ask": "Which provisions govern the evidence objection and the allocation of costs? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 68(c)",
+        "why": "Does not apply. It concerns offers after liability has been determined; no such separate determination occurred."
+      },
+      {
+        "t": "Rule 54(c)",
+        "why": "Does not apply. It limits default judgments, and this case was tried."
+      },
+      {
+        "t": "Rule 68(d)",
+        "why": "Applies. The judgment finally obtained is not more favorable than the unaccepted offer, so Pike pays the costs incurred after the offer."
+      },
+      {
+        "t": "Rule 54(d)(2)(B)(i)",
+        "why": "Does not apply. It sets the deadline for a fee motion, which neither question concerns."
+      },
+      {
+        "t": "Rule 68(b)",
+        "why": "Applies. An unaccepted offer is inadmissible except in a proceeding to determine costs, so the jury should not hear it."
+      },
+      {
+        "t": "Rule 54(d)(1)",
+        "why": "Applies. Absent a rule providing otherwise, the prevailing party gets costs, which governs the costs incurred before the offer."
+      }
+    ],
+    "key": [
+      2,
+      4,
+      5
+    ],
+    "explain": "Rule 68(b) bars evidence of an unaccepted offer except in a costs proceeding, so the jury should not have heard it. Because the $40,000 judgment is not more favorable than the offer, Rule 68(d) shifts post-offer costs to Pike. Costs before the offer follow Rule 54(d)(1): they go to the prevailing party."
+  },
+  {
+    "id": "post-059",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "81(c)(2)",
+        "quote": "A defendant who did not answer before removal must answer or present other defenses or objections under these rules within the longest of these periods:"
+      },
+      {
+        "cite": "81(c)(2)(C)",
+        "quote": "7 days after the notice of removal is filed."
+      }
+    ],
+    "stem": "Lane sues Vim Corp. in state court. Vim is served with the summons and complaint on Monday, March 2, 2026, and has not answered. On Friday, March 20, 2026, Vim files a notice of removal to federal court. No court order sets a different schedule.",
+    "ask": "By what date must Vim answer or present other defenses or objections?",
+    "options": [
+      {
+        "t": "March 27, 2026",
+        "why": "Correct. Seven days after the March 20 notice of removal is the longest of the three periods, which also include March 23."
+      },
+      {
+        "t": "March 23, 2026",
+        "why": "This is the 21-day date from service, but a shorter period does not control; the rule gives the longest of the periods."
+      },
+      {
+        "t": "April 3, 2026",
+        "why": "Wrong day count. Fourteen days after removal is not a Rule 81(c)(2) period."
+      },
+      {
+        "t": "April 10, 2026",
+        "why": "Wrong trigger. Twenty-one days runs from service, not from the notice of removal."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 81(c)(2) gives a defendant that had not answered the longest of: 21 days after receiving the initial pleading, 21 days after being served with the summons, or 7 days after the notice of removal is filed. The first two end March 23; the third ends Friday, March 27, the longest.",
+    "calc": {
+      "mail": false,
+      "from": "2026-03-20",
+      "days": 7,
+      "dir": "after",
+      "answer": "2026-03-27"
+    }
+  },
+  {
+    "id": "post-060",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "81(c)(2)",
+        "quote": "A defendant who did not answer before removal must answer or present other defenses or objections under these rules within the longest of these periods:"
+      },
+      {
+        "cite": "81(c)(2)(B)",
+        "quote": "21 days after being served with the summons for an initial pleading on file at the time of service; or"
+      }
+    ],
+    "stem": "Day sues Elm Co. in state court. Elm is served with the summons and an initial pleading already on file on Monday, March 16, 2026, and has not answered. On Tuesday, March 17, 2026, Elm files a notice of removal. No court order sets a different schedule.",
+    "ask": "By what date must Elm answer or present other defenses or objections?",
+    "options": [
+      {
+        "t": "March 24, 2026",
+        "why": "This is 7 days after removal, but it is the shorter period; the rule gives the longest of the periods."
+      },
+      {
+        "t": "April 7, 2026",
+        "why": "Wrong trigger. The 21 days run from service, not from the notice of removal."
+      },
+      {
+        "t": "March 31, 2026",
+        "why": "Wrong day count. Fourteen days from service is not a Rule 81(c)(2) period."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Correct. Twenty-one days after service on March 16 is the longest period; 7 days after removal ends only March 24."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 81(c)(2) gives the longest of: 21 days after receiving the initial pleading, 21 days after service of the summons, or 7 days after the notice of removal is filed. Twenty-one days after March 16 is Monday, April 6; the removal-based period ends March 24. April 6 controls.",
+    "calc": {
+      "mail": false,
+      "from": "2026-03-16",
+      "days": 21,
+      "dir": "after",
+      "answer": "2026-04-06"
+    }
+  },
+  {
+    "id": "post-062",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "81(c)(2)",
+        "quote": "After removal, repleading is unnecessary unless the court orders it."
+      }
+    ],
+    "stem": "Day sues Elm Co. in state court, and Elm files an answer there. Elm then removes the action to federal court. Day insists that Elm must now file a new answer under the Federal Rules. The federal court has not ordered repleading.",
+    "ask": "Must Elm replead?",
+    "options": [
+      {
+        "t": "Yes; within 7 days after the notice of removal is filed.",
+        "why": "The 7-day period applies to a defendant who had not answered before removal."
+      },
+      {
+        "t": "No; after removal, repleading is unnecessary unless the court orders it.",
+        "why": "Correct. Rule 81(c)(2) says so."
+      },
+      {
+        "t": "Yes; within 21 days after the notice of removal is filed, as with an original answer.",
+        "why": "Wrong trigger and wrong rule. Repleading is unnecessary absent a court order."
+      },
+      {
+        "t": "No, but only if Day consents.",
+        "why": "Invents a consent requirement. Rule 81(c)(2) turns on a court order."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 81(c)(2) provides that \"after removal, repleading is unnecessary unless the court orders it.\" Elm answered in state court, so it need not file a new answer, and the time periods for answering apply only to a defendant who did not answer before removal."
+  },
+  {
+    "id": "post-063",
+    "kind": "issue",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "81(c)(1)",
+        "quote": "These rules apply to a civil action after it is removed from a state court."
+      },
+      {
+        "cite": "81(c)(2)",
+        "quote": "After removal, repleading is unnecessary unless the court orders it."
+      },
+      {
+        "cite": "81(c)(3)(A)",
+        "quote": "A party who, before removal, expressly demanded a jury trial in accordance with state law need not renew the demand after removal."
+      }
+    ],
+    "stem": "Pike sues Orco in state court and, as state law allows, expressly demands a jury trial there. Orco is served with the summons and complaint on Monday, March 2, 2026, but files no answer. On Friday, March 20, 2026, Orco removes the case. In federal court, Pike's lawyer asks (1) whether the Federal Rules now govern the case, (2) when Orco must respond, and whether repleading is needed, and (3) whether Pike must renew her jury demand. No court order addresses any of these points.",
+    "ask": "Which provisions of Rule 81(c) resolve these questions? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 81(a)(2)",
+        "why": "Does not apply. It concerns bankruptcy proceedings, and this is an ordinary removed civil action."
+      },
+      {
+        "t": "Rule 81(c)(3)(B)",
+        "why": "Does not apply. It gives 14 days to demand a jury to a party that did not expressly demand one in state court; Pike did."
+      },
+      {
+        "t": "Rule 81(c)(1)",
+        "why": "Applies. The Federal Rules apply to a civil action after it is removed from a state court."
+      },
+      {
+        "t": "Rule 81(b)",
+        "why": "Does not apply. It abolishes scire facias and mandamus, which are not involved."
+      },
+      {
+        "t": "Rule 81(c)(2)",
+        "why": "Applies. It governs further pleading and when a defendant that had not answered must respond."
+      },
+      {
+        "t": "Rule 81(c)(3)(A)",
+        "why": "Applies. A party who expressly demanded a jury trial under state law need not renew the demand after removal."
+      }
+    ],
+    "key": [
+      2,
+      4,
+      5
+    ],
+    "explain": "Rule 81(c)(1) makes the Federal Rules applicable after removal. Rule 81(c)(2) governs repleading and Orco's time to respond. Rule 81(c)(3)(A) excuses Pike from renewing her state-law jury demand. Rule 81(c)(3)(B) applies only where no express demand was made, and Rules 81(a)(2) and 81(b) are irrelevant."
+  },
+  {
+    "id": "post-064",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "69"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "69(a)(1)",
+        "quote": "A money judgment is enforced by a writ of execution, unless the court directs otherwise. The procedure on execution—and in proceedings supplementary to and in aid of judgment or execution—must accord with the procedure of the state where the court is located, but a federal statute governs to the extent it applies."
+      }
+    ],
+    "stem": "Seller wins a $30,000 money judgment in a federal court in State Z against Doyle, and the 30-day automatic stay expires. Seller wants to reach Doyle's equipment. No federal statute addresses the procedure for execution, and the court has not directed otherwise. Seller's lawyer is unsure whose procedure governs.",
+    "ask": "How is the judgment enforced, and whose procedure governs?",
+    "options": [
+      {
+        "t": "By writ of execution, with a procedure the Federal Rules fully set out, displacing state law.",
+        "why": "Wrong. Rule 69(a)(1) defers to state procedure, subject to any federal statute."
+      },
+      {
+        "t": "By contempt only; money judgments cannot be enforced by execution in federal court.",
+        "why": "Wrong. Rule 69(a)(1) says a money judgment is enforced by a writ of execution."
+      },
+      {
+        "t": "By writ of execution, with the procedure of the state where the equipment was bought.",
+        "why": "Wrong state. The procedure is that of the state where the court is located."
+      },
+      {
+        "t": "By writ of execution, with the procedure of State Z, where the court is located.",
+        "why": "Correct. Rule 69(a)(1) so provides, absent a governing federal statute."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 69(a)(1) provides that a money judgment is enforced by a writ of execution unless the court directs otherwise, and that execution procedure \"must accord with the procedure of the state where the court is located, but a federal statute governs to the extent it applies.\" State Z procedure governs."
+  },
+  {
+    "id": "post-065",
+    "kind": "apply",
+    "topic": "remedies",
+    "rules": [
+      "70"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "70(a)",
+        "quote": "If a judgment requires a party to convey land, to deliver a deed or other document, or to perform any other specific act and the party fails to comply within the time specified, the court may order the act to be done—at the disobedient party's expense—by another person appointed by the court."
+      }
+    ],
+    "stem": "A federal court enters judgment requiring Garvey to execute and deliver a deed to Hale within 20 days. Garvey refuses. The land is in the district. Hale asks the court to have the deed executed without further delay and without first seeking a contempt order.",
+    "ask": "What may the court do under Rule 70?",
+    "options": [
+      {
+        "t": "Order another person, appointed by the court, to execute the deed at Garvey's expense.",
+        "why": "Correct. Rule 70(a) authorizes this when a party fails to comply within the time specified."
+      },
+      {
+        "t": "Nothing; a court cannot act in place of a party who disobeys a judgment that requires a specific act.",
+        "why": "Wrong. Rule 70(a) authorizes the court to have the act done by another person."
+      },
+      {
+        "t": "Order Hale to execute the deed in Garvey's name at Hale's own expense.",
+        "why": "Wrong person and wrong payer. The court appoints another person and the act is at the disobedient party's expense."
+      },
+      {
+        "t": "Act only after first holding Garvey in contempt.",
+        "why": "Contempt is an additional power under Rule 70(e), not a prerequisite."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 70(a) provides that if a party fails to deliver a deed or perform a specific act within the time specified, the court may order the act done \"at the disobedient party's expense—by another person appointed by the court,\" and the act then has the same effect as if done by the party. Contempt (Rule 70(e)) is also available but not required."
+  },
+  {
+    "id": "post-066",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "72"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "72(a)",
+        "quote": "A party may not assign as error a defect in the order not timely objected to."
+      },
+      {
+        "cite": "72(a)",
+        "quote": "A party may serve and file objections to the order within 14 days after being served with a copy."
+      }
+    ],
+    "stem": "A magistrate judge, to whom a nondispositive discovery dispute was referred to hear and decide, issues a written order on Monday, March 2, 2026, and the clerk serves a copy on Cass that day. Cass disagrees with the ruling but files nothing for 30 days. At the final pretrial conference, Cass asks the district judge to set aside the order, arguing it was erroneous.",
+    "ask": "May Cass assign the defect in the magistrate judge's order as error?",
+    "options": [
+      {
+        "t": "Yes; objections to a magistrate judge's nondispositive order may be raised at any time before final judgment.",
+        "why": "Wrong. Rule 72(a) requires objections within 14 days after being served."
+      },
+      {
+        "t": "Yes, but only if Cass first obtains the magistrate judge's permission to object late.",
+        "why": "Invents a permission mechanism. Rule 72(a) bars assigning as error a defect not timely objected to."
+      },
+      {
+        "t": "No; a party may not assign as error a defect not timely objected to, and objections were due within 14 days.",
+        "why": "Correct. Cass filed nothing in 14 days."
+      },
+      {
+        "t": "No; but only because Cass failed to arrange for a transcript of the proceeding.",
+        "why": "Wrong ground. The bar rests on the failure to object timely."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Under Rule 72(a), a party may serve and file objections to a magistrate judge's nondispositive order within 14 days after being served, and \"may not assign as error a defect in the order not timely objected to.\" Cass objected on day 30 or later, so the objection is barred."
+  },
+  {
+    "id": "post-067",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "73"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "73(b)(2)",
+        "quote": "A district judge, magistrate judge, or other court official may remind the parties of the magistrate judge's availability, but must also advise them that they are free to withhold consent without adverse substantive consequences."
+      }
+    ],
+    "stem": "At a pretrial conference, the district judge tells counsel that a magistrate judge is available to try the case if the parties consent. Pleased at how it would clear her docket, she adds that she would \"think well\" of parties who consent. She says nothing about whether the parties are free to decline.",
+    "ask": "What does Rule 73(b)(2) require of the judge?",
+    "options": [
+      {
+        "t": "She may not mention the magistrate judge's availability to the parties at any time before they file consent.",
+        "why": "Wrong. Rule 73(b)(2) permits a reminder."
+      },
+      {
+        "t": "She may remind them and need say nothing more, because consent is handled through the clerk's written notice to the parties.",
+        "why": "Wrong. A reminder must be accompanied by the advice about withholding consent."
+      },
+      {
+        "t": "She may remind them, but must also advise them that they are free to withhold consent without adverse consequences.",
+        "why": "Correct. She gave the reminder without the required advice."
+      },
+      {
+        "t": "She may proceed once the plaintiff alone consents.",
+        "why": "Wrong. Rule 73(a) requires that all parties consent."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 73(b)(2) allows a judge to remind the parties of the magistrate judge's availability, but \"must also advise them that they are free to withhold consent without adverse substantive consequences.\" The judge's remarks omitted the required advice and implied a benefit for consent."
+  },
+  {
+    "id": "post-068",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "77"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "77(b)",
+        "quote": "But no hearing—other than one ex parte—may be conducted outside the district unless all the affected parties consent."
+      }
+    ],
+    "stem": "The only active judge in a district sets a contested hearing on a motion for summary judgment at a hotel in a neighboring district, because that is where the judge will be that week. One party objects. No party has consented, and the hearing is not ex parte.",
+    "ask": "May the judge hold the hearing there over the objection?",
+    "options": [
+      {
+        "t": "No; no hearing other than an ex parte one may be held outside the district unless all affected parties consent.",
+        "why": "Correct. One party objects, so consent is lacking."
+      },
+      {
+        "t": "Yes; any proceeding other than a trial may be held anywhere inside or outside the district, even over a party's objection.",
+        "why": "Ignores the proviso. A hearing outside the district, other than ex parte, needs all affected parties' consent."
+      },
+      {
+        "t": "No; every hearing must be held in a regular courtroom.",
+        "why": "Overstates Rule 77(b). Only trials on the merits must be in open court, and other acts may occur in chambers."
+      },
+      {
+        "t": "Yes; the consent requirement applies only to trials.",
+        "why": "Wrong. The consent requirement applies to hearings, with an exception for ex parte hearings."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 77(b) allows acts other than trials to be conducted by a judge anywhere inside or outside the district, \"[b]ut no hearing—other than one ex parte—may be conducted outside the district unless all the affected parties consent.\" One party objects, so the judge may not hold the hearing there."
+  },
+  {
+    "id": "post-069",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "82"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "82",
+        "quote": "These rules do not extend or limit the jurisdiction of the district courts or the venue of actions in those courts."
+      }
+    ],
+    "stem": "Gil, a citizen of State A, sues Hux, also a citizen of State A, in federal court on a state-law contract claim. No federal question is presented and no statute supplies jurisdiction. Gil argues that Rule 18(a), which lets a party join as many claims as it has against an opposing party, gives the court power to hear the dispute.",
+    "ask": "Does Rule 18(a) supply the court with jurisdiction?",
+    "options": [
+      {
+        "t": "Yes; the joinder rules expand the court's jurisdiction to any claim properly joined.",
+        "why": "Contradicted by Rule 82: the rules do not extend jurisdiction."
+      },
+      {
+        "t": "Yes, but only if Hux consents.",
+        "why": "Consent cannot be a rules-based source of jurisdiction; Rule 82 says the rules do not extend it."
+      },
+      {
+        "t": "No, but only because Rule 82 limits venue, not jurisdiction.",
+        "why": "Misreads Rule 82. It covers both jurisdiction and venue."
+      },
+      {
+        "t": "No; the Federal Rules do not extend or limit the district courts' jurisdiction.",
+        "why": "Correct. Joinder under Rule 18(a) is a procedure, not a source of jurisdiction."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 82 provides that the Federal Rules \"do not extend or limit the jurisdiction of the district courts or the venue of actions in those courts.\" Rule 18(a) governs which claims a party may join, not whether the court has subject-matter jurisdiction. With none shown, Rule 18(a) cannot supply it."
+  },
+  {
+    "id": "post-070",
+    "kind": "apply",
+    "topic": "courts",
+    "rules": [
+      "83"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "83(b)",
+        "quote": "No sanction or other disadvantage may be imposed for noncompliance with any requirement not in federal law, federal rules, or the local rules unless the alleged violator has been furnished in the particular case with actual notice of the requirement."
+      }
+    ],
+    "stem": "A judge's standing order, found in no federal statute, federal rule, or local rule, requires parties to file a one-page \"case snapshot\" three days before every conference. Rey's lawyer, who was never given the standing order or told of the requirement in this case, files none. The judge strikes Rey's pleading as a sanction.",
+    "ask": "Was the sanction permitted?",
+    "options": [
+      {
+        "t": "Yes; every litigant is presumed to know a judge's standing orders.",
+        "why": "Contradicted by Rule 83(b), which requires actual notice in the particular case."
+      },
+      {
+        "t": "No; absent actual notice in the case, no sanction may be imposed for violating a requirement not found in federal law or the rules.",
+        "why": "Correct. Rey's lawyer never received notice."
+      },
+      {
+        "t": "Yes; a judge may impose any sanction when regulating practice, because the standing order was within the judge's authority to issue.",
+        "why": "Rule 83(b) conditions sanctions on actual notice."
+      },
+      {
+        "t": "No; a judge has no power to regulate practice beyond the Federal Rules.",
+        "why": "Wrong. Rule 83(b) lets a judge regulate practice consistent with federal law, rules, and local rules."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 83(b) lets a judge regulate practice consistent with federal law and rules, but \"no sanction or other disadvantage may be imposed for noncompliance with any requirement not in federal law, federal rules, or the local rules unless the alleged violator has been furnished in the particular case with actual notice of the requirement.\" Rey's lawyer had none."
+  },
+  {
+    "id": "post-071",
+    "kind": "issue",
+    "topic": "remedies",
+    "rules": [
+      "69",
+      "64",
+      "70"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "69(a)(2)",
+        "quote": "In aid of the judgment or execution, the judgment creditor or a successor in interest whose interest appears of record may obtain discovery from any person—including the judgment debtor—as provided in these rules or by the procedure of the state where the court is located."
+      },
+      {
+        "cite": "64(a)",
+        "quote": "At the commencement of and throughout an action, every remedy is available that, under the law of the state where the court is located, provides for seizing a person or property to secure satisfaction of the potential judgment."
+      },
+      {
+        "cite": "70(a)",
+        "quote": "If a judgment requires a party to convey land, to deliver a deed or other document, or to perform any other specific act and the party fails to comply within the time specified, the court may order the act to be done—at the disobedient party's expense—by another person appointed by the court."
+      }
+    ],
+    "stem": "Calder wins a federal judgment in State X against Dray for $90,000 plus an order requiring Dray to deliver a deed to a parcel. The 30-day stay has expired. Dray neither pays nor delivers the deed. Calder wants to levy on Dray's other property, learn where his assets are held by asking third parties questions, and have the deed delivered by someone else. No money is on deposit with the court, no receiver is involved, and no nonparty is bound.",
+    "ask": "Which provisions support Calder's steps? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 69(a)(1)",
+        "why": "Applies. A money judgment is enforced by a writ of execution under the procedure of the state where the court is located."
+      },
+      {
+        "t": "Rule 67(a)",
+        "why": "Does not apply. It permits deposit of money with the court, and none is being deposited."
+      },
+      {
+        "t": "Rule 70(a)",
+        "why": "Applies. When a party fails to deliver a deed, the court may have another person appointed by the court do the act at the disobedient party's expense."
+      },
+      {
+        "t": "Rule 66",
+        "why": "Does not apply. It concerns actions in which a receiver is appointed or sued, and none is involved."
+      },
+      {
+        "t": "Rule 69(a)(2)",
+        "why": "Applies. The judgment creditor may obtain discovery from any person in aid of judgment or execution."
+      },
+      {
+        "t": "Rule 71",
+        "why": "Does not apply. It concerns enforcing orders for or against nonparties, and no nonparty is involved."
+      },
+      {
+        "t": "Rule 64(a)",
+        "why": "Does not apply. It makes state remedies for seizing property available to secure a potential judgment; here judgment has been entered and no seizure before judgment is sought."
+      }
+    ],
+    "key": [
+      0,
+      2,
+      4
+    ],
+    "explain": "Execution on the money judgment follows Rule 69(a)(1), and Rule 69(a)(2) allows discovery from any person in aid of execution. The refused deed may be executed by a court-appointed person under Rule 70(a). Rule 64(a) concerns seizure to secure a potential judgment, and Rules 66, 67(a), and 71 have no factual hook."
+  },
+  {
+    "id": "post-072",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "59(b)",
+        "quote": "no later than 28 days after the entry of judgment"
+      }
+    ],
+    "front": "How long after entry of judgment does a party have to file a motion for a new trial?",
+    "back": "no later than 28 days after the entry of judgment"
+  },
+  {
+    "id": "post-073",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "59(e)",
+        "quote": "no later than 28 days after the entry of the judgment"
+      }
+    ],
+    "front": "By when must a motion to alter or amend a judgment be filed?",
+    "back": "no later than 28 days after the entry of the judgment"
+  },
+  {
+    "id": "post-074",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "59(d)",
+        "quote": "No later than 28 days after the entry of judgment, the court, on its own, may order a new trial"
+      }
+    ],
+    "front": "Within what time may the court, on its own, order a new trial under Rule 59(d)?",
+    "back": "No later than 28 days after the entry of judgment, the court, on its own, may order a new trial"
+  },
+  {
+    "id": "post-075",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "59(c)",
+        "quote": "they must be filed with the motion. The opposing party has 14 days after being served to file opposing affidavits"
+      }
+    ],
+    "front": "When a motion for a new trial is based on affidavits, when must they be filed, and how long does the opposing party have to file opposing affidavits?",
+    "back": "they must be filed with the motion. The opposing party has 14 days after being served to file opposing affidavits"
+  },
+  {
+    "id": "post-076",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "59(a)(2)",
+        "quote": "open the judgment if one has been entered, take additional testimony, amend findings of fact and conclusions of law or make new ones, and direct the entry of a new judgment"
+      }
+    ],
+    "front": "After a nonjury trial, what may the court do on a motion for a new trial?",
+    "back": "open the judgment if one has been entered, take additional testimony, amend findings of fact and conclusions of law or make new ones, and direct the entry of a new judgment"
+  },
+  {
+    "id": "post-077",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "59",
+      "6"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "6(b)(2)",
+        "quote": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+      }
+    ],
+    "front": "Which post-judgment motion deadlines in Rules 50, 52, 59 and 60 may a court not extend?",
+    "back": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+  },
+  {
+    "id": "post-078",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "59(d)",
+        "quote": "After giving the parties notice and an opportunity to be heard, the court may grant a timely motion for a new trial for a reason not stated in the motion."
+      }
+    ],
+    "front": "When may a court grant a timely new-trial motion for a reason the motion did not state?",
+    "back": "After giving the parties notice and an opportunity to be heard, the court may grant a timely motion for a new trial for a reason not stated in the motion."
+  },
+  {
+    "id": "post-079",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "59"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "59(a)(1)(A)",
+        "quote": "for any reason for which a new trial has heretofore been granted in an action at law in federal court"
+      }
+    ],
+    "front": "After a jury trial, for what reasons may a court grant a new trial?",
+    "back": "for any reason for which a new trial has heretofore been granted in an action at law in federal court"
+  },
+  {
+    "id": "post-080",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(b)(1)",
+        "quote": "mistake, inadvertence, surprise, or excusable neglect"
+      }
+    ],
+    "front": "What are the grounds for relief under Rule 60(b)(1)?",
+    "back": "mistake, inadvertence, surprise, or excusable neglect"
+  },
+  {
+    "id": "post-081",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(c)(1)",
+        "quote": "within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding"
+      }
+    ],
+    "front": "When must a Rule 60(b) motion be made?",
+    "back": "within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding"
+  },
+  {
+    "id": "post-082",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(b)(2)",
+        "quote": "newly discovered evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b)"
+      }
+    ],
+    "front": "What kind of newly discovered evidence supports relief under Rule 60(b)(2)?",
+    "back": "newly discovered evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b)"
+  },
+  {
+    "id": "post-083",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(b)(3)",
+        "quote": "fraud (whether previously called intrinsic or extrinsic), misrepresentation, or misconduct by an opposing party"
+      }
+    ],
+    "front": "What does Rule 60(b)(3) cover?",
+    "back": "fraud (whether previously called intrinsic or extrinsic), misrepresentation, or misconduct by an opposing party"
+  },
+  {
+    "id": "post-084",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(c)(2)",
+        "quote": "The motion does not affect the judgment's finality or suspend its operation."
+      }
+    ],
+    "front": "Does a Rule 60(b) motion affect the finality of the judgment or suspend its operation?",
+    "back": "The motion does not affect the judgment's finality or suspend its operation."
+  },
+  {
+    "id": "post-085",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(a)",
+        "quote": "whenever one is found in a judgment, order, or other part of the record. The court may do so on motion or on its own, with or without notice."
+      }
+    ],
+    "front": "When may a court correct a clerical mistake in a judgment, and must it give notice?",
+    "back": "whenever one is found in a judgment, order, or other part of the record. The court may do so on motion or on its own, with or without notice."
+  },
+  {
+    "id": "post-086",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(b)(5)",
+        "quote": "the judgment has been satisfied, released, or discharged; it is based on an earlier judgment that has been reversed or vacated; or applying it prospectively is no longer equitable"
+      }
+    ],
+    "front": "What are the three grounds in Rule 60(b)(5)?",
+    "back": "the judgment has been satisfied, released, or discharged; it is based on an earlier judgment that has been reversed or vacated; or applying it prospectively is no longer equitable"
+  },
+  {
+    "id": "post-087",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "60"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "60(d)(1)",
+        "quote": "entertain an independent action to relieve a party from a judgment, order, or proceeding"
+      }
+    ],
+    "front": "Apart from a Rule 60(b) motion, what court power does Rule 60(d)(1) preserve?",
+    "back": "entertain an independent action to relieve a party from a judgment, order, or proceeding"
+  },
+  {
+    "id": "post-088",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "54(c)",
+        "quote": "must not differ in kind from, or exceed in amount, what is demanded in the pleadings"
+      }
+    ],
+    "front": "What limit does Rule 54(c) place on a default judgment?",
+    "back": "must not differ in kind from, or exceed in amount, what is demanded in the pleadings"
+  },
+  {
+    "id": "post-089",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "54(d)(2)(B)(i)",
+        "quote": "be filed no later than 14 days after the entry of judgment"
+      }
+    ],
+    "front": "By when must a motion for attorney's fees be filed, unless a statute or court order provides otherwise?",
+    "back": "be filed no later than 14 days after the entry of judgment"
+  },
+  {
+    "id": "post-090",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "54(d)(2)(A)",
+        "quote": "must be made by motion unless the substantive law requires those fees to be proved at trial as an element of damages"
+      }
+    ],
+    "front": "How must a claim for attorney's fees ordinarily be made?",
+    "back": "must be made by motion unless the substantive law requires those fees to be proved at trial as an element of damages"
+  },
+  {
+    "id": "post-091",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "54(b)",
+        "quote": "only if the court expressly determines that there is no just reason for delay"
+      }
+    ],
+    "front": "When may a court direct entry of a final judgment on fewer than all claims or parties?",
+    "back": "only if the court expressly determines that there is no just reason for delay"
+  },
+  {
+    "id": "post-092",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "54"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "54(d)(1)",
+        "quote": "The clerk may tax costs on 14 days' notice. On motion served within the next 7 days, the court may review the clerk's action."
+      }
+    ],
+    "front": "What notice does the clerk give before taxing costs, and how long does a party have to seek court review?",
+    "back": "The clerk may tax costs on 14 days' notice. On motion served within the next 7 days, the court may review the clerk's action."
+  },
+  {
+    "id": "post-093",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "55(a)",
+        "quote": "the clerk must enter the party's default"
+      }
+    ],
+    "front": "Who enters a party's default when it has failed to plead or otherwise defend and that is shown by affidavit?",
+    "back": "the clerk must enter the party's default"
+  },
+  {
+    "id": "post-094",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "55(b)(1)",
+        "quote": "If the plaintiff's claim is for a sum certain or a sum that can be made certain by computation"
+      }
+    ],
+    "front": "When may the clerk enter a default judgment on the plaintiff's request?",
+    "back": "If the plaintiff's claim is for a sum certain or a sum that can be made certain by computation"
+  },
+  {
+    "id": "post-095",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "55(b)(2)",
+        "quote": "at least 7 days before the hearing"
+      }
+    ],
+    "front": "How much advance notice must a party that has appeared receive of an application for default judgment?",
+    "back": "at least 7 days before the hearing"
+  },
+  {
+    "id": "post-096",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "55(c)",
+        "quote": "The court may set aside an entry of default for good cause"
+      }
+    ],
+    "front": "What standard lets a court set aside an entry of default?",
+    "back": "The court may set aside an entry of default for good cause"
+  },
+  {
+    "id": "post-097",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "55"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "55(d)",
+        "quote": "only if the claimant establishes a claim or right to relief by evidence that satisfies the court"
+      }
+    ],
+    "front": "What must a claimant establish to obtain a default judgment against the United States?",
+    "back": "only if the claimant establishes a claim or right to relief by evidence that satisfies the court"
+  },
+  {
+    "id": "post-098",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "58(a)",
+        "quote": "must be set out in a separate document"
+      }
+    ],
+    "front": "How must every judgment and amended judgment be set out?",
+    "back": "must be set out in a separate document"
+  },
+  {
+    "id": "post-099",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "58(c)(2)(B)",
+        "quote": "150 days have run from the entry in the civil docket"
+      }
+    ],
+    "front": "If a separate document is required but never prepared, when is judgment entered?",
+    "back": "150 days have run from the entry in the civil docket"
+  },
+  {
+    "id": "post-100",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "58(b)(1)",
+        "quote": "(A) the jury returns a general verdict; (B) the court awards only costs or a sum certain; or (C) the court denies all relief"
+      }
+    ],
+    "front": "When must the clerk enter judgment without awaiting the court's direction?",
+    "back": "(A) the jury returns a general verdict; (B) the court awards only costs or a sum certain; or (C) the court denies all relief"
+  },
+  {
+    "id": "post-101",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "58(b)(2)",
+        "quote": "(A) the jury returns a special verdict or a general verdict with answers to written questions; or (B) the court grants other relief not described in this subdivision (b)"
+      }
+    ],
+    "front": "When must the court approve the form of the judgment before the clerk enters it?",
+    "back": "(A) the jury returns a special verdict or a general verdict with answers to written questions; or (B) the court grants other relief not described in this subdivision (b)"
+  },
+  {
+    "id": "post-102",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "58(d)",
+        "quote": "A party may request that judgment be set out in a separate document as required by Rule 58(a)."
+      }
+    ],
+    "front": "May a party request that a judgment be set out in a separate document?",
+    "back": "A party may request that judgment be set out in a separate document as required by Rule 58(a)."
+  },
+  {
+    "id": "post-103",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "62(a)",
+        "quote": "stayed for 30 days after its entry, unless the court orders otherwise"
+      }
+    ],
+    "front": "How long is execution on a judgment automatically stayed?",
+    "back": "stayed for 30 days after its entry, unless the court orders otherwise"
+  },
+  {
+    "id": "post-104",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "62(b)",
+        "quote": "The stay takes effect when the court approves the bond or other security"
+      }
+    ],
+    "front": "When does a stay by bond or other security take effect?",
+    "back": "The stay takes effect when the court approves the bond or other security"
+  },
+  {
+    "id": "post-105",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "62(c)",
+        "quote": "an interlocutory or final judgment in an action for an injunction or receivership"
+      }
+    ],
+    "front": "Which judgments in injunction and receivership actions are not stayed after being entered, unless the court orders otherwise?",
+    "back": "an interlocutory or final judgment in an action for an injunction or receivership"
+  },
+  {
+    "id": "post-106",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "62(e)",
+        "quote": "The court must not require a bond, obligation, or other security from the appellant when granting a stay on an appeal by the United States, its officers, or its agencies"
+      }
+    ],
+    "front": "What security may the court require when granting a stay on an appeal by the United States?",
+    "back": "The court must not require a bond, obligation, or other security from the appellant when granting a stay on an appeal by the United States, its officers, or its agencies"
+  },
+  {
+    "id": "post-107",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "62"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "62(h)",
+        "quote": "A court may stay the enforcement of a final judgment entered under Rule 54(b) until it enters a later judgment or judgments"
+      }
+    ],
+    "front": "What may a court do about enforcement of a final judgment entered under Rule 54(b)?",
+    "back": "A court may stay the enforcement of a final judgment entered under Rule 54(b) until it enters a later judgment or judgments"
+  },
+  {
+    "id": "post-108",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "65(a)(1)",
+        "quote": "The court may issue a preliminary injunction only on notice to the adverse party."
+      }
+    ],
+    "front": "On what condition may a court issue a preliminary injunction?",
+    "back": "The court may issue a preliminary injunction only on notice to the adverse party."
+  },
+  {
+    "id": "post-109",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "65(b)(2)",
+        "quote": "not to exceed 14 days"
+      }
+    ],
+    "front": "How long may a temporary restraining order issued without notice last before it is extended?",
+    "back": "not to exceed 14 days"
+  },
+  {
+    "id": "post-110",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "65(d)(2)",
+        "quote": "(A) the parties; (B) the parties' officers, agents, servants, employees, and attorneys; and (C) other persons who are in active concert or participation with anyone described in Rule 65(d)(2)(A) or (B)"
+      }
+    ],
+    "front": "Who is bound by an injunction or restraining order once they receive actual notice?",
+    "back": "(A) the parties; (B) the parties' officers, agents, servants, employees, and attorneys; and (C) other persons who are in active concert or participation with anyone described in Rule 65(d)(2)(A) or (B)"
+  },
+  {
+    "id": "post-111",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "65(b)(4)",
+        "quote": "On 2 days' notice to the party who obtained the order without notice—or on shorter notice set by the court"
+      }
+    ],
+    "front": "On how much notice may the adverse party move to dissolve a TRO issued without notice?",
+    "back": "On 2 days' notice to the party who obtained the order without notice—or on shorter notice set by the court"
+  },
+  {
+    "id": "post-112",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "65"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "65(d)(1)(C)",
+        "quote": "describe in reasonable detail—and not by referring to the complaint or other document—the act or acts restrained or required"
+      }
+    ],
+    "front": "How must an injunction describe the acts restrained or required?",
+    "back": "describe in reasonable detail—and not by referring to the complaint or other document—the act or acts restrained or required"
+  },
+  {
+    "id": "post-113",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "68(a)",
+        "quote": "At least 14 days before the date set for trial"
+      }
+    ],
+    "front": "How long before the trial date may a defending party serve an offer of judgment?",
+    "back": "At least 14 days before the date set for trial"
+  },
+  {
+    "id": "post-114",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "68(a)",
+        "quote": "within 14 days after being served, the opposing party serves written notice accepting the offer"
+      }
+    ],
+    "front": "How long does the offeree have to accept a Rule 68 offer?",
+    "back": "within 14 days after being served, the opposing party serves written notice accepting the offer"
+  },
+  {
+    "id": "post-115",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "68(b)",
+        "quote": "An unaccepted offer is considered withdrawn, but it does not preclude a later offer."
+      }
+    ],
+    "front": "What happens to an unaccepted Rule 68 offer?",
+    "back": "An unaccepted offer is considered withdrawn, but it does not preclude a later offer."
+  },
+  {
+    "id": "post-116",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "68(d)",
+        "quote": "the offeree must pay the costs incurred after the offer was made"
+      }
+    ],
+    "front": "If the judgment the offeree finally obtains is not more favorable than the unaccepted offer, what must the offeree pay?",
+    "back": "the offeree must pay the costs incurred after the offer was made"
+  },
+  {
+    "id": "post-117",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "68"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "68(b)",
+        "quote": "Evidence of an unaccepted offer is not admissible except in a proceeding to determine costs."
+      }
+    ],
+    "front": "When is evidence of an unaccepted Rule 68 offer admissible?",
+    "back": "Evidence of an unaccepted offer is not admissible except in a proceeding to determine costs."
+  },
+  {
+    "id": "post-118",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "81(c)(1)",
+        "quote": "These rules apply to a civil action after it is removed from a state court."
+      }
+    ],
+    "front": "Do the Federal Rules apply to an action after it is removed from state court?",
+    "back": "These rules apply to a civil action after it is removed from a state court."
+  },
+  {
+    "id": "post-119",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "81(c)(2)",
+        "quote": "After removal, repleading is unnecessary unless the court orders it."
+      }
+    ],
+    "front": "Must a party replead after removal?",
+    "back": "After removal, repleading is unnecessary unless the court orders it."
+  },
+  {
+    "id": "post-120",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "81(c)(2)(C)",
+        "quote": "7 days after the notice of removal is filed."
+      }
+    ],
+    "front": "Which removal-based period can extend the time of a defendant that had not answered before removal to answer?",
+    "back": "7 days after the notice of removal is filed."
+  },
+  {
+    "id": "post-121",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "81(c)(3)(A)",
+        "quote": "A party who, before removal, expressly demanded a jury trial in accordance with state law need not renew the demand after removal."
+      }
+    ],
+    "front": "Must a party who expressly demanded a jury trial under state law before removal renew the demand?",
+    "back": "A party who, before removal, expressly demanded a jury trial in accordance with state law need not renew the demand after removal."
+  },
+  {
+    "id": "post-122",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "81"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "81(c)(3)(B)",
+        "quote": "a party entitled to a jury trial under Rule 38 must be given one if the party serves a demand within 14 days after"
+      }
+    ],
+    "front": "Under Rule 81(c)(3)(B), when must a party entitled to a jury under Rule 38 serve a demand after removal?",
+    "back": "a party entitled to a jury trial under Rule 38 must be given one if the party serves a demand within 14 days after"
+  },
+  {
+    "id": "post-123",
+    "kind": "recall",
+    "topic": "judgment",
+    "rules": [
+      "57"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "57",
+        "quote": "The existence of another adequate remedy does not preclude a declaratory judgment that is otherwise appropriate."
+      }
+    ],
+    "front": "Does the existence of another adequate remedy preclude a declaratory judgment?",
+    "back": "The existence of another adequate remedy does not preclude a declaratory judgment that is otherwise appropriate."
+  },
+  {
+    "id": "post-124",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "61"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "61",
+        "quote": "the court must disregard all errors and defects that do not affect any party's substantial rights"
+      }
+    ],
+    "front": "What must the court disregard at every stage of the proceeding under Rule 61?",
+    "back": "the court must disregard all errors and defects that do not affect any party's substantial rights"
+  },
+  {
+    "id": "post-125",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "62.1"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "62.1(a)",
+        "quote": "(1) defer considering the motion; (2) deny the motion; or (3) state either that it would grant the motion if the court of appeals remands for that purpose or that the motion raises a substantial issue"
+      }
+    ],
+    "front": "What may a court do with a timely motion it lacks authority to grant because of a docketed, pending appeal?",
+    "back": "(1) defer considering the motion; (2) deny the motion; or (3) state either that it would grant the motion if the court of appeals remands for that purpose or that the motion raises a substantial issue"
+  },
+  {
+    "id": "post-126",
+    "kind": "recall",
+    "topic": "post",
+    "rules": [
+      "63"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "63",
+        "quote": "the successor judge must, at a party's request, recall any witness whose testimony is material and disputed and who is available to testify again without undue burden"
+      }
+    ],
+    "front": "In a nonjury trial, what must a successor judge do at a party's request?",
+    "back": "the successor judge must, at a party's request, recall any witness whose testimony is material and disputed and who is available to testify again without undue burden"
+  },
+  {
+    "id": "post-127",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "64"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "64(a)",
+        "quote": "every remedy is available that, under the law of the state where the court is located, provides for seizing a person or property to secure satisfaction of the potential judgment"
+      }
+    ],
+    "front": "Which pre-judgment seizure remedies are available in a federal action under Rule 64(a)?",
+    "back": "every remedy is available that, under the law of the state where the court is located, provides for seizing a person or property to secure satisfaction of the potential judgment"
+  },
+  {
+    "id": "post-128",
+    "kind": "recall",
+    "topic": "remedies",
+    "rules": [
+      "67"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "67(a)",
+        "quote": "on notice to every other party and by leave of court"
+      }
+    ],
+    "front": "What is required before a party may deposit money or a thing with the court?",
+    "back": "on notice to every other party and by leave of court"
+  },
+  {
+    "id": "post-129",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "72"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "72(a)",
+        "quote": "A party may serve and file objections to the order within 14 days after being served with a copy."
+      }
+    ],
+    "front": "How long does a party have to object to a magistrate judge's order on a nondispositive pretrial matter?",
+    "back": "A party may serve and file objections to the order within 14 days after being served with a copy."
+  },
+  {
+    "id": "post-130",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "73"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "73(b)(2)",
+        "quote": "must also advise them that they are free to withhold consent without adverse substantive consequences"
+      }
+    ],
+    "front": "What must a judge also tell the parties when reminding them of a magistrate judge's availability?",
+    "back": "must also advise them that they are free to withhold consent without adverse substantive consequences"
+  },
+  {
+    "id": "post-131",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "83"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "83(a)(2)",
+        "quote": "A local rule imposing a requirement of form must not be enforced in a way that causes a party to lose any right because of a nonwillful failure to comply."
+      }
+    ],
+    "front": "How may a local rule imposing a requirement of form be enforced?",
+    "back": "A local rule imposing a requirement of form must not be enforced in a way that causes a party to lose any right because of a nonwillful failure to comply."
+  },
+  {
+    "id": "post-132",
+    "kind": "recall",
+    "topic": "courts",
+    "rules": [
+      "87"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "87(b)(1)(C)",
+        "quote": "must be limited to a stated period of no more than 90 days"
+      }
+    ],
+    "front": "How long may a Civil Rules emergency declaration last?",
+    "back": "must be limited to a stated period of no more than 90 days"
+  },
+  {
+    "id": "post-133",
+    "kind": "apply",
+    "topic": "judgment",
+    "rules": [
+      "58"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "58(e)",
+        "quote": "Ordinarily, the entry of judgment may not be delayed, nor the time for appeal extended, in order to tax costs or award fees."
+      }
+    ],
+    "stem": "After a bench trial, the court decides for Hale against Ivor Co. on liability and damages. Hale will ask for attorney's fees and have the clerk tax costs. The clerk proposes to hold the judgment until the fees and costs are resolved.",
+    "ask": "May the entry of judgment ordinarily be delayed to tax costs or award fees?",
+    "options": [
+      {
+        "t": "Yes; judgment must wait until all costs and fees are resolved, so the judgment states the full amount.",
+        "why": "Contradicted by Rule 58(e), which says entry of judgment ordinarily may not be delayed for that purpose."
+      },
+      {
+        "t": "No; ordinarily the entry of judgment may not be delayed to tax costs or award fees.",
+        "why": "Correct. Rule 58(e) states the rule, and the fee motion follows under Rule 54(d)(2)."
+      },
+      {
+        "t": "Yes, if the clerk certifies that the costs are likely to be large.",
+        "why": "Invents an exception. Rule 58(e) has no certification mechanism."
+      },
+      {
+        "t": "No; and the court may never award fees after judgment is entered.",
+        "why": "Wrong. A fee motion filed within the time in Rule 54(d)(2)(B) follows entry of judgment."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 58(e) provides that \"ordinarily, the entry of judgment may not be delayed . . . in order to tax costs or award fees.\" The judgment is entered now; costs are taxed and fees claimed by motion afterwards under Rule 54(d)."
+  }
+]

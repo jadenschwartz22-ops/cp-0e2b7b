@@ -1,0 +1,544 @@
+[
+  {
+    "id": "es2-004",
+    "kind": "essay",
+    "topic": "trial",
+    "rules": [
+      "41"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Park sues Delta Mills in federal court for breach of a lease. Two years earlier Park sued Delta in state court on the same claim and then filed a notice dismissing that suit. In this case Delta serves its answer, with a counterclaim for unpaid invoices under a separate supply contract (a claim that does not depend on the lease), on Monday, February 2, 2026. On February 20, Park files a \"notice of dismissal\" of her complaint without consulting Delta. Delta has signed nothing and objects that the notice is ineffective. Park serves her answer to the counterclaim on Monday, February 23, and then moves to dismiss under Rule 41(a)(2). Delta opposes, wants its counterclaim decided, and asks that any dismissal be conditioned on Park's paying the costs of the state-court suit. On March 10, Delta files its own \"notice of dismissal\" of the counterclaim, hoping to drop it quietly; Park objects. Rule on Park's February 20 notice, Park's motion, Delta's request for costs, and Delta's March 10 notice.",
+    "ask": "Analyze each filing and how the court should rule.",
+    "rubric": [
+      {
+        "point": "A plaintiff may dismiss by notice without a court order only before the opposing party serves an answer or a summary judgment motion; Delta served an answer on February 2.",
+        "cite": "41(a)(1)(A)(i)",
+        "quote": "a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment"
+      },
+      {
+        "point": "The only other no-order route is a stipulation signed by all parties who have appeared; Delta signed nothing.",
+        "cite": "41(a)(1)(A)(ii)",
+        "quote": "a stipulation of dismissal signed by all parties who have appeared"
+      },
+      {
+        "point": "A notice dismissing a claim previously dismissed in any court operates as an adjudication on the merits, which is why the notice's validity matters to Park.",
+        "cite": "41(a)(1)(B)",
+        "quote": "if the plaintiff previously dismissed any federal- or state-court action based on or including the same claim, a notice of dismissal operates as an adjudication on the merits."
+      },
+      {
+        "point": "Otherwise dismissal at the plaintiff's request needs a court order on terms the court considers proper.",
+        "cite": "41(a)(2)",
+        "quote": "an action may be dismissed at the plaintiff's request only by court order, on terms that the court considers proper."
+      },
+      {
+        "point": "Delta's pleaded counterclaim blocks dismissal over objection unless it can remain pending for independent adjudication; this one can.",
+        "cite": "41(a)(2)",
+        "quote": "If a defendant has pleaded a counterclaim before being served with the plaintiff's motion to dismiss, the action may be dismissed over the defendant's objection only if the counterclaim can remain pending for independent adjudication."
+      },
+      {
+        "point": "A Rule 41(a)(2) dismissal is without prejudice unless the order states otherwise.",
+        "cite": "41(a)(2)",
+        "quote": "Unless the order states otherwise, a dismissal under this paragraph (2) is without prejudice."
+      },
+      {
+        "point": "Because Park refiled the same claim after an earlier dismissal, the court may order costs of the prior action and stay this one.",
+        "cite": "41(d)",
+        "quote": "may order the plaintiff to pay all or part of the costs of that previous action"
+      },
+      {
+        "point": "A claimant's notice dismissing a counterclaim must precede a responsive pleading; Park has already answered it.",
+        "cite": "41(c)",
+        "quote": "A claimant's voluntary dismissal under Rule 41(a)(1)(A)(i) must be made"
+      }
+    ],
+    "model": "1. Park's February 20 notice. A plaintiff may dismiss without a court order only by a notice filed before the opposing party serves an answer or summary judgment motion (Rule 41(a)(1)(A)(i)) or by a stipulation signed by all parties who have appeared (Rule 41(a)(1)(A)(ii)). Delta served its answer on February 2 and signed nothing, so the notice is ineffective. That matters: had the notice worked, Park's earlier dismissal of the same claim would make it an adjudication on the merits (Rule 41(a)(1)(B)).\n2. Park's motion. Rule 41(a)(2) permits dismissal at the plaintiff's request by court order on terms the court considers proper. Delta pleaded its counterclaim before the motion was served, so the court may dismiss over Delta's objection only if the counterclaim can remain pending for independent adjudication. It rests on a separate contract and does not depend on the lease claim, so it can. Unless the order says otherwise, the dismissal is without prejudice.\n3. Costs. Because Park previously dismissed an action on the same claim against Delta, the court may order her to pay all or part of those costs and may stay this case until she complies (Rule 41(d)); both are discretionary.\n4. Delta's March 10 notice. Rule 41(c) applies Rule 41(a)(1)(A)(i) to counterclaims and requires a voluntary dismissal before a responsive pleading is served. Park served her answer to the counterclaim on February 23, so the notice is ineffective; Delta needs a stipulation or a court order.",
+    "cites": [
+      {
+        "cite": "41(a)(1)(A)(i)",
+        "quote": "a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment"
+      },
+      {
+        "cite": "41(a)(1)(A)(ii)",
+        "quote": "a stipulation of dismissal signed by all parties who have appeared"
+      },
+      {
+        "cite": "41(a)(1)(B)",
+        "quote": "if the plaintiff previously dismissed any federal- or state-court action based on or including the same claim, a notice of dismissal operates as an adjudication on the merits."
+      },
+      {
+        "cite": "41(a)(2)",
+        "quote": "an action may be dismissed at the plaintiff's request only by court order, on terms that the court considers proper."
+      },
+      {
+        "cite": "41(a)(2)",
+        "quote": "If a defendant has pleaded a counterclaim before being served with the plaintiff's motion to dismiss, the action may be dismissed over the defendant's objection only if the counterclaim can remain pending for independent adjudication."
+      },
+      {
+        "cite": "41(a)(2)",
+        "quote": "Unless the order states otherwise, a dismissal under this paragraph (2) is without prejudice."
+      },
+      {
+        "cite": "41(d)",
+        "quote": "may order the plaintiff to pay all or part of the costs of that previous action"
+      },
+      {
+        "cite": "41(c)",
+        "quote": "A claimant's voluntary dismissal under Rule 41(a)(1)(A)(i) must be made"
+      }
+    ]
+  },
+  {
+    "id": "es2-005",
+    "kind": "essay",
+    "topic": "trial",
+    "rules": [
+      "38",
+      "39",
+      "6"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Park sues Delta Mills for breach of a supply contract and seeks damages. Her complaint contains no jury demand. Delta serves its answer, which includes a counterclaim for unpaid invoices, on Monday, February 2, 2026. On Tuesday, February 10, Delta serves and files a written demand for a jury trial \"on the issues raised by Delta's counterclaim\" only. Park serves her answer to the counterclaim on Monday, February 23. On Monday, March 9, Park serves and files a demand for a jury trial \"on all issues.\" Delta moves to strike Park's demand as untimely. Because it now prefers a bench trial on its counterclaim, Delta also announces that it is withdrawing its February 10 demand. Park, who wants a jury on every issue, refuses to consent to the withdrawal. February 16, 2026 is the third Monday in February. Assume every issue in both claims is triable of right by a jury.",
+    "ask": "As the judge, rule on Delta's motion to strike, on Delta's withdrawal, and on whether Park can still obtain a jury on her own claim.",
+    "rubric": [
+      {
+        "point": "A demand is due no later than 14 days after the last pleading directed to the issue; for Park's claim that is Delta's answer, served February 2.",
+        "cite": "38(b)(1)",
+        "quote": "no later than 14 days after the last pleading directed to the issue is served"
+      },
+      {
+        "point": "Day 14 falls on Washington's Birthday, a legal holiday, so the period continues to the next day that is not a weekend or holiday, February 17.",
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday."
+      },
+      {
+        "point": "Washington's Birthday is a legal holiday.",
+        "cite": "6(a)(6)(A)",
+        "quote": "the day set aside by statute for observing New Year's Day, Martin Luther King Jr.'s Birthday, Washington's Birthday"
+      },
+      {
+        "point": "Delta's partial demand gave Park 14 days after being served to demand other issues, until February 24; March 9 is late on that route too.",
+        "cite": "38(c)",
+        "quote": "If the party has demanded a jury trial on only some issues, any other party may—within 14 days after being served with the demand or within a shorter time ordered by the court—serve a demand for a jury trial on any other or all factual issues triable by jury."
+      },
+      {
+        "point": "A party waives a jury unless its demand is properly served and filed, so Park waived a jury on her own claim.",
+        "cite": "38(d)",
+        "quote": "A party waives a jury trial unless its demand is properly served and filed."
+      },
+      {
+        "point": "Park's answer to the counterclaim, served February 23, is the last pleading directed to the counterclaim issues, so her March 9 demand is timely as to them.",
+        "cite": "38(b)(1)",
+        "quote": "serving the other parties with a written demand—which may be included in a pleading—no later than 14 days after the last pleading directed to the issue is served"
+      },
+      {
+        "point": "Delta cannot withdraw a proper demand without the parties' consent.",
+        "cite": "38(d)",
+        "quote": "A proper demand may be withdrawn only if the parties consent."
+      },
+      {
+        "point": "Issues with no proper demand go to the court, but the court may, on motion, order a jury on any issue for which a jury might have been demanded.",
+        "cite": "39(b)",
+        "quote": "But the court may, on motion, order a jury trial on any issue for which a jury might have been demanded."
+      }
+    ],
+    "model": "1. Park's claim. A jury demand must be served no later than 14 days after the last pleading directed to the issue (Rule 38(b)(1)). For Park's claim, that pleading is Delta's answer, served February 2. Day 14 is Monday, February 16, Washington's Birthday, a legal holiday (Rule 6(a)(6)(A)), so the period runs to Tuesday, February 17 (Rule 6(a)(1)(C)). Park's March 9 demand is late as to her claim.\n2. Rule 38(c). Delta demanded a jury on only some issues, so Park could have demanded a jury on the other issues within 14 days after being served with Delta's demand: until February 24. March 9 is late on that route too.\n3. Waiver and discretion. A party waives a jury unless its demand is properly served and filed (Rule 38(d)), so the court should strike Park's demand as to her own claim, and that claim is tried to the court (Rule 39(b)). But Rule 39(b) lets the court, on motion, order a jury trial on any issue for which a jury might have been demanded; Park should so move, and the court may grant it, though nothing requires it to.\n4. The counterclaim. Park's answer to the counterclaim, served February 23, is the last pleading directed to those issues, so her March 9 demand (day 14) is timely there; Delta's earlier demand was also proper.\n5. Withdrawal. A proper demand may be withdrawn only if the parties consent (Rule 38(d)). Park does not, so Delta's withdrawal fails and the counterclaim is tried to a jury. Result: strike granted as to Park's claim, denied as to the counterclaim issues.",
+    "cites": [
+      {
+        "cite": "38(b)(1)",
+        "quote": "no later than 14 days after the last pleading directed to the issue is served"
+      },
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday."
+      },
+      {
+        "cite": "6(a)(6)(A)",
+        "quote": "the day set aside by statute for observing New Year's Day, Martin Luther King Jr.'s Birthday, Washington's Birthday"
+      },
+      {
+        "cite": "38(c)",
+        "quote": "If the party has demanded a jury trial on only some issues, any other party may—within 14 days after being served with the demand or within a shorter time ordered by the court—serve a demand for a jury trial on any other or all factual issues triable by jury."
+      },
+      {
+        "cite": "38(d)",
+        "quote": "A party waives a jury trial unless its demand is properly served and filed."
+      },
+      {
+        "cite": "38(b)(1)",
+        "quote": "serving the other parties with a written demand—which may be included in a pleading—no later than 14 days after the last pleading directed to the issue is served"
+      },
+      {
+        "cite": "38(d)",
+        "quote": "A proper demand may be withdrawn only if the parties consent."
+      },
+      {
+        "cite": "39(b)",
+        "quote": "But the court may, on motion, order a jury trial on any issue for which a jury might have been demanded."
+      }
+    ]
+  },
+  {
+    "id": "es2-007",
+    "kind": "essay",
+    "topic": "sj-jmol",
+    "rules": [
+      "50",
+      "6"
+    ],
+    "level": 3,
+    "minutes": 25,
+    "stem": "Vance sues Kestrel Air Charters for damaging cargo on a flight. The case is tried to a jury. At the close of Vance's evidence on Tuesday, September 1, 2026, Kestrel moves orally for judgment as a matter of law, specifying that it seeks judgment on the whole claim because Vance's only witness admitted he never saw the cargo loaded, so no evidence ties the damage to Kestrel. The court denies the motion. Kestrel presents its case, and the court submits the action to the jury, which returns a $120,000 verdict for Vance on September 9. The court enters judgment on Thursday, September 10. On Thursday, October 8, Kestrel files a renewed motion for judgment as a matter of law and, in the alternative, asks for a new trial. Suppose that on Friday, November 20, the court grants the renewed motion and enters judgment for Kestrel. Vance, who thinks the verdict should stand, wants a new trial if the judgment for Kestrel is not undone otherwise.",
+    "ask": "Analyze whether Kestrel's motions were proper and timely, what the court must do when it grants the renewed motion, and what Vance may do and by when.",
+    "rubric": [
+      {
+        "point": "A court may enter judgment against a party fully heard on an issue if a reasonable jury would lack a legally sufficient evidentiary basis for it.",
+        "cite": "50(a)(1)",
+        "quote": "If a party has been fully heard on an issue during a jury trial and the court finds that a reasonable jury would not have a legally sufficient evidentiary basis to find for the party on that issue, the court may"
+      },
+      {
+        "point": "Kestrel's motion was made before submission and specified the judgment sought and the law and facts.",
+        "cite": "50(a)(2)",
+        "quote": "A motion for judgment as a matter of law may be made at any time before the case is submitted to the jury. The motion must specify the judgment sought and the law and facts that entitle the movant to the judgment."
+      },
+      {
+        "point": "Denying the motion is treated as submission to the jury subject to the court's later deciding the legal questions.",
+        "cite": "50(b)",
+        "quote": "the court is considered to have submitted the action to the jury subject to the court's later deciding the legal questions raised by the motion."
+      },
+      {
+        "point": "The renewed motion, with an alternative new-trial request, is due 28 days after entry; September 10 plus 28 days is October 8, the last day.",
+        "cite": "50(b)",
+        "quote": "No later than 28 days after the entry of judgment—or if the motion addresses a jury issue not decided by a verdict, no later than 28 days after the jury was discharged—the movant may file a renewed motion for judgment as a matter of law and may include an alternative or joint request for a new trial under Rule 59."
+      },
+      {
+        "point": "On the renewed motion the court may allow judgment on the verdict, order a new trial, or direct judgment as a matter of law.",
+        "cite": "50(b)(3)",
+        "quote": "direct the entry of judgment as a matter of law."
+      },
+      {
+        "point": "If it grants the renewed motion, the court must conditionally rule on the new-trial motion and state its grounds.",
+        "cite": "50(c)(1)",
+        "quote": "it must also conditionally rule on any motion for a new trial by determining whether a new trial should be granted if the judgment is later vacated or reversed."
+      },
+      {
+        "point": "Vance's own new-trial motion is due 28 days after entry of the judgment as a matter of law: November 20 plus 28 days is December 18.",
+        "cite": "50(d)",
+        "quote": "Any motion for a new trial under Rule 59 by a party against whom judgment as a matter of law is rendered must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "point": "The court must not extend the Rule 50(b) or 50(d) deadlines.",
+        "cite": "6(b)(2)",
+        "quote": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+      }
+    ],
+    "model": "1. The pre-verdict motion. Rule 50(a)(1) lets the court resolve an issue against a party fully heard on it if a reasonable jury would lack a legally sufficient evidentiary basis. Rule 50(a)(2) allows the motion any time before submission to the jury and requires it to specify the judgment sought and the law and facts. Kestrel's motion came after Vance was fully heard, before submission, and said what it sought and why, so it was proper. Whether it should have been granted turned on the sufficiency of Vance's evidence; the court denied it.\n2. Renewal. Because the court did not grant the motion, it is considered to have submitted the case subject to later deciding the legal questions (Rule 50(b)). Kestrel may renew within 28 days after entry of judgment and may request a Rule 59 new trial in the alternative. September 10 plus 28 is October 8, the last day, so the October 8 filing is timely.\n3. Ruling. The court may allow judgment on the verdict, order a new trial, or direct judgment as a matter of law (Rule 50(b)(1)-(3)). Having granted the motion, it must conditionally rule on the new-trial request and state its grounds (Rule 50(c)(1)).\n4. Vance. A party against whom judgment as a matter of law is rendered must file any Rule 59 new-trial motion within 28 days after that judgment (Rule 50(d)): November 20 plus 28 is Friday, December 18. Rule 6(b)(2) bars extending that deadline.",
+    "cites": [
+      {
+        "cite": "50(a)(1)",
+        "quote": "If a party has been fully heard on an issue during a jury trial and the court finds that a reasonable jury would not have a legally sufficient evidentiary basis to find for the party on that issue, the court may"
+      },
+      {
+        "cite": "50(a)(2)",
+        "quote": "A motion for judgment as a matter of law may be made at any time before the case is submitted to the jury. The motion must specify the judgment sought and the law and facts that entitle the movant to the judgment."
+      },
+      {
+        "cite": "50(b)",
+        "quote": "the court is considered to have submitted the action to the jury subject to the court's later deciding the legal questions raised by the motion."
+      },
+      {
+        "cite": "50(b)",
+        "quote": "No later than 28 days after the entry of judgment—or if the motion addresses a jury issue not decided by a verdict, no later than 28 days after the jury was discharged—the movant may file a renewed motion for judgment as a matter of law and may include an alternative or joint request for a new trial under Rule 59."
+      },
+      {
+        "cite": "50(b)(3)",
+        "quote": "direct the entry of judgment as a matter of law."
+      },
+      {
+        "cite": "50(c)(1)",
+        "quote": "it must also conditionally rule on any motion for a new trial by determining whether a new trial should be granted if the judgment is later vacated or reversed."
+      },
+      {
+        "cite": "50(d)",
+        "quote": "Any motion for a new trial under Rule 59 by a party against whom judgment as a matter of law is rendered must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "6(b)(2)",
+        "quote": "A court must not extend the time to act under Rules 50(b) and (d), 52(b), 59(b), (d), and (e), and 60(b)."
+      }
+    ]
+  },
+  {
+    "id": "es2-009",
+    "kind": "essay",
+    "topic": "judgment",
+    "rules": [
+      "54",
+      "62",
+      "6"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Orion Foods sues Vale Corp. on (1) breach of a supply contract and (2) conversion of equipment. Vale counterclaims for unpaid rent. On Wednesday, October 14, 2026, the court grants Orion summary judgment on Count 1 and awards $210,000. The order does not mention Rule 54(b); Count 2 and the counterclaim remain pending. On October 15 Orion serves a writ to seize Vale's bank account. Vale objects. On October 21 the court, on Orion's motion, directs entry of final judgment on Count 1 and expressly determines that there is no just reason for delay. On October 30 Orion serves a second writ. Vale objects again and asks the court to stay enforcement of the October 21 judgment until its counterclaim is decided, because it expects an offset; alternatively it offers to post a bond. Meanwhile, on November 25, Orion moves for its attorney's fees on Count 1 under the contract's fee clause. Assume no statute or order sets a different time for the fee motion.",
+    "ask": "Analyze the October 14 order, the two writs, Vale's stay request, and Orion's fee motion.",
+    "rubric": [
+      {
+        "point": "The October 14 order adjudicated fewer than all claims, so it did not end the action and could be revised.",
+        "cite": "54(b)",
+        "quote": "does not end the action as to any of the claims or parties and may be revised at any time before the entry of a judgment adjudicating all the claims and all the parties' rights and liabilities."
+      },
+      {
+        "point": "The October 21 judgment is final as to Count 1 because the court expressly determined there is no just reason for delay.",
+        "cite": "54(b)",
+        "quote": "the court may direct entry of a final judgment as to one or more, but fewer than all, claims or parties only if the court expressly determines that there is no just reason for delay."
+      },
+      {
+        "point": "Execution is stayed for 30 days after entry, through November 20, so the October 30 writ was barred.",
+        "cite": "62(a)",
+        "quote": "execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      },
+      {
+        "point": "The court may stay enforcement of a Rule 54(b) judgment until a later judgment, on terms securing the judgment creditor.",
+        "cite": "62(h)",
+        "quote": "A court may stay the enforcement of a final judgment entered under Rule 54(b) until it enters a later judgment or judgments, and may prescribe terms necessary to secure the benefit of the stayed judgment for the party in whose favor it was entered."
+      },
+      {
+        "point": "Alternatively Vale may obtain a stay by bond, effective when the court approves it.",
+        "cite": "62(b)",
+        "quote": "At any time after judgment is entered, a party may obtain a stay by providing a bond or other security."
+      },
+      {
+        "point": "A fee motion is due no later than 14 days after entry of judgment: November 4.",
+        "cite": "54(d)(2)(B)(i)",
+        "quote": "be filed no later than 14 days after the entry of judgment"
+      },
+      {
+        "point": "A late motion may be allowed if made after the time expired and the failure to act was excusable neglect.",
+        "cite": "6(b)(1)(B)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect."
+      }
+    ],
+    "model": "1. The October 14 order. It adjudicated Count 1 only. An order that adjudicates fewer than all claims does not end the action and may be revised at any time before judgment on all claims (Rule 54(b)). It was not a final judgment, so the October 15 writ had no judgment to enforce and Vale's objection is sound.\n2. The October 21 judgment. Under Rule 54(b), the court may direct entry of final judgment on fewer than all claims only if it expressly determines there is no just reason for delay. It did, so Count 1 is now a final judgment even though Count 2 and the counterclaim remain.\n3. The second writ. Rule 62(a) stays execution and enforcement proceedings for 30 days after entry, unless the court orders otherwise. October 21 plus 30 days is Friday, November 20. The October 30 writ was inside the stay and is barred.\n4. Vale's stay request. The court may stay enforcement of a Rule 54(b) judgment until it enters a later judgment, on terms that secure the benefit of the stayed judgment for Orion (Rule 62(h)); whether to do so is discretionary. Vale may also obtain a stay at any time by providing a bond or other security, effective when the court approves it (Rule 62(b)).\n5. Fees. A fee claim must be made by motion, filed no later than 14 days after entry of judgment unless a statute or order says otherwise (Rule 54(d)(2)(B)(i)): November 4. November 25 is late. The court may still consider it on a motion showing the failure to act was excusable neglect (Rule 6(b)(1)(B)).",
+    "cites": [
+      {
+        "cite": "54(b)",
+        "quote": "does not end the action as to any of the claims or parties and may be revised at any time before the entry of a judgment adjudicating all the claims and all the parties' rights and liabilities."
+      },
+      {
+        "cite": "54(b)",
+        "quote": "the court may direct entry of a final judgment as to one or more, but fewer than all, claims or parties only if the court expressly determines that there is no just reason for delay."
+      },
+      {
+        "cite": "62(a)",
+        "quote": "execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise."
+      },
+      {
+        "cite": "62(h)",
+        "quote": "A court may stay the enforcement of a final judgment entered under Rule 54(b) until it enters a later judgment or judgments, and may prescribe terms necessary to secure the benefit of the stayed judgment for the party in whose favor it was entered."
+      },
+      {
+        "cite": "62(b)",
+        "quote": "At any time after judgment is entered, a party may obtain a stay by providing a bond or other security."
+      },
+      {
+        "cite": "54(d)(2)(B)(i)",
+        "quote": "be filed no later than 14 days after the entry of judgment"
+      },
+      {
+        "cite": "6(b)(1)(B)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect."
+      }
+    ]
+  },
+  {
+    "id": "es2-011",
+    "kind": "essay",
+    "topic": "remedies",
+    "rules": [
+      "68",
+      "54"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Reed sues Zenith Auto for $90,000, claiming repair costs and lost use of a truck. In September 2026 the court determines on summary judgment that Zenith is liable; only the amount of damages remains, to be decided at a hearing set for Monday, December 7, 2026. On Monday, November 2, Zenith serves Reed with an offer to allow judgment of $48,000 with costs then accrued. Reed does not respond. On Monday, November 30, Zenith serves a second offer, of $58,000; Reed again does not respond. Reed also serves Zenith with his own \"offer of judgment\" to settle for $75,000, which Zenith ignores. At the hearing Reed tries to put Zenith's first offer in evidence as proof of what Zenith thought the claim was worth, and Zenith objects. The court awards Reed $52,000. Zenith asks that Reed pay all costs incurred after November 2, or at least after November 30. Reed asks for his costs as the prevailing party.",
+    "ask": "Rule on Zenith's objection, on Zenith's cost request, and on Reed's cost request, addressing each of the three offers.",
+    "rubric": [
+      {
+        "point": "Zenith's liability was determined with the extent of liability still open, so the party held liable may offer judgment, served at least 14 days before the hearing.",
+        "cite": "68(c)",
+        "quote": "the party held liable may make an offer of judgment. It must be served within a reasonable time—but at least 14 days—before the date set for a hearing to determine the extent of liability."
+      },
+      {
+        "point": "The offeree has 14 days after service to accept in writing; Reed did not accept the first offer by November 16.",
+        "cite": "68(a)",
+        "quote": "If, within 14 days after being served, the opposing party serves written notice accepting the offer, either party may then file the offer and notice of acceptance, plus proof of service."
+      },
+      {
+        "point": "An unaccepted offer is considered withdrawn.",
+        "cite": "68(b)",
+        "quote": "An unaccepted offer is considered withdrawn, but it does not preclude a later offer."
+      },
+      {
+        "point": "The second offer, served 7 days before the hearing (the last day was November 23), is untimely.",
+        "cite": "68(c)",
+        "quote": "It must be served within a reasonable time—but at least 14 days—before the date set for a hearing to determine the extent of liability."
+      },
+      {
+        "point": "Cost shifting applies only if the judgment finally obtained is not more favorable than the unaccepted offer; $52,000 beats $48,000.",
+        "cite": "68(d)",
+        "quote": "If the judgment that the offeree finally obtains is not more favorable than the unaccepted offer, the offeree must pay the costs incurred after the offer was made."
+      },
+      {
+        "point": "Only a party defending against a claim may make an offer under Rule 68(a); Reed, the claimant, may not.",
+        "cite": "68(a)",
+        "quote": "a party defending against a claim may serve on an opposing party an offer to allow judgment on specified terms, with the costs then accrued."
+      },
+      {
+        "point": "Evidence of an unaccepted offer is inadmissible except in a proceeding to determine costs.",
+        "cite": "68(b)",
+        "quote": "Evidence of an unaccepted offer is not admissible except in a proceeding to determine costs."
+      },
+      {
+        "point": "Absent a rule or order providing otherwise, costs other than attorney's fees go to the prevailing party.",
+        "cite": "54(d)(1)",
+        "quote": "Unless a federal statute, these rules, or a court order provides otherwise, costs—other than attorney's fees—should be allowed to the prevailing party."
+      }
+    ],
+    "model": "1. Governing provision. Zenith's liability has been determined with the extent of liability still to be decided, so Rule 68(c) governs: the party held liable may offer judgment, served within a reasonable time but at least 14 days before the hearing on the extent of liability.\n2. First offer. Served November 2, 35 days before the December 7 hearing, it was timely. Reed had 14 days after service to accept in writing (Rule 68(a)); he did not, so it is considered withdrawn (Rule 68(b)).\n3. Second offer. December 7 minus 14 days is November 23, the last day to serve. November 30 is 7 days before the hearing, so the second offer does not satisfy Rule 68(c) and carries no Rule 68(d) consequence.\n4. Cost shifting. Under Rule 68(d), an offeree must pay post-offer costs only if the judgment he finally obtains is not more favorable than the unaccepted offer. Reed obtained $52,000, more favorable than $48,000. Zenith's request fails on the first offer and the second offer was never valid.\n5. Reed's \"offer.\" Rule 68(a) lets a party defending against a claim make the offer; Reed is the claimant, so his $75,000 proposal has no Rule 68 effect.\n6. Evidence and costs. Evidence of an unaccepted offer is not admissible except in a proceeding to determine costs (Rule 68(b)); a damages hearing is not such a proceeding, so Zenith's objection should be sustained. Costs other than attorney's fees should be allowed to the prevailing party unless these rules or an order provide otherwise (Rule 54(d)(1)); Rule 68(d) does not apply, so Reed recovers his costs.",
+    "cites": [
+      {
+        "cite": "68(c)",
+        "quote": "the party held liable may make an offer of judgment. It must be served within a reasonable time—but at least 14 days—before the date set for a hearing to determine the extent of liability."
+      },
+      {
+        "cite": "68(a)",
+        "quote": "If, within 14 days after being served, the opposing party serves written notice accepting the offer, either party may then file the offer and notice of acceptance, plus proof of service."
+      },
+      {
+        "cite": "68(b)",
+        "quote": "An unaccepted offer is considered withdrawn, but it does not preclude a later offer."
+      },
+      {
+        "cite": "68(c)",
+        "quote": "It must be served within a reasonable time—but at least 14 days—before the date set for a hearing to determine the extent of liability."
+      },
+      {
+        "cite": "68(d)",
+        "quote": "If the judgment that the offeree finally obtains is not more favorable than the unaccepted offer, the offeree must pay the costs incurred after the offer was made."
+      },
+      {
+        "cite": "68(a)",
+        "quote": "a party defending against a claim may serve on an opposing party an offer to allow judgment on specified terms, with the costs then accrued."
+      },
+      {
+        "cite": "68(b)",
+        "quote": "Evidence of an unaccepted offer is not admissible except in a proceeding to determine costs."
+      },
+      {
+        "cite": "54(d)(1)",
+        "quote": "Unless a federal statute, these rules, or a court order provides otherwise, costs—other than attorney's fees—should be allowed to the prevailing party."
+      }
+    ]
+  },
+  {
+    "id": "es2-013",
+    "kind": "essay",
+    "topic": "disc-tools",
+    "rules": [
+      "30",
+      "26",
+      "37"
+    ],
+    "level": 3,
+    "minutes": 25,
+    "stem": "Nile Co. sues Ardent Corp. for underpaying royalties. Nile gives written notice to depose Ardent's vice president, Sato, on Monday, October 5, 2026. Sato appears. After four hours, Nile asks about Ardent's pricing formulas. Ardent's lawyer instructs Sato not to answer because \"the formulas are trade secrets.\" No privilege is claimed, no court order limits the question, and no motion has been made. Nile's lawyer continues with related questions, and Ardent's lawyer responds with long speeches suggesting how Sato should answer. At the five-hour mark Ardent's lawyer announces that the deposition is over and leaves with Sato. Nile adjourns, writes and telephones Ardent's lawyer to ask for the answers, fails to resolve it, and then moves to compel Sato's answers, to continue the deposition, and for expenses and sanctions. A week later Ardent cross-moves for a protective order limiting disclosure of the formulas to Nile's outside counsel; its motion contains a statement that its lawyer first conferred with Nile's lawyer.",
+    "ask": "Rule on both motions and explain each side's best arguments.",
+    "rubric": [
+      {
+        "point": "Counsel may instruct a deponent not to answer only to preserve a privilege, enforce a court-ordered limit, or present a Rule 30(d)(3) motion; trade secrecy is none of these.",
+        "cite": "30(c)(2)",
+        "quote": "A person may instruct a deponent not to answer only when necessary to preserve a privilege, to enforce a limitation ordered by the court, or to present a motion under Rule 30(d)(3)."
+      },
+      {
+        "point": "Objections are noted and the examination proceeds, the testimony being taken subject to the objection.",
+        "cite": "30(c)(2)",
+        "quote": "must be noted on the record, but the examination still proceeds; the testimony is taken subject to any objection."
+      },
+      {
+        "point": "Speeches suggesting answers violate the form requirement for objections.",
+        "cite": "30(c)(2)",
+        "quote": "An objection must be stated concisely in a nonargumentative and nonsuggestive manner."
+      },
+      {
+        "point": "A deponent's failure to answer a question is a ground for a motion to compel.",
+        "cite": "37(a)(3)(B)(i)",
+        "quote": "a deponent fails to answer a question asked under Rule 30 or 31"
+      },
+      {
+        "point": "If the motion is granted, the court must award the movant's reasonable expenses unless an exception applies.",
+        "cite": "37(a)(5)(A)",
+        "quote": "the court must, after giving an opportunity to be heard, require the party or deponent whose conduct necessitated the motion, the party or attorney advising that conduct, or both to pay the movant's reasonable expenses incurred in making the motion, including attorney's fees."
+      },
+      {
+        "point": "A deposition is limited to 7 hours, but the court must allow more time if someone impedes the examination.",
+        "cite": "30(d)(1)",
+        "quote": "The court must allow additional time consistent with Rule 26(b)(1) and (2) if needed to fairly examine the deponent or if the deponent, another person, or any other circumstance impedes or delays the examination."
+      },
+      {
+        "point": "The court may sanction a person who impedes or frustrates the examination.",
+        "cite": "30(d)(2)",
+        "quote": "The court may impose an appropriate sanction—including the reasonable expenses and attorney's fees incurred by any party—on a person who impedes, delays, or frustrates the fair examination of the deponent."
+      },
+      {
+        "point": "Trade-secret protection is sought by a protective-order motion, which may require that confidential commercial information be revealed only in a specified way.",
+        "cite": "26(c)(1)(G)",
+        "quote": "requiring that a trade secret or other confidential research, development, or commercial information not be revealed or be revealed only in a specified way"
+      },
+      {
+        "point": "The protective-order motion needs a conferral certification and good cause.",
+        "cite": "26(c)(1)",
+        "quote": "The court may, for good cause, issue an order to protect a party or person from annoyance, embarrassment, oppression, or undue burden or expense"
+      }
+    ],
+    "model": "1. Instruction not to answer. Rule 30(c)(2) allows an instruction not to answer only when necessary to preserve a privilege, enforce a court-ordered limit, or present a Rule 30(d)(3) motion. Trade secrecy is none of these: Ardent claimed no privilege, had no order, and made no motion. The objection should have been noted and the examination continued, the testimony being taken subject to the objection.\n2. Speaking objections. An objection must be stated concisely in a nonargumentative and nonsuggestive manner (Rule 30(c)(2)); speeches suggesting answers violate it.\n3. Motion to compel. A deponent's failure to answer is a ground for a motion to compel (Rule 37(a)(3)(B)(i)), Nile was free to adjourn first (Rule 37(a)(3)(C)), and it conferred in good faith (Rule 37(a)(1)). The court should compel answers. Rule 37(a)(5)(A) then requires Nile's reasonable expenses unless Ardent's position was substantially justified or an award is unjust.\n4. More time. A deposition is limited to one day of 7 hours, but the court must allow additional time if needed to fairly examine the deponent or if another person impedes the examination (Rule 30(d)(1)). Ardent's counsel ended the session at five hours, so Nile should receive the rest and more if needed. The court may also sanction a person who impedes or frustrates the examination (Rule 30(d)(2)).\n5. Ardent's cross-motion. A protective order is the proper route, for good cause, after a conferral certification (Rule 26(c)(1)); the court may require that commercial information be revealed only in a specified way (Rule 26(c)(1)(G)). The court may grant narrow protection, such as outside-counsel-only review, while compelling the answers; if it denies protection it may order discovery on just terms (Rule 26(c)(2)).",
+    "cites": [
+      {
+        "cite": "30(c)(2)",
+        "quote": "A person may instruct a deponent not to answer only when necessary to preserve a privilege, to enforce a limitation ordered by the court, or to present a motion under Rule 30(d)(3)."
+      },
+      {
+        "cite": "30(c)(2)",
+        "quote": "must be noted on the record, but the examination still proceeds; the testimony is taken subject to any objection."
+      },
+      {
+        "cite": "30(c)(2)",
+        "quote": "An objection must be stated concisely in a nonargumentative and nonsuggestive manner."
+      },
+      {
+        "cite": "37(a)(3)(B)(i)",
+        "quote": "a deponent fails to answer a question asked under Rule 30 or 31"
+      },
+      {
+        "cite": "37(a)(5)(A)",
+        "quote": "the court must, after giving an opportunity to be heard, require the party or deponent whose conduct necessitated the motion, the party or attorney advising that conduct, or both to pay the movant's reasonable expenses incurred in making the motion, including attorney's fees."
+      },
+      {
+        "cite": "30(d)(1)",
+        "quote": "The court must allow additional time consistent with Rule 26(b)(1) and (2) if needed to fairly examine the deponent or if the deponent, another person, or any other circumstance impedes or delays the examination."
+      },
+      {
+        "cite": "30(d)(2)",
+        "quote": "The court may impose an appropriate sanction—including the reasonable expenses and attorney's fees incurred by any party—on a person who impedes, delays, or frustrates the fair examination of the deponent."
+      },
+      {
+        "cite": "26(c)(1)(G)",
+        "quote": "requiring that a trade secret or other confidential research, development, or commercial information not be revealed or be revealed only in a specified way"
+      },
+      {
+        "cite": "26(c)(1)",
+        "quote": "The court may, for good cause, issue an order to protect a party or person from annoyance, embarrassment, oppression, or undue burden or expense"
+      }
+    ]
+  }
+]

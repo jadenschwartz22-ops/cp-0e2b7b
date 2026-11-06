@@ -1,0 +1,3032 @@
+[
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(a)(1)(A)(i)",
+        "quote": "within 21 days after being served with the summons and complaint"
+      }
+    ],
+    "stem": "Park sues Delta Mills in federal court. Delta Mills is served with the summons and complaint on Tuesday, March 3, 2026. It does not waive service under Rule 4(d), no federal statute sets another time, and it has served no motion.",
+    "ask": "By what date must Delta Mills serve its answer?",
+    "options": [
+      {
+        "t": "March 17, 2026",
+        "why": "Counts 14 days, the period that Rule 12(a)(4)(A) applies only after a Rule 12 motion is denied. No motion was served here."
+      },
+      {
+        "t": "March 24, 2026",
+        "why": "Correct. Service of the summons and complaint on March 3 starts the 21-day clock of Rule 12(a)(1)(A)(i); the 21st day is a Tuesday."
+      },
+      {
+        "t": "March 31, 2026",
+        "why": "Counts 28 days, a period that appears nowhere in Rule 12(a)(1)(A)."
+      },
+      {
+        "t": "May 4, 2026",
+        "why": "Uses the 60-day period, which Rule 12(a)(1)(A)(ii) gives only to a defendant that timely waived service under Rule 4(d)."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "An answer is due 21 days after service of the summons and complaint (Rule 12(a)(1)(A)(i)). Counting from March 3 under Rule 6(a)(1), the 21st day is Tuesday, March 24, 2026. The 14-day and 60-day periods are triggered by a denied motion or a Rule 4(d) waiver, neither of which occurred.",
+    "calc": {
+      "from": "2026-03-03",
+      "days": 21,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-03-24"
+    },
+    "id": "mot-001"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "12(a)(1)(A)(ii)",
+        "quote": "within 60 days after the request for a waiver was sent"
+      }
+    ],
+    "stem": "Park mails Hale Foods, an Ohio company, a request to waive service under Rule 4(d). The request is sent to Hale Foods in Ohio on Monday, February 2, 2026. Hale Foods signs the waiver in time and returns it on Friday, February 20, 2026. No motion is served and no statute sets another time.",
+    "ask": "By what date must Hale Foods serve its answer?",
+    "options": [
+      {
+        "t": "February 23, 2026",
+        "why": "Counts 21 days from the request, ignoring the longer period that Rule 12(a)(1)(A)(ii) gives a defendant that timely waives service."
+      },
+      {
+        "t": "April 21, 2026",
+        "why": "Counts 60 days from the day the waiver was returned. Rule 12(a)(1)(A)(ii) runs the period from when the request for a waiver was sent."
+      },
+      {
+        "t": "April 3, 2026",
+        "why": "Correct. The waiver was timely, so Rule 12(a)(1)(A)(ii) gives 60 days after the request was sent: February 2 plus 60 days is April 3."
+      },
+      {
+        "t": "May 4, 2026",
+        "why": "Counts 90 days, which Rule 12(a)(1)(A)(ii) allows only when the request was sent to a defendant outside any judicial district of the United States."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A defendant that timely waived service must answer within 60 days after the request for a waiver was sent, or 90 days if it was sent outside the United States (Rule 12(a)(1)(A)(ii)). The request went to Ohio on February 2, so the 60-day period ends Friday, April 3, 2026. The date the waiver was returned does not start the clock.",
+    "calc": {
+      "from": "2026-02-02",
+      "days": 60,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-03"
+    },
+    "id": "mot-002"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "12(a)(4)(A)",
+        "quote": "if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action"
+      }
+    ],
+    "stem": "Nash serves Ruiz Co. with a summons and complaint on Friday, May 1, 2026. On May 15 Ruiz Co. serves a Rule 12(b)(6) motion to dismiss. On Monday, June 8, 2026, the court denies the motion and notifies the parties that day. The court sets no different time for responding.",
+    "ask": "By what date must Ruiz Co. serve its answer?",
+    "options": [
+      {
+        "t": "May 22, 2026",
+        "why": "Treats the original 21-day period as unaffected. Under Rule 12(a)(4) serving a Rule 12 motion alters the period."
+      },
+      {
+        "t": "May 29, 2026",
+        "why": "Counts 14 days from the day the motion was served. Rule 12(a)(4)(A) counts from notice of the court's action."
+      },
+      {
+        "t": "June 29, 2026",
+        "why": "Counts 21 days after the denial. After a denied motion Rule 12(a)(4)(A) gives 14 days, not 21."
+      },
+      {
+        "t": "June 22, 2026",
+        "why": "Correct. The court denied the motion on June 8, and Rule 12(a)(4)(A) requires the responsive pleading within 14 days after notice of that action."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Serving a Rule 12 motion alters the answer period. If the court denies the motion, the responsive pleading is due within 14 days after notice of the denial (Rule 12(a)(4)(A)). Notice came Monday, June 8, so the answer is due Monday, June 22, 2026.",
+    "calc": {
+      "from": "2026-06-08",
+      "days": 14,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-06-22"
+    },
+    "id": "mot-003"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "12(a)(4)(B)",
+        "quote": "if the court grants a motion for a more definite statement, the responsive pleading must be served within 14 days after the more definite statement is served"
+      }
+    ],
+    "stem": "Evans serves Frost Tech with the summons and complaint on Tuesday, September 1, 2026. Frost Tech serves a Rule 12(e) motion for a more definite statement on September 10. The court grants it on Tuesday, September 22 and orders a cure. Evans serves the more definite statement on Thursday, October 1, 2026. The court sets no other time.",
+    "ask": "By what date must Frost Tech serve its answer?",
+    "options": [
+      {
+        "t": "October 15, 2026",
+        "why": "Correct. Because the court granted a Rule 12(e) motion, Rule 12(a)(4)(B) gives 14 days after the more definite statement is served, October 1."
+      },
+      {
+        "t": "October 6, 2026",
+        "why": "Counts 14 days from the order granting the motion. Rule 12(a)(4)(B) runs from service of the more definite statement."
+      },
+      {
+        "t": "October 22, 2026",
+        "why": "Counts 21 days after the more definite statement. Rule 12(a)(4)(B) fixes 14 days, not the 21 days of Rule 12(a)(1)."
+      },
+      {
+        "t": "September 22, 2026",
+        "why": "Keeps the original 21-day deadline as if the Rule 12(e) motion had not altered the period. Rule 12(a)(4) says it does."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "A Rule 12(e) motion is a motion under Rule 12, so it alters the answer period. When the court grants it, the responsive pleading is due 14 days after the more definite statement is served (Rule 12(a)(4)(B)). Service on October 1 makes the deadline Thursday, October 15, 2026.",
+    "calc": {
+      "from": "2026-10-01",
+      "days": 14,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-10-15"
+    },
+    "id": "mot-004"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "12(a)(1)(B)",
+        "quote": "A party must serve an answer to a counterclaim or crossclaim within 21 days after being served with the pleading that states the counterclaim or crossclaim."
+      },
+      {
+        "cite": "6(d)",
+        "quote": "3 days are added after the period would otherwise expire under Rule 6(a)"
+      }
+    ],
+    "stem": "Park sues Lin Corp. Lin Corp. answers and asserts a counterclaim against Park. Lin Corp. serves the counterclaim on Park's lawyer by mail under Rule 5(b)(2)(C) on Monday, April 6, 2026. Park's time to respond is not changed by any order or motion.",
+    "ask": "By what date must Park serve its answer to the counterclaim?",
+    "options": [
+      {
+        "t": "April 20, 2026",
+        "why": "Counts 14 days. That period applies only after a motion is denied or a more definite statement is served under Rule 12(a)(4), not to a counterclaim."
+      },
+      {
+        "t": "April 27, 2026",
+        "why": "Counts the 21 days of Rule 12(a)(1)(B) but forgets that Rule 6(d) adds 3 days after service by mail."
+      },
+      {
+        "t": "April 30, 2026",
+        "why": "Correct. Rule 12(a)(1)(B) gives 21 days (April 27), and Rule 6(d) adds 3 days after the period expires because service was by mail."
+      },
+      {
+        "t": "May 4, 2026",
+        "why": "Counts 28 days, a period that Rule 12(a)(1)(B) does not contain."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "An answer to a counterclaim is due 21 days after service of the counterclaim (Rule 12(a)(1)(B)): Monday, April 27. Service by mail under Rule 5(b)(2)(C) adds 3 days after the period would otherwise expire (Rule 6(d)), so the deadline is Thursday, April 30, 2026.",
+    "calc": {
+      "from": "2026-04-06",
+      "days": 21,
+      "dir": "after",
+      "mail": true,
+      "answer": "2026-04-30"
+    },
+    "id": "mot-005"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(b)",
+        "quote": "But a party may assert the following defenses by motion"
+      },
+      {
+        "cite": "12(b)(7)",
+        "quote": "failure to join a party under Rule 19"
+      }
+    ],
+    "stem": "Cho Bank is sued for breach of a loan contract and has not yet answered. Cho Bank's only objection is that Gray, whom Rule 19 would require to be joined, was not made a party.",
+    "ask": "May Cho Bank raise this objection by a motion made before it answers?",
+    "options": [
+      {
+        "t": "No, every defense must be asserted in the answer and none may be raised by pre-answer motion.",
+        "why": "Reads only the first sentence of Rule 12(b). The next sentence lets a party assert listed defenses by motion."
+      },
+      {
+        "t": "No, only the defenses in Rule 12(b)(1) through (6) may be raised by motion.",
+        "why": "Adds a limit the rule does not have. Rule 12(b)(7) lists failure to join a party under Rule 19."
+      },
+      {
+        "t": "No, it may be raised only by a motion for judgment on the pleadings after the pleadings close.",
+        "why": "Confuses Rule 12(c) with Rule 12(b). A Rule 12(b) motion must be made before pleading if a responsive pleading is allowed."
+      },
+      {
+        "t": "Yes; Rule 12(b)(7) lists this defense, and a motion must come before pleading.",
+        "why": "Correct. Rule 12(b)(7) allows the defense by motion, made before pleading."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 12(b) lets a party assert seven listed defenses by motion, including failure to join a party under Rule 19 (12(b)(7)). A motion asserting any of them must be made before pleading when a responsive pleading is allowed, so Cho Bank may move now.",
+    "id": "mot-006"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "12(g)(2)",
+        "quote": "a party that makes a motion under this rule must not make another motion under this rule raising a defense or objection that was available to the party but omitted from its earlier motion"
+      },
+      {
+        "cite": "12(h)(1)(A)",
+        "quote": "omitting it from a motion in the circumstances described in Rule 12(g)(2)"
+      }
+    ],
+    "stem": "Evans sues Frost Tech, an out-of-state firm, in federal court. Before answering, Frost Tech serves a Rule 12(b)(6) motion and says nothing about personal jurisdiction, though it could have. The court denies the motion. Frost Tech then serves a second Rule 12 motion to dismiss for lack of personal jurisdiction, before filing any answer.",
+    "ask": "What is the result of the second motion?",
+    "options": [
+      {
+        "t": "It must be heard, because no answer has been served and a Rule 12(b) motion is timely before pleading.",
+        "why": "Ignores the limit in Rule 12(g)(2) on a further Rule 12 motion raising a defense that was available but omitted."
+      },
+      {
+        "t": "It is barred, but Frost Tech may plead lack of personal jurisdiction in its answer.",
+        "why": "Rule 12(h)(1)(A) waives the defense when omitted in the Rule 12(g)(2) circumstances, so it cannot be revived in the answer."
+      },
+      {
+        "t": "It is barred: the defense was available but omitted from the first motion, so it is waived.",
+        "why": "Correct. Rule 12(g)(2) bars the second motion, and Rule 12(h)(1)(A) waives a Rule 12(b)(2) defense omitted that way."
+      },
+      {
+        "t": "It must be heard, because Rule 12(b) says no defense is waived by joining it with other defenses in a motion.",
+        "why": "Misreads Rule 12(b)'s last sentence. Joining defenses never waives them; omitting a defense from the motion does."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Personal jurisdiction was available when Frost Tech made its first Rule 12 motion but was omitted. Rule 12(g)(2) bars a second Rule 12 motion on it, and Rule 12(h)(1)(A) waives a Rule 12(b)(2)-(5) defense so omitted. The defense is gone, in a motion or in the answer.",
+    "id": "mot-007"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "12(g)(2)",
+        "quote": "Except as provided in Rule 12(h)(2) or (3)"
+      },
+      {
+        "cite": "12(h)(2)",
+        "quote": "Failure to state a claim upon which relief can be granted, to join a person required by Rule 19(b), or to state a legal defense to a claim may be raised"
+      },
+      {
+        "cite": "12(h)(2)(B)",
+        "quote": "by a motion under Rule 12(c)"
+      }
+    ],
+    "stem": "Gill sues Hart Co. Hart Co. serves a pre-answer motion under Rule 12(b)(2) only, and the court denies it. Hart Co. answers, and the pleadings close. Hart Co. then moves under Rule 12(c) for judgment on the pleadings, arguing the complaint fails to state a claim upon which relief can be granted. Gill responds that Hart Co. already made its one Rule 12 motion.",
+    "ask": "Is Hart Co.'s Rule 12(c) motion barred?",
+    "options": [
+      {
+        "t": "No; Rule 12(g)(2) yields to Rule 12(h)(2), which allows this defense by a Rule 12(c) motion.",
+        "why": "Correct. The Rule 12(g)(2) bar is subject to Rule 12(h)(2), and 12(h)(2)(B) preserves this defense for a Rule 12(c) motion."
+      },
+      {
+        "t": "Yes. Rule 12(g)(2) allows one Rule 12 motion per party, whatever defense it raises.",
+        "why": "Overlooks the opening exception in Rule 12(g)(2) for what Rule 12(h)(2) or (3) provides."
+      },
+      {
+        "t": "Yes. Failure to state a claim is waived under Rule 12(h)(1) when omitted from the first motion.",
+        "why": "Rule 12(h)(1) waives only defenses in Rule 12(b)(2)-(5). Failure to state a claim is governed by Rule 12(h)(2)."
+      },
+      {
+        "t": "No, but only if the court first grants Hart Co. leave under Rule 15.",
+        "why": "Invents a leave requirement. Rule 12(h)(2)(B) preserves the defense for a Rule 12(c) motion without leave."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 12(g)(2) bars successive Rule 12 motions, except as Rule 12(h)(2) or (3) provide. Rule 12(h)(2) preserves failure to state a claim and allows it to be raised by a Rule 12(c) motion. Hart Co.'s earlier Rule 12(b)(2) motion therefore does not bar this one.",
+    "id": "mot-008"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "12(h)(3)",
+        "quote": "If the court determines at any time that it lacks subject-matter jurisdiction, the court must dismiss the action."
+      }
+    ],
+    "stem": "Alder sues Birch Co. After 14 months of discovery and a pending summary judgment motion, the court determines that it lacks subject-matter jurisdiction. Birch Co. never raised lack of subject-matter jurisdiction in a motion or in its answer. Alder argues that Birch Co. waived the point.",
+    "ask": "What must the court do?",
+    "options": [
+      {
+        "t": "Proceed, because a Rule 12(b) defense not raised in the answer or a pre-answer motion is waived.",
+        "why": "Treats every Rule 12(b) defense as waivable. Rule 12(h)(1) waives only Rule 12(b)(2)-(5) defenses."
+      },
+      {
+        "t": "Proceed, because Birch Co. participated in discovery and summary judgment practice.",
+        "why": "Rule 12(h)(3) has no participation exception. The court must dismiss whenever it determines it lacks jurisdiction."
+      },
+      {
+        "t": "Dismiss only if Birch Co. moves before trial, because Rule 12(i) requires a defense to be heard then.",
+        "why": "Rule 12(h)(3) puts the duty on the court. It does not wait for a motion."
+      },
+      {
+        "t": "Dismiss the action, because the court must do so if it determines at any time that it lacks subject-matter jurisdiction.",
+        "why": "Correct. Rule 12(h)(3) applies at any time, without regard to waiver."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 12(h)(1) waives only defenses in Rule 12(b)(2)-(5). Lack of subject-matter jurisdiction is not waived, and under Rule 12(h)(3) the court must dismiss if it determines at any time that it lacks jurisdiction.",
+    "id": "mot-009"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12",
+      "15"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "12(h)(1)(B)",
+        "quote": "failing to either: (i) make it by motion under this rule; or (ii) include it in a responsive pleading or in an amendment allowed by Rule 15(a)(1) as a matter of course"
+      },
+      {
+        "cite": "15(a)(1)(A)",
+        "quote": "21 days after serving it"
+      }
+    ],
+    "stem": "Ivy sues Jet Co. Jet Co. makes no Rule 12 motion and serves its answer on Monday, March 2, 2026, which omits any objection to venue. On Friday, March 20, 2026, Jet Co. serves its first amended answer adding the defense of improper venue. Ivy moves to strike that defense as waived.",
+    "ask": "Is the improper-venue defense waived?",
+    "options": [
+      {
+        "t": "No. It was included in an amendment allowed as a matter of course, which Rule 12(h)(1)(B)(ii) accepts.",
+        "why": "Correct. The answer was amended once within 21 days of service (Rule 15(a)(1)(A)), and Rule 12(h)(1)(B)(ii) counts that amendment."
+      },
+      {
+        "t": "Yes. A defense omitted from the original answer is waived, and amendment cannot revive it.",
+        "why": "Ignores that Rule 12(h)(1)(B)(ii) expressly counts an amendment allowed by Rule 15(a)(1) as a matter of course."
+      },
+      {
+        "t": "No, but only if the court grants leave under Rule 15(a)(2).",
+        "why": "Adds a leave requirement. March 20 is within 21 days of serving the answer, so no leave is needed."
+      },
+      {
+        "t": "No. Improper venue may be raised at any time before trial under Rule 12(i).",
+        "why": "Rule 12(i) governs when a raised defense is heard, not whether it was preserved."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Improper venue is a Rule 12(b)(3) defense, waived by failing to raise it in a motion or in a responsive pleading or an amendment allowed by Rule 15(a)(1) as a matter of course (Rule 12(h)(1)(B)). March 20 is 18 days after service, so the amendment was as of right and preserved the defense.",
+    "id": "mot-010"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "12(e)",
+        "quote": "so vague or ambiguous that the party cannot reasonably prepare a response"
+      }
+    ],
+    "stem": "Kemp sues Lowe. The complaint says only that Lowe \"breached one or more of the parties' agreements, causing loss.\" Lowe has two agreements with Kemp and cannot reasonably prepare a response. Lowe has not answered and wants to challenge the complaint without yet asking for dismissal.",
+    "ask": "Which motion fits Lowe's problem most directly?",
+    "options": [
+      {
+        "t": "Motion to strike under Rule 12(f)",
+        "why": "Rule 12(f) targets an insufficient defense or redundant, immaterial, impertinent, or scandalous matter. Nothing here is of that kind."
+      },
+      {
+        "t": "Motion for a more definite statement under Rule 12(e)",
+        "why": "Correct. Rule 12(e) applies when a pleading is so vague or ambiguous that the party cannot reasonably prepare a response."
+      },
+      {
+        "t": "Motion to dismiss under Rule 12(b)(6)",
+        "why": "Seeks dismissal for failure to state a claim. Lowe's complaint is that the pleading is unintelligible, which is the Rule 12(e) problem."
+      },
+      {
+        "t": "Motion for judgment on the pleadings under Rule 12(c)",
+        "why": "Premature: Rule 12(c) is available only after the pleadings are closed, and Lowe has not answered."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 12(e) lets a party move for a more definite statement of a pleading to which a response is allowed but which is so vague or ambiguous that it cannot reasonably prepare a response. The motion must be made before answering and must point out the defects and details desired.",
+    "id": "mot-011"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "12(c)",
+        "quote": "After the pleadings are closed—but early enough not to delay trial—a party may move for judgment on the pleadings."
+      },
+      {
+        "cite": "12(h)(2)(B)",
+        "quote": "by a motion under Rule 12(c)"
+      }
+    ],
+    "stem": "Nash sues Mora Co. Mora Co. answers on May 4 without any Rule 12 motion. There are no counterclaims, and the pleadings are now closed. Trial is not set for a year. Mora Co. concludes the complaint fails to state a claim upon which relief can be granted.",
+    "ask": "How may Mora Co. now present that defense by motion?",
+    "options": [
+      {
+        "t": "By a Rule 12(b)(6) motion, which may be made at any time before trial.",
+        "why": "Rule 12(b) requires a motion asserting a listed defense to be made before pleading. Mora Co. has already answered."
+      },
+      {
+        "t": "It cannot; failure to state a claim is waived once the answer is served without it.",
+        "why": "Rule 12(h)(2) preserves this defense. Only the Rule 12(b)(2)-(5) defenses are waived under Rule 12(h)(1)."
+      },
+      {
+        "t": "It may be raised only at trial under Rule 12(h)(2)(C).",
+        "why": "Rule 12(h)(2) lists trial as one option, but Rule 12(h)(2)(B) also permits a Rule 12(c) motion now."
+      },
+      {
+        "t": "By a Rule 12(c) motion for judgment on the pleadings, which Rule 12(h)(2)(B) allows.",
+        "why": "Correct. The pleadings are closed, so Rule 12(c) is available, and Rule 12(h)(2)(B) preserves this defense for that motion."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "A Rule 12(b) motion must come before pleading, but failure to state a claim is preserved by Rule 12(h)(2): it may be raised in a pleading, by a Rule 12(c) motion, or at trial. With the pleadings closed, Mora Co. may move for judgment on the pleadings.",
+    "id": "mot-012"
+  },
+  {
+    "kind": "apply",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "12(d)",
+        "quote": "If, on a motion under Rule 12(b)(6) or 12(c), matters outside the pleadings are presented to and not excluded by the court, the motion must be treated as one for summary judgment under Rule 56."
+      }
+    ],
+    "stem": "Nash sues Orr Co. for breach of contract. Orr Co. serves a Rule 12(b)(6) motion and attaches a sworn affidavit from its chief financial officer and bank records showing payment. The court considers the affidavit and records and does not exclude them.",
+    "ask": "What must happen to the motion?",
+    "options": [
+      {
+        "t": "It stays a Rule 12(b)(6) motion, and the court may rely on the affidavit without notice to Nash.",
+        "why": "Rule 12(d) provides otherwise: with outside matters not excluded, the motion is treated as one for summary judgment."
+      },
+      {
+        "t": "It is treated as a Rule 56 motion, and all parties must get a reasonable opportunity to present material.",
+        "why": "Correct. Rule 12(d) converts the motion and requires that opportunity."
+      },
+      {
+        "t": "It is automatically denied, and Orr Co. must then serve its answer within 14 days after the denial.",
+        "why": "Rule 12(d) converts the motion rather than denying it; the 14-day period of Rule 12(a)(4)(A) is not triggered by conversion."
+      },
+      {
+        "t": "It is treated as a Rule 12(c) motion, which allows outside matters to be considered without conversion.",
+        "why": "Rule 12(d) applies to Rule 12(c) motions too, and Rule 12(c) has no exception for outside matters."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "When matters outside the pleadings are presented on a Rule 12(b)(6) or 12(c) motion and the court does not exclude them, the motion must be treated as one for summary judgment under Rule 56, and all parties must get a reasonable opportunity to present pertinent material (Rule 12(d)).",
+    "id": "mot-013"
+  },
+  {
+    "kind": "issue",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "12(c)",
+        "quote": "After the pleadings are closed"
+      },
+      {
+        "cite": "12(d)",
+        "quote": "matters outside the pleadings are presented to and not excluded by the court"
+      },
+      {
+        "cite": "12(i)",
+        "quote": "If a party so moves, any defense listed in Rule 12(b)(1)-(7)"
+      }
+    ],
+    "stem": "Zed sues Quo Co. The pleadings close in March. In April, Quo Co. moves for judgment on the pleadings and attaches a sworn declaration from its operations manager on a disputed fact. The court does not exclude the declaration. Quo Co.'s answer also asserted failure to join a party under Rule 19, and Quo Co. asks that this defense be heard and decided before trial. Zed has served no other motion, and no one disputes subject-matter jurisdiction.",
+    "ask": "Which Rule 12 provisions are triggered by these facts?",
+    "options": [
+      {
+        "t": "Rule 12(c)",
+        "why": "Triggered: the pleadings are closed and Quo Co. moves for judgment on the pleadings."
+      },
+      {
+        "t": "Rule 12(d)",
+        "why": "Triggered: matters outside the pleadings were presented and not excluded, so the motion is treated as one for summary judgment."
+      },
+      {
+        "t": "Rule 12(i)",
+        "why": "Triggered: a party moved that a listed Rule 12(b) defense be heard, so it must be heard and decided before trial unless deferred."
+      },
+      {
+        "t": "Rule 12(e)",
+        "why": "Not triggered: no pleading is claimed to be too vague to answer."
+      },
+      {
+        "t": "Rule 12(f)(2)",
+        "why": "Not triggered: no one moves to strike matter from a pleading."
+      },
+      {
+        "t": "Rule 12(h)(3)",
+        "why": "Not triggered: no one raises a question of subject-matter jurisdiction."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2
+    ],
+    "explain": "The closed pleadings make Rule 12(c) available. Presenting an unexcluded declaration converts the motion to summary judgment (Rule 12(d)). Quo Co.'s motion that its Rule 12(b)(7) defense be heard triggers Rule 12(i), which requires a decision before trial unless the court defers it.",
+    "id": "mot-016"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "15",
+      "12"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "15(a)(1)(B)",
+        "quote": "21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier"
+      }
+    ],
+    "stem": "Park serves her complaint on Delta Mills on Monday, March 2, 2026. On Monday, March 16, 2026, Delta Mills serves a Rule 12(b)(6) motion to dismiss and no answer. Park has not amended before and has no written consent or court order allowing amendment.",
+    "ask": "What is the last day on which Park may amend her complaint once as a matter of course?",
+    "options": [
+      {
+        "t": "March 23, 2026",
+        "why": "Counts only 21 days after serving the complaint. A complaint requires a responsive pleading, so Rule 15(a)(1)(B) also applies and runs from the Rule 12(b) motion."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Counts 14 days after the motion. Rule 15(a)(1)(B) allows 21 days after service of the Rule 12(b) motion, not 14."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Correct. The complaint requires a responsive pleading, so Rule 15(a)(1)(B) allows 21 days after service of the Rule 12(b) motion (March 16), ending April 6."
+      },
+      {
+        "t": "April 13, 2026",
+        "why": "Counts 28 days after the motion, a period that Rule 15(a)(1) does not contain."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A pleading that requires a responsive pleading may be amended once as a matter of course within 21 days after service of a responsive pleading or of a Rule 12(b), (e), or (f) motion, whichever is earlier (Rule 15(a)(1)(B)). The motion was served March 16, so the last day is Monday, April 6, 2026.",
+    "calc": {
+      "from": "2026-03-16",
+      "days": 21,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-06"
+    },
+    "id": "mot-017"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "15(a)(1)(A)",
+        "quote": "21 days after serving it"
+      },
+      {
+        "cite": "15(a)(2)",
+        "quote": "only with the opposing party's written consent or the court's leave"
+      }
+    ],
+    "stem": "Blake sues Ames. Ames serves an answer on Monday, March 2, 2026, which requires no responsive pleading. On Monday, April 6, 2026, Ames serves an amended answer, its first, adding an affirmative defense. Blake has not consented in writing, and the court has not granted leave. Blake moves to strike the amended answer.",
+    "ask": "Is Ames's amended answer proper?",
+    "options": [
+      {
+        "t": "Yes, because Ames amended within 21 days after service of a responsive pleading under Rule 15(a)(1)(B).",
+        "why": "An answer is a pleading to which no responsive pleading is required, so Rule 15(a)(1)(B) does not apply to it."
+      },
+      {
+        "t": "Yes, because a party may amend at any time before trial without leave.",
+        "why": "Describes no rule. Outside the 21-day window of Rule 15(a)(1), Rule 15(a)(2) requires written consent or leave."
+      },
+      {
+        "t": "No, because a party may never amend an answer without a court order.",
+        "why": "Overstates the rule. Rule 15(a)(1)(A) lets a party amend once as a matter of course within 21 days after serving the pleading."
+      },
+      {
+        "t": "No, because it came 35 days after service, outside Rule 15(a)(1)(A), and neither written consent nor leave exists.",
+        "why": "Correct. Beyond the 21-day window Rule 15(a)(2) permits amendment only with the opposing party's written consent or the court's leave."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "An answer requires no responsive pleading, so the only as-of-right period is 21 days after serving it (Rule 15(a)(1)(A)). The amended answer was served 35 days later, so Ames needed Blake's written consent or the court's leave (Rule 15(a)(2)). It had neither.",
+    "id": "mot-018"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "15(a)(1)",
+        "quote": "A party may amend its pleading once as a matter of course"
+      },
+      {
+        "cite": "15(a)(2)",
+        "quote": "only with the opposing party's written consent or the court's leave"
+      }
+    ],
+    "stem": "Cole sues Dunn. Cole has already amended her complaint once as a matter of course. Forty days later Cole's lawyer phones Dunn's lawyer, who says orally, \"Fine by me.\" Cole then serves a second amended complaint with no motion for leave and no written consent. Dunn moves to strike it.",
+    "ask": "How should the court rule on Dunn's motion?",
+    "options": [
+      {
+        "t": "Deny it, because oral consent from opposing counsel satisfies Rule 15(a)(2).",
+        "why": "Rule 15(a)(2) calls for the opposing party's written consent. An oral \"fine by me\" is not that."
+      },
+      {
+        "t": "Grant it, because Cole has no written consent and no leave, and her one amendment as a matter of course is used up.",
+        "why": "Correct. Rule 15(a)(1) allows an amendment as a matter of course once; Rule 15(a)(2) requires written consent or leave for any other."
+      },
+      {
+        "t": "Deny it, because a second amendment is allowed as a matter of course within 14 days under Rule 15(a)(3).",
+        "why": "Rule 15(a)(3) governs the time to respond to an amended pleading, not a right to amend again."
+      },
+      {
+        "t": "Grant it, because a plaintiff may never amend a complaint more than once.",
+        "why": "Overstates the rule. A further amendment is allowed with written consent or the court's leave, which the court should freely give when justice so requires."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 15(a)(1) permits one amendment as a matter of course. Every other amendment needs the opposing party's written consent or the court's leave (Rule 15(a)(2)). Cole already used her one amendment, and oral consent is not written consent, so the amended complaint is improper without leave.",
+    "id": "mot-019"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "15(b)(2)",
+        "quote": "When an issue not raised by the pleadings is tried by the parties' express or implied consent, it must be treated in all respects as if raised in the pleadings."
+      },
+      {
+        "cite": "15(b)(2)",
+        "quote": "But failure to amend does not affect the result of the trial of that issue."
+      }
+    ],
+    "stem": "Grant sues Hill for breach of a written contract. At a bench trial both sides present evidence, without objection from either, that the parties orally modified the contract. Neither pleaded modification, and no one moved to amend. The court finds for Grant on the modification issue. Hill moves to vacate, arguing the court decided an issue no pleading raised.",
+    "ask": "How should the court rule on Hill's motion?",
+    "options": [
+      {
+        "t": "Grant it, because a judgment may rest only on issues raised in the pleadings.",
+        "why": "Rule 15(b)(2) treats an issue tried by consent as if raised in the pleadings."
+      },
+      {
+        "t": "Grant it, unless Grant moved to amend before the trial ended.",
+        "why": "Rule 15(b)(2) says failure to amend does not affect the result of the trial of that issue, and a party may move even after judgment."
+      },
+      {
+        "t": "Deny it; the issue was tried by implied consent, and failure to amend does not affect the result.",
+        "why": "Correct. Rule 15(b)(2) treats it as if pleaded and says failure to amend does not affect the result."
+      },
+      {
+        "t": "Deny it, but only if the court first grants Hill a continuance under Rule 15(b)(1).",
+        "why": "Rule 15(b)(1) concerns an objection at trial. Hill did not object, so Rule 15(b)(2) applies."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "An issue tried by the parties' express or implied consent must be treated in all respects as if raised in the pleadings, and failure to amend does not affect the result (Rule 15(b)(2)). Both sides litigated modification without objection, so the judgment stands.",
+    "id": "mot-021"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "15(c)(1)(B)",
+        "quote": "the amendment asserts a claim or defense that arose out of the conduct, transaction, or occurrence set out—or attempted to be set out—in the original pleading"
+      }
+    ],
+    "stem": "Quinn is injured in a collision with Reed's truck. Quinn timely sues Reed for negligent driving. After the limitation period expires, Quinn amends to add a claim against Reed for negligent maintenance of the same truck, arising from the same collision. Nothing in the law that supplies the limitation period mentions relation back. Reed moves to dismiss the added claim as untimely.",
+    "ask": "Which provision most directly lets the added claim relate back?",
+    "options": [
+      {
+        "t": "Rule 15(c)(1)(A)",
+        "why": "Applies only when the law providing the limitation period allows relation back. The stem says it does not address the subject."
+      },
+      {
+        "t": "Rule 15(c)(1)(C)",
+        "why": "Governs amendments that change the party or the naming of the party. Quinn is adding a claim against the same defendant."
+      },
+      {
+        "t": "Rule 15(d)",
+        "why": "Concerns supplemental pleadings about events after the pleading date. The collision occurred before the original complaint."
+      },
+      {
+        "t": "Rule 15(c)(1)(B)",
+        "why": "Correct. The added claim arose out of the same occurrence, the collision, set out in the original pleading."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "An amendment relates back when it asserts a claim that arose out of the conduct, transaction, or occurrence set out in the original pleading (Rule 15(c)(1)(B)). The maintenance claim arises from the same collision. Rule 15(c)(1)(A) does not help because the limitation law is silent, and Rule 15(c)(1)(C) concerns changes of party.",
+    "id": "mot-022"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "15",
+      "4"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "15(c)(1)(C)",
+        "quote": "within the period provided by Rule 4(m) for serving the summons and complaint"
+      },
+      {
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed"
+      }
+    ],
+    "stem": "On Tuesday, January 6, 2026, Park files suit against \"Delta Mills Inc.,\" mistaking it for Delta Mills LLC, the related entity that runs the plant and shares its manager and address. The limitation period expires May 20, 2026, and the law supplying it does not allow relation back. On June 8, 2026, Park serves an amended complaint naming the LLC. The claim arises from the same occurrence.",
+    "ask": "For the amendment to relate back under Rule 15(c)(1)(C), by what date must the LLC have received notice of the action?",
+    "options": [
+      {
+        "t": "January 27, 2026",
+        "why": "Counts 21 days after filing, the answer period of Rule 12(a). Rule 15(c)(1)(C) uses the Rule 4(m) period for serving the summons and complaint."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Correct. Rule 15(c)(1)(C) requires notice within the Rule 4(m) period, which is 90 days after the January 6 filing."
+      },
+      {
+        "t": "May 20, 2026",
+        "why": "Uses the date the limitation period expires. Rule 15(c)(1)(C) measures notice by the Rule 4(m) period, not by limitations."
+      },
+      {
+        "t": "June 8, 2026",
+        "why": "Uses the date the amended complaint was served. Notice must come within the Rule 4(m) period, before the amendment."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "An amendment changing a party relates back if, within the period provided by Rule 4(m) for serving the summons and complaint, the new party received notice and knew or should have known the suit was meant for it but for a mistake (Rule 15(c)(1)(C)). Rule 4(m) gives 90 days after filing: April 6, 2026.",
+    "calc": {
+      "from": "2026-01-06",
+      "days": 90,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-06"
+    },
+    "id": "mot-023"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "15(d)",
+        "quote": "On motion and reasonable notice, the court may, on just terms, permit a party to serve a supplemental pleading"
+      },
+      {
+        "cite": "15(d)",
+        "quote": "The court may permit supplementation even though the original pleading is defective in stating a claim or defense."
+      }
+    ],
+    "stem": "Fox sues Gale Co. for missed monthly shipments under a supply contract, January through March. In July, Gale Co. misses another shipment. Fox wants to add the July breach to the pending case. Gale Co. objects that the original complaint is defective in stating a claim, so it cannot be supplemented.",
+    "ask": "May the court allow Fox to add the July breach?",
+    "options": [
+      {
+        "t": "No, because events after the date of the pleading can be added only by filing a new action.",
+        "why": "Rule 15(d) allows a supplemental pleading about an event that happened after the date of the pleading to be supplemented."
+      },
+      {
+        "t": "No, because a defective original complaint cannot be supplemented.",
+        "why": "Rule 15(d) says the court may permit supplementation even though the original pleading is defective."
+      },
+      {
+        "t": "Yes, on motion and reasonable notice, on just terms, through a supplemental pleading.",
+        "why": "Correct. This is the procedure of Rule 15(d), and a defect in the original does not bar it."
+      },
+      {
+        "t": "Yes, automatically, because Rule 15(b)(2) conforms the pleadings to later events.",
+        "why": "Rule 15(b)(2) covers issues tried by consent. Adding a later event requires a motion under Rule 15(d)."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 15(d) lets the court, on motion and reasonable notice and on just terms, permit a supplemental pleading setting out a transaction, occurrence, or event after the date of the pleading, even though the original pleading is defective. Fox must move; the July breach qualifies.",
+    "id": "mot-024"
+  },
+  {
+    "kind": "issue",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "15(a)(1)(B)",
+        "quote": "21 days after service of a responsive pleading"
+      },
+      {
+        "cite": "15(a)(2)",
+        "quote": "only with the opposing party's written consent or the court's leave"
+      },
+      {
+        "cite": "15(a)(3)",
+        "quote": "within 14 days after service of the amended pleading, whichever is later"
+      },
+      {
+        "cite": "15(b)(2)",
+        "quote": "tried by the parties' express or implied consent"
+      }
+    ],
+    "stem": "Park serves her complaint on Delta Mills on March 2, 2026. Delta Mills serves its answer on March 16. On April 2, Park serves an amended complaint, her first, adding a legal theory, and Delta Mills asks when it must respond. On June 1, Delta Mills wants to serve an amended answer adding a defense, but Park has not consented. At trial in September, evidence on an unpleaded warranty issue comes in without objection from either side. No party has changed, and nothing new has happened since the pleadings were filed.",
+    "ask": "Which provisions of Rule 15 apply to these events?",
+    "options": [
+      {
+        "t": "Rule 15(a)(1)(B)",
+        "why": "Triggered: April 2 is within 21 days after service of the answer, a responsive pleading, so the amendment was as of right."
+      },
+      {
+        "t": "Rule 15(a)(2)",
+        "why": "Triggered: Delta Mills's June 1 amendment is outside the as-of-right periods and needs written consent or leave."
+      },
+      {
+        "t": "Rule 15(a)(3)",
+        "why": "Triggered: Delta Mills's response to the amended complaint is due on the later of the time remaining or 14 days after service."
+      },
+      {
+        "t": "Rule 15(b)(1)",
+        "why": "Not triggered: no one objected at trial that the evidence was outside the pleadings."
+      },
+      {
+        "t": "Rule 15(b)(2)",
+        "why": "Triggered: the unpleaded warranty issue was tried by implied consent and is treated as if pleaded."
+      },
+      {
+        "t": "Rule 15(c)(1)(C)",
+        "why": "Not triggered: no party is being added or renamed."
+      },
+      {
+        "t": "Rule 15(d)",
+        "why": "Not triggered: no event has happened since the date of the pleadings."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explain": "Park's April 2 amendment was as of right (Rule 15(a)(1)(B)), and Delta Mills's time to respond follows Rule 15(a)(3). Delta Mills's June 1 amendment needs consent or leave (Rule 15(a)(2)). The warranty issue was tried by implied consent (Rule 15(b)(2)), not over objection.",
+    "id": "mot-025"
+  },
+  {
+    "kind": "issue",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "15(c)(1)(B)",
+        "quote": "arose out of the conduct, transaction, or occurrence set out"
+      },
+      {
+        "cite": "15(c)(1)(C)(i)",
+        "quote": "received such notice of the action that it will not be prejudiced in defending on the merits"
+      },
+      {
+        "cite": "15(c)(1)(C)(ii)",
+        "quote": "knew or should have known that the action would have been brought against it"
+      }
+    ],
+    "stem": "Quinn was injured in a collision with a truck. On January 6, 2026, Quinn sued \"Reed Hauling Inc.,\" mistaking it for Reed Transport LLC, which owns the truck and shares Reed Hauling's manager and office. The limitation period has since run. The law that supplies it says nothing about relation back. On April 2, 2026, within the Rule 4(m) period, the LLC's manager received a copy of the complaint and recognized the suit was meant for the LLC. Quinn then amends to name the LLC, asserting the same collision claim. No federal officer or agency is involved.",
+    "ask": "Which provisions support relation back of this amendment?",
+    "options": [
+      {
+        "t": "Rule 15(c)(1)(A)",
+        "why": "Not triggered: the law supplying the limitation period does not allow relation back."
+      },
+      {
+        "t": "Rule 15(c)(1)(B)",
+        "why": "Triggered: the claim arises out of the same collision set out in the original complaint."
+      },
+      {
+        "t": "Rule 15(c)(1)(C)(i)",
+        "why": "Triggered: within the Rule 4(m) period the LLC received notice that it will not be prejudiced in defending."
+      },
+      {
+        "t": "Rule 15(c)(1)(C)(ii)",
+        "why": "Triggered: the LLC knew the action would have been brought against it but for the mistake concerning identity."
+      },
+      {
+        "t": "Rule 15(c)(2)",
+        "why": "Not triggered: it concerns adding the United States or its officers or agencies."
+      },
+      {
+        "t": "Rule 15(d)",
+        "why": "Not triggered: no event after the date of the original pleading is being added."
+      }
+    ],
+    "key": [
+      1,
+      2,
+      3
+    ],
+    "explain": "The amendment changes the party against whom the claim is asserted, so Rule 15(c)(1)(C) governs, together with the same-occurrence requirement of Rule 15(c)(1)(B). The LLC had notice and knowledge within the Rule 4(m) period, satisfying Rule 15(c)(1)(C)(i) and (ii).",
+    "id": "mot-026"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(a)(1)",
+        "quote": "A pleading must state as a counterclaim any claim that—at the time of its service—the pleader has against an opposing party if the claim"
+      },
+      {
+        "cite": "13(a)(1)(A)",
+        "quote": "arises out of the transaction or occurrence that is the subject matter of the opposing party's claim"
+      }
+    ],
+    "stem": "Park sues Delta Mills for $40,000 for unpaid invoices on one shipment of fabric. Delta Mills has a claim against Park for delivering defective fabric in that same shipment. No other action is pending on Delta Mills's claim, and no additional party is needed to assert it. Delta Mills is preparing its answer.",
+    "ask": "What does Rule 13 require of Delta Mills's answer?",
+    "options": [
+      {
+        "t": "It may state the claim as a counterclaim but need not, since a counterclaim is always optional.",
+        "why": "Confuses Rule 13(a) with Rule 13(b). A claim arising from the opposing party's transaction or occurrence must be stated."
+      },
+      {
+        "t": "It must state the claim as a counterclaim because it arises out of the transaction that is the subject of Park's claim.",
+        "why": "Correct. Rule 13(a)(1)(A) makes such a claim compulsory when no exception applies."
+      },
+      {
+        "t": "It must state the claim only if it is smaller than Park's $40,000 claim.",
+        "why": "Adds a size limit. Rule 13(c) says a counterclaim need not diminish or defeat the opposing party's recovery."
+      },
+      {
+        "t": "It must be brought in a separate action, because a counterclaim may not rest on the same shipment.",
+        "why": "Reverses the rule. Same-transaction claims are the ones that must be stated as counterclaims."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "A pleading must state as a counterclaim any claim the pleader has against an opposing party at the time of service if it arises out of the transaction or occurrence that is the subject of the opposing party's claim and needs no party beyond the court's reach (Rule 13(a)(1)). No exception in Rule 13(a)(2) applies.",
+    "id": "mot-027"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(b)",
+        "quote": "A pleading may state as a counterclaim against an opposing party any claim that is not compulsory."
+      }
+    ],
+    "stem": "Gray sues Hall for injuries from a car collision. Hall also has a claim against Gray for an unpaid personal loan, unrelated to the collision. No other action on the loan is pending. Hall wants to assert the loan claim in this action.",
+    "ask": "May Hall assert the loan claim in this action as a counterclaim?",
+    "options": [
+      {
+        "t": "No, because only claims arising out of the opposing party's transaction may be stated as counterclaims.",
+        "why": "Rule 13(b) lets a pleading state as a counterclaim any claim that is not compulsory, including unrelated ones."
+      },
+      {
+        "t": "No, unless the court grants leave under Rule 13(e) for counterclaims added after the answer.",
+        "why": "Rule 13(e) concerns counterclaims that matured or were acquired after an earlier pleading, not unrelated ones."
+      },
+      {
+        "t": "Yes; it is permissive, because any claim against an opposing party that is not compulsory may be stated.",
+        "why": "Correct. The loan claim does not arise from the collision, so it is not compulsory, and Rule 13(b) allows it."
+      },
+      {
+        "t": "Yes, and Hall must assert it now or lose it, because it is a compulsory counterclaim.",
+        "why": "The loan claim does not arise out of the collision, so Rule 13(a) does not make it compulsory."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A claim that is not compulsory under Rule 13(a) may nonetheless be stated as a counterclaim against an opposing party (Rule 13(b)). The unpaid loan is unrelated to the collision, so it is permissive: Hall may assert it but need not.",
+    "id": "mot-028"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "13(a)(2)(A)",
+        "quote": "when the action was commenced, the claim was the subject of another pending action"
+      }
+    ],
+    "stem": "On April 1, Jax Co. sues Iris in another court on a claim arising from a delivery contract, and that suit remains pending. On June 1, Iris sues Jax Co. in federal court on a claim arising from the same delivery. Jax Co. serves an answer in the federal case that does not state its claim.",
+    "ask": "Was Jax Co. required to state its claim as a counterclaim in the federal action?",
+    "options": [
+      {
+        "t": "Yes, because the claim arises out of the transaction that is the subject of Iris's claim, and nothing excuses it.",
+        "why": "Overlooks Rule 13(a)(2)(A), which excuses the pleader when the claim was already the subject of another pending action."
+      },
+      {
+        "t": "Yes, because the other suit does not count unless it has ended in a judgment.",
+        "why": "Rule 13(a)(2)(A) asks only whether the claim was the subject of another pending action when this action commenced."
+      },
+      {
+        "t": "No, because Rule 13(a)(2)(B) excuses any pleader sued in a different court.",
+        "why": "Rule 13(a)(2)(B) concerns suits by attachment or process that did not establish personal jurisdiction. No such facts appear."
+      },
+      {
+        "t": "No, because when this action commenced the claim was the subject of another pending action.",
+        "why": "Correct. That is the exception in Rule 13(a)(2)(A)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "A claim arising from the same transaction is ordinarily compulsory (Rule 13(a)(1)), but the pleader need not state it if, when the action was commenced, the claim was the subject of another pending action (Rule 13(a)(2)(A)). Jax Co.'s April suit was pending when Iris sued.",
+    "id": "mot-029"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "13(a)(2)(B)",
+        "quote": "the opposing party sued on its claim by attachment or other process that did not establish personal jurisdiction over the pleader on that claim, and the pleader does not assert any counterclaim under this rule"
+      }
+    ],
+    "stem": "Karl sues Lund on a debt by attaching Lund's bank account in the forum state. The attachment does not establish personal jurisdiction over Lund on Karl's claim. Lund appears and answers. Lund has a claim against Karl arising out of the same debt transaction. Lund's answer asserts no counterclaim of any kind. No other action on Lund's claim is pending.",
+    "ask": "Was Lund required to state its claim as a counterclaim?",
+    "options": [
+      {
+        "t": "Yes, because it arises out of the transaction that is the subject of Karl's claim, whatever the process used.",
+        "why": "Overlooks the exception in Rule 13(a)(2)(B) for suit by attachment that did not establish personal jurisdiction over the pleader."
+      },
+      {
+        "t": "No; Karl's process did not establish personal jurisdiction over Lund, and Lund asserts no counterclaim.",
+        "why": "Correct. Both conditions of Rule 13(a)(2)(B) are met."
+      },
+      {
+        "t": "No, but only if Lund also asserts a permissive counterclaim under Rule 13(b) in the same answer.",
+        "why": "Reverses the condition. Under Rule 13(a)(2)(B) the pleader must not assert any counterclaim under this rule."
+      },
+      {
+        "t": "Yes, because by appearing and answering Lund consented to the court's authority over its own claim.",
+        "why": "Adds a waiver rule that Rule 13(a)(2)(B) does not contain."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 13(a)(2)(B) excuses the pleader when the opposing party sued by attachment or other process that did not establish personal jurisdiction over the pleader on that claim, and the pleader asserts no counterclaim under Rule 13. Both conditions hold, so Lund need not state it.",
+    "id": "mot-030"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "13(e)",
+        "quote": "The court may permit a party to file a supplemental pleading asserting a counterclaim that matured or was acquired by the party after serving an earlier pleading."
+      }
+    ],
+    "stem": "Mei sues Nye on an equipment lease. Nye serves his answer on April 1 without a counterclaim. Nye has no other claim against Mei at that time. On May 1, a payment that Mei owes Nye under the same lease becomes due, and Nye's claim for it matures. Nye wants to assert it in this action.",
+    "ask": "How may Nye assert the claim in this action?",
+    "options": [
+      {
+        "t": "He cannot; it was a compulsory counterclaim that he lost by omitting it from his answer.",
+        "why": "Rule 13(a)(1) reaches claims the pleader has at the time of service. This claim did not yet exist on April 1."
+      },
+      {
+        "t": "He cannot; the court has no power to allow it, and he must sue separately.",
+        "why": "Rule 13(e) lets the court permit a supplemental pleading for a counterclaim that matured after an earlier pleading."
+      },
+      {
+        "t": "He may seek the court's permission to file a supplemental pleading asserting it.",
+        "why": "Correct. Rule 13(e) covers a counterclaim that matured after serving an earlier pleading."
+      },
+      {
+        "t": "He may assert it without permission by simply serving it, since it is permissive.",
+        "why": "Rule 13(e) says the court may permit the filing, so permission is required."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A claim that did not exist when the pleading was served is not compulsory (Rule 13(a)(1) speaks of claims the pleader has at the time of service). A counterclaim that matured after serving an earlier pleading may be asserted if the court permits a supplemental pleading (Rule 13(e)).",
+    "id": "mot-031"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(c)",
+        "quote": "A counterclaim need not diminish or defeat the recovery sought by the opposing party. It may request relief that exceeds in amount or differs in kind from the relief sought by the opposing party."
+      }
+    ],
+    "stem": "Oak sues Pine for $10,000 for damage to a boat. Pine counterclaims for $60,000 for injuries from the same incident. Oak moves to dismiss the counterclaim, arguing that a counterclaim may seek only to reduce or defeat Oak's recovery.",
+    "ask": "How should the court rule on Oak's argument?",
+    "options": [
+      {
+        "t": "Reject it; relief may exceed in amount or differ in kind from the opposing party's.",
+        "why": "Correct. Rule 13(c) says it need not diminish or defeat the opposing party's recovery."
+      },
+      {
+        "t": "Accept it: a counterclaim may not exceed the amount the opposing party seeks.",
+        "why": "Rule 13(c) says the opposite. Relief may exceed the opposing party's in amount."
+      },
+      {
+        "t": "Reject it, but only if the court grants leave to seek the larger sum.",
+        "why": "Rule 13(c) imposes no leave requirement for relief that exceeds the opposing party's."
+      },
+      {
+        "t": "Accept it, because a claim for money cannot answer a claim for money.",
+        "why": "Rule 13(c) allows relief that differs in kind as well as in amount. No such restriction exists."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "A counterclaim need not diminish or defeat the opposing party's recovery; it may seek more, or different, relief (Rule 13(c)). Pine's $60,000 counterclaim is proper, and Oak's argument fails.",
+    "id": "mot-032"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "13(g)",
+        "quote": "A pleading may state as a crossclaim any claim by one party against a coparty"
+      },
+      {
+        "cite": "13(g)",
+        "quote": "The crossclaim may include a claim that the coparty is or may be liable to the crossclaimant for all or part of a claim asserted in the action against the crossclaimant."
+      }
+    ],
+    "stem": "Quade sues Ross and Sage together for a highway crash. Ross believes Sage alone caused the crash and is liable to Ross for any amount Quade recovers from Ross. Ross is preparing its answer and wonders whether it must assert that claim against Sage in this action.",
+    "ask": "Must Ross assert its claim against Sage as a crossclaim in Quade's action?",
+    "options": [
+      {
+        "t": "Yes, because Rule 13(a) makes every claim against another party in the action compulsory.",
+        "why": "Rule 13(a) covers claims against an opposing party. Sage is a coparty, not an opposing party."
+      },
+      {
+        "t": "Yes, because a claim arising from the same occurrence must be stated as a crossclaim under Rule 13(g).",
+        "why": "Rule 13(g) says a pleading \"may\" state a crossclaim. It does not say it must."
+      },
+      {
+        "t": "No, because a claim that a coparty is liable to the crossclaimant for the plaintiff's claim cannot be a crossclaim.",
+        "why": "Rule 13(g) expressly includes such a claim."
+      },
+      {
+        "t": "No, because Rule 13(g) says a pleading may state a crossclaim against a coparty, which is permissive.",
+        "why": "Correct. A crossclaim is permissive, and the claim for reimbursement is within Rule 13(g)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 13(g) provides that a pleading may state a crossclaim against a coparty arising from the same occurrence, including a claim that the coparty is or may be liable for all or part of the claim against the crossclaimant. The word \"may\" makes it optional.",
+    "id": "mot-033"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(h)",
+        "quote": "Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim."
+      }
+    ],
+    "stem": "Tate sues Ury. Ury counterclaims against Tate for property damage. Ury also wants to add Vance, who is not yet a party and who is jointly liable with Tate for the same damage, as an additional defendant on the counterclaim.",
+    "ask": "Which rules govern whether Ury may add Vance to the counterclaim?",
+    "options": [
+      {
+        "t": "Rule 13 alone, which lets any counterclaimant add anyone as of right.",
+        "why": "Rule 13(h) sends this question to other rules rather than answering it."
+      },
+      {
+        "t": "Rule 14, because Vance is a nonparty brought in by a defending party.",
+        "why": "Rule 14 concerns a nonparty who may be liable to the defending party for the claim against it. Vance is not alleged to be liable for Tate's claim."
+      },
+      {
+        "t": "Rules 19 and 20, which govern adding a person as a party to a counterclaim or crossclaim.",
+        "why": "Correct. Rule 13(h) says so expressly."
+      },
+      {
+        "t": "Rule 15(a)(1), because adding a party is an amendment as a matter of course.",
+        "why": "Rule 15(a)(1) concerns amending a pleading. Rule 13(h) names the rules that govern adding the party."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 13(h) provides that Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim. Ury must satisfy those rules to add Vance.",
+    "id": "mot-034"
+  },
+  {
+    "kind": "issue",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "13(a)(1)",
+        "quote": "A pleading must state as a counterclaim any claim that"
+      },
+      {
+        "cite": "13(c)",
+        "quote": "It may request relief that exceeds in amount or differs in kind from the relief sought by the opposing party."
+      },
+      {
+        "cite": "13(g)",
+        "quote": "A pleading may state as a crossclaim any claim by one party against a coparty"
+      },
+      {
+        "cite": "13(h)",
+        "quote": "Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim."
+      }
+    ],
+    "stem": "Park sues Delta Mills and Elm Corp. in one action over a collision, seeking $20,000. Delta Mills has a claim against Park, arising out of the same collision, for $80,000 in damage to Delta Mills's truck, and it states that claim in its answer. Delta Mills also asserts that Elm Corp. must reimburse it for whatever Park recovers from Delta Mills. Delta Mills wants to add Fir, a nonparty jointly liable with Park for the truck damage, as an additional defendant on its counterclaim. Park is a private individual, and nothing is pending elsewhere.",
+    "ask": "Which provisions of Rule 13 apply to these facts?",
+    "options": [
+      {
+        "t": "Rule 13(a)(1)",
+        "why": "Triggered: the claim arises out of the collision that is the subject of Park's claim, so it must be stated as a counterclaim."
+      },
+      {
+        "t": "Rule 13(b)",
+        "why": "Not triggered: the counterclaim arises from the same collision, so it is compulsory rather than permissive."
+      },
+      {
+        "t": "Rule 13(c)",
+        "why": "Triggered: the $80,000 counterclaim exceeds the $20,000 Park seeks, which Rule 13(c) allows."
+      },
+      {
+        "t": "Rule 13(d)",
+        "why": "Not triggered: no counterclaim against the United States or its officers or agencies is involved."
+      },
+      {
+        "t": "Rule 13(g)",
+        "why": "Triggered: Delta Mills's claim against its coparty Elm Corp. for reimbursement is a crossclaim."
+      },
+      {
+        "t": "Rule 13(h)",
+        "why": "Triggered: adding Fir to the counterclaim is governed by Rules 19 and 20."
+      },
+      {
+        "t": "Rule 13(a)(2)(A)",
+        "why": "Not triggered: nothing is pending elsewhere on the claim."
+      }
+    ],
+    "key": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "explain": "The truck claim arises from the collision, so it is compulsory (Rule 13(a)(1)), and it may seek more than Park's claim (Rule 13(c)). The reimbursement claim against coparty Elm Corp. is a crossclaim (Rule 13(g)). Adding Fir is governed by Rules 19 and 20 (Rule 13(h)).",
+    "id": "mot-035"
+  },
+  {
+    "kind": "issue",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "13(a)(2)(A)",
+        "quote": "when the action was commenced, the claim was the subject of another pending action"
+      },
+      {
+        "cite": "13(b)",
+        "quote": "any claim that is not compulsory"
+      },
+      {
+        "cite": "13(e)",
+        "quote": "a counterclaim that matured or was acquired by the party after serving an earlier pleading"
+      }
+    ],
+    "stem": "On June 1, 2026, Lane sues Moss Co. for the price of goods delivered. In April, before Lane sued, Moss Co. sued Lane in another court over defects in that same delivery, and that suit is pending. Moss Co. also has an unrelated claim against Lane on a lease and would like to assert it here. Moss Co. serves its answer on July 1 stating no counterclaim. On August 1, an installment owed by Lane under the same delivery contract falls due, and Moss Co. wants to assert that claim here. Lane did not sue by attachment, and no federal officer or agency is a party.",
+    "ask": "Which provisions of Rule 13 apply to Moss Co.'s claims?",
+    "options": [
+      {
+        "t": "Rule 13(a)(2)(A)",
+        "why": "Triggered: when this action commenced, the delivery claim was the subject of another pending action, so Moss Co. need not state it."
+      },
+      {
+        "t": "Rule 13(a)(2)(B)",
+        "why": "Not triggered: Lane did not sue by attachment or process that failed to establish personal jurisdiction."
+      },
+      {
+        "t": "Rule 13(b)",
+        "why": "Triggered: the unrelated lease claim is not compulsory, so it may be stated as a counterclaim."
+      },
+      {
+        "t": "Rule 13(c)",
+        "why": "Not triggered: no question about the amount or kind of relief is raised."
+      },
+      {
+        "t": "Rule 13(d)",
+        "why": "Not triggered: no counterclaim against the United States is involved."
+      },
+      {
+        "t": "Rule 13(e)",
+        "why": "Triggered: the installment claim matured after Moss Co. served its answer, so a supplemental pleading requires the court's permission."
+      }
+    ],
+    "key": [
+      0,
+      2,
+      5
+    ],
+    "explain": "The delivery claim falls within the exception of Rule 13(a)(2)(A) because it was already pending elsewhere. The lease claim is permissive (Rule 13(b)). The August installment matured after the answer, so Moss Co. needs the court's permission for a supplemental pleading (Rule 13(e)).",
+    "id": "mot-036"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "14(a)(1)",
+        "quote": "the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer"
+      }
+    ],
+    "stem": "Park sues Delta Mills for a defective press. Delta Mills serves its original answer on Monday, March 2, 2026. It wants to file a third-party complaint against Echo Parts, which it says must reimburse Delta Mills for whatever Park recovers. Delta Mills has not obtained leave and has no court order on timing.",
+    "ask": "What is the last day on which Delta Mills may file the third-party complaint without first obtaining the court's leave?",
+    "options": [
+      {
+        "t": "March 9, 2026",
+        "why": "Counts 7 days. Rule 14(a)(1) allows filing without leave up to 14 days after serving the original answer."
+      },
+      {
+        "t": "March 16, 2026",
+        "why": "Correct. Leave is required only if the third-party complaint is filed more than 14 days after serving the original answer, so the 14th day is the last."
+      },
+      {
+        "t": "March 23, 2026",
+        "why": "Counts 21 days, the answer period of Rule 12(a). Rule 14(a)(1) uses 14 days."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Counts 28 days, a period that Rule 14(a)(1) does not contain."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "A defending party may serve a third-party complaint without leave only within 14 days after serving its original answer; after that it must obtain leave by motion (Rule 14(a)(1)). Fourteen days after March 2 is Monday, March 16, 2026.",
+    "calc": {
+      "from": "2026-03-02",
+      "days": 14,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-03-16"
+    },
+    "id": "mot-037"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "14(a)(1)",
+        "quote": "serve a summons and complaint on a nonparty who is or may be liable to it for all or part of the claim against it"
+      }
+    ],
+    "stem": "Park sues Delta Mills for injuries from a defective press. Delta Mills bought the press's valve from Echo Parts, a nonparty, and believes Echo Parts may have to reimburse Delta Mills for any amount Park recovers from it.",
+    "ask": "On what basis may Delta Mills serve a third-party complaint on Echo Parts?",
+    "options": [
+      {
+        "t": "Echo Parts may be liable directly to Park, even if not to Delta Mills.",
+        "why": "Rule 14(a)(1) requires that the nonparty be or may be liable to the defending party, not merely to the plaintiff."
+      },
+      {
+        "t": "Echo Parts has already been held liable to Delta Mills by a judgment.",
+        "why": "Adds a requirement. Rule 14(a)(1) reaches a nonparty who \"is or may be\" liable, which needs no prior judgment."
+      },
+      {
+        "t": "Echo Parts is or may be liable to Delta Mills for all or part of Park's claim against Delta Mills.",
+        "why": "Correct. That is the basis stated in Rule 14(a)(1)."
+      },
+      {
+        "t": "Echo Parts sold Delta Mills other goods and still owes Delta Mills for a separate delivery.",
+        "why": "An unrelated debt is not liability for the claim against the defending party."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A defending party may implead a nonparty who is or may be liable to it for all or part of the claim against it (Rule 14(a)(1)). Delta Mills claims Echo Parts may have to reimburse it for Park's recovery, which fits.",
+    "id": "mot-038"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "14(a)(2)(C)",
+        "quote": "may assert against the plaintiff any defense that the third-party plaintiff has to the plaintiff's claim"
+      }
+    ],
+    "stem": "Park sues Delta Mills for $90,000 on a contract. Delta Mills serves a third-party complaint on Echo Parts. Delta Mills has a defense to Park's claim: Park signed a release. Echo Parts wants to assert the release against Park.",
+    "ask": "May Echo Parts assert the release defense against Park?",
+    "options": [
+      {
+        "t": "No, because a third-party defendant may assert defenses only against the third-party plaintiff.",
+        "why": "Rule 14(a)(2)(C) allows the third-party defendant to assert against the plaintiff any defense the third-party plaintiff has."
+      },
+      {
+        "t": "No, because only Delta Mills may rely on the release.",
+        "why": "Rule 14(a)(2)(C) lets the third-party defendant use the third-party plaintiff's defenses against the plaintiff."
+      },
+      {
+        "t": "Yes, but only after Park has asserted a claim against Echo Parts.",
+        "why": "Adds a condition. Rule 14(a)(2)(C) contains no such requirement."
+      },
+      {
+        "t": "Yes; a third-party defendant may assert against the plaintiff any defense the third-party plaintiff has.",
+        "why": "Correct. This is Rule 14(a)(2)(C)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "The person served with the third-party summons and complaint may assert against the plaintiff any defense that the third-party plaintiff has to the plaintiff's claim (Rule 14(a)(2)(C)). Echo Parts may therefore invoke Delta Mills's release defense.",
+    "id": "mot-039"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "14(b)",
+        "quote": "When a claim is asserted against a plaintiff, the plaintiff may bring in a third party if this rule would allow a defendant to do so."
+      }
+    ],
+    "stem": "Park sues Delta Mills. Delta Mills counterclaims against Park for $50,000 in property damage. Park believes Echo Insurance would be liable to Park for any amount Park owes on the counterclaim. Park wants to bring Echo Insurance into the action.",
+    "ask": "May Park bring in Echo Insurance?",
+    "options": [
+      {
+        "t": "No, because only a defendant may bring in a third party, and Park is the plaintiff in this case.",
+        "why": "Rule 14(b) lets a plaintiff against whom a claim is asserted do what a defendant could do under Rule 14."
+      },
+      {
+        "t": "Yes; a claim has been asserted against Park, so Rule 14(b) lets Park do what a defendant may do.",
+        "why": "Correct. Rule 14(b) applies."
+      },
+      {
+        "t": "No, because third-party practice reaches only claims in the original complaint.",
+        "why": "Rule 14(b) is aimed at claims asserted against a plaintiff, such as a counterclaim."
+      },
+      {
+        "t": "Yes, but only if the claim is within admiralty or maritime jurisdiction.",
+        "why": "Rule 14(c) deals with admiralty claims. Rule 14(b) has no such limit."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "When a claim is asserted against a plaintiff, the plaintiff may bring in a third party if Rule 14 would allow a defendant to do so (Rule 14(b)). Delta Mills's counterclaim is such a claim, and Echo Insurance may be liable for it.",
+    "id": "mot-040"
+  },
+  {
+    "kind": "issue",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "14(a)(1)",
+        "quote": "the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer"
+      },
+      {
+        "cite": "14(a)(2)(C)",
+        "quote": "may assert against the plaintiff any defense that the third-party plaintiff has to the plaintiff's claim"
+      },
+      {
+        "cite": "14(a)(3)",
+        "quote": "The plaintiff may assert against the third-party defendant any claim arising out of the transaction or occurrence that is the subject matter of the plaintiff's claim"
+      },
+      {
+        "cite": "14(a)(4)",
+        "quote": "Any party may move to strike the third-party claim, to sever it, or to try it separately."
+      }
+    ],
+    "stem": "Park sues Delta Mills over a defective press. Delta Mills serves its answer on March 2, 2026. On March 30, it moves for leave and serves a third-party complaint on Echo Parts, which it says must reimburse Delta Mills for whatever Park recovers. Echo Parts wants to argue against Park that Park signed a release, a defense Delta Mills also has. Park then asserts against Echo Parts a claim arising out of the same transaction. Park also moves to sever the third-party claim and try it separately. The case is not in admiralty, and Echo Parts brings in no one.",
+    "ask": "Which provisions of Rule 14 apply to these events?",
+    "options": [
+      {
+        "t": "Rule 14(a)(1)",
+        "why": "Triggered: the third-party complaint was filed more than 14 days after the original answer, so leave by motion was needed."
+      },
+      {
+        "t": "Rule 14(a)(2)(C)",
+        "why": "Triggered: Echo Parts may assert against Park the release defense that Delta Mills has."
+      },
+      {
+        "t": "Rule 14(a)(3)",
+        "why": "Triggered: Park may assert against Echo Parts a claim arising from the same transaction."
+      },
+      {
+        "t": "Rule 14(a)(4)",
+        "why": "Triggered: Park's motion to sever or try separately is a motion to strike, sever, or try separately."
+      },
+      {
+        "t": "Rule 14(a)(5)",
+        "why": "Not triggered: Echo Parts brings in no nonparty."
+      },
+      {
+        "t": "Rule 14(b)",
+        "why": "Not triggered: no claim is asserted against Park that Park seeks to pass to a third party."
+      },
+      {
+        "t": "Rule 14(c)(1)",
+        "why": "Not triggered: the case is not an admiralty or maritime claim."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "March 30 is more than 14 days after the answer, so Delta Mills needed leave (Rule 14(a)(1)). Echo Parts may assert Delta Mills's release defense against Park (Rule 14(a)(2)(C)), Park may sue Echo Parts on the same transaction (Rule 14(a)(3)), and any party may move to sever (Rule 14(a)(4)).",
+    "id": "mot-041"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "16(b)(4)",
+        "quote": "A schedule may be modified only for good cause and with the judge's consent."
+      }
+    ],
+    "stem": "The court's scheduling order sets a discovery cutoff of June 1. On May 20, the lawyers for both sides sign and file a stipulation extending the cutoff to July 15. The judge has not acted on it. One side serves discovery requests on July 1 in reliance on the stipulation.",
+    "ask": "Is the extended discovery cutoff in effect?",
+    "options": [
+      {
+        "t": "Yes, because parties may modify a schedule by agreement when the judge has not objected.",
+        "why": "Rule 16(b)(4) requires the judge's consent. Silence is not consent."
+      },
+      {
+        "t": "No; a schedule changes only for good cause and with the judge's consent, which is missing.",
+        "why": "Correct. Rule 16(b)(4) sets both conditions."
+      },
+      {
+        "t": "Yes, because the stipulation was filed before the cutoff passed.",
+        "why": "Rule 16(b)(4) does not turn on the filing date. The judge's consent is required."
+      },
+      {
+        "t": "No, because a scheduling order may never be modified.",
+        "why": "Overstates the rule. A schedule may be modified for good cause and with the judge's consent."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "A schedule may be modified only for good cause and with the judge's consent (Rule 16(b)(4)). The lawyers' stipulation alone does not change the order, so the June 1 cutoff remains in effect until the judge consents.",
+    "id": "mot-043"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "16(f)(1)",
+        "quote": "if a party or its attorney: (A) fails to appear at a scheduling or other pretrial conference; (B) is substantially unprepared to participate—or does not participate in good faith—in the conference; or (C) fails to obey a scheduling or other pretrial order."
+      },
+      {
+        "cite": "16(f)(2)",
+        "quote": "the court must order the party, its attorney, or both to pay the reasonable expenses—including attorney's fees—incurred because of any noncompliance with this rule, unless the noncompliance was substantially justified or other circumstances make an award of expenses unjust"
+      }
+    ],
+    "stem": "The scheduling order requires all motions to be filed by March 2. Hale's lawyer files a motion on March 20 and gives no explanation for the delay. The court finds the lateness was not substantially justified and sees no circumstance that would make an award of expenses unjust. It sanctions Hale's lawyer under Rule 16(f)(1).",
+    "ask": "What does Rule 16(f)(2) require of the court in addition?",
+    "options": [
+      {
+        "t": "Nothing; an award of expenses is entirely within the court's discretion, whatever the facts.",
+        "why": "Rule 16(f)(2) uses \"must\", not \"may\", for the award of expenses."
+      },
+      {
+        "t": "It must award expenses only if the lawyer acted in bad faith.",
+        "why": "Adds a bad-faith requirement that Rule 16(f)(2) does not contain."
+      },
+      {
+        "t": "It must award expenses against the client only, never against the lawyer.",
+        "why": "Rule 16(f)(2) permits an order against the party, its attorney, or both."
+      },
+      {
+        "t": "It must order the party, its attorney, or both to pay reasonable expenses, including fees.",
+        "why": "Correct. Rule 16(f)(2) requires this unless the noncompliance was substantially justified or an award would be unjust."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Failing to obey a scheduling order permits sanctions under Rule 16(f)(1)(C). Rule 16(f)(2) then requires an order that the party, its attorney, or both pay the reasonable expenses, including attorney's fees, caused by the noncompliance, unless substantially justified or unjust. Neither exception applies.",
+    "id": "mot-044"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "16(e)",
+        "quote": "The court may modify the order issued after a final pretrial conference only to prevent manifest injustice."
+      }
+    ],
+    "stem": "After a final pretrial conference, the court issues a pretrial order limiting the trial to Jon's breach-of-contract and fraud claims. Three weeks before trial, Jon moves to add a negligence claim, saying he discovered the theory late. The opposing party objects.",
+    "ask": "What standard governs whether the court may modify the order to allow the negligence claim?",
+    "options": [
+      {
+        "t": "The order may be modified only to prevent manifest injustice.",
+        "why": "Correct. Rule 16(e) states this limit for an order issued after a final pretrial conference."
+      },
+      {
+        "t": "The court should freely give leave when justice so requires.",
+        "why": "This is the Rule 15(a)(2) standard for amending pleadings, not the Rule 16(e) standard for the final pretrial order."
+      },
+      {
+        "t": "Good cause and the judge's consent.",
+        "why": "This is the Rule 16(b)(4) standard for modifying the scheduling order, not the final pretrial order."
+      },
+      {
+        "t": "The order may not be modified under any circumstances.",
+        "why": "Rule 16(e) permits modification to prevent manifest injustice."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "The court may modify the order issued after a final pretrial conference only to prevent manifest injustice (Rule 16(e)). The more lenient good-cause standard of Rule 16(b)(4) and the free-leave standard of Rule 15(a)(2) do not govern at this stage.",
+    "id": "mot-045"
+  },
+  {
+    "kind": "issue",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "16(b)(1)(A)",
+        "quote": "after receiving the parties' report under Rule 26(f)"
+      },
+      {
+        "cite": "16(b)(3)(A)",
+        "quote": "The scheduling order must limit the time to join other parties, amend the pleadings, complete discovery, and file motions."
+      },
+      {
+        "cite": "16(b)(4)",
+        "quote": "A schedule may be modified only for good cause and with the judge's consent."
+      },
+      {
+        "cite": "16(f)(1)(A)",
+        "quote": "fails to appear at a scheduling or other pretrial conference"
+      }
+    ],
+    "stem": "On April 1, 2026, Judge Moss, after receiving the parties' Rule 26(f) report, issues a scheduling order that sets only a trial date and no other deadline. Ames's lawyer is ordered to attend a pretrial conference on May 5 and does not appear, offering no excuse. Later the parties sign a stipulation moving the discovery cutoff, and the judge has not approved it. No final pretrial conference has been held, and no one has asked for a separate trial of any claim.",
+    "ask": "Which provisions of Rule 16 are triggered by these facts?",
+    "options": [
+      {
+        "t": "Rule 16(b)(1)(A)",
+        "why": "Triggered: the judge issued the scheduling order after receiving the parties' Rule 26(f) report."
+      },
+      {
+        "t": "Rule 16(b)(3)(A)",
+        "why": "Triggered: the order must limit the time to join parties, amend pleadings, complete discovery, and file motions, and this one sets none."
+      },
+      {
+        "t": "Rule 16(b)(4)",
+        "why": "Triggered: the stipulated discovery cutoff change is not effective without good cause and the judge's consent."
+      },
+      {
+        "t": "Rule 16(f)(1)(A)",
+        "why": "Triggered: Ames's lawyer failed to appear at a pretrial conference."
+      },
+      {
+        "t": "Rule 16(e)",
+        "why": "Not triggered: no final pretrial conference has been held."
+      },
+      {
+        "t": "Rule 16(c)(2)(M)",
+        "why": "Not triggered: no one has asked for a separate trial under Rule 42(b)."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "The order follows the Rule 26(f) report (Rule 16(b)(1)(A)) but omits required limits (Rule 16(b)(3)(A)). The stipulation needs good cause and the judge's consent (Rule 16(b)(4)). The missed conference allows sanctions (Rule 16(f)(1)(A)). Rule 16(e) and 16(c)(2)(M) have no facts.",
+    "id": "mot-046"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "18"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      }
+    ],
+    "stem": "Park sues Delta Mills for breach of an equipment lease. Park also has an unrelated claim against Delta Mills for the unpaid price of a used car she sold it. Park wants to include both claims in one complaint.",
+    "ask": "May Park join the car-price claim with the lease claim?",
+    "options": [
+      {
+        "t": "No, because joined claims must arise from the same transaction or occurrence.",
+        "why": "Rule 18(a) has no same-transaction requirement for joining claims against an opposing party."
+      },
+      {
+        "t": "No, unless the court grants leave to join an unrelated claim.",
+        "why": "Rule 18(a) contains no leave requirement."
+      },
+      {
+        "t": "Yes; Rule 18(a) lets a party join as many claims as it has against an opposing party.",
+        "why": "Correct. Rule 18(a) permits joinder of independent claims, related or not."
+      },
+      {
+        "t": "Yes, but only if the claims are pleaded in the alternative.",
+        "why": "Rule 18(a) allows independent or alternative claims, so alternative pleading is not required."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A party asserting a claim may join, as independent or alternative claims, as many claims as it has against an opposing party (Rule 18(a)). Park may join the unrelated car-price claim with the lease claim.",
+    "id": "mot-047"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "18",
+      "13"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "18(a)",
+        "quote": "A party asserting a claim, counterclaim, crossclaim, or third-party claim may join"
+      },
+      {
+        "cite": "18(a)",
+        "quote": "as many claims as it has against an opposing party"
+      }
+    ],
+    "stem": "Park sues Delta Mills for breach of a lease. Delta Mills counterclaims for Park's breach of the same lease. Delta Mills also has an unrelated claim against Park for unpaid consulting fees and wants to add it to its counterclaim.",
+    "ask": "May Delta Mills join the consulting-fee claim with its counterclaim?",
+    "options": [
+      {
+        "t": "No, because Rule 18(a) applies only to the claims stated in a complaint, not to counterclaims.",
+        "why": "Rule 18(a) covers a party asserting a claim, counterclaim, crossclaim, or third-party claim."
+      },
+      {
+        "t": "Yes; a party asserting a counterclaim may join as many claims as it has against an opposing party.",
+        "why": "Correct. Rule 18(a) applies to a party asserting a counterclaim, and Park is an opposing party."
+      },
+      {
+        "t": "No, because only claims arising out of the lease may be joined with a counterclaim.",
+        "why": "Rule 18(a) imposes no same-transaction limit on joined claims."
+      },
+      {
+        "t": "Yes, but only with the court's leave under Rule 13(e).",
+        "why": "Rule 13(e) concerns counterclaims maturing or acquired after a pleading, not unrelated existing claims."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 18(a) applies to a party asserting a claim, counterclaim, crossclaim, or third-party claim, and lets it join as many claims as it has against an opposing party. Delta Mills may add the unrelated consulting-fee claim.",
+    "id": "mot-048"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "18"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "18(b)",
+        "quote": "a plaintiff may state a claim for money and a claim to set aside a conveyance that is fraudulent as to that plaintiff, without first obtaining a judgment for the money"
+      },
+      {
+        "cite": "18(b)",
+        "quote": "but the court may grant relief only in accordance with the parties' relative substantive rights"
+      }
+    ],
+    "stem": "Quinn claims that Reed owes $50,000 on a promissory note. Quinn also alleges that Reed transferred his boat to his brother to put it beyond Quinn's reach. Quinn has no judgment on the note. Quinn wants to sue for the money and to set aside the transfer in one complaint.",
+    "ask": "May Quinn join the two claims?",
+    "options": [
+      {
+        "t": "No, because Quinn must first obtain a judgment for the money.",
+        "why": "Rule 18(b) says a plaintiff may state both claims without first obtaining a judgment for the money."
+      },
+      {
+        "t": "No, because a claim contingent on another claim cannot be joined with it.",
+        "why": "Rule 18(b) allows joinder of claims even though one is contingent on the disposition of the other."
+      },
+      {
+        "t": "Yes, and the court may then grant any relief Quinn requests, regardless of the parties' substantive rights.",
+        "why": "Rule 18(b) limits relief to what accords with the parties' relative substantive rights."
+      },
+      {
+        "t": "Yes, without a prior money judgment, but relief must follow the parties' relative substantive rights.",
+        "why": "Correct. This follows Rule 18(b)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 18(b) lets a party join contingent claims. In particular, a plaintiff may state a money claim and a claim to set aside a fraudulent conveyance without first getting a money judgment. The court may grant relief only in accordance with the parties' relative substantive rights.",
+    "id": "mot-049"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "18"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      }
+    ],
+    "stem": "Sun sues Tan. Count 1 alleges that Tan breached a written contract. Count 2 alleges that, if no enforceable contract existed, Tan was unjustly enriched by Sun's work. Tan moves to dismiss Count 2 on the ground that the two counts are alternatives and cannot both be asserted.",
+    "ask": "How should the court rule on Tan's motion, based on Rule 18?",
+    "options": [
+      {
+        "t": "Deny it; Rule 18(a) lets a party join independent or alternative claims against an opposing party.",
+        "why": "Correct. Count 2 is an alternative claim against the same party."
+      },
+      {
+        "t": "Grant it, because joined claims must be consistent with one another.",
+        "why": "Rule 18(a) expressly allows alternative claims."
+      },
+      {
+        "t": "Grant it unless Sun obtains leave of court to plead in the alternative.",
+        "why": "Rule 18(a) contains no leave requirement for alternative claims."
+      },
+      {
+        "t": "Deny it, but only because Rule 18(a) lets alternative claims be joined in a counterclaim.",
+        "why": "Rule 18(a) covers claims in a complaint as well as counterclaims, crossclaims, and third-party claims."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "A party may join, as independent or alternative claims, as many claims as it has against an opposing party (Rule 18(a)). Count 2 is an alternative claim against Tan and may be joined with Count 1.",
+    "id": "mot-050"
+  },
+  {
+    "kind": "issue",
+    "topic": "claims",
+    "rules": [
+      "18",
+      "13"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      },
+      {
+        "cite": "18(b)",
+        "quote": "a plaintiff may state a claim for money and a claim to set aside a conveyance that is fraudulent as to that plaintiff"
+      },
+      {
+        "cite": "13(a)(1)",
+        "quote": "A pleading must state as a counterclaim any claim that"
+      },
+      {
+        "cite": "13(b)",
+        "quote": "any claim that is not compulsory"
+      }
+    ],
+    "stem": "Park sues Delta Mills for breach of a lease and, in the same complaint, for the price of a car she sold it. Park also alleges that Delta Mills made a transfer of a warehouse that is fraudulent as to Park, and asks the court to set it aside, though she has no money judgment. Delta Mills counterclaims for Park's breach of the same lease and adds an unrelated claim for consulting fees. No coparty, third party, or competing claimant is involved.",
+    "ask": "Which provisions govern the claims described?",
+    "options": [
+      {
+        "t": "Rule 18(a)",
+        "why": "Triggered: Park joins the unrelated car-price claim, and Delta Mills adds its unrelated consulting-fee claim."
+      },
+      {
+        "t": "Rule 18(b)",
+        "why": "Triggered: Park joins a money claim with a claim to set aside a fraudulent transfer without a prior judgment."
+      },
+      {
+        "t": "Rule 13(a)(1)",
+        "why": "Triggered: the lease counterclaim arises out of the transaction that is the subject of Park's claim, so it must be stated."
+      },
+      {
+        "t": "Rule 13(b)",
+        "why": "Triggered: the consulting-fee claim is not compulsory and may be stated as a counterclaim."
+      },
+      {
+        "t": "Rule 13(g)",
+        "why": "Not triggered: there is no coparty against whom a crossclaim could be stated."
+      },
+      {
+        "t": "Rule 14(a)(1)",
+        "why": "Not triggered: no third party is being brought in."
+      },
+      {
+        "t": "Rule 22(a)(1)",
+        "why": "Not triggered: no competing claimants expose Park to double liability."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "Joining unrelated claims is Rule 18(a); money plus a set-aside claim without a judgment is Rule 18(b). The lease counterclaim is compulsory (Rule 13(a)(1)) and the consulting-fee counterclaim permissive (Rule 13(b)). There is no coparty, third party, or competing claimant.",
+    "id": "mot-051"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "22"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "22(a)(1)(A)",
+        "quote": "the claims of the several claimants, or the titles on which their claims depend, lack a common origin or are adverse and independent rather than identical"
+      }
+    ],
+    "stem": "Wells Insurance holds a $100,000 fund. Abel, Baker, and Cruz each claim the whole fund under different documents with different origins, which may expose Wells Insurance to double or multiple liability. Wells Insurance wants to sue all three and require them to interplead. Abel argues that interpleader is improper because the three claims lack a common origin and are not identical.",
+    "ask": "Is Abel's argument correct under Rule 22(a)(1)?",
+    "options": [
+      {
+        "t": "Yes, because interpleader requires claims that share a common origin or identical titles.",
+        "why": "Rule 22(a)(1)(A) says joinder is proper even though the claims lack a common origin."
+      },
+      {
+        "t": "Yes, because the claimants' titles must be identical for the claims to be interpleaded.",
+        "why": "Rule 22(a)(1)(A) says joinder is proper even if titles are adverse and independent rather than identical."
+      },
+      {
+        "t": "No, but only if Wells Insurance concedes it owes the fund to one claimant.",
+        "why": "Adds a requirement. Rule 22(a)(1)(B) says joinder is proper even when the plaintiff denies liability to any or all claimants."
+      },
+      {
+        "t": "No; joinder is proper even though the claims lack a common origin or are adverse and independent.",
+        "why": "Correct. This is Rule 22(a)(1)(A)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Persons with claims that may expose a plaintiff to double or multiple liability may be joined as defendants and required to interplead. Joinder is proper even though the claims lack a common origin or are adverse and independent rather than identical (Rule 22(a)(1)(A)).",
+    "id": "mot-052"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "22"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "22(a)(1)(B)",
+        "quote": "the plaintiff denies liability in whole or in part to any or all of the claimants"
+      }
+    ],
+    "stem": "Wells Insurance holds a disputed $100,000 fund. Abel and Baker each claim the whole fund, and the claims may expose Wells Insurance to double liability. Wells Insurance denies that it owes anything to either claimant. It sues both and asks that they be required to interplead. Abel moves to dismiss on the ground that Wells Insurance cannot interplead while denying liability.",
+    "ask": "How should the court rule on Abel's motion under Rule 22(a)(1)?",
+    "options": [
+      {
+        "t": "Deny it; joinder is proper even though the plaintiff denies liability to any or all claimants.",
+        "why": "Correct. This is Rule 22(a)(1)(B)."
+      },
+      {
+        "t": "Grant it: a plaintiff must concede that it owes the fund to someone.",
+        "why": "Rule 22(a)(1)(B) says joinder is proper despite denial of liability to any or all claimants."
+      },
+      {
+        "t": "Grant it unless Wells Insurance admits liability to at least one claimant.",
+        "why": "Rule 22(a)(1)(B) lets the plaintiff deny liability to all claimants."
+      },
+      {
+        "t": "Deny it, but only if Wells Insurance sues through a counterclaim instead of a complaint.",
+        "why": "Rule 22(a)(1) concerns interpleader by a plaintiff. A counterclaim is Rule 22(a)(2) and is not required here."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Interpleader joinder is proper even though the plaintiff denies liability in whole or in part to any or all of the claimants (Rule 22(a)(1)(B)). Wells Insurance's denial does not bar the action.",
+    "id": "mot-053"
+  },
+  {
+    "kind": "apply",
+    "topic": "claims",
+    "rules": [
+      "22"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "22(a)(2)",
+        "quote": "A defendant exposed to similar liability may seek interpleader through a crossclaim or counterclaim."
+      }
+    ],
+    "stem": "Park sues Delta Warehouse and Baker, claiming ownership of 500 crates stored at Delta Warehouse. Baker also claims the crates, and Delta Warehouse is exposed to similar liability from the competing claims. Delta Warehouse wants to have the claimants interplead in this case.",
+    "ask": "How may Delta Warehouse, a defendant, seek interpleader?",
+    "options": [
+      {
+        "t": "It cannot; Rule 22 is available only to plaintiffs, so it must file a separate action.",
+        "why": "Rule 22(a)(2) lets a defendant exposed to similar liability seek interpleader."
+      },
+      {
+        "t": "Only by moving to intervene as a plaintiff under Rule 24.",
+        "why": "Rule 22(a)(2) supplies the procedure for a defendant. Intervention is not required."
+      },
+      {
+        "t": "Through a crossclaim or counterclaim.",
+        "why": "Correct. Rule 22(a)(2) allows a defendant exposed to similar liability to proceed in that manner."
+      },
+      {
+        "t": "Only through a third-party complaint under Rule 14(a)(1).",
+        "why": "Rule 14 concerns a nonparty liable to the defendant. Rule 22(a)(2) names crossclaim and counterclaim."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A defendant exposed to similar liability may seek interpleader through a crossclaim or counterclaim (Rule 22(a)(2)). Delta Warehouse may use a crossclaim against Baker or a counterclaim against Park.",
+    "id": "mot-054"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(a)(1)(A)(i)",
+        "quote": "within 21 days after being served with the summons and complaint"
+      }
+    ],
+    "front": "How long does a defendant have to serve an answer after being served with the summons and complaint (no waiver of service)?",
+    "back": "within 21 days after being served with the summons and complaint",
+    "id": "mot-055"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(a)(1)(A)(ii)",
+        "quote": "if it has timely waived service under Rule 4(d), within 60 days after the request for a waiver was sent, or within 90 days after it was sent to the defendant outside any judicial district of the United States"
+      }
+    ],
+    "front": "A defendant that timely waived service under Rule 4(d) has how long to answer, and when does that period start?",
+    "back": "within 60 days after the request for a waiver was sent, or within 90 days after it was sent to the defendant outside any judicial district of the United States",
+    "id": "mot-056"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(g)(2)",
+        "quote": "a party that makes a motion under this rule must not make another motion under this rule raising a defense or objection that was available to the party but omitted from its earlier motion"
+      }
+    ],
+    "front": "What does Rule 12(g)(2) bar a party from doing after it makes a Rule 12 motion?",
+    "back": "must not make another motion under this rule raising a defense or objection that was available to the party but omitted from its earlier motion",
+    "id": "mot-057"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(a)(4)(A)",
+        "quote": "if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action"
+      }
+    ],
+    "front": "A defendant serves a Rule 12 motion and the court denies it. When must the responsive pleading be served?",
+    "back": "within 14 days after notice of the court's action",
+    "id": "mot-058"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(b)",
+        "quote": "(1) lack of subject-matter jurisdiction; (2) lack of personal jurisdiction; (3) improper venue; (4) insufficient process; (5) insufficient service of process; (6) failure to state a claim upon which relief can be granted; and (7) failure to join a party under Rule 19."
+      }
+    ],
+    "front": "List the seven defenses a party may assert by motion under Rule 12(b).",
+    "back": "(1) lack of subject-matter jurisdiction; (2) lack of personal jurisdiction; (3) improper venue; (4) insufficient process; (5) insufficient service of process; (6) failure to state a claim upon which relief can be granted; and (7) failure to join a party under Rule 19.",
+    "id": "mot-059"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(b)",
+        "quote": "A motion asserting any of these defenses must be made before pleading if a responsive pleading is allowed."
+      }
+    ],
+    "front": "When must a Rule 12(b) motion be made?",
+    "back": "must be made before pleading if a responsive pleading is allowed",
+    "id": "mot-060"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(c)",
+        "quote": "After the pleadings are closed—but early enough not to delay trial—a party may move for judgment on the pleadings."
+      }
+    ],
+    "front": "When may a party move for judgment on the pleadings?",
+    "back": "After the pleadings are closed—but early enough not to delay trial",
+    "id": "mot-061"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(d)",
+        "quote": "If, on a motion under Rule 12(b)(6) or 12(c), matters outside the pleadings are presented to and not excluded by the court, the motion must be treated as one for summary judgment under Rule 56."
+      }
+    ],
+    "front": "On a Rule 12(b)(6) or 12(c) motion, what happens if matters outside the pleadings are presented and the court does not exclude them?",
+    "back": "the motion must be treated as one for summary judgment under Rule 56",
+    "id": "mot-062"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(e)",
+        "quote": "A party may move for a more definite statement of a pleading to which a responsive pleading is allowed but which is so vague or ambiguous that the party cannot reasonably prepare a response."
+      }
+    ],
+    "front": "When may a party move for a more definite statement under Rule 12(e)?",
+    "back": "so vague or ambiguous that the party cannot reasonably prepare a response",
+    "id": "mot-063"
+  },
+  {
+    "kind": "recall",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "12(f)(2)",
+        "quote": "on motion made by a party either before responding to the pleading or, if a response is not allowed, within 21 days after being served with the pleading."
+      }
+    ],
+    "front": "By what time must a party move to strike under Rule 12(f)?",
+    "back": "either before responding to the pleading or, if a response is not allowed, within 21 days after being served with the pleading",
+    "id": "mot-064"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(a)(1)(A)",
+        "quote": "arises out of the transaction or occurrence that is the subject matter of the opposing party's claim"
+      }
+    ],
+    "front": "Under Rule 13(a)(1)(A), what must a claim do to be a compulsory counterclaim?",
+    "back": "arises out of the transaction or occurrence that is the subject matter of the opposing party's claim",
+    "id": "mot-065"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(a)(2)(A)",
+        "quote": "when the action was commenced, the claim was the subject of another pending action"
+      }
+    ],
+    "front": "What is the Rule 13(a)(2)(A) exception to the compulsory counterclaim rule?",
+    "back": "when the action was commenced, the claim was the subject of another pending action",
+    "id": "mot-066"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(b)",
+        "quote": "A pleading may state as a counterclaim against an opposing party any claim that is not compulsory."
+      }
+    ],
+    "front": "What may a pleading state as a permissive counterclaim?",
+    "back": "any claim that is not compulsory",
+    "id": "mot-067"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(c)",
+        "quote": "It may request relief that exceeds in amount or differs in kind from the relief sought by the opposing party."
+      }
+    ],
+    "front": "May a counterclaim request more, or different, relief than the opposing party seeks?",
+    "back": "It may request relief that exceeds in amount or differs in kind from the relief sought by the opposing party.",
+    "id": "mot-068"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(d)",
+        "quote": "These rules do not expand the right to assert a counterclaim—or to claim a credit—against the United States or a United States officer or agency."
+      }
+    ],
+    "front": "What does Rule 13(d) say about counterclaims against the United States?",
+    "back": "These rules do not expand the right to assert a counterclaim—or to claim a credit—against the United States or a United States officer or agency.",
+    "id": "mot-069"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(e)",
+        "quote": "The court may permit a party to file a supplemental pleading asserting a counterclaim that matured or was acquired by the party after serving an earlier pleading."
+      }
+    ],
+    "front": "How may a party assert a counterclaim that matured or was acquired after it served an earlier pleading?",
+    "back": "The court may permit a party to file a supplemental pleading asserting a counterclaim that matured or was acquired by the party after serving an earlier pleading.",
+    "id": "mot-070"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(g)",
+        "quote": "A pleading may state as a crossclaim any claim by one party against a coparty if the claim arises out of the transaction or occurrence that is the subject matter of the original action or of a counterclaim, or if the claim relates to any property that is the subject matter of the original action."
+      }
+    ],
+    "front": "When may a pleading state a crossclaim against a coparty?",
+    "back": "if the claim arises out of the transaction or occurrence that is the subject matter of the original action or of a counterclaim, or if the claim relates to any property that is the subject matter of the original action",
+    "id": "mot-071"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "13"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "13(h)",
+        "quote": "Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim."
+      }
+    ],
+    "front": "Which rules govern adding a person as a party to a counterclaim or crossclaim?",
+    "back": "Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim.",
+    "id": "mot-072"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "15(a)(1)(A)",
+        "quote": "21 days after serving it"
+      }
+    ],
+    "front": "Under Rule 15(a)(1)(A), a party may amend its pleading once as a matter of course no later than when?",
+    "back": "21 days after serving it",
+    "id": "mot-073"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "15(a)(1)(B)",
+        "quote": "if the pleading is one to which a responsive pleading is required, 21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier"
+      }
+    ],
+    "front": "For a pleading that requires a responsive pleading, what is the as-of-right amendment period under Rule 15(a)(1)(B)?",
+    "back": "21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier",
+    "id": "mot-074"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "15(a)(2)",
+        "quote": "In all other cases, a party may amend its pleading only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires."
+      }
+    ],
+    "front": "Outside the as-of-right periods, when may a party amend its pleading, and what standard governs leave?",
+    "back": "only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires.",
+    "id": "mot-075"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "15(a)(3)",
+        "quote": "any required response to an amended pleading must be made within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later"
+      }
+    ],
+    "front": "When must a party respond to an amended pleading, unless the court orders otherwise?",
+    "back": "within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later",
+    "id": "mot-076"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "15(b)(2)",
+        "quote": "When an issue not raised by the pleadings is tried by the parties' express or implied consent, it must be treated in all respects as if raised in the pleadings."
+      }
+    ],
+    "front": "What is the effect under Rule 15(b)(2) of an issue not raised in the pleadings that is tried by express or implied consent?",
+    "back": "it must be treated in all respects as if raised in the pleadings",
+    "id": "mot-077"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "15(c)(1)(B)",
+        "quote": "the amendment asserts a claim or defense that arose out of the conduct, transaction, or occurrence set out—or attempted to be set out—in the original pleading"
+      }
+    ],
+    "front": "Under Rule 15(c)(1)(B), when does an amendment relate back to the date of the original pleading?",
+    "back": "the amendment asserts a claim or defense that arose out of the conduct, transaction, or occurrence set out—or attempted to be set out—in the original pleading",
+    "id": "mot-078"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "15(c)(1)(C)",
+        "quote": "within the period provided by Rule 4(m) for serving the summons and complaint"
+      }
+    ],
+    "front": "For an amendment that changes the party against whom a claim is asserted to relate back, by when must the new party have received notice of the action?",
+    "back": "within the period provided by Rule 4(m) for serving the summons and complaint",
+    "id": "mot-079"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "15"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "15(d)",
+        "quote": "any transaction, occurrence, or event that happened after the date of the pleading to be supplemented"
+      }
+    ],
+    "front": "What may a supplemental pleading under Rule 15(d) set out?",
+    "back": "any transaction, occurrence, or event that happened after the date of the pleading to be supplemented",
+    "id": "mot-080"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "14(a)(1)",
+        "quote": "But the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer."
+      }
+    ],
+    "front": "When must a third-party plaintiff obtain the court's leave to file a third-party complaint?",
+    "back": "if it files the third-party complaint more than 14 days after serving its original answer",
+    "id": "mot-081"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "14(a)(1)",
+        "quote": "serve a summons and complaint on a nonparty who is or may be liable to it for all or part of the claim against it"
+      }
+    ],
+    "front": "Whom may a defending party serve with a third-party complaint?",
+    "back": "a nonparty who is or may be liable to it for all or part of the claim against it",
+    "id": "mot-082"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "14(a)(3)",
+        "quote": "The plaintiff may assert against the third-party defendant any claim arising out of the transaction or occurrence that is the subject matter of the plaintiff's claim against the third-party plaintiff."
+      }
+    ],
+    "front": "What claim may a plaintiff assert against a third-party defendant under Rule 14(a)(3)?",
+    "back": "any claim arising out of the transaction or occurrence that is the subject matter of the plaintiff's claim against the third-party plaintiff",
+    "id": "mot-083"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "14(a)(4)",
+        "quote": "Any party may move to strike the third-party claim, to sever it, or to try it separately."
+      }
+    ],
+    "front": "What may any party move to do with a third-party claim?",
+    "back": "to strike the third-party claim, to sever it, or to try it separately",
+    "id": "mot-084"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "14"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "14(b)",
+        "quote": "When a claim is asserted against a plaintiff, the plaintiff may bring in a third party if this rule would allow a defendant to do so."
+      }
+    ],
+    "front": "When may a plaintiff bring in a third party under Rule 14(b)?",
+    "back": "When a claim is asserted against a plaintiff, the plaintiff may bring in a third party if this rule would allow a defendant to do so.",
+    "id": "mot-085"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "16(b)(2)",
+        "quote": "the judge must issue it within the earlier of 90 days after any defendant has been served with the complaint or 60 days after any defendant has appeared"
+      }
+    ],
+    "front": "Absent good cause for delay, within what time must the judge issue the scheduling order?",
+    "back": "within the earlier of 90 days after any defendant has been served with the complaint or 60 days after any defendant has appeared",
+    "id": "mot-086"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "16(b)(3)(A)",
+        "quote": "The scheduling order must limit the time to join other parties, amend the pleadings, complete discovery, and file motions."
+      }
+    ],
+    "front": "What four times must the scheduling order limit?",
+    "back": "join other parties, amend the pleadings, complete discovery, and file motions",
+    "id": "mot-087"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "16(b)(4)",
+        "quote": "A schedule may be modified only for good cause and with the judge's consent."
+      }
+    ],
+    "front": "When may a Rule 16 schedule be modified?",
+    "back": "only for good cause and with the judge's consent",
+    "id": "mot-088"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "16(d)",
+        "quote": "This order controls the course of the action unless the court modifies it."
+      }
+    ],
+    "front": "What is the effect of an order issued after a pretrial conference under Rule 16?",
+    "back": "This order controls the course of the action unless the court modifies it.",
+    "id": "mot-089"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "16(e)",
+        "quote": "The court may modify the order issued after a final pretrial conference only to prevent manifest injustice."
+      }
+    ],
+    "front": "When may a court modify the order issued after a final pretrial conference?",
+    "back": "only to prevent manifest injustice",
+    "id": "mot-090"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "18"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "18(a)",
+        "quote": "A party asserting a claim, counterclaim, crossclaim, or third-party claim may join, as independent or alternative claims, as many claims as it has against an opposing party."
+      }
+    ],
+    "front": "How many claims may a party asserting a claim join against an opposing party under Rule 18(a)?",
+    "back": "as many claims as it has against an opposing party",
+    "id": "mot-091"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "18"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "18(a)",
+        "quote": "A party asserting a claim, counterclaim, crossclaim, or third-party claim may join"
+      }
+    ],
+    "front": "Which kinds of claims does Rule 18(a) let a party join other claims with?",
+    "back": "A party asserting a claim, counterclaim, crossclaim, or third-party claim",
+    "id": "mot-092"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "18"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "18(b)",
+        "quote": "A party may join two claims even though one of them is contingent on the disposition of the other"
+      }
+    ],
+    "front": "May a party join two claims when one is contingent on the disposition of the other?",
+    "back": "A party may join two claims even though one of them is contingent on the disposition of the other",
+    "id": "mot-093"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "18"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "18(b)",
+        "quote": "a plaintiff may state a claim for money and a claim to set aside a conveyance that is fraudulent as to that plaintiff, without first obtaining a judgment for the money"
+      }
+    ],
+    "front": "What two claims may a plaintiff join under Rule 18(b) without first obtaining a money judgment?",
+    "back": "a claim for money and a claim to set aside a conveyance that is fraudulent as to that plaintiff",
+    "id": "mot-094"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "18"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "18(b)",
+        "quote": "but the court may grant relief only in accordance with the parties' relative substantive rights"
+      }
+    ],
+    "front": "What limits the relief a court may grant on joined contingent claims?",
+    "back": "only in accordance with the parties' relative substantive rights",
+    "id": "mot-095"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "22"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "22(a)(1)",
+        "quote": "Persons with claims that may expose a plaintiff to double or multiple liability may be joined as defendants and required to interplead."
+      }
+    ],
+    "front": "Whom may a plaintiff join as defendants and require to interplead?",
+    "back": "Persons with claims that may expose a plaintiff to double or multiple liability",
+    "id": "mot-096"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "22"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "22(a)(1)(B)",
+        "quote": "the plaintiff denies liability in whole or in part to any or all of the claimants"
+      }
+    ],
+    "front": "Under Rule 22(a)(1)(B), joinder for interpleader is proper even though the plaintiff does what regarding liability?",
+    "back": "the plaintiff denies liability in whole or in part to any or all of the claimants",
+    "id": "mot-097"
+  },
+  {
+    "kind": "recall",
+    "topic": "claims",
+    "rules": [
+      "22"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "22(a)(2)",
+        "quote": "A defendant exposed to similar liability may seek interpleader through a crossclaim or counterclaim."
+      }
+    ],
+    "front": "How may a defendant exposed to similar liability seek interpleader?",
+    "back": "through a crossclaim or counterclaim",
+    "id": "mot-098"
+  },
+  {
+    "kind": "recall",
+    "topic": "amend",
+    "rules": [
+      "16.1"
+    ],
+    "level": 1,
+    "cites": [
+      {
+        "cite": "16.1(a)",
+        "quote": "After the Judicial Panel on Multidistrict Litigation transfers actions, the transferee court should schedule an initial management conference"
+      }
+    ],
+    "front": "After the Judicial Panel on Multidistrict Litigation transfers actions, what should the transferee court schedule?",
+    "back": "an initial management conference",
+    "id": "mot-099"
+  }
+]

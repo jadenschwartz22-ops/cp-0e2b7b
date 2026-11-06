@@ -1,6 +1,12 @@
 {
   "items": [
+    "items/disc.json",
+    "items/es1.json",
+    "items/es2.json",
     "items/join.json",
-    "items/svc.json"
+    "items/mot.json",
+    "items/post.json",
+    "items/svc.json",
+    "items/trial.json"
   ]
 }

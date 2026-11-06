@@ -1,0 +1,550 @@
+[
+  {
+    "id": "es1-001",
+    "kind": "essay",
+    "topic": "scope",
+    "rules": [
+      "4",
+      "12",
+      "15",
+      "18"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Park sues Hale for breach of a loan agreement and files the complaint on March 2, 2026. On April 6, to save money, Park personally hands Hale a copy of the summons and complaint at Hale's home. The summons bears the clerk's signature but no court seal. Assume the forum state's service rules allow nothing beyond Rule 4(e)(2). Hale does not answer. On June 8, Hale serves a motion under Rule 12(b)(5) arguing that service was insufficient; the motion raises no other defense. Park's response gives no explanation for serving the papers himself. On June 15, before the court rules, Hale serves a second motion, this time under Rule 12(b)(4), arguing that the summons is defective because it lacks the court's seal. On June 22, Park serves an amended complaint that adds a claim against Hale for breach of a different promise in the same loan agreement. Hale objects that Park may not amend while two motions are pending.",
+    "ask": "Analyze Hale's two motions and Park's amended complaint, and explain how the court should rule on each.",
+    "rubric": [
+      {
+        "point": "Only a non-party adult may serve process. Park is a party and handed over the papers himself, so the April 6 delivery was not valid service.",
+        "cite": "4(c)(2)",
+        "quote": "Any person who is at least 18 years old and not a party may serve a summons and complaint."
+      },
+      {
+        "point": "Hale moved before answering, so the June 8 Rule 12(b)(5) motion is a proper way to raise insufficient service.",
+        "cite": "12(b)",
+        "quote": "A motion asserting any of these defenses must be made before pleading if a responsive pleading is allowed."
+      },
+      {
+        "point": "More than 90 days passed after the March 2 filing with no valid service, so on Hale's motion the court must dismiss without prejudice or order service within a specified time.",
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed, the court-on motion or on its own after notice to the plaintiff-must dismiss the action without prejudice against that defendant or order that service be made within a specified time."
+      },
+      {
+        "point": "Good cause is what compels an extension. Park offers no explanation, so no showing compels one and the court chooses between dismissal without prejudice and an order setting a time for service.",
+        "cite": "4(m)",
+        "quote": "But if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period."
+      },
+      {
+        "point": "A summons must bear the court's seal, so the missing seal is a genuine defect in process under Rule 12(b)(4).",
+        "cite": "4(a)(1)(G)",
+        "quote": "bear the court's seal"
+      },
+      {
+        "point": "The seal defect was available when Hale made the first motion but was omitted from it, so the June 15 second Rule 12 motion is barred.",
+        "cite": "12(g)(2)",
+        "quote": "a party that makes a motion under this rule must not make another motion under this rule raising a defense or objection that was available to the party but omitted from its earlier motion."
+      },
+      {
+        "point": "Omitting a Rule 12(b)(2)-(5) defense from a motion in the Rule 12(g)(2) circumstances waives it, so Hale waived insufficient process.",
+        "cite": "12(h)(1)(A)",
+        "quote": "omitting it from a motion in the circumstances described in Rule 12(g)(2)"
+      },
+      {
+        "point": "A complaint requires a responsive pleading, so Park may amend once as of course within 21 days after service of the Rule 12(b) motion; June 22 is within 21 days of June 8.",
+        "cite": "15(a)(1)(B)",
+        "quote": "21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier."
+      },
+      {
+        "point": "The new claim against the same opposing party may be joined as another claim.",
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      }
+    ],
+    "model": "Service. Rule 4(c)(2) lets only a non-party who is at least 18 serve process. Park is a party, so his April 6 hand delivery was not valid service and Hale's insufficient-service defense is correct on the merits. Hale raised it by motion before answering, as Rule 12(b) requires, so it is preserved.\n\nRemedy. Rule 4(m) allows 90 days after filing to serve. That period ended about June 1 (day 90, May 31, was a Sunday), with no valid service. On Hale's motion the court must either dismiss without prejudice or order service within a specified time. Good cause would require an extension, but Park offers no explanation, so nothing compels one; the court may choose either remedy, including a short deadline for proper re-service.\n\nSecond motion. Rule 4(a)(1)(G) requires the summons to bear the court's seal, so the omission is a Rule 12(b)(4) defect. But it was available to Hale on June 8. Rule 12(g)(2) forbids a party that makes a Rule 12 motion from making another raising a defense that was available but omitted, and Rule 12(h)(1)(A) says omitting a Rule 12(b)(2)-(5) defense in those circumstances waives it. Hale therefore waived insufficient process, and the court should deny the second motion. The first motion, which raised insufficient service, is unaffected.\n\nAmendment. Park's complaint requires a responsive pleading, so Rule 15(a)(1)(B) lets him amend once as a matter of course within 21 days after service of a Rule 12(b) motion. June 22 falls inside the 21 days that began on June 8, so he needed no leave, and the rule expressly contemplates amendment after such a motion. The added claim against the same opposing party is a permitted joinder under Rule 18(a).\n\nConclusion. Act on the first motion under Rule 4(m), deny the second as barred and waived, and treat the amended complaint as properly served.",
+    "cites": [
+      {
+        "cite": "4(c)(2)",
+        "quote": "Any person who is at least 18 years old and not a party may serve a summons and complaint."
+      },
+      {
+        "cite": "12(b)",
+        "quote": "A motion asserting any of these defenses must be made before pleading if a responsive pleading is allowed."
+      },
+      {
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed, the court-on motion or on its own after notice to the plaintiff-must dismiss the action without prejudice against that defendant or order that service be made within a specified time."
+      },
+      {
+        "cite": "4(m)",
+        "quote": "But if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period."
+      },
+      {
+        "cite": "4(a)(1)(G)",
+        "quote": "bear the court's seal"
+      },
+      {
+        "cite": "12(g)(2)",
+        "quote": "a party that makes a motion under this rule must not make another motion under this rule raising a defense or objection that was available to the party but omitted from its earlier motion."
+      },
+      {
+        "cite": "12(h)(1)(A)",
+        "quote": "omitting it from a motion in the circumstances described in Rule 12(g)(2)"
+      },
+      {
+        "cite": "15(a)(1)(B)",
+        "quote": "21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier."
+      },
+      {
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      }
+    ]
+  },
+  {
+    "id": "es1-002",
+    "kind": "essay",
+    "topic": "scope",
+    "rules": [
+      "4",
+      "6",
+      "12"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Ortiz Plumbing sues Vance Pike and Pike Supply Co. on January 5, 2026. Ortiz and both defendants are located in the United States. On January 12, Ortiz sends each defendant a request to waive service that complies with Rule 4(d)(1) and allows 30 days to respond. Vance signs and returns the waiver on February 2 and serves an answer on March 12. Pike Supply ignores the request and gives no reason. On February 24, an adult friend of Ortiz hands the summons and complaint to Pike Supply's president. On March 10, Pike Supply serves a Rule 12(e) motion for a more definite statement; on March 24 the court denies it and sets no different time. Pike Supply's lawyer, who had calendared the answer from February 24 and overlooked the March 24 order, serves an answer on April 9. He moves for an order accepting it as timely, calling the error an honest oversight. Ortiz opposes that motion and moves for the cost of the second service.",
+    "ask": "Analyze when each defendant's answer was due, whether each was timely, and how the court should rule on the two motions.",
+    "rubric": [
+      {
+        "point": "Vance timely returned a waiver before being served, so his answer was not due until 60 days after the January 12 request, March 13; his March 12 answer was timely.",
+        "cite": "4(d)(3)",
+        "quote": "A defendant who, before being served with process, timely returns a waiver need not serve an answer to the complaint until 60 days after the request was sent"
+      },
+      {
+        "point": "Pike Supply did not waive, so its baseline answer time runs 21 days from service on February 24, which would be March 17.",
+        "cite": "12(a)(1)(A)(i)",
+        "quote": "within 21 days after being served with the summons and complaint"
+      },
+      {
+        "point": "Delivery to Pike Supply's president, an officer, is proper service on a corporation, so the 21-day clock started February 24.",
+        "cite": "4(h)(1)(B)",
+        "quote": "delivering a copy of the summons and of the complaint to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process"
+      },
+      {
+        "point": "The March 10 motion came before any responsive pleading, so it was timely made.",
+        "cite": "12(e)",
+        "quote": "The motion must be made before filing a responsive pleading"
+      },
+      {
+        "point": "After the court denied the motion on March 24, the answer was due 14 days after notice of that action, April 7, so the April 9 answer was two days late.",
+        "cite": "12(a)(4)(A)",
+        "quote": "if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action"
+      },
+      {
+        "point": "Pike Supply failed without good cause to sign and return the requested waiver, so the court must impose the later service expenses and the reasonable expenses, including fees, of a motion required to collect them.",
+        "cite": "4(d)(2)",
+        "quote": "If a defendant located within the United States fails, without good cause, to sign and return a waiver requested by a plaintiff located within the United States, the court must impose on the defendant:"
+      },
+      {
+        "point": "The court has authority to extend a time for good cause.",
+        "cite": "6(b)(1)",
+        "quote": "the court may, for good cause, extend the time"
+      },
+      {
+        "point": "After the time has expired, an extension requires a motion and a failure to act because of excusable neglect; whether this oversight qualifies is for the court.",
+        "cite": "6(b)(1)(B)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect"
+      }
+    ],
+    "model": "Vance. He returned the waiver on February 2, before any service and within the time allowed. Rule 4(d)(3) and Rule 12(a)(1)(A)(ii) give him 60 days after the January 12 request, so his answer was due March 13. His March 12 answer was timely.\n\nPike Supply's deadline. The president is an officer, so delivery to him was proper service under Rule 4(h)(1)(B) (the server was a non-party adult, as Rule 4(c)(2) requires). The baseline under Rule 12(a)(1)(A)(i) is 21 days from February 24, or March 17. But Pike Supply made its Rule 12(e) motion on March 10, before answering, as Rule 12(e) requires. When the court denies such a motion, Rule 12(a)(4)(A) requires the responsive pleading within 14 days after notice of the court's action unless the court sets another time. Notice came March 24, so the answer was due April 7. The April 9 answer was two days late.\n\nLate answer. Rule 6(b)(1)(B) allows the court, for good cause, to extend a time on motion made after it expires if the party failed to act because of excusable neglect. Misreading the calendar is the kind of showing the court weighs, but the rule leaves the question to its judgment, so the court may grant the motion; it is not required to.\n\nService costs. Ortiz and the defendants are all in the United States, Ortiz requested a waiver, and Pike Supply ignored it without good cause. Under Rule 4(d)(2) the court must impose the expenses of the later service and the reasonable expenses, including attorney's fees, of the motion needed to collect them. Ortiz's motion should be granted.\n\nConclusion. Vance timely; Pike Supply late by two days, with relief discretionary; costs mandatory.",
+    "cites": [
+      {
+        "cite": "4(d)(3)",
+        "quote": "A defendant who, before being served with process, timely returns a waiver need not serve an answer to the complaint until 60 days after the request was sent"
+      },
+      {
+        "cite": "12(a)(1)(A)(i)",
+        "quote": "within 21 days after being served with the summons and complaint"
+      },
+      {
+        "cite": "4(h)(1)(B)",
+        "quote": "delivering a copy of the summons and of the complaint to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process"
+      },
+      {
+        "cite": "12(e)",
+        "quote": "The motion must be made before filing a responsive pleading"
+      },
+      {
+        "cite": "12(a)(4)(A)",
+        "quote": "if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court's action"
+      },
+      {
+        "cite": "4(d)(2)",
+        "quote": "If a defendant located within the United States fails, without good cause, to sign and return a waiver requested by a plaintiff located within the United States, the court must impose on the defendant:"
+      },
+      {
+        "cite": "6(b)(1)",
+        "quote": "the court may, for good cause, extend the time"
+      },
+      {
+        "cite": "6(b)(1)(B)",
+        "quote": "on motion made after the time has expired if the party failed to act because of excusable neglect"
+      }
+    ]
+  },
+  {
+    "id": "es1-005",
+    "kind": "essay",
+    "topic": "claims",
+    "rules": [
+      "14",
+      "18"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Danner sues Brisk Couriers Inc. for $50,000 for a lost shipment of dental equipment that Brisk agreed to deliver to her clinic. Brisk serves its answer on June 1, 2026. It then determines that its subcontractor, Nolan Freight, lost the shipment under a written contract making Nolan responsible to Brisk for any loss in transit. On June 22, Brisk serves a third-party summons and complaint on Nolan that (1) seeks reimbursement of whatever Brisk owes Danner and (2) adds a separate claim for $8,000 that Nolan owes Brisk on an unrelated invoice. Brisk has not asked the court's permission. Danner, worried about delay, moves to sever the third-party claims and also serves a claim of her own directly against Nolan for the same loss. Nolan, for its part, wants to bring in Ames Storage, the warehouse that actually mishandled the shipment and that Nolan hired to hold it overnight under a contract promising to cover any loss in its care. The court has not yet ruled on anything.",
+    "ask": "Discuss Brisk's right to implead Nolan, Danner's motion, Danner's own claim, and Nolan's plan, and say how the court should rule.",
+    "rubric": [
+      {
+        "point": "Brisk is a defending party and Nolan is a nonparty who may be liable to it for the lost-shipment claim, so impleader is available.",
+        "cite": "14(a)(1)",
+        "quote": "A defending party may, as third-party plaintiff, serve a summons and complaint on a nonparty who is or may be liable to it for all or part of the claim against it."
+      },
+      {
+        "point": "June 22 is 21 days after the June 1 answer, more than 14, so Brisk must obtain leave by motion; it did not.",
+        "cite": "14(a)(1)",
+        "quote": "But the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer."
+      },
+      {
+        "point": "The unrelated $8,000 invoice claim may be joined, because a party asserting a third-party claim may join as many claims as it has against the opposing party.",
+        "cite": "18(a)",
+        "quote": "A party asserting a claim, counterclaim, crossclaim, or third-party claim may join, as independent or alternative claims, as many claims as it has against an opposing party."
+      },
+      {
+        "point": "Any party may move to sever or try separately, so Danner's concern about delay is a proper subject of a motion.",
+        "cite": "14(a)(4)",
+        "quote": "Any party may move to strike the third-party claim, to sever it, or to try it separately."
+      },
+      {
+        "point": "Danner's claim against Nolan arises out of the same shipment loss that is the subject of her claim against Brisk, so she may assert it.",
+        "cite": "14(a)(3)",
+        "quote": "The plaintiff may assert against the third-party defendant any claim arising out of the transaction or occurrence that is the subject matter of the plaintiff's claim against the third-party plaintiff."
+      },
+      {
+        "point": "As a third-party defendant, Nolan may proceed against Ames, a nonparty who may be liable to Nolan for the claim.",
+        "cite": "14(a)(5)",
+        "quote": "A third-party defendant may proceed under this rule against a nonparty who is or may be liable to the third-party defendant for all or part of any claim against it."
+      }
+    ],
+    "model": "Right to implead. Rule 14(a)(1) lets a defending party serve a summons and complaint on a nonparty who is or may be liable to it for all or part of the claim against it. Brisk is the defending party, and Nolan's contract makes it responsible to Brisk for the lost shipment, so Nolan is a proper third-party defendant.\n\nLeave. Brisk served its third-party complaint 21 days after its original answer. Rule 14(a)(1) requires the third-party plaintiff to obtain the court's leave, by motion, when it files more than 14 days after serving the answer. Brisk did not, so its service is defective as it stands. Brisk should move for leave now; the rule states no standard, so the court may grant or deny it.\n\nJoinder of the invoice claim. Rule 18(a) lets a party asserting a third-party claim join as many claims as it has against the opposing party, so the unrelated $8,000 claim may ride along with the reimbursement claim.\n\nDanner's motion. Rule 14(a)(4) allows any party to move to strike the third-party claim, sever it, or try it separately. Danner's concern about delay may justify severing or separate trial of the third-party claims; the rule leaves that choice to the court.\n\nDanner's claim. Rule 14(a)(3) permits the plaintiff to assert against the third-party defendant any claim arising out of the transaction or occurrence that is the subject of her claim against the third-party plaintiff. The same lost shipment underlies both, so she may sue Nolan directly.\n\nNolan's plan. Rule 14(a)(5) lets a third-party defendant proceed under the rule against a nonparty who is or may be liable to it for all or part of the claim against it. Ames fits that description, so Nolan may implead it.\n\nConclusion. Impleader is proper in substance but requires leave; the court may grant it and may also sever.",
+    "cites": [
+      {
+        "cite": "14(a)(1)",
+        "quote": "A defending party may, as third-party plaintiff, serve a summons and complaint on a nonparty who is or may be liable to it for all or part of the claim against it."
+      },
+      {
+        "cite": "14(a)(1)",
+        "quote": "But the third-party plaintiff must, by motion, obtain the court's leave if it files the third-party complaint more than 14 days after serving its original answer."
+      },
+      {
+        "cite": "18(a)",
+        "quote": "A party asserting a claim, counterclaim, crossclaim, or third-party claim may join, as independent or alternative claims, as many claims as it has against an opposing party."
+      },
+      {
+        "cite": "14(a)(4)",
+        "quote": "Any party may move to strike the third-party claim, to sever it, or to try it separately."
+      },
+      {
+        "cite": "14(a)(3)",
+        "quote": "The plaintiff may assert against the third-party defendant any claim arising out of the transaction or occurrence that is the subject matter of the plaintiff's claim against the third-party plaintiff."
+      },
+      {
+        "cite": "14(a)(5)",
+        "quote": "A third-party defendant may proceed under this rule against a nonparty who is or may be liable to the third-party defendant for all or part of any claim against it."
+      }
+    ]
+  },
+  {
+    "id": "es1-006",
+    "kind": "essay",
+    "topic": "claims",
+    "rules": [
+      "12",
+      "13",
+      "20",
+      "21"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "Lin sues Orchard Builders and Westin Supply in one complaint for water damage to her house, alleging that Orchard negligently installed the roof and Westin sold the defective shingles. Orchard serves an answer on September 14, 2026 that includes a crossclaim against Westin asserting that, if Orchard is liable to Lin, Westin must reimburse Orchard for that liability. On October 5, Westin serves an answer to the crossclaim and also states a claim against Orchard for $12,000 in unpaid invoices for the same shingles, and a similar claim against Pell, Orchard's owner, who personally guaranteed those invoices. Pell, a nonparty until now, moves to dismiss for misjoinder, arguing that his guaranty is a separate contract and that he has no connection to Lin's lawsuit. Orchard separately objects that Lin should not have been allowed to sue both defendants together, because she charges negligence against one and a product defect against the other.",
+    "ask": "Analyze whether Lin could join both defendants, whether Orchard's crossclaim is proper, whether Westin's answer was timely and its claims proper, and how the court should rule on Pell's motion.",
+    "rubric": [
+      {
+        "point": "Lin asserts a right to relief against both defendants arising out of the same water damage, so they may be joined as defendants.",
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "point": "Orchard's objection fails because a defendant need not be interested in defending against all the relief demanded; different theories against each do not defeat joinder.",
+        "cite": "20(a)(3)",
+        "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded."
+      },
+      {
+        "point": "Orchard's claim against Westin, a coparty, arises out of the roof and shingles that are the subject of Lin's original action, so it is a proper crossclaim.",
+        "cite": "13(g)",
+        "quote": "A pleading may state as a crossclaim any claim by one party against a coparty if the claim arises out of the transaction or occurrence that is the subject matter of the original action"
+      },
+      {
+        "point": "A crossclaim may assert that the coparty is or may be liable to the crossclaimant for all or part of the claim against the crossclaimant, which is Orchard's reimbursement theory.",
+        "cite": "13(g)",
+        "quote": "The crossclaim may include a claim that the coparty is or may be liable to the crossclaimant for all or part of a claim asserted in the action against the crossclaimant."
+      },
+      {
+        "point": "Westin's answer was due 21 days after service of the crossclaim pleading, September 14 plus 21 days is October 5, so it was timely.",
+        "cite": "12(a)(1)(B)",
+        "quote": "A party must serve an answer to a counterclaim or crossclaim within 21 days after being served with the pleading that states the counterclaim or crossclaim."
+      },
+      {
+        "point": "Westin's invoice claim arises out of the same shingle sale that is the subject of Orchard's crossclaim, so Westin must state it as a counterclaim, and it did.",
+        "cite": "13(a)(1)",
+        "quote": "A pleading must state as a counterclaim any claim that-at the time of its service-the pleader has against an opposing party if the claim:"
+      },
+      {
+        "point": "Adding Pell as a party to a counterclaim is governed by the ordinary joinder rules, Rules 19 and 20.",
+        "cite": "13(h)",
+        "quote": "Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim."
+      },
+      {
+        "point": "Misjoinder is not a ground for dismissing an action, and the court may drop a party or sever a claim on just terms, so Pell's motion to dismiss fails even if he is misjoined.",
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action. On motion or on its own, the court may at any time, on just terms, add or drop a party. The court may also sever any claim against a party."
+      }
+    ],
+    "model": "Lin's joinder of defendants. Rule 20(a)(2) permits joining defendants if a right to relief is asserted against them jointly, severally or in the alternative arising out of the same occurrence, and a common question will arise. Lin claims one water-damage event from the same roof, so the requirement is met. Rule 20(a)(3) answers Orchard's objection: a defendant need not be interested in defending against all the relief demanded, so different theories against each do not defeat joinder.\n\nOrchard's crossclaim. Rule 13(g) allows a pleading to state as a crossclaim any claim by one party against a coparty arising out of the transaction that is the subject of the original action, and it may include a claim that the coparty is or may be liable to the crossclaimant for all or part of the claim against the crossclaimant. Orchard and Westin are coparties, and the claim concerns the same roof and shingles, so the crossclaim is proper.\n\nWestin's response. Rule 12(a)(1)(B) requires an answer to a crossclaim within 21 days after service of the pleading stating it. Twenty-one days after September 14 is October 5, so Westin was timely. Its invoice claim against Orchard arises from the same shingle sale that is the subject of Orchard's crossclaim, so Rule 13(a)(1) makes it a counterclaim that Westin must state; stating it now satisfies the rule, and even if it were not compulsory Rule 13(b) would allow it.\n\nPell. Rule 13(h) says Rules 19 and 20 govern adding a person as a party to a counterclaim. Westin asserts relief severally against Orchard and Pell for the same invoices, and the common question is whether the invoices are owed. Even if Pell were misjoined, Rule 21 says misjoinder is not a ground for dismissal; the court may drop him or sever the claim on just terms. Pell's motion to dismiss should be denied.",
+    "cites": [
+      {
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "20(a)(3)",
+        "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded."
+      },
+      {
+        "cite": "13(g)",
+        "quote": "A pleading may state as a crossclaim any claim by one party against a coparty if the claim arises out of the transaction or occurrence that is the subject matter of the original action"
+      },
+      {
+        "cite": "13(g)",
+        "quote": "The crossclaim may include a claim that the coparty is or may be liable to the crossclaimant for all or part of a claim asserted in the action against the crossclaimant."
+      },
+      {
+        "cite": "12(a)(1)(B)",
+        "quote": "A party must serve an answer to a counterclaim or crossclaim within 21 days after being served with the pleading that states the counterclaim or crossclaim."
+      },
+      {
+        "cite": "13(a)(1)",
+        "quote": "A pleading must state as a counterclaim any claim that-at the time of its service-the pleader has against an opposing party if the claim:"
+      },
+      {
+        "cite": "13(h)",
+        "quote": "Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim."
+      },
+      {
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action. On motion or on its own, the court may at any time, on just terms, add or drop a party. The court may also sever any claim against a party."
+      }
+    ]
+  },
+  {
+    "id": "es1-008",
+    "kind": "essay",
+    "topic": "parties",
+    "rules": [
+      "18",
+      "20",
+      "21"
+    ],
+    "level": 2,
+    "minutes": 15,
+    "stem": "Three tenants sue Larkin Management and its heating contractor, Pierce Heating, in one complaint. Alma and Ben, who live in Building A, allege that a faulty furnace installed by Pierce and maintained by Larkin leaked carbon monoxide into both apartments in January 2026. Cole lives in Building C and alleges that in March 2026 a burst pipe, which Larkin failed to repair after repeated complaints, flooded his unit. Cole asserts no claim against Pierce, and Pierce had nothing to do with the pipe. Alma's complaint also includes a claim that Larkin wrongfully kept her $1,500 security deposit. Pierce moves to dismiss the whole action for misjoinder, arguing that Cole's claim has nothing to do with the carbon monoxide leak and that it should not have to sit through a trial about Cole's flood. Larkin separately argues that Alma cannot sue it for the deposit in the same case as her carbon monoxide claim.",
+    "ask": "Analyze Pierce's motion and Larkin's objection, and explain how the court should rule.",
+    "rubric": [
+      {
+        "point": "Alma and Ben assert rights to relief arising out of the same January leak, so they may join as plaintiffs.",
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "point": "Alma and Ben also share common questions, such as whether the furnace was faulty.",
+        "cite": "20(a)(1)(B)",
+        "quote": "any question of law or fact common to all plaintiffs will arise in the action"
+      },
+      {
+        "point": "The relief against Larkin and Pierce for the leak arises from the same occurrence, so they may be joined as defendants as to Alma and Ben.",
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "point": "Cole's March flood in another building, from a different cause and against only Larkin, is not part of the same transaction or occurrence as the January leak; he is likely misjoined as a plaintiff.",
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "point": "Even so, misjoinder is not a ground for dismissing the action.",
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action."
+      },
+      {
+        "point": "The court may drop a party or sever Cole's claim on just terms.",
+        "cite": "21",
+        "quote": "On motion or on its own, the court may at any time, on just terms, add or drop a party. The court may also sever any claim against a party."
+      },
+      {
+        "point": "A plaintiff or defendant need not be involved in all the relief demanded, so Pierce's lack of involvement with Cole's claim does not defeat the others' joinder.",
+        "cite": "20(a)(3)",
+        "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded."
+      },
+      {
+        "point": "The court may order separate trials to protect Pierce, a party against whom Cole asserts no claim.",
+        "cite": "20(b)",
+        "quote": "The court may issue orders-including an order for separate trials-to protect a party against embarrassment, delay, expense, or other prejudice that arises from including a person against whom the party asserts no claim and who asserts no claim against the party."
+      },
+      {
+        "point": "Alma may add her deposit claim, because a party asserting a claim may join as many claims as it has against an opposing party.",
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      }
+    ],
+    "model": "Alma, Ben and the furnace. Rule 20(a)(1) lets persons join as plaintiffs if they assert a right to relief arising out of the same transaction or occurrence and a common question will arise. Alma and Ben allege one January leak in one building, and whether the furnace was faulty is common to both. Rule 20(a)(2) likewise allows Larkin and Pierce to be joined as defendants because relief for that leak is sought against both.\n\nCole. Cole's flood happened two months later, in another building, from a burst pipe, and is asserted only against Larkin. It does not arise out of the same transaction or occurrence as the leak, and the facts do not suggest a related series, so Cole is likely misjoined under Rule 20(a)(1)(A). But Pierce asks for dismissal of the whole action, and Rule 21 says misjoinder is not a ground for dismissing an action. Rule 21 instead allows the court, on motion or on its own, to drop a party or sever any claim on just terms. The court should deny dismissal and may sever Cole's claim or drop Cole as a plaintiff.\n\nPierce's concern. Rule 20(a)(3) provides that a defendant need not be interested in defending against all the relief demanded, so Pierce's lack of involvement in Cole's claim does not defeat the others' joinder. If Cole remains, Rule 20(b) lets the court order separate trials to protect a party from prejudice or expense arising from a person against whom it asserts no claim and who asserts none against it. Cole asserts no claim against Pierce, so Pierce is within that protection.\n\nAlma's deposit claim. Rule 18(a) lets a party asserting a claim join as many claims as it has against an opposing party. Alma is already suing Larkin, so she may add the deposit claim although unrelated. Larkin's objection fails.\n\nConclusion. Deny dismissal; sever or drop Cole's claim, or try it separately; deposit claim allowed.",
+    "cites": [
+      {
+        "cite": "20(a)(1)(A)",
+        "quote": "they assert any right to relief jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "20(a)(1)(B)",
+        "quote": "any question of law or fact common to all plaintiffs will arise in the action"
+      },
+      {
+        "cite": "20(a)(2)(A)",
+        "quote": "any right to relief is asserted against them jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences"
+      },
+      {
+        "cite": "21",
+        "quote": "Misjoinder of parties is not a ground for dismissing an action."
+      },
+      {
+        "cite": "21",
+        "quote": "On motion or on its own, the court may at any time, on just terms, add or drop a party. The court may also sever any claim against a party."
+      },
+      {
+        "cite": "20(a)(3)",
+        "quote": "Neither a plaintiff nor a defendant need be interested in obtaining or defending against all the relief demanded."
+      },
+      {
+        "cite": "20(b)",
+        "quote": "The court may issue orders-including an order for separate trials-to protect a party against embarrassment, delay, expense, or other prejudice that arises from including a person against whom the party asserts no claim and who asserts no claim against the party."
+      },
+      {
+        "cite": "18(a)",
+        "quote": "may join, as independent or alternative claims, as many claims as it has against an opposing party"
+      }
+    ]
+  },
+  {
+    "id": "es1-010",
+    "kind": "essay",
+    "topic": "amend",
+    "rules": [
+      "4",
+      "15",
+      "21"
+    ],
+    "level": 3,
+    "minutes": 20,
+    "stem": "On March 3, 2024, a delivery truck owned by Harlan Freight Inc. strikes Reyes's car. Because the truck and the driver's uniform say \"Harlan Trucking,\" Reyes sues Harlan Trucking LLC, an affiliate that shares an office and a registered agent with Harlan Freight, in a complaint filed February 10, 2026. A two-year limitation period for the claim expired March 3, 2026. Harlan Trucking serves an answer on March 2 saying it did not own the truck. A copy of the complaint was delivered on February 20 to the shared registered agent, who acts for both companies, and on April 6 Harlan Freight's claims manager wrote Reyes that Freight \"knew the suit was meant for us\" and had been waiting to see whether Reyes would fix the name. On June 8, Reyes moves for leave to amend to substitute Harlan Freight for Harlan Trucking and to add the driver, Tabor, whose name Reyes learned only recently. Tabor first learned of the suit on June 1. Freight and Tabor oppose, arguing that the limitation period expired. Assume the applicable limitations law has no relation-back rule of its own, and that Harlan Trucking does not consent to the amendment.",
+    "ask": "Analyze whether the court should permit the amendment and whether it relates back as to Freight and as to Tabor.",
+    "rubric": [
+      {
+        "point": "The answer was served March 2, so June 8 is past the as-of-course period; Reyes needs consent or leave, which the court should freely give when justice requires.",
+        "cite": "15(a)(2)",
+        "quote": "In all other cases, a party may amend its pleading only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires."
+      },
+      {
+        "point": "The court may add or drop parties on just terms, which is what the amendment does.",
+        "cite": "21",
+        "quote": "On motion or on its own, the court may at any time, on just terms, add or drop a party."
+      },
+      {
+        "point": "An amendment relates back to the date of the original pleading only if one of the listed conditions is met.",
+        "cite": "15(c)(1)",
+        "quote": "An amendment to a pleading relates back to the date of the original pleading when:"
+      },
+      {
+        "point": "The claim against Freight arises out of the same accident set out in the original complaint.",
+        "cite": "15(c)(1)(B)",
+        "quote": "the amendment asserts a claim or defense that arose out of the conduct, transaction, or occurrence set out-or attempted to be set out-in the original pleading"
+      },
+      {
+        "point": "Changing the party requires (B) and notice and knowledge within the Rule 4(m) period for serving the summons and complaint.",
+        "cite": "15(c)(1)(C)",
+        "quote": "the amendment changes the party or the naming of the party against whom a claim is asserted, if Rule 15(c)(1)(B) is satisfied and if, within the period provided by Rule 4(m) for serving the summons and complaint, the party to be brought in by amendment:"
+      },
+      {
+        "point": "The Rule 4(m) period is 90 days after the February 10 filing, so it ended May 11.",
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed"
+      },
+      {
+        "point": "Freight received notice of the action within that period, on February 20 through the shared agent.",
+        "cite": "15(c)(1)(C)(i)",
+        "quote": "received such notice of the action that it will not be prejudiced in defending on the merits"
+      },
+      {
+        "point": "Freight's April 6 letter shows it knew the action was meant for it but for a mistake concerning its identity.",
+        "cite": "15(c)(1)(C)(ii)",
+        "quote": "knew or should have known that the action would have been brought against it, but for a mistake concerning the proper party's identity"
+      },
+      {
+        "point": "Tabor first learned of the suit June 1, after May 11, so he did not receive notice within the period and the amendment cannot relate back as to him.",
+        "cite": "15(c)(1)(C)(i)",
+        "quote": "received such notice of the action that it will not be prejudiced in defending on the merits"
+      }
+    ],
+    "model": "Leave. Harlan Trucking answered March 2, so Reyes's 21-day right to amend as of course has passed. Rule 15(a)(2) requires consent or the court's leave and says the court should freely give leave when justice so requires. Rule 21 permits the court on motion to add or drop a party on just terms. Leave to substitute Freight and add Tabor is therefore appropriate; the open question is whether the amendment relates back.\n\nRelation back. Under Rule 15(c)(1), an amendment relates back when limitations law allows it (assumed unavailable), when it asserts a claim arising out of the conduct set out in the original pleading, or, if it changes the party, when Rule 15(c)(1)(B) is satisfied and the new party meets two conditions within the Rule 4(m) period. The claim against Freight and the claim against Tabor both arise from the same collision, so Rule 15(c)(1)(B) is met for both.\n\nThe Rule 4(m) period. It is 90 days after the February 10 filing, which ended May 11.\n\nFreight. Within that period Freight received notice through the shared registered agent on February 20, so there is no sign of prejudice in defending on the merits (Rule 15(c)(1)(C)(i)). Its April 6 letter, written before May 11, shows it knew the suit was meant for it; Reyes sued the wrong affiliate because the truck said Harlan Trucking, which is a mistake concerning the proper party's identity (Rule 15(c)(1)(C)(ii)). The amendment relates back as to Freight, so the limitation argument fails.\n\nTabor. Even assuming adding him is a change of party, Tabor first learned of the suit on June 1, after May 11. Rule 15(c)(1)(C)(i) requires notice within the Rule 4(m) period, so the amendment does not relate back as to him, and his limitation argument is not answered by Rule 15(c).\n\nConclusion. Permit the amendment; it relates back for Freight but not for Tabor.",
+    "cites": [
+      {
+        "cite": "15(a)(2)",
+        "quote": "In all other cases, a party may amend its pleading only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires."
+      },
+      {
+        "cite": "21",
+        "quote": "On motion or on its own, the court may at any time, on just terms, add or drop a party."
+      },
+      {
+        "cite": "15(c)(1)",
+        "quote": "An amendment to a pleading relates back to the date of the original pleading when:"
+      },
+      {
+        "cite": "15(c)(1)(B)",
+        "quote": "the amendment asserts a claim or defense that arose out of the conduct, transaction, or occurrence set out-or attempted to be set out-in the original pleading"
+      },
+      {
+        "cite": "15(c)(1)(C)",
+        "quote": "the amendment changes the party or the naming of the party against whom a claim is asserted, if Rule 15(c)(1)(B) is satisfied and if, within the period provided by Rule 4(m) for serving the summons and complaint, the party to be brought in by amendment:"
+      },
+      {
+        "cite": "4(m)",
+        "quote": "If a defendant is not served within 90 days after the complaint is filed"
+      },
+      {
+        "cite": "15(c)(1)(C)(i)",
+        "quote": "received such notice of the action that it will not be prejudiced in defending on the merits"
+      },
+      {
+        "cite": "15(c)(1)(C)(ii)",
+        "quote": "knew or should have known that the action would have been brought against it, but for a mistake concerning the proper party's identity"
+      }
+    ]
+  }
+]

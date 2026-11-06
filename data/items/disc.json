@@ -1,0 +1,3612 @@
+[
+  {
+    "id": "disc-001",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "stem": "Hale sues Brightway Movers for negligence after a Brightway truck struck Hale's car. Brightway holds a liability policy under which its insurer may be liable to satisfy part or all of a judgment. The parties have just held their Rule 26(f) conference. Hale has served no discovery request, and no stipulation or court order changes the usual disclosure rules.",
+    "ask": "What must Brightway do about the policy?",
+    "options": [
+      {
+        "t": "Make it available to Hale for inspection and copying as an initial disclosure, without waiting for a request.",
+        "why": "Rule 26(a)(1)(A)(iv) requires each party, without awaiting a discovery request, to make an insurance agreement that may satisfy a judgment available for inspection and copying."
+      },
+      {
+        "t": "Do nothing until Hale serves a Rule 34 request, because initial disclosures reach only material Brightway plans to use.",
+        "why": "The 'may use' limit appears in Rule 26(a)(1)(A)(i) and (ii), not (iv), and disclosure is due 'without awaiting a discovery request.'"
+      },
+      {
+        "t": "Describe the policy by category and location, without making the agreement itself available.",
+        "why": "A category-and-location description is the option in Rule 26(a)(1)(A)(ii) for documents; (iv) requires the agreement itself for inspection and copying."
+      },
+      {
+        "t": "Disclose it only if the court orders disclosure after Hale shows good cause.",
+        "why": "Adds a requirement the rule lacks; Rule 26(a)(1)(A) disclosures are automatic and need no order or showing."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 26(a)(1)(A)(iv) requires a party, without awaiting a discovery request, to provide any insurance agreement under which an insurer may be liable to satisfy all or part of a judgment, for inspection and copying. Brightway's liability policy fits. The 'may use' and 'category and location' language belongs to subparagraphs (i) and (ii), and no order or showing is needed.",
+    "cites": [
+      {
+        "cite": "26(a)(1)(A)(iv)",
+        "quote": "for inspection and copying as under Rule 34, any insurance agreement under which an insurance business may be liable to satisfy all or part of a possible judgment in the action or to indemnify or reimburse for payments made to satisfy the judgment"
+      },
+      {
+        "cite": "26(a)(1)(A)",
+        "quote": "without awaiting a discovery request"
+      }
+    ]
+  },
+  {
+    "id": "disc-002",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 3,
+    "stem": "Nash sues Tern Co. and Vale Co. The parties hold their Rule 26(f) conference on Tuesday, March 3, 2026. Nash then amends the complaint to add Lowell Inc. as a defendant, and Lowell is first served with process on Monday, April 6, 2026. No stipulation or court order sets a different time for initial disclosures, and the case is not exempt from them.",
+    "ask": "By what date must Lowell make its initial disclosures?",
+    "options": [
+      {
+        "t": "April 20, 2026",
+        "why": "Uses the 14-day period of Rule 26(a)(1)(C), which runs from the conference and applies to parties who were present at it, not to a party first served later."
+      },
+      {
+        "t": "March 17, 2026",
+        "why": "Measures 14 days from the March 3 conference, but Lowell was not yet a party; Rule 26(a)(1)(D) governs a party first served after the conference."
+      },
+      {
+        "t": "June 5, 2026",
+        "why": "Uses a 60-day period that appears nowhere in Rule 26(a)(1)."
+      },
+      {
+        "t": "May 6, 2026",
+        "why": "Lowell was first served after the Rule 26(f) conference, so Rule 26(a)(1)(D) gives it 30 days after being served; day 30 after April 6 is Wednesday, May 6."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Lowell is a party first served after the Rule 26(f) conference, so Rule 26(a)(1)(D) controls, not the conference-based 14 days of Rule 26(a)(1)(C). Excluding April 6 and counting 30 days gives Wednesday, May 6, 2026, a business day. Nothing in the facts displaces the 30-day period by stipulation or order.",
+    "cites": [
+      {
+        "cite": "26(a)(1)(D)",
+        "quote": "A party that is first served or otherwise joined after the Rule 26(f) conference must make the initial disclosures within 30 days after being served or joined, unless a different time is set by stipulation or court order."
+      },
+      {
+        "cite": "26(a)(1)(C)",
+        "quote": "at or within 14 days after the parties' Rule 26(f) conference"
+      }
+    ],
+    "calc": {
+      "from": "2026-04-06",
+      "days": 30,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-05-06"
+    }
+  },
+  {
+    "id": "disc-003",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "stem": "Kerr sues Lund Bank, claiming Lund wrongly declared a default on Kerr's loan. Kerr requests a loan officer's internal memo about Kerr's account that bears directly on the claimed default. The memo is not privileged. Lund's only objection is that the memo would not be admissible at trial, so it cannot be discovered; Lund raises no proportionality objection.",
+    "ask": "How should the court rule on Lund's objection?",
+    "options": [
+      {
+        "t": "Sustain it, because discovery is limited to matter that would be admissible at trial.",
+        "why": "Rule 26(b)(1) states the opposite: information within the scope 'need not be admissible in evidence to be discoverable.'"
+      },
+      {
+        "t": "Overrule it only if the memo is likely to lead to admissible evidence.",
+        "why": "Rule 26(b)(1) contains no 'likely to lead to admissible evidence' test; the scope is relevance to a claim or defense plus proportionality."
+      },
+      {
+        "t": "Overrule it; information within Rule 26(b)(1)'s scope need not be admissible.",
+        "why": "Rule 26(b)(1) says information within the scope of discovery need not be admissible in evidence to be discoverable; the memo is relevant to a claim and nonprivileged."
+      },
+      {
+        "t": "Sustain it unless Kerr shows substantial need and undue hardship.",
+        "why": "That showing is the Rule 26(b)(3)(A)(ii) test for trial-preparation materials; an ordinary business memo is not one."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 26(b)(1) permits discovery of nonprivileged matter relevant to a party's claim or defense and proportional to the needs of the case, and adds that such information need not be admissible to be discoverable. The memo bears on the default, is not privileged, and no proportionality objection was made. Lund's admissibility objection fails.",
+    "cites": [
+      {
+        "cite": "26(b)(1)",
+        "quote": "Information within this scope of discovery need not be admissible in evidence to be discoverable."
+      },
+      {
+        "cite": "26(b)(1)",
+        "quote": "any nonprivileged matter that is relevant to any party's claim or defense and proportional to the needs of the case"
+      }
+    ]
+  },
+  {
+    "id": "disc-004",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 2,
+    "stem": "A fire destroys a warehouse owned by Cobalt Foods. Because a suit was threatened, Cobalt's liability insurer, at the request of Cobalt's lawyer, sends an adjuster who photographs the site the next day. The site is cleared a week later. Dunn, a neighbor, sues Cobalt and requests the photographs. They are relevant to Dunn's claim. Dunn has no images of the unaltered site and no other source for equivalent ones.",
+    "ask": "May Dunn obtain the photographs?",
+    "options": [
+      {
+        "t": "No, because only materials prepared by a party or its attorney are protected, and an insurer's adjuster is neither.",
+        "why": "Rule 26(b)(3)(A) covers materials prepared by or for a party or its representative, expressly including an insurer."
+      },
+      {
+        "t": "Yes, on a showing of substantial need that Dunn cannot meet without undue hardship by other means.",
+        "why": "The photos were prepared in anticipation of litigation for a party by its insurer, but Rule 26(b)(3)(A)(ii) allows discovery on a showing of substantial need and no substantial equivalent."
+      },
+      {
+        "t": "No, because materials prepared in anticipation of litigation are never discoverable.",
+        "why": "Rule 26(b)(3)(A) says 'ordinarily' and then permits discovery on the substantial need showing."
+      },
+      {
+        "t": "Yes, with no showing, because photographs record facts rather than attorney opinions.",
+        "why": "Rule 26(b)(3)(A) protects documents and tangible things; only the Rule 26(b)(3)(B) opinion protection is about mental impressions, and the (A)(ii) showing is still required."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "The photographs were prepared in anticipation of litigation for Cobalt by its insurer, a listed representative, so Rule 26(b)(3)(A) ordinarily bars discovery. But they are discoverable if relevant and Dunn shows substantial need and inability to obtain the substantial equivalent without undue hardship. The site is gone and no other images exist, so Dunn can make that showing.",
+    "cites": [
+      {
+        "cite": "26(b)(3)(A)",
+        "quote": "by or for another party or its representative (including the other party's attorney, consultant, surety, indemnitor, insurer, or agent)"
+      },
+      {
+        "cite": "26(b)(3)(A)(ii)",
+        "quote": "the party shows that it has substantial need for the materials to prepare its case and cannot, without undue hardship, obtain their substantial equivalent by other means"
+      }
+    ]
+  },
+  {
+    "id": "disc-005",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 2,
+    "stem": "In a product suit, Park designates Dr. Voss, a retained expert who will testify at trial and must provide a Rule 26(a)(2)(B) report. Delta Mills requests Voss's drafts and all emails between Park's lawyer and Voss. The emails include one fixing Voss's hourly rate, one listing three test results that counsel supplied and that Voss considered in forming her opinions, and several on how to present her testimony. No stipulation or order applies.",
+    "ask": "What may Delta Mills obtain?",
+    "options": [
+      {
+        "t": "All the emails, but not the drafts.",
+        "why": "Rule 26(b)(4)(C) protects the lawyer-expert communications except the three listed categories, so the presentation emails stay protected."
+      },
+      {
+        "t": "Only the rate email and the test-results email.",
+        "why": "Rule 26(b)(4)(B) protects the drafts, and Rule 26(b)(4)(C) protects the lawyer-expert emails except those on compensation (i) and on facts or data counsel provided and the expert considered (ii)."
+      },
+      {
+        "t": "Nothing, because the drafts and all lawyer-expert communications are protected.",
+        "why": "Ignores the exceptions in Rule 26(b)(4)(C)(i)-(iii) for compensation, facts or data provided and considered, and assumptions relied on."
+      },
+      {
+        "t": "The drafts and the rate email, but not the test-results email.",
+        "why": "Drafts are protected by Rule 26(b)(4)(B), and the test-results email falls within the exception in Rule 26(b)(4)(C)(ii)."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Voss is a report-writing expert, so Rule 26(b)(4)(B) protects her drafts and Rule 26(b)(4)(C) protects counsel's communications with her, except those relating to compensation (i), identifying facts or data counsel provided and she considered (ii), or identifying assumptions she relied on (iii). The rate email and the test-results email fit exceptions; the drafts and presentation emails do not.",
+    "cites": [
+      {
+        "cite": "26(b)(4)(B)",
+        "quote": "protect drafts of any report or disclosure required under Rule 26(a)(2), regardless of the form in which the draft is recorded"
+      },
+      {
+        "cite": "26(b)(4)(C)(i)",
+        "quote": "relate to compensation for the expert's study or testimony"
+      },
+      {
+        "cite": "26(b)(4)(C)(ii)",
+        "quote": "identify facts or data that the party's attorney provided and that the expert considered in forming the opinions to be expressed"
+      }
+    ]
+  },
+  {
+    "id": "disc-006",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 3,
+    "stem": "In discovery, Orion Freight mistakenly produces to Reed an email chain between Orion and its lawyer. On Tuesday, Orion's counsel notifies Reed in writing that the chain is privileged and states the basis. Before the notice, Reed's lawyer had forwarded the chain to Reed's retained expert. Reed doubts that the privilege claim is valid.",
+    "ask": "What must Reed do now?",
+    "options": [
+      {
+        "t": "Return, sequester or destroy it, retrieve it from the expert, and refrain from using it.",
+        "why": "Rule 26(b)(5)(B) imposes all of these duties on a notified party, including retrieval of information disclosed before notice, and lets Reed present it to the court under seal."
+      },
+      {
+        "t": "Return the chain but keep using what Reed's team learned from it, since Orion produced it voluntarily.",
+        "why": "Rule 26(b)(5)(B) bars use or disclosure until the claim is resolved and contains no exception for voluntary production."
+      },
+      {
+        "t": "Nothing, unless Orion moves for a protective order within 14 days of its notice.",
+        "why": "The duties arise on notification; Rule 26(b)(5)(B) sets no motion requirement or 14-day trigger."
+      },
+      {
+        "t": "Return or destroy the chain, but leave the expert's copy alone because it is outside Reed's own files.",
+        "why": "Rule 26(b)(5)(B) requires reasonable steps to retrieve information that was disclosed before the notice."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Orion's notice triggers Rule 26(b)(5)(B). Reed must promptly return, sequester, or destroy the information and its copies, must not use or disclose it until the claim is resolved, and must take reasonable steps to retrieve it from the expert, to whom it was forwarded before notice. Reed may also present it under seal to the court to test the claim.",
+    "cites": [
+      {
+        "cite": "26(b)(5)(B)",
+        "quote": "must promptly return, sequester, or destroy the specified information and any copies it has; must not use or disclose the information until the claim is resolved; must take reasonable steps to retrieve the information if the party disclosed it before being notified"
+      }
+    ]
+  },
+  {
+    "id": "disc-007",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 2,
+    "stem": "Sable sues Quarry Inc. and serves a Rule 34 request for Quarry's customer list, which Quarry treats as a trade secret. Quarry's lawyer files a motion for a protective order in the court where the action is pending, supported by a declaration describing the competitive harm. She never contacts Sable's lawyer before filing. Sable opposes, arguing only that the motion lacks a required certification.",
+    "ask": "Is Sable's objection well taken?",
+    "options": [
+      {
+        "t": "No; that certification is required only for a motion to compel under Rule 37(a)(1).",
+        "why": "Rule 26(c)(1) has its own certification requirement for protective-order motions."
+      },
+      {
+        "t": "No; a declaration showing good cause can substitute for the certification.",
+        "why": "Rule 26(c)(1) treats good cause as the court's standard for the order and the certification as a separate requirement of the motion."
+      },
+      {
+        "t": "Yes, but only because Quarry is a party; a nonparty's motion needs no certification.",
+        "why": "Rule 26(c)(1) applies to 'a party or any person from whom discovery is sought' alike."
+      },
+      {
+        "t": "Yes; the motion lacked a certification of a good-faith conference or attempt.",
+        "why": "Rule 26(c)(1) requires every motion for a protective order to include a certification that the movant conferred or tried to confer in good faith."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 26(c)(1) lets a party or any person from whom discovery is sought move for a protective order, but the motion must include a certification that the movant conferred or tried in good faith to confer with affected parties to resolve the dispute without court action. Quarry made no contact, so its motion is deficient. Good cause is the standard for the order, not a substitute.",
+    "cites": [
+      {
+        "cite": "26(c)(1)",
+        "quote": "The motion must include a certification that the movant has in good faith conferred or attempted to confer with other affected parties in an effort to resolve the dispute without court action."
+      },
+      {
+        "cite": "26(c)(1)",
+        "quote": "A party or any person from whom discovery is sought may move for a protective order"
+      }
+    ]
+  },
+  {
+    "id": "disc-008",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "stem": "Ito sues Larch Co. for breach of contract. In answer to Ito's interrogatory asking who witnessed the delivery, Larch names two employees. Months later, with discovery still open, Larch's lawyer learns of a third witness, a truck driver, whom Ito has never been told about and who appears in no document or deposition. No stipulation or order addresses supplementation.",
+    "ask": "Must Larch supplement its interrogatory answer?",
+    "options": [
+      {
+        "t": "No; the duty to answer ended when Larch served its answer.",
+        "why": "Rule 26(e)(1) imposes a continuing duty on a party who has responded to an interrogatory."
+      },
+      {
+        "t": "Yes, but only if Ito serves a new interrogatory asking about the driver.",
+        "why": "Rule 26(e)(1)(A) requires supplementation on the party's own learning of the gap, not on a new request."
+      },
+      {
+        "t": "Yes; it must correct the incomplete answer in a timely manner.",
+        "why": "Rule 26(e)(1)(A) requires timely supplementation when a response is materially incomplete and the information was not otherwise made known to the other parties."
+      },
+      {
+        "t": "Yes, but not until the Rule 26(a)(3) pretrial disclosures are due.",
+        "why": "That deadline governs additions to an expert's report or deposition information under Rule 26(e)(2); other responses must be supplemented in a timely manner."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Larch responded to an interrogatory, so Rule 26(e)(1) obliges it to correct or supplement in a timely manner if it learns the response is incomplete in some material respect and the information has not otherwise been made known during discovery or in writing. The unknown third witness meets both conditions. The pretrial-disclosure deadline is limited to expert information.",
+    "cites": [
+      {
+        "cite": "26(e)(1)(A)",
+        "quote": "in a timely manner if the party learns that in some material respect the disclosure or response is incomplete or incorrect, and if the additional or corrective information has not otherwise been made known to the other parties during the discovery process or in writing"
+      },
+      {
+        "cite": "26(e)(2)",
+        "quote": "Any additions or changes to this information must be disclosed by the time the party's pretrial disclosures under Rule 26(a)(3) are due."
+      }
+    ]
+  },
+  {
+    "id": "disc-009",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 2,
+    "stem": "The court sets a Rule 16(b) scheduling conference for Tuesday, May 5, 2026. The action is not exempt from initial disclosure, the court has not ordered otherwise, and no local rule shortens the usual period for the parties' discovery conference.",
+    "ask": "By what date, at the latest, must the parties hold their Rule 26(f) conference?",
+    "options": [
+      {
+        "t": "April 21, 2026",
+        "why": "Uses 14 days, the period in Rule 26(f)(2) for submitting the written report after the conference, not the lead time before the scheduling conference."
+      },
+      {
+        "t": "April 7, 2026",
+        "why": "Uses 28 days, a lead time Rule 26(f)(1) does not set."
+      },
+      {
+        "t": "April 14, 2026",
+        "why": "Rule 26(f)(1) requires the conference at least 21 days before the scheduling conference; counting back 21 days from May 5 gives Tuesday, April 14."
+      },
+      {
+        "t": "May 26, 2026",
+        "why": "Counts 21 days after the scheduling conference; the rule requires the conference to occur before it."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Absent a court order or an expedited-schedule local rule, Rule 26(f)(1) requires the parties to confer at least 21 days before a scheduling conference is held or a scheduling order is due. Counting back 21 days from Tuesday, May 5, 2026 gives Tuesday, April 14, 2026, a business day, as the last permissible date.",
+    "cites": [
+      {
+        "cite": "26(f)(1)",
+        "quote": "the parties must confer as soon as practicable—and in any event at least 21 days before a scheduling conference is to be held or a scheduling order is due under Rule 16(b)"
+      },
+      {
+        "cite": "26(f)(2)",
+        "quote": "for submitting to the court within 14 days after the conference a written report outlining the plan"
+      }
+    ],
+    "calc": {
+      "from": "2026-05-05",
+      "days": 21,
+      "dir": "before",
+      "mail": false,
+      "answer": "2026-04-14"
+    }
+  },
+  {
+    "id": "disc-010",
+    "kind": "issue",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 2,
+    "stem": "Vega sues Orchard Bank for fraud and seeks $400,000 in lost profits. The parties have held their Rule 26(f) conference. Vega plans to use a spreadsheet of her monthly sales to support her damages claim. She also has surveillance photos of an Orchard officer that she would use only to contradict him if he testifies inconsistently. She intends to call a retained economist at trial. Vega has no insurance covering this claim. No stipulation or order changes the disclosure rules, and the action is not one of the exempt proceedings in Rule 26(a)(1)(B).",
+    "ask": "Which provisions require Vega to make disclosures on these facts? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 26(a)(1)(A)(ii)",
+        "why": "She may use the spreadsheet to support her claim, so she must produce it or describe it by category and location; the impeachment-only photos are excluded."
+      },
+      {
+        "t": "Rule 26(a)(1)(A)(iii)",
+        "why": "She claims lost profits, so she must give a computation of each category of damages and make its supporting materials available."
+      },
+      {
+        "t": "Rule 26(a)(1)(A)(iv)",
+        "why": "Vega has no insurance agreement that could satisfy a judgment, so this disclosure does not arise."
+      },
+      {
+        "t": "Rule 26(a)(1)(B)",
+        "why": "The facts say the action is not an exempt proceeding, so initial disclosure is required."
+      },
+      {
+        "t": "Rule 26(a)(2)(B)",
+        "why": "The economist is retained to give expert testimony, so Vega must disclose her identity with a signed written report."
+      },
+      {
+        "t": "Rule 26(a)(2)(C)",
+        "why": "That subparagraph covers witnesses who need not give a written report; a retained expert must give one."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      4
+    ],
+    "explain": "The spreadsheet Vega may use triggers Rule 26(a)(1)(A)(ii), though the impeachment-only photos are excluded, and her lost-profits claim triggers the damages computation under (A)(iii). The retained economist triggers Rule 26(a)(2)(B). She has no insurance, so (A)(iv) does not apply. The action is not exempt, so (B) is no defense, and (2)(C) is for non-report witnesses.",
+    "cites": [
+      {
+        "cite": "26(a)(1)(A)(ii)",
+        "quote": "all documents, electronically stored information, and tangible things that the disclosing party has in its possession, custody, or control and may use to support its claims or defenses, unless the use would be solely for impeachment"
+      },
+      {
+        "cite": "26(a)(1)(A)(iii)",
+        "quote": "a computation of each category of damages claimed by the disclosing party"
+      },
+      {
+        "cite": "26(a)(2)(B)",
+        "quote": "this disclosure must be accompanied by a written report—prepared and signed by the witness—if the witness is one retained or specially employed to provide expert testimony in the case"
+      }
+    ]
+  },
+  {
+    "id": "disc-011",
+    "kind": "issue",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 3,
+    "stem": "Zane sues Hollis Corp. Hollis withholds three items from production and says only: 'Withheld as privileged.' The items are an email of legal advice from Hollis's general counsel, a memo Hollis's lawyer wrote after Zane threatened suit, and a witness statement that a nonparty, Cho, signed for Hollis's investigator. Cho asks Hollis for a copy of her own statement, and Hollis refuses. Hollis then moves for a protective order against a deposition topic, and the motion says nothing about any contact with Zane's lawyer. Hollis has produced nothing by mistake and has retained no experts.",
+    "ask": "Which provisions of Rule 26 apply to these events? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 26(b)(2)(B)",
+        "why": "No one claims that any electronically stored information is not reasonably accessible."
+      },
+      {
+        "t": "Rule 26(b)(3)(C)",
+        "why": "Cho signed the statement, so on request she may obtain her own statement without the substantial-need showing."
+      },
+      {
+        "t": "Rule 26(b)(4)(D)",
+        "why": "Hollis has retained no experts, so the non-testifying-expert protection is not in play."
+      },
+      {
+        "t": "Rule 26(b)(5)(A)",
+        "why": "Hollis must expressly claim privilege and describe the withheld items so others can assess the claim; a bare 'withheld as privileged' does not."
+      },
+      {
+        "t": "Rule 26(b)(5)(B)",
+        "why": "Nothing was produced by mistake, so no clawback notice or return duty arises."
+      },
+      {
+        "t": "Rule 26(c)(1)",
+        "why": "The protective-order motion must include a certification of a good-faith conference or attempt, and this one has none."
+      }
+    ],
+    "key": [
+      1,
+      3,
+      5
+    ],
+    "explain": "Cho may demand her own signed statement without showing need (26(b)(3)(C)). Hollis's one-line response fails to describe the withheld items enough for assessment (26(b)(5)(A)). Its protective-order motion lacks the required good-faith certification (26(c)(1)). No ESI accessibility claim, expert, or mistaken production appears, so (b)(2)(B), (b)(4)(D) and (b)(5)(B) are out.",
+    "cites": [
+      {
+        "cite": "26(b)(3)(C)",
+        "quote": "Any party or other person may, on request and without the required showing, obtain the person's own previous statement about the action or its subject matter."
+      },
+      {
+        "cite": "26(b)(5)(A)",
+        "quote": "describe the nature of the documents, communications, or tangible things not produced or disclosed—and do so in a manner that, without revealing information itself privileged or protected, will enable other parties to assess the claim"
+      },
+      {
+        "cite": "26(c)(1)",
+        "quote": "The motion must include a certification that the movant has in good faith conferred or attempted to confer with other affected parties in an effort to resolve the dispute without court action."
+      }
+    ]
+  },
+  {
+    "id": "disc-012",
+    "kind": "issue",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 2,
+    "stem": "Before any Rule 26(f) conference in a non-exempt action, Dray serves interrogatories on Pine Co. Pine's lawyer serves responses signed only 'Pine Co. Legal Dept.,' with no attorney's name, address, e-mail or telephone number. The objections call every interrogatory 'unduly burdensome,' though the lawyer made no inquiry and chose them solely to delay the case. Pine's answers were complete and correct when served, and nothing has changed since. Pine has not asked for a protective order and has withheld nothing as privileged.",
+    "ask": "Which provisions of Rule 26 bear on these events? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 26(b)(5)(A)",
+        "why": "Pine withheld nothing as privileged, so no privilege description is owed."
+      },
+      {
+        "t": "Rule 26(c)(1)",
+        "why": "Pine has not moved for a protective order, so the conference certification is not at issue."
+      },
+      {
+        "t": "Rule 26(d)(1)",
+        "why": "Dray sought discovery before the Rule 26(f) conference in a non-exempt action, and no rule, stipulation or order authorizes it."
+      },
+      {
+        "t": "Rule 26(e)(1)(A)",
+        "why": "The answers were complete and correct and nothing has changed, so there is nothing to supplement."
+      },
+      {
+        "t": "Rule 26(g)(1)",
+        "why": "A response or objection must be signed by an attorney of record in the attorney's own name with address, e-mail and telephone number."
+      },
+      {
+        "t": "Rule 26(g)(2)",
+        "why": "The unsigned responses need not be acted on, and the court must strike them unless a signature is promptly supplied."
+      },
+      {
+        "t": "Rule 26(g)(3)",
+        "why": "Objections chosen without reasonable inquiry solely to delay violate the certification, calling for a mandatory sanction absent substantial justification."
+      }
+    ],
+    "key": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "explain": "Dray's interrogatories were premature under 26(d)(1). Pine's responses lack an attorney of record's signature and contact details (26(g)(1)); under 26(g)(2) the court must strike them unless a signature is promptly supplied. Objections made without inquiry and solely to delay violate the certification and require a sanction (26(g)(3)). No privilege, protective-order motion or changed answer exists, so (b)(5)(A), (c)(1) and (e)(1)(A) do not apply.",
+    "cites": [
+      {
+        "cite": "26(d)(1)",
+        "quote": "A party may not seek discovery from any source before the parties have conferred as required by Rule 26(f)"
+      },
+      {
+        "cite": "26(g)(2)",
+        "quote": "Other parties have no duty to act on an unsigned disclosure, request, response, or objection until it is signed, and the court must strike it unless a signature is promptly supplied after the omission is called to the attorney's or party's attention."
+      },
+      {
+        "cite": "26(g)(3)",
+        "quote": "If a certification violates this rule without substantial justification, the court, on motion or on its own, must impose an appropriate sanction on the signer, the party on whose behalf the signer was acting, or both."
+      }
+    ]
+  },
+  {
+    "id": "disc-013",
+    "kind": "apply",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 2,
+    "stem": "Pike serves a Rule 34 request on Dow Co. Dow serves no response by the due date. The next day Pike's lawyer files a motion to compel without contacting Dow's lawyer. Two weeks later, while the motion is pending, Dow produces everything requested. Dow offers no justification for its delay.",
+    "ask": "Must the court order Dow to pay Pike's expenses of making the motion?",
+    "options": [
+      {
+        "t": "No; Pike filed before attempting in good faith to obtain the response without court action.",
+        "why": "Rule 37(a)(5)(A) mandates expenses even when discovery is provided after the motion, but not if the movant filed before attempting in good faith to obtain it, 37(a)(5)(A)(i)."
+      },
+      {
+        "t": "Yes; discovery provided after the motion was filed makes expenses mandatory with no exceptions.",
+        "why": "Ignores the three exceptions in Rule 37(a)(5)(A)(i)-(iii), including a premature motion."
+      },
+      {
+        "t": "No; Dow's production moots the motion and ends the court's power to award expenses.",
+        "why": "Rule 37(a)(5)(A) expressly covers the case where discovery 'is provided after the motion was filed.'"
+      },
+      {
+        "t": "Yes, unless Dow shows that its lawyer, not Dow, caused the delay.",
+        "why": "Adds an exception the rule lacks; the rule reaches the party or the attorney advising the conduct, and the listed exceptions are the only ones."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Under Rule 37(a)(5)(A), if discovery is provided after a motion to compel is filed, the court must ordinarily require the party whose conduct necessitated the motion to pay the movant's reasonable expenses. But it must not do so if the movant filed the motion before attempting in good faith to get the discovery without court action. Pike never contacted Dow, so no award.",
+    "cites": [
+      {
+        "cite": "37(a)(5)(A)",
+        "quote": "If the motion is granted—or if the disclosure or requested discovery is provided after the motion was filed—the court must, after giving an opportunity to be heard, require the party or deponent whose conduct necessitated the motion"
+      },
+      {
+        "cite": "37(a)(5)(A)(i)",
+        "quote": "the movant filed the motion before attempting in good faith to obtain the disclosure or discovery without court action"
+      }
+    ]
+  },
+  {
+    "id": "disc-014",
+    "kind": "apply",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "stem": "Tarn moves to compel Orbit Inc. to answer four interrogatories after conferring with Orbit in good faith. Orbit's objections to two of them were unjustified, and its objections to the other two were upheld. The court grants the motion in part and denies it in part.",
+    "ask": "What may the court do about the expenses of the motion?",
+    "options": [
+      {
+        "t": "It must order Orbit to pay all of Tarn's expenses because the motion was granted in part.",
+        "why": "That is the mandatory rule for a motion granted in full under Rule 37(a)(5)(A); a split ruling falls under (a)(5)(C)."
+      },
+      {
+        "t": "It must order each side to bear its own expenses, with no apportionment allowed.",
+        "why": "Rule 37(a)(5)(C) authorizes apportionment and contains no each-side-bears-its-own mandate."
+      },
+      {
+        "t": "It must apportion the expenses equally between Tarn and Orbit.",
+        "why": "Rule 37(a)(5)(C) is permissive ('may') and does not prescribe an equal split."
+      },
+      {
+        "t": "It may apportion the reasonable expenses after giving the parties a chance to be heard.",
+        "why": "Rule 37(a)(5)(C) covers a motion granted in part and denied in part and says the court 'may' apportion expenses after an opportunity to be heard."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "A motion granted in part and denied in part falls under Rule 37(a)(5)(C), not the mandatory expense rules for a motion granted in full (A) or denied in full (B). The court may issue protective orders and may, after giving an opportunity to be heard, apportion the reasonable expenses for the motion. Neither full shifting nor equal division is required.",
+    "cites": [
+      {
+        "cite": "37(a)(5)(C)",
+        "quote": "If the motion is granted in part and denied in part, the court may issue any protective order authorized under Rule 26(c) and may, after giving an opportunity to be heard, apportion the reasonable expenses for the motion."
+      }
+    ]
+  },
+  {
+    "id": "disc-015",
+    "kind": "apply",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37",
+      "30"
+    ],
+    "level": 3,
+    "stem": "Hart sues Lee in federal court in State A. The parties stipulate that the deposition of Moss, a nonparty, will be taken by video, with Moss answering from her office in State B while all counsel sit in State A. At the deposition, Moss refuses to answer a question about the contract. Hart wants an order compelling her to answer.",
+    "ask": "Where must Hart's motion for that order be made?",
+    "options": [
+      {
+        "t": "In the court in State A, where the action is pending, as with any discovery motion.",
+        "why": "That rule applies to a motion for an order to a party; Rule 37(a)(2) sends a nonparty motion to the court where the discovery is taken."
+      },
+      {
+        "t": "In either court, at Hart's election.",
+        "why": "Rule 37(a)(2) sets one court for a nonparty motion; it gives no election."
+      },
+      {
+        "t": "In the State B court, because the deposition takes place where Moss answers.",
+        "why": "Rule 37(a)(2) requires a motion for an order to a nonparty to be made where the discovery is taken, and Rule 30(b)(4) places a remote deposition where the deponent answers."
+      },
+      {
+        "t": "In the court in State B, but only after Moss has been held in contempt.",
+        "why": "Rule 37(a)(2) imposes no contempt prerequisite; a motion to compel comes first."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "A motion for an order to a nonparty goes to the court where the discovery is or will be taken (Rule 37(a)(2)). For a remote deposition, Rule 30(b)(4) says the deposition takes place where the deponent answers. Moss answers in State B, so Hart must move in the State B court. A motion directed to a party would go to the court where the action is pending.",
+    "cites": [
+      {
+        "cite": "37(a)(2)",
+        "quote": "A motion for an order to a nonparty must be made in the court where the discovery is or will be taken."
+      },
+      {
+        "cite": "30(b)(4)",
+        "quote": "For the purpose of this rule and Rules 28(a), 37(a)(2), and 37(b)(1), the deposition takes place where the deponent answers the questions."
+      }
+    ]
+  },
+  {
+    "id": "disc-016",
+    "kind": "apply",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37",
+      "35"
+    ],
+    "level": 3,
+    "stem": "In a personal-injury action, the court orders Pierce, the plaintiff, to submit to a Rule 35 physical examination by a physician named in the order. Pierce refuses to attend. The court finds the refusal willful and has not yet imposed any sanction.",
+    "ask": "Which response is within the court's power under Rule 37(b)(2)(A)?",
+    "options": [
+      {
+        "t": "Treat the refusal as contempt of court, as with any other disobeyed discovery order.",
+        "why": "Rule 37(b)(2)(A)(vii) permits contempt for any order 'except an order to submit to a physical or mental examination.'"
+      },
+      {
+        "t": "Prohibit Pierce from introducing evidence of the injury, but not treat the refusal as contempt.",
+        "why": "Rule 37(b)(2)(A)(ii) allows an order barring evidence, while (vii) excludes an order to submit to a physical or mental examination from contempt treatment."
+      },
+      {
+        "t": "Order only payment of expenses, because the further orders apply only to orders under Rule 37(a).",
+        "why": "Rule 37(b)(2)(A) covers orders to provide or permit discovery 'including an order under Rule 26(f), 35, or 37(a).'"
+      },
+      {
+        "t": "Impose no sanction, because only a party's officer, director or managing agent can be sanctioned.",
+        "why": "Rule 37(b)(2)(A) reaches 'a party' as well as its officer, director or managing agent."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 37(b)(2)(A) applies to a party's failure to obey an order to provide or permit discovery, expressly including a Rule 35 order. The court may bar Pierce from introducing designated matters in evidence under (ii), and may use other listed orders such as striking pleadings or dismissal. But subparagraph (vii) forbids treating as contempt the failure to obey an order to submit to an examination.",
+    "cites": [
+      {
+        "cite": "37(b)(2)(A)",
+        "quote": "fails to obey an order to provide or permit discovery, including an order under Rule 26(f), 35, or 37(a), the court where the action is pending may issue further just orders"
+      },
+      {
+        "cite": "37(b)(2)(A)(ii)",
+        "quote": "prohibiting the disobedient party from supporting or opposing designated claims or defenses, or from introducing designated matters in evidence"
+      },
+      {
+        "cite": "37(b)(2)(A)(vii)",
+        "quote": "treating as contempt of court the failure to obey any order except an order to submit to a physical or mental examination"
+      }
+    ]
+  },
+  {
+    "id": "disc-017",
+    "kind": "apply",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37",
+      "26"
+    ],
+    "level": 2,
+    "stem": "Brandt sues Mako Corp. Brandt never identified Gil in its Rule 26(a)(1) disclosures or in any supplement. After discovery closes, Brandt files a summary-judgment declaration from Gil. The court finds that Brandt's failure to identify Gil was neither substantially justified nor harmless. Mako has not moved to compel anything.",
+    "ask": "May the court consider Gil's declaration on the summary-judgment motion?",
+    "options": [
+      {
+        "t": "Yes; the bar applies only at trial, not on a motion.",
+        "why": "Rule 37(c)(1) lists 'a motion, at a hearing, or at a trial.'"
+      },
+      {
+        "t": "No; Rule 37(c)(1) bars Brandt from using Gil's evidence on the motion.",
+        "why": "A party that fails to identify a witness as Rule 26(a) or (e) requires may not use the witness on a motion, at a hearing or at trial, unless substantially justified or harmless."
+      },
+      {
+        "t": "Yes; the bar applies only after Mako obtains an order compelling disclosure.",
+        "why": "Rule 37(c)(1) operates automatically and requires no prior order or motion to compel."
+      },
+      {
+        "t": "Yes; the only available remedy is payment of Mako's expenses.",
+        "why": "Expenses are an addition to or substitute for the bar, which is the rule's base consequence, and the court has found no excuse."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 37(c)(1) provides that a party who fails to provide information or identify a witness as Rule 26(a) or (e) requires may not use that information or witness to supply evidence on a motion, at a hearing, or at trial, unless the failure was substantially justified or harmless. The court found neither, and no prior motion to compel is needed. The declaration is out.",
+    "cites": [
+      {
+        "cite": "37(c)(1)",
+        "quote": "the party is not allowed to use that information or witness to supply evidence on a motion, at a hearing, or at a trial, unless the failure was substantially justified or is harmless"
+      }
+    ]
+  },
+  {
+    "id": "disc-018",
+    "kind": "apply",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 2,
+    "stem": "Dray serves proper Rule 33 interrogatories and a Rule 34 request on Larch Co. Larch serves no answers, objections or written response and files no motion for a protective order, explaining only that it considered the requests objectionable. No court order has issued. Dray's lawyer telephones Larch's lawyer twice to try to get the responses before filing a motion.",
+    "ask": "May the court impose sanctions on Larch?",
+    "options": [
+      {
+        "t": "Yes, on motion with a good-faith certification; the Rule 37(b)(2)(A)(i)-(vi) orders are available.",
+        "why": "Rule 37(d)(1)(A)(ii) covers a total failure to respond with no order needed; 37(d)(1)(B) requires the certification, and 37(d)(3) allows those orders."
+      },
+      {
+        "t": "No; sanctions require violation of a court order under Rule 37(b).",
+        "why": "Rule 37(d)(1)(A)(ii) independently authorizes sanctions for a failure to serve answers, objections or a written response."
+      },
+      {
+        "t": "No; Larch's belief that the requests were objectionable excuses its failure.",
+        "why": "Rule 37(d)(2) says objectionability is no excuse unless a protective-order motion is pending, and none is."
+      },
+      {
+        "t": "Yes, but only an award of expenses, since without an order the Rule 37(b)(2)(A) orders are unavailable.",
+        "why": "Rule 37(d)(3) makes the Rule 37(b)(2)(A)(i)-(vi) orders available for a Rule 37(d) failure."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 37(d)(1)(A)(ii) lets the court sanction a party that, after proper service of interrogatories or a Rule 34 request, fails to serve answers, objections or a written response, with no prior order. Objectionability is no excuse absent a pending protective-order motion (37(d)(2)). The motion must include a good-faith-conference certification, and the sanctions may include the Rule 37(b)(2)(A)(i)-(vi) orders plus expenses (37(d)(3)).",
+    "cites": [
+      {
+        "cite": "37(d)(1)(A)(ii)",
+        "quote": "a party, after being properly served with interrogatories under Rule 33 or a request for inspection under Rule 34, fails to serve its answers, objections, or written response"
+      },
+      {
+        "cite": "37(d)(2)",
+        "quote": "is not excused on the ground that the discovery sought was objectionable, unless the party failing to act has a pending motion for a protective order under Rule 26(c)"
+      },
+      {
+        "cite": "37(d)(3)",
+        "quote": "Sanctions may include any of the orders listed in Rule 37(b)(2)(A)(i)–(vi)."
+      }
+    ]
+  },
+  {
+    "id": "disc-019",
+    "kind": "apply",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 3,
+    "stem": "Pell sues Rho Inc. for harassment. After Pell's lawyer sends a preservation demand, Rho's IT manager neglects to suspend an automatic deletion setting, and Rho's employees' text messages about Pell are lost. They cannot be restored or replaced. The court finds that Rho failed to take reasonable steps to preserve them, that Pell is prejudiced, and that Rho did not act with intent to deprive Pell of the messages.",
+    "ask": "What may the court do?",
+    "options": [
+      {
+        "t": "Instruct the jury to presume the messages were unfavorable to Rho, because Rho's failure and Pell's prejudice suffice.",
+        "why": "Rule 37(e)(2)(B) requires a finding of intent to deprive, which the court did not make."
+      },
+      {
+        "t": "Enter a default judgment against Rho, because the loss was Rho's fault.",
+        "why": "Default judgment under Rule 37(e)(2)(C) likewise requires intent to deprive."
+      },
+      {
+        "t": "Impose no remedy, because without intent to deprive Rule 37(e) allows none.",
+        "why": "Rule 37(e)(1) separately permits curative measures on a finding of prejudice."
+      },
+      {
+        "t": "Order measures no greater than necessary to cure the prejudice to Pell.",
+        "why": "Rule 37(e)(1) allows curative measures on a finding of prejudice; the harsher measures in (e)(2) need a finding of intent to deprive."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "The lost messages are ESI that should have been preserved, Rho failed to take reasonable steps, and they cannot be restored. Prejudice permits measures no greater than necessary to cure it (Rule 37(e)(1)). The presumption, adverse-inference instruction, dismissal or default in (e)(2) are available only on a finding of intent to deprive, and the court found none.",
+    "cites": [
+      {
+        "cite": "37(e)(1)",
+        "quote": "upon finding prejudice to another party from loss of the information, may order measures no greater than necessary to cure the prejudice"
+      },
+      {
+        "cite": "37(e)(2)",
+        "quote": "only upon finding that the party acted with the intent to deprive another party of the information's use in the litigation may:"
+      }
+    ]
+  },
+  {
+    "id": "disc-020",
+    "kind": "issue",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 3,
+    "stem": "Pike sues Bale Inc. During the case: (1) Bale's managing agent, properly noticed, fails to appear for his deposition, and no court order has addressed it; (2) Bale never disclosed under Rule 26(a)(1) a witness, Sol, whom it now plans to call at trial; (3) a flood destroys Bale's paper files, and no electronically stored information is involved; and (4) Bale denied a Rule 36 request, but Pike has not yet tried to prove the matter. The court has issued no discovery orders, and both sides took part in developing the Rule 26(f) plan.",
+    "ask": "Which Rule 37 provisions are available to Pike on these facts? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 37(b)(2)(A)",
+        "why": "That provision punishes violating a discovery order, and the court has issued none."
+      },
+      {
+        "t": "Rule 37(c)(1)",
+        "why": "Bale failed to identify Sol as Rule 26(a) requires, so it may not use him at trial unless the failure was substantially justified or harmless."
+      },
+      {
+        "t": "Rule 37(c)(2)",
+        "why": "Expenses for a failure to admit arise only if the requesting party later proves the matter, and Pike has not."
+      },
+      {
+        "t": "Rule 37(d)(1)(A)(i)",
+        "why": "A party's managing agent who fails, after proper notice, to appear for his deposition permits sanctions on motion, with no order required."
+      },
+      {
+        "t": "Rule 37(e)",
+        "why": "Rule 37(e) addresses lost electronically stored information, and only paper files were destroyed."
+      },
+      {
+        "t": "Rule 37(f)",
+        "why": "Both sides participated in developing the discovery plan, so no failure to participate exists."
+      }
+    ],
+    "key": [
+      1,
+      3
+    ],
+    "explain": "Bale's undisclosed witness engages Rule 37(c)(1), and its managing agent's failure to appear after proper notice engages Rule 37(d)(1)(A)(i), which needs no prior order. Rule 37(b)(2)(A) needs a disobeyed order; 37(c)(2) needs Pike to prove the denied matter later; 37(e) covers only ESI; and 37(f) requires a failure to participate in framing the discovery plan.",
+    "cites": [
+      {
+        "cite": "37(c)(1)",
+        "quote": "If a party fails to provide information or identify a witness as required by Rule 26(a) or (e), the party is not allowed to use that information or witness to supply evidence on a motion, at a hearing, or at a trial"
+      },
+      {
+        "cite": "37(d)(1)(A)(i)",
+        "quote": "a party or a party's officer, director, or managing agent—or a person designated under Rule 30(b)(6) or 31(a)(4)—fails, after being served with proper notice, to appear for that person's deposition"
+      }
+    ]
+  },
+  {
+    "id": "disc-021",
+    "kind": "issue",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 2,
+    "stem": "Cato serves interrogatories on Dune Co. Dune answers interrogatory 5 with a response that skirts the question. After a good-faith conference, Cato moves to compel. The court grants the motion and finds that Dune's response was not substantially justified. Dune has not defied any order, and it timely served answers to all the other interrogatories.",
+    "ask": "Which provisions of Rule 37 apply to Cato's motion? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 37(a)(3)(B)(iii)",
+        "why": "A party's failure to answer an interrogatory under Rule 33 supports a motion to compel an answer."
+      },
+      {
+        "t": "Rule 37(a)(4)",
+        "why": "An evasive or incomplete answer is treated as a failure to answer."
+      },
+      {
+        "t": "Rule 37(a)(5)(A)",
+        "why": "The motion was granted and no exception applies, so the court must require payment of Cato's reasonable expenses."
+      },
+      {
+        "t": "Rule 37(a)(5)(B)",
+        "why": "That provision applies when the motion is denied, and this one was granted."
+      },
+      {
+        "t": "Rule 37(b)(2)(A)",
+        "why": "That provision punishes disobeying an order, and Dune has not yet defied one."
+      },
+      {
+        "t": "Rule 37(d)(1)(A)(ii)",
+        "why": "Dune served answers, so this is not a failure to serve any answers, objections or response."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2
+    ],
+    "explain": "Dune's evasive answer is treated as a failure to answer (37(a)(4)), so Cato may move to compel under 37(a)(3)(B)(iii). Because the motion was granted and Dune was not substantially justified, 37(a)(5)(A) requires the court to order expenses. Rule 37(a)(5)(B) concerns a denied motion, 37(b)(2)(A) needs a disobeyed order, and 37(d) covers a complete failure to serve answers.",
+    "cites": [
+      {
+        "cite": "37(a)(4)",
+        "quote": "an evasive or incomplete disclosure, answer, or response must be treated as a failure to disclose, answer, or respond"
+      },
+      {
+        "cite": "37(a)(3)(B)(iii)",
+        "quote": "a party fails to answer an interrogatory submitted under Rule 33"
+      },
+      {
+        "cite": "37(a)(5)(A)",
+        "quote": "the court must, after giving an opportunity to be heard, require the party or deponent whose conduct necessitated the motion, the party or attorney advising that conduct, or both to pay the movant's reasonable expenses incurred in making the motion, including attorney's fees"
+      }
+    ]
+  },
+  {
+    "id": "disc-022",
+    "kind": "issue",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 2,
+    "stem": "Quade sues Rook Co. Rook's lawyer ignores Quade's repeated calls to schedule the Rule 26(f) conference and refuses to contribute to the written plan, so Quade drafts it alone. Later the court orders Rook to produce its sales records within 14 days, and Rook's CEO, personally, ignores the order. All of Rook's other discovery obligations have been met, and no electronically stored information has been lost.",
+    "ask": "Which provisions of Rule 37 apply to these events? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 37(a)(5)(B)",
+        "why": "That provision applies when a motion to compel is denied, and no such motion was denied."
+      },
+      {
+        "t": "Rule 37(b)(2)(A)",
+        "why": "Rook's CEO, an officer, failed to obey an order to provide discovery, so the court may issue further just orders."
+      },
+      {
+        "t": "Rule 37(c)(2)",
+        "why": "No Rule 36 request went unadmitted, so there is nothing to prove or recover."
+      },
+      {
+        "t": "Rule 37(d)(1)(A)(i)",
+        "why": "No one failed to appear for a noticed deposition."
+      },
+      {
+        "t": "Rule 37(e)",
+        "why": "No electronically stored information was lost."
+      },
+      {
+        "t": "Rule 37(f)",
+        "why": "Rook's lawyer failed to participate in good faith in developing the Rule 26(f) plan, so the court may award Quade's expenses after a hearing."
+      }
+    ],
+    "key": [
+      1,
+      5
+    ],
+    "explain": "The lawyer's refusal to take part in framing the discovery plan engages Rule 37(f), which lets the court, after an opportunity to be heard, require payment of Quade's reasonable expenses. The CEO's defiance of the production order engages Rule 37(b)(2)(A), since an officer of a party failed to obey an order to provide discovery. No denied motion, Rule 36 request, missed deposition or lost ESI appears.",
+    "cites": [
+      {
+        "cite": "37(f)",
+        "quote": "If a party or its attorney fails to participate in good faith in developing and submitting a proposed discovery plan as required by Rule 26(f), the court may, after giving an opportunity to be heard, require that party or attorney to pay to any other party the reasonable expenses, including attorney's fees, caused by the failure."
+      },
+      {
+        "cite": "37(b)(2)(A)",
+        "quote": "If a party or a party's officer, director, or managing agent—or a witness designated under Rule 30(b)(6) or 31(a)(4)—fails to obey an order to provide or permit discovery"
+      }
+    ]
+  },
+  {
+    "id": "disc-023",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "29",
+      "33"
+    ],
+    "level": 2,
+    "stem": "The scheduling order sets a discovery cutoff of June 1, 2026. Dow's interrogatories to Tarn Co. were due to be answered May 20. By a written stipulation, the parties give Tarn 60 more days, which runs past the cutoff. Neither side asks the court to approve the stipulation. Tarn later relies on the extension to withhold its answers.",
+    "ask": "Is the stipulated extension effective without court approval?",
+    "options": [
+      {
+        "t": "Yes; Rule 29 lets the parties modify any discovery procedure by stipulation, with no role for the court.",
+        "why": "Rule 29(b) makes an exception for extensions that would interfere with the time set for completing discovery."
+      },
+      {
+        "t": "Yes; court approval is needed only for stipulations that shorten a time.",
+        "why": "Rule 29(b) requires approval for extensions that interfere with the discovery cutoff, not for shortening."
+      },
+      {
+        "t": "No; a stipulation that interferes with the discovery cutoff needs court approval.",
+        "why": "Rule 29(b) requires court approval for an extension that would interfere with the discovery cutoff, a hearing date or trial."
+      },
+      {
+        "t": "No; the parties may never stipulate to change the 30-day answer period for interrogatories.",
+        "why": "Rule 33(b)(2) says a shorter or longer time may be stipulated to under Rule 29."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 33(b)(2) lets the parties stipulate to a different time for answering interrogatories under Rule 29. But Rule 29(b) requires court approval of a stipulation extending the time for any form of discovery if it would interfere with the time set for completing discovery, for hearing a motion, or for trial. This extension passes the June 1 cutoff, so it needs approval.",
+    "cites": [
+      {
+        "cite": "29(b)",
+        "quote": "a stipulation extending the time for any form of discovery must have court approval if it would interfere with the time set for completing discovery, for hearing a motion, or for trial"
+      },
+      {
+        "cite": "33(b)(2)",
+        "quote": "A shorter or longer time may be stipulated to under Rule 29 or be ordered by the court."
+      }
+    ]
+  },
+  {
+    "id": "disc-024",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "29",
+      "28"
+    ],
+    "level": 1,
+    "stem": "Ford sues Kell Co. The parties stipulate that nonparty Orr's deposition will be taken before Ames, a notary who is a friend of both lawyers, in Ames's office, on two days' notice and 'in the manner specified.' The court has issued no order on the subject. At trial, Kell offers the deposition, and Ford objects that it was not taken before an officer under Rule 28(a)(1) or on reasonable notice.",
+    "ask": "Is Ford's objection to how the deposition was taken sound?",
+    "options": [
+      {
+        "t": "Yes; every deposition must be taken before an officer authorized to administer oaths under Rule 28(a)(1).",
+        "why": "Rule 28(a)(2) defines 'officer' to include a person designated by the parties under Rule 29(a)."
+      },
+      {
+        "t": "Yes; a stipulation shortening the notice period is ineffective without court approval.",
+        "why": "Rule 29(a) allows 'any notice'; the court-approval limit in Rule 29(b) concerns extending time and interfering with deadlines."
+      },
+      {
+        "t": "No; Rule 29(a) lets the parties stipulate to the person, time, place, notice and manner.",
+        "why": "Rule 29(a) permits a deposition before any person, at any time or place, on any notice; Rule 28(a)(2) counts a person the parties designate under Rule 29(a) as an officer."
+      },
+      {
+        "t": "No, but only if the court approved the stipulation in advance.",
+        "why": "Rule 29 requires no advance approval for a Rule 29(a) stipulation, which operates 'unless the court orders otherwise.'"
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 29(a) permits the parties, unless the court orders otherwise, to stipulate that a deposition be taken before any person, at any time or place, on any notice, and in the manner specified, and it may be used like any other deposition. Rule 28(a)(2) treats a person designated under Rule 29(a) as an officer. No order intervened, so Ford's objection fails.",
+    "cites": [
+      {
+        "cite": "29(a)",
+        "quote": "a deposition may be taken before any person, at any time or place, on any notice, and in the manner specified—in which event it may be used in the same way as any other deposition"
+      },
+      {
+        "cite": "28(a)(2)",
+        "quote": "includes a person appointed by the court under this rule or designated by the parties under Rule 29(a)"
+      }
+    ]
+  },
+  {
+    "id": "disc-025",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 2,
+    "stem": "Aldo and Bera, co-plaintiffs, sue Kline Co. Aldo has taken six depositions of Kline employees and Bera has taken four, all by oral questions under Rule 30. Bera now gives notice of another oral deposition. Kline refuses to stipulate and objects that the notice requires leave of court. No order has altered the usual limits.",
+    "ask": "What must Bera obtain to take the new deposition over Kline's objection?",
+    "options": [
+      {
+        "t": "Leave of court, which must be granted if consistent with Rule 26(b)(1) and (2).",
+        "why": "The deposition would make more than 10 taken by the plaintiffs, so Rule 30(a)(2)(A)(i) requires leave, which the court must grant to the extent consistent with Rule 26(b)(1) and (2)."
+      },
+      {
+        "t": "Nothing, because each plaintiff may take 10 depositions separately.",
+        "why": "Rule 30(a)(2)(A)(i) counts depositions 'by the plaintiffs' together; six plus four plus one exceeds 10."
+      },
+      {
+        "t": "Leave of court, which may be granted only on a showing of exceptional circumstances.",
+        "why": "Exceptional circumstances is the Rule 26(b)(4)(D) standard for non-testifying experts; Rule 30(a)(2) applies Rule 26(b)(1) and (2)."
+      },
+      {
+        "t": "Nothing, unless Kline moves for a protective order; until then the notice stands.",
+        "why": "Rule 30(a)(2)(A) places the leave requirement on the noticing party when the parties have not stipulated."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 30(a)(2)(A)(i) requires leave when a deposition would result in more than 10 depositions under Rules 30 or 31 by the plaintiffs, or by the defendants, or by the third-party defendants, unless the parties stipulate. Aldo's six and Bera's four already make 10, so the new one is the eleventh and Kline will not stipulate. The court must grant leave to the extent consistent with Rule 26(b)(1) and (2).",
+    "cites": [
+      {
+        "cite": "30(a)(2)(A)(i)",
+        "quote": "the deposition would result in more than 10 depositions being taken under this rule or Rule 31 by the plaintiffs, or by the defendants, or by the third-party defendants"
+      },
+      {
+        "cite": "30(a)(2)",
+        "quote": "A party must obtain leave of court, and the court must grant leave to the extent consistent with Rule 26(b)(1) and (2)"
+      }
+    ]
+  },
+  {
+    "id": "disc-026",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 2,
+    "stem": "Ross's lawyer deposes Tate, a nonparty witness, on Monday. Tate's own lawyer interrupts with long speaking objections, and the examination uses the full 7 hours allowed for the day. Ross's lawyer still has two hours of questions and says he will simply resume Tuesday. There is no stipulation or court order on the length of the deposition.",
+    "ask": "May Ross's lawyer resume the deposition on Tuesday without a stipulation or court order?",
+    "options": [
+      {
+        "t": "Yes; the 7 hours limits each session, so he may resume the next day.",
+        "why": "Rule 30(d)(1) limits the deposition to 'one day of 7 hours' unless stipulated or ordered."
+      },
+      {
+        "t": "Yes; because Tate's lawyer delayed the examination, the limit is automatically extended.",
+        "why": "Impeding the examination is a ground for the court to allow more time, not an automatic extension."
+      },
+      {
+        "t": "No, and the court has no power to allow more time.",
+        "why": "Rule 30(d)(1) says the court must allow additional time consistent with Rule 26(b)(1) and (2) in these circumstances."
+      },
+      {
+        "t": "No; he needs a stipulation or an order, and more time must be allowed if needed.",
+        "why": "Rule 30(d)(1) limits a deposition to one day of 7 hours unless stipulated or ordered, and requires the court to allow additional time when needed or when the examination was impeded."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Under Rule 30(d)(1), unless stipulated or ordered, a deposition is limited to one day of 7 hours. The 7 hours are used, so continuing requires a stipulation or an order. The court must allow additional time consistent with Rule 26(b)(1) and (2) if needed to fairly examine the deponent or if another person impedes the examination, as Tate's lawyer did, but the extension is not automatic.",
+    "cites": [
+      {
+        "cite": "30(d)(1)",
+        "quote": "Unless otherwise stipulated or ordered by the court, a deposition is limited to one day of 7 hours. The court must allow additional time consistent with Rule 26(b)(1) and (2) if needed to fairly examine the deponent or if the deponent, another person, or any other circumstance impedes or delays the examination."
+      }
+    ]
+  },
+  {
+    "id": "disc-027",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 3,
+    "stem": "Pace serves a Rule 30(b)(6) notice on Rook Co. that describes with reasonable particularity the matters for examination about Rook's 2024 pricing. Rook designates Tate, a salaried sales manager who is not an officer, director or managing agent but consents to testify. Tate had no part in 2024 pricing, though Rook's files and finance staff hold the information. At the deposition he answers most questions, 'I don't know; I wasn't involved.'",
+    "ask": "Which statement is correct?",
+    "options": [
+      {
+        "t": "Rook could designate only an officer, director or managing agent, so Tate's designation is invalid.",
+        "why": "Rule 30(b)(6) allows designating 'other persons who consent to testify on its behalf.'"
+      },
+      {
+        "t": "Tate may testify only from personal knowledge, since a witness can speak only for himself.",
+        "why": "A designee must testify about information 'known or reasonably available to the organization.'"
+      },
+      {
+        "t": "Rook may designate Tate, who must testify to what is reasonably available to Rook.",
+        "why": "Rule 30(b)(6) lets an organization designate other consenting persons and requires them to testify about information known or reasonably available to the organization."
+      },
+      {
+        "t": "Pace, not Rook, chooses which individual testifies for Rook.",
+        "why": "Rule 30(b)(6) has the named organization designate its witnesses."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 30(b)(6) has the named organization, not the noticing party, designate its witnesses, who may be officers, directors, managing agents, or other consenting persons such as Tate. The designees must testify about information known or reasonably available to the organization. Tate's lack of personal involvement does not excuse him: Rook must prepare him from its files and staff.",
+    "cites": [
+      {
+        "cite": "30(b)(6)",
+        "quote": "The named organization must designate one or more officers, directors, or managing agents, or designate other persons who consent to testify on its behalf"
+      },
+      {
+        "cite": "30(b)(6)",
+        "quote": "The persons designated must testify about information known or reasonably available to the organization."
+      }
+    ]
+  },
+  {
+    "id": "disc-028",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "30",
+      "26"
+    ],
+    "level": 2,
+    "stem": "Before any Rule 26(f) conference in a non-exempt action, Wynn wants to depose Gil, a nonparty witness who has told Wynn he is leaving the United States for good in two weeks. The parties have not stipulated to the deposition, and no court order exists. Wynn would like to serve a notice now and take the deposition without first seeking leave.",
+    "ask": "What must Wynn do to proceed without leave of court?",
+    "options": [
+      {
+        "t": "Wait for the conference, because no deposition may ever precede it.",
+        "why": "Rule 26(d)(1) allows discovery earlier 'when authorized by these rules,' and Rule 30(a)(2)(A)(iii) is such an authorization."
+      },
+      {
+        "t": "Certify in the notice, with supporting facts, that Gil is leaving and will be unavailable.",
+        "why": "Rule 30(a)(2)(A)(iii) exempts a pre-conference deposition from the leave requirement only if the notice contains that certification with supporting facts."
+      },
+      {
+        "t": "Obtain leave of court, because only a court may authorize a deposition before the conference.",
+        "why": "Rule 30(a)(2)(A)(iii) provides a no-leave route through a certification in the notice."
+      },
+      {
+        "t": "State in the notice only that Gil is leaving soon; no supporting facts are needed.",
+        "why": "The certification must be made 'with supporting facts.'"
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 26(d)(1) bars discovery before the Rule 26(f) conference except when these rules authorize it. Rule 30(a)(2)(A)(iii) requires leave for a pre-conference deposition unless the party certifies in the notice, with supporting facts, that the deponent is expected to leave the United States and be unavailable for examination here after that time. Wynn can proceed by including that certification.",
+    "cites": [
+      {
+        "cite": "30(a)(2)(A)(iii)",
+        "quote": "the party seeks to take the deposition before the time specified in Rule 26(d), unless the party certifies in the notice, with supporting facts, that the deponent is expected to leave the United States and be unavailable for examination in this country after that time"
+      },
+      {
+        "cite": "26(d)(1)",
+        "quote": "A party may not seek discovery from any source before the parties have conferred as required by Rule 26(f), except in a proceeding exempted from initial disclosure under Rule 26(a)(1)(B), or when authorized by these rules, by stipulation, or by court order."
+      }
+    ]
+  },
+  {
+    "id": "disc-030",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 2,
+    "stem": "Pike serves 24 numbered interrogatories on Dow Co. The 24th contains three discrete subparts, each asking about a separate subject. Pike then serves a 25th numbered interrogatory. No stipulation or order alters the limits.",
+    "ask": "Has Pike exceeded the number of interrogatories allowed as of right, and what recourse does he have?",
+    "options": [
+      {
+        "t": "No; only numbered interrogatories count toward the limit.",
+        "why": "Rule 33(a)(1) counts 'all discrete subparts' within the 25."
+      },
+      {
+        "t": "Yes; discrete subparts count, so he needs a stipulation or leave of court.",
+        "why": "Rule 33(a)(1) limits a party to 25 interrogatories 'including all discrete subparts' and allows leave for more."
+      },
+      {
+        "t": "Yes, and no recourse exists, because the limit cannot be exceeded even by court order.",
+        "why": "Rule 33(a)(1) says leave to serve additional interrogatories may be granted, and Rule 26(b)(2)(A) lets the court alter the limit."
+      },
+      {
+        "t": "No; the limit does not apply to interrogatories that ask for contentions.",
+        "why": "Rule 33(a)(2) allows contention interrogatories but does not exempt them from the 25 limit."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 33(a)(1) limits a party to 25 written interrogatories, including all discrete subparts, unless stipulated or ordered otherwise. The three discrete subparts in the 24th interrogatory count, so with the 25th Pike is past 25. His recourse is a stipulation or leave of court, which may be granted to the extent consistent with Rule 26(b)(1) and (2).",
+    "cites": [
+      {
+        "cite": "33(a)(1)",
+        "quote": "no more than 25 written interrogatories, including all discrete subparts. Leave to serve additional interrogatories may be granted to the extent consistent with Rule 26(b)(1) and (2)."
+      }
+    ]
+  },
+  {
+    "id": "disc-031",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "33",
+      "6"
+    ],
+    "level": 3,
+    "stem": "Rao mails 18 interrogatories to the lawyer for Sol Co., a party, on Saturday, March 7, 2026, and service by mail is complete on mailing. The lawyer is not a registered electronic-filing user and has consented to no other means of service. No stipulation or court order changes the usual response period.",
+    "ask": "By what date must Sol Co. serve its answers and any objections?",
+    "options": [
+      {
+        "t": "April 9, 2026",
+        "why": "Rule 33(b)(2) gives 30 days after service, which expires Monday, April 6; Rule 6(d) adds 3 days for service by mail, giving Thursday, April 9."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Counts the 30 days correctly but omits the 3 days Rule 6(d) adds after service by mail."
+      },
+      {
+        "t": "March 23, 2026",
+        "why": "Uses a 14-day period; Rule 33(b)(2) sets 30 days for interrogatories."
+      },
+      {
+        "t": "May 6, 2026",
+        "why": "Uses a 60-day period that Rule 33(b)(2) does not provide."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 33(b)(2) gives the responding party 30 days after being served. Excluding March 7 and counting 30 days ends Monday, April 6. Because service was by mail, Rule 6(d) adds 3 days after the period would otherwise expire under Rule 6(a), producing Thursday, April 9, 2026.",
+    "cites": [
+      {
+        "cite": "33(b)(2)",
+        "quote": "The responding party must serve its answers and any objections within 30 days after being served with the interrogatories."
+      },
+      {
+        "cite": "6(d)",
+        "quote": "When a party may or must act within a specified time after being served and service is made under Rule 5(b)(2)(C) (mail), (D) (leaving with the clerk), or (F) (other means consented to), 3 days are added after the period would otherwise expire under Rule 6(a)."
+      }
+    ],
+    "calc": {
+      "from": "2026-03-07",
+      "days": 30,
+      "dir": "after",
+      "mail": true,
+      "answer": "2026-04-09"
+    }
+  },
+  {
+    "id": "disc-032",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 1,
+    "stem": "Tess serves eight interrogatories on Rune Co. Within 30 days Rune answers interrogatories 1 through 6 and says nothing about 7 and 8. Two months later, on Tess's motion to compel, Rune objects for the first time that interrogatory 7 is unduly burdensome. Rune offers no reason for leaving the objection out of a timely response.",
+    "ask": "What is the status of Rune's burden objection?",
+    "options": [
+      {
+        "t": "It is preserved; an objection may be raised at any time before the court rules on the motion.",
+        "why": "Rule 33(b)(4) makes grounds not timely stated waived."
+      },
+      {
+        "t": "It is waived with no possibility of relief.",
+        "why": "Rule 33(b)(4) lets the court, for good cause, excuse the failure."
+      },
+      {
+        "t": "It is preserved, because Rune timely answered the other interrogatories.",
+        "why": "Rule 33(b)(4) asks whether the ground was stated in a timely objection to this interrogatory."
+      },
+      {
+        "t": "It is waived unless the court, for good cause, excuses the failure.",
+        "why": "Rule 33(b)(4) waives any ground not stated in a timely objection, subject to excuse by the court for good cause."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 33(b)(4) provides that any ground for objecting to an interrogatory not stated in a timely objection is waived unless the court, for good cause, excuses the failure. Rune said nothing about interrogatory 7 within 30 days and offers no reason. Answering other interrogatories does not preserve an objection to this one.",
+    "cites": [
+      {
+        "cite": "33(b)(4)",
+        "quote": "Any ground not stated in a timely objection is waived unless the court, for good cause, excuses the failure."
+      }
+    ]
+  },
+  {
+    "id": "disc-033",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 2,
+    "stem": "Gray serves an interrogatory asking Moto Inc. for its total sales by month for five years. The answer can be determined by compiling Moto's business records, and the burden of doing so would be substantially the same for Gray as for Moto. Moto responds, 'See the records,' and delivers 40 unlabeled boxes with no index.",
+    "ask": "Is Moto's response a proper use of Rule 33(d)?",
+    "options": [
+      {
+        "t": "Yes; producing the records in place of an answer is complete once the burden is equal.",
+        "why": "Equal burden is only a precondition of the option; Rule 33(d)(1) also requires specifying the records."
+      },
+      {
+        "t": "No; the records option is never available for sales data, so Moto must compile an answer.",
+        "why": "Rule 33(d) applies when an answer can be found by compiling or summarizing business records and the burden is substantially the same."
+      },
+      {
+        "t": "No; Moto must specify the records so Gray can locate them, and allow examination.",
+        "why": "Rule 33(d)(1) and (2) condition the records option on specifying the records and giving a reasonable opportunity to examine, audit and copy them."
+      },
+      {
+        "t": "No, because Rule 33(d) lets Moto produce records only if Gray first agrees in writing.",
+        "why": "Rule 33(d) gives the responding party the option without the other side's consent."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 33(d) lets a party answer by producing business records when the answer can be found by compiling them and the burden is substantially the same for both sides. But the responding party must specify the records in sufficient detail to let the interrogating party locate and identify them as readily as it could, and give a reasonable opportunity to examine and audit them. Unlabeled boxes with no index do not do that.",
+    "cites": [
+      {
+        "cite": "33(d)(1)",
+        "quote": "specifying the records that must be reviewed, in sufficient detail to enable the interrogating party to locate and identify them as readily as the responding party could"
+      },
+      {
+        "cite": "33(d)(2)",
+        "quote": "giving the interrogating party a reasonable opportunity to examine and audit the records and to make copies, compilations, abstracts, or summaries"
+      }
+    ]
+  },
+  {
+    "id": "disc-034",
+    "kind": "issue",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 2,
+    "stem": "Ward serves 12 interrogatories on Rook Corp. Rook's general counsel objects to interrogatory 3, which asks Rook to state all facts supporting its affirmative defense of waiver, arguing that a contention interrogatory is improper. Rook's CFO answers interrogatories 1 and 2 on Rook's behalf, but neither she nor anyone else signs the answers. Rook's lawyer signs the objection. Rook has not relied on its business records, and Ward served the interrogatories 10 days ago.",
+    "ask": "Which provisions of Rule 33 resolve the issues raised? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 33(a)(1)",
+        "why": "Twelve interrogatories are within the limit of 25, so the numerical limit is not at issue."
+      },
+      {
+        "t": "Rule 33(a)(2)",
+        "why": "An interrogatory is not objectionable merely because it asks for a contention relating to fact or the application of law to fact."
+      },
+      {
+        "t": "Rule 33(b)(1)(B)",
+        "why": "A corporation answers through any officer or agent, who must furnish the information available to it, so the CFO may answer."
+      },
+      {
+        "t": "Rule 33(b)(2)",
+        "why": "The 30-day period to respond has not run, since service was 10 days ago."
+      },
+      {
+        "t": "Rule 33(b)(5)",
+        "why": "The person who makes the answers must sign them, and the attorney who objects must sign the objections."
+      },
+      {
+        "t": "Rule 33(d)",
+        "why": "Rook has not invoked the business-records option, so it is not involved."
+      }
+    ],
+    "key": [
+      1,
+      2,
+      4
+    ],
+    "explain": "Rook's contention objection fails under 33(a)(2), though the court may defer an answer. Its CFO may answer for the corporation under 33(b)(1)(B), but 33(b)(5) requires the person who makes the answers to sign them. Twelve interrogatories are within 33(a)(1), the 30 days of 33(b)(2) have not run, and Rook has not invoked 33(d).",
+    "cites": [
+      {
+        "cite": "33(a)(2)",
+        "quote": "An interrogatory is not objectionable merely because it asks for an opinion or contention that relates to fact or the application of law to fact"
+      },
+      {
+        "cite": "33(b)(1)(B)",
+        "quote": "if that party is a public or private corporation, a partnership, an association, or a governmental agency, by any officer or agent, who must furnish the information available to the party"
+      },
+      {
+        "cite": "33(b)(5)",
+        "quote": "The person who makes the answers must sign them, and the attorney who objects must sign any objections."
+      }
+    ]
+  },
+  {
+    "id": "disc-035",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "31",
+      "6"
+    ],
+    "level": 3,
+    "stem": "On Monday, March 2, 2026, Fenn serves by mail, on every other party at its last known address, notice of a deposition of a nonparty by written questions, together with Fenn's direct questions. Hale, a party served by mail, wants to serve cross-questions. No stipulation or court order changes the usual times.",
+    "ask": "By what date must Hale serve cross-questions?",
+    "options": [
+      {
+        "t": "March 16, 2026",
+        "why": "Counts the 14 days correctly but omits the 3 days Rule 6(d) adds after service by mail."
+      },
+      {
+        "t": "March 9, 2026",
+        "why": "Uses the 7-day period that Rule 31(a)(5) sets for redirect and recross-questions, not cross-questions."
+      },
+      {
+        "t": "March 19, 2026",
+        "why": "Rule 31(a)(5) gives 14 days after service of the notice and direct questions, ending Monday, March 16; Rule 6(d) adds 3 days for mail service, giving Thursday, March 19."
+      },
+      {
+        "t": "March 23, 2026",
+        "why": "Uses a 21-day period that Rule 31(a)(5) does not set."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 31(a)(5) requires cross-questions within 14 days after service of the notice and direct questions. Excluding March 2, day 14 is Monday, March 16. Because Hale was served by mail, Rule 6(d) adds 3 days, so the deadline is Thursday, March 19, 2026. Redirect and recross periods are 7 days, not 14.",
+    "cites": [
+      {
+        "cite": "31(a)(5)",
+        "quote": "cross-questions, within 14 days after being served with the notice and direct questions"
+      },
+      {
+        "cite": "6(d)",
+        "quote": "When a party may or must act within a specified time after being served and service is made under Rule 5(b)(2)(C) (mail), (D) (leaving with the clerk), or (F) (other means consented to), 3 days are added after the period would otherwise expire under Rule 6(a)."
+      }
+    ],
+    "calc": {
+      "from": "2026-03-02",
+      "days": 14,
+      "dir": "after",
+      "mail": true,
+      "answer": "2026-03-19"
+    }
+  },
+  {
+    "id": "disc-036",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "34",
+      "26"
+    ],
+    "level": 3,
+    "stem": "Dray is served with the summons and complaint in Orr's action on Monday, January 5, 2026. On Monday, February 2, 2026, Orr delivers to Dray a Rule 34 request for documents. The parties hold their first Rule 26(f) conference on Tuesday, March 10, 2026. No stipulation or court order sets a different time.",
+    "ask": "By what date must Dray respond in writing to the request?",
+    "options": [
+      {
+        "t": "April 9, 2026",
+        "why": "The request was delivered early under Rule 26(d)(2), so Rule 34(b)(2)(A) gives 30 days after the first Rule 26(f) conference; day 30 after March 10 is Thursday, April 9."
+      },
+      {
+        "t": "March 4, 2026",
+        "why": "Runs 30 days from delivery, but for an early request Rule 34(b)(2)(A) runs the period from the first Rule 26(f) conference."
+      },
+      {
+        "t": "March 24, 2026",
+        "why": "Uses a 14-day period that Rule 34(b)(2)(A) does not provide."
+      },
+      {
+        "t": "March 31, 2026",
+        "why": "Uses a 21-day period; Rule 34(b)(2)(A) sets 30 days."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Orr's request was delivered more than 21 days after service of the complaint, so it was an early request under Rule 26(d)(2)(A), and Rule 26(d)(2)(B) treats it as served at the first Rule 26(f) conference. Rule 34(b)(2)(A) then gives 30 days after that conference. Excluding March 10, day 30 is Thursday, April 9, 2026.",
+    "cites": [
+      {
+        "cite": "34(b)(2)(A)",
+        "quote": "or—if the request was delivered under Rule 26(d)(2)—within 30 days after the parties' first Rule 26(f) conference"
+      },
+      {
+        "cite": "26(d)(2)(B)",
+        "quote": "The request is considered to have been served at the first Rule 26(f) conference."
+      }
+    ],
+    "calc": {
+      "from": "2026-03-10",
+      "days": 30,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-09"
+    }
+  },
+  {
+    "id": "disc-037",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "34"
+    ],
+    "level": 2,
+    "stem": "Orr serves a Rule 34 request on Rook Co. for all emails of ten named employees from 2019 through 2025. Rook responds in writing and on time with one sentence: 'Objection: overbroad and burdensome.' It then produces the emails for 2023 through 2025 and says nothing about the earlier years.",
+    "ask": "Is Rook's response adequate?",
+    "options": [
+      {
+        "t": "Yes; a general objection to the whole request lets Rook produce whatever it chooses.",
+        "why": "Rule 34(b)(2)(B) requires specific grounds, including the reasons, and (C) requires specifying the objected-to part."
+      },
+      {
+        "t": "No, but only because Rook did not first move for a protective order; an objection alone never excuses production.",
+        "why": "Rule 34(b)(2) permits a responding party to object in its written response without first seeking an order."
+      },
+      {
+        "t": "No; once Rook agreed to produce some emails it had to produce all ten employees' emails in full.",
+        "why": "Rule 34(b)(2)(C) lets a party object to part of a request so long as it specifies the part and permits inspection of the rest."
+      },
+      {
+        "t": "No; it must say whether materials are withheld and permit inspection of the rest.",
+        "why": "Rule 34(b)(2)(B)-(C) requires specific grounds with reasons, a statement of whether responsive materials are withheld, and inspection of the unobjected-to part."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 34(b)(2)(B) requires a response to state with specificity the grounds for any objection, including the reasons. Rule 34(b)(2)(C) adds that an objection must state whether responsive materials are being withheld on its basis, and that an objection to part of a request must specify the part and permit inspection of the rest. Rook's one-line objection says nothing on these points.",
+    "cites": [
+      {
+        "cite": "34(b)(2)(C)",
+        "quote": "An objection must state whether any responsive materials are being withheld on the basis of that objection. An objection to part of a request must specify the part and permit inspection of the rest."
+      },
+      {
+        "cite": "34(b)(2)(B)",
+        "quote": "state with specificity the grounds for objecting to the request, including the reasons"
+      }
+    ]
+  },
+  {
+    "id": "disc-038",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "34",
+      "45"
+    ],
+    "level": 1,
+    "stem": "Kent sues Lyle Co. for breach of contract. Kent wants Lyle's own purchase records and also records held by Jules Bank, which is not a party. No stipulation or court order bears on the methods Kent may use.",
+    "ask": "How may Kent obtain each set of records?",
+    "options": [
+      {
+        "t": "A Rule 34 request to each of them, since Rule 34 reaches any person holding relevant documents.",
+        "why": "Rule 34(a) authorizes a request on 'any other party,' and Rule 34(c) sends nonparties to Rule 45."
+      },
+      {
+        "t": "A Rule 45 subpoena to Lyle only, because Rule 34 reaches neither of them.",
+        "why": "Rule 34(a) authorizes requests to a party such as Lyle."
+      },
+      {
+        "t": "A Rule 34 request to Lyle, and a Rule 45 subpoena to Jules Bank.",
+        "why": "Rule 34(a) lets a party serve a request on another party, and Rule 34(c) says a nonparty may be compelled to produce documents as provided in Rule 45."
+      },
+      {
+        "t": "A Rule 34 request to Lyle; no device can compel a nonparty bank to produce documents.",
+        "why": "Rule 34(c) provides that a nonparty may be compelled to produce documents under Rule 45."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 34(a) authorizes a request served on any other party, which covers Lyle's own records. Jules Bank is a nonparty, so under Rule 34(c) it may be compelled to produce documents only as provided in Rule 45, that is, by subpoena. A Rule 34 request to the bank is not the proper device.",
+    "cites": [
+      {
+        "cite": "34(a)",
+        "quote": "A party may serve on any other party a request within the scope of Rule 26(b)"
+      },
+      {
+        "cite": "34(c)",
+        "quote": "As provided in Rule 45, a nonparty may be compelled to produce documents and tangible things or to permit an inspection."
+      }
+    ]
+  },
+  {
+    "id": "disc-039",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "34"
+    ],
+    "level": 1,
+    "stem": "Kent's Rule 34 request to Mica Co. seeks certain spreadsheets and specifies no form for producing electronically stored information. Mica produces them in the form in which it ordinarily maintains them. Kent then demands that Mica also produce the same spreadsheets as PDFs. Mica refuses. No stipulation or order addresses form.",
+    "ask": "May Mica refuse to produce the same electronically stored information in a second form?",
+    "options": [
+      {
+        "t": "No; once Kent has seen the first production, he may choose another form as of right.",
+        "why": "Rule 34(b)(2)(E)(iii) relieves Mica of producing the same information in more than one form."
+      },
+      {
+        "t": "Yes; Mica need not produce the same electronically stored information in two forms.",
+        "why": "Rule 34(b)(2)(E)(iii) says so directly, and Rule 34(b)(2)(E)(ii) allowed Mica's first production in a form in which the information is ordinarily maintained."
+      },
+      {
+        "t": "No; Mica must provide a second form if Kent pays the cost.",
+        "why": "Rule 34(b)(2)(E)(iii) contains no pay-the-cost exception."
+      },
+      {
+        "t": "Yes, but only if Kent first agrees in writing.",
+        "why": "Kent's agreement is not required; the relief is in the rule itself."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Because Kent's request specified no form, Rule 34(b)(2)(E)(ii) allowed Mica to produce the spreadsheets in a form in which they are ordinarily maintained or a reasonably usable form. Rule 34(b)(2)(E)(iii) adds that a party need not produce the same electronically stored information in more than one form, so Mica may refuse the PDF demand.",
+    "cites": [
+      {
+        "cite": "34(b)(2)(E)(iii)",
+        "quote": "A party need not produce the same electronically stored information in more than one form."
+      },
+      {
+        "cite": "34(b)(2)(E)(ii)",
+        "quote": "If a request does not specify a form for producing electronically stored information, a party must produce it in a form or forms in which it is ordinarily maintained or in a reasonably usable form or forms"
+      }
+    ]
+  },
+  {
+    "id": "disc-040",
+    "kind": "issue",
+    "topic": "disc-tools",
+    "rules": [
+      "34"
+    ],
+    "level": 3,
+    "stem": "Lin serves on Moto Inc., a party, a Rule 34 request that asks (1) to enter Moto's warehouse to measure and photograph the loading dock; (2) for 'all documents relating to this case'; and (3) for emails in PDF form. Moto serves its written response 35 days after being served. It objects to the PDF form and states the form it intends to use instead. No stipulation or order changes the response time, and the request was not an early request under Rule 26(d)(2).",
+    "ask": "Which provisions of Rule 34 govern the issues on these facts? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 34(a)(2)",
+        "why": "A request to enter a party's property to inspect, measure and photograph it is an authorized form of request."
+      },
+      {
+        "t": "Rule 34(b)(1)(A)",
+        "why": "A request must describe each item or category with reasonable particularity, and 'all documents relating to this case' does not."
+      },
+      {
+        "t": "Rule 34(b)(2)(A)",
+        "why": "The response is due within 30 days after service absent stipulation or order, so a response on day 35 is late."
+      },
+      {
+        "t": "Rule 34(b)(2)(C)",
+        "why": "Moto objected to no part of the request on the ground of withholding materials, so this statement requirement is not at issue."
+      },
+      {
+        "t": "Rule 34(b)(2)(D)",
+        "why": "A responding party may object to a requested form for electronically stored information and must then state the form it intends to use."
+      },
+      {
+        "t": "Rule 34(b)(2)(E)(iii)",
+        "why": "No one demanded the same information in more than one form."
+      },
+      {
+        "t": "Rule 34(c)",
+        "why": "Moto is a party, so the nonparty provision is not involved."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explain": "The entry request is authorized by 34(a)(2). The 'all documents' request lacks the reasonable particularity 34(b)(1)(A) requires. Moto's day-35 response is late under 34(b)(2)(A), and its form objection with a stated alternative is what 34(b)(2)(D) prescribes. No withholding statement, second-form demand or nonparty is involved, so (b)(2)(C), (E)(iii) and 34(c) are out.",
+    "cites": [
+      {
+        "cite": "34(a)(2)",
+        "quote": "to permit entry onto designated land or other property possessed or controlled by the responding party, so that the requesting party may inspect, measure, survey, photograph, test, or sample the property"
+      },
+      {
+        "cite": "34(b)(1)(A)",
+        "quote": "must describe with reasonable particularity each item or category of items to be inspected"
+      },
+      {
+        "cite": "34(b)(2)(A)",
+        "quote": "The party to whom the request is directed must respond in writing within 30 days after being served"
+      },
+      {
+        "cite": "34(b)(2)(D)",
+        "quote": "The response may state an objection to a requested form for producing electronically stored information. If the responding party objects to a requested form—or if no form was specified in the request—the party must state the form or forms it intends to use."
+      }
+    ]
+  },
+  {
+    "id": "disc-041",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 1,
+    "stem": "Pierce sues Cato Trucking for neck injuries from a collision and claims continuing pain. Cato wants its own physician to examine Pierce. Pierce declines to attend, and the parties have not agreed to any examination.",
+    "ask": "How may Cato obtain the examination?",
+    "options": [
+      {
+        "t": "By serving a notice of examination on Pierce, as with a deposition.",
+        "why": "Rule 35(a)(2)(A) requires a court order on motion; no notice-only procedure exists."
+      },
+      {
+        "t": "By motion for good cause, on notice to all parties and Pierce.",
+        "why": "Rule 35(a)(1) lets the court order a party whose condition is in controversy to be examined, and 35(a)(2)(A) requires a motion for good cause on notice."
+      },
+      {
+        "t": "Only with Pierce's consent, because a court cannot compel a party to be examined.",
+        "why": "Rule 35(a)(1) authorizes the court to order the examination of a party whose condition is in controversy."
+      },
+      {
+        "t": "By a Rule 34 request, which reaches a party's body as a tangible thing.",
+        "why": "Rule 34(a) covers documents, tangible things and land; Rule 35 governs examinations of persons."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 35(a)(1) lets the court where the action is pending order a party whose physical condition is in controversy to submit to an examination by a suitably licensed or certified examiner. Pierce's claimed neck injury puts her condition in controversy. Under Rule 35(a)(2)(A), the order may be made only on motion for good cause and on notice to all parties and the person to be examined.",
+    "cites": [
+      {
+        "cite": "35(a)(1)",
+        "quote": "The court where the action is pending may order a party whose mental or physical condition—including blood group—is in controversy to submit to a physical or mental examination by a suitably licensed or certified examiner."
+      },
+      {
+        "cite": "35(a)(2)(A)",
+        "quote": "may be made only on motion for good cause and on notice to all parties and the person to be examined"
+      }
+    ]
+  },
+  {
+    "id": "disc-042",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 2,
+    "stem": "Ross sues Vale Corp. for medical costs and pain suffered by Ross's 8-year-old daughter Jo, who lives with Ross and is under Ross's legal control. Jo's physical condition is in controversy in the case. Vale moves, on notice and for good cause, for an examination of Jo by a pediatrician. Ross objects that Jo is not a party.",
+    "ask": "May the court order the examination?",
+    "options": [
+      {
+        "t": "Yes; the court may order a party to produce a person in its legal control.",
+        "why": "Rule 35(a)(1) gives the court the same authority over a person in a party's custody or legal control as over a party, on a Rule 35(a)(2) motion for good cause."
+      },
+      {
+        "t": "No; only a party's own condition may be examined, and Jo is not a party.",
+        "why": "Rule 35(a)(1) extends the authority to a person in a party's custody or under its legal control."
+      },
+      {
+        "t": "No; a court may examine a nonparty only with that person's consent.",
+        "why": "Rule 35(a)(1) contains no consent requirement."
+      },
+      {
+        "t": "Yes, and no showing of good cause is needed because Jo is in Ross's custody.",
+        "why": "Rule 35(a)(2)(A) requires good cause for any order under Rule 35(a)."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 35(a)(1) gives the court the same authority to order a party to produce for examination a person who is in its custody or under its legal control. Jo is under Ross's legal control and her condition is in controversy, so the court may order the examination on Vale's motion for good cause and on notice, as Rule 35(a)(2)(A) requires.",
+    "cites": [
+      {
+        "cite": "35(a)(1)",
+        "quote": "The court has the same authority to order a party to produce for examination a person who is in its custody or under its legal control."
+      },
+      {
+        "cite": "35(a)(2)(A)",
+        "quote": "may be made only on motion for good cause and on notice to all parties and the person to be examined"
+      }
+    ]
+  },
+  {
+    "id": "disc-043",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 3,
+    "stem": "In a personal-injury case, the court orders Pierce to undergo a Rule 35 examination by Dr. Hu, whom the defendant, Cato, selected. Pierce asks for and receives Hu's report. Cato then asks Pierce for the reports of her own doctors' earlier examinations of the same condition. Pierce refuses and insists that her privilege covering testimony about those examinations is untouched.",
+    "ask": "Which statement is correct?",
+    "options": [
+      {
+        "t": "Cato is entitled to the reports, but Pierce keeps her privilege unless she also deposes Hu.",
+        "why": "Rule 35(b)(4) triggers waiver by 'requesting and obtaining the examiner's report, or by deposing the examiner.'"
+      },
+      {
+        "t": "Cato is not entitled to the reports unless it shows good cause for each one.",
+        "why": "Rule 35(b)(3) says the moving party 'is entitled to receive' like reports once it has delivered its own."
+      },
+      {
+        "t": "Cato is not entitled to them, because reports flow only from the moving party to the examined party.",
+        "why": "Rule 35(b)(3) provides for an exchange back to the moving party."
+      },
+      {
+        "t": "Cato is entitled to the reports, and Pierce waived privilege as to all such examinations.",
+        "why": "Rule 35(b)(3) entitles the moving party to like reports after delivering its own, and 35(b)(4) says requesting and obtaining the examiner's report waives privilege on all examinations of the same condition."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Cato, the moving party, delivered Hu's report on request. Under Rule 35(b)(3) it is then entitled to like reports of earlier or later examinations of the same condition from Pierce. Under Rule 35(b)(4), by requesting and obtaining Hu's report Pierce waived any privilege concerning testimony about all examinations of the same condition, in this action or others involving the same controversy.",
+    "cites": [
+      {
+        "cite": "35(b)(3)",
+        "quote": "After delivering the reports, the party who moved for the examination may request—and is entitled to receive—from the party against whom the examination order was issued like reports of all earlier or later examinations of the same condition."
+      },
+      {
+        "cite": "35(b)(4)",
+        "quote": "By requesting and obtaining the examiner's report, or by deposing the examiner, the party examined waives any privilege it may have"
+      }
+    ]
+  },
+  {
+    "id": "disc-044",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 1,
+    "stem": "On Cato's motion, with notice to all parties and a finding of good cause, the court enters an order: 'Plaintiff Pierce shall submit to a medical examination by a physician chosen by Defendant.' The order says nothing more. Pierce objects that the order is deficient.",
+    "ask": "Is the order sufficient?",
+    "options": [
+      {
+        "t": "Yes; once good cause is found, the court may leave the details to the parties.",
+        "why": "Rule 35(a)(2)(B) says the order 'must specify' those details."
+      },
+      {
+        "t": "Yes; the order need only identify the kind of examination and the examined party.",
+        "why": "The rule requires the time, place, manner, conditions, scope and examiner, not just the kind of examination."
+      },
+      {
+        "t": "No; it must specify the time, place, manner, conditions, scope and examiner.",
+        "why": "Rule 35(a)(2)(B) lists what every Rule 35 order must specify, and this one specifies none of those items."
+      },
+      {
+        "t": "No; a Rule 35 order is invalid unless the examined party consents to the examiner.",
+        "why": "Rule 35 requires no consent of the party examined."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 35(a)(2)(B) provides that a Rule 35 order must specify the time, place, manner, conditions and scope of the examination, as well as the person or persons who will perform it. The order here names none of those things, and 'a physician chosen by Defendant' does not identify the examiner. Good cause and notice satisfy only subparagraph (A).",
+    "cites": [
+      {
+        "cite": "35(a)(2)(B)",
+        "quote": "must specify the time, place, manner, conditions, and scope of the examination, as well as the person or persons who will perform it"
+      }
+    ]
+  },
+  {
+    "id": "disc-045",
+    "kind": "issue",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 3,
+    "stem": "Jett sues Moyer for back injuries. On Moyer's motion, made on notice with a showing of good cause, the court orders Jett to submit to an examination by Dr. Cole, specifying the time, place, manner, scope and examiner. Jett attends and asks Moyer for Cole's report. Moyer never delivers it, so Jett has not obtained it. Moyer plans to call Cole at trial.",
+    "ask": "Which provisions of Rule 35 apply to these events? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 35(a)(1)",
+        "why": "Jett's physical condition is in controversy, so the court may order an examination."
+      },
+      {
+        "t": "Rule 35(a)(2)(A)",
+        "why": "The order was made on motion for good cause and on notice, as required."
+      },
+      {
+        "t": "Rule 35(b)(1)",
+        "why": "On Jett's request, the moving party must deliver a copy of the examiner's report."
+      },
+      {
+        "t": "Rule 35(b)(3)",
+        "why": "Moyer has not requested any reports from Jett, and that right arises only after Moyer delivers its reports."
+      },
+      {
+        "t": "Rule 35(b)(4)",
+        "why": "Waiver requires requesting and obtaining the report or deposing the examiner, and Jett has done neither."
+      },
+      {
+        "t": "Rule 35(b)(5)",
+        "why": "If the report is not provided, the court may exclude the examiner's testimony at trial."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "explain": "Jett's back injury is in controversy (35(a)(1)), and the order followed the motion, good cause and notice (35(a)(2)(A)). Jett's request obliges Moyer to deliver Cole's report (35(b)(1)), and failure to do so lets the court exclude Cole's trial testimony (35(b)(5)). Moyer's reciprocal right (35(b)(3)) arises only after it delivers reports, and Jett's privilege waiver (35(b)(4)) needs her to obtain the report.",
+    "cites": [
+      {
+        "cite": "35(b)(1)",
+        "quote": "The party who moved for the examination must, on request, deliver to the requester a copy of the examiner's report, together with like reports of all earlier examinations of the same condition."
+      },
+      {
+        "cite": "35(b)(5)",
+        "quote": "If the report is not provided, the court may exclude the examiner's testimony at trial."
+      },
+      {
+        "cite": "35(b)(4)",
+        "quote": "By requesting and obtaining the examiner's report, or by deposing the examiner, the party examined waives any privilege it may have"
+      }
+    ]
+  },
+  {
+    "id": "disc-046",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "27"
+    ],
+    "level": 2,
+    "stem": "Wren expects to be a party to a suit over a contract dispute but cannot bring it yet because the claim has not matured. To perpetuate the testimony of an elderly witness, Wren files a verified petition, and the court sets the hearing for Monday, April 20, 2026. Wren will serve each expected adverse party in the manner provided in Rule 4 with the petition and a notice of the hearing.",
+    "ask": "What is the last day on which Wren may serve the expected adverse parties?",
+    "options": [
+      {
+        "t": "April 6, 2026",
+        "why": "Uses 14 days, but Rule 27(a)(2) requires service at least 21 days before the hearing."
+      },
+      {
+        "t": "April 13, 2026",
+        "why": "Uses 7 days, which is too short for the 21-day requirement."
+      },
+      {
+        "t": "March 30, 2026",
+        "why": "Rule 27(a)(2) requires service at least 21 days before the hearing date; counting back 21 days from April 20 gives Monday, March 30."
+      },
+      {
+        "t": "April 10, 2026",
+        "why": "Uses 10 days, which falls well inside the 21-day minimum of Rule 27(a)(2)."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 27(a)(2) requires the petitioner to serve each expected adverse party with the petition and notice at least 21 days before the hearing date. Counting back 21 days from Monday, April 20, 2026 gives Monday, March 30, 2026, a business day, as the last day for service.",
+    "cites": [
+      {
+        "cite": "27(a)(2)",
+        "quote": "At least 21 days before the hearing date, the petitioner must serve each expected adverse party with a copy of the petition and a notice stating the time and place of the hearing."
+      }
+    ],
+    "calc": {
+      "from": "2026-04-20",
+      "days": 21,
+      "dir": "before",
+      "mail": false,
+      "answer": "2026-03-30"
+    }
+  },
+  {
+    "id": "disc-047",
+    "kind": "apply",
+    "topic": "disc-scope",
+    "rules": [
+      "27"
+    ],
+    "level": 1,
+    "stem": "Ito expects to sue Larch Co. over a contract right that will not mature until next year, so Ito cannot sue now. Ito wants to preserve the testimony of Moy, a 90-year-old witness in poor health. Ito resides in State A, Moy resides in State C, and Larch resides in State B.",
+    "ask": "Where may Ito file a petition to perpetuate Moy's testimony?",
+    "options": [
+      {
+        "t": "In the federal district court in State A, because that is where Ito, the petitioner, resides.",
+        "why": "Rule 27(a)(1) keys venue to where an expected adverse party resides, not the petitioner."
+      },
+      {
+        "t": "In the federal district court in State B, where the expected adverse party resides.",
+        "why": "Rule 27(a)(1) allows a verified petition in the district court for the district where any expected adverse party resides."
+      },
+      {
+        "t": "In the federal district court in State C, because that is where the deponent, Moy, resides.",
+        "why": "Rule 27(a)(1) keys venue to the residence of an expected adverse party, not the witness."
+      },
+      {
+        "t": "Nowhere; testimony may be perpetuated only after the action has been filed.",
+        "why": "Rule 27(a) is the procedure for perpetuating testimony before an action is filed."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 27(a) lets a person who expects to be a party to an action but cannot presently bring it file a verified petition to perpetuate testimony. The petition goes to the district court for the district where any expected adverse party resides. Larch resides in State B, so Ito files there, not where Ito or Moy resides.",
+    "cites": [
+      {
+        "cite": "27(a)(1)",
+        "quote": "may file a verified petition in the district court for the district where any expected adverse party resides"
+      },
+      {
+        "cite": "27(a)(1)(A)",
+        "quote": "that the petitioner expects to be a party to an action cognizable in a United States court but cannot presently bring it or cause it to be brought"
+      }
+    ]
+  },
+  {
+    "id": "disc-048",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "28"
+    ],
+    "level": 1,
+    "stem": "Dunn sues Eko Co. Dunn's lawyer arranges to depose Eko's chief financial officer before Rae, a court reporter authorized to administer oaths in the state. Rae is a salaried employee of the law firm representing Dunn. Eko objects before the deposition begins. No stipulation designates Rae under Rule 29(a).",
+    "ask": "May the deposition proceed before Rae?",
+    "options": [
+      {
+        "t": "No; a deposition must not be taken before a person employed by any party's attorney.",
+        "why": "Rule 28(c) disqualifies a person 'related to or employed by any party's attorney,' whatever her authority to administer oaths."
+      },
+      {
+        "t": "Yes; authority to administer oaths is all that Rule 28(a)(1) requires.",
+        "why": "Rule 28(c) separately disqualifies certain persons even if they could administer oaths."
+      },
+      {
+        "t": "Yes; only a party's own employee or relative is disqualified, not a lawyer's employee.",
+        "why": "Rule 28(c) also disqualifies a person 'employed by any party's attorney.'"
+      },
+      {
+        "t": "Yes, if Dunn's lawyer discloses the employment on the record.",
+        "why": "Rule 28(c) contains no disclosure exception."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 28(a)(1)(A) lets a deposition be taken before an officer authorized to administer oaths, but Rule 28(c) bars a deposition before a person who is any party's relative, employee or attorney, who is related to or employed by any party's attorney, or who is financially interested. Rae is employed by Dunn's attorney, so the deposition must not proceed before her.",
+    "cites": [
+      {
+        "cite": "28(c)",
+        "quote": "A deposition must not be taken before a person who is any party's relative, employee, or attorney; who is related to or employed by any party's attorney; or who is financially interested in the action."
+      }
+    ]
+  },
+  {
+    "id": "disc-049",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "36"
+    ],
+    "level": 1,
+    "stem": "Reed serves requests to admit on Kyle by hand on Monday, March 2, 2026. Forty days later Kyle has served no answer or objection and has not asked the court for more time. No stipulation or court order changes the response period.",
+    "ask": "What is the status of the matters in the requests?",
+    "options": [
+      {
+        "t": "They are admitted, without any court order, under Rule 36(a)(3).",
+        "why": "A matter is admitted unless the responding party serves a written answer or objection within 30 days after being served; no order is needed."
+      },
+      {
+        "t": "They are not admitted until Reed obtains a court order deeming them admitted.",
+        "why": "Rule 36(a)(3) makes the admission automatic by operation of the rule."
+      },
+      {
+        "t": "They are treated as denied, because silence is not an answer.",
+        "why": "Rule 36(a)(3) provides the opposite: silence results in admission."
+      },
+      {
+        "t": "They are admitted only if Kyle's silence is shown to be willful.",
+        "why": "Rule 36(a)(3) contains no willfulness requirement."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Under Rule 36(a)(3), a matter is admitted unless, within 30 days after being served, the responding party serves a signed written answer or objection addressed to the matter. Kyle served nothing in 40 days, so every matter is admitted and, under Rule 36(b), conclusively established unless the court on motion permits withdrawal or amendment.",
+    "cites": [
+      {
+        "cite": "36(a)(3)",
+        "quote": "A matter is admitted unless, within 30 days after being served, the party to whom the request is directed serves on the requesting party a written answer or objection addressed to the matter and signed by the party or its attorney."
+      },
+      {
+        "cite": "36(b)",
+        "quote": "A matter admitted under this rule is conclusively established unless the court, on motion, permits the admission to be withdrawn or amended."
+      }
+    ]
+  },
+  {
+    "id": "disc-050",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "36",
+      "6",
+      "5"
+    ],
+    "level": 3,
+    "stem": "On Wednesday, March 4, 2026, Reed serves requests to admit on Kyle's lawyer by sending them through the court's electronic-filing system, on which the lawyer is a registered user. Service by that means is complete on sending. No stipulation or court order changes the response time.",
+    "ask": "By what date must Kyle serve a written answer or objection to avoid having the matters admitted?",
+    "options": [
+      {
+        "t": "April 6, 2026",
+        "why": "Adds 3 days under Rule 6(d), but that rule covers only mail, leaving with the clerk and other consented means, not Rule 5(b)(2)(E) electronic service."
+      },
+      {
+        "t": "March 25, 2026",
+        "why": "Uses a 21-day period; Rule 36(a)(3) sets 30 days."
+      },
+      {
+        "t": "March 18, 2026",
+        "why": "Uses a 14-day period; Rule 36(a)(3) sets 30 days."
+      },
+      {
+        "t": "April 3, 2026",
+        "why": "Rule 36(a)(3) gives 30 days after service, ending Friday, April 3; Rule 6(d) adds no days for electronic service under Rule 5(b)(2)(E)."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 36(a)(3) gives 30 days after being served. Excluding March 4, day 30 is Friday, April 3, 2026. Rule 6(d) adds 3 days only when service is made under Rule 5(b)(2)(C), (D) or (F); electronic service through the court's system is Rule 5(b)(2)(E), so no days are added.",
+    "cites": [
+      {
+        "cite": "36(a)(3)",
+        "quote": "A matter is admitted unless, within 30 days after being served, the party to whom the request is directed serves on the requesting party a written answer or objection"
+      },
+      {
+        "cite": "6(d)",
+        "quote": "When a party may or must act within a specified time after being served and service is made under Rule 5(b)(2)(C) (mail), (D) (leaving with the clerk), or (F) (other means consented to), 3 days are added after the period would otherwise expire under Rule 6(a)."
+      },
+      {
+        "cite": "5(b)(2)(E)",
+        "quote": "sending it to a registered user by filing it with the court's electronic-filing system or sending it by other electronic means that the person consented to in writing—in either of which events service is complete upon filing or sending"
+      }
+    ],
+    "calc": {
+      "from": "2026-03-04",
+      "days": 30,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-03"
+    }
+  },
+  {
+    "id": "disc-051",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "36"
+    ],
+    "level": 2,
+    "stem": "Pell serves on Dyer a Rule 36 request: 'Admit that the brakes on the Dyer truck failed on May 3.' Dyer serves a timely, signed response stating only: 'Objection. This is the central disputed issue for trial.' Pell moves under Rule 36(a)(6) to determine the sufficiency of the objection.",
+    "ask": "How should the court rule?",
+    "options": [
+      {
+        "t": "Sustain it, because requests may not cover a genuinely disputed issue.",
+        "why": "Rule 36(a)(5) says a party 'must not object solely on the ground that the request presents a genuine issue for trial.'"
+      },
+      {
+        "t": "Order the matter admitted, because an invalid objection is no response.",
+        "why": "Rule 36(a)(6) directs that an answer be served when an objection is not justified; admission is for noncomplying answers."
+      },
+      {
+        "t": "Find the objection unjustified and order that an answer be served.",
+        "why": "Rule 36(a)(5) forbids objecting solely because the request presents a genuine issue for trial, and 36(a)(6) requires an answer unless an objection is justified."
+      },
+      {
+        "t": "Sustain it, because requests may seek only the genuineness of documents.",
+        "why": "Rule 36(a)(1)(A) reaches facts, the application of law to fact, and opinions about either."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 36(a)(1)(A) permits a request to admit a fact, so the request is proper. Rule 36(a)(5) bars an objection resting solely on the ground that the request presents a genuine issue for trial. Under Rule 36(a)(6), unless the court finds an objection justified it must order that an answer be served. Admission is not the remedy for an unjustified objection.",
+    "cites": [
+      {
+        "cite": "36(a)(5)",
+        "quote": "A party must not object solely on the ground that the request presents a genuine issue for trial."
+      },
+      {
+        "cite": "36(a)(6)",
+        "quote": "Unless the court finds an objection justified, it must order that an answer be served."
+      }
+    ]
+  },
+  {
+    "id": "disc-052",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "36"
+    ],
+    "level": 2,
+    "stem": "Reed serves requests to admit on Kay. Kay mistakenly misses the 30-day deadline, so the matters are admitted. Kay moves to withdraw the admission of one matter. The court finds that withdrawal would promote the presentation of the merits and is not persuaded that it would prejudice Reed in maintaining the action on the merits. Kay offers no further justification.",
+    "ask": "May the court permit the withdrawal?",
+    "options": [
+      {
+        "t": "No; a matter admitted under Rule 36 is conclusively established and cannot be withdrawn.",
+        "why": "Rule 36(b) makes admissions conclusive 'unless the court, on motion, permits the admission to be withdrawn or amended.'"
+      },
+      {
+        "t": "Yes, on Kay's motion, because both conditions in Rule 36(b) are met.",
+        "why": "Rule 36(b) allows withdrawal on motion if it would promote the presentation of the merits and the court is not persuaded it would prejudice the requesting party."
+      },
+      {
+        "t": "No; withdrawal is allowed only if Reed consents.",
+        "why": "Rule 36(b) conditions withdrawal on the court's findings, not on consent."
+      },
+      {
+        "t": "Yes, but only if Kay also shows excusable neglect.",
+        "why": "Rule 36(b) states its own two conditions and does not add an excusable-neglect showing."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "An admission under Rule 36 is conclusively established unless the court, on motion, permits withdrawal or amendment. Subject to Rule 16(e), the court may permit it if withdrawal would promote the presentation of the merits and the court is not persuaded that it would prejudice the requesting party. Both conditions are met, so the court may permit withdrawal.",
+    "cites": [
+      {
+        "cite": "36(b)",
+        "quote": "Subject to Rule 16(e), the court may permit withdrawal or amendment if it would promote the presentation of the merits of the action and if the court is not persuaded that it would prejudice the requesting party in maintaining or defending the action on the merits."
+      }
+    ]
+  },
+  {
+    "id": "disc-054",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 2,
+    "stem": "Lopez sues Marin Co. in federal court in City X, State A. Lopez subpoenas Nell, a nonparty, to attend the trial in City X. Nell lives and works in City Y, State A, 180 miles from City X. She would not incur substantial expense by attending. Nell timely moves to quash on the ground that she is more than 100 miles away.",
+    "ask": "How should the court rule?",
+    "options": [
+      {
+        "t": "Grant it; a trial subpoena may never reach beyond 100 miles of where the person resides.",
+        "why": "Rule 45(c)(1)(B) is an alternative to the 100-mile rule for in-state trial attendance."
+      },
+      {
+        "t": "Deny it; she lives in the state and would not incur substantial expense.",
+        "why": "Rule 45(c)(1)(B)(ii) allows a trial subpoena within the state of residence when the person would not incur substantial expense, so the 100-mile limit does not bar it."
+      },
+      {
+        "t": "Grant it; the in-state reach applies only to a party or a party's officer.",
+        "why": "Rule 45(c)(1)(B)(ii) separately covers a person commanded to attend trial who would not incur substantial expense."
+      },
+      {
+        "t": "Deny it; Rule 45 sets no geographic limit for trial subpoenas.",
+        "why": "Rule 45(c)(1) limits where a person may be commanded to attend trial."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 45(c)(1)(A) permits a trial subpoena within 100 miles of where the person resides or works, but (B) also permits one within the state where she resides or works if she is a party or officer, or is commanded to attend a trial and would not incur substantial expense. Nell lives and works in State A and would incur no substantial expense, so the subpoena is within (B)(ii).",
+    "cites": [
+      {
+        "cite": "45(c)(1)(B)",
+        "quote": "within the state where the person resides, is employed, or regularly transacts business in person, if the person"
+      },
+      {
+        "cite": "45(c)(1)(B)(ii)",
+        "quote": "is commanded to attend a trial and would not incur substantial expense"
+      }
+    ]
+  },
+  {
+    "id": "disc-055",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 3,
+    "stem": "Lopez sues Marin Co. in federal court in City X, State A. Lopez subpoenas Nell, a nonparty who lives and works in City Y, State A, 180 miles from City X, to attend a deposition in City X. Nell would not incur substantial expense. She timely moves to quash.",
+    "ask": "How should the court rule?",
+    "options": [
+      {
+        "t": "Grant it; for a deposition a nonparty must be within 100 miles of where she lives or works.",
+        "why": "Rule 45(c)(1)(A) sets the 100-mile limit, and the in-state alternative in (B)(ii) applies only to a person commanded to attend a trial."
+      },
+      {
+        "t": "Deny it; any person may be commanded to attend a deposition anywhere in the state where she lives.",
+        "why": "The in-state reach in Rule 45(c)(1)(B) is limited to a party, a party's officer, or a person attending trial."
+      },
+      {
+        "t": "Deny it; she would not incur substantial expense.",
+        "why": "The no-substantial-expense condition in Rule 45(c)(1)(B)(ii) applies only to a command to attend trial."
+      },
+      {
+        "t": "Grant it; a deposition subpoena must command attendance at the issuing court.",
+        "why": "Rule 45(c)(1)(A) keys the place to the witness's residence, employment or business, not the courthouse."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 45(c)(1) limits where a subpoena may command attendance at a trial, hearing or deposition. The general rule is within 100 miles of where the person resides, is employed, or regularly transacts business. The state-wide alternative covers parties, their officers, and persons commanded to attend trial who would not incur substantial expense. Nell is a nonparty commanded to attend a deposition 180 miles away, so Rule 45(d)(3)(A)(ii) requires quashing.",
+    "cites": [
+      {
+        "cite": "45(c)(1)(A)",
+        "quote": "within 100 miles of where the person resides, is employed, or regularly transacts business in person"
+      },
+      {
+        "cite": "45(d)(3)(A)(ii)",
+        "quote": "requires a person to comply beyond the geographical limits specified in Rule 45(c)"
+      }
+    ]
+  },
+  {
+    "id": "disc-056",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 2,
+    "stem": "On Tuesday, March 3, 2026, a process server serves Orbit Co., a nonparty, with a subpoena commanding it to produce records at its own office on April 14, 2026. On March 30, Orbit's lawyer serves on the issuing party a written objection stating that the demand is overbroad. The issuing party argues that the objection is too late.",
+    "ask": "Is Orbit's written objection timely?",
+    "options": [
+      {
+        "t": "Yes; any time before the April 14 compliance date is timely.",
+        "why": "Rule 45(d)(2)(B) uses the earlier of the compliance date or 14 days after service."
+      },
+      {
+        "t": "Yes; a nonparty may serve a written objection at any time before the court rules on it.",
+        "why": "Rule 45(d)(2)(B) sets a deadline for the written objection."
+      },
+      {
+        "t": "No; a nonparty may not object in writing and may only move to quash.",
+        "why": "Rule 45(d)(2)(B) allows a person commanded to produce materials to serve a written objection."
+      },
+      {
+        "t": "No; it was due before the earlier of the compliance date or 14 days after service.",
+        "why": "Rule 45(d)(2)(B) sets that deadline, and 14 days after March 3 falls before both March 30 and the April 14 compliance date."
+      }
+    ],
+    "key": [
+      3
+    ],
+    "explain": "Rule 45(d)(2)(B) allows a person commanded to produce materials to serve a written objection, but it must be served before the earlier of the compliance time or 14 days after the subpoena is served. Service was March 3, so the 14-day mark came about March 17, earlier than April 14. Orbit's March 30 objection was late.",
+    "cites": [
+      {
+        "cite": "45(d)(2)(B)",
+        "quote": "The objection must be served before the earlier of the time specified for compliance or 14 days after the subpoena is served."
+      }
+    ]
+  },
+  {
+    "id": "disc-057",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 2,
+    "stem": "Marin Co. serves a subpoena on Rae, a nonparty who lives, works and regularly transacts business in person only in City Y, State A. It commands Rae to produce documents at a law office in City Z, 400 miles from City Y. Rae makes a timely motion to quash. City Z lies in a different federal district from the one where the action is pending.",
+    "ask": "Which statement is correct?",
+    "options": [
+      {
+        "t": "The court where the action is pending decides, and may deny the motion in its discretion.",
+        "why": "Rule 45(d)(3)(A) assigns the motion to the court for the district where compliance is required, and quashing is mandatory for this ground."
+      },
+      {
+        "t": "The court for the district of compliance may quash it, but only if Rae shows undue burden.",
+        "why": "Compliance beyond the geographic limits is an independent mandatory ground under Rule 45(d)(3)(A)(ii)."
+      },
+      {
+        "t": "The court for the district where compliance is required must quash or modify it.",
+        "why": "Rule 45(c)(2)(A) limits production to within 100 miles, and Rule 45(d)(3)(A)(ii) requires the court for the district of compliance to quash on timely motion."
+      },
+      {
+        "t": "Rae must comply, because a nonparty's only remedy is a written objection, not a motion to quash.",
+        "why": "Rule 45(d)(3)(A) provides for a timely motion to quash or modify."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "The subpoena demands production 400 miles from where Rae resides and works, beyond the 100-mile limit of Rule 45(c)(2)(A). On timely motion, Rule 45(d)(3)(A)(ii) says the court for the district where compliance is required must quash or modify a subpoena requiring compliance beyond the Rule 45(c) limits. Undue burden is a separate ground, and the court has no discretion to refuse.",
+    "cites": [
+      {
+        "cite": "45(d)(3)(A)",
+        "quote": "On timely motion, the court for the district where compliance is required must quash or modify a subpoena that:"
+      },
+      {
+        "cite": "45(c)(2)(A)",
+        "quote": "production of documents, electronically stored information, or tangible things at a place within 100 miles of where the person resides, is employed, or regularly transacts business in person"
+      }
+    ]
+  },
+  {
+    "id": "disc-059",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "32"
+    ],
+    "level": 2,
+    "stem": "Halo Corp. is the defendant in Orr's contract action. Orr deposed Dale, Halo's vice president of operations, while Dale was a Halo officer. Dale has since left Halo and lives nearby. At trial Dale is in the courtroom and available, and Orr offers Dale's deposition in Orr's own case. Halo, which attended the deposition, objects only that Dale is available and is no longer its officer. The testimony is otherwise admissible.",
+    "ask": "Should the court overrule Halo's objection?",
+    "options": [
+      {
+        "t": "No; a deposition may substitute for live testimony only if the witness is unavailable under Rule 32(a)(4).",
+        "why": "Rule 32(a)(3) is a separate basis that allows use 'for any purpose' without unavailability."
+      },
+      {
+        "t": "No; Dale's departure ended his status, so only impeachment use is allowed.",
+        "why": "Rule 32(a)(3) measures officer status at the time of the deposition."
+      },
+      {
+        "t": "Yes; Rule 32(a)(3) lets an adverse party use a then-officer's deposition for any purpose.",
+        "why": "Rule 32(a)(3) looks to the deponent's status 'when deposed' and allows use for any purpose, without a showing of unavailability."
+      },
+      {
+        "t": "Yes, but only to contradict Dale if he testifies inconsistently.",
+        "why": "Impeachment is Rule 32(a)(2); Rule 32(a)(3) permits use for any purpose."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Rule 32(a)(3) lets an adverse party use for any purpose the deposition of a party or of anyone who, when deposed, was the party's officer, director, managing agent or Rule 30(b)(6) designee. Dale was Halo's officer when deposed, so his later departure and his availability do not matter. Halo attended, and the testimony is otherwise admissible.",
+    "cites": [
+      {
+        "cite": "32(a)(3)",
+        "quote": "An adverse party may use for any purpose the deposition of a party or anyone who, when deposed, was the party's officer, director, managing agent, or designee under Rule 30(b)(6) or 31(a)(4)."
+      },
+      {
+        "cite": "32(a)(2)",
+        "quote": "Any party may use a deposition to contradict or impeach the testimony given by the deponent as a witness"
+      }
+    ]
+  },
+  {
+    "id": "disc-060",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "32"
+    ],
+    "level": 2,
+    "stem": "In Pace's negligence action against Rook, Pace deposed Flo, a nonparty eyewitness, on notice to Rook, who attended. At trial in City X, Flo, who lives and works 140 miles away, is healthy and willing to testify but is not in court. Pace did nothing to procure her absence. Pace offers her deposition, and Rook objects that Flo is alive and well. The deposition is otherwise admissible.",
+    "ask": "Should the court allow Pace to use the deposition?",
+    "options": [
+      {
+        "t": "No; use is allowed only if the witness is dead, ill or imprisoned.",
+        "why": "Rule 32(a)(4) lists the 100-mile distance as an independent ground in (B)."
+      },
+      {
+        "t": "Yes, if the court finds Flo is more than 100 miles from the place of trial.",
+        "why": "Rule 32(a)(4)(B) allows use of a nonparty's deposition for any purpose if the witness is more than 100 miles from the place of trial and the offering party did not procure her absence."
+      },
+      {
+        "t": "No; Pace must first show that it could not procure Flo's attendance by subpoena.",
+        "why": "That is the separate ground in Rule 32(a)(4)(D); the 100-mile ground in (B) has no such requirement."
+      },
+      {
+        "t": "Yes, but only to impeach Flo if she later testifies.",
+        "why": "Rule 32(a)(4) allows use 'for any purpose' once a ground is found."
+      }
+    ],
+    "key": [
+      1
+    ],
+    "explain": "Rule 32(a)(4) lets a party use for any purpose the deposition of a witness if the court finds a listed ground. Subparagraph (B) is satisfied if the witness is more than 100 miles from the place of hearing or trial, unless the offering party procured her absence. Flo is 140 miles away and Pace did not procure her absence, so her health and willingness are irrelevant.",
+    "cites": [
+      {
+        "cite": "32(a)(4)(B)",
+        "quote": "that the witness is more than 100 miles from the place of hearing or trial or is outside the United States, unless it appears that the witness's absence was procured by the party offering the deposition"
+      },
+      {
+        "cite": "32(a)(4)",
+        "quote": "A party may use for any purpose the deposition of a witness, whether or not a party, if the court finds:"
+      }
+    ]
+  },
+  {
+    "id": "disc-061",
+    "kind": "apply",
+    "topic": "disc-tools",
+    "rules": [
+      "32"
+    ],
+    "level": 3,
+    "stem": "Reed deposed Aron, a witness for defendant Dale. Reed's lawyer asked a compound question, and Aron answered a matter wholly unrelated to any claim or defense. Dale's lawyer attended and made no objection of any kind. At trial, Reed offers the answer, and Dale objects on two grounds: (1) the question was compound, and (2) the testimony is irrelevant. No rewording of the question could have cured the irrelevance.",
+    "ask": "Which objection, if either, has Dale preserved?",
+    "options": [
+      {
+        "t": "Only the relevance objection; the form objection was waived by not making it at the deposition.",
+        "why": "Rule 32(d)(3)(A) preserves relevance objections unless curable at the deposition, while (d)(3)(B) waives untimely objections to the form of a question."
+      },
+      {
+        "t": "Both objections are waived, because neither was made during the deposition.",
+        "why": "Rule 32(d)(3)(A) says an objection to relevance is not waived by failing to make it, unless the ground might have been corrected then."
+      },
+      {
+        "t": "Both objections are preserved, because admissibility objections may be made at trial.",
+        "why": "Rule 32(d)(3)(B) waives objections to the form of a question that are not timely made during the deposition."
+      },
+      {
+        "t": "Only the form objection is preserved, because relevance is waived if not raised during the deposition.",
+        "why": "This reverses the rules: relevance is preserved under 32(d)(3)(A), form is waived under 32(d)(3)(B)."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Under Rule 32(d)(3)(A), an objection to the relevance of testimony is not waived by failing to make it before or during the deposition unless the ground might have been corrected at that time; here it could not. Under Rule 32(d)(3)(B), an objection to the form of a question that might have been corrected is waived if not timely made during the deposition. Dale kept relevance and lost form.",
+    "cites": [
+      {
+        "cite": "32(d)(3)(A)",
+        "quote": "An objection to a deponent's competence—or to the competence, relevance, or materiality of testimony—is not waived by a failure to make the objection before or during the deposition, unless the ground for it might have been corrected at that time."
+      },
+      {
+        "cite": "32(d)(3)(B)",
+        "quote": "it relates to the manner of taking the deposition, the form of a question or answer, the oath or affirmation, a party's conduct, or other matters that might have been corrected at that time"
+      }
+    ]
+  },
+  {
+    "id": "disc-062",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "front": "Absent stipulation or order, by when must a party make its initial disclosures?",
+    "back": "at or within 14 days after the parties' Rule 26(f) conference",
+    "cites": [
+      {
+        "cite": "26(a)(1)(C)",
+        "quote": "A party must make the initial disclosures at or within 14 days after the parties' Rule 26(f) conference unless a different time is set by stipulation or court order"
+      }
+    ]
+  },
+  {
+    "id": "disc-063",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "front": "When must a party first served after the Rule 26(f) conference make its initial disclosures?",
+    "back": "within 30 days after being served or joined",
+    "cites": [
+      {
+        "cite": "26(a)(1)(D)",
+        "quote": "within 30 days after being served or joined"
+      }
+    ]
+  },
+  {
+    "id": "disc-064",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "front": "Absent stipulation or order, when must a party disclose expert testimony for trial?",
+    "back": "at least 90 days before the date set for trial or for the case to be ready for trial",
+    "cites": [
+      {
+        "cite": "26(a)(2)(D)(i)",
+        "quote": "at least 90 days before the date set for trial or for the case to be ready for trial"
+      }
+    ]
+  },
+  {
+    "id": "disc-065",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "front": "What six factors does Rule 26(b)(1) list for proportionality?",
+    "back": "the importance of the issues at stake in the action, the amount in controversy, the parties' relative access to relevant information, the parties' resources, the importance of the discovery in resolving the issues, and whether the burden or expense of the proposed discovery outweighs its likely benefit",
+    "cites": [
+      {
+        "cite": "26(b)(1)",
+        "quote": "the importance of the issues at stake in the action, the amount in controversy, the parties' relative access to relevant information, the parties' resources, the importance of the discovery in resolving the issues, and whether the burden or expense of the proposed discovery outweighs its likely benefit"
+      }
+    ]
+  },
+  {
+    "id": "disc-066",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "front": "What must a motion for a protective order under Rule 26(c)(1) include?",
+    "back": "a certification that the movant has in good faith conferred or attempted to confer with other affected parties in an effort to resolve the dispute without court action",
+    "cites": [
+      {
+        "cite": "26(c)(1)",
+        "quote": "a certification that the movant has in good faith conferred or attempted to confer with other affected parties in an effort to resolve the dispute without court action"
+      }
+    ]
+  },
+  {
+    "id": "disc-067",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "front": "How long before a scheduling conference or order must the parties hold their Rule 26(f) conference?",
+    "back": "at least 21 days before a scheduling conference is to be held or a scheduling order is due",
+    "cites": [
+      {
+        "cite": "26(f)(1)",
+        "quote": "at least 21 days before a scheduling conference is to be held or a scheduling order is due under Rule 16(b)"
+      }
+    ]
+  },
+  {
+    "id": "disc-068",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "front": "On what showing may a person obtain his or her own previous statement from a party?",
+    "back": "on request and without the required showing",
+    "cites": [
+      {
+        "cite": "26(b)(3)(C)",
+        "quote": "Any party or other person may, on request and without the required showing, obtain the person's own previous statement about the action or its subject matter."
+      }
+    ]
+  },
+  {
+    "id": "disc-069",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "26"
+    ],
+    "level": 1,
+    "front": "Before what event may a party not seek discovery from any source, absent an exemption, stipulation or order?",
+    "back": "before the parties have conferred as required by Rule 26(f)",
+    "cites": [
+      {
+        "cite": "26(d)(1)",
+        "quote": "A party may not seek discovery from any source before the parties have conferred as required by Rule 26(f)"
+      }
+    ]
+  },
+  {
+    "id": "disc-070",
+    "kind": "recall",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "front": "What must a motion to compel under Rule 37(a)(1) include?",
+    "back": "a certification that the movant has in good faith conferred or attempted to confer with the person or party failing to make disclosure or discovery in an effort to obtain it without court action",
+    "cites": [
+      {
+        "cite": "37(a)(1)",
+        "quote": "a certification that the movant has in good faith conferred or attempted to confer with the person or party failing to make disclosure or discovery in an effort to obtain it without court action"
+      }
+    ]
+  },
+  {
+    "id": "disc-071",
+    "kind": "recall",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "front": "In what court must a motion for an order to a nonparty be made?",
+    "back": "in the court where the discovery is or will be taken",
+    "cites": [
+      {
+        "cite": "37(a)(2)",
+        "quote": "A motion for an order to a nonparty must be made in the court where the discovery is or will be taken."
+      }
+    ]
+  },
+  {
+    "id": "disc-072",
+    "kind": "recall",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "front": "How is an evasive or incomplete disclosure, answer, or response treated under Rule 37(a)?",
+    "back": "must be treated as a failure to disclose, answer, or respond",
+    "cites": [
+      {
+        "cite": "37(a)(4)",
+        "quote": "must be treated as a failure to disclose, answer, or respond"
+      }
+    ]
+  },
+  {
+    "id": "disc-073",
+    "kind": "recall",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "front": "When a motion to compel is granted, what must the court require of the party whose conduct necessitated it, absent an exception?",
+    "back": "pay the movant's reasonable expenses incurred in making the motion, including attorney's fees",
+    "cites": [
+      {
+        "cite": "37(a)(5)(A)",
+        "quote": "require the party or deponent whose conduct necessitated the motion, the party or attorney advising that conduct, or both to pay the movant's reasonable expenses incurred in making the motion, including attorney's fees"
+      }
+    ]
+  },
+  {
+    "id": "disc-074",
+    "kind": "recall",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "front": "Under Rule 37(c)(1), what may a party that failed to disclose not do, absent substantial justification or harmlessness?",
+    "back": "use that information or witness to supply evidence on a motion, at a hearing, or at a trial",
+    "cites": [
+      {
+        "cite": "37(c)(1)",
+        "quote": "the party is not allowed to use that information or witness to supply evidence on a motion, at a hearing, or at a trial, unless the failure was substantially justified or is harmless"
+      }
+    ]
+  },
+  {
+    "id": "disc-075",
+    "kind": "recall",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "front": "What must a court find before it may presume lost ESI unfavorable, instruct the jury to presume so, or dismiss under Rule 37(e)(2)?",
+    "back": "the party acted with the intent to deprive another party of the information's use in the litigation",
+    "cites": [
+      {
+        "cite": "37(e)(2)",
+        "quote": "only upon finding that the party acted with the intent to deprive another party of the information's use in the litigation may:"
+      }
+    ]
+  },
+  {
+    "id": "disc-076",
+    "kind": "recall",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "front": "What alone excuses a failure to respond under Rule 37(d) on the ground that the discovery was objectionable?",
+    "back": "a pending motion for a protective order under Rule 26(c)",
+    "cites": [
+      {
+        "cite": "37(d)(2)",
+        "quote": "unless the party failing to act has a pending motion for a protective order under Rule 26(c)"
+      }
+    ]
+  },
+  {
+    "id": "disc-077",
+    "kind": "recall",
+    "topic": "disc-sanctions",
+    "rules": [
+      "37"
+    ],
+    "level": 1,
+    "front": "If a motion to compel is granted in part and denied in part, what may the court do about expenses?",
+    "back": "may, after giving an opportunity to be heard, apportion the reasonable expenses for the motion",
+    "cites": [
+      {
+        "cite": "37(a)(5)(C)",
+        "quote": "the court may issue any protective order authorized under Rule 26(c) and may, after giving an opportunity to be heard, apportion the reasonable expenses for the motion"
+      }
+    ]
+  },
+  {
+    "id": "disc-078",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 1,
+    "front": "How many depositions by the plaintiffs, the defendants, or the third-party defendants does it take to require leave of court under Rule 30(a)(2)?",
+    "back": "more than 10 depositions",
+    "cites": [
+      {
+        "cite": "30(a)(2)(A)(i)",
+        "quote": "the deposition would result in more than 10 depositions being taken under this rule or Rule 31 by the plaintiffs, or by the defendants, or by the third-party defendants"
+      }
+    ]
+  },
+  {
+    "id": "disc-079",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 1,
+    "front": "What is the default time limit for a deposition under Rule 30(d)(1)?",
+    "back": "one day of 7 hours",
+    "cites": [
+      {
+        "cite": "30(d)(1)",
+        "quote": "Unless otherwise stipulated or ordered by the court, a deposition is limited to one day of 7 hours."
+      }
+    ]
+  },
+  {
+    "id": "disc-080",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 1,
+    "front": "What must an organization do after receiving a Rule 30(b)(6) notice?",
+    "back": "designate one or more officers, directors, or managing agents, or designate other persons who consent to testify on its behalf",
+    "cites": [
+      {
+        "cite": "30(b)(6)",
+        "quote": "The named organization must designate one or more officers, directors, or managing agents, or designate other persons who consent to testify on its behalf"
+      }
+    ]
+  },
+  {
+    "id": "disc-081",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 1,
+    "front": "When may a person instruct a deponent not to answer?",
+    "back": "only when necessary to preserve a privilege, to enforce a limitation ordered by the court, or to present a motion under Rule 30(d)(3)",
+    "cites": [
+      {
+        "cite": "30(c)(2)",
+        "quote": "only when necessary to preserve a privilege, to enforce a limitation ordered by the court, or to present a motion under Rule 30(d)(3)"
+      }
+    ]
+  },
+  {
+    "id": "disc-082",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 1,
+    "front": "How long does a deponent have to review the transcript and sign a statement of changes under Rule 30(e)(1)?",
+    "back": "30 days after being notified by the officer that the transcript or recording is available",
+    "cites": [
+      {
+        "cite": "30(e)(1)",
+        "quote": "the deponent must be allowed 30 days after being notified by the officer that the transcript or recording is available"
+      }
+    ]
+  },
+  {
+    "id": "disc-083",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 1,
+    "front": "How many interrogatories may a party serve on another party, absent stipulation or order?",
+    "back": "no more than 25 written interrogatories, including all discrete subparts",
+    "cites": [
+      {
+        "cite": "33(a)(1)",
+        "quote": "a party may serve on any other party no more than 25 written interrogatories, including all discrete subparts"
+      }
+    ]
+  },
+  {
+    "id": "disc-084",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 1,
+    "front": "How long does a party have to serve answers and objections to interrogatories?",
+    "back": "within 30 days after being served with the interrogatories",
+    "cites": [
+      {
+        "cite": "33(b)(2)",
+        "quote": "The responding party must serve its answers and any objections within 30 days after being served with the interrogatories."
+      }
+    ]
+  },
+  {
+    "id": "disc-085",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 1,
+    "front": "What happens to a ground for objecting to an interrogatory that was not stated in a timely objection?",
+    "back": "waived unless the court, for good cause, excuses the failure",
+    "cites": [
+      {
+        "cite": "33(b)(4)",
+        "quote": "Any ground not stated in a timely objection is waived unless the court, for good cause, excuses the failure."
+      }
+    ]
+  },
+  {
+    "id": "disc-086",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 1,
+    "front": "How must each interrogatory be answered, to the extent it is not objected to?",
+    "back": "separately and fully in writing under oath",
+    "cites": [
+      {
+        "cite": "33(b)(3)",
+        "quote": "Each interrogatory must, to the extent it is not objected to, be answered separately and fully in writing under oath."
+      }
+    ]
+  },
+  {
+    "id": "disc-087",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "33"
+    ],
+    "level": 1,
+    "front": "Who must sign interrogatory answers, and who must sign objections?",
+    "back": "The person who makes the answers must sign them, and the attorney who objects must sign any objections.",
+    "cites": [
+      {
+        "cite": "33(b)(5)",
+        "quote": "The person who makes the answers must sign them, and the attorney who objects must sign any objections."
+      }
+    ]
+  },
+  {
+    "id": "disc-088",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "34"
+    ],
+    "level": 1,
+    "front": "How must a Rule 34 request describe the items to be inspected?",
+    "back": "with reasonable particularity",
+    "cites": [
+      {
+        "cite": "34(b)(1)(A)",
+        "quote": "must describe with reasonable particularity each item or category of items to be inspected"
+      }
+    ]
+  },
+  {
+    "id": "disc-089",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "34"
+    ],
+    "level": 1,
+    "front": "How long does a party have to respond in writing to a Rule 34 request, absent an early request, stipulation or order?",
+    "back": "within 30 days after being served",
+    "cites": [
+      {
+        "cite": "34(b)(2)(A)",
+        "quote": "The party to whom the request is directed must respond in writing within 30 days after being served"
+      }
+    ]
+  },
+  {
+    "id": "disc-090",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "34"
+    ],
+    "level": 1,
+    "front": "What must a party do when objecting to only part of a Rule 34 request?",
+    "back": "must specify the part and permit inspection of the rest",
+    "cites": [
+      {
+        "cite": "34(b)(2)(C)",
+        "quote": "An objection to part of a request must specify the part and permit inspection of the rest."
+      }
+    ]
+  },
+  {
+    "id": "disc-091",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "34"
+    ],
+    "level": 1,
+    "front": "If a Rule 34 request does not specify a form for electronically stored information, in what form must a party produce it?",
+    "back": "in a form or forms in which it is ordinarily maintained or in a reasonably usable form or forms",
+    "cites": [
+      {
+        "cite": "34(b)(2)(E)(ii)",
+        "quote": "a party must produce it in a form or forms in which it is ordinarily maintained or in a reasonably usable form or forms"
+      }
+    ]
+  },
+  {
+    "id": "disc-092",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "34"
+    ],
+    "level": 1,
+    "front": "How may a nonparty be compelled to produce documents and tangible things?",
+    "back": "As provided in Rule 45",
+    "cites": [
+      {
+        "cite": "34(c)",
+        "quote": "As provided in Rule 45, a nonparty may be compelled to produce documents and tangible things or to permit an inspection."
+      }
+    ]
+  },
+  {
+    "id": "disc-093",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 1,
+    "front": "What must precede a Rule 35 examination order?",
+    "back": "only on motion for good cause and on notice to all parties and the person to be examined",
+    "cites": [
+      {
+        "cite": "35(a)(2)(A)",
+        "quote": "may be made only on motion for good cause and on notice to all parties and the person to be examined"
+      }
+    ]
+  },
+  {
+    "id": "disc-094",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 1,
+    "front": "Whose condition may a court order examined under Rule 35(a)(1)?",
+    "back": "a party whose mental or physical condition—including blood group—is in controversy",
+    "cites": [
+      {
+        "cite": "35(a)(1)",
+        "quote": "may order a party whose mental or physical condition—including blood group—is in controversy to submit to a physical or mental examination by a suitably licensed or certified examiner"
+      }
+    ]
+  },
+  {
+    "id": "disc-095",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 1,
+    "front": "What does the examined party waive by requesting and obtaining the examiner's report?",
+    "back": "waives any privilege it may have—in that action or any other action involving the same controversy—concerning testimony about all examinations of the same condition",
+    "cites": [
+      {
+        "cite": "35(b)(4)",
+        "quote": "By requesting and obtaining the examiner's report, or by deposing the examiner, the party examined waives any privilege it may have—in that action or any other action involving the same controversy—concerning testimony about all examinations of the same condition."
+      }
+    ]
+  },
+  {
+    "id": "disc-096",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 1,
+    "front": "What must an examiner's report under Rule 35(b)(2) contain?",
+    "back": "set out in detail the examiner's findings, including diagnoses, conclusions, and the results of any tests",
+    "cites": [
+      {
+        "cite": "35(b)(2)",
+        "quote": "The examiner's report must be in writing and must set out in detail the examiner's findings, including diagnoses, conclusions, and the results of any tests."
+      }
+    ]
+  },
+  {
+    "id": "disc-097",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "35"
+    ],
+    "level": 1,
+    "front": "What may the court do if an examiner's report is not provided?",
+    "back": "the court may exclude the examiner's testimony at trial",
+    "cites": [
+      {
+        "cite": "35(b)(5)",
+        "quote": "If the report is not provided, the court may exclude the examiner's testimony at trial."
+      }
+    ]
+  },
+  {
+    "id": "disc-098",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "36"
+    ],
+    "level": 1,
+    "front": "When is a matter in a request for admission admitted?",
+    "back": "unless, within 30 days after being served, the party to whom the request is directed serves on the requesting party a written answer or objection addressed to the matter and signed by the party or its attorney",
+    "cites": [
+      {
+        "cite": "36(a)(3)",
+        "quote": "A matter is admitted unless, within 30 days after being served, the party to whom the request is directed serves on the requesting party a written answer or objection addressed to the matter and signed by the party or its attorney."
+      }
+    ]
+  },
+  {
+    "id": "disc-099",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "36"
+    ],
+    "level": 1,
+    "front": "What is the effect of an admission under Rule 36, and how can it be undone?",
+    "back": "conclusively established unless the court, on motion, permits the admission to be withdrawn or amended",
+    "cites": [
+      {
+        "cite": "36(b)",
+        "quote": "A matter admitted under this rule is conclusively established unless the court, on motion, permits the admission to be withdrawn or amended."
+      }
+    ]
+  },
+  {
+    "id": "disc-100",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "36"
+    ],
+    "level": 1,
+    "front": "May a party object to a request for admission solely because it presents a genuine issue for trial?",
+    "back": "must not object solely on the ground that the request presents a genuine issue for trial",
+    "cites": [
+      {
+        "cite": "36(a)(5)",
+        "quote": "A party must not object solely on the ground that the request presents a genuine issue for trial."
+      }
+    ]
+  },
+  {
+    "id": "disc-101",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "36"
+    ],
+    "level": 1,
+    "front": "When may a party assert lack of knowledge as a reason for failing to admit or deny a request?",
+    "back": "only if the party states that it has made reasonable inquiry and that the information it knows or can readily obtain is insufficient to enable it to admit or deny",
+    "cites": [
+      {
+        "cite": "36(a)(4)",
+        "quote": "only if the party states that it has made reasonable inquiry and that the information it knows or can readily obtain is insufficient to enable it to admit or deny"
+      }
+    ]
+  },
+  {
+    "id": "disc-102",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "36"
+    ],
+    "level": 1,
+    "front": "May a Rule 36 admission be used against the party in another proceeding?",
+    "back": "is not an admission for any other purpose and cannot be used against the party in any other proceeding",
+    "cites": [
+      {
+        "cite": "36(b)",
+        "quote": "An admission under this rule is not an admission for any other purpose and cannot be used against the party in any other proceeding."
+      }
+    ]
+  },
+  {
+    "id": "disc-103",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 1,
+    "front": "What is the general geographic limit on a subpoena commanding a person to attend a trial, hearing, or deposition?",
+    "back": "within 100 miles of where the person resides, is employed, or regularly transacts business in person",
+    "cites": [
+      {
+        "cite": "45(c)(1)(A)",
+        "quote": "within 100 miles of where the person resides, is employed, or regularly transacts business in person"
+      }
+    ]
+  },
+  {
+    "id": "disc-104",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 1,
+    "front": "Who may serve a subpoena?",
+    "back": "Any person who is at least 18 years old and not a party",
+    "cites": [
+      {
+        "cite": "45(b)(1)",
+        "quote": "Any person who is at least 18 years old and not a party may serve a subpoena."
+      }
+    ]
+  },
+  {
+    "id": "disc-105",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 1,
+    "front": "By when must a person commanded to produce documents serve a written objection?",
+    "back": "before the earlier of the time specified for compliance or 14 days after the subpoena is served",
+    "cites": [
+      {
+        "cite": "45(d)(2)(B)",
+        "quote": "The objection must be served before the earlier of the time specified for compliance or 14 days after the subpoena is served."
+      }
+    ]
+  },
+  {
+    "id": "disc-106",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 1,
+    "front": "Which court must quash or modify a subpoena on timely motion when it requires compliance beyond Rule 45(c) limits?",
+    "back": "the court for the district where compliance is required",
+    "cites": [
+      {
+        "cite": "45(d)(3)(A)",
+        "quote": "On timely motion, the court for the district where compliance is required must quash or modify a subpoena that"
+      }
+    ]
+  },
+  {
+    "id": "disc-107",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 1,
+    "front": "What text must every subpoena set out?",
+    "back": "the text of Rule 45(d) and (e)",
+    "cites": [
+      {
+        "cite": "45(a)(1)(A)(iv)",
+        "quote": "set out the text of Rule 45(d) and (e)"
+      }
+    ]
+  },
+  {
+    "id": "disc-108",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "27"
+    ],
+    "level": 1,
+    "front": "How many days before the hearing must a Rule 27(a) petitioner serve each expected adverse party?",
+    "back": "At least 21 days before the hearing date",
+    "cites": [
+      {
+        "cite": "27(a)(2)",
+        "quote": "At least 21 days before the hearing date, the petitioner must serve each expected adverse party with a copy of the petition and a notice stating the time and place of the hearing."
+      }
+    ]
+  },
+  {
+    "id": "disc-109",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "27"
+    ],
+    "level": 1,
+    "front": "Where is a petition to perpetuate testimony before suit filed under Rule 27(a)?",
+    "back": "in the district court for the district where any expected adverse party resides",
+    "cites": [
+      {
+        "cite": "27(a)(1)",
+        "quote": "may file a verified petition in the district court for the district where any expected adverse party resides"
+      }
+    ]
+  },
+  {
+    "id": "disc-110",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "28"
+    ],
+    "level": 1,
+    "front": "Within the United States, before whom must a deposition be taken?",
+    "back": "an officer authorized to administer oaths either by federal law or by the law in the place of examination",
+    "cites": [
+      {
+        "cite": "28(a)(1)(A)",
+        "quote": "an officer authorized to administer oaths either by federal law or by the law in the place of examination"
+      }
+    ]
+  },
+  {
+    "id": "disc-111",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "28"
+    ],
+    "level": 1,
+    "front": "Whom does Rule 28(c) disqualify from taking a deposition?",
+    "back": "any party's relative, employee, or attorney",
+    "cites": [
+      {
+        "cite": "28(c)",
+        "quote": "A deposition must not be taken before a person who is any party's relative, employee, or attorney"
+      }
+    ]
+  },
+  {
+    "id": "disc-112",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "29"
+    ],
+    "level": 1,
+    "front": "When does a stipulation extending the time for discovery require court approval?",
+    "back": "if it would interfere with the time set for completing discovery, for hearing a motion, or for trial",
+    "cites": [
+      {
+        "cite": "29(b)",
+        "quote": "a stipulation extending the time for any form of discovery must have court approval if it would interfere with the time set for completing discovery, for hearing a motion, or for trial"
+      }
+    ]
+  },
+  {
+    "id": "disc-113",
+    "kind": "recall",
+    "topic": "disc-scope",
+    "rules": [
+      "29"
+    ],
+    "level": 1,
+    "front": "Under Rule 29(a), what may the parties stipulate about how a deposition is taken?",
+    "back": "before any person, at any time or place, on any notice, and in the manner specified",
+    "cites": [
+      {
+        "cite": "29(a)",
+        "quote": "a deposition may be taken before any person, at any time or place, on any notice, and in the manner specified"
+      }
+    ]
+  },
+  {
+    "id": "disc-114",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "31"
+    ],
+    "level": 1,
+    "front": "How long do other parties have to serve cross-questions in a deposition by written questions?",
+    "back": "within 14 days after being served with the notice and direct questions",
+    "cites": [
+      {
+        "cite": "31(a)(5)",
+        "quote": "cross-questions, within 14 days after being served with the notice and direct questions"
+      }
+    ]
+  },
+  {
+    "id": "disc-115",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "31"
+    ],
+    "level": 1,
+    "front": "How long do other parties have to serve redirect questions in a deposition by written questions?",
+    "back": "within 7 days after being served with cross-questions",
+    "cites": [
+      {
+        "cite": "31(a)(5)",
+        "quote": "redirect questions, within 7 days after being served with cross-questions"
+      }
+    ]
+  },
+  {
+    "id": "disc-116",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "32"
+    ],
+    "level": 1,
+    "front": "For what purposes may an adverse party use the deposition of a party's officer, director, managing agent, or designee?",
+    "back": "for any purpose",
+    "cites": [
+      {
+        "cite": "32(a)(3)",
+        "quote": "An adverse party may use for any purpose the deposition of a party or anyone who, when deposed, was the party's officer, director, managing agent, or designee under Rule 30(b)(6) or 31(a)(4)."
+      }
+    ]
+  },
+  {
+    "id": "disc-117",
+    "kind": "recall",
+    "topic": "disc-tools",
+    "rules": [
+      "32"
+    ],
+    "level": 1,
+    "front": "How far from the place of hearing or trial must a witness be for the deposition to be used as an unavailable witness's?",
+    "back": "more than 100 miles from the place of hearing or trial or is outside the United States",
+    "cites": [
+      {
+        "cite": "32(a)(4)(B)",
+        "quote": "that the witness is more than 100 miles from the place of hearing or trial or is outside the United States, unless it appears that the witness's absence was procured by the party offering the deposition"
+      }
+    ]
+  }
+]
