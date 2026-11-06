@@ -3028,5 +3028,213 @@
     "front": "After the Judicial Panel on Multidistrict Litigation transfers actions, what should the transferee court schedule?",
     "back": "an initial management conference",
     "id": "mot-099"
+  },
+  {
+    "kind": "issue",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "12(a)(4)(A)",
+        "quote": "the responsive pleading must be served within 14 days after notice of the court's action"
+      },
+      {
+        "cite": "12(g)(2)",
+        "quote": "must not make another motion under this rule"
+      },
+      {
+        "cite": "12(h)(1)(A)",
+        "quote": "omitting it from a motion in the circumstances described in Rule 12(g)(2)"
+      }
+    ],
+    "stem": "Vega serves Wolf Corp. with a summons and complaint on Monday, June 1, 2026. On June 15, Wolf Corp. serves a motion under Rule 12(b)(6) that does not mention venue, though venue was objectionable and the point was available. The court denies the motion on Monday, July 6, and notifies the parties that day. On July 20, Wolf Corp. serves its answer, which asserts that venue is improper. Vega moves to strike the venue defense.",
+    "ask": "Which rules decide whether the answer was timely and whether the venue defense survives?",
+    "options": [
+      {
+        "t": "Rule 12(a)(4)(A)",
+        "why": "Triggered: the motion was denied July 6, so the answer was due 14 days later, July 20."
+      },
+      {
+        "t": "Rule 12(g)(2)",
+        "why": "Triggered: the venue defense was available but omitted from Wolf Corp.'s earlier Rule 12 motion."
+      },
+      {
+        "t": "Rule 12(h)(1)(A)",
+        "why": "Triggered: omitting a Rule 12(b)(3) defense from a motion in the circumstances of Rule 12(g)(2) waives it."
+      },
+      {
+        "t": "Rule 12(h)(2)",
+        "why": "Not triggered: it preserves failure to state a claim and similar defenses, not improper venue."
+      },
+      {
+        "t": "Rule 12(h)(3)",
+        "why": "Not triggered: no one contends the court lacks subject-matter jurisdiction."
+      },
+      {
+        "t": "Rule 12(a)(1)(A)(ii)",
+        "why": "Not triggered: Wolf Corp. was served with the summons and did not waive service under Rule 4(d)."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2
+    ],
+    "explain": "The denial on July 6 made the answer due July 20 (Rule 12(a)(4)(A)), so it was timely. But venue was available and omitted from the earlier Rule 12 motion (Rule 12(g)(2)), which waives a Rule 12(b)(3) defense under Rule 12(h)(1)(A).",
+    "id": "mot-014"
+  },
+  {
+    "kind": "issue",
+    "topic": "rule12",
+    "rules": [
+      "12"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "12(e)",
+        "quote": "so vague or ambiguous that the party cannot reasonably prepare a response"
+      },
+      {
+        "cite": "12(f)",
+        "quote": "The court may strike from a pleading an insufficient defense or any redundant, immaterial, impertinent, or scandalous matter."
+      },
+      {
+        "cite": "12(g)(1)",
+        "quote": "A motion under this rule may be joined with any other motion allowed by this rule."
+      }
+    ],
+    "stem": "Xu sues Yard Co. in a single complaint. Paragraph 9 contains insulting, irrelevant remarks about the family of Yard Co.'s owner. Paragraph 12 refers to \"the contract,\" though Yard Co. has two contracts with Xu, and Yard Co. cannot reasonably prepare a response to it. Yard Co. also believes the complaint fails to state a claim upon which relief can be granted. Yard Co. has not answered, Xu has served no other pleading, and Yard Co. plans to file all of its motions together in a single paper.",
+    "ask": "Which rules support the combined motion Yard Co. may make before answering?",
+    "options": [
+      {
+        "t": "Rule 12(e)",
+        "why": "Triggered: Paragraph 12 is so vague that Yard Co. cannot reasonably prepare a response."
+      },
+      {
+        "t": "Rule 12(f)",
+        "why": "Triggered: Paragraph 9 is immaterial, impertinent, or scandalous matter, and Yard Co. has not yet responded."
+      },
+      {
+        "t": "Rule 12(b)(6)",
+        "why": "Triggered: Yard Co. may assert failure to state a claim by motion before pleading."
+      },
+      {
+        "t": "Rule 12(c)",
+        "why": "Not triggered: no pleadings are closed because Yard Co. has not answered."
+      },
+      {
+        "t": "Rule 12(d)",
+        "why": "Not triggered: no matters outside the pleadings have been presented."
+      },
+      {
+        "t": "Rule 12(g)(1)",
+        "why": "Triggered: Yard Co. plans to join these motions, and a Rule 12 motion may be joined with any other motion allowed by Rule 12."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "explain": "A vague paragraph supports a Rule 12(e) motion, a scandalous paragraph a Rule 12(f) motion, and failure to state a claim a Rule 12(b)(6) motion. Rule 12(g)(1) lets Yard Co. join them. Rule 12(c) needs closed pleadings and Rule 12(d) needs outside matters, and neither exists here.",
+    "id": "mot-015"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "15",
+      "12"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "15(a)(3)",
+        "quote": "within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later"
+      }
+    ],
+    "stem": "Park serves her complaint on Gale Co. on Monday, March 2, 2026, so Gale Co.'s answer would be due March 23. On Friday, March 20, Park hand-delivers to Gale Co. an amended complaint, which she may file as a matter of course. Gale Co. has served no answer or motion, and the court has not ordered any time for responding.",
+    "ask": "By what date must Gale Co. serve its response to the amended complaint?",
+    "options": [
+      {
+        "t": "April 3, 2026",
+        "why": "Correct. Rule 15(a)(3) gives the later of the time remaining on the original (March 23) or 14 days after service of the amended pleading (April 3)."
+      },
+      {
+        "t": "March 23, 2026",
+        "why": "Uses the time remaining on the original complaint and ignores the 14-day alternative, which is later and so controls under Rule 15(a)(3)."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Counts 14 days from the original March 23 deadline. Rule 15(a)(3) counts 14 days from service of the amended pleading."
+      },
+      {
+        "t": "April 10, 2026",
+        "why": "Counts 21 days from the amended complaint. Rule 15(a)(3) fixes 14 days, not the 21 days of Rule 12(a)."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Rule 15(a)(3) requires a response to an amended pleading within the time remaining to respond to the original or 14 days after service of the amended pleading, whichever is later. The original period ran to March 23. Fourteen days after March 20 is Friday, April 3, which is later and controls.",
+    "calc": {
+      "from": "2026-03-20",
+      "days": 14,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-03"
+    },
+    "id": "mot-020"
+  },
+  {
+    "kind": "apply",
+    "topic": "amend",
+    "rules": [
+      "16"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "16(b)(2)",
+        "quote": "the judge must issue it within the earlier of 90 days after any defendant has been served with the complaint or 60 days after any defendant has appeared"
+      }
+    ],
+    "stem": "Park sues two defendants. The first defendant is served with the complaint on Tuesday, January 6, 2026, and appears on Monday, February 9, 2026. The second defendant is served on Tuesday, February 3, 2026, and appears on Friday, February 27, 2026. The judge finds no good cause for delay and has received the parties' Rule 26(f) report.",
+    "ask": "By what date must the judge issue the scheduling order?",
+    "options": [
+      {
+        "t": "April 10, 2026",
+        "why": "Counts 60 days from the appearance. Rule 16(b)(2) requires the earlier of that date and the 90-day date, and April 6 is earlier."
+      },
+      {
+        "t": "March 9, 2026",
+        "why": "Counts 60 days from service. The 60-day period in Rule 16(b)(2) runs from an appearance, and the 90-day period runs from service."
+      },
+      {
+        "t": "April 6, 2026",
+        "why": "Correct. Ninety days after service (January 6) is April 6, and it is earlier than 60 days after the appearance (April 10)."
+      },
+      {
+        "t": "May 11, 2026",
+        "why": "Counts 90 days from the appearance. The 90-day period in Rule 16(b)(2) runs from service of the complaint."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Absent good cause for delay, the scheduling order must issue within the earlier of 90 days after any defendant has been served or 60 days after any defendant has appeared (Rule 16(b)(2)). Ninety days after the first service, January 6, is April 6; sixty days after the first appearance, February 9, is April 10. The second defendant's dates are later. The earlier, April 6, controls.",
+    "calc": {
+      "from": "2026-01-06",
+      "days": 90,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-04-06"
+    },
+    "id": "mot-042"
   }
 ]

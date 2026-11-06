@@ -10,7 +10,7 @@
     "cites": [
       {
         "cite": "56(a)",
-        "quote": "A party may move for summary judgment, identifying each claim or defense—or the part of each claim or defense—on which summary judgment is sought."
+        "quote": "A party may move for summary judgment, identifying each claim or defense\u2014or the part of each claim or defense\u2014on which summary judgment is sought."
       }
     ],
     "stem": "Rivera sues Calder Freight for breach of contract and, separately, for fraud. After discovery, Calder moves for summary judgment on the fraud claim only, identifying that claim in its motion. The court finds Calder has shown there is no genuine dispute as to any material fact on the fraud claim and that Calder is entitled to judgment as a matter of law on it. Rivera objects that the court cannot entertain a motion that does not seek judgment on the whole case.",
@@ -36,7 +36,7 @@
     "key": [
       2
     ],
-    "explain": "Rule 56(a) allows a motion identifying 'each claim or defense—or the part of each claim or defense' on which judgment is sought. Calder identified the fraud claim and made the 56(a) showing, so the court shall grant partial summary judgment. Nothing requires a whole-case motion, consent, or a prior ruling on the contract claim."
+    "explain": "Rule 56(a) allows a motion identifying 'each claim or defense\u2014or the part of each claim or defense' on which judgment is sought. Calder identified the fraud claim and made the 56(a) showing, so the court shall grant partial summary judgment. Nothing requires a whole-case motion, consent, or a prior ruling on the contract claim."
   },
   {
     "id": "trial-002",
@@ -260,7 +260,7 @@
     "cites": [
       {
         "cite": "56(e)",
-        "quote": "If a party fails to properly support an assertion of fact or fails to properly address another party’s assertion of fact as required by Rule 56(c), the court may:"
+        "quote": "If a party fails to properly support an assertion of fact or fails to properly address another party\u2019s assertion of fact as required by Rule 56(c), the court may:"
       },
       {
         "cite": "56(e)(2)",
@@ -268,7 +268,7 @@
       },
       {
         "cite": "56(e)(3)",
-        "quote": "grant summary judgment if the motion and supporting materials—including the facts considered undisputed—show that the movant is entitled to it"
+        "quote": "grant summary judgment if the motion and supporting materials\u2014including the facts considered undisputed\u2014show that the movant is entitled to it"
       }
     ],
     "stem": "Landry sues Harbor Bank to set aside a loan guarantee. Harbor moves for summary judgment and cites a deposition transcript in which Landry admits signing the guarantee. Landry's opposition brief attacks Harbor's legal theory but never addresses the assertion that Landry signed. Landry does not seek more time. The court believes that, with that fact treated as undisputed, Harbor's motion and materials show it is entitled to judgment.",
@@ -350,7 +350,7 @@
     "cites": [
       {
         "cite": "56(g)",
-        "quote": "it may enter an order stating any material fact—including an item of damages or other relief—that is not genuinely in dispute and treating the fact as established in the case"
+        "quote": "it may enter an order stating any material fact\u2014including an item of damages or other relief\u2014that is not genuinely in dispute and treating the fact as established in the case"
       }
     ],
     "stem": "Pascoe sues Rowan Logistics for breach of a shipping contract and moves for summary judgment on liability and damages. The court denies the motion because the amount of damages is genuinely disputed, but it finds no genuine dispute that Rowan received Pascoe's written notice of breach on March 2.",
@@ -393,7 +393,7 @@
       },
       {
         "cite": "56(g)",
-        "quote": "it may enter an order stating any material fact—including an item of damages or other relief—that is not genuinely in dispute and treating the fact as established in the case"
+        "quote": "it may enter an order stating any material fact\u2014including an item of damages or other relief\u2014that is not genuinely in dispute and treating the fact as established in the case"
       }
     ],
     "stem": "Orion Pumps sues Vale Co. for breach of a supply contract. Vale moves for summary judgment, arguing the contract expired before the alleged breach. After giving both parties written notice and 14 days to respond, the court concludes the contract had not expired and that no genuine dispute exists on liability, and it grants summary judgment on liability for Orion, which never cross-moved. The amount of damages is genuinely disputed, so the court sets damages for trial. It also enters an order stating that Vale received 400 units on March 3 and treating that fact as established.",
@@ -523,7 +523,7 @@
     "cites": [
       {
         "cite": "50(b)",
-        "quote": "If the court does not grant a motion for judgment as a matter of law made under Rule 50(a), the court is considered to have submitted the action to the jury subject to the court’s later deciding the legal questions raised by the motion."
+        "quote": "If the court does not grant a motion for judgment as a matter of law made under Rule 50(a), the court is considered to have submitted the action to the jury subject to the court\u2019s later deciding the legal questions raised by the motion."
       },
       {
         "cite": "50(b)",
@@ -972,7 +972,7 @@
     "cites": [
       {
         "cite": "38(c)",
-        "quote": "If the party has demanded a jury trial on only some issues, any other party may—within 14 days after being served with the demand or within a shorter time ordered by the court—serve a demand for a jury trial on any other or all factual issues triable by jury."
+        "quote": "If the party has demanded a jury trial on only some issues, any other party may\u2014within 14 days after being served with the demand or within a shorter time ordered by the court\u2014serve a demand for a jury trial on any other or all factual issues triable by jury."
       }
     ],
     "stem": "On Thursday, April 8, 2027, Doyle serves on Egan Co., through the court's electronic-filing system, a jury demand that specifies only the damages issues. The liability issues are also triable of right by a jury, and Egan wants those tried to a jury too. The court has not ordered a shorter time.",
@@ -1222,7 +1222,7 @@
     "cites": [
       {
         "cite": "39(c)(2)",
-        "quote": "may, with the parties’ consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right, unless the action is against the United States and a federal statute provides for a nonjury trial"
+        "quote": "may, with the parties\u2019 consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right, unless the action is against the United States and a federal statute provides for a nonjury trial"
       }
     ],
     "stem": "Farrow sues the United States in an action that is not triable of right by a jury. A federal statute provides that such actions are tried without a jury. Farrow and the government both consent to trial of the issues by a jury whose verdict would have the same effect as if a jury trial had been a matter of right, and they ask the court to approve it.",
@@ -1444,11 +1444,11 @@
     "cites": [
       {
         "cite": "41(a)(2)",
-        "quote": "an action may be dismissed at the plaintiff’s request only by court order, on terms that the court considers proper"
+        "quote": "an action may be dismissed at the plaintiff\u2019s request only by court order, on terms that the court considers proper"
       },
       {
         "cite": "41(a)(2)",
-        "quote": "If a defendant has pleaded a counterclaim before being served with the plaintiff’s motion to dismiss, the action may be dismissed over the defendant’s objection only if the counterclaim can remain pending for independent adjudication. Unless the order states otherwise, a dismissal under this paragraph (2) is without prejudice."
+        "quote": "If a defendant has pleaded a counterclaim before being served with the plaintiff\u2019s motion to dismiss, the action may be dismissed over the defendant\u2019s objection only if the counterclaim can remain pending for independent adjudication. Unless the order states otherwise, a dismissal under this paragraph (2) is without prejudice."
       }
     ],
     "stem": "Kline sues Dray Co. Dray answers and pleads a counterclaim. Kline then moves for a court order dismissing his claim. Dray objects. The court finds that the counterclaim can remain pending for independent adjudication and grants the motion. The order says nothing about prejudice.",
@@ -1487,7 +1487,7 @@
     "cites": [
       {
         "cite": "41(b)",
-        "quote": "Unless the dismissal order states otherwise, a dismissal under this subdivision (b) and any dismissal not under this rule—except one for lack of jurisdiction, improper venue, or failure to join a party under Rule 19—operates as an adjudication on the merits."
+        "quote": "Unless the dismissal order states otherwise, a dismissal under this subdivision (b) and any dismissal not under this rule\u2014except one for lack of jurisdiction, improper venue, or failure to join a party under Rule 19\u2014operates as an adjudication on the merits."
       }
     ],
     "stem": "Burke sues Alton Co. for breach of contract. Burke ignores two court orders to respond to discovery and does nothing in the case for a year. Alton moves to dismiss for failure to prosecute and to comply with the court's orders. The court grants the motion in an order that says nothing about whether the dismissal is with or without prejudice.",
@@ -1526,7 +1526,7 @@
     "cites": [
       {
         "cite": "41(c)",
-        "quote": "A claimant’s voluntary dismissal under Rule 41(a)(1)(A)(i) must be made:"
+        "quote": "A claimant\u2019s voluntary dismissal under Rule 41(a)(1)(A)(i) must be made:"
       },
       {
         "cite": "41(a)(1)(A)(ii)",
@@ -1534,7 +1534,7 @@
       },
       {
         "cite": "41(a)(2)",
-        "quote": "an action may be dismissed at the plaintiff’s request only by court order, on terms that the court considers proper"
+        "quote": "an action may be dismissed at the plaintiff\u2019s request only by court order, on terms that the court considers proper"
       }
     ],
     "stem": "Fisk sues Gage Co. for breach of contract. Gage answers and counterclaims for unpaid rent. Fisk serves an answer to the counterclaim. No hearing or trial has begun and no evidence has been introduced. Gage now wants to dismiss its counterclaim, and Fisk, who has appeared in the action, does not object. Gage first considers simply filing a notice of dismissal of the counterclaim. Neither side has moved for summary judgment.",
@@ -1818,7 +1818,7 @@
     "cites": [
       {
         "cite": "52(b)",
-        "quote": "On a party’s motion filed no later than 28 days after the entry of judgment, the court may amend its findings—or make additional findings—and may amend the judgment accordingly."
+        "quote": "On a party\u2019s motion filed no later than 28 days after the entry of judgment, the court may amend its findings\u2014or make additional findings\u2014and may amend the judgment accordingly."
       },
       {
         "cite": "6(a)(1)(C)",
@@ -1915,7 +1915,7 @@
       },
       {
         "cite": "52(b)",
-        "quote": "On a party’s motion filed no later than 28 days after the entry of judgment, the court may amend its findings—or make additional findings—and may amend the judgment accordingly."
+        "quote": "On a party\u2019s motion filed no later than 28 days after the entry of judgment, the court may amend its findings\u2014or make additional findings\u2014and may amend the judgment accordingly."
       }
     ],
     "stem": "Reed sues Stone Co. for negligence in a bench trial. The claim can be maintained only with a favorable finding that Stone's truck caused the accident. After Reed finishes his evidence on causation, the judge finds against him on that issue and enters judgment for Stone on the negligence claim without hearing Stone's evidence. She states her findings and conclusions orally on the record. Twenty days after judgment is entered, Reed moves for additional findings. Reed also complains that she stated no findings when she earlier denied Stone's Rule 12(b)(6) motion. No reviewing court has yet ruled, and no injunction is involved.",
@@ -2043,7 +2043,7 @@
     "cites": [
       {
         "cite": "44.1",
-        "quote": "A party who intends to raise an issue about a foreign country’s law must give notice by a pleading or other writing."
+        "quote": "A party who intends to raise an issue about a foreign country\u2019s law must give notice by a pleading or other writing."
       }
     ],
     "stem": "Vale Corp. intends to argue that French law governs a question in a contract dispute. Vale's counsel gives no written notice of this. At trial she announces orally to the judge, 'French law applies here.' Vale's opponent objects that Vale never gave the notice the rules require.",
@@ -2238,7 +2238,7 @@
     "cites": [
       {
         "cite": "51(d)(1)(B)",
-        "quote": "a failure to give an instruction, if that party properly requested it and—unless the court rejected the request in a definitive ruling on the record—also properly objected"
+        "quote": "a failure to give an instruction, if that party properly requested it and\u2014unless the court rejected the request in a definitive ruling on the record\u2014also properly objected"
       }
     ],
     "stem": "At the charge conference, Hart Co. submits a written request for a jury instruction on mitigation of damages. The judge states on the record, 'I will not give that instruction,' and the ruling is definitive. Hart's counsel says nothing further and makes no objection after the instructions are given. The jury returns a verdict against Hart, who assigns the failure to give the mitigation instruction as error on appeal.",
@@ -2277,7 +2277,7 @@
     "cites": [
       {
         "cite": "53(f)(3)",
-        "quote": "The court must decide de novo all objections to findings of fact made or recommended by a master, unless the parties, with the court’s approval, stipulate that:"
+        "quote": "The court must decide de novo all objections to findings of fact made or recommended by a master, unless the parties, with the court\u2019s approval, stipulate that:"
       }
     ],
     "stem": "Because of an exceptional condition, the court appoints a master under Rule 53(a)(1)(B) to hold trial proceedings and recommend findings of fact on issues to be decided without a jury. The master's report recommends findings for Lund. Moor files a timely objection to one finding of fact. The parties have made no stipulation about the standard of review.",
@@ -2403,7 +2403,7 @@
     "cites": [
       {
         "cite": "56(g)",
-        "quote": "it may enter an order stating any material fact—including an item of damages or other relief—that is not genuinely in dispute and treating the fact as established in the case"
+        "quote": "it may enter an order stating any material fact\u2014including an item of damages or other relief\u2014that is not genuinely in dispute and treating the fact as established in the case"
       }
     ]
   },
@@ -2437,7 +2437,7 @@
     "cites": [
       {
         "cite": "56(h)",
-        "quote": "may order the submitting party to pay the other party the reasonable expenses, including attorney’s fees, it incurred as a result"
+        "quote": "may order the submitting party to pay the other party the reasonable expenses, including attorney\u2019s fees, it incurred as a result"
       }
     ]
   },
@@ -2573,7 +2573,7 @@
     "cites": [
       {
         "cite": "50(c)(2)",
-        "quote": "Conditionally granting the motion for a new trial does not affect the judgment’s finality"
+        "quote": "Conditionally granting the motion for a new trial does not affect the judgment\u2019s finality"
       }
     ]
   },
@@ -2590,7 +2590,7 @@
     "cites": [
       {
         "cite": "38(b)(1)",
-        "quote": "serving the other parties with a written demand—which may be included in a pleading—no later than 14 days after the last pleading directed to the issue is served"
+        "quote": "serving the other parties with a written demand\u2014which may be included in a pleading\u2014no later than 14 days after the last pleading directed to the issue is served"
       }
     ]
   },
@@ -2641,7 +2641,7 @@
     "cites": [
       {
         "cite": "38(c)",
-        "quote": "any other party may—within 14 days after being served with the demand or within a shorter time ordered by the court—serve a demand for a jury trial on any other or all factual issues triable by jury"
+        "quote": "any other party may\u2014within 14 days after being served with the demand or within a shorter time ordered by the court\u2014serve a demand for a jury trial on any other or all factual issues triable by jury"
       }
     ]
   },
@@ -2743,7 +2743,7 @@
     "cites": [
       {
         "cite": "39(c)(2)",
-        "quote": "may, with the parties’ consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right"
+        "quote": "may, with the parties\u2019 consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right"
       }
     ]
   },
@@ -2981,7 +2981,7 @@
     "cites": [
       {
         "cite": "52(b)",
-        "quote": "On a party’s motion filed no later than 28 days after the entry of judgment, the court may amend its findings"
+        "quote": "On a party\u2019s motion filed no later than 28 days after the entry of judgment, the court may amend its findings"
       }
     ]
   },
@@ -3015,7 +3015,7 @@
     "cites": [
       {
         "cite": "43(a)",
-        "quote": "the witnesses’ testimony must be taken in open court unless a federal statute, the Federal Rules of Evidence, these rules, or other rules adopted by the Supreme Court provide otherwise"
+        "quote": "the witnesses\u2019 testimony must be taken in open court unless a federal statute, the Federal Rules of Evidence, these rules, or other rules adopted by the Supreme Court provide otherwise"
       }
     ]
   },
@@ -3032,7 +3032,7 @@
     "cites": [
       {
         "cite": "44.1",
-        "quote": "A party who intends to raise an issue about a foreign country’s law must give notice by a pleading or other writing."
+        "quote": "A party who intends to raise an issue about a foreign country\u2019s law must give notice by a pleading or other writing."
       }
     ]
   },
@@ -3134,8 +3134,270 @@
     "cites": [
       {
         "cite": "53(f)(2)",
-        "quote": "A party may file objections to—or a motion to adopt or modify—the master’s order, report, or recommendations no later than 21 days after a copy is served, unless the court sets a different time."
+        "quote": "A party may file objections to\u2014or a motion to adopt or modify\u2014the master\u2019s order, report, or recommendations no later than 21 days after a copy is served, unless the court sets a different time."
       }
     ]
+  },
+  {
+    "id": "trial-006",
+    "kind": "issue",
+    "topic": "sj-jmol",
+    "rules": [
+      "56"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "56(c)(4)",
+        "quote": "must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the affiant or declarant is competent to testify on the matters stated"
+      },
+      {
+        "cite": "56(d)",
+        "quote": "If a nonmovant shows by affidavit or declaration that, for specified reasons, it cannot present facts essential to justify its opposition, the court may:"
+      },
+      {
+        "cite": "56(e)(2)",
+        "quote": "consider the fact undisputed for purposes of the motion"
+      }
+    ],
+    "stem": "Okafor sues Mesa Foods for breach of contract and wrongful discharge. Discovery is open. Mesa moves for summary judgment on the contract claim, supported by a declaration from its paralegal describing a meeting between Okafor and the HR director; she did not attend it and learned of it from a colleague. Okafor's response disputes most of Mesa's facts with deposition citations but never addresses Mesa's assertion that Okafor signed a release. Okafor also files a declaration listing specific reasons why she cannot yet present facts about the HR director's decision: Mesa has refused to schedule his deposition.",
+    "ask": "Which provisions of Rule 56 bear on this motion? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 56(c)(4)",
+        "why": "Applies. A declaration used to support a motion must be made on personal knowledge; the paralegal learned of the meeting secondhand."
+      },
+      {
+        "t": "Rule 56(d)",
+        "why": "Applies. Okafor's declaration states specified reasons she cannot present essential facts, so the court may defer or deny the motion or allow time for discovery."
+      },
+      {
+        "t": "Rule 56(e)(2)",
+        "why": "Applies. Okafor failed to address Mesa's assertion about the release, so the court may consider that fact undisputed for purposes of the motion."
+      },
+      {
+        "t": "Rule 56(f)(1)",
+        "why": "Does not apply. Nothing suggests the court is considering judgment for Okafor, the nonmovant."
+      },
+      {
+        "t": "Rule 56(f)(2)",
+        "why": "Does not apply. Nothing suggests the court is considering granting the motion on grounds Mesa did not raise."
+      },
+      {
+        "t": "Rule 56(h)",
+        "why": "Does not apply. Nothing suggests the paralegal's declaration was submitted in bad faith or solely for delay; its defect is lack of personal knowledge."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2
+    ],
+    "explain": "The paralegal's secondhand declaration fails 56(c)(4). Okafor's declaration invokes 56(d), allowing deferral, denial or time for discovery. Her silence on the release lets the court treat that fact as undisputed under 56(e)(2). Nobody is seeking judgment for a nonmovant (56(f)(1)) or on grounds not raised (56(f)(2)), and no bad faith appears (56(h))."
+  },
+  {
+    "id": "trial-019",
+    "kind": "apply",
+    "topic": "sj-jmol",
+    "rules": [
+      "50",
+      "6"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "50(d)",
+        "quote": "Any motion for a new trial under Rule 59 by a party against whom judgment as a matter of law is rendered must be filed no later than 28 days after the entry of the judgment."
+      },
+      {
+        "cite": "6(a)(6)(A)",
+        "quote": "the day set aside by statute for observing New Year\u2019s Day, Martin Luther King Jr.\u2019s Birthday, Washington\u2019s Birthday, Memorial Day, Juneteenth National Independence Day, Independence Day, Labor Day, Columbus Day, Veterans\u2019 Day, Thanksgiving Day, or Christmas Day"
+      }
+    ],
+    "stem": "A jury returns a verdict for Mercer against Orlan Co. The court later grants Orlan's renewed motion for judgment as a matter of law and enters judgment for Orlan on Thursday, October 29, 2026. Mercer wants to move for a new trial under Rule 59. No court order sets a different deadline.",
+    "ask": "By what date must Mercer file the new-trial motion?",
+    "options": [
+      {
+        "t": "November 27, 2026",
+        "why": "Correct. Excluding October 29, day 28 is Thursday, November 26, Thanksgiving Day, a legal holiday; the period carries to Friday, November 27."
+      },
+      {
+        "t": "November 26, 2026",
+        "why": "Stops at day 28 without the holiday roll. November 26, 2026 is Thanksgiving Day under 6(a)(6)(A)."
+      },
+      {
+        "t": "November 30, 2026",
+        "why": "Counts 30 days. 50(d) allows 28 days after entry of the judgment."
+      },
+      {
+        "t": "November 12, 2026",
+        "why": "Counts 14 days. 50(d) allows 28 days after entry of the judgment."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Mercer is a party against whom judgment as a matter of law was rendered, so Rule 50(d) gives 28 days after entry of the judgment. Excluding October 29, day 28 is Thursday, November 26, 2026, Thanksgiving Day. Under Rule 6(a)(1)(C) the period runs to the next day that is not a weekend day or legal holiday: Friday, November 27.",
+    "calc": {
+      "from": "2026-10-29",
+      "days": 28,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-11-27"
+    }
+  },
+  {
+    "id": "trial-021",
+    "kind": "issue",
+    "topic": "sj-jmol",
+    "rules": [
+      "50"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "50(a)(2)",
+        "quote": "The motion must specify the judgment sought and the law and facts that entitle the movant to the judgment."
+      },
+      {
+        "cite": "50(b)",
+        "quote": "No later than 28 days after the entry of judgment"
+      },
+      {
+        "cite": "50(c)(1)",
+        "quote": "If the court grants a renewed motion for judgment as a matter of law, it must also conditionally rule on any motion for a new trial"
+      },
+      {
+        "cite": "50(d)",
+        "quote": "must be filed no later than 28 days after the entry of the judgment"
+      }
+    ],
+    "stem": "At the close of all the evidence in a jury trial, Delta's counsel says only, 'Delta moves for a directed verdict.' She gives no reasons, and the court denies the motion. The jury returns a verdict for Park, and judgment is entered on a Monday. Eleven days later Delta files a motion asking for judgment as a matter of law and, in the alternative, a new trial. The court is inclined to grant judgment for Delta, and Park says that if judgment as a matter of law is rendered against her, she will move for a new trial. The court wants to know what Rule 50 requires and permits.",
+    "ask": "Which subdivisions of Rule 50 apply? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 50(a)(2)",
+        "why": "Applies. The original motion must specify the judgment sought and the law and facts entitling the movant to it; counsel's bare statement did not."
+      },
+      {
+        "t": "Rule 50(b)",
+        "why": "Applies. Delta filed a renewed motion, with an alternative new-trial request, 11 days after entry of judgment, within the 28 days allowed."
+      },
+      {
+        "t": "Rule 50(c)(1)",
+        "why": "Applies. If the court grants the renewed motion it must also conditionally rule on the new-trial motion and state its grounds."
+      },
+      {
+        "t": "Rule 50(d)",
+        "why": "Applies. If judgment as a matter of law is rendered against Park, her new-trial motion must be filed no later than 28 days after entry of that judgment."
+      },
+      {
+        "t": "Rule 50(e)",
+        "why": "Does not apply. It addresses the case in which the court denies the motion for judgment as a matter of law; the court is inclined to grant it."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "Counsel's bare 'directed verdict' motion shows why 50(a)(2) requires the judgment sought and the law and facts. The post-judgment filing is a renewed motion with an alternative new-trial request, timely under 50(b). If the court grants it, 50(c)(1) requires a conditional new-trial ruling, and Park's new-trial motion would be due within 28 days after that judgment (50(d)). 50(e) concerns denial of the motion and is not triggered."
+  },
+  {
+    "id": "trial-045",
+    "kind": "issue",
+    "topic": "trial",
+    "rules": [
+      "42"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "42(a)(2)",
+        "quote": "consolidate the actions"
+      },
+      {
+        "cite": "42(b)",
+        "quote": "the court may order a separate trial of one or more separate issues, claims, crossclaims, counterclaims, or third-party claims"
+      }
+    ],
+    "stem": "Ada and Cole each sue Brook Co. in the same federal court over the same warehouse fire, and both cases are before one judge. Because both cases turn on whether Brook's sprinkler system was negligent, the judge orders the two actions consolidated; the judge does not merely set a joint hearing. Brook has a crossclaim against its co-defendant Dunn Co. To avoid prejudice to Brook's defense against the plaintiffs, the judge orders the crossclaim tried separately, after the main trial.",
+    "ask": "Which provisions authorize the judge's two orders? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 42(a)(1)",
+        "why": "Does not describe the order. It lets the court join matters for hearing or trial; the judge consolidated the actions."
+      },
+      {
+        "t": "Rule 42(a)(2)",
+        "why": "Authorizes the first order. The actions involve a common question of fact, so the court may consolidate them."
+      },
+      {
+        "t": "Rule 42(a)(3)",
+        "why": "Does not describe either order. The judge did not issue some other order to avoid unnecessary cost or delay."
+      },
+      {
+        "t": "Rule 42(b)",
+        "why": "Authorizes the second order. To avoid prejudice, the court may order a separate trial of a crossclaim."
+      },
+      {
+        "t": "Rule 13(g)",
+        "why": "Does not authorize either order. It addresses when a crossclaim may be asserted, not the court's power over trial."
+      }
+    ],
+    "key": [
+      1,
+      3
+    ],
+    "explain": "The consolidation order rests on Rule 42(a)(2), because the actions share a common question about the sprinkler system. The separate trial of Brook's crossclaim to avoid prejudice rests on Rule 42(b). 42(a)(1) and 42(a)(3) describe other orders, and Rule 13(g) addresses pleading crossclaims, not trial management."
+  },
+  {
+    "id": "trial-059",
+    "kind": "issue",
+    "topic": "trial",
+    "rules": [
+      "51"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "51(d)(1)(A)",
+        "quote": "an error in an instruction actually given, if that party properly objected"
+      },
+      {
+        "cite": "51(d)(2)",
+        "quote": "A court may consider a plain error in the instructions that has not been preserved as required by Rule 51(d)(1) if the error affects substantial rights."
+      }
+    ],
+    "stem": "At the close of the evidence, Dale files and furnishes to every other party written requests for jury instructions. Before final jury arguments, the judge informs the parties of her proposed instructions and her action on the requests and gives them a chance to object on the record, out of the jury's hearing. Dale's lawyer makes no objection to the interest instruction, and the judge gives it. After a verdict against Dale, Dale seeks review of the interest instruction, arguing it affected substantial rights.",
+    "ask": "Which subdivisions of Rule 51 decide whether Dale can obtain review of the interest instruction despite never objecting to it? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 51(a)(2)(B)",
+        "why": "Does not apply. It addresses untimely requests filed with the court's permission; Dale's requests were timely under 51(a)(1)."
+      },
+      {
+        "t": "Rule 51(b)(1)",
+        "why": "Does not apply. The court informed the parties of its proposed instructions and actions before arguments, and Dale does not claim otherwise."
+      },
+      {
+        "t": "Rule 51(c)(1)",
+        "why": "Does not apply. It tells a party how to phrase an objection; Dale made no objection to the interest instruction, so the form of an objection is not in question."
+      },
+      {
+        "t": "Rule 51(d)(1)(A)",
+        "why": "Applies. A party may assign as error an instruction actually given only if it properly objected, and Dale did not properly object to the interest instruction."
+      },
+      {
+        "t": "Rule 51(d)(2)",
+        "why": "Applies. The court may consider an unpreserved plain error in the instructions if it affects substantial rights, which is Dale's fallback argument."
+      }
+    ],
+    "key": [
+      3,
+      4
+    ],
+    "explain": "Dale never objected to the interest instruction, so error in that instruction given cannot be assigned under 51(d)(1)(A), which requires that the party properly objected. That leaves only the plain-error route of 51(d)(2). Dale's requests were timely and the court complied with 51(b)(1), and no objection exists whose form 51(c)(1) could govern."
   }
 ]

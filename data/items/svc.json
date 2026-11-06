@@ -3416,5 +3416,278 @@
         "quote": "A party must state its claims or defenses in numbered paragraphs"
       }
     ]
+  },
+  {
+    "id": "svc-002",
+    "kind": "apply",
+    "topic": "scope",
+    "rules": [
+      "6"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "6(a)(1)(C)",
+        "quote": "the period continues to run until the end of the next day that is not a Saturday, Sunday, or legal holiday"
+      },
+      {
+        "cite": "6(a)(6)(A)",
+        "quote": "the day set aside by statute for observing New Year's Day, Martin Luther King Jr.'s Birthday, Washington's Birthday, Memorial Day, Juneteenth National Independence Day, Independence Day, Labor Day, Columbus Day, Veterans' Day, Thanksgiving Day, or Christmas Day"
+      }
+    ],
+    "stem": "On Thursday, November 12, 2026, the court enters a scheduling order requiring the parties to file a joint status report within 14 days after entry of the order. The order sets no hour and no other counting method. Thanksgiving Day is Thursday, November 26, 2026.",
+    "ask": "What is the last day to file the joint status report?",
+    "options": [
+      {
+        "t": "November 25, 2026",
+        "why": "Rolls backward. Backward counting under 6(a)(5) applies only to periods measured before an event; this period is measured after the order, so it moves forward."
+      },
+      {
+        "t": "November 26, 2026",
+        "why": "Stops on day 14 even though it is Thanksgiving Day. A legal holiday listed in 6(a)(6)(A) cannot be the last day; 6(a)(1)(C) moves it forward."
+      },
+      {
+        "t": "November 27, 2026",
+        "why": "Correct. Excluding November 12, day 14 is Thanksgiving, a legal holiday under 6(a)(6)(A). Under 6(a)(1)(C) the period runs to the next day that is not a Saturday, Sunday or legal holiday: Friday, November 27."
+      },
+      {
+        "t": "November 30, 2026",
+        "why": "Treats the whole holiday weekend as closed. Rule 6(a)(1)(C) skips only Saturdays, Sundays and legal holidays, and Friday is none of them."
+      }
+    ],
+    "key": [
+      2
+    ],
+    "explain": "Excluding the entry date (6(a)(1)(A)), the 14th day after Thursday, November 12 is Thursday, November 26, Thanksgiving Day, a legal holiday under 6(a)(6)(A). Because the period is measured after an event, 6(a)(1)(C) and 6(a)(5) carry it forward to the next day that is not a weekend day or holiday: Friday, November 27.",
+    "calc": {
+      "from": "2026-11-12",
+      "days": 14,
+      "dir": "after",
+      "mail": false,
+      "answer": "2026-11-27"
+    }
+  },
+  {
+    "id": "svc-021",
+    "kind": "issue",
+    "topic": "scope",
+    "rules": [
+      "4"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "4(d)(1)(F)",
+        "quote": "give the defendant a reasonable time of at least 30 days after the request was sent"
+      },
+      {
+        "cite": "4(d)(2)",
+        "quote": "If a defendant located within the United States fails, without good cause, to sign and return a waiver requested by a plaintiff located within the United States, the court must impose on the defendant"
+      }
+    ],
+    "stem": "Plaintiff Lena Ortiz, of Illinois, mails Defendant Dale Whitcomb, of Ohio, a written request to waive service. The request names the court, encloses the complaint and two waiver forms, supplies a prepaid return envelope, explains the consequences of waiving and not waiving, and gives Whitcomb 45 days to return the form. Whitcomb never returns it and offers no excuse. Ortiz then pays a process server $400 to serve him. She moves to recover that cost and the fees for her motion.",
+    "ask": "Which provisions of Rule 4(d) require the court to impose costs on Whitcomb? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 4(d)(1)(F)",
+        "why": "Does not impose costs. It sets what a waiver request must contain, including the 30-day minimum; this request complied, but the cost-shifting comes from 4(d)(2)."
+      },
+      {
+        "t": "Rule 4(d)(2)(A)",
+        "why": "Applies. Both parties are located in the United States and Whitcomb failed without good cause to return the waiver, so the court must impose the expenses later incurred in making service."
+      },
+      {
+        "t": "Rule 4(d)(2)(B)",
+        "why": "Applies. The court must also impose the reasonable expenses, including attorney's fees, of any motion required to collect those service expenses."
+      },
+      {
+        "t": "Rule 4(d)(3)",
+        "why": "Does not apply. It extends the time to answer for a defendant who timely returns a waiver, and Whitcomb returned none."
+      },
+      {
+        "t": "Rule 4(d)(4)",
+        "why": "Does not apply. It states the results of a plaintiff's filing a waiver, and no waiver was filed."
+      },
+      {
+        "t": "Rule 4(d)(5)",
+        "why": "Does not apply. It preserves jurisdiction and venue objections after a waiver; there was no waiver here."
+      }
+    ],
+    "key": [
+      1,
+      2
+    ],
+    "explain": "Because both parties are within the United States and Whitcomb failed without good cause to return the waiver, 4(d)(2) requires the court to impose the later service expenses (A) and the reasonable expenses of the collection motion, including fees (B). Rule 4(d)(1)(F) only sets the request's contents, which Ortiz met; 4(d)(3), (4) and (5) presuppose a returned or filed waiver."
+  },
+  {
+    "id": "svc-036",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "9"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "9(b)",
+        "quote": "Malice, intent, knowledge, and other conditions of a person's mind may be alleged generally."
+      },
+      {
+        "cite": "9(c)",
+        "quote": "it suffices to allege generally that all conditions precedent have occurred or been performed"
+      },
+      {
+        "cite": "9(g)",
+        "quote": "If an item of special damage is claimed, it must be specifically stated."
+      },
+      {
+        "cite": "9(a)(1)",
+        "quote": "Except when required to show that the court has jurisdiction, a pleading need not allege"
+      }
+    ],
+    "stem": "Plaintiff Tern Wholesale sues Dockside Imports for fraud and breach of a supply contract. The complaint (1) says that Dockside's CFO told Tern on May 4, 2025, at a meeting in Tampa, that inventory was unencumbered, and that the statement was false; (2) alleges generally that Dockside knew it was false and meant to deceive; (3) alleges generally that all conditions precedent were performed; (4) claims $60,000 in lost resale profits, which it labels special damage and itemizes; and (5) says nothing about Dockside's capacity to be sued, which does not bear on jurisdiction. Dockside moves to dismiss, attacking each of items (1) through (5) as inadequately pleaded.",
+    "ask": "Which provisions of Rule 9 answer Dockside's attack? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 9(b)",
+        "why": "Applies. It requires the circumstances of the fraud (who, what, when and where) to be stated with particularity and lets knowledge and intent be alleged generally."
+      },
+      {
+        "t": "Rule 9(c)",
+        "why": "Applies. A general allegation that all conditions precedent were performed suffices."
+      },
+      {
+        "t": "Rule 9(g)",
+        "why": "Applies. An item of special damage must be specifically stated, and Tern labeled and itemized the lost resale profits."
+      },
+      {
+        "t": "Rule 9(a)(1)",
+        "why": "Applies. A pleading need not allege a party's capacity to be sued, unless needed to show jurisdiction, which is not the case here."
+      },
+      {
+        "t": "Rule 9(e)",
+        "why": "Does not apply. It concerns pleading a judgment or decision of a court or tribunal, and none is pleaded."
+      },
+      {
+        "t": "Rule 9(d)",
+        "why": "Does not apply. It concerns pleading an official document or official act, and none is involved."
+      },
+      {
+        "t": "Rule 9(h)(1)",
+        "why": "Does not apply. It concerns designating an admiralty or maritime claim, and no such claim is alleged."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "Fraud requires particular circumstances but general knowledge (9(b)); conditions precedent may be alleged generally (9(c)); special damage must be specifically stated (9(g)); and capacity to be sued need not be alleged (9(a)(1)). Rules 9(d), 9(e) and 9(h)(1) concern official documents, judgments and admiralty claims, none of which appears here."
+  },
+  {
+    "id": "svc-039",
+    "kind": "apply",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 2,
+    "cites": [
+      {
+        "cite": "8(b)(4)",
+        "quote": "A party that intends in good faith to deny only part of an allegation must admit the part that is true and deny the rest."
+      }
+    ],
+    "stem": "Plaintiff Lena Ortega alleges in paragraph 4: \"Defendant Tarn Supply received the shipment on March 3 and refused to pay for it.\" Tarn did receive the shipment on March 3, but it never refused to pay: Ortega never sent an invoice or demanded payment. Tarn intends in good faith to deny only the refusal to pay and is drafting its answer.",
+    "ask": "How must Tarn respond to paragraph 4?",
+    "options": [
+      {
+        "t": "Admit that it received the shipment on March 3 and deny the rest.",
+        "why": "Correct. 8(b)(4) requires a party that denies only part of an allegation to admit the part that is true and deny the rest."
+      },
+      {
+        "t": "Deny the entire allegation, because part of it is disputed.",
+        "why": "Denying the true part would not be in good faith. 8(b)(4) requires admitting that part."
+      },
+      {
+        "t": "Admit the entire allegation and plead lack of any demand as a defense.",
+        "why": "Admitting the refusal to pay concedes an allegation Tarn knows is false."
+      },
+      {
+        "t": "State that it lacks knowledge, which has the effect of a denial.",
+        "why": "8(b)(5) applies only to a party that actually lacks knowledge or information. Tarn knows when it received the shipment."
+      }
+    ],
+    "key": [
+      0
+    ],
+    "explain": "Tarn intends in good faith to deny only part of paragraph 4. Rule 8(b)(4) therefore requires it to admit the part that is true (receipt on March 3) and deny the rest (the refusal to pay). A blanket denial, a blanket admission or a lack-of-knowledge statement would not fit what Tarn knows."
+  },
+  {
+    "id": "svc-044",
+    "kind": "issue",
+    "topic": "pleading",
+    "rules": [
+      "8"
+    ],
+    "level": 3,
+    "cites": [
+      {
+        "cite": "8(b)(4)",
+        "quote": "must admit the part that is true and deny the rest"
+      },
+      {
+        "cite": "8(b)(5)",
+        "quote": "the statement has the effect of a denial"
+      },
+      {
+        "cite": "8(b)(6)",
+        "quote": "is admitted if a responsive pleading is required and the allegation is not denied"
+      },
+      {
+        "cite": "8(c)(1)",
+        "quote": "must affirmatively state any avoidance or affirmative defense"
+      }
+    ],
+    "stem": "Defendant Lyle Components answers a complaint that requires a response. The answer admits paragraphs 1 and 4; says that Lyle \"lacks knowledge or information sufficient to form a belief\" about paragraph 2; admits only half of paragraph 3 and denies the true other half too, though it knows that other half is true; says nothing about paragraph 5; and asserts laches in a separate section titled \"Defenses.\" Lyle states inconsistent defenses nowhere, uses no general denial, and nothing in the answer is mislabeled.",
+    "ask": "Which provisions of Rule 8 bear on the effect of this answer? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 8(b)(4)",
+        "why": "Applies. Lyle must admit the part of paragraph 3 that is true and deny the rest if it denies only part of an allegation."
+      },
+      {
+        "t": "Rule 8(b)(5)",
+        "why": "Applies. A statement of lack of knowledge or information about paragraph 2 has the effect of a denial."
+      },
+      {
+        "t": "Rule 8(b)(6)",
+        "why": "Applies. Paragraph 5 is not denied and a responsive pleading is required, so the allegation is admitted unless it relates to the amount of damages."
+      },
+      {
+        "t": "Rule 8(c)(1)",
+        "why": "Applies. Laches is a listed defense and must be affirmatively stated, which Lyle did."
+      },
+      {
+        "t": "Rule 8(d)(3)",
+        "why": "Does not apply. It lets a party state inconsistent defenses, and Lyle states none."
+      },
+      {
+        "t": "Rule 8(c)(2)",
+        "why": "Does not apply. It concerns mistaken designation of a defense as a counterclaim or the reverse, and nothing here is mislabeled."
+      },
+      {
+        "t": "Rule 8(a)(3)",
+        "why": "Does not apply. It concerns what a pleading stating a claim for relief must demand, not an answer's response to allegations."
+      }
+    ],
+    "key": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explain": "Paragraph 2's lack-of-knowledge statement operates as a denial (8(b)(5)). Paragraph 3 required admitting the true part (8(b)(4)). Silence on paragraph 5 operates as an admission (8(b)(6)). Laches must be affirmatively stated (8(c)(1)). Rules 8(d)(3), 8(c)(2) and 8(a)(3) do not fit."
   }
 ]

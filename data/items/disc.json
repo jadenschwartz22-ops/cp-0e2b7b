@@ -3608,5 +3608,119 @@
         "quote": "that the witness is more than 100 miles from the place of hearing or trial or is outside the United States, unless it appears that the witness's absence was procured by the party offering the deposition"
       }
     ]
+  },
+  {
+    "id": "disc-029",
+    "kind": "issue",
+    "topic": "disc-tools",
+    "rules": [
+      "30"
+    ],
+    "level": 3,
+    "stem": "Burke sues Nadir Co. Burke notices the deposition of Ruiz, an inmate in a state prison, and a second deposition of Lowe, Nadir's former engineer, whom Burke already deposed once in this case. Counting Lowe's first deposition, Burke has taken three depositions so far. At Lowe's second deposition, which lasts two hours, Nadir's lawyer instructs Lowe not to answer a question because it is 'irrelevant.' No stipulation or order bears on any of this, and Burke named no organization as a deponent.",
+    "ask": "Which provisions of Rule 30 apply to these events? Select every provision that applies.",
+    "options": [
+      {
+        "t": "Rule 30(a)(2)(A)(i)",
+        "why": "Does not apply. With Ruiz and Lowe's second deposition, Burke would have taken five depositions in all, under the 10-deposition limit."
+      },
+      {
+        "t": "Rule 30(a)(2)(A)(ii)",
+        "why": "Lowe has already been deposed in the case, so a second deposition requires leave absent a stipulation."
+      },
+      {
+        "t": "Rule 30(a)(2)(B)",
+        "why": "Ruiz is confined in prison, so leave of court is required."
+      },
+      {
+        "t": "Rule 30(b)(6)",
+        "why": "No organization was named as the deponent, so the organizational-designation procedure is not involved."
+      },
+      {
+        "t": "Rule 30(c)(2)",
+        "why": "An instruction not to answer is allowed only to preserve a privilege, enforce a court-ordered limit, or present a Rule 30(d)(3) motion; relevance is not one."
+      },
+      {
+        "t": "Rule 30(d)(1)",
+        "why": "The deposition has used two hours of the 7 allowed, so no time limit problem has arisen."
+      }
+    ],
+    "key": [
+      1,
+      2,
+      4
+    ],
+    "explain": "Burke needs leave for Ruiz because he is confined in prison (30(a)(2)(B)) and for Lowe's second deposition (30(a)(2)(A)(ii)), absent stipulation. Nadir's lawyer's instruction is improper because relevance is not among the three permitted grounds (30(c)(2)). Burke has taken only five depositions, no organization was named, and two hours is within 7.",
+    "cites": [
+      {
+        "cite": "30(a)(2)(A)(ii)",
+        "quote": "the deponent has already been deposed in the case"
+      },
+      {
+        "cite": "30(a)(2)(B)",
+        "quote": "if the deponent is confined in prison"
+      },
+      {
+        "cite": "30(c)(2)",
+        "quote": "A person may instruct a deponent not to answer only when necessary to preserve a privilege, to enforce a limitation ordered by the court, or to present a motion under Rule 30(d)(3)."
+      }
+    ]
+  },
+  {
+    "id": "disc-058",
+    "kind": "issue",
+    "topic": "disc-tools",
+    "rules": [
+      "45"
+    ],
+    "level": 3,
+    "stem": "Lopez sues Marin Co. in the Northern District of State A. Lopez's lawyer, who is authorized to practice in that court, signs and issues a subpoena to nonparty Vero Labs commanding production of lab records at Vero's own office. The subpoena states the court and the title and number of the action but omits the text of Rule 45(d) and (e). Lopez herself hands the subpoena to Vero's manager. Vero says the records contain its confidential research data. No motion has yet been filed.",
+    "ask": "Which provisions of Rule 45 did the subpoena or its service violate, or give Vero a basis to challenge? Select all that apply.",
+    "options": [
+      {
+        "t": "Rule 45(a)(1)(A)(iv)",
+        "why": "Violated. Every subpoena must set out the text of Rule 45(d) and (e), and this one omits it."
+      },
+      {
+        "t": "Rule 45(a)(2)",
+        "why": "Not violated. The subpoena issued from the court where the action is pending, as required."
+      },
+      {
+        "t": "Rule 45(a)(3)",
+        "why": "Not violated. An attorney authorized to practice in the issuing court may issue and sign a subpoena."
+      },
+      {
+        "t": "Rule 45(b)(1)",
+        "why": "Violated. Only a person at least 18 years old who is not a party may serve a subpoena, and Lopez is a party."
+      },
+      {
+        "t": "Rule 45(c)(2)(A)",
+        "why": "Not violated. Production at Vero's own office is within 100 miles of where it transacts business."
+      },
+      {
+        "t": "Rule 45(d)(3)(B)(i)",
+        "why": "Gives Vero a basis to challenge. On motion, the court may quash or modify a subpoena requiring disclosure of confidential research, development or commercial information."
+      }
+    ],
+    "key": [
+      0,
+      3,
+      5
+    ],
+    "explain": "The omitted text of Rule 45(d) and (e) violates 45(a)(1)(A)(iv). Service by Lopez herself violates 45(b)(1), which requires a nonparty server at least 18. Vero's confidential research data gives it a ground for a motion under 45(d)(3)(B)(i). The issuing court (a)(2), the lawyer's authority (a)(3), and the place of compliance (c)(2)(A) were all proper.",
+    "cites": [
+      {
+        "cite": "45(a)(1)(A)(iv)",
+        "quote": "set out the text of Rule 45(d) and (e)"
+      },
+      {
+        "cite": "45(b)(1)",
+        "quote": "Any person who is at least 18 years old and not a party may serve a subpoena."
+      },
+      {
+        "cite": "45(d)(3)(B)(i)",
+        "quote": "disclosing a trade secret or other confidential research, development, or commercial information"
+      }
+    ]
   }
 ]
